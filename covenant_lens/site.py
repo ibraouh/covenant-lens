@@ -4,6 +4,7 @@ one HTML file with the data embedded, so it can be hosted anywhere (GitHub Pages
 from __future__ import annotations
 
 import json
+import math
 from pathlib import Path
 
 from .edgar import ROOT
@@ -28,6 +29,7 @@ def _slim(r: dict) -> dict:
     comp = r.get("compliance") or {}
     return {
         "cik": r["cik"], "name": r["name"], "borrower": r["borrower"], "gold": r["gold"], "facility": r["facility"],
+        "stale": r.get("stale", False),
         "agreement_date": r["agreement_date"], "cov_lite": r["cov_lite"], "tightest": r["tightest"],
         "chain": {"source": r["chain"]["source"], "notes": r["chain"]["notes"],
                   "used": [{k: d.get(k) for k in ("url", "title", "dated")} for d in r["chain"]["used"]]},
@@ -55,11 +57,22 @@ def read_cost() -> dict | None:
             "all_stages": sum(r["usd"] for r in rows)}
 
 
+def _finite(x):
+    """JSON has no NaN or Infinity; a ratio that can't be computed is null."""
+    if isinstance(x, float):
+        return x if math.isfinite(x) else None
+    if isinstance(x, dict):
+        return {k: _finite(v) for k, v in x.items()}
+    if isinstance(x, list):
+        return [_finite(v) for v in x]
+    return x
+
+
 def build(results: list[dict], summary: dict, models: list[dict] | None = None, model_note: str | None = None,
           gold: dict | None = None, repo: str | None = None) -> Path:
     data = {"summary": summary, "borrowers": [_slim(r) for r in results], "cost": read_cost(),
             "models": models or [], "model_note": model_note, "gold": gold, "repo": repo}
-    blob = json.dumps(data, default=str, separators=(",", ":")).replace("</", "<\\/")
+    blob = json.dumps(_finite(data), default=str, separators=(",", ":"), allow_nan=False).replace("</", "<\\/")
     html = TEMPLATE.read_text().replace("/*DATA*/", blob)
     SITE.mkdir(exist_ok=True)
     out = SITE / "index.html"

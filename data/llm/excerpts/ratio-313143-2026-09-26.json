@@ -1,0 +1,30 @@
+{
+  "job": "ratio-313143-2026-09-26",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/313143/000031314326000152/hae-20260926.htm",
+    "period": "2026-09-26"
+  },
+  "usage": {
+    "input_tokens": 4580,
+    "output_tokens": 708,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "consolidated leverage ratio",
+        "metric": "total_leverage",
+        "period_end": "2026-09-26",
+        "actual": null,
+        "limit": 4.0,
+        "direction": "max",
+        "facility": "2024 Revised Credit Facilities",
+        "quote": "Under the 2024 Revised Credit Facilities, the Company is required to maintain a consolidated leverage ratio not to exceed 4.0 :1.0 or, upon two occasions during the term of the facility, 4.5 :1.0 for the four consecutive fiscal quarters ended immediately following acquisitions meeting certain criteria specified in the agreement."
+      }
+    ],
+    "notes": "The filing does not disclose the actual leverage ratio. It says only that the Company was in compliance with the consolidated net leverage and interest coverage covenants as of September 26, 2026. The maximum can step up to 4.5:1.0 on two occasions, for four quarters after qualifying acquisitions; the excerpt does not say a step-up is in effect, so 4.0 is assumed. The covenant is described as a 'consolidated leverage ratio' but the compliance statement calls it 'consolidated net leverage', so it may be a net leverage test. An interest coverage covenant is also mentioned, but no limit or actual is given, so it is not listed. The net leverage-based pricing and commitment-fee grids were excluded."
+  }
+}

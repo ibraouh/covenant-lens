@@ -1,0 +1,24 @@
+{
+  "job": "cover-799292-a4721ce851",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/799292/000079929222000006/fifthamendmenttocreditfaci.htm"
+  },
+  "usage": {
+    "input_tokens": 3071,
+    "output_tokens": 101,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "is_loan_document": true,
+    "kind": "amendment",
+    "title": "Fifth Amendment",
+    "dated": "2022-02-16",
+    "amends_dated": "2013-07-18",
+    "primary_bank_facility": true,
+    "includes_conformed_copy": false,
+    "borrower": "M/I Homes, Inc."
+  }
+}

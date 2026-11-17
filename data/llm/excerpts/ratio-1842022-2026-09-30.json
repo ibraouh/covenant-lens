@@ -1,0 +1,40 @@
+{
+  "job": "ratio-1842022-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1842022/000184202226000013/dtm-20260930.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 2227,
+    "output_tokens": 731,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "maximum consolidated net leverage ratio",
+        "metric": "net_leverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 5.0,
+        "direction": "max",
+        "facility": "Revolving Credit Facility",
+        "quote": "The Revolving Credit Facility requires DT Midstream to maintain a maximum consolidated net leverage ratio of 5 to 1, except that the Company may elect to temporarily increase the maximum consolidated net leverage ratio to 5.5 to 1 for a period of up to three fiscal quarters following the consummation of an acquisition or investment involving consideration exceeding $ 50 million."
+      },
+      {
+        "covenant_name": "maximum leverage ratio",
+        "metric": "total_leverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 4.5,
+        "direction": "max",
+        "facility": "Guardian Term Loan",
+        "quote": "The Guardian Term Loan requires Guardian to maintain a maximum leverage ratio of 4.5 to 1."
+      }
+    ],
+    "notes": "Only covenant limits are disclosed; actual ratios are not given. The filing states only that DT Midstream and Guardian were in compliance as of September 30, 2026. The revolver limit is 5.0x, and the company may elect to raise it temporarily to 5.5x for up to three fiscal quarters after an acquisition or investment above $50 million. The excerpt does not say whether that election was in effect. The Guardian Term Loan covenant applies to Guardian, the borrower under that loan, which appears to be a consolidated subsidiary rather than an unconsolidated joint venture. Its leverage definition (gross vs. net) is not specified."
+  }
+}

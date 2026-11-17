@@ -1,0 +1,40 @@
+{
+  "job": "ratio-1002638-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1002638/000100263826000098/otex-20260930.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 4065,
+    "output_tokens": 400,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "consolidated net leverage ratio",
+        "metric": "net_leverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 4.5,
+        "direction": "max",
+        "facility": "Revolver",
+        "quote": "Under the Revolver, we must maintain a \u201cconsolidated net leverage\u201d ratio of no more than 4.50 :1.00 at the end of each financial quarter."
+      },
+      {
+        "covenant_name": "consolidated net leverage ratio",
+        "metric": "net_leverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 4.5,
+        "direction": "max",
+        "facility": "Acquisition Term Loan",
+        "quote": "Under the Acquisition Term Loan, we must maintain a \u201cconsolidated net leverage\u201d ratio of no more than 4.50 :1.00 at the end of each financial quarter."
+      }
+    ],
+    "notes": "The company states it is in compliance at 2026-09-30 but does not disclose actual ratio values. The 2.75:1.00 consolidated senior secured net leverage ratio is excluded because it is an incurrence condition for incremental term loan capacity, not a maintenance covenant. The leverage-based interest margin and facility fee grid is also excluded."
+  }
+}

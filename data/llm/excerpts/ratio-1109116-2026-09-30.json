@@ -1,0 +1,40 @@
+{
+  "job": "ratio-1109116-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1109116/000119312526449824/evc-20260930.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 4030,
+    "output_tokens": 614,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "Total Net Leverage Ratio",
+        "metric": "net_leverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 4.0,
+        "direction": "max",
+        "facility": "Amended Credit Agreement",
+        "quote": "In addition, the Amended Credit Agreement requires compliance with financial covenants related to Total Net Leverage Ratio, not to exceed 4.00 to 1.00, and Interest Coverage Ratio (as defined in the Amended Credit Agreement) with a minimum permitted ratio of 2.00 to 1.00 (calculated as set forth in the Amended Credit Agreement)."
+      },
+      {
+        "covenant_name": "Interest Coverage Ratio",
+        "metric": "interest_coverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 2.0,
+        "direction": "min",
+        "facility": "Amended Credit Agreement",
+        "quote": "In addition, the Amended Credit Agreement requires compliance with financial covenants related to Total Net Leverage Ratio, not to exceed 4.00 to 1.00, and Interest Coverage Ratio (as defined in the Amended Credit Agreement) with a minimum permitted ratio of 2.00 to 1.00 (calculated as set forth in the Amended Credit Agreement)."
+      }
+    ],
+    "notes": "Actual ratios are not disclosed; the company states only that it believes it was in compliance with all covenants as of September 30, 2026. The leverage ratio is calculated on annualized average consolidated EBITDA for the eight most recently completed fiscal quarters, with cash netting of up to $60.0 million. Excluded: the 2.25x First Lien Net Leverage Ratio, which only governs the incremental facility capacity, and the Total Net Leverage Ratio references that only set the interest margin and unused fee."
+  }
+}

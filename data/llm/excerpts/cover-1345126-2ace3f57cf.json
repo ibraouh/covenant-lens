@@ -1,0 +1,24 @@
+{
+  "job": "cover-1345126-2ace3f57cf",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1345126/000134512625000089/exhibit102-fifthamendmentt.htm"
+  },
+  "usage": {
+    "input_tokens": 3131,
+    "output_tokens": 130,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "is_loan_document": true,
+    "kind": "amendment",
+    "title": "Compass Group Diversified Holdings LLC Fifth Amendment Transaction Letter",
+    "dated": "2025-12-19",
+    "amends_dated": "2022-07-12",
+    "primary_bank_facility": true,
+    "includes_conformed_copy": false,
+    "borrower": "Compass Group Diversified Holdings LLC"
+  }
+}

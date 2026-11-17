@@ -1,0 +1,30 @@
+{
+  "job": "ratio-885725-2026-03-31",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/885725/000088572526000033/bsx-20260331.htm",
+    "period": "2026-03-31"
+  },
+  "usage": {
+    "input_tokens": 3964,
+    "output_tokens": 352,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "Maximum permitted leverage ratio",
+        "metric": "total_leverage",
+        "period_end": "2026-03-31",
+        "actual": 1.87,
+        "limit": 4.25,
+        "direction": "max",
+        "facility": "2026 Revolving Credit Agreement, 364-Day Revolving Credit Agreement and Term Loan Credit Agreement",
+        "quote": "Maximum permitted leverage ratio (1) 4.25 times 1.87 times"
+      }
+    ],
+    "notes": "The leverage ratio is total debt to deemed consolidated EBITDA, as defined in the credit agreements. The 4.25x limit is a step-down level that applies because the Axonics acquisition was designated a qualified acquisition. The base covenant is 3.75x. Consolidated EBITDA excludes non-cash charges and net cash litigation payments up to $1.160 billion since 12/31/2025; $1.143 billion of that exclusion remained at 3/31/2026. The same table appears twice in the excerpt (notes and MD&A) and is reported here once."
+  }
+}

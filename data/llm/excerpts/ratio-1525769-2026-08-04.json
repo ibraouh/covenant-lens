@@ -1,0 +1,30 @@
+{
+  "job": "ratio-1525769-2026-08-04",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1525769/000152576926000038/play-20260804.htm",
+    "period": "2026-08-04"
+  },
+  "usage": {
+    "input_tokens": 6146,
+    "output_tokens": 501,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "Net Total Leverage Ratio",
+        "metric": "net_leverage",
+        "period_end": "2026-08-04",
+        "actual": 3.5,
+        "limit": 4.0,
+        "direction": "max",
+        "facility": "Credit Agreement (Revolving Credit Facility and Term Loan Facility)",
+        "quote": "Net Total Leverage Ratio (b / a) 3.5 x"
+      }
+    ],
+    "notes": "The 4.00:1.00 maximum comes from the December 2025 fifth amendment, which raised it from 3.50:1.00. The filing says the covenant is tested at quarter-end only 'when applicable', so it appears to be a springing test; the excerpt does not say whether it was triggered this quarter. The company says it believes it was in compliance at August 4, 2026. The actual figure uses Credit Adjusted EBITDA as defined in the Credit Agreement, and net debt includes finance lease liabilities and letters of credit. The 3.00x level that sets the revolver pricing margin is not a covenant and is left out."
+  }
+}

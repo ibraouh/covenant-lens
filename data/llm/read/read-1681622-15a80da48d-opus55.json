@@ -1,0 +1,124 @@
+{
+  "job": "read-1681622-15a80da48d-opus55",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "cik": "1681622",
+    "docs": [
+      "https://www.sec.gov/Archives/edgar/data/1681622/000168162226000035/exhibit101-creditandguaran.htm"
+    ]
+  },
+  "usage": {
+    "input_tokens": 252424,
+    "output_tokens": 7320,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "borrower": "Varex Imaging Corporation (Parent Borrower), with co-borrowers Varex Imaging West, LLC and Varex Imaging Deutschland AG",
+    "agreement_date": "2026-03-13",
+    "covenants": [
+      {
+        "name": "Consolidated Total Net Leverage Ratio",
+        "metric": "net_leverage",
+        "direction": "max",
+        "thresholds": [
+          {
+            "value": 4.25,
+            "applies_from": "2026-04-03"
+          },
+          {
+            "value": 4.0,
+            "applies_from": "2027-12-31"
+          },
+          {
+            "value": 3.75,
+            "applies_from": "2028-12-31"
+          }
+        ],
+        "test_frequency": "quarterly",
+        "springing_condition": null,
+        "section": "Section 6.12(a)",
+        "quote": "The Parent Borrower shall not permit the Consolidated Total Net Leverage Ratio, on the last day of any Fiscal Quarter, to be greater than the ratio set forth below opposite such Fiscal Quarter:",
+        "ebitda_addbacks": [
+          "stock_comp",
+          "impairments",
+          "restructuring",
+          "other"
+        ],
+        "cash_netting_cap": 100000000.0,
+        "cash_netting_cap_pct_ebitda": null
+      },
+      {
+        "name": "Consolidated Fixed Charge Coverage Ratio",
+        "metric": "fixed_charge_coverage",
+        "direction": "min",
+        "thresholds": [
+          {
+            "value": 1.2,
+            "applies_from": null
+          }
+        ],
+        "test_frequency": "quarterly",
+        "springing_condition": null,
+        "section": "Section 6.12(b)",
+        "quote": "The Parent Borrower shall not permit the Consolidated Fixed Charge Coverage Ratio, on the last day of any Fiscal Quarter, to be less than 1.20:1.00.",
+        "ebitda_addbacks": [
+          "stock_comp",
+          "impairments",
+          "restructuring",
+          "other"
+        ],
+        "cash_netting_cap": null,
+        "cash_netting_cap_pct_ebitda": null
+      }
+    ],
+    "notes": "Leverage table is labeled by month (\"Closing Date to September, 2027\" 4.25x; \"December, 2027 to September, 2028\" 4.00x; \"December, 2028 and thereafter\" 3.75x). The company uses a 52/53-week fiscal year ending around early October (FY2026 ends October 2, 2026), so actual test dates fall on Fridays near these months. The 2026-04-03 start date for the 4.25x level is inferred as the first fiscal quarter-end after closing; the December step-down dates are approximated as month-end.\n\nAcquisition holiday: in the quarter a Permitted Acquisition with total consideration of $125M or more is signed or closed (at the borrower's option), and for the next three quarters, the maximum leverage ratio rises by 0.50x, capped at 4.50x.\n\nNet debt calculation:\n- Only Unrestricted cash and Cash Equivalents of the Parent Borrower and Loan Parties may be netted, capped at $100M.\n- From 90 days after closing, that cash must sit in accounts controlled by the Administrative Agent or held at a Cash Management Bank.\n- Debt counts only borrowed money, bankers' acceptances, Disqualified Stock and subsidiary Preferred Stock; undrawn letters of credit are excluded.\n\nFixed charge coverage calculation:\n- Numerator: EBITDA less Unfinanced Capital Expenditures, cash income taxes and cash Restricted Payments.\n- Denominator: Fixed Charges (net interest, preferred dividends, receivables fees and certain dividends) plus scheduled principal payments plus payments on earn-out/indemnity debt under Section 6.01(e).\n\nEBITDA (Consolidated Adjusted EBITDA) add-backs and exclusions:\n- Broad non-cash charges and impairments, excluding inventory and receivables write-downs.\n- Non-cash equity compensation.\n- Transaction costs.\n- Restructuring and run-rate synergies, together capped at 20% of EBITDA.\n- IP and tax litigation costs, FX losses, insured or indemnified losses, earn-out changes.\n- An uncapped add-back for unusual, extraordinary or non-recurring costs (clause 23).\n- The Pro Forma Basis definition separately allows acquisition run-rate cost savings without an express cap.\n\nCovenant levels also drive other baskets:\n- Delayed draw term loan draws require pro forma covenant compliance.\n- Incremental facilities and incremental equivalent debt require leverage 0.25x inside the covenant.\n- Acquired debt and the acquisition Payment Conditions require leverage 0.50x inside the covenant.\n\nOther points:\n- No equity cure.\n- Compliance certificates are delivered with quarterly and annual financials; quarterly reporting starts with the quarter ending July 3, 2026.\n- Required Lenders becomes all Lenders if there are two or fewer unaffiliated Lenders.\n- Assignments to the Borrowers or their Affiliates are prohibited, which limits non-pro-rata repurchases.\n- Closing proceeds refinanced the 7.875% senior secured notes due 2027 and the 2024 revolver.",
+    "facility": "$490M senior secured facilities: $100M revolver (with $35M L/C and $20M swingline sublimits), $350M initial term loan and $40M delayed-draw term loan (2-year availability, capex use), all maturing March 13, 2031; incremental capacity of the greater of $150M and 3.00x pro forma net leverage.",
+    "terms": [
+      {
+        "kind": "j_crew_blocker",
+        "present": "yes",
+        "section": "Section 6.02 (final paragraph); definition of \"Unrestricted Subsidiary\" clause (z)",
+        "quote": "no Restricted Payment or Investment (other than an Investment in Parent Borrower or another Loan Party) of material intellectual property owned by Parent Borrower or another Loan Party shall be permitted under this Agreement.",
+        "summary": "Investments or restricted payments of material IP outside the Loan Parties are prohibited. A subsidiary also cannot be designated (or remain) unrestricted if it owns or holds exclusive rights to IP material to the Parent Borrower or its business. Separately, IP dispositions to non-Loan Parties must be made subject to a non-exclusive license in favor of the Administrative Agent."
+      },
+      {
+        "kind": "serta_protection",
+        "present": "yes",
+        "section": "Section 9.02(b)(viii)",
+        "quote": "contractually subordinate (A) any of the Obligations in right of payment or otherwise adversely affect the priority of payment of any of such Obligations or (B) any of the Liens securing the Obligations, in each case without the consent of each Lender",
+        "summary": "Subordinating the Obligations in right of payment, or subordinating their Liens, requires every Lender's consent. The only exception is the agent's ability to subordinate liens to permitted purchase-money liens. Changes to pro rata sharing or the payment waterfall need each directly and adversely affected Lender's consent, and assignments to the Borrowers or their Affiliates are barred."
+      },
+      {
+        "kind": "chewy_protection",
+        "present": "partial",
+        "section": "Section 10.12(a); Section 8.12(a)(iii)",
+        "quote": "the sale, disposition, exchange or other transfer (including through merger, consolidation amalgamation or otherwise) of the Capital Stock (including any sale, disposition or other transfer following which the applicable Loan Party is no longer a Restricted Subsidiary), of the applicable Loan Party to a Person that is not an Affiliate of a Loan Party if such sale, disposition, exchange or other transfer is made in a manner not in violation of this Agreement and for a bona fide business purpose other than causing the release of the Obligations;",
+        "summary": "There is no express statement that a guarantor stays bound if it merely stops being wholly owned. However, release on a sale of its equity requires that the buyer be a non-Affiliate and that the sale have a bona fide business purpose other than releasing the guaranty. In addition, a Change of Control default arises if the Parent Borrower stops owning 100% of the other Loan Parties except through permitted transactions."
+      },
+      {
+        "kind": "unrestricted_sub_cap",
+        "present": "partial",
+        "section": "Definition of \"Permitted Investments\" clause (15); Section 6.02",
+        "quote": "Investments in Unrestricted Subsidiaries and Joint Ventures in an aggregate principal amount at any time outstanding (after giving effect to any cash returns or other payments in respect of any such Investment) not exceeding the greater of (i) $25,000,000 or (ii) 25% of Consolidated Adjusted EBITDA measured as of the last day of the most recently ended Fiscal Quarter",
+        "summary": "There is a dedicated basket of the greater of $25M and 25% of EBITDA for investments in unrestricted subsidiaries and joint ventures, and designation is treated as an investment. Additional capacity exists, though: the general investment basket (greater of $40M and 40% of EBITDA) and unlimited restricted payments under Section 6.02(l) when the Payment Conditions are met (no Event of Default; a 50%-of-net-income cap applies only above 2.50x leverage). So the cap is not hard."
+      },
+      {
+        "kind": "addback_cap",
+        "present": "yes",
+        "section": "Definition of \"Consolidated Adjusted EBITDA\" clauses (13) and (14)",
+        "quote": "costs, charges, accruals, reserves or expenses attributable to the undertaking and/or implementation of cost savings initiatives and operating expense reductions, restructuring and similar charges, severance, relocation costs, integration and facilities opening costs and other business optimization expenses, signing costs, retention or completion bonuses, transition costs, costs related to closure/consolidation of facilities and curtailments or modifications to pension and post-retirement employee benefit plans (including any settlement of pension liabilities) in an aggregate amount not to exceed 20% (when taken together with amounts added under",
+        "summary": "Restructuring and cost-savings charges plus projected run-rate cost savings and synergies (12-month realization window) are together capped at 20% of EBITDA. There is leakage, however: clause (23) adds back unusual or non-recurring costs without a cap, and the Pro Forma Basis definition allows acquisition run-rate savings without an express cap."
+      },
+      {
+        "kind": "equity_cure",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "The agreement has no equity cure right; a breach of Section 6.12 is an immediate Event of Default under Section 7.01(c)(i)."
+      }
+    ],
+    "addback_cap_pct": 0.2
+  }
+}

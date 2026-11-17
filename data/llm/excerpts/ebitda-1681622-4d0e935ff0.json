@@ -1,0 +1,49 @@
+{
+  "job": "ebitda-1681622-4d0e935ff0",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1681622/000168162225000083/exhibit991-q325earningsrel.htm",
+    "filed": "2025-08-07"
+  },
+  "usage": {
+    "input_tokens": 2081,
+    "output_tokens": 776,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "label": "Adjusted EBITDA",
+    "figures": [
+      {
+        "period_end": "2025-06-27",
+        "months": 3,
+        "shown": "28.9",
+        "unit": "millions",
+        "quote": "Adjusted EBITDA $ 28.9 $ 22.8 $ 87.0 $ 66.6"
+      },
+      {
+        "period_end": "2024-06-28",
+        "months": 3,
+        "shown": "22.8",
+        "unit": "millions",
+        "quote": "Adjusted EBITDA $ 28.9 $ 22.8 $ 87.0 $ 66.6"
+      },
+      {
+        "period_end": "2025-06-27",
+        "months": 9,
+        "shown": "87.0",
+        "unit": "millions",
+        "quote": "Adjusted EBITDA $ 28.9 $ 22.8 $ 87.0 $ 66.6"
+      },
+      {
+        "period_end": "2024-06-28",
+        "months": 9,
+        "shown": "66.6",
+        "unit": "millions",
+        "quote": "Adjusted EBITDA $ 28.9 $ 22.8 $ 87.0 $ 66.6"
+      }
+    ],
+    "notes": "Figures come from the Adjusted EBITDA reconciliation table. The excerpt does not show the column headers or the units. The column order (three months 2025, three months 2024, nine months 2025, nine months 2024) and the unit (millions) are inferred from the table layout and the size of the numbers. The period-end dates are also inferred, not printed: Varex's fiscal year ends on the Friday nearest September 30, which puts the fiscal Q3 ends at June 27, 2025 and June 28, 2024."
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "job": "ebitda-712034-9bcd1e3273",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/712034/000119312525258795/acco-ex99_1.htm",
+    "filed": "2025-10-30"
+  },
+  "usage": {
+    "input_tokens": 4879,
+    "output_tokens": 433,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "label": "Adjusted EBITDA",
+    "figures": [
+      {
+        "period_end": "2025-09-30",
+        "months": 3,
+        "shown": "45.8",
+        "unit": "millions",
+        "quote": "Adjusted EBITDA (non-GAAP) $45.8 $53.0 (13.6)% $120.3 $154.7 (22.2)%"
+      },
+      {
+        "period_end": "2024-09-30",
+        "months": 3,
+        "shown": "53.0",
+        "unit": "millions",
+        "quote": "Adjusted EBITDA (non-GAAP) $45.8 $53.0 (13.6)% $120.3 $154.7 (22.2)%"
+      },
+      {
+        "period_end": "2025-09-30",
+        "months": 9,
+        "shown": "120.3",
+        "unit": "millions",
+        "quote": "Adjusted EBITDA (non-GAAP) $45.8 $53.0 (13.6)% $120.3 $154.7 (22.2)%"
+      },
+      {
+        "period_end": "2024-09-30",
+        "months": 9,
+        "shown": "154.7",
+        "unit": "millions",
+        "quote": "Adjusted EBITDA (non-GAAP) $45.8 $53.0 (13.6)% $120.3 $154.7 (22.2)%"
+      }
+    ],
+    "notes": "All four figures are from the Reconciliation of Net Income (Loss) to Adjusted EBITDA table, which is stated in millions."
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "job": "cover-1408075-238141e0f2",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1408075/000119312518000257/d506041dex108.htm"
+  },
+  "usage": {
+    "input_tokens": 4028,
+    "output_tokens": 109,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "is_loan_document": true,
+    "kind": "amended_and_restated",
+    "title": "Amended and Restated Credit Agreement",
+    "dated": "2018-01-01",
+    "amends_dated": null,
+    "primary_bank_facility": false,
+    "includes_conformed_copy": false,
+    "borrower": "Graphic Packaging International, LLC"
+  }
+}

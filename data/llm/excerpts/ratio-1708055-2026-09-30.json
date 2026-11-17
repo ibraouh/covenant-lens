@@ -1,0 +1,30 @@
+{
+  "job": "ratio-1708055-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1708055/000170805526000087/rbbn-20260930x10q.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 3136,
+    "output_tokens": 692,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "Maximum Consolidated Net Leverage Ratio",
+        "metric": "net_leverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 4.5,
+        "direction": "max",
+        "facility": "Senior Secured Credit Facilities Credit Agreement (Credit Facility)",
+        "quote": "(2) increases the Maximum Consolidated Net Leverage Ratio (as defined in the Credit Agreement) to 4.50 :1.00 as of and for the period ending September 30, 2026, and sets the ratio for all subsequent quarters to 4.00 :1.00"
+      }
+    ],
+    "notes": "The actual net leverage ratio is not disclosed. The company says only that it was in compliance at September 30, 2026. The First Amendment (May 5, 2026) waived the covenant for the June 30, 2026 period, raised the maximum to 4.50x for September 30, 2026, and sets it at 4.00x for all later quarters. A separate 3.75x threshold only triggers a 7.00% interest margin, so it is not a covenant and is excluded."
+  }
+}

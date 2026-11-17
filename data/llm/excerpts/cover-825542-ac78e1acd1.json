@@ -1,0 +1,24 @@
+{
+  "job": "cover-825542-ac78e1acd1",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/825542/000154638024000035/exhibit10smg20240629.htm"
+  },
+  "usage": {
+    "input_tokens": 3054,
+    "output_tokens": 126,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "is_loan_document": true,
+    "kind": "amendment",
+    "title": "Amendment No. 3 to Sixth Amended and Restated Credit Agreement",
+    "dated": "2024-06-11",
+    "amends_dated": "2022-04-08",
+    "primary_bank_facility": true,
+    "includes_conformed_copy": false,
+    "borrower": "The Scotts Miracle-Gro Company"
+  }
+}

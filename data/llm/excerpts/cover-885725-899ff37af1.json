@@ -1,0 +1,24 @@
+{
+  "job": "cover-885725-899ff37af1",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/885725/000094787117000108/ss29948_ex1002.htm"
+  },
+  "usage": {
+    "input_tokens": 3738,
+    "output_tokens": 107,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "is_loan_document": false,
+    "kind": "other",
+    "title": "Second Amended and Restated Receivables Sale Agreement",
+    "dated": "2017-02-07",
+    "amends_dated": null,
+    "primary_bank_facility": false,
+    "includes_conformed_copy": false,
+    "borrower": "Boston Scientific Corporation"
+  }
+}

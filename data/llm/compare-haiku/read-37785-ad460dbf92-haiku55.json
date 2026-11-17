@@ -1,0 +1,169 @@
+{
+  "job": "read-37785-ad460dbf92-haiku55",
+  "model": "claude-haiku-5-5",
+  "meta": {
+    "cik": "37785",
+    "docs": [
+      "https://www.sec.gov/Archives/edgar/data/37785/000119312526163937/d81650dex101.htm",
+      "https://www.sec.gov/Archives/edgar/data/37785/000119312526279416/d123428dex101.htm",
+      "https://www.sec.gov/Archives/edgar/data/37785/000119312526427896/d201698dex101.htm"
+    ]
+  },
+  "usage": {
+    "input_tokens": 226438,
+    "output_tokens": 14208,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "borrower": "FMC Corporation",
+    "agreement_date": "2022-06-17",
+    "covenants": [
+      {
+        "name": "Leverage Ratio",
+        "metric": "net_leverage",
+        "direction": "max",
+        "thresholds": [
+          {
+            "value": 6.0,
+            "applies_from": "2025-12-31"
+          },
+          {
+            "value": 6.75,
+            "applies_from": "2026-12-31"
+          },
+          {
+            "value": 6.0,
+            "applies_from": "2028-03-31"
+          },
+          {
+            "value": 5.5,
+            "applies_from": "2028-06-30"
+          },
+          {
+            "value": 5.25,
+            "applies_from": "2028-09-30"
+          },
+          {
+            "value": 4.5,
+            "applies_from": "2028-12-31"
+          }
+        ],
+        "test_frequency": "quarterly",
+        "springing_condition": null,
+        "section": "Section 6.01(a)",
+        "quote": "The U.S. Borrower shall maintain as of the last day of each Fiscal Quarter a Leverage Ratio of not more than 3.75:1.00;",
+        "ebitda_addbacks": [
+          "stock_comp",
+          "impairments",
+          "restructuring",
+          "other"
+        ],
+        "cash_netting_cap": null,
+        "cash_netting_cap_pct_ebitda": null
+      },
+      {
+        "name": "Interest Coverage Ratio",
+        "metric": "interest_coverage",
+        "direction": "min",
+        "thresholds": [
+          {
+            "value": 2.0,
+            "applies_from": "2025-12-31"
+          },
+          {
+            "value": 2.25,
+            "applies_from": "2027-09-30"
+          },
+          {
+            "value": 2.5,
+            "applies_from": "2028-03-31"
+          }
+        ],
+        "test_frequency": "quarterly",
+        "springing_condition": null,
+        "section": "Section 6.01(b)",
+        "quote": "The U.S. Borrower shall maintain an Interest Coverage Ratio, as determined as of the last day of each Fiscal Quarter, for the four consecutive Fiscal Quarters ending on such day, of not less than 3.50 to 1.00;",
+        "ebitda_addbacks": [
+          "stock_comp",
+          "impairments",
+          "restructuring",
+          "other"
+        ],
+        "cash_netting_cap": null,
+        "cash_netting_cap_pct_ebitda": null
+      },
+      {
+        "name": "Secured Leverage Ratio",
+        "metric": "secured_net_leverage",
+        "direction": "max",
+        "thresholds": [
+          {
+            "value": 3.5,
+            "applies_from": null
+          }
+        ],
+        "test_frequency": "quarterly",
+        "springing_condition": null,
+        "section": "Section 6.01(c)",
+        "quote": "The U.S. Borrower shall maintain as of the last day of each Fiscal Quarter a Secured Leverage Ratio of not more than 3.50 to 1.00.",
+        "ebitda_addbacks": [
+          "stock_comp",
+          "impairments",
+          "restructuring",
+          "other"
+        ],
+        "cash_netting_cap": null,
+        "cash_netting_cap_pct_ebitda": null
+      }
+    ],
+    "notes": "Covenants are as conformed through Amendment No. 6 (Exhibit A). The Exhibit's redline text is garbled, so step values were read from the surviving figures and should be checked against the executed document. The Leverage Ratio is not tested for the quarters ending March 31, June 30 and September 30, 2026. Amendment No. 6 also waived the Leverage Ratio test for the quarter ending March 31, 2026. The stepped levels apply during the Covenant Relief Period, which runs from November 7, 2023 to the earlier of December 31, 2028 and a termination notice. After it ends the base levels apply: 3.75 to 1.00 leverage and 3.50 to 1.00 interest coverage. Leverage and secured leverage net only unrestricted cash above 150,000,000 dollars, with no cap on the netting. The EBITDA definition adds back non-cash charges and losses (stock comp is covered only by that general wording), Non-Recurring Items including restructuring and asset write-downs, and acquisition fees; pro forma acquisition effects are included; cash restructuring charges are capped at 100,000,000 dollars during the Covenant Relief Period. No equity cure was found. Amendment No. 7 permits a Corteva lien on Rimi IP securing up to 200,000,000 dollars and releases that IP from collateral. Amendment No. 8 waives certain guarantor joinder deadlines, releases two guarantors and FMC India equity on the FMC India disposition, and adds a use-of-proceeds covenant in Section 6.04(q). Neither amendment changes the financial covenant levels.",
+    "facility": "Fifth Amended and Restated 2,000,000,000 dollar revolving credit facility with Euro revolving loans, a 400,000,000 dollar letter of credit sublimit and a 50,000,000 dollar swing line; no term loans; matures six years after the June 2022 Effective Date, extendable under Section 2.15.",
+    "terms": [
+      {
+        "kind": "j_crew_blocker",
+        "present": "yes",
+        "section": "Section 6.04(m)",
+        "quote": "The U.S. Borrower shall not, and shall not permit any other Loan Party to, dispose of, or otherwise transfer (including by way of license, distribution or contribution) any Material Assets to any Non-Guarantor Subsidiary (including, for the avoidance of doubt, FMC Finance B.V.) or any other Affiliate of the U.S. Borrower (other than a Guarantor);",
+        "summary": "Loan Parties may not transfer or license Material Assets, including material IP, to non-guarantor subsidiaries or other non-guarantor affiliates; ordinary-course non-exclusive licences are carved out. There is no separate ban on designating a subsidiary as unrestricted, and third-party licences are not covered."
+      },
+      {
+        "kind": "serta_protection",
+        "present": "yes",
+        "section": "Section 9.01",
+        "quote": "subordinate, directly or indirectly (x) the Liens on all or a material portion of the Collateral, (y) the guarantees under Article X (Guaranty) or the Guarantee and Collateral Agreement in right of payment, or (z) the Obligations in right of payment",
+        "summary": "Subordinating Liens on a material part of the collateral, the guarantees or the Obligations in right of payment requires every Lender's signature. Amendments that alter pro rata sharing of payments also require all Lenders."
+      },
+      {
+        "kind": "chewy_protection",
+        "present": "partial",
+        "section": "Section 8.09(e)",
+        "quote": "(i) all or substantially all of the equity interests in such Subsidiary Guarantor are conveyed, disposed of or otherwise transferred to a Person that is not a Loan Party in a transaction not restricted by this Agreement (such that, after giving effect thereto, such Person ceases to be a Subsidiary),",
+        "summary": "A guarantor is released only if all or substantially all of its equity is transferred outside the loan group in an unrestricted transaction, so a partial sale does not release it. The release is not expressly tied to losing wholly owned status, and Required Lenders can also approve releases under Section 8.09(d)."
+      },
+      {
+        "kind": "unrestricted_sub_cap",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "The agreement has no unrestricted subsidiary concept and no cap on investments in or designations of such subsidiaries."
+      },
+      {
+        "kind": "addback_cap",
+        "present": "partial",
+        "section": "Section 1.01 (definition of EBITDA)",
+        "quote": "(vii) during the Covenant Relief Period, non-recurring cash restructuring charges in an amount not to exceed $100,000,000,",
+        "summary": "Cash restructuring charges added back to EBITDA are capped at 100,000,000 dollars, but only during the Covenant Relief Period. There is no cap on projected cost savings or synergies and no percentage-of-EBITDA cap."
+      },
+      {
+        "kind": "equity_cure",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "The agreement contains no equity cure right for financial covenant defaults."
+      }
+    ],
+    "addback_cap_pct": null
+  }
+}

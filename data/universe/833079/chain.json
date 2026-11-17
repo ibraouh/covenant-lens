@@ -1,0 +1,52 @@
+{
+  "auto": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/833079/000083307924000086/ex101tenthamendment.htm",
+      "title": "Tenth Amendment to Amended and Restated Credit Agreement",
+      "dated": "2024-06-12",
+      "kind": "amendment",
+      "filed": "2024-06-13"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/833079/000083307925000112/ex101eleventhamendmenttocr.htm",
+      "title": "Eleventh Amendment to Amended and Restated Credit Agreement",
+      "dated": "2025-07-09",
+      "kind": "amendment",
+      "filed": "2025-07-09"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/833079/000083307926000122/ex101twelfthamendmenttocre.htm",
+      "title": "Twelfth Amendment to Amended and Restated Credit Agreement",
+      "dated": "2026-06-24",
+      "kind": "amendment",
+      "filed": "2026-06-29"
+    }
+  ],
+  "notes": [
+    "Tenth Amendment to Amended and Restated Credit Agreement restates the full agreement; used as the base"
+  ],
+  "used": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/833079/000083307924000086/ex101tenthamendment.htm",
+      "title": "Tenth Amendment to Amended and Restated Credit Agreement",
+      "dated": "2024-06-12",
+      "kind": "amendment",
+      "filed": "2024-06-13"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/833079/000083307925000112/ex101eleventhamendmenttocr.htm",
+      "title": "Eleventh Amendment to Amended and Restated Credit Agreement",
+      "dated": "2025-07-09",
+      "kind": "amendment",
+      "filed": "2025-07-09"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/833079/000083307926000122/ex101twelfthamendmenttocre.htm",
+      "title": "Twelfth Amendment to Amended and Restated Credit Agreement",
+      "dated": "2026-06-24",
+      "kind": "amendment",
+      "filed": "2026-06-29"
+    }
+  ],
+  "source": "automatic"
+}

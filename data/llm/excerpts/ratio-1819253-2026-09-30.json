@@ -1,0 +1,80 @@
+{
+  "job": "ratio-1819253-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1819253/000119312526453823/btmd-20260930.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 4386,
+    "output_tokens": 2067,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "Total net leverage ratio (Existing Financial Covenants)",
+        "metric": "net_leverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 3.75,
+        "direction": "max",
+        "facility": "Credit Agreement (prior to First Amendment)",
+        "quote": "Prior to November 4, 2026, the Company was subject to the following financial covenants (i) a total net leverage ratio of less than or equal to 3.75 :1.0 0, which steps down to 3.25:1.00 commencing on December 31, 2027 for the remainder of the term, and (ii) a fixed charge coverage ratio of greater than or equal to 1.25 :1.00."
+      },
+      {
+        "covenant_name": "Fixed charge coverage ratio (Existing Financial Covenants)",
+        "metric": "fixed_charge_coverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 1.25,
+        "direction": "min",
+        "facility": "Credit Agreement (prior to First Amendment)",
+        "quote": "Prior to November 4, 2026, the Company was subject to the following financial covenants (i) a total net leverage ratio of less than or equal to 3.75 :1.0 0, which steps down to 3.25:1.00 commencing on December 31, 2027 for the remainder of the term, and (ii) a fixed charge coverage ratio of greater than or equal to 1.25 :1.00."
+      },
+      {
+        "covenant_name": "Total net leverage ratio",
+        "metric": "net_leverage",
+        "period_end": "2026-06-30",
+        "actual": null,
+        "limit": 3.75,
+        "direction": "max",
+        "facility": "Credit Agreement (as amended by First Amendment)",
+        "quote": "June 30, 2026 3.75 to 1.00"
+      },
+      {
+        "covenant_name": "Total net leverage ratio",
+        "metric": "net_leverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 4.75,
+        "direction": "max",
+        "facility": "Credit Agreement (as amended by First Amendment)",
+        "quote": "September 30, 2026 4.75 to 1.00"
+      },
+      {
+        "covenant_name": "Minimum liquidity",
+        "metric": "minimum_liquidity",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 20.0,
+        "direction": "min",
+        "facility": "Credit Agreement (as amended by First Amendment)",
+        "quote": "(ii) liquidity to be less than $ 20.0 million during the Covenant Change Period."
+      },
+      {
+        "covenant_name": "Minimum Consolidated EBITDA",
+        "metric": "other",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 29.75,
+        "direction": "min",
+        "facility": "Credit Agreement (as amended by First Amendment)",
+        "quote": "September 30, 2026 $ 29.75 million"
+      }
+    ],
+    "notes": "No actual ratio values are disclosed. As of 9/30/2026 the company was not in compliance with the Existing Financial Covenants (net leverage <=3.75x, FCCR >=1.25x); the breach was waived by the November 4, 2026 First Amendment, after which the company states it is in compliance. The amendment relaxed covenants for the Covenant Change Period (7/1/2026 to 1/1/2028): net leverage max steps 4.75x (9/30/26), 6.50x (12/31/26, 3/31/27), 6.00x (6/30/27), 5.00x (9/30/27), 3.75x (12/31/27), 3.25x thereafter; FCCR >=1.25x resumes 9/30/2027; minimum liquidity $20.0M during the Covenant Change Period (reported monthly); minimum EBITDA $29.75M (9/30/26) stepping to $23.0M, $20.0M, $21.5M, $26.5M, then $32.0M. Liquidity and EBITDA limits are in $ millions. The SOFR+3.25% Level 3 pricing tied to net leverage >3.75x is a pricing grid, not a covenant."
+  }
+}

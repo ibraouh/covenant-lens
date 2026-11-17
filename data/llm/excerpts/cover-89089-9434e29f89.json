@@ -1,0 +1,24 @@
+{
+  "job": "cover-89089-9434e29f89",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/89089/000008908925000097/sci2025creditagreement.htm"
+  },
+  "usage": {
+    "input_tokens": 2584,
+    "output_tokens": 105,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "is_loan_document": true,
+    "kind": "amended_and_restated",
+    "title": "Third Amended and Restated Credit Agreement",
+    "dated": "2025-11-20",
+    "amends_dated": null,
+    "primary_bank_facility": true,
+    "includes_conformed_copy": false,
+    "borrower": "Service Corporation International"
+  }
+}

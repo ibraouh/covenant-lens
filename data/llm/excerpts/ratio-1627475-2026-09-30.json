@@ -1,0 +1,40 @@
+{
+  "job": "ratio-1627475-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1627475/000162747526000055/upwk-20260930.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 2993,
+    "output_tokens": 635,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "Consolidated Net Leverage Ratio",
+        "metric": "net_leverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 2.5,
+        "direction": "max",
+        "facility": "Credit Agreement (Revolving Credit Facility)",
+        "quote": "The Credit Agreement contains financial maintenance covenants requiring the Company to maintain (i) a maximum Consolidated Net Leverage Ratio of 2.50 to 1.00, with cash netting of up to $ 100.0 million, and (ii) a minimum Consolidated Fixed Charge Coverage Ratio (as defined in the Credit Agreement) of 1.25 to 1.00, tested quarterly."
+      },
+      {
+        "covenant_name": "Consolidated Fixed Charge Coverage Ratio",
+        "metric": "fixed_charge_coverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 1.25,
+        "direction": "min",
+        "facility": "Credit Agreement (Revolving Credit Facility)",
+        "quote": "The Credit Agreement contains financial maintenance covenants requiring the Company to maintain (i) a maximum Consolidated Net Leverage Ratio of 2.50 to 1.00, with cash netting of up to $ 100.0 million, and (ii) a minimum Consolidated Fixed Charge Coverage Ratio (as defined in the Credit Agreement) of 1.25 to 1.00, tested quarterly."
+      }
+    ],
+    "notes": "Actual ratios are not disclosed; the company states only that it was in compliance with all covenants as of September 30, 2026. Net leverage allows cash netting of up to $100.0 million. No borrowings were outstanding under the $150.0 million revolver. The Consolidated Net Leverage Ratio also sets the pricing grid (interest margin and commitment fee); that rate-setting use was not reported separately."
+  }
+}

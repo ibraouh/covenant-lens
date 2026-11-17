@@ -1,0 +1,19 @@
+{
+  "job": "ratio-1580670-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1580670/000158067026000088/lgih-20260930.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 3878,
+    "output_tokens": 434,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [],
+    "notes": "The excerpt names the financial covenants in the 2025 Credit Agreement: minimum tangible net worth, maximum leverage ratio, minimum liquidity amount and minimum EBITDA to interest expense ratio. It says the company was in compliance at September 30, 2026, but gives no actual values or required levels for any of them, so no ratios are reported. The 40.6% net debt to capital ratio is left out because the company presents it as a supplemental leverage measure, not a covenant. The leverage ratio used in the Applicable Margin pricing grid is left out because it only sets the interest margin. The Seventh Amendment of October 9, 2026 may have changed the covenant terms; the excerpt is truncated before those details."
+  }
+}

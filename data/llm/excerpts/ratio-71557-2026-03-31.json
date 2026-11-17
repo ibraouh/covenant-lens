@@ -1,0 +1,40 @@
+{
+  "job": "ratio-71557-2026-03-31",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/71557/000143774926017220/nuvr20260331_10q.htm",
+    "period": "2026-03-31"
+  },
+  "usage": {
+    "input_tokens": 4589,
+    "output_tokens": 488,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "Total Leverage Ratio",
+        "metric": "total_leverage",
+        "period_end": "2026-03-31",
+        "actual": 4.95,
+        "limit": 6.0,
+        "direction": "max",
+        "facility": "CoBank credit facility (2024 credit facility)",
+        "quote": "Our current Total Leverage Ratio as of March 31, 2026, was 4.95 . Our maximum Total Leverage Ratio under the new loan facility is 6.00 :1.00."
+      },
+      {
+        "covenant_name": "debt service coverage ratio",
+        "metric": "other",
+        "period_end": "2026-03-31",
+        "actual": null,
+        "limit": null,
+        "direction": "min",
+        "facility": "CoBank credit facility (2024 credit facility)",
+        "quote": "These financial ratios include Total Leverage Ratio and debt service coverage ratio. On March 31, 2026, we were in compliance with all the stipulated financial ratios in our loan agreements."
+      }
+    ],
+    "notes": "The 4.25x and 3.50x Total Leverage thresholds are dividend-payment permissions, not maintenance covenants; they are excluded. The leverage-based SOFR margin grid is also excluded. The debt service coverage ratio is named as a covenant, but no actual value or limit is disclosed; only compliance is stated. The current ratio of 2.28 is not a covenant. The filing says the company was in compliance at both 2025-12-31 and 2026-03-31, but gives no ratio values for 2025-12-31."
+  }
+}

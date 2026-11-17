@@ -1,0 +1,24 @@
+{
+  "job": "cover-833079-13342b4f8c",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/833079/000083307926000122/ex101twelfthamendmenttocre.htm"
+  },
+  "usage": {
+    "input_tokens": 3274,
+    "output_tokens": 118,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "is_loan_document": true,
+    "kind": "amendment",
+    "title": "Twelfth Amendment to Amended and Restated Credit Agreement",
+    "dated": "2026-06-24",
+    "amends_dated": "2014-06-13",
+    "primary_bank_facility": true,
+    "includes_conformed_copy": false,
+    "borrower": "Meritage Homes Corporation"
+  }
+}

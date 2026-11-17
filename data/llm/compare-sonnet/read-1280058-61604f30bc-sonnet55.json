@@ -1,0 +1,116 @@
+{
+  "job": "read-1280058-61604f30bc-sonnet55",
+  "model": "claude-sonnet-5-5",
+  "meta": {
+    "cik": "1280058",
+    "docs": [
+      "https://www.sec.gov/Archives/edgar/data/1280058/000128005824000037/blkbq1202410-qexx101.htm"
+    ]
+  },
+  "usage": {
+    "input_tokens": 239707,
+    "output_tokens": 6907,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "borrower": "Blackbaud, Inc.",
+    "agreement_date": "2020-10-30",
+    "covenants": [
+      {
+        "name": "Net Leverage Ratio",
+        "metric": "net_leverage",
+        "direction": "max",
+        "thresholds": [
+          {
+            "value": 3.75,
+            "applies_from": "2024-03-31"
+          }
+        ],
+        "test_frequency": "quarterly",
+        "springing_condition": null,
+        "section": "Section 9.1",
+        "quote": "As of any fiscal quarter end, permit the ratio (the \u201cNet Leverage Ratio\u201d) of (a) Total Funded Net Indebtedness on such date to (b) EBITDA for the period of four (4) consecutive fiscal quarters ending on or immediately prior to such date to be greater than 3.75 to 1.00; provided, however, that the Net Leverage Ratio for any fiscal quarter may be increased by the Company by 0.50 if such increase satisfies the Leverage Ratio Increase Requirements; provided, that the maximum Net Leverage Ratio permitted after giving effect to such increase shall not exceed 4.25 to 1.00.",
+        "ebitda_addbacks": [
+          "stock_comp",
+          "impairments",
+          "restructuring",
+          "other"
+        ],
+        "cash_netting_cap": 150000000.0,
+        "cash_netting_cap_pct_ebitda": null
+      },
+      {
+        "name": "Interest Coverage Ratio",
+        "metric": "interest_coverage",
+        "direction": "min",
+        "thresholds": [
+          {
+            "value": 2.5,
+            "applies_from": null
+          }
+        ],
+        "test_frequency": "quarterly",
+        "springing_condition": null,
+        "section": "Section 9.2",
+        "quote": "As of any fiscal quarter end, commencing with the fiscal quarter ending December 31, 2020, permit the ratio of (a) EBITDA for the period of four (4) consecutive fiscal quarters ending on or immediately prior to such date to (b) Interest Expense for the period of four (4) consecutive fiscal quarters ending on or immediately prior to such date to be less than 2.50 to 1.0.",
+        "ebitda_addbacks": [
+          "stock_comp",
+          "impairments",
+          "restructuring",
+          "other"
+        ],
+        "cash_netting_cap": null,
+        "cash_netting_cap_pct_ebitda": null
+      }
+    ],
+    "notes": "Source is the Third Amendment (Apr. 30, 2024) with Annex I, a redline of the A&R Credit Agreement; the covenants above reflect the post-amendment text. The redline is garbled, so I read Section 9.1 as a flat 3.75x limit from the March 31, 2024 quarter (the earlier 4.00x through 12/31/2023 step appears struck). The 9.1 quote is the amended reading and may not match the raw redline text exactly. Section 9.1 allows a 0.50x step-up (to a maximum of 4.25x) for four quarters after a Permitted Acquisition of at least $50M, no more than twice over the term, with one-quarter reversion between uses. Net debt is Total Funded Net Indebtedness; Cash on Hand netting is capped at $150M (raised from $100M), and hedging obligations are excluded from covenant Indebtedness. EBITDA add-backs: non-cash charges including non-cash stock compensation and fair value adjustments to acquired deferred revenue; extraordinary losses; Transaction Costs (which include restructuring and business optimization costs and projected acquisition synergies, capped at 10% of pro forma EBITDA per acquisition); Pro Forma Adjustments (cost savings and synergies, capped at 10% of EBITDA); up to $25M of lease-restructuring costs incurred on or before 3/31/2021; and up to $50M of cash legal expenses for the 2020 data breach. Interest income and extraordinary gains are deducted. Incremental facilities are the greater of $360M and 100% of EBITDA, plus an unlimited amount at pro forma Net Leverage Ratio of 3.50x or less. Dividends and buybacks need a pro forma Net Leverage Ratio at least 0.25x below the covenant level, plus a $50M general basket. The facility is secured through guarantees and equity pledges. Term loan amortization is $5M per quarter starting 9/30/2024.",
+    "facility": "$700M multi-currency revolving credit facility (Dollar and Designated Currency tranches, with $50M L/C and $50M swingline sublimits) and an $800M term loan, maturing April 30, 2029.",
+    "terms": [
+      {
+        "kind": "j_crew_blocker",
+        "present": "yes",
+        "section": "Section 10.3 (final proviso)",
+        "quote": "the Borrowers shall not, and shall not permit any of their Restricted Subsidiaries to consummate any transaction that results in the transfer (whether by way of any dividend, distribution, Investment, disposition, designation of any Restricted Subsidiary as an Unrestricted Subsidiary, or otherwise, and whether in a single transaction or a series of related transactions) of Material Intellectual Property from any Borrower or any of their Restricted Subsidiaries to any Unrestricted Subsidiary.",
+        "summary": "Material Intellectual Property cannot be transferred to Unrestricted Subsidiaries by any means, including by designating the owning subsidiary as unrestricted. Exclusive licenses are not expressly addressed, though Section 10.5(g) only permits non-exclusive IP licenses."
+      },
+      {
+        "kind": "serta_protection",
+        "present": "yes",
+        "section": "Section 13.2(a)",
+        "quote": "subordinate, or have the effect of subordinating, the Obligations or Liens securing the Obligations hereunder to any other Indebtedness, Liens securing the Obligations or other obligation without the written consent of each Lender directly affected thereby",
+        "summary": "Subordinating the loans or their liens to other debt requires the consent of each directly affected lender. Pro rata sharing changes also need consent of each affected lender under Section 13.2(e)."
+      },
+      {
+        "kind": "chewy_protection",
+        "present": "partial",
+        "section": "Section 12.10(c)",
+        "quote": "to release any Guarantor from its obligations under the Guaranty Agreement if such Person ceases to be a Material Domestic Subsidiary as a result of a transaction permitted under the Loan Documents.",
+        "summary": "Guarantor release is tied to ceasing to be a Material Domestic Subsidiary through a permitted transaction, not to ceasing to be wholly owned, so there is no express Chewy-style trigger. There is no explicit clause stating that loss of wholly-owned status does not release a guarantor, and releasing all or substantially all Guarantors needs every lender."
+      },
+      {
+        "kind": "unrestricted_sub_cap",
+        "present": "partial",
+        "section": "Section 10.3(h)(ii)",
+        "quote": "Investments by the Company or any Restricted Subsidiary thereof in Foreign Subsidiaries or Unrestricted Subsidiaries not in the form of acquisitions covered by Section 10.3(g) in an aggregate amount not to exceed $75,000,000 at any time outstanding",
+        "summary": "A $75M basket caps investments in Foreign or Unrestricted Subsidiaries. Section 10.3(k) also allows unlimited other investments subject to no default and pro forma covenant compliance, so there is no hard overall cap. Designation of an Unrestricted Subsidiary counts as an Investment under Section 8.14."
+      },
+      {
+        "kind": "addback_cap",
+        "present": "yes",
+        "section": "Section 1.1 (definition of EBITDA)",
+        "quote": "provided that the aggregate amount of Pro Forma Adjustments added back to EBITDA shall not exceed ten percent (10%) of EBITDA (determined prior to giving effect to the add back in this clause (vi))",
+        "summary": "Pro Forma Adjustments (cost savings, synergies, operating improvements) are capped at 10% of EBITDA. Acquisition Transaction Costs are separately capped at 10% of pro forma EBITDA per acquisition; the lease-restructuring ($25M) and data-breach legal ($50M) add-backs have dollar caps."
+      },
+      {
+        "kind": "equity_cure",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "The agreement has no equity cure right for the financial covenants; a breach of Article IX is an immediate Event of Default under Section 11.1(d)."
+      }
+    ],
+    "addback_cap_pct": 0.1
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "job": "ratio-1857853-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1857853/000162828026070415/tra-20260930.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 4382,
+    "output_tokens": 1059,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "First Lien Net Leverage Ratio",
+        "metric": "secured_net_leverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 6.2,
+        "direction": "max",
+        "facility": "Revolving Credit Facility (First Lien Credit Agreement)",
+        "quote": "All lenders under the Revolving Credit Facility are the beneficiaries of a First Lien Net Leverage Ratio (as defined in the First Lien Credit Agreement) test of 6.20 to 1.00, which is only applicable if the Company\u2019s utilization of the Revolving Credit Facility in excess of a threshold set forth in the First Lien Credit Agreement."
+      },
+      {
+        "covenant_name": "First Lien Net Leverage Ratio",
+        "metric": "secured_net_leverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 6.2,
+        "direction": "max",
+        "facility": "Extended Revolving Facility",
+        "quote": "The lenders under the Extended Revolving Facility are the beneficiaries of a 6.20 to 1.00 First Lien Net Leverage Ratio covenant with a lower trigger threshold for testing, as set forth in the Amendment, and a minimum liquidity covenant requiring the maintenance of liquidity of at least $ 15.0 million, which is tested monthly."
+      },
+      {
+        "covenant_name": "Minimum liquidity",
+        "metric": "minimum_liquidity",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 15.0,
+        "direction": "min",
+        "facility": "Extended Revolving Facility",
+        "quote": "The lenders under the Extended Revolving Facility are the beneficiaries of a 6.20 to 1.00 First Lien Net Leverage Ratio covenant with a lower trigger threshold for testing, as set forth in the Amendment, and a minimum liquidity covenant requiring the maintenance of liquidity of at least $ 15.0 million, which is tested monthly."
+      }
+    ],
+    "notes": "No actual ratio values are disclosed; the company only states it was in compliance as of September 30, 2026. The 6.20x First Lien Net Leverage covenant is springing: it is tested only when revolver utilization exceeds a threshold, with a lower trigger for the Extended Revolving Facility. No revolver loans were outstanding at September 30, 2026. The minimum liquidity limit is in $ millions and is tested monthly. The First Lien Net Leverage Ratio also sets the revolver interest margin and commitment fee; that pricing use is not a covenant and is excluded."
+  }
+}

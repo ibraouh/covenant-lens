@@ -1,0 +1,218 @@
+{
+  "borrowers": [
+    "8x8",
+    "casella",
+    "varex",
+    "Quad/Graphics, Inc.",
+    "Mayville Engineering Company, Inc.",
+    "BLACKBAUD INC",
+    "CARPENTER TECHNOLOGY CORP",
+    "Tri Pointe Homes, Inc.",
+    "FMC CORP",
+    "M/I HOMES, INC.",
+    "NOVANTA INC",
+    "Compass Diversified Holdings"
+  ],
+  "models": [
+    {
+      "model": "claude-opus-5-5",
+      "label": "Claude Opus 5.5",
+      "agreements": 11,
+      "failed": 1,
+      "limits_checked": 56,
+      "limits_matched": 53,
+      "answer_keys": 89,
+      "covenant_found": 89,
+      "covenants": 29,
+      "quotes_verified": 28,
+      "gold_ok": 8,
+      "gold_n": 8,
+      "usd": 5.695102,
+      "misses": [
+        {
+          "borrower": "Mayville Engineering Company, Inc.",
+          "metric": "interest_coverage",
+          "period": "2026-03-31",
+          "reported": 2.75,
+          "read": 3.0,
+          "quote": "At March 31, 2026, our consolidated interest coverage ratio under the Credit Agreement was 4.27 to 1.00 as compared to a covenant minimum of 2.75 to 1.00."
+        },
+        {
+          "borrower": "Mayville Engineering Company, Inc.",
+          "metric": "total_leverage",
+          "period": "2026-09-30",
+          "reported": 3.5,
+          "read": 5.0,
+          "quote": "At September 30, 2026, our consolidated total leverage ratio under the Credit Agreement was 2.90 to 1.00 as compared to a covenant maximum of 3.50 to 1.00."
+        },
+        {
+          "borrower": "Mayville Engineering Company, Inc.",
+          "metric": "interest_coverage",
+          "period": "2026-09-30",
+          "reported": 3.0,
+          "read": 2.75,
+          "quote": "At September 30, 2026, our consolidated interest coverage ratio under the Credit Agreement was 3.40 to 1.00 as compared to a covenant minimum of 3.00 to 1.00."
+        }
+      ],
+      "scored": [
+        "8x8",
+        "casella",
+        "varex",
+        "Quad/Graphics, Inc.",
+        "Mayville Engineering Company, Inc.",
+        "BLACKBAUD INC",
+        "CARPENTER TECHNOLOGY CORP",
+        "Tri Pointe Homes, Inc.",
+        "FMC CORP",
+        "NOVANTA INC",
+        "Compass Diversified Holdings"
+      ],
+      "cost_per_agreement": 0.5177365454545455,
+      "gold": "8/8"
+    },
+    {
+      "model": "claude-sonnet-5-5",
+      "label": "Claude Sonnet 5.5",
+      "agreements": 11,
+      "failed": 1,
+      "limits_checked": 56,
+      "limits_matched": 51,
+      "answer_keys": 89,
+      "covenant_found": 89,
+      "covenants": 29,
+      "quotes_verified": 27,
+      "gold_ok": 8,
+      "gold_n": 8,
+      "usd": 2.722441,
+      "misses": [
+        {
+          "borrower": "Mayville Engineering Company, Inc.",
+          "metric": "interest_coverage",
+          "period": "2026-03-31",
+          "reported": 2.75,
+          "read": 3.0,
+          "quote": "At March 31, 2026, our consolidated interest coverage ratio under the Credit Agreement was 4.27 to 1.00 as compared to a covenant minimum of 2.75 to 1.00."
+        },
+        {
+          "borrower": "Mayville Engineering Company, Inc.",
+          "metric": "total_leverage",
+          "period": "2026-09-30",
+          "reported": 3.5,
+          "read": 5.0,
+          "quote": "At September 30, 2026, our consolidated total leverage ratio under the Credit Agreement was 2.90 to 1.00 as compared to a covenant maximum of 3.50 to 1.00."
+        },
+        {
+          "borrower": "Mayville Engineering Company, Inc.",
+          "metric": "interest_coverage",
+          "period": "2026-09-30",
+          "reported": 3.0,
+          "read": 2.75,
+          "quote": "At September 30, 2026, our consolidated interest coverage ratio under the Credit Agreement was 3.40 to 1.00 as compared to a covenant minimum of 3.00 to 1.00."
+        },
+        {
+          "borrower": "NOVANTA INC",
+          "metric": "fixed_charge_coverage",
+          "period": "2026-07-03",
+          "reported": 1.25,
+          "read": 1.0,
+          "quote": "Minimum consolidated fixed charge coverage ratio (2) 1.25 4.93"
+        },
+        {
+          "borrower": "NOVANTA INC",
+          "metric": "fixed_charge_coverage",
+          "period": "2026-10-02",
+          "reported": 1.25,
+          "read": 1.0,
+          "quote": "Minimum consolidated fixed charge coverage ratio (2) 1.25 4.00"
+        }
+      ],
+      "scored": [
+        "8x8",
+        "casella",
+        "varex",
+        "Quad/Graphics, Inc.",
+        "Mayville Engineering Company, Inc.",
+        "BLACKBAUD INC",
+        "CARPENTER TECHNOLOGY CORP",
+        "Tri Pointe Homes, Inc.",
+        "FMC CORP",
+        "NOVANTA INC",
+        "Compass Diversified Holdings"
+      ],
+      "cost_per_agreement": 0.24749463636363636,
+      "gold": "8/8"
+    },
+    {
+      "model": "claude-haiku-5-5",
+      "label": "Claude Haiku 5.5",
+      "agreements": 11,
+      "failed": 1,
+      "limits_checked": 56,
+      "limits_matched": 51,
+      "answer_keys": 89,
+      "covenant_found": 89,
+      "covenants": 28,
+      "quotes_verified": 24,
+      "gold_ok": 7,
+      "gold_n": 8,
+      "usd": 0.704304,
+      "misses": [
+        {
+          "borrower": "Mayville Engineering Company, Inc.",
+          "metric": "interest_coverage",
+          "period": "2026-03-31",
+          "reported": 2.75,
+          "read": 3.0,
+          "quote": "At March 31, 2026, our consolidated interest coverage ratio under the Credit Agreement was 4.27 to 1.00 as compared to a covenant minimum of 2.75 to 1.00."
+        },
+        {
+          "borrower": "Mayville Engineering Company, Inc.",
+          "metric": "total_leverage",
+          "period": "2026-09-30",
+          "reported": 3.5,
+          "read": 5.0,
+          "quote": "At September 30, 2026, our consolidated total leverage ratio under the Credit Agreement was 2.90 to 1.00 as compared to a covenant maximum of 3.50 to 1.00."
+        },
+        {
+          "borrower": "Mayville Engineering Company, Inc.",
+          "metric": "interest_coverage",
+          "period": "2026-09-30",
+          "reported": 3.0,
+          "read": 2.75,
+          "quote": "At September 30, 2026, our consolidated interest coverage ratio under the Credit Agreement was 3.40 to 1.00 as compared to a covenant minimum of 3.00 to 1.00."
+        },
+        {
+          "borrower": "NOVANTA INC",
+          "metric": "fixed_charge_coverage",
+          "period": "2026-07-03",
+          "reported": 1.25,
+          "read": 1.0,
+          "quote": "Minimum consolidated fixed charge coverage ratio (2) 1.25 4.93"
+        },
+        {
+          "borrower": "NOVANTA INC",
+          "metric": "fixed_charge_coverage",
+          "period": "2026-10-02",
+          "reported": 1.25,
+          "read": 1.0,
+          "quote": "Minimum consolidated fixed charge coverage ratio (2) 1.25 4.00"
+        }
+      ],
+      "scored": [
+        "8x8",
+        "casella",
+        "varex",
+        "Quad/Graphics, Inc.",
+        "Mayville Engineering Company, Inc.",
+        "BLACKBAUD INC",
+        "CARPENTER TECHNOLOGY CORP",
+        "Tri Pointe Homes, Inc.",
+        "FMC CORP",
+        "NOVANTA INC",
+        "Compass Diversified Holdings"
+      ],
+      "cost_per_agreement": 0.06402763636363637,
+      "gold": "7/8"
+    }
+  ]
+}

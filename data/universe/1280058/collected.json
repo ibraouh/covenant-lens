@@ -1,0 +1,131 @@
+{
+  "reports": [
+    {
+      "form": "10-Q",
+      "filed": "2026-10-28",
+      "period": "2026-09-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/1280058/000128005826000032/blkb-20260930.htm",
+      "job": "ratio-1280058-2026-09-30"
+    },
+    {
+      "form": "10-Q",
+      "filed": "2026-07-29",
+      "period": "2026-06-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/1280058/000128005826000025/blkb-20260630.htm",
+      "job": "ratio-1280058-2026-06-30"
+    },
+    {
+      "form": "10-Q",
+      "filed": "2026-04-29",
+      "period": "2026-03-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1280058/000128005826000016/blkb-20260331.htm",
+      "job": "ratio-1280058-2026-03-31"
+    },
+    {
+      "form": "10-K",
+      "filed": "2026-02-18",
+      "period": "2025-12-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1280058/000128005826000006/blkb-20251231.htm",
+      "job": "ratio-1280058-2025-12-31"
+    }
+  ],
+  "releases": [
+    {
+      "filed": "2026-10-28",
+      "url": "https://www.sec.gov/Archives/edgar/data/1280058/000128005826000029/blkbq32026exhibit991.htm",
+      "job": "ebitda-1280058-3a640cadd9"
+    },
+    {
+      "filed": "2026-07-29",
+      "url": "https://www.sec.gov/Archives/edgar/data/1280058/000128005826000022/blkbq22026exhibit991.htm",
+      "job": "ebitda-1280058-c93cedcbce"
+    },
+    {
+      "filed": "2026-04-29",
+      "url": "https://www.sec.gov/Archives/edgar/data/1280058/000128005826000013/blkbq12026exhibit991.htm",
+      "job": "ebitda-1280058-1d14b9b73a"
+    },
+    {
+      "filed": "2026-02-10",
+      "url": "https://www.sec.gov/Archives/edgar/data/1280058/000128005826000002/blkbq42025exhibit991.htm",
+      "job": "ebitda-1280058-284df226a1"
+    },
+    {
+      "filed": "2025-10-29",
+      "url": "https://www.sec.gov/Archives/edgar/data/1280058/000128005825000048/blkbq32025exhibit991.htm",
+      "job": "ebitda-1280058-8b50f991fe"
+    }
+  ],
+  "exhibits": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1280058/000162612917000402/ex10-90.htm",
+      "filed": "2017-06-05",
+      "exhibit": "EX-10.90",
+      "chars": 728121,
+      "job": "cover-1280058-2f90d48207"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1280058/000162612917000402/ex10-91.htm",
+      "filed": "2017-06-05",
+      "exhibit": "EX-10.91",
+      "chars": 86981,
+      "job": "cover-1280058-f66aafc15a"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1280058/000128005820000052/a2020q310-qexx104.htm",
+      "filed": "2020-11-03",
+      "exhibit": "EX-10.4",
+      "chars": 697058,
+      "job": "cover-1280058-42ba64c4ff"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1280058/000128005820000052/a2020q310-qexx105.htm",
+      "filed": "2020-11-03",
+      "exhibit": "EX-10.5",
+      "chars": 80598,
+      "job": "cover-1280058-076245278b"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1280058/000128005821000049/a2021q310-qexx1001.htm",
+      "filed": "2021-11-04",
+      "exhibit": "EX-10.1",
+      "chars": 23933,
+      "job": "cover-1280058-ccc3747a4c"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1280058/000128005822000002/exhibit101.htm",
+      "filed": "2022-01-03",
+      "exhibit": "EX-10.1",
+      "chars": 48690,
+      "job": "cover-1280058-f360d664f2"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1280058/000128005822000005/exhibit101jan312022.htm",
+      "filed": "2022-02-03",
+      "exhibit": "EX-10.1",
+      "chars": 614409,
+      "job": "cover-1280058-9752faa83c"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1280058/000128005822000055/blkbq3202210-qexx102.htm",
+      "filed": "2022-11-03",
+      "exhibit": "EX-10.2",
+      "chars": 29363,
+      "job": "cover-1280058-6406f1dbc5"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1280058/000128005823000006/blkb202210-kexx1030.htm",
+      "filed": "2023-02-24",
+      "exhibit": "EX-10.30",
+      "chars": 10959,
+      "job": "cover-1280058-eaa1370ecc"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1280058/000128005824000037/blkbq1202410-qexx101.htm",
+      "filed": "2024-05-01",
+      "exhibit": "EX-10.1",
+      "chars": 680334,
+      "job": "cover-1280058-61604f30bc"
+    }
+  ]
+}

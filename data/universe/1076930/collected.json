@@ -1,0 +1,159 @@
+{
+  "reports": [
+    {
+      "form": "10-Q",
+      "filed": "2026-11-09",
+      "period": "2026-10-02",
+      "url": "https://www.sec.gov/Archives/edgar/data/1076930/000119312526453802/novt-20261002.htm",
+      "job": "ratio-1076930-2026-10-02"
+    },
+    {
+      "form": "10-Q",
+      "filed": "2026-08-05",
+      "period": "2026-07-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/1076930/000119312526335404/novt-20260703.htm",
+      "job": "ratio-1076930-2026-07-03"
+    },
+    {
+      "form": "10-Q",
+      "filed": "2026-05-11",
+      "period": "2026-04-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/1076930/000119312526217064/novt-20260403.htm",
+      "job": "ratio-1076930-2026-04-03"
+    },
+    {
+      "form": "10-K",
+      "filed": "2026-02-23",
+      "period": "2025-12-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1076930/000119312526064230/novt-20251231.htm",
+      "job": "ratio-1076930-2025-12-31"
+    }
+  ],
+  "releases": [
+    {
+      "filed": "2026-11-09",
+      "url": "https://www.sec.gov/Archives/edgar/data/1076930/000119312526453760/novt-ex99_1.htm",
+      "job": "ebitda-1076930-71f5fa9980"
+    },
+    {
+      "filed": "2026-08-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/1076930/000119312526335356/novt-ex99_1.htm",
+      "job": "ebitda-1076930-e7846ba3e1"
+    },
+    {
+      "filed": "2026-05-11",
+      "url": "https://www.sec.gov/Archives/edgar/data/1076930/000119312526216984/novt-ex99_1.htm",
+      "job": "ebitda-1076930-90e53339c9"
+    },
+    {
+      "filed": "2026-02-23",
+      "url": "https://www.sec.gov/Archives/edgar/data/1076930/000119312526064191/novt-ex99_1.htm",
+      "job": "ebitda-1076930-9309cd09fd"
+    },
+    {
+      "filed": "2025-11-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/1076930/000119312525262744/novt-ex99_1.htm",
+      "job": "ebitda-1076930-975b254263"
+    }
+  ],
+  "exhibits": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1076930/000156459016013893/gsig-ex1022_448.htm",
+      "filed": "2016-03-02",
+      "exhibit": "EX-10.22",
+      "chars": 20516,
+      "job": "cover-1076930-6d485b99bf"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1076930/000156459016019782/novt-ex101_19.htm",
+      "filed": "2016-05-20",
+      "exhibit": "EX-10.1",
+      "chars": 650266,
+      "job": "cover-1076930-d711288e58"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1076930/000156459017015182/novt-ex101_6.htm",
+      "filed": "2017-08-03",
+      "exhibit": "EX-10.1",
+      "chars": 18300,
+      "job": "cover-1076930-81ab33a6eb"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1076930/000156459018003687/novt-ex1023_375.htm",
+      "filed": "2018-02-28",
+      "exhibit": "EX-10.23",
+      "chars": 80170,
+      "job": "cover-1076930-72f5d41138"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1076930/000156459020000219/novt-ex101_6.htm",
+      "filed": "2020-01-03",
+      "exhibit": "EX-10.1",
+      "chars": 737311,
+      "job": "cover-1076930-deb2be868f"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1076930/000156459020014557/novt-ex101_7.htm",
+      "filed": "2020-03-31",
+      "exhibit": "EX-10.1",
+      "chars": 21488,
+      "job": "cover-1076930-c2b48555cc"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1076930/000156459020037326/novt-ex101_10.htm",
+      "filed": "2020-08-06",
+      "exhibit": "EX-10.1",
+      "chars": 14331,
+      "job": "cover-1076930-e0b5570f5d"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1076930/000156459021050419/novt-ex101_34.htm",
+      "filed": "2021-10-07",
+      "exhibit": "EX-10.1",
+      "chars": 686979,
+      "job": "cover-1076930-532d7f3562"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1076930/000156459021055480/novt-ex101_332.htm",
+      "filed": "2021-11-09",
+      "exhibit": "EX-10.1",
+      "chars": 659726,
+      "job": "cover-1076930-67222b0d15"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1076930/000156459022010412/novt-ex101_1571.htm",
+      "filed": "2022-03-15",
+      "exhibit": "EX-10.1",
+      "chars": 734234,
+      "job": "cover-1076930-14c26970f8"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1076930/000095017025093046/novt-ex10_1.htm",
+      "filed": "2025-07-02",
+      "exhibit": "EX-10.1",
+      "chars": 679025,
+      "job": "cover-1076930-bfbbbd2b22"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1076930/000119312525277939/d84292dex101.htm",
+      "filed": "2025-11-12",
+      "exhibit": "EX-10.1",
+      "chars": 694140,
+      "job": "cover-1076930-f242f20644"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1076930/000119312526227053/novt-ex10_1.htm",
+      "filed": "2026-05-15",
+      "exhibit": "EX-10.1",
+      "chars": 718895,
+      "job": "cover-1076930-fa328f68ff"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1076930/000119312526262867/novt-ex10_1.htm",
+      "filed": "2026-06-09",
+      "exhibit": "EX-10.1",
+      "chars": 15913,
+      "job": "cover-1076930-c7ab07da44"
+    }
+  ]
+}

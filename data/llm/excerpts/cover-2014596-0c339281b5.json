@@ -1,0 +1,24 @@
+{
+  "job": "cover-2014596-0c339281b5",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/2014596/000110465924084490/tm248173d18_ex4-1.htm"
+  },
+  "usage": {
+    "input_tokens": 4323,
+    "output_tokens": 133,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "is_loan_document": false,
+    "kind": "other",
+    "title": "Indenture - 6.875% Senior Notes due 2032",
+    "dated": "2024-07-11",
+    "amends_dated": null,
+    "primary_bank_facility": false,
+    "includes_conformed_copy": false,
+    "borrower": "Concentra Escrow Issuer Corporation (to be assumed by Concentra Health Services, Inc.)"
+  }
+}

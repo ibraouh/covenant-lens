@@ -1,0 +1,159 @@
+{
+  "reports": [
+    {
+      "form": "10-Q",
+      "filed": "2026-11-09",
+      "period": "2026-09-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/1013880/000110465926124608/ttec-20260930x10q.htm",
+      "job": "ratio-1013880-2026-09-30"
+    },
+    {
+      "form": "10-Q",
+      "filed": "2026-08-10",
+      "period": "2026-06-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/1013880/000110465926093402/ttec-20260630x10q.htm",
+      "job": "ratio-1013880-2026-06-30"
+    },
+    {
+      "form": "10-Q",
+      "filed": "2026-05-07",
+      "period": "2026-03-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1013880/000110465926057190/ttec-20260331x10q.htm",
+      "job": "ratio-1013880-2026-03-31"
+    },
+    {
+      "form": "10-K",
+      "filed": "2026-02-26",
+      "period": "2025-12-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1013880/000110465926020532/ttec-20251231x10k.htm",
+      "job": "ratio-1013880-2025-12-31"
+    }
+  ],
+  "releases": [
+    {
+      "filed": "2026-11-10",
+      "url": "https://www.sec.gov/Archives/edgar/data/1013880/000110465926124650/tm2629265d1_ex99-1.htm",
+      "job": "ebitda-1013880-e7b69ac844"
+    },
+    {
+      "filed": "2026-08-10",
+      "url": "https://www.sec.gov/Archives/edgar/data/1013880/000110465926093410/tm2622729d1_ex99-1.htm",
+      "job": "ebitda-1013880-f6d70ace9d"
+    },
+    {
+      "filed": "2026-05-07",
+      "url": "https://www.sec.gov/Archives/edgar/data/1013880/000110465926057197/tm2613858d1_ex99-1.htm",
+      "job": "ebitda-1013880-ced1d3a73e"
+    },
+    {
+      "filed": "2026-02-26",
+      "url": "https://www.sec.gov/Archives/edgar/data/1013880/000110465926020555/tm267338d1_ex99-1.htm",
+      "job": "ebitda-1013880-d9d634aba5"
+    },
+    {
+      "filed": "2025-11-06",
+      "url": "https://www.sec.gov/Archives/edgar/data/1013880/000110465925107789/tm2530356d1_ex99-1.htm",
+      "job": "ebitda-1013880-f2740519d0"
+    }
+  ],
+  "exhibits": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1013880/000110465916097287/a16-4381_1ex10d90.htm",
+      "filed": "2016-02-16",
+      "exhibit": "EX-10.90",
+      "chars": 492293,
+      "job": "cover-1013880-17be3687be"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1013880/000155837017004022/ttec-20170331ex1091b326c.htm",
+      "filed": "2017-05-09",
+      "exhibit": "EX-10.91",
+      "chars": 9912,
+      "job": "cover-1013880-f5e049ac10"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1013880/000110465917065106/a17-24933_1ex10d92.htm",
+      "filed": "2017-11-01",
+      "exhibit": "EX-10.92",
+      "chars": 17610,
+      "job": "cover-1013880-11e951e687"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1013880/000110465919010424/a19-5353_1ex10d32.htm",
+      "filed": "2019-02-26",
+      "exhibit": "EX-10.32",
+      "chars": 484905,
+      "job": "cover-1013880-a1e72c747f"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1013880/000155837021005727/ttec-20210331xex10d95.htm",
+      "filed": "2021-05-04",
+      "exhibit": "EX-10.95",
+      "chars": 14377,
+      "job": "cover-1013880-8b74c588e3"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1013880/000110465921144414/tm2133844d1_ex10-96.htm",
+      "filed": "2021-11-29",
+      "exhibit": "EX-10.96",
+      "chars": 587984,
+      "job": "cover-1013880-7512733143"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1013880/000155837023008307/ttec-20230331xex10d97.htm",
+      "filed": "2023-05-05",
+      "exhibit": "EX-10.97",
+      "chars": 9952,
+      "job": "cover-1013880-a8e84e255a"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1013880/000155837024002207/ttec-20231231xex10d98.htm",
+      "filed": "2024-02-29",
+      "exhibit": "EX-10.98",
+      "chars": 27066,
+      "job": "cover-1013880-8e0d5922a4"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1013880/000155837024011611/ttec-20240630xex10d99.htm",
+      "filed": "2024-08-08",
+      "exhibit": "EX-10.99",
+      "chars": 560730,
+      "job": "cover-1013880-d0fceb5a48"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1013880/000155837024014654/ttec-20240930xex10d99.htm",
+      "filed": "2024-11-06",
+      "exhibit": "EX-10.99",
+      "chars": 545394,
+      "job": "cover-1013880-b9701c248b"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1013880/000110465925107771/ttec-20250930xex10d97.htm",
+      "filed": "2025-11-06",
+      "exhibit": "EX-10.97",
+      "chars": 543188,
+      "job": "cover-1013880-2823d539c9"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1013880/000110465926093402/ttec-20260630xex10d99.htm",
+      "filed": "2026-08-10",
+      "exhibit": "EX-10.99",
+      "chars": 558765,
+      "job": "cover-1013880-91546f5236"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1013880/000110465926124608/ttec-ex10d93.htm",
+      "filed": "2026-11-09",
+      "exhibit": "EX-10.93",
+      "chars": 19422,
+      "job": "cover-1013880-f844db7c56"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1013880/000110465926124608/ttec-ex10d94.htm",
+      "filed": "2026-11-09",
+      "exhibit": "EX-10.94",
+      "chars": 606298,
+      "job": "cover-1013880-64f52ce22c"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "job": "ratio-2127043-2026-09-27",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/2127043/000212704326000018/jmke-20260927.htm",
+    "period": "2026-09-27"
+  },
+  "usage": {
+    "input_tokens": 2889,
+    "output_tokens": 260,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [],
+    "notes": "The only ratio disclosed is a securitization leverage ratio (securitization debt to EBITDA/net cash flow, threshold 5.0x) under the Indenture governing the Securitization Notes. It sets whether scheduled principal payments are required, so it is not a bank credit agreement maintenance covenant and is excluded. The filing says the ratio was below 5.0x at September 27, 2026 but gives no actual figure. It also states the Company was in compliance with all financial covenants under the securitization agreements. No bank revolver or term loan covenant ratios are disclosed in the excerpt."
+  }
+}

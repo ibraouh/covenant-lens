@@ -1,0 +1,19 @@
+{
+  "job": "ratio-903129-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/903129/000119312526428998/thrm-20260930.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 4168,
+    "output_tokens": 217,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [],
+    "notes": "The filing says the Credit Agreement (Third Amended and Restated, June 29, 2026) and the DDTL Facility require a minimum Consolidated Interest Coverage Ratio and a maximum Consolidated Net Leverage Ratio. The excerpt gives neither the actual values nor the required levels; it only states that the Company was in compliance as of September 30, 2026. The Applicable Rate and commitment fee also vary with the Consolidated Net Leverage Ratio, but that is a pricing grid, not a covenant test. Because no dated actual or limit figures are given, no ratio entries are reported."
+  }
+}

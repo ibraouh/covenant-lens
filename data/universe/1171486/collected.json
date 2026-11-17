@@ -1,0 +1,208 @@
+{
+  "reports": [
+    {
+      "form": "10-Q",
+      "filed": "2026-11-04",
+      "period": "2026-09-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/1171486/000143774926034832/nrp20260930_10q.htm",
+      "job": "ratio-1171486-2026-09-30"
+    },
+    {
+      "form": "10-Q",
+      "filed": "2026-08-05",
+      "period": "2026-06-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/1171486/000143774926025856/nrp20260630_10q.htm",
+      "job": "ratio-1171486-2026-06-30"
+    },
+    {
+      "form": "10-Q",
+      "filed": "2026-05-06",
+      "period": "2026-03-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1171486/000143774926015150/nrp20260331_10q.htm",
+      "job": "ratio-1171486-2026-03-31"
+    },
+    {
+      "form": "10-K",
+      "filed": "2026-02-27",
+      "period": "2025-12-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1171486/000143774926006147/nrp20251231_10k.htm",
+      "job": "ratio-1171486-2025-12-31"
+    }
+  ],
+  "releases": [
+    {
+      "filed": "2026-11-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/1171486/000143774926034767/ex_1005011.htm",
+      "job": "ebitda-1171486-158fe4e795"
+    },
+    {
+      "filed": "2026-08-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/1171486/000143774926025784/ex_961869.htm",
+      "job": "ebitda-1171486-5c50c00e90"
+    },
+    {
+      "filed": "2026-05-06",
+      "url": "https://www.sec.gov/Archives/edgar/data/1171486/000143774926015012/ex_927507.htm",
+      "job": "ebitda-1171486-559255650e"
+    },
+    {
+      "filed": "2026-02-27",
+      "url": "https://www.sec.gov/Archives/edgar/data/1171486/000143774926005980/ex_887441.htm",
+      "job": "ebitda-1171486-07ef858d4f"
+    },
+    {
+      "filed": "2025-11-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/1171486/000143774925032873/ex_854772.htm",
+      "job": "ebitda-1171486-80afd3e9ce"
+    }
+  ],
+  "exhibits": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1171486/000117148616000033/exhibit101fourthamendmentt.htm",
+      "filed": "2016-03-22",
+      "exhibit": "EX-10.1",
+      "chars": 59669,
+      "job": "cover-1171486-79dfaaf6dc"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1171486/000117148616000046/exhibit101opcocreditfacili.htm",
+      "filed": "2016-06-07",
+      "exhibit": "EX-10.1",
+      "chars": 386292,
+      "job": "cover-1171486-772f9fb032"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1171486/000117148616000062/a2016form8-knpaamendmentex.htm",
+      "filed": "2016-09-12",
+      "exhibit": "EX-4.1",
+      "chars": 61738,
+      "job": "cover-1171486-addea425ef"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1171486/000117148617000009/exhibit103nrprevolveramend.htm",
+      "filed": "2017-03-06",
+      "exhibit": "EX-10.3",
+      "chars": 376142,
+      "job": "cover-1171486-e4864165c0"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1171486/000117148617000009/exhibit104nrp-exchangeandp.htm",
+      "filed": "2017-03-06",
+      "exhibit": "EX-10.4",
+      "chars": 644472,
+      "job": "cover-1171486-8887db22a4"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1171486/000117148617000009/exhibit101preferredunitand.htm",
+      "filed": "2017-03-06",
+      "exhibit": "EX-10.1",
+      "chars": 872900,
+      "job": "cover-1171486-be69590d3e"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1171486/000117148617000009/exhibit43newnrpindentureex.htm",
+      "filed": "2017-03-06",
+      "exhibit": "EX-4.3",
+      "chars": 332076,
+      "job": "cover-1171486-b54d95df40"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1171486/000117148619000015/a2019form8-krcfamendmentex.htm",
+      "filed": "2019-04-09",
+      "exhibit": "EX-10.1",
+      "chars": 27792,
+      "job": "cover-1171486-100c932d82"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1171486/000117148619000015/a2019form8-krcfamendment102.htm",
+      "filed": "2019-04-09",
+      "exhibit": "EX-10.2",
+      "chars": 7508,
+      "job": "cover-1171486-ae629b19ce"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1171486/000117148619000019/a2019form8-knotesclosing41.htm",
+      "filed": "2019-05-02",
+      "exhibit": "EX-4.1",
+      "chars": 315976,
+      "job": "cover-1171486-d8059ed6e3"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1171486/000117148622000037/a2022formcreditfacilityame.htm",
+      "filed": "2022-08-11",
+      "exhibit": "EX-10.1",
+      "chars": 428146,
+      "job": "cover-1171486-0f05166e0b"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1171486/000117148622000041/a2022formexerciseofaccordi.htm",
+      "filed": "2022-09-08",
+      "exhibit": "EX-10.1",
+      "chars": 8334,
+      "job": "cover-1171486-182d32b378"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1171486/000143774923014624/ex_519021.htm",
+      "filed": "2023-05-15",
+      "exhibit": "EX-10.1",
+      "chars": 23314,
+      "job": "cover-1171486-fdf990c6e6"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1171486/000143774923014624/ex_519022.htm",
+      "filed": "2023-05-15",
+      "exhibit": "EX-10.2",
+      "chars": 7833,
+      "job": "cover-1171486-8a5603537c"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1171486/000143774924003226/ex_621749.htm",
+      "filed": "2024-02-06",
+      "exhibit": "EX-10.1",
+      "chars": 8539,
+      "job": "cover-1171486-e6b6f6fa7f"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1171486/000143774924004832/ex_627159.htm",
+      "filed": "2024-02-20",
+      "exhibit": "EX-10.1",
+      "chars": 6693,
+      "job": "cover-1171486-0392d6b074"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1171486/000143774924031489/ex_732367.htm",
+      "filed": "2024-10-17",
+      "exhibit": "EX-10.1",
+      "chars": 23453,
+      "job": "cover-1171486-9d7d5dfca2"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1171486/000119312515227425/d943838dex102.htm",
+      "filed": "2015-06-18",
+      "exhibit": "EX-10.2",
+      "chars": 40152,
+      "job": "cover-1171486-f78cf522fe"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1171486/000119312515227425/d943838dex101.htm",
+      "filed": "2015-06-18",
+      "exhibit": "EX-10.1",
+      "chars": 330869,
+      "job": "cover-1171486-9d962da2b1"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1171486/000117148619000017/a2019form8-knpaex101.htm",
+      "filed": "2019-04-22",
+      "exhibit": "EX-10.1",
+      "chars": 97583,
+      "job": "cover-1171486-4117b7ddba"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1171486/000119312515227425/d943838dex41.htm",
+      "filed": "2015-06-18",
+      "exhibit": "EX-4.1",
+      "chars": 76799,
+      "job": "cover-1171486-5ba218bfbb"
+    }
+  ]
+}

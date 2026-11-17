@@ -1,0 +1,24 @@
+{
+  "job": "cover-1345126-711757f24d",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1345126/000134512617000053/a93017-exhibit101.htm"
+  },
+  "usage": {
+    "input_tokens": 3294,
+    "output_tokens": 109,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "is_loan_document": true,
+    "kind": "amendment",
+    "title": "First Refinancing Amendment",
+    "dated": "2017-10-25",
+    "amends_dated": "2014-06-06",
+    "primary_bank_facility": true,
+    "includes_conformed_copy": false,
+    "borrower": "Compass Group Diversified Holdings LLC"
+  }
+}

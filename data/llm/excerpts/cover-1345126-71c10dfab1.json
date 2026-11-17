@@ -1,0 +1,24 @@
+{
+  "job": "cover-1345126-71c10dfab1",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1345126/000134512616000085/a101incrementalfacilityame.htm"
+  },
+  "usage": {
+    "input_tokens": 3405,
+    "output_tokens": 111,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "is_loan_document": true,
+    "kind": "amendment",
+    "title": "First Incremental Facility Amendment",
+    "dated": "2016-08-31",
+    "amends_dated": "2014-06-06",
+    "primary_bank_facility": true,
+    "includes_conformed_copy": false,
+    "borrower": "Compass Group Diversified Holdings LLC"
+  }
+}

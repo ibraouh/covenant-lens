@@ -1,0 +1,22 @@
+{
+  "auto": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/71557/000151316224000083/exhibit10_1.htm",
+      "title": "Amended and Restated Credit Agreement",
+      "dated": "2024-06-21",
+      "kind": "amended_and_restated",
+      "filed": "2024-06-25"
+    }
+  ],
+  "notes": [],
+  "used": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/71557/000151316224000083/exhibit10_1.htm",
+      "title": "Amended and Restated Credit Agreement",
+      "dated": "2024-06-21",
+      "kind": "amended_and_restated",
+      "filed": "2024-06-25"
+    }
+  ],
+  "source": "automatic"
+}

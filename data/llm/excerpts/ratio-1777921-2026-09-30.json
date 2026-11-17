@@ -1,0 +1,19 @@
+{
+  "job": "ratio-1777921-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1777921/000143774926035271/avpt20260930_10q.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 4274,
+    "output_tokens": 238,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [],
+    "notes": "The excerpt describes covenant types but gives no numeric actual values or limits. The prior HSBC Loan Agreement required a minimum Consolidated Fixed Charge Coverage Ratio and a maximum Consolidated Total Leverage Ratio. The new JPM Credit Agreement (entered November 2, 2026) requires a maximum Senior Secured Net Leverage Ratio and a minimum Interest Coverage Ratio, each tested quarterly. The Company states it is in compliance and has not borrowed under the Credit Agreement. Leverage ratios mentioned for pricing (SOFR margin and unused fee) only set rates, so they are excluded."
+  }
+}

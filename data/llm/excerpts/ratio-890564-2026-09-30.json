@@ -1,0 +1,30 @@
+{
+  "job": "ratio-890564-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/890564/000089056426000056/asgn-20260930.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 3054,
+    "output_tokens": 311,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "leverage ratio (maximum ratio of senior secured debt to trailing-twelve-months of lender-defined consolidated EBITDA)",
+        "metric": "secured_leverage",
+        "period_end": "2026-09-30",
+        "actual": 2.12,
+        "limit": 3.75,
+        "direction": "max",
+        "facility": "senior secured credit facility (term loan B and $600.0 million revolver)",
+        "quote": "The leverage ratio was 2.12 to 1 at September 30, 2026."
+      }
+    ],
+    "notes": "The limit is 3.75x at September 30, 2026. It steps down to 3.50x beginning with the quarter ending June 30, 2027 and to 3.25x beginning with the quarter ending June 30, 2028. The ratio is senior secured debt to lender-defined TTM EBITDA. The book-to-bill and contract backlog coverage ratios are operating metrics, not covenants, and are excluded."
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "job": "ebitda-824142-2d272fb000",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/824142/000082414226000003/liveaaonpressreleaseexs.htm",
+    "filed": "2026-03-02"
+  },
+  "usage": {
+    "input_tokens": 3048,
+    "output_tokens": 519,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "label": "Adjusted EBITDA",
+    "figures": [
+      {
+        "period_end": "2025-12-31",
+        "months": 3,
+        "shown": "64,437",
+        "unit": "thousands",
+        "quote": "Adjusted EBITDA, a non-GAAP measure $ 64,437 $ 47,024 $ 231,255 $ 272,231"
+      },
+      {
+        "period_end": "2024-12-31",
+        "months": 3,
+        "shown": "47,024",
+        "unit": "thousands",
+        "quote": "Adjusted EBITDA, a non-GAAP measure $ 64,437 $ 47,024 $ 231,255 $ 272,231"
+      },
+      {
+        "period_end": "2025-12-31",
+        "months": 12,
+        "shown": "231,255",
+        "unit": "thousands",
+        "quote": "Adjusted EBITDA, a non-GAAP measure $ 64,437 $ 47,024 $ 231,255 $ 272,231"
+      },
+      {
+        "period_end": "2024-12-31",
+        "months": 12,
+        "shown": "272,231",
+        "unit": "thousands",
+        "quote": "Adjusted EBITDA, a non-GAAP measure $ 64,437 $ 47,024 $ 231,255 $ 272,231"
+      }
+    ],
+    "notes": "All four figures are taken from the reconciliation table of net income (GAAP) to EBITDA and Adjusted EBITDA; the table header states amounts are in thousands. Adjusted EBITDA is EBITDA adjusted for the Memphis incentive fee net of the profit sharing effect. That adjustment applies only to full-year 2025, so Adjusted EBITDA equals EBITDA in the other three periods."
+  }
+}

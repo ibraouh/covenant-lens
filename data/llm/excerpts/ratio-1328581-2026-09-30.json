@@ -1,0 +1,30 @@
+{
+  "job": "ratio-1328581-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1328581/000132858126000034/bcc-20260930.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 3307,
+    "output_tokens": 547,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "Net Leverage Ratio",
+        "metric": "net_leverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 3.5,
+        "direction": "max",
+        "facility": "Credit Agreement (JPMorgan Chase Bank, N.A., administrative agent; $450 million Revolver)",
+        "quote": "The Credit Agreement also contains a requirement that our Net Leverage Ratio shall not exceed 3.5 :1 as of the last day of any fiscal quarter."
+      }
+    ],
+    "notes": "The excerpt states only the covenant limit; it gives no actual Net Leverage Ratio. Four items were left out. The 3:1 Net Leverage Ratio threshold is a restricted-payment carve-out condition, not a maintenance covenant. The 3.5:1 consolidated leverage ratio in the 2030 Notes indenture is a bond indenture dividend test. The Net Leverage Ratio also sets the interest spread, and the 0.20%\u20130.30% unused commitment fee depends on it; both of those are pricing uses, not covenants."
+  }
+}

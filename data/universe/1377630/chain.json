@@ -1,0 +1,22 @@
+{
+  "auto": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1377630/000119312526396098/ncmi-ex10_1.htm",
+      "title": "Credit Agreement",
+      "dated": "2026-09-18",
+      "kind": "original",
+      "filed": "2026-09-21"
+    }
+  ],
+  "notes": [],
+  "used": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1377630/000119312526396098/ncmi-ex10_1.htm",
+      "title": "Credit Agreement",
+      "dated": "2026-09-18",
+      "kind": "original",
+      "filed": "2026-09-21"
+    }
+  ],
+  "source": "automatic"
+}

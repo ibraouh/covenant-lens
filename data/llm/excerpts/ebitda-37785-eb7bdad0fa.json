@@ -1,0 +1,35 @@
+{
+  "job": "ebitda-37785-eb7bdad0fa",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/37785/000003778526000036/fmcex991123125ng.htm",
+    "filed": "2026-02-04"
+  },
+  "usage": {
+    "input_tokens": 4972,
+    "output_tokens": 332,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "label": "Adjusted EBITDA",
+    "figures": [
+      {
+        "period_end": "2025-12-31",
+        "months": 3,
+        "shown": "280",
+        "unit": "millions",
+        "quote": "Fourth quarter Adjusted EBITDA of $280 million was 17 percent lower than prior-year period which included India."
+      },
+      {
+        "period_end": "2025-12-31",
+        "months": 12,
+        "shown": "843",
+        "unit": "millions",
+        "quote": "Full year Adjusted EBITDA of $843 million was down 7 percent versus prior year."
+      }
+    ],
+    "notes": "The excerpt has no reconciliation table; both figures come from the narrative text. Prior-year amounts are not printed, only percentage changes: Q4 down 17 percent and full year down 7 percent. The 2026 guidance ranges are forecasts and are excluded."
+  }
+}

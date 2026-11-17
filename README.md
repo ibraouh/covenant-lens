@@ -9,7 +9,39 @@ When a company borrows from banks, the loan contract usually caps how indebted i
 ## Results
 
 <!--RESULTS-->
-A full run over 33 borrowers is in progress; its scores will replace this section. Verified so far, on the three hand-labeled agreements (8x8, Casella Waste, Varex Imaging): Claude Opus found 8 of 8 covenants with the right direction, limits, step-downs and EBITDA add-backs, and all 8 quotes were found word for word in the filings. Against the 8 quarters of covenant ratios Casella publishes, debt and netted cash matched the company's own figures to within $0.1M; the estimate from GAAP line items ran about 20% high because the contract's EBITDA counts acquisitions for a full year.
+Run of November 17, 2026: 29 public borrowers with agreements read, picked from 246 companies whose 10-Qs mention covenant ratios. Every number below is recomputed by `build` and shown on the dashboard.
+
+**Reading the contract.** Graded against the limits companies report in their 10-Qs (from the compliance certificates they send lenders), for quarters on or after the latest amendment Claude read:
+
+| Check | Result |
+|---|---|
+| Covenant limit matches what the company reports | **96 / 100** |
+| Covenants the company reports that Claude found in the contract | 166 / 172 |
+| Covenant quotes found word for word in the filing | 63 / 64 |
+| Lender-protection quotes found word for word | 83 / 84 |
+| Hand-labeled agreements (8 covenants, every field) | 8 / 8 |
+
+The four limit misses: three are Mayville Engineering, whose amended agreement marks deleted terms with strikethrough, which the HTML-to-text step was dropping, so deleted limits read as live. The eval caught it; deleted text is now removed, and the nine agreements with strikethrough are queued for a fresh read. The fourth is National CineMedia, where Claude mapped "Q4 2026" to December when NCM's fiscal quarter ends October 1. The one failed quote is Blackbaud's, which quoted deleted text and is now correctly flagged.
+
+**Finding the contract.** On the three hand-labeled borrowers, the agreement finder picked the same documents I did for 8x8 and Varex, and for Casella it also found a 2025 amendment I had missed (it changes only a pricing table). When an original agreement predates the search window, the finder follows the amendments back to it.
+
+**Doing the math.** On the 33 borrower-quarters where both estimates exist, the median error against the company's reported ratio is **8.5%** when EBITDA is rebuilt from GAAP line items and **4.8%** when it comes from the company's own adjusted EBITDA. Where the company spells out its inputs (Casella), debt and netted cash match its figures to within $0.1M; the gap is EBITDA, because contracts add back items public data doesn't show.
+
+**Which model.** The same 11 agreement chains read by three models, same prompt and settings ([full table](evals/model_comparison.md)):
+
+| Model | Limits match | Covenant quotes verified | Hand labels | Cost per agreement (Batch API) |
+|---|---|---|---|---|
+| Claude Opus 5.5 | 53 / 56 | 28 / 29 | 8 / 8 | $0.52 |
+| Claude Sonnet 5.5 | 51 / 56 | 27 / 29 | 8 / 8 | $0.25 |
+| Claude Haiku 5.5 | 51 / 56 | 24 / 28 | 7 / 8 | $0.06 |
+
+Opus reads limits and quotes most reliably; Sonnet is close at half the price; Haiku costs a ninth as much and slips mainly on exact quotes. For a monitoring job where a wrong limit costs more than a dollar, Opus is the default.
+
+**Asking questions.** Six questions across three agreements, answered with citations: all 58 cited passages were found in the filings. The first question on a contract costs $0.99 to $1.52 (the contract goes into the prompt cache); the follow-up costs $0.07 to $0.09.
+
+**Cost.** $31.26 for the whole run, including screening 240 filings, reading 30 agreement chains ($13.83), the model comparison and the questions. See `python -m covenant_lens costs`.
+
+**One real flag.** Nuvera Communications reported a debt service coverage ratio of 1.99 against a 2.00 minimum at June 30, 2026, below its covenant with CoBank; its next 10-Q describes a new loan facility. It tops the watchlist as the only reported miss.
 
 ## How it works
 

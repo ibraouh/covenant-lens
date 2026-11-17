@@ -1,0 +1,24 @@
+{
+  "job": "cover-319201-be653b9b9d",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/319201/000119312525156593/d56185dex101.htm"
+  },
+  "usage": {
+    "input_tokens": 4226,
+    "output_tokens": 90,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "is_loan_document": true,
+    "kind": "original",
+    "title": "Credit Agreement",
+    "dated": "2025-07-03",
+    "amends_dated": null,
+    "primary_bank_facility": true,
+    "includes_conformed_copy": false,
+    "borrower": "KLA Corporation"
+  }
+}

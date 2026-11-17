@@ -1,0 +1,30 @@
+{
+  "job": "ratio-891014-2026-10-04",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/891014/000089101426000204/form10q.htm",
+    "period": "2026-10-04"
+  },
+  "usage": {
+    "input_tokens": 4481,
+    "output_tokens": 362,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "Net Leverage Ratio",
+        "metric": "net_leverage",
+        "period_end": "2026-10-04",
+        "actual": null,
+        "limit": 4.0,
+        "direction": "max",
+        "facility": "Amended Credit Agreement and 2026 Amended Credit Agreement",
+        "quote": "In addition, the Amended Credit Agreement and the 2026 Amended Credit Agreement contain a financial covenant that requires the Company to maintain a maximum Net Leverage Ratio of 4.00 to 1.00 for each four fiscal quarter period (subject to an increase to 5.00 to 1.00 for four quarters in connection with certain significant acquisitions)."
+      }
+    ],
+    "notes": "The filing does not give the actual Net Leverage Ratio; it states only that the Company was in compliance with all covenants. The 4.00x maximum can rise to 5.00x for four quarters after certain significant acquisitions. The 3.00x, 2.00x and 1.00x Net Leverage thresholds only set the revolver interest margin and commitment fee, so they are excluded."
+  }
+}

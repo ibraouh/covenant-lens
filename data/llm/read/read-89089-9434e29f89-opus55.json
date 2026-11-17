@@ -1,0 +1,93 @@
+{
+  "job": "read-89089-9434e29f89-opus55",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "cik": "89089",
+    "docs": [
+      "https://www.sec.gov/Archives/edgar/data/89089/000008908925000097/sci2025creditagreement.htm"
+    ]
+  },
+  "usage": {
+    "input_tokens": 167622,
+    "output_tokens": 4627,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "borrower": "Service Corporation International",
+    "agreement_date": "2025-11-20",
+    "covenants": [
+      {
+        "name": "Consolidated Total Net Leverage Ratio",
+        "metric": "net_leverage",
+        "direction": "max",
+        "thresholds": [
+          {
+            "value": 5.0,
+            "applies_from": null
+          }
+        ],
+        "test_frequency": "quarterly",
+        "springing_condition": null,
+        "section": "Section 6.12",
+        "quote": "The Company will not permit the Consolidated Total Net Leverage Ratio as of the last day of any Test Period to exceed 5.00 to 1.00; provided that, upon the consummation of a Qualified Material Acquisition, with respect to the fiscal quarter in which such Qualified Material Acquisition is consummated and the subsequent three consecutive fiscal quarters, the maximum permitted Consolidated Total Net Leverage Ratio set forth above shall, at the election of the Company by written notice to the Administrative Agent, be increased to 5.50 to 1.00 (a \u201cLeverage Increase Election\u201d); provided further that not more than two Leverage Increase Elections may be made since the Effective Date.",
+        "ebitda_addbacks": [
+          "stock_comp",
+          "impairments",
+          "restructuring",
+          "other"
+        ],
+        "cash_netting_cap": null,
+        "cash_netting_cap_pct_ebitda": null
+      }
+    ],
+    "notes": "Single maintenance covenant: max Consolidated Total Net Leverage Ratio of 5.00x, tested on the last day of each Test Period (rolling four quarters), applying to both revolver and term loan. The borrower may elect a temporary step-up to 5.50x for the quarter in which a Qualified Material Acquisition (cash consideration of $250M or more) closes and the next three quarters; at most two such elections over the life of the deal. Restricted payments made during Leverage Increase Election periods are capped at $300M in aggregate. Net debt deducts 100% of unrestricted cash and Cash Equivalents with no dollar cap. Debt counts borrowed money, capital leases and notes/bonds; undrawn letters of credit are excluded. EBITDA starts from consolidated operating income, not net income. Add-backs include: impairments and losses on asset sales; D&A; non-cash stock comp; other non-cash expenses; restructuring, integration, severance and similar costs for 24 months; run-rate cost savings and synergies with a 24-month realization window; transaction fees, including for deals not completed; extraordinary, nonrecurring or unusual losses; and mark-to-market hedge losses. Surety premiums are deducted. Restructuring/integration costs (clause (e)) and run-rate synergies (clause (l)) together are capped at 25% of Consolidated EBITDA. ASC 842 lease liabilities are excluded from debt. The facility is unsecured and guaranteed by material wholly-owned domestic subsidiaries. There is no unrestricted subsidiary concept; all subsidiaries are restricted. A mandatory term loan prepayment from asset sale proceeds applies when pro forma net leverage is 4.00x or higher, with reinvestment allowed if 5.00x or lower. Releasing all or substantially all guarantee value requires all-lender consent. Incremental capacity is $750M.",
+    "facility": "$1.75B senior unsecured revolving credit facility and $750M Tranche A term loan, both maturing on the fifth anniversary of the Effective Date (about November 2030), plus $750M incremental capacity",
+    "terms": [
+      {
+        "kind": "j_crew_blocker",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "The agreement has no unrestricted subsidiary mechanism and no specific restriction on transferring or exclusively licensing material IP. IP licensing in the ordinary course is expressly permitted."
+      },
+      {
+        "kind": "serta_protection",
+        "present": "yes",
+        "section": "Section 9.02(b)(F)",
+        "quote": "change Section 2.07(c) in a manner that would alter the ratable reduction of the Commitments required thereby, change Section 2.17(b) or (c) in a manner that would alter the pro rata sharing of payments required thereby, or change the payment waterfall provisions of Section 7.02 (or otherwise expressly subordinate in right of payment any of the Loan Document Obligations), in each case, without the written consent of each Lender adversely affected thereby",
+        "summary": "Expressly subordinating the loans in right of payment, or changing pro rata sharing or the payment waterfall, requires the consent of each adversely affected lender. The loans are unsecured, so lien subordination is not relevant."
+      },
+      {
+        "kind": "chewy_protection",
+        "present": "partial",
+        "section": "Section 9.15(b)",
+        "quote": "(ii) in the case of any such release of any Subsidiary Guarantor on account of it ceasing to be a Designated Subsidiary as a result of not being a Wholly-Owned Subsidiary, such Subsidiary Guarantor ceased to be a Wholly-Owned Subsidiary as a result of the consummation of a bona fide transaction entered into for a valid business purpose and not undertaken for the primary purpose of obtaining the release of such Subsidiary Guarantor from its obligations under the Guarantee Agreement.",
+        "summary": "A guarantor that stops being wholly owned is released only if no Default exists and the transaction was bona fide, for a valid business purpose and not primarily aimed at obtaining the release. It is still released in a qualifying bona fide transaction."
+      },
+      {
+        "kind": "unrestricted_sub_cap",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "There are no unrestricted subsidiaries, so there is no designation cap. Investments by loan parties in non-guarantor subsidiaries and JVs are capped at $300M under Section 6.06(b)/(c), but the general basket in Section 6.06(u) allows unlimited investments subject to pro forma covenant compliance."
+      },
+      {
+        "kind": "addback_cap",
+        "present": "yes",
+        "section": "Section 1.01 (definition of \"EBITDA\")",
+        "quote": "Notwithstanding the foregoing, the aggregate amount of the add-backs permitted pursuant to clauses (e) and (l) above, shall not exceed 25% of Consolidated EBITDA for the applicable four quarter period (calculated after giving effect to any such add-backs).",
+        "summary": "Restructuring, integration and business-optimization costs (clause (e)) and run-rate cost savings and synergies (clause (l)) together are capped at 25% of Consolidated EBITDA, measured after the add-backs. Transaction fees and nonrecurring items are not subject to the cap."
+      },
+      {
+        "kind": "equity_cure",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "The agreement contains no equity cure right for the financial covenant; a breach of Section 6.12 is an immediate Event of Default under Section 7.01(d)."
+      }
+    ],
+    "addback_cap_pct": 0.25
+  }
+}

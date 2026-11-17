@@ -1,0 +1,168 @@
+{
+  "job": "read-1345126-2939196a27-haiku55",
+  "model": "claude-haiku-5-5",
+  "meta": {
+    "cik": "1345126",
+    "docs": [
+      "https://www.sec.gov/Archives/edgar/data/1345126/000134512626000062/exhibit101-sixthcreditfaci.htm"
+    ]
+  },
+  "usage": {
+    "input_tokens": 225625,
+    "output_tokens": 3546,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "borrower": "Compass Group Diversified Holdings LLC",
+    "agreement_date": "2022-07-12",
+    "covenants": [
+      {
+        "name": "Consolidated Total Leverage Ratio",
+        "metric": "total_leverage",
+        "direction": "max",
+        "thresholds": [
+          {
+            "value": 5.0,
+            "applies_from": "2022-06-30"
+          },
+          {
+            "value": 5.75,
+            "applies_from": "2025-12-31"
+          },
+          {
+            "value": 5.25,
+            "applies_from": "2026-12-31"
+          },
+          {
+            "value": 5.0,
+            "applies_from": "2027-06-30"
+          },
+          {
+            "value": 4.5,
+            "applies_from": "2027-12-31"
+          }
+        ],
+        "test_frequency": "quarterly",
+        "springing_condition": null,
+        "section": "Section 7.11(a)",
+        "quote": "(i) commencing with the fiscal quarter of the Borrower ending June 30, 2022 and continuing through the fiscal quarter of the Borrower ending March 31, 2025, permit the Consolidated Total Leverage Ratio as of the end of any fiscal quarter of the Borrower to be greater than 5.00 to 1.00, (ii) for the fiscal quarters of the Borrower ending December 31, 2025, March 31, 2026, June 30, 2026, and September 30, 2026, permit the Consolidated Total Leverage Ratio as of the end of such fiscal quarter of the Borrower to be greater than 5.75 to 1.00, (iii) for the fiscal quarters of the Borrower ending December 31, 2026 and March 31, 2027, permit the Consolidated Total Leverage Ratio as of the end of such fiscal quarter of the Borrower to be greater than 5.25 to 1.00, and (iv) for the fiscal quarters of the Borrower ending June 30, 2027 and September 30, 2027, permit the Consolidated Total Leverage Ratio as of the end of such fiscal quarter of the Borrower to be greater than 5.00 to 1.00 and (v) continuing at all times thereafter, permit the Consolidated Total Leverage Ratio as of the end of any fiscal quarter of the Borrower to be greater than 5.00 4.50 to 1.00.",
+        "ebitda_addbacks": [
+          "stock_comp",
+          "impairments",
+          "restructuring"
+        ],
+        "cash_netting_cap": 25000000.0,
+        "cash_netting_cap_pct_ebitda": null
+      },
+      {
+        "name": "Consolidated Senior Secured Leverage Ratio",
+        "metric": "secured_net_leverage",
+        "direction": "max",
+        "thresholds": [
+          {
+            "value": 3.5,
+            "applies_from": "2022-06-30"
+          },
+          {
+            "value": 2.5,
+            "applies_from": "2025-12-31"
+          }
+        ],
+        "test_frequency": "quarterly",
+        "springing_condition": null,
+        "section": "Section 7.11(b)",
+        "quote": "(i) commencing with the fiscal quarter of the Borrower ending June 30, 2022 and continuing through the fiscal quarter of the Borrower ending March 31, 2025, permit the Consolidated Senior Secured Leverage Ratio as of the end of any fiscal quarter of the Borrower to be greater than 3.50 to 1.00, and (ii) commencing with the fiscal quarter of the Borrower ending December 31, 2025 and continuing at all times thereafter, permit the Consolidated Senior Secured Leverage Ratio as of the end of any fiscal quarter of the Borrower to be greater than 2.50 to 1.00.",
+        "ebitda_addbacks": [
+          "stock_comp",
+          "impairments",
+          "restructuring"
+        ],
+        "cash_netting_cap": 25000000.0,
+        "cash_netting_cap_pct_ebitda": null
+      },
+      {
+        "name": "Consolidated Fixed Charge Coverage Ratio",
+        "metric": "fixed_charge_coverage",
+        "direction": "min",
+        "thresholds": [
+          {
+            "value": 1.5,
+            "applies_from": "2022-06-30"
+          },
+          {
+            "value": 1.0,
+            "applies_from": "2025-12-31"
+          },
+          {
+            "value": 1.1,
+            "applies_from": "2026-12-31"
+          },
+          {
+            "value": 1.5,
+            "applies_from": "2027-06-30"
+          }
+        ],
+        "test_frequency": "quarterly",
+        "springing_condition": null,
+        "section": "Section 7.11(c)",
+        "quote": "Commencing with (i) the fiscal quarter of the Borrower ending June 30, 2022 and continuing through the fiscal quarter of the Borrowing ending March 31, 2025, permit the Consolidated Fixed Charge Coverage Ratio as of the end of any fiscal quarter of the Borrower to be less than 1.50 to 1.00, (ii) for the fiscal quarters of the Borrower ending December 31, 2025, March 31, 2026, June 30, 2026, and September 30, 2026, permit the Consolidated Fixed Charge Coverage Ratio as of the end of any such fiscal quarter of the Borrower to be less than 1.00 to 1.00, (iii) for the fiscal quarters ending December 31, 2026 and March 31, 2027, permit the Consolidated Fixed Charge Coverage Ratio as of the end of any such fiscal quarter of the Borrower to be less than 1.10 to 1.00, and (iv) continuing at all times thereafter, permit the Consolidated Fixed Charge Coverage Ratio as of the end of any fiscal quarter to be less than 1.50 to 1.00.",
+        "ebitda_addbacks": [
+          "stock_comp",
+          "impairments",
+          "restructuring"
+        ],
+        "cash_netting_cap": null,
+        "cash_netting_cap_pct_ebitda": null
+      }
+    ],
+    "notes": "Sixth Amendment dated August 6, 2026 to the Third Amended and Restated Credit Agreement dated July 12, 2022. The covenant text above is the amended text in Section 7.11 of the Amended Credit Agreement as shown in the exhibit. The Consolidated EBITDA definition here is built from Portfolio Company EBITDA, which adds back non-cash charges and one-time closing and integration costs for add-on acquisitions (with caps) rather than expressly listing stock compensation, impairments or restructuring; the add-back flags are set conservatively to reflect general non-cash expense add-backs (clause vii) and integration/closing costs, and should be verified. Section 7.11 also has a holiday: no default for quarters ending June 30, 2025 and September 30, 2025. The Fixed Charge Coverage Ratio is not a springing test; it is tested quarterly. Consolidated Net Indebtedness nets cash only in the Borrower's accounts subject to control and up to $25,000,000 of Unrestricted Cash of Portfolio Companies. The Sixth Amendment restates the Revolving Commitment and maturity dates (maturity January 12, 2028 per the amended text). Section 7.11 also states the leverage step-down to 4.50 applies at all times thereafter, which is an amended step-down; the amendment's marked text is ambiguous in places and the analyst should check the signed Amended Credit Agreement. Covenant limit steps in the amended text are as quoted.",
+    "facility": "Revolving commitments (aggregate $100,000,000 as amended, subject to reduction), a Term Loan (original $400,000,000, partly amortizing with balloon at maturity), and an Incremental Delayed Draw Term Loan ($100,000,000 commitment as of January 9, 2025); revolver and term loan maturities extended under the Sixth Amendment.",
+    "terms": [
+      {
+        "kind": "j_crew_blocker",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "The agreement contains no restriction on transferring or exclusively licensing material IP to unrestricted subsidiaries or on designating an IP-owning subsidiary as unrestricted. Section 7.02 Investments and Section 7.05 Dispositions do not address this specific risk."
+      },
+      {
+        "kind": "serta_protection",
+        "present": "yes",
+        "section": "Section 10.01(a)(vi)",
+        "quote": "(vi) subordinate, or have the effect of subordinating, the Obligations to any other Indebtedness or other obligation or, except as permitted by Section 9.10(b) as in effect on the Closing Date, subordinate, or have the effect of subordinating, the Liens securing the Obligations to Liens securing any other Indebtedness or other obligation, in each case without the written consent of each Lender directly affected thereby;",
+        "summary": "Subordinating the loans or their liens to other debt requires the consent of each directly affected lender, which addresses the Serta-style non-pro-rata subordination risk."
+      },
+      {
+        "kind": "chewy_protection",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "The agreement does not expressly provide that a guarantor is not released merely because it ceases to be wholly owned. Section 10.01(a)(viii) requires consent of each Lender to release the Borrower but does not address guarantor release on loss of wholly-owned status."
+      },
+      {
+        "kind": "unrestricted_sub_cap",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "There is no unrestricted subsidiary concept or hard dollar cap on investments in or designation of unrestricted subsidiaries. The agreement instead uses Portfolio Company, Outside Company and Investment baskets, with Section 7.02(p) allowing other Investments up to $10,000,000 outstanding."
+      },
+      {
+        "kind": "addback_cap",
+        "present": "partial",
+        "section": "Portfolio Company EBITDA definition, clause (ix)",
+        "quote": "(A) the aggregate amount of all such integration costs with respect to such Target so added back to the Portfolio Company EBITDA of such Portfolio Company pursuant to this clause (ix) does not exceed the lesser of (I) fifteen percent (15%) of the amount of the Portfolio Company EBITDA of such Portfolio Company (after giving effect to the consummation of the Acquisition of the applicable add-on Target and as of the date thereof) and (II) forty percent (40%) of the pro forma EBITDA of the applicable add-on Target,",
+        "summary": "Integration costs for add-on acquisitions are capped at the lesser of 15% of Portfolio Company EBITDA and 40% of the target's pro forma EBITDA, for 24 months after the acquisition. There is no general cap on projected cost savings or synergies, so this is a partial cap."
+      },
+      {
+        "kind": "equity_cure",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "The agreement contains no equity cure right. Financial covenant breaches are not curable by new equity contributions, and the only relief is the Section 7.11 holiday for the quarters ending June 30, 2025 and September 30, 2025."
+      }
+    ],
+    "addback_cap_pct": 0.15
+  }
+}

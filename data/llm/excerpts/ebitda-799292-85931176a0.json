@@ -1,0 +1,49 @@
+{
+  "job": "ebitda-799292-85931176a0",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/799292/000079929226000030/exhibit991earningspressrel.htm",
+    "filed": "2026-10-21"
+  },
+  "usage": {
+    "input_tokens": 1924,
+    "output_tokens": 568,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "label": "Adjusted EBITDA",
+    "figures": [
+      {
+        "period_end": "2026-09-30",
+        "months": 3,
+        "shown": "103,439",
+        "unit": "thousands",
+        "quote": "Adjusted EBITDA $ 103,439 $ 156,576 $ 323,356 $ 479,949"
+      },
+      {
+        "period_end": "2025-09-30",
+        "months": 3,
+        "shown": "156,576",
+        "unit": "thousands",
+        "quote": "Adjusted EBITDA $ 103,439 $ 156,576 $ 323,356 $ 479,949"
+      },
+      {
+        "period_end": "2026-09-30",
+        "months": 9,
+        "shown": "323,356",
+        "unit": "thousands",
+        "quote": "Adjusted EBITDA $ 103,439 $ 156,576 $ 323,356 $ 479,949"
+      },
+      {
+        "period_end": "2025-09-30",
+        "months": 9,
+        "shown": "479,949",
+        "unit": "thousands",
+        "quote": "Adjusted EBITDA $ 103,439 $ 156,576 $ 323,356 $ 479,949"
+      }
+    ],
+    "notes": "The reconciliation table's header is cut off in the excerpt, so the column periods and unit are not shown directly. I inferred them. The column order (three months 2026, three months 2025, nine months 2026, nine months 2025, all ended September 30) follows the layout of the other tables in the release. The unit is given as thousands because the figures are consistent with the reconciliation's other line items and M/I Homes' usual reporting in thousands."
+  }
+}

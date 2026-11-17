@@ -1,0 +1,35 @@
+{
+  "job": "ebitda-832101-9b6a987cd8",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/832101/000162828025046909/iex-20250930xex991.htm",
+    "filed": "2025-10-29"
+  },
+  "usage": {
+    "input_tokens": 4449,
+    "output_tokens": 671,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "label": "Adjusted EBITDA",
+    "figures": [
+      {
+        "period_end": "2025-09-30",
+        "months": 3,
+        "shown": "239.8",
+        "unit": "millions",
+        "quote": "Adjusted EBITDA* 239.8 214.3 25.5"
+      },
+      {
+        "period_end": "2024-09-30",
+        "months": 3,
+        "shown": "214.3",
+        "unit": "millions",
+        "quote": "Adjusted EBITDA* 239.8 214.3 25.5"
+      }
+    ],
+    "notes": "Figures come from the third-quarter summary table of non-GAAP results; the definitions section calls the measure 'Consolidated Adjusted EBITDA'. The excerpt cuts off before the Adjusted EBITDA reconciliation table, so no nine-month figures are shown. The unit header for the summary table is also cut off. Millions is inferred because adjusted gross profit in the same table (391.2 and 356.0) matches Table 2, which is labelled 'dollars in millions'. Segment Adjusted EBITDA figures (HST, FMT, FSDP) were excluded."
+  }
+}

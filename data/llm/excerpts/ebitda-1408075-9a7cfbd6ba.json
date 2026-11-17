@@ -1,0 +1,56 @@
+{
+  "job": "ebitda-1408075-9a7cfbd6ba",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1408075/000140807526000016/gpkexhibit9912026q18-k.htm",
+    "filed": "2026-05-05"
+  },
+  "usage": {
+    "input_tokens": 4682,
+    "output_tokens": 461,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "label": "Adjusted EBITDA",
+    "figures": [
+      {
+        "period_end": "2026-03-31",
+        "months": 3,
+        "shown": "232",
+        "unit": "millions",
+        "quote": "Adjusted EBITDA $ 232 $ 365"
+      },
+      {
+        "period_end": "2025-03-31",
+        "months": 3,
+        "shown": "365",
+        "unit": "millions",
+        "quote": "Adjusted EBITDA $ 232 $ 365"
+      },
+      {
+        "period_end": "2026-03-31",
+        "months": 12,
+        "shown": "1,262",
+        "unit": "millions",
+        "quote": "Adjusted EBITDA $ 1,262 $ 1,604 $ 1,395"
+      },
+      {
+        "period_end": "2025-03-31",
+        "months": 12,
+        "shown": "1,604",
+        "unit": "millions",
+        "quote": "Adjusted EBITDA $ 1,262 $ 1,604 $ 1,395"
+      },
+      {
+        "period_end": "2025-12-31",
+        "months": 12,
+        "shown": "1,395",
+        "unit": "millions",
+        "quote": "Adjusted EBITDA $ 1,262 $ 1,604 $ 1,395"
+      }
+    ],
+    "notes": "Quarterly figures come from the three-month reconciliation table (in millions). The trailing twelve-month figures (to March 31, 2026, March 31, 2025, and full year to December 31, 2025) come from the net leverage reconciliation table. The 2026 guidance of $1.05 billion to $1.25 billion is excluded."
+  }
+}

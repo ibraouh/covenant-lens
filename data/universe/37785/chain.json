@@ -1,0 +1,52 @@
+{
+  "auto": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/37785/000119312526163937/d81650dex101.htm",
+      "title": "Amendment No. 6",
+      "dated": "2026-04-16",
+      "kind": "amendment",
+      "filed": "2026-04-20"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/37785/000119312526279416/d123428dex101.htm",
+      "title": "Amendment No. 7",
+      "dated": "2026-06-16",
+      "kind": "amendment",
+      "filed": "2026-06-23"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/37785/000119312526427896/d201698dex101.htm",
+      "title": "Amendment, Consent and Waiver No. 8",
+      "dated": "2026-10-15",
+      "kind": "amendment",
+      "filed": "2026-10-21"
+    }
+  ],
+  "notes": [
+    "Amendment No. 6 restates the full agreement; used as the base"
+  ],
+  "used": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/37785/000119312526163937/d81650dex101.htm",
+      "title": "Amendment No. 6",
+      "dated": "2026-04-16",
+      "kind": "amendment",
+      "filed": "2026-04-20"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/37785/000119312526279416/d123428dex101.htm",
+      "title": "Amendment No. 7",
+      "dated": "2026-06-16",
+      "kind": "amendment",
+      "filed": "2026-06-23"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/37785/000119312526427896/d201698dex101.htm",
+      "title": "Amendment, Consent and Waiver No. 8",
+      "dated": "2026-10-15",
+      "kind": "amendment",
+      "filed": "2026-10-21"
+    }
+  ],
+  "source": "automatic"
+}

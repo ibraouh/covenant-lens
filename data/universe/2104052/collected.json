@@ -1,0 +1,46 @@
+{
+  "reports": [
+    {
+      "form": "10-Q",
+      "filed": "2026-11-05",
+      "period": "2026-09-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/2104052/000210405226000143/nvri-20260930.htm",
+      "job": "ratio-2104052-2026-09-30"
+    },
+    {
+      "form": "10-Q",
+      "filed": "2026-08-11",
+      "period": "2026-06-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/2104052/000210405226000128/nvri-20260630.htm",
+      "job": "ratio-2104052-2026-06-30"
+    },
+    {
+      "form": "10-Q",
+      "filed": "2026-06-08",
+      "period": "2026-03-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/2104052/000210405226000081/nvriwi-20260331.htm",
+      "job": "ratio-2104052-2026-03-31"
+    }
+  ],
+  "releases": [
+    {
+      "filed": "2026-11-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/2104052/000210405226000141/pressreleasefinancialstate.htm",
+      "job": "ebitda-2104052-2d904db2b4"
+    },
+    {
+      "filed": "2026-08-11",
+      "url": "https://www.sec.gov/Archives/edgar/data/2104052/000210405226000126/pressreleasefinancialstate.htm",
+      "job": "ebitda-2104052-387833bc11"
+    }
+  ],
+  "exhibits": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/2104052/000119312526251752/d258410dex102.htm",
+      "filed": "2026-06-01",
+      "exhibit": "EX-10.2",
+      "chars": 8373,
+      "job": "cover-2104052-a2098a0ab0"
+    }
+  ]
+}

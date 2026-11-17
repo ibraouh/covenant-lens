@@ -1,0 +1,40 @@
+{
+  "job": "ratio-71557-2025-12-31",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/71557/000143774926008309/nuvr20251231_10k.htm",
+    "period": "2025-12-31"
+  },
+  "usage": {
+    "input_tokens": 6164,
+    "output_tokens": 531,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "Total Leverage Ratio",
+        "metric": "total_leverage",
+        "period_end": "2025-12-31",
+        "actual": 4.97,
+        "limit": 6.0,
+        "direction": "max",
+        "facility": "CoBank, ACB credit facility",
+        "quote": "Our current Total Leverage Ratio as of December 31, 2025, was 4.97. Our maximum Total Leverage Ratio under the loan facility is 6.00:1.00."
+      },
+      {
+        "covenant_name": "Debt service coverage ratio",
+        "metric": "other",
+        "period_end": "2025-12-31",
+        "actual": null,
+        "limit": null,
+        "direction": "min",
+        "facility": "CoBank, ACB credit facility",
+        "quote": "These financial ratios include Total Leverage Ratio and debt service coverage ratio. As of December 31, 2025, we were in compliance with all the stipulated financial ratios in our loan agreements."
+      }
+    ],
+    "notes": "The maximum Total Leverage Ratio is 6.00:1.00; some passages write it as \"6:00:1:00\" or \"6:00:1.00\". The 4.25x and 3.50x thresholds only govern dividend capacity: up to $3.0M per year at 4.25x or less, unlimited at 3.50x or less. They are not maintenance covenants, so they are not listed. At 4.97x the company is above both dividend thresholds. The company says it was in compliance at 2024-12-31 but gives no ratio for that date. No actual figure or limit is disclosed for the debt service coverage ratio, and its min direction is assumed. Leverage-based pricing margins are excluded."
+  }
+}

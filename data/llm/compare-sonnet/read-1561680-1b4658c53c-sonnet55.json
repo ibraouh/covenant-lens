@@ -1,0 +1,148 @@
+{
+  "job": "read-1561680-1b4658c53c-sonnet55",
+  "model": "claude-sonnet-5-5",
+  "meta": {
+    "cik": "1561680",
+    "docs": [
+      "https://www.sec.gov/Archives/edgar/data/1561680/000156168025000096/sixthmodificationagreement.htm",
+      "https://www.sec.gov/Archives/edgar/data/1561680/000156168026000018/seventhmodificationagreeme.htm"
+    ]
+  },
+  "usage": {
+    "input_tokens": 202756,
+    "output_tokens": 5334,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "borrower": "Tri Pointe Homes, Inc.",
+    "agreement_date": "2019-03-29",
+    "covenants": [
+      {
+        "name": "Consolidated Tangible Net Worth Test",
+        "metric": "other",
+        "direction": "min",
+        "thresholds": [
+          {
+            "value": 2222822000.0,
+            "applies_from": null
+          }
+        ],
+        "test_frequency": "quarterly",
+        "springing_condition": null,
+        "section": "Section 6.19(a)",
+        "quote": "The Borrower shall not permit Consolidated Tangible Net Worth (monitored and tested quarterly as of the last day of each fiscal quarter) to be less than (i) $2,222,822,000.00, plus (ii) 50% of the cumulative Consolidated Net Income for each fiscal quarter commencing after December 31, 2024 (excluding any quarter in which there is a loss but applying Consolidated Net Income thereafter first to such loss before determining 50% of such amount for purposes of this calculation), plus (iii) 50% of the aggregate proceeds received by the Borrower (net of reasonable fees and expenses) in connection with any public offering of stock or equity (for the avoidance of doubt, an offering of convertible notes shall not be deemed to be an offering of equity) in each fiscal quarter after December 31, 2024 (the \u201cConsolidated Tangible Net Worth Test\u201d).",
+        "ebitda_addbacks": [],
+        "cash_netting_cap": null,
+        "cash_netting_cap_pct_ebitda": null
+      },
+      {
+        "name": "Leverage Test (Leverage Ratio)",
+        "metric": "other",
+        "direction": "max",
+        "thresholds": [
+          {
+            "value": 60.0,
+            "applies_from": null
+          }
+        ],
+        "test_frequency": "quarterly",
+        "springing_condition": null,
+        "section": "Section 6.19(b)",
+        "quote": "The Borrower shall not permit the Leverage Ratio (monitored and tested quarterly as of the last day of each fiscal quarter) to exceed 60% (the \u201cLeverage Test\u201d).",
+        "ebitda_addbacks": [],
+        "cash_netting_cap": null,
+        "cash_netting_cap_pct_ebitda": null
+      },
+      {
+        "name": "Interest Coverage Test (Interest Coverage Ratio)",
+        "metric": "interest_coverage",
+        "direction": "min",
+        "thresholds": [
+          {
+            "value": 1.5,
+            "applies_from": null
+          }
+        ],
+        "test_frequency": "quarterly",
+        "springing_condition": null,
+        "section": "Section 6.19(c)",
+        "quote": "The Borrower shall not permit the Interest Coverage Ratio (monitored and tested quarterly as of the last day of each fiscal quarter) to be less than 1.50 to 1.0 (the \u201cInterest Coverage Test\u201d); however, if the Interest Coverage Test was not satisfied on the last day of any fiscal quarter, Borrower shall not be in default hereunder so long as Borrower shall maintain at all times during the period the Interest Coverage Test remains unsatisfied Unrestricted Cash of Borrower in an amount equal to not less than the Liquidity Cure Amount.",
+        "ebitda_addbacks": [
+          "stock_comp",
+          "impairments",
+          "restructuring",
+          "other"
+        ],
+        "cash_netting_cap": null,
+        "cash_netting_cap_pct_ebitda": null
+      },
+      {
+        "name": "Minimum Tangible Net Worth Requirement",
+        "metric": "other",
+        "direction": "min",
+        "thresholds": [
+          {
+            "value": 95.0,
+            "applies_from": null
+          }
+        ],
+        "test_frequency": "quarterly",
+        "springing_condition": null,
+        "section": "Section 6.19(e)",
+        "quote": "Borrower covenants and agrees that at least ninety-five percent (95.0%) of Consolidated Tangible Net Worth (monitored and tested quarterly as of the last day of each fiscal quarter) shall be attributable solely to the Borrower and Guarantors",
+        "ebitda_addbacks": [],
+        "cash_netting_cap": null,
+        "cash_netting_cap_pct_ebitda": null
+      }
+    ],
+    "notes": "Covenants are taken from the conformed credit agreement attached to the Sixth Modification Agreement (Sept 18, 2025). The Seventh Modification Agreement (Apr 16, 2026) does not change Section 6.19. It consents to the Sumitomo Forestry merger, waives the resulting Section 7.11 Change in Control default (excluding any Section 7.3 default from a Section 6.7(c) breach), and restates 'Change in Control' to key off Sumitomo ownership and control. The Leverage Ratio is a percentage: (Consolidated Indebtedness less Unrestricted Cash above $50M) divided by (Consolidated Indebtedness plus Consolidated Tangible Net Worth less Unrestricted Cash above $50M). The 60% limit is entered as 60. Cash netting above $50M has no cap. The minimum Tangible Net Worth floor steps up through 50% of quarterly net income and 50% of equity proceeds, not through dated steps. The 95% test in 6.19(e) is a guarantor-coverage test and is entered as 95. The Interest Coverage Test can be cured by holding Unrestricted Cash of at least the Liquidity Cure Amount (the greater of $50M and trailing-12-month Consolidated Interest Incurred). This is a liquidity cure, not an equity cure. A breach of Section 6.19 is an immediate Event of Default under Section 7.3 with no grace period. Consolidated EBITDA adds back other non-cash charges, losses outside the ordinary course, transaction costs and restructuring charges under ASC 805, and non-recurring expenses capped at 7.5% of EBITDA per four quarters. It also adds back acquisition, issuance and debt transaction expenses capped at $10M per transaction and $20M per rolling year. There is no projected cost-savings or synergy add-back. Financial Services Subsidiaries are excluded from EBITDA. Section 6.11 caps secured debt at 20% of Consolidated Tangible Net Worth, and Section 2.1 requires Borrowing Base Debt to stay within the Borrowing Base. Both are separate from the financial covenants listed here. Investment-grade-style real-estate homebuilder facility with no unrestricted subsidiary concept.",
+    "facility": "$850M revolving facility maturing April 30, 2030 and $450M term loan facility (Tranche A due Sept 29, 2027, extendable; Tranche B due June 29, 2027), with a $150M LC sublimit.",
+    "terms": [
+      {
+        "kind": "j_crew_blocker",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "The agreement has no unrestricted subsidiary concept and no IP-transfer or designation blocker. Asset sales are limited by a Material Portion test and the Guarantors cover substantially all homebuilding subsidiaries."
+      },
+      {
+        "kind": "serta_protection",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "Section 8.3 requires affected-lender or all-lender consent only for economic terms, the Required Lenders definition, the amendment clause and guarantor releases. It has no sacred right protecting against subordination of the loans or liens or non-pro-rata exchanges."
+      },
+      {
+        "kind": "chewy_protection",
+        "present": "partial",
+        "section": "Section 8.3(d)",
+        "quote": "without the consent of all of the Lenders, release a Guarantor from the Obligations (except as provided in Section 6.20(b)).",
+        "summary": "A guarantor is released only on the Borrower's request and subject to conditions (net worth under $3M, or a permitted disposal, with pro forma compliance). Ceasing to be wholly owned does not itself release it, but a permitted sale of the guarantor does."
+      },
+      {
+        "kind": "unrestricted_sub_cap",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "There are no unrestricted subsidiaries. Investments in non-guarantor subsidiaries are permitted subject to no Event of Default and pro forma covenant compliance (Section 6.14(vii)), with no hard dollar cap."
+      },
+      {
+        "kind": "addback_cap",
+        "present": "partial",
+        "section": "Consolidated EBITDA definition (Section 1.1)",
+        "quote": "(i) non-recurring expenses and charges, provided that the amount of such expenses and charges shall not exceed 7.5% of Consolidated EBITDA (without giving effect to this clause (i)) in the aggregate for any four consecutive fiscal quarters",
+        "summary": "Non-recurring charges are capped at 7.5% of EBITDA, and transaction expenses at $10M per transaction and $20M per rolling year. There is no projected cost-savings or synergy add-back to cap. ASC 805 restructuring charges and other non-cash charges are uncapped."
+      },
+      {
+        "kind": "equity_cure",
+        "present": "no",
+        "section": "Section 6.19(c)",
+        "quote": null,
+        "summary": "There is no equity cure right. Only the Interest Coverage Test has a cure, which is maintaining Unrestricted Cash of at least the Liquidity Cure Amount for as long as the test is unmet."
+      }
+    ],
+    "addback_cap_pct": null
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "job": "ratio-917520-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/917520/000091752026000077/iart-20260930.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 5232,
+    "output_tokens": 455,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "Consolidated Total Leverage Ratio",
+        "metric": "net_leverage",
+        "period_end": "2026-09-30",
+        "actual": 3.8,
+        "limit": 4.75,
+        "direction": "max",
+        "facility": "Senior Credit Facility",
+        "quote": "Our Consolidated Total Leverage Ratio was 3.80, with the covenant requirement at 4.75 at the end of September 30, 2026."
+      }
+    ],
+    "notes": "The Consolidated Total Leverage Ratio is defined as funded debt less unrestricted cash to Consolidated EBITDA, so it is classified as net leverage. Under the June 2025 Amendment, the maximum steps down from 4.75x at 9/30/2026 to 4.50x at 12/31/2026, then 4.00x from 3/31/2027. A subsequent October 2026 Credit Agreement refinanced the Senior Credit Facility. Its maximum Consolidated Total Leverage Ratio is 4.75x at 9/30/26, 4.50x at 12/31/26, 4.25x through 12/31/27, and 4.00x thereafter; the filing says 'minimum' but the table is headed 'Maximum'. That agreement also mentions an interest coverage covenant, but no level is given. Securitization Facility fees based on the leverage ratio are pricing terms only and are excluded."
+  }
+}

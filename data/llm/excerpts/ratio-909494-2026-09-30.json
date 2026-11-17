@@ -1,0 +1,40 @@
+{
+  "job": "ratio-909494-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/909494/000090949426000013/tcx-20260930.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 3825,
+    "output_tokens": 481,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "Total Funded Debt to Adjusted EBITDA Ratio",
+        "metric": "total_leverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 3.75,
+        "direction": "max",
+        "facility": "2023 Credit Facility",
+        "quote": "The Company is required to maintain a Total Funded Debt to Adjusted EBITDA Ratio of not more than 3.75 :1.00 and an Interest Coverage Ratio of not less than 3.00 :1.00."
+      },
+      {
+        "covenant_name": "Interest Coverage Ratio",
+        "metric": "interest_coverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 3.0,
+        "direction": "min",
+        "facility": "2023 Credit Facility",
+        "quote": "The Company is required to maintain a Total Funded Debt to Adjusted EBITDA Ratio of not more than 3.75 :1.00 and an Interest Coverage Ratio of not less than 3.00 :1.00."
+      }
+    ],
+    "notes": "Only covenant requirements are disclosed; actual ratios are not given. The company states it was in compliance with the covenants during the three and nine months ended September 30, 2026. The covenant levels apply under the 2023 Credit Agreement as amended by the Third Amendment (July 27, 2026). The pricing grid based on Total Funded Debt to Adjusted EBITDA only sets interest margins and fees, so it is excluded."
+  }
+}

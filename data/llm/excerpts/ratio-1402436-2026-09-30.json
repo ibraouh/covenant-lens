@@ -1,0 +1,40 @@
+{
+  "job": "ratio-1402436-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1402436/000119312526453587/ssnc-20260930.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 3419,
+    "output_tokens": 903,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "consolidated net secured leverage ratio (Revolving Credit Facility)",
+        "metric": "secured_net_leverage",
+        "period_end": "2026-09-30",
+        "actual": 1.59,
+        "limit": 6.25,
+        "direction": "max",
+        "facility": "Revolving Credit Facility portion of the amended senior secured credit facility",
+        "quote": "Under the Revolving Credit Facility portion of the amended senior secured credit facility, we are required to satisfy and maintain a consolidated net secured leverage ratio of 6.25x at the end of each fiscal quarter"
+      },
+      {
+        "covenant_name": "consolidated net secured leverage ratio (Term A-9 Loans)",
+        "metric": "secured_net_leverage",
+        "period_end": "2026-09-30",
+        "actual": 1.59,
+        "limit": 5.25,
+        "direction": "max",
+        "facility": "Term A-9 Loans under the amended senior secured credit facility",
+        "quote": "In addition, the Term A-9 Loans will be subject to a 5.25x consolidated net secured leverage ratio commencing at the fiscal quarter ending December 31, 2024, which will, at our option, increase to 5.75x for four consecutive fiscal quarters following a material permitted acquisition."
+      }
+    ],
+    "notes": "The actual figure comes from a separate sentence: \"Our consolidated net secured leverage ratio as of September 30, 2026 is 1.59.\" The filing gives one actual ratio and does not say whether it is measured under the revolver definition or the Term A-9 definition, so 1.59 is applied to both covenants. The revolver covenant at 6.25x is springing: it applies only when revolver loans plus non-cash-collateralized letters of credit above $20 million reach at least 30% of commitments. The Term A-9 limit is 5.25x and can step up to 5.75x for four quarters after a material permitted acquisition; the excerpt does not say this step-up was in effect. The company states it was in compliance with all financial covenants as of September 30, 2026."
+  }
+}

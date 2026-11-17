@@ -1,0 +1,50 @@
+{
+  "job": "ratio-1345126-2026-06-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1345126/000134512626000061/codi-20260630.htm",
+    "period": "2026-06-30"
+  },
+  "usage": {
+    "input_tokens": 6131,
+    "output_tokens": 1154,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "Consolidated Fixed Charge Coverage Ratio",
+        "metric": "fixed_charge_coverage",
+        "period_end": "2026-06-30",
+        "actual": 1.6,
+        "limit": 1.0,
+        "direction": "min",
+        "facility": "2022 Credit Facility (Third Amended and Restated Credit Agreement, as amended by the Fifth Amendment)",
+        "quote": "Consolidated Fixed Charge Coverage Ratio Greater than or equal to 1.00:1.00 1.60 :1:00"
+      },
+      {
+        "covenant_name": "Consolidated Senior Secured Leverage Ratio",
+        "metric": "secured_leverage",
+        "period_end": "2026-06-30",
+        "actual": 0.66,
+        "limit": 2.5,
+        "direction": "max",
+        "facility": "2022 Credit Facility (Third Amended and Restated Credit Agreement, as amended by the Fifth Amendment)",
+        "quote": "Consolidated Senior Secured Leverage Ratio Less than or equal to 2.50: 1.00 0.66 :1:00"
+      },
+      {
+        "covenant_name": "Consolidated Total Leverage Ratio",
+        "metric": "total_leverage",
+        "period_end": "2026-06-30",
+        "actual": 4.82,
+        "limit": 5.75,
+        "direction": "max",
+        "facility": "2022 Credit Facility (Third Amended and Restated Credit Agreement, as amended by the Fifth Amendment)",
+        "quote": "Consolidated Total Leverage Ratio Less than or equal to 5.75: 1.00 4.82 :1:00"
+      }
+    ],
+    "notes": "The Sixth Amendment, entered after the quarter, sets future maximum Consolidated Total Leverage Ratio limits. These are 5.75x for Q3 2026, 5.25x for Q4 2026 and Q1 2027, 5.00x for Q2 and Q3 2027, and 4.50x thereafter. No actuals are reported for those dates, so they are not listed as entries. The Transaction Letter thresholds (4.50x total, 1.00x senior secured) only determine whether milestone fees are payable, so they are excluded. The excerpt's two descriptions of the fee test are worded inconsistently: one says the fee is waived if either ratio is at or below its threshold, the other describes the fee as triggered only when both ratios are not less than their thresholds. The applicable margin grid tied to total leverage and the fixed charge and leverage covenants in subsidiary intercompany credit agreements are also excluded. Those intercompany agreements are eliminated in consolidation, and Velocity and Altor received waivers under them."
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "auto": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1171486/000117148622000037/a2022formcreditfacilityame.htm",
+      "title": "Master Assignment Agreement and Fifth Amendment to Third Amended and Restated Credit Agreement",
+      "dated": "2022-08-09",
+      "kind": "amendment",
+      "filed": "2022-08-11"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1171486/000117148622000041/a2022formexerciseofaccordi.htm",
+      "title": "New Lender Agreement",
+      "dated": "2022-09-01",
+      "kind": "amendment",
+      "filed": "2022-09-08"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1171486/000143774923014624/ex_519021.htm",
+      "title": "Sixth Amendment to Third Amended and Restated Credit Agreement",
+      "dated": "2023-05-11",
+      "kind": "amendment",
+      "filed": "2023-05-15"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1171486/000143774923014624/ex_519022.htm",
+      "title": "New Lender Agreement",
+      "dated": "2023-05-11",
+      "kind": "amendment",
+      "filed": "2023-05-15"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1171486/000143774924003226/ex_621749.htm",
+      "title": "New Lender Agreement",
+      "dated": "2024-02-01",
+      "kind": "amendment",
+      "filed": "2024-02-06"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1171486/000143774924004832/ex_627159.htm",
+      "title": "Commitment Increase Agreement",
+      "dated": "2024-02-14",
+      "kind": "amendment",
+      "filed": "2024-02-20"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1171486/000143774924031489/ex_732367.htm",
+      "title": "Seventh Amendment to Third Amended and Restated Credit Agreement",
+      "dated": "2024-10-15",
+      "kind": "amendment",
+      "filed": "2024-10-17"
+    }
+  ],
+  "notes": [
+    "Master Assignment Agreement and Fifth Amendment to Third Amended and Restated Credit Agreement restates the full agreement; used as the base"
+  ],
+  "used": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1171486/000117148622000037/a2022formcreditfacilityame.htm",
+      "title": "Master Assignment Agreement and Fifth Amendment to Third Amended and Restated Credit Agreement",
+      "dated": "2022-08-09",
+      "kind": "amendment",
+      "filed": "2022-08-11"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1171486/000117148622000041/a2022formexerciseofaccordi.htm",
+      "title": "New Lender Agreement",
+      "dated": "2022-09-01",
+      "kind": "amendment",
+      "filed": "2022-09-08"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1171486/000143774923014624/ex_519021.htm",
+      "title": "Sixth Amendment to Third Amended and Restated Credit Agreement",
+      "dated": "2023-05-11",
+      "kind": "amendment",
+      "filed": "2023-05-15"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1171486/000143774923014624/ex_519022.htm",
+      "title": "New Lender Agreement",
+      "dated": "2023-05-11",
+      "kind": "amendment",
+      "filed": "2023-05-15"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1171486/000143774924003226/ex_621749.htm",
+      "title": "New Lender Agreement",
+      "dated": "2024-02-01",
+      "kind": "amendment",
+      "filed": "2024-02-06"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1171486/000143774924004832/ex_627159.htm",
+      "title": "Commitment Increase Agreement",
+      "dated": "2024-02-14",
+      "kind": "amendment",
+      "filed": "2024-02-20"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1171486/000143774924031489/ex_732367.htm",
+      "title": "Seventh Amendment to Third Amended and Restated Credit Agreement",
+      "dated": "2024-10-15",
+      "kind": "amendment",
+      "filed": "2024-10-17"
+    }
+  ],
+  "source": "automatic"
+}

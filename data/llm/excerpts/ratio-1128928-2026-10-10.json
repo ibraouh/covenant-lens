@@ -1,0 +1,30 @@
+{
+  "job": "ratio-1128928-2026-10-10",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1128928/000119312526458381/flo-20261010.htm",
+    "period": "2026-10-10"
+  },
+  "usage": {
+    "input_tokens": 5798,
+    "output_tokens": 867,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "Maximum leverage ratio",
+        "metric": "total_leverage",
+        "period_end": "2026-10-10",
+        "actual": null,
+        "limit": 4.0,
+        "direction": "max",
+        "facility": "Credit agreement ($500.0 million senior unsecured revolving credit facility)",
+        "quote": "a maximum leverage ratio covenant set at 3.75 to 1.00, which permits the company, at its option, in connection with certain acquisitions and investments and subject to the terms and conditions provided in the credit agreement, to increase the maximum ratio permitted thereunder on one or more occasions to 4.00 to 1.00"
+      }
+    ],
+    "notes": "The base maximum leverage ratio (Consolidated Indebtedness to Consolidated EBITDA) is 3.75x. The company is in a covenant holiday, extended by the April 6, 2026 revolver amendment through the fiscal quarter ending October 9, 2027, so the 4.00x limit applies at 2026-10-10. The actual leverage ratio is not disclosed; the company states only that it was in compliance at October 10, 2026. A minimum interest coverage ratio covenant also exists, but no figures are given. The term loan credit agreement ($390.0 million drawn) has substantially the same financial covenants; no separate figures are given. The company is seeking an amendment or waiver of the leverage and interest coverage covenants for the period ending April 24, 2027 and later periods. Pricing-grid leverage references (margins and fees) are excluded."
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "job": "ratio-1530950-2026-06-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1530950/000153095026000077/post-20260630.htm",
+    "period": "2026-06-30"
+  },
+  "usage": {
+    "input_tokens": 3893,
+    "output_tokens": 462,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "secured net leverage ratio",
+        "metric": "secured_net_leverage",
+        "period_end": "2026-06-30",
+        "actual": null,
+        "limit": 4.25,
+        "direction": "max",
+        "facility": "Credit Agreement (Revolving Credit Facility)",
+        "quote": "Under the terms of the Credit Agreement, the Company is required to comply with a financial covenant consisting of a secured net leverage ratio not to exceed 4.25 :1.00, measured as of the last day of any fiscal quarter, if, as of the last day of such fiscal quarter, the aggregate outstanding amount of all revolving credit loans, swing line loans and letter of credit obligations (subject to certain exceptions specified in the Credit Agreement) exceeds 30 % of the Company\u2019s revolving credit commitments."
+      }
+    ],
+    "notes": "The covenant is a springing test: it applies only if revolver loans, swing line loans and letter of credit obligations exceed 30% of revolving commitments at quarter-end. At June 30, 2026 there were no revolver borrowings and $23.2 of letters of credit against $1,000.0 of commitments, so the test was likely not triggered. The company says only that it was in compliance and does not disclose the actual ratio. The secured net leverage thresholds of 3.00x and 1.50x set pricing and commitment fees, not covenants, so they are excluded."
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "job": "read-832101-fda28378e3-opus55",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "cik": "832101",
+    "docs": [
+      "https://www.sec.gov/Archives/edgar/data/832101/000119312526381880/d421581dex101.htm"
+    ]
+  },
+  "usage": {
+    "input_tokens": 205775,
+    "output_tokens": 2916,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "borrower": "IDEX Corporation",
+    "agreement_date": "2026-09-03",
+    "covenants": [
+      {
+        "name": "Net Leverage Ratio",
+        "metric": "net_leverage",
+        "direction": "max",
+        "thresholds": [
+          {
+            "value": 3.5,
+            "applies_from": null
+          }
+        ],
+        "test_frequency": "quarterly",
+        "springing_condition": null,
+        "section": "Section 7.15",
+        "quote": "The Company shall not permit the Net Leverage Ratio as of the end of any fiscal quarter of the Company to be greater than 3.50 to 1.00.",
+        "ebitda_addbacks": [
+          "stock_comp",
+          "impairments",
+          "other"
+        ],
+        "cash_netting_cap": 500000000.0,
+        "cash_netting_cap_pct_ebitda": null
+      }
+    ],
+    "notes": "Single maintenance covenant: Net Leverage Ratio of no more than 3.50x, tested at each fiscal quarter-end. Acquisition holiday: after an acquisition (or series within 12 months) with aggregate consideration above $75M, the Company may elect to raise the limit to 4.00x. The higher limit covers the quarter of closing and the next three quarters, or a shorter period if the Company elects. It may be used at most twice over the life of the agreement, and at least one full quarter at 3.50x must separate uses. Cash netting counts 100% of unrestricted U.S. cash and 50% of unrestricted non-U.S. cash, with total netted cash capped at the Dollar Equivalent of $500M. EBITDA adds back: interest, taxes, the Off Balance Sheet interest component, D&A, and all other non-cash charges, expressly including goodwill and intangible impairment and non-cash share-based compensation. It also adds back transaction costs (financings, acquisitions, dispositions, restricted payments, equity issuances, including transactions not consummated), capped at $10M per four quarters. There is no add-back for projected cost savings, synergies or restructuring. EBITDA is pro forma for acquisitions and dispositions. GAAP is frozen as of the agreement date for the Section 7.15 computation, and pre-ASC 842 operating leases are not treated as capital leases. A breach of Article VII is an immediate Event of Default with no grace period. The facility is unsecured; the Company guarantees the Designated Borrowers and there are no subsidiary guarantors. Pricing is investment-grade style (ratings/leverage grid). There is no unrestricted subsidiary concept. Negative covenants are light: lien and non-guarantor subsidiary debt general baskets of the greater of $1.0B and 15% of Consolidated Total Assets; restricted payments are allowed absent a Default.",
+    "facility": "$800M multicurrency senior unsecured revolving credit facility (sublimits: $500M alternative currency, $100M letters of credit, $50M swing line) maturing September 3, 2031, with two 1-year extension options and a $400M uncommitted incremental (revolver increases or term loans).",
+    "terms": [
+      {
+        "kind": "j_crew_blocker",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "No restriction on transferring or licensing intellectual property to unrestricted subsidiaries; the agreement has no unrestricted subsidiary concept at all."
+      },
+      {
+        "kind": "serta_protection",
+        "present": "partial",
+        "section": "Section 11.01(e)",
+        "quote": "change Section 2.14 or 8.03 or any other provision hereof in a manner that would alter the pro rata sharing of payments required thereby without the written consent of each Lender directly affected thereby",
+        "summary": "Changes to pro rata sharing or the payment waterfall need each directly affected lender's consent. There is no express requirement that subordinating the loans or liens needs each affected lender's consent, and the facility is unsecured."
+      },
+      {
+        "kind": "chewy_protection",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "There are no subsidiary guarantors (only the Company guarantees the Designated Borrowers), so there is no provision addressing guarantor release when a subsidiary stops being wholly owned."
+      },
+      {
+        "kind": "unrestricted_sub_cap",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "No unrestricted subsidiary designation mechanism exists and there is no cap on investments in unrestricted subsidiaries."
+      },
+      {
+        "kind": "addback_cap",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "EBITDA has no add-back for projected cost savings, synergies or restructuring. The only capped add-back is transaction costs, limited to $10M per four-quarter period."
+      },
+      {
+        "kind": "equity_cure",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "No equity cure right; a breach of the leverage covenant is an immediate Event of Default under Section 8.01(c)."
+      }
+    ],
+    "addback_cap_pct": null
+  }
+}

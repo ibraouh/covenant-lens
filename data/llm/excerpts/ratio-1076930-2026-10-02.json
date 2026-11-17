@@ -1,0 +1,40 @@
+{
+  "job": "ratio-1076930-2026-10-02",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1076930/000119312526453802/novt-20261002.htm",
+    "period": "2026-10-02"
+  },
+  "usage": {
+    "input_tokens": 6054,
+    "output_tokens": 488,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "Maximum consolidated leverage ratio",
+        "metric": "total_leverage",
+        "period_end": "2026-10-02",
+        "actual": 2.43,
+        "limit": 4.0,
+        "direction": "max",
+        "facility": "Fourth Amended and Restated Credit Agreement (Senior Credit Facilities)",
+        "quote": "Maximum consolidated leverage ratio (1) 4.00 2.43"
+      },
+      {
+        "covenant_name": "Minimum consolidated fixed charge coverage ratio",
+        "metric": "fixed_charge_coverage",
+        "period_end": "2026-10-02",
+        "actual": 4.0,
+        "limit": 1.25,
+        "direction": "min",
+        "facility": "Fourth Amended and Restated Credit Agreement (Senior Credit Facilities)",
+        "quote": "Minimum consolidated fixed charge coverage ratio (2) 1.25 4.00"
+      }
+    ],
+    "notes": "The table lists the Requirement first and the Actual second. Under the First Amendment, the consolidated leverage ratio definition allows up to $100 million of unrestricted cash to be netted against consolidated funded indebtedness, so the leverage figure is partly net of cash. The leverage limit steps up to 4.50 for four consecutive quarters after a designated acquisition, and the fixed charge coverage minimum steps down to 1.00 for the same period. The 3.75x level that triggers a 0.25% wider pricing margin affects only pricing, so it is not included as a covenant."
+  }
+}

@@ -1,0 +1,340 @@
+{
+  "cik": "17843",
+  "name": "CARPENTER TECHNOLOGY CORP",
+  "borrower": "Carpenter Technology Corporation",
+  "gold": false,
+  "stale": false,
+  "agreement_date": "2025-11-20",
+  "facility": "$500M unsecured multicurrency revolving credit facility ($425M USD Facility incl. $40M L/C and $50M swingline sublimits; $75M Alternative Currency Facility), maturing November 20, 2030, with up to $650M incremental revolving/term capacity",
+  "chain": {
+    "auto": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/17843/000110465925114628/tm2531768d1_ex10-1.htm",
+        "title": "Third Amended and Restated Credit Agreement",
+        "dated": "2025-11-20",
+        "kind": "amended_and_restated",
+        "filed": "2025-11-20"
+      }
+    ],
+    "notes": [],
+    "used": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/17843/000110465925114628/tm2531768d1_ex10-1.htm",
+        "title": "Third Amended and Restated Credit Agreement",
+        "dated": "2025-11-20",
+        "kind": "amended_and_restated",
+        "filed": "2025-11-20"
+      }
+    ],
+    "source": "automatic"
+  },
+  "covenants": [
+    {
+      "name": "Interest Coverage Ratio",
+      "metric": "interest_coverage",
+      "direction": "min",
+      "section": "Section 7.12(a)",
+      "quote": "Permit the Interest Coverage Ratio to be less than 3.00 to 1.00 for the Measurement Period ending December 31, 2025 or any Measurement Period ending thereafter.",
+      "quote_verified": true,
+      "thresholds": [
+        {
+          "value": 3.0,
+          "applies_from": null
+        }
+      ],
+      "test_frequency": "quarterly",
+      "springing_condition": null,
+      "addbacks": [
+        "stock_comp",
+        "impairments",
+        "other"
+      ],
+      "cash_netting_cap": null,
+      "cash_netting_cap_pct_ebitda": null,
+      "rows": [
+        {
+          "period_end": "2023-03-31",
+          "before_agreement": true,
+          "limit": 3.0,
+          "xbrl": null,
+          "adjusted": null,
+          "reported": null,
+          "reported_limit": null,
+          "reported_quote": null,
+          "reported_url": null,
+          "ltm_ebitda_xbrl": 237900000.0,
+          "ltm_ebitda_adjusted": null,
+          "debt": 692700000,
+          "cash": 22300000,
+          "ltm_interest": null
+        }
+      ],
+      "latest": null,
+      "steps": []
+    },
+    {
+      "name": "Consolidated Net Leverage Ratio",
+      "metric": "net_leverage",
+      "direction": "max",
+      "section": "Section 7.12(b)",
+      "quote": "Permit the Consolidated Net Leverage Ratio to exceed 3.50 to 1.00 for the Measurement Period ending December 31, 2025 and any Measurement Period ending thereafter.",
+      "quote_verified": true,
+      "thresholds": [
+        {
+          "value": 3.5,
+          "applies_from": null
+        }
+      ],
+      "test_frequency": "quarterly",
+      "springing_condition": null,
+      "addbacks": [
+        "stock_comp",
+        "impairments",
+        "other"
+      ],
+      "cash_netting_cap": 200000000.0,
+      "cash_netting_cap_pct_ebitda": null,
+      "rows": [
+        {
+          "period_end": "2023-03-31",
+          "before_agreement": true,
+          "limit": 3.5,
+          "xbrl": 2.817990752416982,
+          "adjusted": null,
+          "reported": null,
+          "reported_limit": null,
+          "reported_quote": null,
+          "reported_url": null,
+          "ltm_ebitda_xbrl": 237900000.0,
+          "ltm_ebitda_adjusted": null,
+          "debt": 692700000,
+          "cash": 22300000,
+          "ltm_interest": null
+        }
+      ],
+      "latest": null,
+      "steps": []
+    }
+  ],
+  "notes": "Third Amended and Restated Credit Agreement dated November 20, 2025 (amends and restates the April 14, 2023 Second A&R agreement); Bank of America is agent. The facility is now unsecured: Section 11.23(b) releases all security interests under the prior security agreement. Subsidiary guarantees are optional. Carpenter may join domestic subsidiaries as guarantors and may terminate any guarantor's status on 15 business days' notice, subject only to pro forma covenant compliance (Section 10.12).\n\nConsolidated EBITDA definition:\n- Starts from net income and adds back interest, taxes, depreciation and amortization (including goodwill and intangibles) and other non-cash expenses (excluding accruals or reserves for future cash charges).\n- Net income excludes non-operating, non-recurring and extraordinary gains and losses.\n- Actuarial non-cash VEBA retiree medical and pension income or expense are excluded.\n- There is no add-back for projected cost savings or synergies. Pro forma adjustments for acquisitions and dispositions cover only actual historical income statement items.\n\nCash netting in the net leverage ratio:\n- Nets domestically held unrestricted, unencumbered cash and Cash Equivalents of Loan Parties.\n- Also nets up to $40M of non-domestic cash held with the Administrative Agent or its affiliates.\n- The aggregate netted amount is capped at $200M.\n\nOther points:\n- The Consolidated Total Leverage Ratio is used only for pricing.\n- Several incurrence-style tests are not maintenance covenants:\n  - Permitted Acquisitions require net leverage below 3.00x.\n  - Non-Loan Party investments are capped at $75M when net leverage is at or above 3.00x.\n  - Share repurchases and dividends are capped at $75M per 12 months when net leverage is at or above 2.75x.\n  - Incrementals require pro forma net leverage at least 0.25x inside the covenant.\n- Leases are accounted for on a pre-ASC 842 basis.\n- Ratio amendments need only Required Lenders.\n- There is no unrestricted subsidiary concept in the agreement.",
+  "terms": [
+    {
+      "kind": "j_crew_blocker",
+      "present": "no",
+      "section": null,
+      "quote": null,
+      "summary": "The agreement has no unrestricted subsidiary concept and no restriction specific to transferring or exclusively licensing material intellectual property to non-guarantor or unrestricted entities. IP transfers are governed only by the general disposition and investment covenants.",
+      "quote_verified": null
+    },
+    {
+      "kind": "serta_protection",
+      "present": "partial",
+      "section": "Section 11.01(e)",
+      "quote": "without the written consent of each Lender directly affected thereby, (i) modify Section 8.03, (ii) modify Section 2.14 or any other provision hereof in a manner that would have the effect of altering the ratable reduction of Commitments or the pro rata sharing of payments otherwise required hereunder or (iii) subordinate, or have the effect of subordinating, the Obligations hereunder to any other Indebtedness or other obligation",
+      "summary": "Subordinating the Obligations and changing pro rata sharing or the payment waterfall require each directly affected lender's consent. However, lenders offered the chance to fund their pro rata share of the priming debt on the same terms are deemed not affected. The loans are unsecured, so lien subordination is not addressed.",
+      "quote_verified": true
+    },
+    {
+      "kind": "chewy_protection",
+      "present": "no",
+      "section": "Section 9.10(a); Section 10.12(b)",
+      "quote": null,
+      "summary": "There is no protection against release when a guarantor ceases to be wholly owned. Guarantors are released when they cease to be Subsidiaries. In addition, Carpenter can voluntarily terminate any subsidiary's guarantor status on notice, subject only to pro forma covenant compliance.",
+      "quote_verified": null
+    },
+    {
+      "kind": "unrestricted_sub_cap",
+      "present": "no",
+      "section": null,
+      "quote": null,
+      "summary": "The agreement does not provide for unrestricted subsidiaries, so there is no cap on designating them or investing in them. Investments in non-Loan Parties are limited only by the general investments covenant.",
+      "quote_verified": null
+    },
+    {
+      "kind": "addback_cap",
+      "present": "no",
+      "section": null,
+      "quote": null,
+      "summary": "Consolidated EBITDA includes no add-back for projected cost savings, synergies or restructuring, so there is no cap on such add-backs.",
+      "quote_verified": null
+    },
+    {
+      "kind": "equity_cure",
+      "present": "no",
+      "section": null,
+      "quote": null,
+      "summary": "The agreement contains no equity cure right for the financial covenants.",
+      "quote_verified": null
+    }
+  ],
+  "addback_cap_pct": null,
+  "cov_lite": false,
+  "tightest": null,
+  "accuracy": [
+    {
+      "metric": "interest_coverage",
+      "period_end": "2025-12-31",
+      "reported": 17.02,
+      "reported_limit": 3.0,
+      "covenant_found": true,
+      "matched": "Interest Coverage Ratio",
+      "our_limit": 3.0,
+      "limit_match": true,
+      "not_graded": null,
+      "xbrl": null,
+      "adjusted": null,
+      "xbrl_error": null,
+      "adjusted_error": null,
+      "facility": "Credit Facility",
+      "quote": "Consolidated interest coverage ratio 3.00 to 1.00 (minimum) 17.02 to 1.00",
+      "url": "https://www.sec.gov/Archives/edgar/data/17843/000001784326000009/crs-20251231.htm"
+    },
+    {
+      "metric": "net_leverage",
+      "period_end": "2025-12-31",
+      "reported": 0.63,
+      "reported_limit": 3.5,
+      "covenant_found": true,
+      "matched": "Consolidated Net Leverage Ratio",
+      "our_limit": 3.5,
+      "limit_match": true,
+      "not_graded": null,
+      "xbrl": null,
+      "adjusted": null,
+      "xbrl_error": null,
+      "adjusted_error": null,
+      "facility": "Credit Facility",
+      "quote": "Consolidated net leverage ratio 3.50 to 1.00 (maximum) 0.63 to 1.00",
+      "url": "https://www.sec.gov/Archives/edgar/data/17843/000001784326000009/crs-20251231.htm"
+    },
+    {
+      "metric": "interest_coverage",
+      "period_end": "2026-03-31",
+      "reported": 19.55,
+      "reported_limit": 3.0,
+      "covenant_found": true,
+      "matched": "Interest Coverage Ratio",
+      "our_limit": 3.0,
+      "limit_match": true,
+      "not_graded": null,
+      "xbrl": null,
+      "adjusted": null,
+      "xbrl_error": null,
+      "adjusted_error": null,
+      "facility": "Credit Facility",
+      "quote": "Consolidated interest coverage ratio 3.00 to 1.00 (minimum) 19.55 to 1.00",
+      "url": "https://www.sec.gov/Archives/edgar/data/17843/000001784326000014/crs-20260331.htm"
+    },
+    {
+      "metric": "net_leverage",
+      "period_end": "2026-03-31",
+      "reported": 0.59,
+      "reported_limit": 3.5,
+      "covenant_found": true,
+      "matched": "Consolidated Net Leverage Ratio",
+      "our_limit": 3.5,
+      "limit_match": true,
+      "not_graded": null,
+      "xbrl": null,
+      "adjusted": null,
+      "xbrl_error": null,
+      "adjusted_error": null,
+      "facility": "Credit Facility",
+      "quote": "Consolidated net leverage ratio 3.50 to 1.00 (maximum) 0.59 to 1.00",
+      "url": "https://www.sec.gov/Archives/edgar/data/17843/000001784326000014/crs-20260331.htm"
+    },
+    {
+      "metric": "interest_coverage",
+      "period_end": "2026-06-30",
+      "reported": 23.38,
+      "reported_limit": 3.0,
+      "covenant_found": true,
+      "matched": "Interest Coverage Ratio",
+      "our_limit": 3.0,
+      "limit_match": true,
+      "not_graded": null,
+      "xbrl": null,
+      "adjusted": null,
+      "xbrl_error": null,
+      "adjusted_error": null,
+      "facility": "Credit Facility",
+      "quote": "Consolidated interest coverage ratio 3.00 to 1.00 (minimum) 23.38 to 1.00",
+      "url": "https://www.sec.gov/Archives/edgar/data/17843/000001784326000034/crs-20260630.htm"
+    },
+    {
+      "metric": "net_leverage",
+      "period_end": "2026-06-30",
+      "reported": 0.56,
+      "reported_limit": 3.5,
+      "covenant_found": true,
+      "matched": "Consolidated Net Leverage Ratio",
+      "our_limit": 3.5,
+      "limit_match": true,
+      "not_graded": null,
+      "xbrl": null,
+      "adjusted": null,
+      "xbrl_error": null,
+      "adjusted_error": null,
+      "facility": "Credit Facility",
+      "quote": "Consolidated net leverage ratio 3.50 to 1.00 (maximum) 0.56 to 1.00",
+      "url": "https://www.sec.gov/Archives/edgar/data/17843/000001784326000034/crs-20260630.htm"
+    },
+    {
+      "metric": "interest_coverage",
+      "period_end": "2026-09-30",
+      "reported": 27.79,
+      "reported_limit": 3.0,
+      "covenant_found": true,
+      "matched": "Interest Coverage Ratio",
+      "our_limit": 3.0,
+      "limit_match": true,
+      "not_graded": null,
+      "xbrl": null,
+      "adjusted": null,
+      "xbrl_error": null,
+      "adjusted_error": null,
+      "facility": "Credit Facility",
+      "quote": "Consolidated interest coverage ratio 3.00 to 1.00 (minimum) 27.79 to 1.00",
+      "url": "https://www.sec.gov/Archives/edgar/data/17843/000001784326000045/crs-20260930.htm"
+    },
+    {
+      "metric": "net_leverage",
+      "period_end": "2026-09-30",
+      "reported": 0.59,
+      "reported_limit": 3.5,
+      "covenant_found": true,
+      "matched": "Consolidated Net Leverage Ratio",
+      "our_limit": 3.5,
+      "limit_match": true,
+      "not_graded": null,
+      "xbrl": null,
+      "adjusted": null,
+      "xbrl_error": null,
+      "adjusted_error": null,
+      "facility": "Credit Facility",
+      "quote": "Consolidated net leverage ratio 3.50 to 1.00 (maximum) 0.59 to 1.00",
+      "url": "https://www.sec.gov/Archives/edgar/data/17843/000001784326000045/crs-20260930.htm"
+    }
+  ],
+  "dropped_answer_keys": [],
+  "adjusted_ebitda": [],
+  "financials_sources": {
+    "debt": "LongTermDebt",
+    "cash": "CashAndCashEquivalentsAtCarryingValue",
+    "operating income": "OperatingIncomeLoss",
+    "D&A": "DepreciationDepletionAndAmortization",
+    "interest": "InterestExpenseNonoperating",
+    "stock comp": "ShareBasedCompensation",
+    "impairments": "GoodwillImpairmentLoss",
+    "restructuring": "RestructuringCharges"
+  },
+  "compliance": {
+    "filed": "2026-10-22",
+    "form": "10-Q",
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000001784326000045/crs-20260930.htm",
+    "sentences": [
+      "As of September 30, 2026, the Company was in compliance with all of the covenants of the Credit Facility.",
+      "As of September 30, 2026, we were in compliance with all of the covenants of the Credit Facility."
+    ]
+  }
+}

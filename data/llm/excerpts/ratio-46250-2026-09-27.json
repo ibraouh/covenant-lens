@@ -1,0 +1,40 @@
+{
+  "job": "ratio-46250-2026-09-27",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/46250/000004625026000044/hwkn-20260927.htm",
+    "period": "2026-09-27"
+  },
+  "usage": {
+    "input_tokens": 2592,
+    "output_tokens": 644,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "minimum fixed charge coverage ratio",
+        "metric": "fixed_charge_coverage",
+        "period_end": "2026-09-27",
+        "actual": null,
+        "limit": 1.15,
+        "direction": "min",
+        "facility": "Credit Agreement (Revolving Loan Facility)",
+        "quote": "The Credit Agreement requires that we maintain (a) a minimum fixed charge coverage ratio of 1.15 to 1.00 and (b) a maximum total cash flow leverage ratio of 3.5 to 1.0, subject to an election by us to increase the maximum total cash flow leverage ratio to 4.0 to 1.0 after certain Permitted Acquisitions subject to limitations set forth in the Credit Agreement."
+      },
+      {
+        "covenant_name": "maximum total cash flow leverage ratio",
+        "metric": "total_leverage",
+        "period_end": "2026-09-27",
+        "actual": null,
+        "limit": 3.5,
+        "direction": "max",
+        "facility": "Credit Agreement (Revolving Loan Facility)",
+        "quote": "The Credit Agreement requires that we maintain (a) a minimum fixed charge coverage ratio of 1.15 to 1.00 and (b) a maximum total cash flow leverage ratio of 3.5 to 1.0, subject to an election by us to increase the maximum total cash flow leverage ratio to 4.0 to 1.0 after certain Permitted Acquisitions subject to limitations set forth in the Credit Agreement."
+      }
+    ],
+    "notes": "Actual ratios are not disclosed; the company states only that it was in compliance with all covenants as of September 27, 2026. The maximum leverage ratio may be raised to 4.0x at the company's election after certain Permitted Acquisitions; the excerpt does not say whether that election was in effect, so the base 3.5x limit is reported. Leverage-based interest margins and commitment fees were excluded because they are pricing terms, not covenants."
+  }
+}

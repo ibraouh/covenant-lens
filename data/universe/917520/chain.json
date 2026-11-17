@@ -1,0 +1,22 @@
+{
+  "auto": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/917520/000119312526425271/d142199dex101.htm",
+      "title": "Amended and Restated Credit Agreement",
+      "dated": "2026-10-19",
+      "kind": "amended_and_restated",
+      "filed": "2026-10-19"
+    }
+  ],
+  "notes": [],
+  "used": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/917520/000119312526425271/d142199dex101.htm",
+      "title": "Amended and Restated Credit Agreement",
+      "dated": "2026-10-19",
+      "kind": "amended_and_restated",
+      "filed": "2026-10-19"
+    }
+  ],
+  "source": "automatic"
+}

@@ -1,0 +1,118 @@
+{
+  "job": "read-1280058-61604f30bc-haiku55",
+  "model": "claude-haiku-5-5",
+  "meta": {
+    "cik": "1280058",
+    "docs": [
+      "https://www.sec.gov/Archives/edgar/data/1280058/000128005824000037/blkbq1202410-qexx101.htm"
+    ]
+  },
+  "usage": {
+    "input_tokens": 239707,
+    "output_tokens": 2271,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "borrower": "Blackbaud, Inc.",
+    "agreement_date": "2020-10-30",
+    "covenants": [
+      {
+        "name": "Net Leverage Ratio",
+        "metric": "net_leverage",
+        "direction": "max",
+        "thresholds": [
+          {
+            "value": 4.0,
+            "applies_from": "2021-12-31"
+          },
+          {
+            "value": 3.75,
+            "applies_from": "2024-03-31"
+          }
+        ],
+        "test_frequency": "quarterly",
+        "springing_condition": null,
+        "section": "Section 9.1",
+        "quote": "As of any fiscal quarter end, permit the ratio (the \u201cNet Leverage Ratio\u201d) of (a) Total Funded Net Indebtedness on such date to (b) EBITDA for the period of four (4) consecutive fiscal quarters ending on or immediately prior to such date to be greater than: (a) commencing with the fiscal quarter ending December 31, 2021 and through December 31, 2023, 4.00 to 1.00 and (b) commencing with the fiscal quarter ending March 31, 2024 and thereafter, 3.75 to 1.00;",
+        "ebitda_addbacks": [
+          "stock_comp",
+          "restructuring",
+          "other"
+        ],
+        "cash_netting_cap": 150000000.0,
+        "cash_netting_cap_pct_ebitda": null
+      },
+      {
+        "name": "Interest Coverage Ratio",
+        "metric": "interest_coverage",
+        "direction": "min",
+        "thresholds": [
+          {
+            "value": 2.5,
+            "applies_from": "2020-12-31"
+          }
+        ],
+        "test_frequency": "quarterly",
+        "springing_condition": null,
+        "section": "Section 9.2",
+        "quote": "As of any fiscal quarter end, commencing with the fiscal quarter ending December 31, 2020, permit the ratio of (a) EBITDA for the period of four (4) consecutive fiscal quarters ending on or immediately prior to such date to (b) Interest Expense for the period of four (4) consecutive fiscal quarters ending on or immediately prior to such date to be less than 2.50 to 1.0.",
+        "ebitda_addbacks": [
+          "stock_comp",
+          "restructuring",
+          "other"
+        ],
+        "cash_netting_cap": null,
+        "cash_netting_cap_pct_ebitda": null
+      }
+    ],
+    "notes": "Financial covenants are in Article IX as amended by the Third Amendment (April 30, 2024), which restated the Net Leverage Ratio step-down to 3.75x from March 31, 2024; the Third Amendment text quoted above is taken from the amended Credit Agreement in Annex I, with the Net Leverage Ratio step-down language shown in the amended form. Net Leverage Ratio may be increased by 0.50x for one four-quarter period following a qualifying Permitted Acquisition, capped at 4.25x, no more than twice over the term. EBITDA add-backs include non-cash stock compensation and other non-cash charges (impairments fall within general non-cash charges), restructuring of leases up to $25 million, data-breach legal expenses up to $50 million, and Pro Forma Adjustments (cost savings and synergies on acquisitions) capped at 10% of EBITDA. Cash netting for Total Funded Net Indebtedness is capped at $150 million as amended. No equity cure right was found. The EBITDA definition's Pro Forma Adjustments cover synergies and cost savings tied to Permitted Acquisitions, which is the basis for the 10% EBITDA cap; there is no separate general addback cap for restructuring. The Applicable Margin grid is pricing, not a covenant, and is excluded.",
+    "facility": "Revolving credit facility of $700 million (with $50 million letter of credit and $50 million swingline subfacilities) and a term loan of $800 million, maturing April 30, 2029 as amended.",
+    "terms": [
+      {
+        "kind": "j_crew_blocker",
+        "present": "yes",
+        "section": "Section 10.3 (proviso following clause (k))",
+        "quote": "provided, that, notwithstanding any to the contrary set forth in this Agreement or any other Loan Document, the Borrowers shall not, and shall not permit any of their Restricted Subsidiaries to consummate any transaction that results in the transfer (whether by way of any dividend, distribution, Investment, disposition, designation of any Restricted Subsidiary as an Unrestricted Subsidiary, or otherwise, and whether in a single transaction or a series of related transactions) of Material Intellectual Property from any Borrower or any of their Restricted Subsidiaries to any Unrestricted Subsidiary.",
+        "summary": "Transfers of Material Intellectual Property to Unrestricted Subsidiaries are prohibited, including by designating the owning subsidiary as unrestricted."
+      },
+      {
+        "kind": "serta_protection",
+        "present": "yes",
+        "section": "Section 13.2",
+        "quote": "subordinate, or have the effect of subordinating, the Obligations or Liens securing the Obligations hereunder to any other Indebtedness, Liens securing the Obligations or other obligation without the written consent of each Lender directly affected thereby;",
+        "summary": "Subordinating the loans or their liens to other debt requires the consent of each directly affected lender."
+      },
+      {
+        "kind": "chewy_protection",
+        "present": "partial",
+        "section": "Section 12.10(c)",
+        "quote": "(c) to release any Guarantor from its obligations under the Guaranty Agreement if such Person ceases to be a Material Domestic Subsidiary as a result of a transaction permitted under the Loan Documents.",
+        "summary": "Guarantors are released when they cease to be Material Domestic Subsidiaries through a permitted transaction, but there is no express rule that loss of wholly owned status alone does not release a guarantor. Section 13.2(h) requires each lender's consent to release all or substantially all guarantors."
+      },
+      {
+        "kind": "unrestricted_sub_cap",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "No hard dollar or percentage cap on investments in or designations of unrestricted subsidiaries; designation is permitted subject to pro forma covenant compliance and related conditions in Section 8.14, and general investment baskets apply."
+      },
+      {
+        "kind": "addback_cap",
+        "present": "yes",
+        "section": "Section 1.1 (definition of EBITDA; definition of Pro Forma Adjustments)",
+        "quote": "provided that the aggregate amount of Pro Forma Adjustments added back to EBITDA shall not exceed ten percent (10%) of EBITDA (determined prior to giving effect to the add back in this clause (vi)),",
+        "summary": "Pro Forma Adjustments, which include projected synergies and cost savings tied to Permitted Acquisitions, are capped at 10% of EBITDA; restructuring of leases is separately capped at $25 million."
+      },
+      {
+        "kind": "equity_cure",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "The agreement contains no equity cure right for financial covenant defaults."
+      }
+    ],
+    "addback_cap_pct": 0.1
+  }
+}

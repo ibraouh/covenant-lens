@@ -1,0 +1,30 @@
+{
+  "job": "ratio-1934114-2026-09-28",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1934114/000162828026072826/suja-20260928.htm",
+    "period": "2026-09-28"
+  },
+  "usage": {
+    "input_tokens": 5058,
+    "output_tokens": 812,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "Consolidated Net Leverage Ratio",
+        "metric": "net_leverage",
+        "period_end": "2026-09-28",
+        "actual": null,
+        "limit": 4.0,
+        "direction": "max",
+        "facility": "A&R Credit Agreement",
+        "quote": "The Company shall not permit its consolidated net leverage ratio to exceed 4.00 to 1.00 as of the last day of each fiscal quarter, commencing with the fiscal quarter ended September 28, 2026 through the fiscal quarter ending September 27, 20 2027, and 3.50 to 1.00 for each fiscal quarter ending thereafter, subject to a temporary 0.50 to 1.00 step-up (not to exceed 4.25 to 1.00) following the consummation of a material acquisition."
+      }
+    ],
+    "notes": "The filing gives no actual ratio values. It says only that the company is in compliance with all financial covenants. The net leverage maximum is 4.00x through the quarter ending September 27, 2027 and 3.50x after that, with a temporary 0.50x step-up (capped at 4.25x) after a material acquisition. The interest coverage covenant (minimum 3.00x) is excluded because it first applies to the quarter ending December 28, 2026, so it was not in force at September 28, 2026. The net leverage tiers in the pricing grid (2.00x and 3.00x) set interest margins and commitment fees, not covenants, and are excluded."
+  }
+}

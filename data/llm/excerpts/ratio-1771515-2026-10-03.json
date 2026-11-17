@@ -1,0 +1,40 @@
+{
+  "job": "ratio-1771515-2026-10-03",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1771515/000177151526000074/go-20261003.htm",
+    "period": "2026-10-03"
+  },
+  "usage": {
+    "input_tokens": 5346,
+    "output_tokens": 462,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "Total Net Leverage Ratio",
+        "metric": "net_leverage",
+        "period_end": "2026-10-03",
+        "actual": null,
+        "limit": 3.25,
+        "direction": "max",
+        "facility": "2023 Credit Agreement",
+        "quote": "The maximum total net leverage ratio test requires us to be in compliance with a Total Net Leverage Ratio no greater than 3.25 to 1.00 as of the last day of each test period ending after December 31, 2025, subject to certain adjustments set forth in the 2023 Credit Agreement."
+      },
+      {
+        "covenant_name": "Consolidated Interest Coverage Ratio",
+        "metric": "interest_coverage",
+        "period_end": "2026-10-03",
+        "actual": null,
+        "limit": 1.75,
+        "direction": "min",
+        "facility": "2023 Credit Agreement",
+        "quote": "The minimum interest coverage ratio test requires us to be in compliance with a Consolidated Interest Coverage Ratio (as defined in the 2023 Credit Agreement) of no less than 1.75 to 1.00 as of the last day of each test period."
+      }
+    ],
+    "notes": "Actual ratios not disclosed; company states it was in compliance with all financial covenants as of October 3, 2026. The 3.00x Total Net Leverage Ratio is an incremental facility capacity test, and leverage-based pricing grids set margins and fees only, so both were excluded."
+  }
+}

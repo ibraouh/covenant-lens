@@ -1,0 +1,50 @@
+{
+  "job": "ratio-1928446-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1928446/000192844626000067/grnt-20260930.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 5700,
+    "output_tokens": 1229,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "Leverage ratio (Consolidated Total Debt to EBITDAX)",
+        "metric": "total_leverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 3.0,
+        "direction": "max",
+        "facility": "Credit Agreement",
+        "quote": "a leverage ratio, which is the ratio of Consolidated Total Debt to EBITDAX (each as defined in the Credit Agreement), of not greater than 3.00 to 1.00 as of the last day of any fiscal quarter"
+      },
+      {
+        "covenant_name": "Current Ratio",
+        "metric": "other",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 1.0,
+        "direction": "min",
+        "facility": "Credit Agreement",
+        "quote": "a Current Ratio (as defined in the Credit Agreement), of not less than 1.00 to 1.00 as of the last day of each fiscal quarter"
+      },
+      {
+        "covenant_name": "Asset Coverage Ratio",
+        "metric": "other",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 1.25,
+        "direction": "min",
+        "facility": "Credit Agreement",
+        "quote": "an Asset Coverage Ratio (as defined in the Credit Agreement), commencing with the fiscal quarter ended June 30, 2026, of not less than (a) for each such fiscal quarter ending prior to December 31, 2026, 1.25 to 1.00"
+      }
+    ],
+    "notes": "The filing gives only the covenant requirements for the Credit Agreement, not the actual ratios. It states the Company was in compliance with all Credit Agreement covenants at September 30, 2026. The Asset Coverage Ratio minimum rises to 1.50x for fiscal quarters ending on or after December 31, 2026. Several items were excluded. The 2029 Senior Notes (Note Purchase Agreement) covenants were left out because that agreement is not a bank facility: net leverage max 3.25x and asset coverage min 1.25x/1.50x. Also excluded are the pro forma net leverage tests for restricted payments, debt redemption and incremental notes, which are incurrence or payment tests (the Seventh Amendment raised one of these to 1.75x through January 1, 2027). Pricing-grid margins were excluded as well."
+  }
+}

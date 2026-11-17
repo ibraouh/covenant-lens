@@ -1,0 +1,40 @@
+{
+  "job": "ratio-1728688-2025-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1728688/000172868825000122/iiiv-20250930.htm",
+    "period": "2025-09-30"
+  },
+  "usage": {
+    "input_tokens": 5608,
+    "output_tokens": 504,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "consolidated interest coverage ratio",
+        "metric": "interest_coverage",
+        "period_end": "2025-09-30",
+        "actual": 96.8,
+        "limit": 3.0,
+        "direction": "min",
+        "facility": "2023 Senior Secured Credit Facility",
+        "quote": "As of September 30, 2025, we were in compliance with these covenants with a consolidated interest coverage ratio and total leverage ratio of 96.8x and 0.0x, respectively, and expect to remain in compliance with these covenants over the next twelve months."
+      },
+      {
+        "covenant_name": "total leverage ratio",
+        "metric": "total_leverage",
+        "period_end": "2025-09-30",
+        "actual": 0.0,
+        "limit": 5.0,
+        "direction": "max",
+        "facility": "2023 Senior Secured Credit Facility",
+        "quote": "As of September 30, 2025, we were in compliance with these covenants with a consolidated interest coverage ratio and total leverage ratio of 96.8x and 0.0x, respectively, and expect to remain in compliance with these covenants over the next twelve months."
+      }
+    ],
+    "notes": "Limits are from: 'requires us to maintain a consolidated interest coverage ratio not less than 3.0 to 1.0 and total leverage ratio not exceeding 5.0 to 1.0.' The ratios were left out of the net leverage pricing grid and the incremental facility incurrence test (3.0x coverage and 5.0x net leverage). The 0.0x leverage reflects no borrowings outstanding under the Revolver."
+  }
+}

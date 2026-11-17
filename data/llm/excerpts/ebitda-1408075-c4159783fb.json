@@ -1,0 +1,70 @@
+{
+  "job": "ebitda-1408075-c4159783fb",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1408075/000140807525000027/gpkexhibit9912025q38-k.htm",
+    "filed": "2025-11-04"
+  },
+  "usage": {
+    "input_tokens": 4906,
+    "output_tokens": 634,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "label": "Adjusted EBITDA",
+    "figures": [
+      {
+        "period_end": "2025-09-30",
+        "months": 3,
+        "shown": "383",
+        "unit": "millions",
+        "quote": "Adjusted EBITDA $ 383 $ 433 $ 1,084 $ 1,278"
+      },
+      {
+        "period_end": "2024-09-30",
+        "months": 3,
+        "shown": "433",
+        "unit": "millions",
+        "quote": "Adjusted EBITDA $ 383 $ 433 $ 1,084 $ 1,278"
+      },
+      {
+        "period_end": "2025-09-30",
+        "months": 9,
+        "shown": "1,084",
+        "unit": "millions",
+        "quote": "Adjusted EBITDA $ 383 $ 433 $ 1,084 $ 1,278"
+      },
+      {
+        "period_end": "2024-09-30",
+        "months": 9,
+        "shown": "1,278",
+        "unit": "millions",
+        "quote": "Adjusted EBITDA $ 383 $ 433 $ 1,084 $ 1,278"
+      },
+      {
+        "period_end": "2025-09-30",
+        "months": 12,
+        "shown": "1,488",
+        "unit": "millions",
+        "quote": "Adjusted EBITDA $ 1,488 $ 1,735 $ 1,682"
+      },
+      {
+        "period_end": "2024-09-30",
+        "months": 12,
+        "shown": "1,735",
+        "unit": "millions",
+        "quote": "Adjusted EBITDA $ 1,488 $ 1,735 $ 1,682"
+      },
+      {
+        "period_end": "2024-12-31",
+        "months": 12,
+        "shown": "1,682",
+        "unit": "millions",
+        "quote": "Adjusted EBITDA $ 1,488 $ 1,735 $ 1,682"
+      }
+    ],
+    "notes": "Figures from the non-GAAP reconciliation tables (in millions). The twelve-month figures include trailing twelve months ended September 30, 2025 and 2024, plus full year 2024. Full-year 2025 guidance of $1.40 billion to $1.45 billion is excluded because it is a forecast, not a reported result."
+  }
+}

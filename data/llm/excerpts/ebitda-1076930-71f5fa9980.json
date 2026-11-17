@@ -1,0 +1,35 @@
+{
+  "job": "ebitda-1076930-71f5fa9980",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1076930/000119312526453760/novt-ex99_1.htm",
+    "filed": "2026-11-09"
+  },
+  "usage": {
+    "input_tokens": 5023,
+    "output_tokens": 256,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "label": "Adjusted EBITDA",
+    "figures": [
+      {
+        "period_end": "2026-10-02",
+        "months": 3,
+        "shown": "80.3",
+        "unit": "millions",
+        "quote": "Adjusted EBITDA $ 80.3 $ 58.1"
+      },
+      {
+        "period_end": "2025-09-26",
+        "months": 3,
+        "shown": "58.1",
+        "unit": "millions",
+        "quote": "Adjusted EBITDA $ 80.3 $ 58.1"
+      }
+    ],
+    "notes": "Figures taken from the Financial Highlights table (in millions); the reconciliation table is not included in the excerpt. No year-to-date Adjusted EBITDA is shown. Q4 and full-year 2026 guidance ranges ($76\u201379M and $274\u2013277M) are forecasts, so they are excluded."
+  }
+}

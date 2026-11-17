@@ -1,0 +1,49 @@
+{
+  "job": "ebitda-825542-f509251064",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/825542/000082554226000036/exhibit991q3f26newsrelease.htm",
+    "filed": "2026-07-29"
+  },
+  "usage": {
+    "input_tokens": 4895,
+    "output_tokens": 426,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "label": "Adjusted EBITDA",
+    "figures": [
+      {
+        "period_end": "2026-06-27",
+        "months": 3,
+        "shown": "246.3",
+        "unit": "millions",
+        "quote": "Adjusted EBITDA (Non-GAAP) $ 246.3 $ 253.5"
+      },
+      {
+        "period_end": "2025-06-28",
+        "months": 3,
+        "shown": "253.5",
+        "unit": "millions",
+        "quote": "Adjusted EBITDA (Non-GAAP) $ 246.3 $ 253.5"
+      },
+      {
+        "period_end": "2026-06-27",
+        "months": 9,
+        "shown": "686.6",
+        "unit": "millions",
+        "quote": "Adjusted EBITDA (Non-GAAP) $ 686.6 $ 655.9"
+      },
+      {
+        "period_end": "2025-06-28",
+        "months": 9,
+        "shown": "655.9",
+        "unit": "millions",
+        "quote": "Adjusted EBITDA (Non-GAAP) $ 686.6 $ 655.9"
+      }
+    ],
+    "notes": "Figures come from the 'Calculation of Adjusted EBITDA' reconciliation tables (in millions) for the three and nine months ended June 27, 2026 and June 28, 2025. They match the summary table. Fiscal 2026 guidance is mid single-digit growth, given as a percentage only, so no figure is reported for it."
+  }
+}

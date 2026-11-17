@@ -1,0 +1,140 @@
+{
+  "job": "ratio-1792849-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1792849/000143774926035881/hpe20260930_10q.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 4464,
+    "output_tokens": 2998,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "asset coverage ratio",
+        "metric": "other",
+        "period_end": "2025-12-31",
+        "actual": null,
+        "limit": 1.0,
+        "direction": "min",
+        "facility": "Term Loan Credit Agreement",
+        "quote": "(i) the Company has been required to maintain an asset coverage ratio of not less than 1.00 to 1.00 for the fourth quarter of 2025 and the first quarter of 2026"
+      },
+      {
+        "covenant_name": "asset coverage ratio",
+        "metric": "other",
+        "period_end": "2026-03-31",
+        "actual": null,
+        "limit": 1.0,
+        "direction": "min",
+        "facility": "Term Loan Credit Agreement",
+        "quote": "(i) the Company has been required to maintain an asset coverage ratio of not less than 1.00 to 1.00 for the fourth quarter of 2025 and the first quarter of 2026"
+      },
+      {
+        "covenant_name": "total net leverage ratio",
+        "metric": "net_leverage",
+        "period_end": "2025-12-31",
+        "actual": null,
+        "limit": 2.5,
+        "direction": "max",
+        "facility": "Term Loan Credit Agreement",
+        "quote": "(ii) the Company has been required to maintain a total net leverage ratio of not greater than 2.50 to 1.00 for the fourth quarter of 2025 and the first quarter of 2026"
+      },
+      {
+        "covenant_name": "total net leverage ratio",
+        "metric": "net_leverage",
+        "period_end": "2026-03-31",
+        "actual": null,
+        "limit": 2.5,
+        "direction": "max",
+        "facility": "Term Loan Credit Agreement",
+        "quote": "(ii) the Company has been required to maintain a total net leverage ratio of not greater than 2.50 to 1.00 for the fourth quarter of 2025 and the first quarter of 2026"
+      },
+      {
+        "covenant_name": "total net leverage ratio",
+        "metric": "net_leverage",
+        "period_end": "2026-06-30",
+        "actual": null,
+        "limit": 2.25,
+        "direction": "max",
+        "facility": "Term Loan Credit Agreement",
+        "quote": "the Company will be required to maintain a total net leverage ratio of not greater than 2.25 to 1.00 for the second quarter of 2026"
+      },
+      {
+        "covenant_name": "asset coverage ratio",
+        "metric": "other",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 1.5,
+        "direction": "min",
+        "facility": "Term Loan Credit Agreement",
+        "quote": "which will require the Company to comply with an asset coverage ratio of not less than 1.50 :1.00 and a total net leverage ratio of not greater than 2.00 :1.00"
+      },
+      {
+        "covenant_name": "total net leverage ratio",
+        "metric": "net_leverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 2.0,
+        "direction": "max",
+        "facility": "Term Loan Credit Agreement",
+        "quote": "which will require the Company to comply with an asset coverage ratio of not less than 1.50 :1.00 and a total net leverage ratio of not greater than 2.00 :1.00"
+      },
+      {
+        "covenant_name": "asset coverage ratio",
+        "metric": "other",
+        "period_end": "2025-12-31",
+        "actual": null,
+        "limit": 1.0,
+        "direction": "min",
+        "facility": "Senior Credit Facility Agreement",
+        "quote": "(i) the Company has been required to maintain an asset coverage ratio of not less than 1.00 to 1.00 for the fourth quarter of 2025 and the first quarter of 2026"
+      },
+      {
+        "covenant_name": "asset coverage ratio",
+        "metric": "other",
+        "period_end": "2026-03-31",
+        "actual": null,
+        "limit": 1.0,
+        "direction": "min",
+        "facility": "Senior Credit Facility Agreement",
+        "quote": "(i) the Company has been required to maintain an asset coverage ratio of not less than 1.00 to 1.00 for the fourth quarter of 2025 and the first quarter of 2026"
+      },
+      {
+        "covenant_name": "total net leverage ratio",
+        "metric": "net_leverage",
+        "period_end": "2025-12-31",
+        "actual": null,
+        "limit": 2.5,
+        "direction": "max",
+        "facility": "Senior Credit Facility Agreement",
+        "quote": "(ii) the Company has been required to maintain a total net leverage ratio of not greater than 2.50 to 1.00 for the fourth quarter of 2025 and the first quarter of 2026"
+      },
+      {
+        "covenant_name": "total net leverage ratio",
+        "metric": "net_leverage",
+        "period_end": "2026-03-31",
+        "actual": null,
+        "limit": 2.5,
+        "direction": "max",
+        "facility": "Senior Credit Facility Agreement",
+        "quote": "(ii) the Company has been required to maintain a total net leverage ratio of not greater than 2.50 to 1.00 for the fourth quarter of 2025 and the first quarter of 2026"
+      },
+      {
+        "covenant_name": "total net leverage ratio",
+        "metric": "net_leverage",
+        "period_end": "2026-06-30",
+        "actual": null,
+        "limit": 2.25,
+        "direction": "max",
+        "facility": "Senior Credit Facility Agreement",
+        "quote": "the Company has been required to maintain a total net leverage ratio of not greater than 2.25 to 1.00 for the second quarter of 2026"
+      }
+    ],
+    "notes": "No actual ratio values are disclosed; only covenant requirements are given. The Term Loan and Senior Credit Facility amendments contain identical wording, so some quotes appear twice in the excerpt. For Q3 2026 onward, the levels are said to reset to those in the Second Term Loan / Third Facility Amendments, but those levels are not explicitly stated. The 1.50x asset coverage and 2.00x net leverage limits used for 2026-09-30 come from the Term Loan's general covenant description. The amendment wording (a 0.25x decrease to 1.00x) implies an underlying asset coverage requirement of 1.25x for Q4 2025 and Q1 2026, so the exact Q3 2026 asset coverage requirement is uncertain. The Senior Credit Facility's Q3 2026 limits are not separately stated in the excerpt. The total net leverage ratio is also used for the Excess Cash Flow prepayment percentage; that use is not a covenant and was excluded."
+  }
+}

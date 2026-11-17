@@ -169,7 +169,13 @@ def run_batch(stage: str, jobs: list[Job], client: anthropic.Anthropic | None = 
             batch_id = saved["id"]
             log(f"[{stage}] resuming batch {batch_id}")
     if not batch_id:
-        batch = client.messages.batches.create(requests=[{"custom_id": j.id, "params": j.params()} for j in todo])
+        try:
+            batch = client.messages.batches.create(requests=[{"custom_id": j.id, "params": j.params()} for j in todo])
+        except (anthropic.BadRequestError, anthropic.AuthenticationError, anthropic.PermissionDeniedError) as e:
+            # e.g. no API credit left: carry on with what is cached instead of losing the whole run
+            log(f"[{stage}] could not submit {len(todo)} requests ({e.__class__.__name__}: {getattr(e, 'message', e)}); "
+                f"continuing with {len(results)} cached results")
+            return results
         batch_id = batch.id
         pending.parent.mkdir(parents=True, exist_ok=True)
         pending.write_text(json.dumps({"id": batch_id, "jobs": sorted(by_id)}))

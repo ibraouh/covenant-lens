@@ -1,0 +1,30 @@
+{
+  "job": "ratio-807863-2026-06-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/807863/000080786326000036/mitk-20260630.htm",
+    "period": "2026-06-30"
+  },
+  "usage": {
+    "input_tokens": 3800,
+    "output_tokens": 372,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "net leverage ratio",
+        "metric": "net_leverage",
+        "period_end": "2026-06-30",
+        "actual": null,
+        "limit": 2.5,
+        "direction": "max",
+        "facility": "Amended Credit Agreement",
+        "quote": "The Amended Credit Agreement requires the Company to maintain a net leverage ratio of no more than 2.50 to 1.00 and if the Company consummates a permitted acquisition during the trailing twelve-month period, the net leverage ratio may not exceed 2.75 to 1.00. As of June 30, 2026, the Company was in compliance with the net leverage ratio covenant of the Amended Credit Agreement."
+      }
+    ],
+    "notes": "Actual net leverage ratio not disclosed; company states only compliance as of June 30, 2026. Limit is 2.50x, stepping up to 2.75x if a permitted acquisition is consummated in the trailing twelve months. The net leverage ratio also sets the interest margin, but that pricing use is not a covenant. Letter-of-credit cash collateral multiples (1.05/1.15) are not covenant ratios."
+  }
+}

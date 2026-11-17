@@ -1,0 +1,30 @@
+{
+  "job": "ratio-824142-2026-03-31",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/824142/000082414226000036/aaon-20260331.htm",
+    "period": "2026-03-31"
+  },
+  "usage": {
+    "input_tokens": 4615,
+    "output_tokens": 242,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "leverage ratio",
+        "metric": "total_leverage",
+        "period_end": "2026-03-31",
+        "actual": 1.71,
+        "limit": 3.0,
+        "direction": "max",
+        "facility": "Amended Loan Agreement (Amended Revolver)",
+        "quote": "At March 31, 2026, our leverage ratio was 1.71 to 1.0, which meets the requirement of not being above 3 to 1."
+      }
+    ],
+    "notes": "The same covenant disclosure appears in both the notes and MD&A, so it is reported once. The filing does not say whether the leverage ratio is total or net; total_leverage is assumed. The leverage ratio also sets the margin and fee grid, but it is reported here only as the covenant."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "job": "ratio-763744-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/763744/000076374426000115/lcii-20260930.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 3366,
+    "output_tokens": 186,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [],
+    "notes": "The Credit Agreement includes a maximum net leverage ratio covenant and a minimum interest coverage ratio covenant. The MD&A calls the second one a minimum debt service coverage ratio. The excerpt gives neither the actual ratios nor the numeric limits. It says only that the Company was in compliance with all financial covenants at September 30, 2026. The total net leverage ratio is also mentioned as the basis for interest rate margins and commitment fees, but that is pricing, not a covenant, so it is excluded."
+  }
+}

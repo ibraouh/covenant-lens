@@ -1,0 +1,40 @@
+{
+  "job": "ratio-1171155-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1171155/000117115526000004/rlgt-20260930.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 3156,
+    "output_tokens": 439,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "maximum consolidated net leverage ratio",
+        "metric": "net_leverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 3.0,
+        "direction": "max",
+        "facility": "Revolving Credit Facility",
+        "quote": "For borrowings under the Revolving Credit Facility, the Company is subject to the maximum consolidated net leverage ratio of 3.00 and minimum consolidated interest coverage ratio of 3.00 ."
+      },
+      {
+        "covenant_name": "minimum consolidated interest coverage ratio",
+        "metric": "interest_coverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 3.0,
+        "direction": "min",
+        "facility": "Revolving Credit Facility",
+        "quote": "For borrowings under the Revolving Credit Facility, the Company is subject to the maximum consolidated net leverage ratio of 3.00 and minimum consolidated interest coverage ratio of 3.00 ."
+      }
+    ],
+    "notes": "Actual ratio values are not disclosed; the filing states only the limits and that the company was in compliance as of September 30, 2026. The net leverage ratio also sets the interest rate margins, but here it is also a stated covenant. Additional covenants and minimum availability requirements apply to acquisitions and share repurchases; these are not quantified."
+  }
+}

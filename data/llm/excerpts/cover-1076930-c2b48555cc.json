@@ -1,0 +1,24 @@
+{
+  "job": "cover-1076930-c2b48555cc",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1076930/000156459020014557/novt-ex101_7.htm"
+  },
+  "usage": {
+    "input_tokens": 3282,
+    "output_tokens": 113,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "is_loan_document": true,
+    "kind": "amendment",
+    "title": "First Amendment to Third Amended and Restated Credit Agreement",
+    "dated": "2020-03-27",
+    "amends_dated": "2019-12-31",
+    "primary_bank_facility": true,
+    "includes_conformed_copy": false,
+    "borrower": "Novanta Corporation"
+  }
+}

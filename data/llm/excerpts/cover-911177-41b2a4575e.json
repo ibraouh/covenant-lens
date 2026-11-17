@@ -1,0 +1,24 @@
+{
+  "job": "cover-911177-41b2a4575e",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/911177/000162828025036993/cwst-ex103063025.htm"
+  },
+  "usage": {
+    "input_tokens": 3137,
+    "output_tokens": 131,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "is_loan_document": true,
+    "kind": "amendment",
+    "title": "First Amendment to Second Amended and Restated Credit Agreement (Sustainability Table Amendment)",
+    "dated": "2025-07-30",
+    "amends_dated": "2024-09-27",
+    "primary_bank_facility": true,
+    "includes_conformed_copy": false,
+    "borrower": "Casella Waste Systems, Inc."
+  }
+}

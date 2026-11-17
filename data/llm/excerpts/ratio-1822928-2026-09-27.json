@@ -1,0 +1,30 @@
+{
+  "job": "ratio-1822928-2026-09-27",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1822928/000182292826000089/hlly-20260927.htm",
+    "period": "2026-09-27"
+  },
+  "usage": {
+    "input_tokens": 3463,
+    "output_tokens": 650,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "Total Leverage Ratio",
+        "metric": "total_leverage",
+        "period_end": "2026-09-27",
+        "actual": null,
+        "limit": 5.0,
+        "direction": "max",
+        "facility": "Credit Agreement",
+        "quote": "As of September 27, 2026, the required Total Leverage Ratio was 5.00 :1.00."
+      }
+    ],
+    "notes": "The filing does not give the actual Total Leverage Ratio. It says only that the company was in compliance with all financial covenants on September 27, 2026. Under the December 2024 amendment, the leverage covenant is tested only in quarters when revolving loans are outstanding on the last day of the quarter. No revolver borrowings were outstanding at September 27, 2026. The 7.25:1.00 level and its step-downs applied to the Covenant Relief Period, which ran through June 30, 2024. The $45,000 minimum liquidity covenant (unrestricted cash plus revolver availability) was added as a condition of that relief period. The excerpt does not clearly tie it to the current period-end, so I left it out. The Total Leverage Ratio also sets the revolver margin and commitment fees, and the excess cash flow sweep refers to leverage ratios. Those pricing and sweep uses were not reported as covenants."
+  }
+}

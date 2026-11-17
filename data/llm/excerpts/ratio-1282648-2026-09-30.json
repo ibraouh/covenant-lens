@@ -1,0 +1,60 @@
+{
+  "job": "ratio-1282648-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1282648/000110465926126298/batl-20260930x10q.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 5910,
+    "output_tokens": 1391,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "Total Net Leverage Ratio",
+        "metric": "net_leverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 2.75,
+        "direction": "max",
+        "facility": "2026 Term Loan Agreement",
+        "quote": "Total Net Leverage Ratio not to exceed 2.75 x as of each fiscal quarter ending September 30, 2026 through and including December 31, 2026"
+      },
+      {
+        "covenant_name": "Asset Coverage Ratio",
+        "metric": "other",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 1.75,
+        "direction": "min",
+        "facility": "2026 Term Loan Agreement",
+        "quote": "Asset Coverage Ratio not to fall below 1.75 x as of each fiscal quarter ending September 30, 2026 through and including December 31, 2026"
+      },
+      {
+        "covenant_name": "Current Ratio",
+        "metric": "other",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 1.0,
+        "direction": "min",
+        "facility": "2026 Term Loan Agreement",
+        "quote": "Current Ratio not to fall below 1.00 x, determined as of the last day of any fiscal quarter commencing with the fiscal quarter ending September 30, 2026"
+      },
+      {
+        "covenant_name": "Liquidity",
+        "metric": "minimum_liquidity",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 10000000.0,
+        "direction": "min",
+        "facility": "2026 Term Loan Agreement",
+        "quote": "Liquidity not to fall below the greater of (x) $ 10,000,000 and (y) the amount equal to the scheduled principal and interest payments for the immediately succeeding three-month period"
+      }
+    ],
+    "notes": "No actual ratio values are disclosed; the filing only states the company was in compliance with all financial covenants under the 2026 Term Loan Agreement at September 30, 2026. The liquidity floor is the greater of $10.0 million and the next three months' scheduled principal and interest, so $10.0 million is only the minimum of that floor. The 2024 Amended Term Loan Agreement (as amended by the Second Amendment) had a Total Net Leverage covenant schedule, including 3.50x for Q3 2026, and a 1.85x Asset Coverage Ratio. Those limits appear to have been superseded by the 2026 Term Loan Agreement, so they are excluded. The leverage-based pricing grid sets only the interest margin and is also excluded."
+  }
+}

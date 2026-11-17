@@ -1,0 +1,30 @@
+{
+  "job": "ratio-832101-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/832101/000083210126000029/iex-20260930.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 2957,
+    "output_tokens": 719,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "net leverage ratio",
+        "metric": "net_leverage",
+        "period_end": "2026-09-30",
+        "actual": 1.39,
+        "limit": 3.5,
+        "direction": "max",
+        "facility": "Revolving Facility (Credit Agreement)",
+        "quote": "The key financial covenant the Company is required to maintain in connection with the Revolving Facility is a net leverage ratio of 3.50 to 1, which is the ratio of the Company\u2019s consolidated total debt less eligible cash deductions to its consolidated EBITDA, as defined within the Credit Agreement. At September 30, 2026, the Company\u2019s interest coverage ratio was 14.69 to 1 for covenant calculation purposes, the leverage ratio was 1.72 to 1 and the net leverage ratio was 1.39 to 1."
+      }
+    ],
+    "notes": "Only the net leverage covenant (max 3.50x; actual 1.39x at 2026-09-30) belongs to the Revolving Facility. The minimum interest coverage covenant (3.0x; actual 14.69x) and maximum leverage covenant (3.50x; actual 1.72x) apply to the 5.13% Senior Notes (note agreement), not the bank credit agreement, so they are excluded even though they use Credit Agreement definitions. The leverage ratio that sets the interest margin (0.00%\u20131.30%) is a pricing grid and is also excluded. The company states it was in compliance at 2026-09-30."
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "reports": [
+    {
+      "form": "10-Q",
+      "filed": "2026-11-04",
+      "period": "2026-09-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/1345126/000134512626000071/codi-20260930.htm",
+      "job": "ratio-1345126-2026-09-30"
+    },
+    {
+      "form": "10-Q",
+      "filed": "2026-08-10",
+      "period": "2026-06-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/1345126/000134512626000061/codi-20260630.htm",
+      "job": "ratio-1345126-2026-06-30"
+    },
+    {
+      "form": "10-Q",
+      "filed": "2026-05-06",
+      "period": "2026-03-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1345126/000134512626000040/codi-20260331.htm",
+      "job": "ratio-1345126-2026-03-31"
+    },
+    {
+      "form": "10-K",
+      "filed": "2026-02-27",
+      "period": "2025-12-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1345126/000134512626000026/codi-20251231.htm",
+      "job": "ratio-1345126-2025-12-31"
+    }
+  ],
+  "releases": [
+    {
+      "filed": "2026-08-10",
+      "url": "https://www.sec.gov/Archives/edgar/data/1345126/000134512626000062/exhibit991earningsreleaseq.htm",
+      "job": "ebitda-1345126-7ced9b396c"
+    },
+    {
+      "filed": "2026-05-06",
+      "url": "https://www.sec.gov/Archives/edgar/data/1345126/000134512626000041/exhibit991earningsreleaseq.htm",
+      "job": "ebitda-1345126-27d5abd8a4"
+    },
+    {
+      "filed": "2026-02-26",
+      "url": "https://www.sec.gov/Archives/edgar/data/1345126/000134512626000021/exhibit991earningsreleaseq.htm",
+      "job": "ebitda-1345126-ec61abb288"
+    },
+    {
+      "filed": "2026-01-14",
+      "url": "https://www.sec.gov/Archives/edgar/data/1345126/000134512626000012/exhibit991earningsreleaseq.htm",
+      "job": "ebitda-1345126-2feb75b77c"
+    }
+  ],
+  "exhibits": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1345126/000134512616000051/a12312015ex1013.htm",
+      "filed": "2016-02-29",
+      "exhibit": "EX-10.13",
+      "chars": 19331,
+      "job": "cover-1345126-74c1e8b94d"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1345126/000134512616000076/exhibit101commitmentletter.htm",
+      "filed": "2016-08-01",
+      "exhibit": "EX-10.1",
+      "chars": 34699,
+      "job": "cover-1345126-b09907c5f8"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1345126/000119312516686459/d244285dex101.htm",
+      "filed": "2016-08-19",
+      "exhibit": "EX-10.1",
+      "chars": 15020,
+      "job": "cover-1345126-f8a61ab559"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1345126/000134512616000085/a101incrementalfacilityame.htm",
+      "filed": "2016-08-31",
+      "exhibit": "EX-10.1",
+      "chars": 15658,
+      "job": "cover-1345126-71c10dfab1"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1345126/000134512617000026/codi033117-ex101.htm",
+      "filed": "2017-05-03",
+      "exhibit": "EX-10.1",
+      "chars": 17708,
+      "job": "cover-1345126-712d49942e"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1345126/000134512617000053/a93017-exhibit101.htm",
+      "filed": "2017-11-08",
+      "exhibit": "EX-10.1",
+      "chars": 9495,
+      "job": "cover-1345126-711757f24d"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1345126/000134512618000014/a12312017ex1022.htm",
+      "filed": "2018-02-28",
+      "exhibit": "EX-10.22",
+      "chars": 10104,
+      "job": "cover-1345126-77125af2ad"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1345126/000119312518121232/d519235dex101.htm",
+      "filed": "2018-04-18",
+      "exhibit": "EX-10.1",
+      "chars": 552328,
+      "job": "cover-1345126-a180151978"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1345126/000134512619000020/ex101-firstamendmentx2018c.htm",
+      "filed": "2019-05-01",
+      "exhibit": "EX-10.1",
+      "chars": 12192,
+      "job": "cover-1345126-f14e354a68"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1345126/000119312521091235/d129192dex101.htm",
+      "filed": "2021-03-23",
+      "exhibit": "EX-10.1",
+      "chars": 554004,
+      "job": "cover-1345126-584697bbb1"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1345126/000134512622000037/exhibit101-amendedandresta.htm",
+      "filed": "2022-07-13",
+      "exhibit": "EX-10.1",
+      "chars": 563832,
+      "job": "cover-1345126-766ffb53bb"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1345126/000134512625000006/exhibit101-incrementalcred.htm",
+      "filed": "2025-01-10",
+      "exhibit": "EX-10.1",
+      "chars": 28510,
+      "job": "cover-1345126-256787e4f9"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1345126/000134512625000029/exhibit101-forbearanceandc.htm",
+      "filed": "2025-05-27",
+      "exhibit": "EX-10.1",
+      "chars": 38324,
+      "job": "cover-1345126-b0358a2d4a"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1345126/000134512625000042/exhibit101-forbearanceandc.htm",
+      "filed": "2025-07-28",
+      "exhibit": "EX-10.1",
+      "chars": 30973,
+      "job": "cover-1345126-2bdfdc4548"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1345126/000134512625000057/exhibit101-forbearanceandc.htm",
+      "filed": "2025-10-10",
+      "exhibit": "EX-10.1",
+      "chars": 30743,
+      "job": "cover-1345126-3283628d39"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1345126/000134512625000073/exhibit102-fifthforbearanc.htm",
+      "filed": "2025-11-24",
+      "exhibit": "EX-10.2",
+      "chars": 34147,
+      "job": "cover-1345126-61c281d6da"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1345126/000134512625000073/exhibit101-forbearanceandf.htm",
+      "filed": "2025-11-24",
+      "exhibit": "EX-10.1",
+      "chars": 647152,
+      "job": "cover-1345126-6780c328b7"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1345126/000134512625000089/exhibit102-fifthamendmentt.htm",
+      "filed": "2025-12-19",
+      "exhibit": "EX-10.2",
+      "chars": 9558,
+      "job": "cover-1345126-2ace3f57cf"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1345126/000134512625000089/exhibit101-fifthcreditfaci.htm",
+      "filed": "2025-12-19",
+      "exhibit": "EX-10.1",
+      "chars": 652814,
+      "job": "cover-1345126-513d61291e"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1345126/000134512626000061/exhibit104-sixthcreditfaci.htm",
+      "filed": "2026-08-10",
+      "exhibit": "EX-10.4",
+      "chars": 647215,
+      "job": "cover-1345126-d93a231e48"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1345126/000134512626000062/exhibit101-sixthcreditfaci.htm",
+      "filed": "2026-08-10",
+      "exhibit": "EX-10.1",
+      "chars": 647215,
+      "job": "cover-1345126-2939196a27"
+    }
+  ]
+}

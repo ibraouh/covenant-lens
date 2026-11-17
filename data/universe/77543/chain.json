@@ -1,0 +1,22 @@
+{
+  "auto": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/77543/000007754326000163/tpc-arcreditagreement.htm",
+      "title": "Amended and Restated Credit Agreement",
+      "dated": "2026-07-02",
+      "kind": "amended_and_restated",
+      "filed": "2026-07-06"
+    }
+  ],
+  "notes": [],
+  "used": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/77543/000007754326000163/tpc-arcreditagreement.htm",
+      "title": "Amended and Restated Credit Agreement",
+      "dated": "2026-07-02",
+      "kind": "amended_and_restated",
+      "filed": "2026-07-06"
+    }
+  ],
+  "source": "automatic"
+}

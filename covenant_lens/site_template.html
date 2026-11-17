@@ -398,6 +398,8 @@ function borrower(b) {
   <div class="eyebrow">CIK ${b.cik}${b.gold ? " · hand-labeled for evaluation" : ""}</div>
   <h1 style="margin-top:4px">${esc(b.name)}</h1>
   <p class="sub" style="margin:8px 0 0">${esc(b.facility || "")}</p>
+  ${b.stale ? `<p class="note">This agreement marks deleted terms with strikethrough. The reading shown was made before the pipeline
+    started removing deleted text; quotes are re-checked against the corrected text, and a fresh read is queued.</p>` : ""}
   <div class="facts">${t ? `<span>Tightest: <b>${esc(t.name)}</b> at <b class="num">${x2(t.value)}</b> vs <b class="num">${x2(t.limit)}</b> (${BASIS_LONG[t.basis]}, ${t.period_end})</span>
     <span>${chip(t.headroom)}</span><span>EBITDA cushion <b class="num">${pct(t.cushion)}</b></span>` :
     `<span>${b.cov_lite ? "No financial maintenance test: this loan is covenant-lite." : "No covenant could be computed from public data."}</span>`}</div>

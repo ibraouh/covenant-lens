@@ -1,0 +1,40 @@
+{
+  "job": "ratio-1026655-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1026655/000102665526000076/cmt-20260930.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 4964,
+    "output_tokens": 810,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "covenant leverage ratio",
+        "metric": "net_leverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 3.0,
+        "direction": "max",
+        "facility": "Huntington Credit Agreement",
+        "quote": "The financial covenants require the Company to maintain a covenant leverage ratio not exceeding 3.00 to 1.00 and a fixed charge coverage ratio of at least 1.20 to 1.00."
+      },
+      {
+        "covenant_name": "fixed charge coverage ratio",
+        "metric": "fixed_charge_coverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 1.2,
+        "direction": "min",
+        "facility": "Huntington Credit Agreement",
+        "quote": "The financial covenants require the Company to maintain a covenant leverage ratio not exceeding 3.00 to 1.00 and a fixed charge coverage ratio of at least 1.20 to 1.00."
+      }
+    ],
+    "notes": "Actual ratios are not disclosed; the filing says only that the Company was in compliance as of September 30, 2026. The leverage covenant is classified as net leverage because the MD&A calls it a 'net debt leverage' covenant, but the covenant definition itself is not given. The 'margin leverage ratio' only sets interest margins and is excluded. The filing is inconsistent about the delayed draw loan: one passage says $4,810,000 is outstanding, another says none is outstanding."
+  }
+}

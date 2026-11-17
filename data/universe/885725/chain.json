@@ -1,0 +1,22 @@
+{
+  "auto": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/885725/000088572526000017/exhibit102-creditagreement.htm",
+      "title": "Credit Agreement",
+      "dated": "2026-02-26",
+      "kind": "original",
+      "filed": "2026-02-26"
+    }
+  ],
+  "notes": [],
+  "used": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/885725/000088572526000017/exhibit102-creditagreement.htm",
+      "title": "Credit Agreement",
+      "dated": "2026-02-26",
+      "kind": "original",
+      "filed": "2026-02-26"
+    }
+  ],
+  "source": "automatic"
+}

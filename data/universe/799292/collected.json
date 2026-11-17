@@ -1,0 +1,159 @@
+{
+  "reports": [
+    {
+      "form": "10-Q",
+      "filed": "2026-10-23",
+      "period": "2026-09-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/799292/000079929226000033/mho-20260930.htm",
+      "job": "ratio-799292-2026-09-30"
+    },
+    {
+      "form": "10-Q",
+      "filed": "2026-07-31",
+      "period": "2026-06-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/799292/000079929226000028/mho-20260630.htm",
+      "job": "ratio-799292-2026-06-30"
+    },
+    {
+      "form": "10-Q",
+      "filed": "2026-04-24",
+      "period": "2026-03-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/799292/000079929226000017/mho-20260331.htm",
+      "job": "ratio-799292-2026-03-31"
+    },
+    {
+      "form": "10-K",
+      "filed": "2026-02-13",
+      "period": "2025-12-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/799292/000079929226000006/mho-20251231.htm",
+      "job": "ratio-799292-2025-12-31"
+    }
+  ],
+  "releases": [
+    {
+      "filed": "2026-10-21",
+      "url": "https://www.sec.gov/Archives/edgar/data/799292/000079929226000030/exhibit991earningspressrel.htm",
+      "job": "ebitda-799292-85931176a0"
+    },
+    {
+      "filed": "2026-07-29",
+      "url": "https://www.sec.gov/Archives/edgar/data/799292/000079929226000025/exhibit991earningspressrel.htm",
+      "job": "ebitda-799292-5f47cfb433"
+    },
+    {
+      "filed": "2026-04-22",
+      "url": "https://www.sec.gov/Archives/edgar/data/799292/000079929226000014/exhibit991earningspressrel.htm",
+      "job": "ebitda-799292-8632cfebc1"
+    },
+    {
+      "filed": "2026-01-28",
+      "url": "https://www.sec.gov/Archives/edgar/data/799292/000079929226000004/exhibit9914thqtr2025earnin.htm",
+      "job": "ebitda-799292-ab7ddee4a4"
+    },
+    {
+      "filed": "2025-10-22",
+      "url": "https://www.sec.gov/Archives/edgar/data/799292/000079929225000073/exhibit991earningspressrel.htm",
+      "job": "ebitda-799292-f5e04f00f2"
+    }
+  ],
+  "exhibits": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/799292/000079929216000066/ex101mifsecondarmortgagewa.htm",
+      "filed": "2016-06-28",
+      "exhibit": "EX-10.1",
+      "chars": 331934,
+      "job": "cover-799292-6080e2ab26"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/799292/000079929216000076/exhibit103seventhamendedan.htm",
+      "filed": "2016-10-28",
+      "exhibit": "EX-10.3",
+      "chars": 97369,
+      "job": "cover-799292-baa4aceed3"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/799292/000119312517232084/d430186dex101.htm",
+      "filed": "2017-07-20",
+      "exhibit": "EX-10.1",
+      "chars": 348426,
+      "job": "cover-799292-99d4613384"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/799292/000079929217000039/exhibit101eighthamendedand.htm",
+      "filed": "2017-10-27",
+      "exhibit": "EX-10.1",
+      "chars": 97523,
+      "job": "cover-799292-1437fdbe37"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/799292/000079929218000034/exhibit103newlendersupplem.htm",
+      "filed": "2018-07-27",
+      "exhibit": "EX-10.3",
+      "chars": 2740,
+      "job": "cover-799292-be850f3898"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/799292/000079929218000034/exhibit101commitmentincrea.htm",
+      "filed": "2018-07-27",
+      "exhibit": "EX-10.2",
+      "chars": 10389,
+      "job": "cover-799292-d9ce7106cb"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/799292/000079929220000071/thirdamendmenttocredit.htm",
+      "filed": "2020-07-01",
+      "exhibit": "EX-10.1",
+      "chars": 349095,
+      "job": "cover-799292-c42587a0d7"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/799292/000079929221000073/fifthamendmenttosecondarmo.htm",
+      "filed": "2021-06-02",
+      "exhibit": "EX-10.1",
+      "chars": 424410,
+      "job": "cover-799292-75fb1229db"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/799292/000079929221000083/fourthamendmenttocreditfac.htm",
+      "filed": "2021-06-11",
+      "exhibit": "EX-10.1",
+      "chars": 385814,
+      "job": "cover-799292-777a488c92"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/799292/000079929222000006/fifthamendmenttocreditfaci.htm",
+      "filed": "2022-02-17",
+      "exhibit": "EX-10.7",
+      "chars": 14090,
+      "job": "cover-799292-a4721ce851"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/799292/000079929222000046/thirdamendedandrestatedmor.htm",
+      "filed": "2022-05-27",
+      "exhibit": "EX-10.1",
+      "chars": 375148,
+      "job": "cover-799292-aca484898d"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/799292/000079929222000074/sixthamendmenttocreditfa.htm",
+      "filed": "2022-12-09",
+      "exhibit": "EX-10.1",
+      "chars": 415182,
+      "job": "cover-799292-725116d850"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/799292/000079929223000082/fourthamendedandrestatedmo.htm",
+      "filed": "2023-05-26",
+      "exhibit": "EX-10.1",
+      "chars": 383174,
+      "job": "cover-799292-43a2009b32"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/799292/000079929225000071/exhibit101seventhamendme.htm",
+      "filed": "2025-09-19",
+      "exhibit": "EX-10.1",
+      "chars": 388812,
+      "job": "cover-799292-f278c4da3d"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "job": "ebitda-2014596-c6780d8d2f",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/2014596/000201459626000015/concentrainvestorpresent.htm",
+    "filed": "2026-01-28"
+  },
+  "usage": {
+    "input_tokens": 2797,
+    "output_tokens": 187,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "label": "Adjusted EBITDA",
+    "figures": [
+      {
+        "period_end": "2025-12-31",
+        "months": 12,
+        "shown": "432",
+        "unit": "millions",
+        "quote": "$432mm FY \u201825 Adj. EBITDA4"
+      }
+    ],
+    "notes": "Excerpt is an investor presentation disclaimer and at-a-glance page; it shows only a preliminary FY2025 Adjusted EBITDA of about $432mm (management estimate, unaudited). No reconciliation table, quarterly figure, or prior-year comparison appears in the excerpt."
+  }
+}

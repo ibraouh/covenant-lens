@@ -1,0 +1,30 @@
+{
+  "job": "ratio-1158172-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1158172/000115817226000083/scor-20260930.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 3563,
+    "output_tokens": 755,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "Senior Leverage Ratio",
+        "metric": "secured_leverage",
+        "period_end": "2026-03-31",
+        "actual": null,
+        "limit": 3.25,
+        "direction": "max",
+        "facility": "Credit Agreement (Blue Torch Finance LLC; Term Loan and Revolving Facility)",
+        "quote": "which waived testing of the Senior Leverage Ratio for the test period ending March 31, 2026, subject to certain conditions set forth in the Limited Consent, including that the Senior Leverage Ratio for such test period did not exceed 3.25 :1.00."
+      }
+    ],
+    "notes": "The 3.25:1.00 cap for the March 31, 2026 test period is a condition of the Limited Consent, which waived the regular Senior Leverage Ratio test for that period. The excerpt does not state the regular covenant levels or the actual ratio. The Credit Agreement also required minimum Liquidity of $10.0 million at all times, but no measurement date or actual value is given, so it is not listed as a ratio. The Total Leverage Ratio thresholds (2.25x, 1.75x, 1.25x) only set Excess Cash Flow prepayment percentages and are excluded. The Credit Agreement was repaid in full and terminated on May 27, 2026, so no covenant applied at September 30, 2026."
+  }
+}

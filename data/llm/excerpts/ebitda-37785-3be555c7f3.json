@@ -1,0 +1,28 @@
+{
+  "job": "ebitda-37785-3be555c7f3",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/37785/000003778526000139/fmcex991063026.htm",
+    "filed": "2026-07-29"
+  },
+  "usage": {
+    "input_tokens": 2388,
+    "output_tokens": 204,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "label": "Adjusted EBITDA",
+    "figures": [
+      {
+        "period_end": "2026-06-30",
+        "months": 3,
+        "shown": "153",
+        "unit": "millions",
+        "quote": "\u2022 Adjusted EBITDA of $153 million, down 26 percent versus Q2 2025"
+      }
+    ],
+    "notes": "Only the Q2 2026 figure is stated in the excerpt; the prior-year Q2 2025 amount is not printed (only a 26% decline is given). No reconciliation table or year-to-date total is included. The full-year 2026 outlook range ($620\u2013$680 million) is guidance, not a reported result, and is excluded."
+  }
+}

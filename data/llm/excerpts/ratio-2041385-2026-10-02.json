@@ -1,0 +1,30 @@
+{
+  "job": "ratio-2041385-2026-10-02",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/2041385/000204138526000072/ral-20261002.htm",
+    "period": "2026-10-02"
+  },
+  "usage": {
+    "input_tokens": 3264,
+    "output_tokens": 338,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "Consolidated Net Leverage Ratio",
+        "metric": "net_leverage",
+        "period_end": "2026-10-02",
+        "actual": null,
+        "limit": 3.5,
+        "direction": "max",
+        "facility": "Credit Agreement dated as of May 15, 2025, as amended",
+        "quote": "Ralliant must maintain a Consolidated Net Leverage Ratio, as defined by the Credit Agreement, of 3.50 to 1.00 or less"
+      }
+    ],
+    "notes": "Only the requirement is disclosed; the actual ratio is not stated, only that Ralliant was in compliance as of October 2, 2026. The maximum may step up to 4.00x for four quarters after a permitted acquisition of $100.0 million or more, at most twice after the Closing Date; the excerpt does not indicate that any step-up is in effect. The Second Amendment (March 30, 2026) removed the 85% cap on netting non-U.S. cash and cash equivalents when calculating the net leverage ratio."
+  }
+}

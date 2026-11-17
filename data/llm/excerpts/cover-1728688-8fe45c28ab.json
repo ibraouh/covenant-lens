@@ -1,0 +1,24 @@
+{
+  "job": "cover-1728688-8fe45c28ab",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1728688/000172868823000030/i3verticals2023creditagree.htm"
+  },
+  "usage": {
+    "input_tokens": 4121,
+    "output_tokens": 94,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "is_loan_document": true,
+    "kind": "original",
+    "title": "Credit Agreement",
+    "dated": "2023-05-08",
+    "amends_dated": null,
+    "primary_bank_facility": true,
+    "includes_conformed_copy": false,
+    "borrower": "i3 Verticals, LLC"
+  }
+}

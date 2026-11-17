@@ -1,0 +1,24 @@
+{
+  "job": "cover-712034-aae40bf536",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/712034/000071203418000147/acco-2018xq3ex101.htm"
+  },
+  "usage": {
+    "input_tokens": 3347,
+    "output_tokens": 116,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "is_loan_document": true,
+    "kind": "amendment",
+    "title": "First Amendment to Third Amended and Restated Credit Agreement",
+    "dated": "2018-07-26",
+    "amends_dated": "2017-01-27",
+    "primary_bank_facility": true,
+    "includes_conformed_copy": false,
+    "borrower": "ACCO Brands Corporation"
+  }
+}

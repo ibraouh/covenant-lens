@@ -1,0 +1,24 @@
+{
+  "auto": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1766368/000110465926020541/tmb-20260225xex10d2.htm",
+      "title": "Third Amendment to Amended and Restated Credit Agreement",
+      "dated": "2026-02-25",
+      "kind": "amendment",
+      "filed": "2026-02-26"
+    }
+  ],
+  "notes": [
+    "Third Amendment to Amended and Restated Credit Agreement restates the full agreement; used as the base"
+  ],
+  "used": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1766368/000110465926020541/tmb-20260225xex10d2.htm",
+      "title": "Third Amendment to Amended and Restated Credit Agreement",
+      "dated": "2026-02-25",
+      "kind": "amendment",
+      "filed": "2026-02-26"
+    }
+  ],
+  "source": "automatic"
+}

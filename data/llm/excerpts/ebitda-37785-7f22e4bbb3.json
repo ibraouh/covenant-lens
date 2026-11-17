@@ -1,0 +1,35 @@
+{
+  "job": "ebitda-37785-7f22e4bbb3",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/37785/000003778526000168/fmcex991093026.htm",
+    "filed": "2026-10-29"
+  },
+  "usage": {
+    "input_tokens": 4597,
+    "output_tokens": 363,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "label": "Adjusted EBITDA",
+    "figures": [
+      {
+        "period_end": "2026-09-30",
+        "months": 3,
+        "shown": "559",
+        "unit": "millions",
+        "quote": "Third-quarter Adjusted EBITDA was negative $559 million, compared with $236 million in the prior-year period."
+      },
+      {
+        "period_end": "2025-09-30",
+        "months": 3,
+        "shown": "236",
+        "unit": "millions",
+        "quote": "Third-quarter Adjusted EBITDA was negative $559 million, compared with $236 million in the prior-year period."
+      }
+    ],
+    "notes": "Q3 2026 Adjusted EBITDA is negative $559 million; it is printed in words as 'negative $559 million', so the shown value is '559' and the sign comes from the text. No reconciliation table appears in the excerpt, so both figures come from the narrative. The company says that excluding the approximately $672 million impact of the commercial actions, underlying Adjusted EBITDA was $113 million. Q4 2026 and full-year 2026 outlook ranges are forecasts, not reported results, so they are excluded. No year-to-date figures are shown."
+  }
+}

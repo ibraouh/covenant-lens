@@ -1,0 +1,24 @@
+{
+  "job": "cover-795266-644ea188fe",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/795266/000079526620000007/kbh-11302019x10kex1029.htm"
+  },
+  "usage": {
+    "input_tokens": 4100,
+    "output_tokens": 106,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "is_loan_document": true,
+    "kind": "amended_and_restated",
+    "title": "Third Amended and Restated Revolving Loan Agreement",
+    "dated": "2019-10-07",
+    "amends_dated": null,
+    "primary_bank_facility": true,
+    "includes_conformed_copy": false,
+    "borrower": "KB Home"
+  }
+}

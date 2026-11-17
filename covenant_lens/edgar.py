@@ -11,6 +11,7 @@ import gzip
 import hashlib
 import json
 import os
+import re
 import time
 import urllib.error
 import urllib.parse
@@ -156,9 +157,23 @@ def document_url(cik: str, accession: str, filename: str) -> str:
     return f"https://www.sec.gov/Archives/edgar/data/{int(cik)}/{accession.replace('-', '')}/{filename}"
 
 
+TEXT_VERSION = "|v2-deleted-text-removed"
+STRIKE = re.compile(r"line-through", re.I)
+
+
+def deleted_text(soup) -> list:
+    """Elements a conformed copy marks as deleted: <s>, <strike>, <del>, or styled with a line-through."""
+    return [t for t in soup.find_all(True) if t.name in ("s", "strike", "del") or STRIKE.search(t.get("style") or "")]
+
+
+def has_deleted_text(url: str) -> bool:
+    raw = _get(url)
+    return bool(re.search(rb"line-through|<s>|<strike|<del[ >]", raw, re.I))
+
+
 def fetch_text(url: str) -> str:
     """Download a filing document and return plain text (HTML tags stripped). The text is cached too."""
-    tcache = CACHE_DIR / "text" / (hashlib.sha256(url.encode()).hexdigest() + ".txt.gz")
+    tcache = CACHE_DIR / "text" / (hashlib.sha256((url + TEXT_VERSION).encode()).hexdigest() + ".txt.gz")
     if tcache.exists():
         return gzip.decompress(tcache.read_bytes()).decode()
     from bs4 import BeautifulSoup
@@ -169,6 +184,8 @@ def fetch_text(url: str) -> str:
     else:
         soup = BeautifulSoup(raw, "html.parser")
         for tag in soup(["script", "style"]):
+            tag.decompose()
+        for tag in deleted_text(soup):  # struck-through text in a conformed amendment has been deleted
             tag.decompose()
         text = soup.get_text("\n")
     lines = (" ".join(line.split()) for line in text.splitlines())

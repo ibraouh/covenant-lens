@@ -1,0 +1,40 @@
+{
+  "job": "ratio-1385280-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1385280/000119312526444406/cnk-20260930.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 3965,
+    "output_tokens": 804,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "Consolidated Net Senior Secured Leverage Ratio",
+        "metric": "secured_net_leverage",
+        "period_end": "2026-09-30",
+        "actual": 0.1,
+        "limit": 3.5,
+        "direction": "max",
+        "facility": "Credit Agreement (revolving line of credit)",
+        "quote": "At any time that CUSA has revolving credit loans outstanding, it is not permitted to allow the Consolidated Net Senior Secured Leverage Ratio to exceed 3.5 to 1.0. As of September 30, 2026, there were no revolving credit loans outstanding, and CUSA\u2019s Consolidated Net Senior Secured Leverage Ratio was 0.1 to 1."
+      },
+      {
+        "covenant_name": "Consolidated Net Total Leverage Ratio",
+        "metric": "net_leverage",
+        "period_end": "2026-09-30",
+        "actual": 1.64,
+        "limit": 2.75,
+        "direction": "max",
+        "facility": "Credit Agreement",
+        "quote": "As of September 30, 2026, the Consolidated Net Total Leverage Ratio was 1.64 to 1.00 and the Available Amount was $1.7 billion."
+      }
+    ],
+    "notes": "The 3.5x secured net leverage covenant is springing: it applies only when revolving loans are outstanding, and none were at 9/30/2026. The 2.75x net total leverage figure is a Restricted Payments covenant threshold, not a maintenance limit. Above 2.75x, restricted payments are capped at the Available Amount, up to 5.00x. Excluded the indenture incurrence coverage ratio (8.2x vs 2x minimum) and the leverage-based margin and fee pricing. The company states it was in full compliance."
+  }
+}

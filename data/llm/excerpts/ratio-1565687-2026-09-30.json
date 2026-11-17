@@ -1,0 +1,19 @@
+{
+  "job": "ratio-1565687-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1565687/000156568726000128/inta-20260930.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 2950,
+    "output_tokens": 165,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [],
+    "notes": "The excerpt mentions the total net leverage ratio under the UBS Credit Agreement only as the basis for the interest rate spread and the commitment fee; it is not presented as a covenant. The filing says only that the Company was in compliance with all covenants as of September 30, 2026, and gives no covenant ratio values or limits. There were no outstanding borrowings under the UBS Revolving Credit Facility at September 30, 2026 or June 30, 2026."
+  }
+}

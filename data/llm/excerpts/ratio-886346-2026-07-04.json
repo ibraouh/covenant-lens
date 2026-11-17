@@ -1,0 +1,30 @@
+{
+  "job": "ratio-886346-2026-07-04",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/886346/000088634626000052/kai-20260704.htm",
+    "period": "2026-07-04"
+  },
+  "usage": {
+    "input_tokens": 2547,
+    "output_tokens": 484,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "leverage ratio",
+        "metric": "total_leverage",
+        "period_end": "2026-07-04",
+        "actual": 1.72,
+        "limit": 3.75,
+        "direction": "max",
+        "facility": "Credit Agreement (unsecured multi-currency revolving credit facility)",
+        "quote": "As of July 4, 2026, our leverage ratio was 1.72 and we were in compliance with our debt covenants."
+      }
+    ],
+    "notes": "The leverage ratio must be less than 3.75 to 1. If the company elects, the limit is less than 4.25 to 1 for the quarter in which a material acquisition occurs and the three fiscal quarters after it. The Kadant Profil acquisition in April 2026 could qualify, but the excerpt does not say whether the company made this election. The limit is therefore reported as the base 3.75, and 4.25 may be the limit actually in force. The ratio is described as the leverage ratio (the consolidated leverage ratio in the Credit Agreement); it is not stated to be net of cash."
+  }
+}

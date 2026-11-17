@@ -1,0 +1,42 @@
+{
+  "job": "ebitda-1766368-42fb00ce28",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1766368/000110465926122046/tmb-ex99d1.htm",
+    "filed": "2026-11-03"
+  },
+  "usage": {
+    "input_tokens": 5514,
+    "output_tokens": 859,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "label": "Adjusted EBITDA",
+    "figures": [
+      {
+        "period_end": "2026-09-30",
+        "months": 3,
+        "shown": "17.0",
+        "unit": "millions",
+        "quote": "MEC reported Adjusted EBITDA of $17.0 million in the third quarter of 2026, or 10.0% of net sales, versus $14.1 million, or 9.8% of net sales, in the prior year period."
+      },
+      {
+        "period_end": "2025-09-30",
+        "months": 3,
+        "shown": "14.1",
+        "unit": "millions",
+        "quote": "MEC reported Adjusted EBITDA of $17.0 million in the third quarter of 2026, or 10.0% of net sales, versus $14.1 million, or 9.8% of net sales, in the prior year period."
+      },
+      {
+        "period_end": "2025-12-31",
+        "months": 12,
+        "shown": "47.1",
+        "unit": "millions",
+        "quote": "Adjusted EBITDA \u200b $ 47.1 \u200b $ 48 \u200b $ 50 \u200b $ 52"
+      }
+    ],
+    "notes": "The excerpt does not include the reconciliation table, so the quarterly figures come from the narrative text. The FY2025 actual comes from the guidance table, which is headed '(in Millions)'. The FY2026 guidance range ($48\u2013$52 million) is a forecast and is excluded. No year-to-date (nine-month) figure appears in the excerpt. The trailing twelve-month leverage ratio of 2.9x uses Adjusted EBITDA calculated under the credit agreement, and no dollar amount is given for it."
+  }
+}

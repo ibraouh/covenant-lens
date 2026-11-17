@@ -1,0 +1,24 @@
+{
+  "job": "cover-1377630-f207c02a9b",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1377630/000137763023000004/ncm-amendmentno4totermloan.htm"
+  },
+  "usage": {
+    "input_tokens": 3255,
+    "output_tokens": 110,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "is_loan_document": true,
+    "kind": "amendment",
+    "title": "Amendment No. 4 to Credit Agreement",
+    "dated": "2023-01-17",
+    "amends_dated": "2018-06-20",
+    "primary_bank_facility": true,
+    "includes_conformed_copy": false,
+    "borrower": "National CineMedia, LLC"
+  }
+}

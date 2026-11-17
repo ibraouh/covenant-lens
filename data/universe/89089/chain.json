@@ -1,0 +1,22 @@
+{
+  "auto": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/89089/000008908925000097/sci2025creditagreement.htm",
+      "title": "Third Amended and Restated Credit Agreement",
+      "dated": "2025-11-20",
+      "kind": "amended_and_restated",
+      "filed": "2025-11-21"
+    }
+  ],
+  "notes": [],
+  "used": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/89089/000008908925000097/sci2025creditagreement.htm",
+      "title": "Third Amended and Restated Credit Agreement",
+      "dated": "2025-11-20",
+      "kind": "amended_and_restated",
+      "filed": "2025-11-21"
+    }
+  ],
+  "source": "automatic"
+}

@@ -1,0 +1,60 @@
+{
+  "reports": [
+    {
+      "form": "10-Q",
+      "filed": "2026-11-09",
+      "period": "2026-09-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/824142/000082414226000088/aaon-20260930.htm",
+      "job": "ratio-824142-2026-09-30"
+    },
+    {
+      "form": "10-Q",
+      "filed": "2026-08-10",
+      "period": "2026-06-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/824142/000082414226000055/aaon-20260630.htm",
+      "job": "ratio-824142-2026-06-30"
+    },
+    {
+      "form": "10-Q",
+      "filed": "2026-05-07",
+      "period": "2026-03-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/824142/000082414226000036/aaon-20260331.htm",
+      "job": "ratio-824142-2026-03-31"
+    },
+    {
+      "form": "10-K",
+      "filed": "2026-03-02",
+      "period": "2025-12-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/824142/000082414226000005/aaon-20251231.htm",
+      "job": "ratio-824142-2025-12-31"
+    }
+  ],
+  "releases": [
+    {
+      "filed": "2026-11-09",
+      "url": "https://www.sec.gov/Archives/edgar/data/824142/000082414226000083/liveaaonpressreleaseexs.htm",
+      "job": "ebitda-824142-fa5189a113"
+    },
+    {
+      "filed": "2026-08-10",
+      "url": "https://www.sec.gov/Archives/edgar/data/824142/000082414226000052/liveaaonpressreleaseexs.htm",
+      "job": "ebitda-824142-031dce5c58"
+    },
+    {
+      "filed": "2026-05-07",
+      "url": "https://www.sec.gov/Archives/edgar/data/824142/000082414226000034/liveaaonpressreleaseexs.htm",
+      "job": "ebitda-824142-dbe18937fe"
+    },
+    {
+      "filed": "2026-03-02",
+      "url": "https://www.sec.gov/Archives/edgar/data/824142/000082414226000003/liveaaonpressreleaseexs.htm",
+      "job": "ebitda-824142-2d272fb000"
+    },
+    {
+      "filed": "2025-11-06",
+      "url": "https://www.sec.gov/Archives/edgar/data/824142/000082414225000197/aaonq32025pressreleaseexs.htm",
+      "job": "ebitda-824142-e75c46749b"
+    }
+  ],
+  "exhibits": []
+}

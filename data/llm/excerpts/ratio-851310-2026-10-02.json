@@ -1,0 +1,40 @@
+{
+  "job": "ratio-851310-2026-10-02",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/851310/000119312526451855/hlit-20261002.htm",
+    "period": "2026-10-02"
+  },
+  "usage": {
+    "input_tokens": 2870,
+    "output_tokens": 483,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "maximum consolidated net leverage ratio",
+        "metric": "net_leverage",
+        "period_end": "2026-10-02",
+        "actual": null,
+        "limit": null,
+        "direction": "max",
+        "facility": "Credit Agreement",
+        "quote": "The Company is also required to maintain compliance with a maximum consolidated net leverage ratio and a minimum fixed charge coverage ratio, in each case, determined in accordance with the terms of the Credit Agreement. As of October 2, 2026, the Company was in compliance with the covenants under the Credit Agreement."
+      },
+      {
+        "covenant_name": "minimum fixed charge coverage ratio",
+        "metric": "fixed_charge_coverage",
+        "period_end": "2026-10-02",
+        "actual": null,
+        "limit": null,
+        "direction": "min",
+        "facility": "Credit Agreement",
+        "quote": "The Company is also required to maintain compliance with a maximum consolidated net leverage ratio and a minimum fixed charge coverage ratio, in each case, determined in accordance with the terms of the Credit Agreement. As of October 2, 2026, the Company was in compliance with the covenants under the Credit Agreement."
+      }
+    ],
+    "notes": "The filing states only that the covenants exist and that the Company was in compliance as of October 2, 2026. It gives no actual ratio values and no numeric limits. The net leverage ratio is also used to set the interest rate margin and the unused commitment fee; those uses are not covenants and are excluded."
+  }
+}

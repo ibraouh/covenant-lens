@@ -1,0 +1,40 @@
+{
+  "job": "ratio-2068577-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/2068577/000162828026072840/brcb-20260930.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 4694,
+    "output_tokens": 755,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "maximum net rent adjusted leverage ratio",
+        "metric": "net_leverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 4.75,
+        "direction": "max",
+        "facility": "New Credit Agreement",
+        "quote": "In addition, the New Credit Agreement also contains financial covenants that require the Loan Parties (as defined in the New Credit Agreement) to not exceed a maximum net rent adjusted leverage ratio for any period of four consecutive fiscal quarters ending on the last day of any fiscal quarter, commencing with the fiscal quarter ending December 31, 2025, of 4.75 to 1.00 and to maintain a minimum fixed charge coverage ratio for any period of four consecutive fiscal quarters ending on the last day of any fiscal quarter, commencing with the fiscal quarter ending December 31, 2025, of no less than 1.20 to 1.00."
+      },
+      {
+        "covenant_name": "minimum fixed charge coverage ratio",
+        "metric": "fixed_charge_coverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 1.2,
+        "direction": "min",
+        "facility": "New Credit Agreement",
+        "quote": "In addition, the New Credit Agreement also contains financial covenants that require the Loan Parties (as defined in the New Credit Agreement) to not exceed a maximum net rent adjusted leverage ratio for any period of four consecutive fiscal quarters ending on the last day of any fiscal quarter, commencing with the fiscal quarter ending December 31, 2025, of 4.75 to 1.00 and to maintain a minimum fixed charge coverage ratio for any period of four consecutive fiscal quarters ending on the last day of any fiscal quarter, commencing with the fiscal quarter ending December 31, 2025, of no less than 1.20 to 1.00."
+      }
+    ],
+    "notes": "Actual ratios are not disclosed; the filing states only that the Company was in compliance with all financial covenants as of September 30, 2026. The leverage covenant is rent-adjusted net leverage. Ratios used for pricing grids and commitment fees, and the 2.0 net debt leverage threshold for board approval in the governance documents, are not covenants and are excluded."
+  }
+}

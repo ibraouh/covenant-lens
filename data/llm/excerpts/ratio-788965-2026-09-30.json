@@ -1,0 +1,40 @@
+{
+  "job": "ratio-788965-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/788965/000162828026072347/hnrg-20260930.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 2942,
+    "output_tokens": 1118,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "Consolidated Debt Service Coverage Ratio",
+        "metric": "fixed_charge_coverage",
+        "period_end": "2026-12-31",
+        "actual": null,
+        "limit": 1.15,
+        "direction": "min",
+        "facility": "KLIM Credit Agreement",
+        "quote": "The KLIM Credit Agreement contains financial covenants that require the Company, beginning with the test period ending December 31, 2026, to maintain (i) unrestricted cash of not less than $ 10.0 million and (ii) a Consolidated Debt Service Coverage Ratio (as defined in the KLIM Credit Agreement) of not less than 1.15 to 1.00."
+      },
+      {
+        "covenant_name": "Minimum unrestricted cash",
+        "metric": "minimum_liquidity",
+        "period_end": "2026-12-31",
+        "actual": null,
+        "limit": 10.0,
+        "direction": "min",
+        "facility": "KLIM Credit Agreement",
+        "quote": "The KLIM Credit Agreement contains financial covenants that require the Company, beginning with the test period ending December 31, 2026, to maintain (i) unrestricted cash of not less than $ 10.0 million and (ii) a Consolidated Debt Service Coverage Ratio (as defined in the KLIM Credit Agreement) of not less than 1.15 to 1.00."
+      }
+    ],
+    "notes": "No actual covenant ratios are disclosed. The KLIM financial covenants are first tested for the period ending December 31, 2026, after this 10-Q's September 30, 2026 period end. The entries above show those future requirements only, not covenants in force at September 30, 2026. The minimum unrestricted cash limit is in $ millions and has no cure right. The debt service coverage ratio was mapped to the fixed_charge_coverage category as the closest available. A Consolidated Leverage Ratio (maximum 9.00x for the first tested period, then 8.00x) applies only from the first full fiscal quarter after the Commercial Operation Date, expected in the second half of 2028. It is excluded because no test date is specified. The debt service coverage and leverage covenants are subject to equity cure rights. The MOIC multiples (1.35x/1.50x) are repayment premium terms, not covenants."
+  }
+}

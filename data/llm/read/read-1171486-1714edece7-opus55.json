@@ -1,0 +1,118 @@
+{
+  "job": "read-1171486-1714edece7-opus55",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "cik": "1171486",
+    "docs": [
+      "https://www.sec.gov/Archives/edgar/data/1171486/000117148622000037/a2022formcreditfacilityame.htm",
+      "https://www.sec.gov/Archives/edgar/data/1171486/000117148622000041/a2022formexerciseofaccordi.htm",
+      "https://www.sec.gov/Archives/edgar/data/1171486/000143774923014624/ex_519021.htm",
+      "https://www.sec.gov/Archives/edgar/data/1171486/000143774923014624/ex_519022.htm",
+      "https://www.sec.gov/Archives/edgar/data/1171486/000143774924003226/ex_621749.htm",
+      "https://www.sec.gov/Archives/edgar/data/1171486/000143774924004832/ex_627159.htm",
+      "https://www.sec.gov/Archives/edgar/data/1171486/000143774924031489/ex_732367.htm"
+    ]
+  },
+  "usage": {
+    "input_tokens": 178122,
+    "output_tokens": 3424,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "borrower": "NRP (Operating) LLC",
+    "agreement_date": "2015-06-16",
+    "covenants": [
+      {
+        "name": "Interest Coverage Ratio",
+        "metric": "interest_coverage",
+        "direction": "min",
+        "thresholds": [
+          {
+            "value": 3.5,
+            "applies_from": null
+          }
+        ],
+        "test_frequency": "quarterly",
+        "springing_condition": null,
+        "section": "Section 6.16",
+        "quote": "The Borrower shall not permit the Interest Coverage Ratio as of the last day of any fiscal quarter to be less than 3.5 to 1.0.",
+        "ebitda_addbacks": [
+          "impairments",
+          "other"
+        ],
+        "cash_netting_cap": null,
+        "cash_netting_cap_pct_ebitda": null
+      },
+      {
+        "name": "Leverage Ratio",
+        "metric": "total_leverage",
+        "direction": "max",
+        "thresholds": [
+          {
+            "value": 3.0,
+            "applies_from": null
+          }
+        ],
+        "test_frequency": "quarterly",
+        "springing_condition": null,
+        "section": "Section 6.17",
+        "quote": "The Borrower shall not permit the Leverage Ratio as of the last day of any fiscal quarter to exceed 3.0 to 1.0.",
+        "ebitda_addbacks": [
+          "impairments",
+          "other"
+        ],
+        "cash_netting_cap": null,
+        "cash_netting_cap_pct_ebitda": null
+      }
+    ],
+    "notes": "Covenants as restated in the Fifth Amendment (Aug 9, 2022) conformed agreement; the Sixth (May 11, 2023) and Seventh (Oct 15, 2024) Amendments did not change Sections 6.16/6.17. The EBITDA measure is 'Consolidated EBITDDA' (adds back depletion). Its add-backs include taxes, interest, depletion, D&A, amortization of intangibles and organization costs, extraordinary non-cash expenses or losses, non-cash impairment expenses or losses, and Transaction fees and expenses. It does not add back stock compensation, restructuring, or projected cost savings and synergies. Acquired and disposed businesses are included or excluded on a pro forma basis. The Interest Coverage Ratio denominator includes Consolidated Lease Expense (rentals) as well as Consolidated Interest Expense. The Leverage Ratio is gross: Consolidated Indebtedness, with no cash netting. A covenant breach is an immediate Event of Default under 7.01(d), with no grace period and no cure. The $50,000,000 Liquidity tests (for investments and acquisitions funded with Borrowings) and the Liquidity of at least 20% of Commitments plus Leverage below 2.00x test (for Restricted Payments under 6.06(d)) are incurrence conditions, not maintenance covenants. The facility is secured and shares collateral pari passu with Note Purchase Agreement notes under an Intercreditor Agreement. The Seventh Amendment removed the Parent Notes springing maturity, removed the Parent Notes and Preferred Stock references, and fixed maturity at Oct 15, 2029. Section 9.16(iii) lets the Collateral Agent subordinate liens to liens permitted by Section 6.02 without lender vote. Pricing grid runs SOFR+3.50%\u20134.50% based on Leverage Ratio, with 0.25% floor.",
+    "facility": "Secured revolving credit facility (with $30M LC sublimit and $10M swingline) \u2014 $155M per Sixth Amendment, raised to $200M via 2024 Summit ($30M) new lender and Frost ($15M) commitment increase; accordion cap $200M; matures October 15, 2029.",
+    "terms": [
+      {
+        "kind": "j_crew_blocker",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "The agreement has no unrestricted subsidiary concept and no specific restriction on transferring or exclusively licensing material IP. Asset transfers are governed only by the general asset-sale and investment covenants."
+      },
+      {
+        "kind": "serta_protection",
+        "present": "partial",
+        "section": "Section 9.02(b)",
+        "quote": "change Sections 2.16 or 7.02 of this Agreement or Section 9.2 of the Security Agreement, if effective, in a manner that would alter the pro rata sharing of payments required thereby, without the written consent of each Lender",
+        "summary": "Changing the pro rata sharing and payment waterfall provisions requires all lenders. There is no express each-affected-lender consent for subordinating the loans or liens. Section 9.16(iii) authorizes the Collateral Agent to subordinate liens to other liens permitted by Section 6.02."
+      },
+      {
+        "kind": "chewy_protection",
+        "present": "partial",
+        "section": "Section 9.16(ii)",
+        "quote": "to release any Guarantor from its obligations under the Guaranty Agreement if such Person ceases to meet the definition of a Guarantor or ceases to be a Subsidiary as a result of a transaction permitted hereunder; provided that no release shall occur if such Guarantor continues to be a guarantor in respect of any other Material Indebtedness",
+        "summary": "Guarantors may be released when they cease to meet the Guarantor definition, which is tied partly to wholly owned status, or cease to be Subsidiaries. However, no release occurs while the entity still guarantees other Material Indebtedness. There is no express rule that losing wholly owned status alone does not trigger release."
+      },
+      {
+        "kind": "unrestricted_sub_cap",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "The agreement has no unrestricted subsidiaries, so there is no designation cap. Investments in non-Loan Party Subsidiaries are separately capped at $25,000,000 under Section 6.04(b)/(c)."
+      },
+      {
+        "kind": "addback_cap",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "Consolidated EBITDDA has no add-back for projected cost savings, synergies or restructuring, so no cap applies."
+      },
+      {
+        "kind": "equity_cure",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "There is no equity cure right; breach of the financial covenants is an immediate Event of Default."
+      }
+    ],
+    "addback_cap_pct": null
+  }
+}

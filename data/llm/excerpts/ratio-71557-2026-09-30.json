@@ -1,0 +1,40 @@
+{
+  "job": "ratio-71557-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/71557/000143774926037015/nuvr20260930_10q.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 4950,
+    "output_tokens": 877,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "Total Leverage Ratio",
+        "metric": "total_leverage",
+        "period_end": "2026-09-30",
+        "actual": 5.17,
+        "limit": 6.0,
+        "direction": "max",
+        "facility": "CoBank credit facility",
+        "quote": "Our current Total Leverage Ratio as of September 30, 2026, was 5.17 . Our maximum Total Leverage Ratio under the new loan facility is 6.00 :1.00."
+      },
+      {
+        "covenant_name": "debt service coverage ratio",
+        "metric": "other",
+        "period_end": "2026-09-30",
+        "actual": 1.95,
+        "limit": 1.75,
+        "direction": "min",
+        "facility": "CoBank credit facility",
+        "quote": "On August 6, 2026, Nuvera received a waiver from CoBank to decrease our minimum debt service coverage ratio to 1.75 to accommodate our decreased debt service coverage ratio as of September 30, 2026."
+      }
+    ],
+    "notes": "The debt service coverage ratio of 1.95 at 2026-09-30 was below the original 2.00 minimum. A waiver dated 2026-08-06 lowered the minimum to 1.75, so 1.75 is reported as the limit in force; the related sentence reads: \"Our debt service coverage ratio as of September 30, 2026, was 1.95 , which was below our minimum debt service coverage ratio of 2.00 per our existing covenants with CoBank.\" The 4.25x and 3.50x Total Leverage thresholds were excluded because they only govern dividend capacity, not maintenance covenants. The SOFR margin grid and the current ratio (2.14) were also excluded."
+  }
+}

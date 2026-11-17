@@ -1,0 +1,24 @@
+{
+  "job": "cover-37785-1bf8af1e6d",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/37785/000003778520000055/ex101-amendmentno1.htm"
+  },
+  "usage": {
+    "input_tokens": 3132,
+    "output_tokens": 116,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "is_loan_document": true,
+    "kind": "amendment",
+    "title": "Amendment No. 1 to Third Amended and Restated Credit Agreement",
+    "dated": "2020-04-22",
+    "amends_dated": "2019-05-17",
+    "primary_bank_facility": true,
+    "includes_conformed_copy": false,
+    "borrower": "FMC Corporation"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "job": "cover-1728688-485f865f19",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1728688/000172868822000050/i3verticalsllc-libortransi.htm"
+  },
+  "usage": {
+    "input_tokens": 3023,
+    "output_tokens": 106,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "is_loan_document": true,
+    "kind": "amendment",
+    "title": "LIBOR Transition Amendment",
+    "dated": "2022-09-30",
+    "amends_dated": "2019-05-09",
+    "primary_bank_facility": true,
+    "includes_conformed_copy": false,
+    "borrower": "i3 Verticals, LLC"
+  }
+}

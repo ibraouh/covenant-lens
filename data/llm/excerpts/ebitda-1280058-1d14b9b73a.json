@@ -1,0 +1,35 @@
+{
+  "job": "ebitda-1280058-1d14b9b73a",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1280058/000128005826000013/blkbq12026exhibit991.htm",
+    "filed": "2026-04-29"
+  },
+  "usage": {
+    "input_tokens": 4050,
+    "output_tokens": 277,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "label": "Non-GAAP adjusted EBITDA",
+    "figures": [
+      {
+        "period_end": "2026-03-31",
+        "months": 3,
+        "shown": "98,697",
+        "unit": "thousands",
+        "quote": "Non-GAAP adjusted EBITDA $ 98,697 $ 92,070"
+      },
+      {
+        "period_end": "2025-03-31",
+        "months": 3,
+        "shown": "92,070",
+        "unit": "thousands",
+        "quote": "Non-GAAP adjusted EBITDA $ 98,697 $ 92,070"
+      }
+    ],
+    "notes": "Q1 2026 (three months ended March 31, 2026) vs Q1 2025, taken from the reconciliation table (dollars in thousands). The highlights also state $98.7 million. Constant currency figures (97,668 / 92,275) and the 2026 guidance ($430M-$438M) are excluded."
+  }
+}

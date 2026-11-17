@@ -1,0 +1,24 @@
+{
+  "job": "cover-37785-985a2a5ba6",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/37785/000003778519000075/citifmcthirdarrevolvingc.htm"
+  },
+  "usage": {
+    "input_tokens": 2822,
+    "output_tokens": 105,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "is_loan_document": true,
+    "kind": "amended_and_restated",
+    "title": "Third Amended and Restated Credit Agreement",
+    "dated": "2019-05-17",
+    "amends_dated": null,
+    "primary_bank_facility": true,
+    "includes_conformed_copy": false,
+    "borrower": "FMC Corporation"
+  }
+}

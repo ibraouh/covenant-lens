@@ -1,0 +1,24 @@
+{
+  "job": "cover-1171486-fdf990c6e6",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1171486/000143774923014624/ex_519021.htm"
+  },
+  "usage": {
+    "input_tokens": 3245,
+    "output_tokens": 119,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "is_loan_document": true,
+    "kind": "amendment",
+    "title": "Sixth Amendment to Third Amended and Restated Credit Agreement",
+    "dated": "2023-05-11",
+    "amends_dated": "2015-06-16",
+    "primary_bank_facility": true,
+    "includes_conformed_copy": false,
+    "borrower": "NRP (Operating) LLC"
+  }
+}

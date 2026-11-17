@@ -1,0 +1,24 @@
+{
+  "job": "cover-1377630-a1e9d1325b",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1377630/000137763021000136/blkvscaconformedthroughame.htm"
+  },
+  "usage": {
+    "input_tokens": 3141,
+    "output_tokens": 110,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "is_loan_document": true,
+    "kind": "amendment",
+    "title": "Amendment No. 2 to Credit Agreement",
+    "dated": "2021-03-08",
+    "amends_dated": "2018-06-20",
+    "primary_bank_facility": true,
+    "includes_conformed_copy": true,
+    "borrower": "National CineMedia, LLC"
+  }
+}

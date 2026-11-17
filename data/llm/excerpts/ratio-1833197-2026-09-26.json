@@ -1,0 +1,30 @@
+{
+  "job": "ratio-1833197-2026-09-26",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1833197/000162828026069797/swim-20260926.htm",
+    "period": "2026-09-26"
+  },
+  "usage": {
+    "input_tokens": 4489,
+    "output_tokens": 661,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "First Lien Net Leverage Ratio",
+        "metric": "secured_net_leverage",
+        "period_end": "2026-09-26",
+        "actual": null,
+        "limit": 5.2,
+        "direction": "max",
+        "facility": "New Credit Agreement (New Revolving Credit Facility)",
+        "quote": "To the extent that outstanding usage of the New Revolving Credit Facility exceeds 40% of the commitments under the New Revolving Credit Facility as of the last day of any fiscal quarter, LIMC is required to be in compliance with a maximum First Lien Net Leverage Ratio (as defined below) of 5.20:1.00 as of the last day of such fiscal quarter."
+      }
+    ],
+    "notes": "The 5.20:1.00 maximum First Lien Net Leverage Ratio is a springing covenant. It is tested only when revolver usage exceeds 40% of commitments at quarter end. At September 26, 2026 there were no revolver borrowings, so the test was likely not triggered. No actual ratio is disclosed; the filing says only that the company was in compliance with all covenants. Ratio-based pricing grids (interest margins and commitment fees) were excluded."
+  }
+}

@@ -1,0 +1,558 @@
+{
+  "cik": "1561680",
+  "name": "Tri Pointe Homes, Inc.",
+  "borrower": "Tri Pointe Homes, Inc. (formerly TRI Pointe Group, Inc.)",
+  "gold": false,
+  "stale": false,
+  "agreement_date": "2019-03-29",
+  "facility": "$850M revolving facility (LC sublimit $150M; accordion to $1.2B) maturing April 30, 2030, plus $450M term facility split into Tranche A (maturing Sept 29, 2027, two 12-month extension options) and Tranche B (maturing June 29, 2027, convertible to Tranche A at lender election).",
+  "chain": {
+    "auto": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1561680/000156168025000096/sixthmodificationagreement.htm",
+        "title": "Sixth Modification Agreement",
+        "dated": "2025-09-18",
+        "kind": "amendment",
+        "filed": "2025-09-19"
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1561680/000156168026000018/seventhmodificationagreeme.htm",
+        "title": "Seventh Modification Agreement",
+        "dated": "2026-04-16",
+        "kind": "amendment",
+        "filed": "2026-04-17"
+      }
+    ],
+    "notes": [
+      "Sixth Modification Agreement restates the full agreement; used as the base"
+    ],
+    "used": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1561680/000156168025000096/sixthmodificationagreement.htm",
+        "title": "Sixth Modification Agreement",
+        "dated": "2025-09-18",
+        "kind": "amendment",
+        "filed": "2025-09-19"
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1561680/000156168026000018/seventhmodificationagreeme.htm",
+        "title": "Seventh Modification Agreement",
+        "dated": "2026-04-16",
+        "kind": "amendment",
+        "filed": "2026-04-17"
+      }
+    ],
+    "source": "automatic"
+  },
+  "covenants": [
+    {
+      "name": "Consolidated Tangible Net Worth Test",
+      "metric": "other",
+      "direction": "min",
+      "section": "Section 6.19(a)",
+      "quote": "The Borrower shall not permit Consolidated Tangible Net Worth (monitored and tested quarterly as of the last day of each fiscal quarter) to be less than (i) $2,222,822,000.00, plus (ii) 50% of the cumulative Consolidated Net Income for each fiscal quarter commencing after December 31, 2024",
+      "quote_verified": true,
+      "thresholds": [
+        {
+          "value": 2222822000.0,
+          "applies_from": null
+        }
+      ],
+      "test_frequency": "quarterly",
+      "springing_condition": null,
+      "addbacks": [],
+      "cash_netting_cap": null,
+      "cash_netting_cap_pct_ebitda": null,
+      "rows": [
+        {
+          "period_end": "2023-12-31",
+          "before_agreement": false,
+          "limit": 2222822000.0,
+          "xbrl": null,
+          "adjusted": null,
+          "reported": null,
+          "reported_limit": null,
+          "reported_quote": null,
+          "reported_url": null,
+          "ltm_ebitda_xbrl": null,
+          "ltm_ebitda_adjusted": null,
+          "debt": 1094249000,
+          "cash": 868953000,
+          "ltm_interest": 0
+        },
+        {
+          "period_end": "2024-12-31",
+          "before_agreement": false,
+          "limit": 2222822000.0,
+          "xbrl": null,
+          "adjusted": null,
+          "reported": null,
+          "reported_limit": null,
+          "reported_quote": null,
+          "reported_url": null,
+          "ltm_ebitda_xbrl": 607885000,
+          "ltm_ebitda_adjusted": null,
+          "debt": 646534000,
+          "cash": 970045000,
+          "ltm_interest": 0
+        }
+      ],
+      "latest": null,
+      "steps": []
+    },
+    {
+      "name": "Leverage Test",
+      "metric": "net_leverage",
+      "direction": "max",
+      "section": "Section 6.19(b)",
+      "quote": "The Borrower shall not permit the Leverage Ratio (monitored and tested quarterly as of the last day of each fiscal quarter) to exceed 60% (the \u201cLeverage Test\u201d).",
+      "quote_verified": true,
+      "thresholds": [
+        {
+          "value": 0.6,
+          "applies_from": null
+        }
+      ],
+      "test_frequency": "quarterly",
+      "springing_condition": null,
+      "addbacks": [],
+      "cash_netting_cap": null,
+      "cash_netting_cap_pct_ebitda": null,
+      "rows": [
+        {
+          "period_end": "2023-12-31",
+          "before_agreement": false,
+          "limit": 0.6,
+          "xbrl": null,
+          "adjusted": null,
+          "reported": null,
+          "reported_limit": null,
+          "reported_quote": null,
+          "reported_url": null,
+          "ltm_ebitda_xbrl": null,
+          "ltm_ebitda_adjusted": null,
+          "debt": 1094249000,
+          "cash": 868953000,
+          "ltm_interest": 0
+        },
+        {
+          "period_end": "2024-12-31",
+          "before_agreement": false,
+          "limit": 0.6,
+          "xbrl": -0.5321911216759749,
+          "adjusted": null,
+          "reported": null,
+          "reported_limit": null,
+          "reported_quote": null,
+          "reported_url": null,
+          "ltm_ebitda_xbrl": 607885000,
+          "ltm_ebitda_adjusted": null,
+          "debt": 646534000,
+          "cash": 970045000,
+          "ltm_interest": 0
+        }
+      ],
+      "latest": {
+        "period_end": "2024-12-31",
+        "basis": "xbrl",
+        "value": -0.5321911216759749,
+        "limit": 0.6,
+        "headroom": 1.8869852027932914,
+        "cushion": null
+      },
+      "steps": []
+    },
+    {
+      "name": "Interest Coverage Test",
+      "metric": "interest_coverage",
+      "direction": "min",
+      "section": "Section 6.19(c)",
+      "quote": "The Borrower shall not permit the Interest Coverage Ratio (monitored and tested quarterly as of the last day of each fiscal quarter) to be less than 1.50 to 1.0 (the \u201cInterest Coverage Test\u201d); however, if the Interest Coverage Test was not satisfied on the last day of any fiscal quarter, Borrower shall not be in default hereunder so long as Borrower shall maintain at all times during the period the Interest Coverage Test remains unsatisfied Unrestricted Cash of Borrower in an amount equal to not less than the Liquidity Cure Amount.",
+      "quote_verified": true,
+      "thresholds": [
+        {
+          "value": 1.5,
+          "applies_from": null
+        }
+      ],
+      "test_frequency": "quarterly",
+      "springing_condition": null,
+      "addbacks": [
+        "stock_comp",
+        "impairments",
+        "restructuring",
+        "other"
+      ],
+      "cash_netting_cap": null,
+      "cash_netting_cap_pct_ebitda": null,
+      "rows": [
+        {
+          "period_end": "2023-12-31",
+          "before_agreement": false,
+          "limit": 1.5,
+          "xbrl": null,
+          "adjusted": null,
+          "reported": null,
+          "reported_limit": null,
+          "reported_quote": null,
+          "reported_url": null,
+          "ltm_ebitda_xbrl": null,
+          "ltm_ebitda_adjusted": null,
+          "debt": 1094249000,
+          "cash": 868953000,
+          "ltm_interest": 0
+        },
+        {
+          "period_end": "2024-12-31",
+          "before_agreement": false,
+          "limit": 1.5,
+          "xbrl": null,
+          "adjusted": null,
+          "reported": null,
+          "reported_limit": null,
+          "reported_quote": null,
+          "reported_url": null,
+          "ltm_ebitda_xbrl": 641394000.0,
+          "ltm_ebitda_adjusted": null,
+          "debt": 646534000,
+          "cash": 970045000,
+          "ltm_interest": 0
+        }
+      ],
+      "latest": null,
+      "steps": []
+    },
+    {
+      "name": "Minimum Tangible Net Worth Requirement",
+      "metric": "other",
+      "direction": "min",
+      "section": "Section 6.19(e)",
+      "quote": "Borrower covenants and agrees that at least ninety-five percent (95.0%) of Consolidated Tangible Net Worth (monitored and tested quarterly as of the last day of each fiscal quarter) shall be attributable solely to the Borrower and Guarantors;",
+      "quote_verified": true,
+      "thresholds": [
+        {
+          "value": 0.95,
+          "applies_from": null
+        }
+      ],
+      "test_frequency": "quarterly",
+      "springing_condition": null,
+      "addbacks": [],
+      "cash_netting_cap": null,
+      "cash_netting_cap_pct_ebitda": null,
+      "rows": [
+        {
+          "period_end": "2023-12-31",
+          "before_agreement": false,
+          "limit": 0.95,
+          "xbrl": null,
+          "adjusted": null,
+          "reported": null,
+          "reported_limit": null,
+          "reported_quote": null,
+          "reported_url": null,
+          "ltm_ebitda_xbrl": null,
+          "ltm_ebitda_adjusted": null,
+          "debt": 1094249000,
+          "cash": 868953000,
+          "ltm_interest": 0
+        },
+        {
+          "period_end": "2024-12-31",
+          "before_agreement": false,
+          "limit": 0.95,
+          "xbrl": null,
+          "adjusted": null,
+          "reported": null,
+          "reported_limit": null,
+          "reported_quote": null,
+          "reported_url": null,
+          "ltm_ebitda_xbrl": 607885000,
+          "ltm_ebitda_adjusted": null,
+          "debt": 646534000,
+          "cash": 970045000,
+          "ltm_interest": 0
+        }
+      ],
+      "latest": null,
+      "steps": []
+    }
+  ],
+  "notes": "Covenants are as restated in the conformed Second A&R Credit Agreement attached to the Sixth Modification (Sept 18, 2025). The Seventh Modification (Apr 16, 2026) does not change the financial covenants. It consents to the Sumitomo Forestry merger, waives the change-of-control default arising from it, and redefines Change in Control so that Sumitomo must keep >50% ownership and control. Leverage Test details: the Leverage Ratio is a net debt-to-capitalization ratio expressed as a percentage, with the limit of 60% recorded as 0.60. The numerator is Consolidated Indebtedness less Unrestricted Cash above $50M; the denominator is Consolidated Indebtedness plus Consolidated Tangible Net Worth less Unrestricted Cash above $50M. Cash is only netted above a $50M floor, and there is no cap on the amount netted. Interest Coverage Test details: this is the only covenant that uses EBITDA, measured as EBITDA to Consolidated Interest Incurred (including capitalized interest). A shortfall is not a default if Unrestricted Cash is kept at or above the Liquidity Cure Amount, defined as the greater of $50M and trailing-twelve-month interest incurred. Consolidated Tangible Net Worth floor: the $2.22B base rises by 50% of positive quarterly net income and 50% of equity offering proceeds after 12/31/2024. EBITDA add-backs include: other non-cash charges; non-ordinary-course losses; ASC 805 transaction and restructuring charges (uncapped); non-recurring expenses (capped at 7.5% of EBITDA); and transaction expenses ($10M per transaction / $20M per rolling four quarters). Other features: - A breach of 6.19 is an immediate Event of Default with no grace period (7.3). - Borrowing Base Debt may not exceed the Borrowing Base, with a mandatory paydown within 3 business days (2.1, 2.2). - Secured real-estate debt is capped at 20% of Consolidated Tangible Net Worth (6.11, incurrence-style). - Restricted payments are blocked on an actual or pro forma covenant violation. - Pricing is grid-based on the Leverage Ratio. - The facility is unsecured and guaranteed by Significant Homebuilding Subsidiaries. - Required Lenders is >66 2/3%. - There is no unrestricted subsidiary concept.",
+  "terms": [
+    {
+      "kind": "j_crew_blocker",
+      "present": "no",
+      "section": null,
+      "quote": null,
+      "summary": "The agreement has no unrestricted subsidiary concept and no restriction on transferring or licensing material intellectual property to non-guarantor entities. Only ordinary-course IP licenses are addressed, as permitted liens.",
+      "quote_verified": null
+    },
+    {
+      "kind": "serta_protection",
+      "present": "no",
+      "section": "Section 8.3",
+      "quote": null,
+      "summary": "Required Lenders can amend the agreement. Affected-lender consent is limited to economic terms (maturity, principal, rate, fees, commitment increases). All-lender consent covers Required Lender percentage changes, amendments to 8.3, and guarantor releases. There is no lender-consent requirement for subordinating the loans or liens.",
+      "quote_verified": null
+    },
+    {
+      "kind": "chewy_protection",
+      "present": "partial",
+      "section": "Section 6.20(b)",
+      "quote": "(ii) the Guarantor being released has a Net Worth of less than $3,000,000, or is being sold or otherwise disposed of in a transaction permitted by this Agreement to a Person other than Borrower or one of the other Loan Parties;",
+      "summary": "There is no automatic release when a guarantor ceases to be wholly owned. Release requires one of the following: net worth under $3M, or a permitted sale/disposition of the guarantor. It also requires release from all other pari passu guarantees, no default, and pro forma compliance; otherwise all-lender consent is needed. There is no express Chewy-style language.",
+      "quote_verified": true
+    },
+    {
+      "kind": "unrestricted_sub_cap",
+      "present": "no",
+      "section": "Section 6.14",
+      "quote": null,
+      "summary": "There are no unrestricted subsidiaries. Investments in non-guarantor subsidiaries and other persons are permitted subject only to no Event of Default and pro forma financial covenant compliance, with no hard dollar cap (aside from a separate $20M general basket).",
+      "quote_verified": null
+    },
+    {
+      "kind": "addback_cap",
+      "present": "partial",
+      "section": "Definition of Consolidated EBITDA (Section 1.1)",
+      "quote": "(i) non-recurring expenses and charges, provided that the amount of such expenses and charges shall not exceed 7.5% of Consolidated EBITDA (without giving effect to this clause (i)) in the aggregate for any four consecutive fiscal quarters",
+      "summary": "There is no add-back for projected cost savings or synergies. Non-recurring expenses are capped at 7.5% of EBITDA and transaction expenses at $10M per transaction / $20M per year. ASC 805 transaction and restructuring charges are added back without a cap.",
+      "quote_verified": true
+    },
+    {
+      "kind": "equity_cure",
+      "present": "no",
+      "section": "Section 6.19(c)",
+      "quote": null,
+      "summary": "There is no equity cure right. The only cure-like mechanic is a liquidity cure for the Interest Coverage Test: holding Unrestricted Cash at or above the Liquidity Cure Amount avoids default, with no limit on how often it can be used.",
+      "quote_verified": null
+    }
+  ],
+  "addback_cap_pct": null,
+  "cov_lite": false,
+  "tightest": {
+    "name": "Leverage Test",
+    "period_end": "2024-12-31",
+    "basis": "xbrl",
+    "value": -0.5321911216759749,
+    "limit": 0.6,
+    "headroom": 1.8869852027932914,
+    "cushion": null
+  },
+  "accuracy": [
+    {
+      "metric": "total_leverage",
+      "period_end": "2026-03-31",
+      "reported": 9.2,
+      "reported_limit": 60.0,
+      "covenant_found": true,
+      "matched": "Leverage Test",
+      "our_limit": 0.6,
+      "limit_match": null,
+      "not_graded": "before the latest amendment",
+      "xbrl": null,
+      "adjusted": null,
+      "xbrl_error": null,
+      "adjusted_error": null,
+      "facility": "Credit Facility",
+      "quote": "Leverage Test 9.2 % \u226460% (Not to exceed 60%)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1561680/000156168026000026/tph-20260331.htm"
+    },
+    {
+      "metric": "interest_coverage",
+      "period_end": "2026-03-31",
+      "reported": 5.6,
+      "reported_limit": 1.5,
+      "covenant_found": true,
+      "matched": "Interest Coverage Test",
+      "our_limit": 1.5,
+      "limit_match": null,
+      "not_graded": "before the latest amendment",
+      "xbrl": null,
+      "adjusted": null,
+      "xbrl_error": null,
+      "adjusted_error": null,
+      "facility": "Credit Facility",
+      "quote": "Interest Coverage Test 5.6 \u22651.5 (Not less than 1.5:1.0)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1561680/000156168026000026/tph-20260331.htm"
+    },
+    {
+      "metric": "other",
+      "period_end": "2026-03-31",
+      "reported": 3158820.0,
+      "reported_limit": 2346759.0,
+      "covenant_found": true,
+      "matched": "Minimum Tangible Net Worth Requirement",
+      "our_limit": 0.95,
+      "limit_match": null,
+      "not_graded": "not a standard ratio covenant",
+      "xbrl": null,
+      "adjusted": null,
+      "xbrl_error": null,
+      "adjusted_error": null,
+      "facility": "Credit Facility",
+      "quote": "Consolidated Tangible Net Worth $ 3,158,820 $ 2,346,759 (Not less than $2.22 billion plus 50% of net income and 50% of the net proceeds from equity offerings after December 31, 2024)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1561680/000156168026000026/tph-20260331.htm"
+    },
+    {
+      "metric": "total_leverage",
+      "period_end": "2026-06-30",
+      "reported": 19.0,
+      "reported_limit": 60.0,
+      "covenant_found": true,
+      "matched": "Leverage Test",
+      "our_limit": 0.6,
+      "limit_match": true,
+      "not_graded": null,
+      "xbrl": null,
+      "adjusted": null,
+      "xbrl_error": null,
+      "adjusted_error": null,
+      "facility": "Credit Facility",
+      "quote": "Leverage Test 19.0 % \u226460% (Not to exceed 60%)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1561680/000156168026000040/tph-20260630.htm"
+    },
+    {
+      "metric": "interest_coverage",
+      "period_end": "2026-06-30",
+      "reported": 5.1,
+      "reported_limit": 1.5,
+      "covenant_found": true,
+      "matched": "Interest Coverage Test",
+      "our_limit": 1.5,
+      "limit_match": true,
+      "not_graded": null,
+      "xbrl": null,
+      "adjusted": null,
+      "xbrl_error": null,
+      "adjusted_error": null,
+      "facility": "Credit Facility",
+      "quote": "Interest Coverage Test 5.1 \u22651.5 (Not less than 1.5:1.0)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1561680/000156168026000040/tph-20260630.htm"
+    },
+    {
+      "metric": "total_leverage",
+      "period_end": "2026-09-30",
+      "reported": 21.9,
+      "reported_limit": 60.0,
+      "covenant_found": true,
+      "matched": "Leverage Test",
+      "our_limit": 0.6,
+      "limit_match": true,
+      "not_graded": null,
+      "xbrl": null,
+      "adjusted": null,
+      "xbrl_error": null,
+      "adjusted_error": null,
+      "facility": "Credit Facility",
+      "quote": "Leverage Test 21.9 % \u226460% (Not to exceed 60%)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1561680/000156168026000047/tph-20260930.htm"
+    },
+    {
+      "metric": "interest_coverage",
+      "period_end": "2026-09-30",
+      "reported": 4.6,
+      "reported_limit": 1.5,
+      "covenant_found": true,
+      "matched": "Interest Coverage Test",
+      "our_limit": 1.5,
+      "limit_match": true,
+      "not_graded": null,
+      "xbrl": null,
+      "adjusted": null,
+      "xbrl_error": null,
+      "adjusted_error": null,
+      "facility": "Credit Facility",
+      "quote": "Interest Coverage Test 4.6 \u22651.5 (Not less than 1.5:1.0)",
+      "url": "https://www.sec.gov/Archives/edgar/data/1561680/000156168026000047/tph-20260930.htm"
+    }
+  ],
+  "dropped_answer_keys": [],
+  "adjusted_ebitda": [
+    {
+      "period_end": "2024-09-30",
+      "value": 208639000.0,
+      "quote": "Adjusted EBITDA $ 125,796 $ 208,639 $ 390,816 $ 600,530",
+      "url": "https://www.sec.gov/Archives/edgar/data/1561680/000156168025000103/tphex991q32025.htm",
+      "label": "Adjusted EBITDA"
+    },
+    {
+      "period_end": "2024-12-31",
+      "value": 235307000.0,
+      "quote": "Adjusted EBITDA $ 147,120 $ 235,307 $ 537,936 $ 835,837",
+      "url": "https://www.sec.gov/Archives/edgar/data/1561680/000156168026000004/tphex991q42025.htm",
+      "label": "Adjusted EBITDA"
+    },
+    {
+      "period_end": "2025-03-31",
+      "value": 125698000.0,
+      "quote": "Adjusted EBITDA $ 39,857 $ 125,698",
+      "url": "https://www.sec.gov/Archives/edgar/data/1561680/000156168026000022/tphex991q12026.htm",
+      "label": "Adjusted EBITDA"
+    },
+    {
+      "period_end": "2025-06-30",
+      "value": 139322000.0,
+      "quote": "Adjusted EBITDA $ 83,068 $ 139,322 $ 122,925 $ 265,020",
+      "url": "https://www.sec.gov/Archives/edgar/data/1561680/000156168026000035/tphex991q22026.htm",
+      "label": "Adjusted EBITDA"
+    },
+    {
+      "period_end": "2025-09-30",
+      "value": 125796000.0,
+      "quote": "Adjusted EBITDA $ 86,249 $ 125,796 $ 209,174 $ 390,816",
+      "url": "https://www.sec.gov/Archives/edgar/data/1561680/000156168026000044/tphex991q32026.htm",
+      "label": "Adjusted EBITDA"
+    },
+    {
+      "period_end": "2025-12-31",
+      "value": 147120000.0,
+      "quote": "Adjusted EBITDA $ 147,120 $ 235,307 $ 537,936 $ 835,837",
+      "url": "https://www.sec.gov/Archives/edgar/data/1561680/000156168026000004/tphex991q42025.htm",
+      "label": "Adjusted EBITDA"
+    },
+    {
+      "period_end": "2026-03-31",
+      "value": 39857000.0,
+      "quote": "Adjusted EBITDA $ 39,857 $ 125,698",
+      "url": "https://www.sec.gov/Archives/edgar/data/1561680/000156168026000022/tphex991q12026.htm",
+      "label": "Adjusted EBITDA"
+    },
+    {
+      "period_end": "2026-06-30",
+      "value": 83068000.0,
+      "quote": "Adjusted EBITDA $ 83,068 $ 139,322 $ 122,925 $ 265,020",
+      "url": "https://www.sec.gov/Archives/edgar/data/1561680/000156168026000035/tphex991q22026.htm",
+      "label": "Adjusted EBITDA"
+    },
+    {
+      "period_end": "2026-09-30",
+      "value": 86249000.0,
+      "quote": "Adjusted EBITDA $ 86,249 $ 125,796 $ 209,174 $ 390,816",
+      "url": "https://www.sec.gov/Archives/edgar/data/1561680/000156168026000044/tphex991q32026.htm",
+      "label": "Adjusted EBITDA"
+    }
+  ],
+  "financials_sources": {
+    "debt": "LongTermDebt",
+    "cash": "CashAndCashEquivalentsAtCarryingValue",
+    "operating income": "OperatingIncomeLoss",
+    "D&A": "DepreciationDepletionAndAmortization",
+    "interest": "InterestExpense",
+    "stock comp": "ShareBasedCompensation",
+    "impairments": "not reported",
+    "restructuring": "not reported"
+  },
+  "compliance": {
+    "filed": "2026-11-05",
+    "form": "10-Q",
+    "url": "https://www.sec.gov/Archives/edgar/data/1561680/000156168026000047/tph-20260930.htm",
+    "sentences": [
+      "Tri Pointe Connect was in compliance with all covenants and requirements as of September 30, 2026.",
+      "The Company was in compliance with all applicable financial covenants as of September 30, 2026 and December 31, 2025.",
+      "As of September 30, 2026, we were in compliance with the covenants required by our Senior Notes.",
+      "As of September 30, 2026, we were in compliance with all of these financial covenants."
+    ]
+  }
+}

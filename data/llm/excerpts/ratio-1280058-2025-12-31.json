@@ -1,0 +1,50 @@
+{
+  "job": "ratio-1280058-2025-12-31",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1280058/000128005826000006/blkb-20251231.htm",
+    "period": "2025-12-31"
+  },
+  "usage": {
+    "input_tokens": 5246,
+    "output_tokens": 943,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "Net Leverage Ratio",
+        "metric": "net_leverage",
+        "period_end": "2025-12-31",
+        "actual": 2.52,
+        "limit": 3.75,
+        "direction": "max",
+        "facility": "2024 Credit Facilities",
+        "quote": "Net Leverage Ratio (1) \u2264 3.75 to 1.00 2.52 to 1.00"
+      },
+      {
+        "covenant_name": "Interest Coverage Ratio",
+        "metric": "interest_coverage",
+        "period_end": "2025-12-31",
+        "actual": 6.27,
+        "limit": 2.5,
+        "direction": "min",
+        "facility": "2024 Credit Facilities",
+        "quote": "Interest Coverage Ratio \u2265 2.50 to 1.00 6.27 to 1.00"
+      },
+      {
+        "covenant_name": "leverage ratio (as defined in our 2024 Credit Facilities)",
+        "metric": "net_leverage",
+        "period_end": "2025-03-31",
+        "actual": 2.91,
+        "limit": null,
+        "direction": "max",
+        "facility": "2024 Credit Facilities",
+        "quote": "our leverage ratio (as defined in our 2024 Credit Facilities) rose during 2024 and continued to increase into early 2025, reaching a peak of 2.91 to 1.00 as of March 31, 2025."
+      }
+    ],
+    "notes": "The Net Leverage Ratio maximum of 3.75x may be raised by up to 0.50x, to no more than 4.25x, if certain conditions are met, including a permitted acquisition. The March 31, 2025 figure appears in the risk factors as the 'leverage ratio (as defined in our 2024 Credit Facilities)'. It is treated here as the net leverage covenant ratio, but the filing does not state the limit at that date. Three items are excluded: leverage-based pricing grids, the 3.50x incremental facility test, and the condition that dividends and repurchases require pro forma net leverage 0.25x below the covenant requirement."
+  }
+}

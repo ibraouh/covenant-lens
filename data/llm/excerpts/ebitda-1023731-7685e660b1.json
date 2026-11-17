@@ -1,0 +1,49 @@
+{
+  "job": "ebitda-1023731-7685e660b1",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1023731/000102373126000166/q2278-kexhibit991.htm",
+    "filed": "2026-11-04"
+  },
+  "usage": {
+    "input_tokens": 2587,
+    "output_tokens": 732,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "label": "Adjusted EBITDA",
+    "figures": [
+      {
+        "period_end": "2026-09-30",
+        "months": 3,
+        "shown": "24,913",
+        "unit": "thousands",
+        "quote": "Adjusted EBITDA (as a percentage of total revenue) $ 24,913 13.0% $ 22,037 12.0% $ 48,066 12.6% $ 42,733 11.7%"
+      },
+      {
+        "period_end": "2025-09-30",
+        "months": 3,
+        "shown": "22,037",
+        "unit": "thousands",
+        "quote": "Adjusted EBITDA (as a percentage of total revenue) $ 24,913 13.0% $ 22,037 12.0% $ 48,066 12.6% $ 42,733 11.7%"
+      },
+      {
+        "period_end": "2026-09-30",
+        "months": 6,
+        "shown": "48,066",
+        "unit": "thousands",
+        "quote": "Adjusted EBITDA (as a percentage of total revenue) $ 24,913 13.0% $ 22,037 12.0% $ 48,066 12.6% $ 42,733 11.7%"
+      },
+      {
+        "period_end": "2025-09-30",
+        "months": 6,
+        "shown": "42,733",
+        "unit": "thousands",
+        "quote": "Adjusted EBITDA (as a percentage of total revenue) $ 24,913 13.0% $ 22,037 12.0% $ 48,066 12.6% $ 42,733 11.7%"
+      }
+    ],
+    "notes": "Taken from the reconciliation table. Its columns are taken to be the three months ended September 30, 2026 and 2025, then the six months ended September 30, 2026 and 2025, consistent with the footnotes. The table header with the unit is not in the excerpt. Thousands is inferred from the magnitudes and from 8x8's usual reporting (Adjusted EBITDA of 24,913 at 13.0% of revenue implies revenue of about $192 million). The fiscal year ends March 31."
+  }
+}

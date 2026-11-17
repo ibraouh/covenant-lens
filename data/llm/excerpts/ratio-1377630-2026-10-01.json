@@ -1,0 +1,30 @@
+{
+  "job": "ratio-1377630-2026-10-01",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1377630/000119312526455444/ncmi-20261001.htm",
+    "period": "2026-10-01"
+  },
+  "usage": {
+    "input_tokens": 4061,
+    "output_tokens": 338,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "Total Net Leverage Ratio",
+        "metric": "net_leverage",
+        "period_end": "2026-10-01",
+        "actual": 4.38,
+        "limit": 5.0,
+        "direction": "max",
+        "facility": "2026 Credit Agreement",
+        "quote": "As of October 1, 2026, NCM Holdings\u2019 total net leverage ratio was 4.38 to 1.0 (versus the required ratio of less than 5.00 to 1.00 )."
+      }
+    ],
+    "notes": "The 2026 Credit Agreement (entered September 18, 2026) has a maximum Total Net Leverage Ratio of 5.00x. It steps down to 4.75x at the quarter ending June 30, 2028 and to 4.50x at the quarter ending December 31, 2029. The 2025 Credit Facility was terminated during the quarter. Its covenants (maximum leverage of 2.25x and minimum fixed charge coverage of 1.50x) are described with no actual values at any reporting date, so they are excluded."
+  }
+}

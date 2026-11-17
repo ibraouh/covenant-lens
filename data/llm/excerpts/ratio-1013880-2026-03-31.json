@@ -1,0 +1,30 @@
+{
+  "job": "ratio-1013880-2026-03-31",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1013880/000110465926057190/ttec-20260331x10q.htm",
+    "period": "2026-03-31"
+  },
+  "usage": {
+    "input_tokens": 2738,
+    "output_tokens": 309,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "maximum net leverage ratio",
+        "metric": "net_leverage",
+        "period_end": "2026-03-31",
+        "actual": 3.77,
+        "limit": 4.0,
+        "direction": "max",
+        "facility": "Credit Facility (Credit Agreement)",
+        "quote": "The maximum net leverage ratio steps down from the currently permitted 4.00 to 3.00 by Q3 2027 (TTEC\u2019s Q1 2026 net leverage ratio is 3.77 )."
+      }
+    ],
+    "notes": "The covenant limit of 4.00x is the level currently permitted. It steps down to 3.00x by Q3 2027 under the amended Credit Agreement. The leverage-based interest rate spreads (SOFR plus 3.0% rising to 6.0%) are pricing terms, not covenants, so they are excluded. Certain covenant adjustments apply as of March 31, 2026 and June 30, 2026."
+  }
+}

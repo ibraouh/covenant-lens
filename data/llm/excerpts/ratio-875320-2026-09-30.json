@@ -1,0 +1,30 @@
+{
+  "job": "ratio-875320-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/875320/000087532026000291/vrtx-20260930.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 3131,
+    "output_tokens": 410,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "maximum consolidated net leverage ratio",
+        "metric": "net_leverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 3.5,
+        "direction": "max",
+        "facility": "2026 Debt Agreements (2026 Term Loan and 2026 Revolver)",
+        "quote": "as well as a financial covenant to maintain a maximum consolidated net leverage ratio (calculated net of up to $ 1.0 billion of unrestricted cash and cash equivalents) of 3.50 to 1.00 , subject to an increase, at our election (which may be made up to three times), to 4.00 to 1.00 for each of the four fiscal quarters following a material acquisition."
+      }
+    ],
+    "notes": "The filing states only the covenant limit and that the company was in compliance as of September 30, 2026; it does not disclose the actual ratio. Net leverage is calculated net of up to $1.0 billion of unrestricted cash. At the company's election (up to three times), the limit can step up to 4.00x for four quarters after a material acquisition; the excerpt does not say whether this was elected. The consolidated leverage ratio that sets the interest margin is a pricing grid, not a covenant, so it is excluded."
+  }
+}

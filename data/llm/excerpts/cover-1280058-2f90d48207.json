@@ -1,0 +1,24 @@
+{
+  "job": "cover-1280058-2f90d48207",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1280058/000162612917000402/ex10-90.htm"
+  },
+  "usage": {
+    "input_tokens": 4159,
+    "output_tokens": 93,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "is_loan_document": true,
+    "kind": "original",
+    "title": "Credit Agreement",
+    "dated": "2017-06-02",
+    "amends_dated": null,
+    "primary_bank_facility": true,
+    "includes_conformed_copy": false,
+    "borrower": "Blackbaud, Inc."
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "job": "ratio-824142-2025-12-31",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/824142/000082414226000005/aaon-20251231.htm",
+    "period": "2025-12-31"
+  },
+  "usage": {
+    "input_tokens": 4693,
+    "output_tokens": 265,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "leverage ratio",
+        "metric": "total_leverage",
+        "period_end": "2025-12-31",
+        "actual": 1.77,
+        "limit": 3.0,
+        "direction": "max",
+        "facility": "Amended Loan Agreement (Revolver)",
+        "quote": "At December 31, 2025, our leverage ratio was 1.77 to 1.0, which meets the requirement of not being above 3 to 1."
+      }
+    ],
+    "notes": "The same covenant is disclosed in both MD&A and the debt note, with identical figures; it is reported once. The filing does not say whether the leverage ratio is total or net, so total_leverage is an assumption. The 1.77 leverage ratio mentioned in the overview bullet is the same figure. The leverage-based grids for applicable margin and fees are excluded."
+  }
+}

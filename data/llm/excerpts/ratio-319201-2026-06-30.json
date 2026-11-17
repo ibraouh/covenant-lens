@@ -1,0 +1,30 @@
+{
+  "job": "ratio-319201-2026-06-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/319201/000031920126000027/klac-20260630.htm",
+    "period": "2026-06-30"
+  },
+  "usage": {
+    "input_tokens": 2901,
+    "output_tokens": 310,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "net leverage ratio",
+        "metric": "net_leverage",
+        "period_end": "2026-06-30",
+        "actual": 0.53,
+        "limit": 3.25,
+        "direction": "max",
+        "facility": "Credit Agreement (Revolving Credit Facility)",
+        "quote": "We were in compliance with all covenants under the Credit Agreement as of June 30, 2026 (the net leverage ratio was 0.53 to 1.00 compared to a maximum net leverage ratio of 3.25 to 1.00 on a quarterly basis covering the trailing four consecutive fiscal quarters for each fiscal quarter)."
+      }
+    ],
+    "notes": "Maximum net leverage ratio of 3.25x may step up to 3.75x for a period following material acquisitions; it was 3.25x as of June 30, 2026. Tested quarterly on a trailing four-quarter basis. No borrowings were outstanding under the revolver."
+  }
+}

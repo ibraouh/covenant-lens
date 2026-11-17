@@ -1,0 +1,30 @@
+{
+  "job": "ratio-89089-2026-03-31",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/89089/000008908926000034/sci-20260331.htm",
+    "period": "2026-03-31"
+  },
+  "usage": {
+    "input_tokens": 2859,
+    "output_tokens": 194,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "Leverage ratio",
+        "metric": "total_leverage",
+        "period_end": "2026-03-31",
+        "actual": 3.68,
+        "limit": 5.0,
+        "direction": "max",
+        "facility": "Bank Credit Facility",
+        "quote": "Per Credit Agreement Actual Leverage ratio 5.00 (Max) 3.68"
+      }
+    ],
+    "notes": "The 3.5x to 4.0x leverage target is a capital allocation policy, not a covenant, so it is excluded. The filing does not define the leverage ratio further; it is mapped to total leverage."
+  }
+}

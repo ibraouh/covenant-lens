@@ -1,0 +1,49 @@
+{
+  "job": "ebitda-1481792-3e252b5a1d",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1481792/000148179226000147/pressreleaseex991q32026.htm",
+    "filed": "2026-10-28"
+  },
+  "usage": {
+    "input_tokens": 4522,
+    "output_tokens": 444,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "label": "Adjusted EBITDA",
+    "figures": [
+      {
+        "period_end": "2026-09-30",
+        "months": 3,
+        "shown": "51",
+        "unit": "millions",
+        "quote": "Adjusted EBITDA was $51 million in the third quarter of 2026, compared to $53 million in the same period in 2025."
+      },
+      {
+        "period_end": "2025-09-30",
+        "months": 3,
+        "shown": "53",
+        "unit": "millions",
+        "quote": "Adjusted EBITDA was $51 million in the third quarter of 2026, compared to $53 million in the same period in 2025."
+      },
+      {
+        "period_end": "2026-09-30",
+        "months": 9,
+        "shown": "138",
+        "unit": "millions",
+        "quote": "Adjusted EBITDA was $138 million in the nine months ended September 30, 2026, as compared to $141 million in the same period in 2025."
+      },
+      {
+        "period_end": "2025-09-30",
+        "months": 9,
+        "shown": "141",
+        "unit": "millions",
+        "quote": "Adjusted EBITDA was $138 million in the nine months ended September 30, 2026, as compared to $141 million in the same period in 2025."
+      }
+    ],
+    "notes": "The excerpt contains no reconciliation table, so these figures come from the narrative text. Full-year 2026 Adjusted EBITDA guidance of $185 million to $195 million (originally $175 million to $215 million) is a forecast, not a reported result, and is excluded."
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "job": "ratio-1704711-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1704711/000170471126000052/fnko-20260930.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 6539,
+    "output_tokens": 1110,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "minimum Fixed Charge Coverage Ratio",
+        "metric": "fixed_charge_coverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 0.75,
+        "direction": "min",
+        "facility": "Credit Agreement (JPMorgan Chase Bank, N.A., as amended by the Fifth Amendment)",
+        "quote": "(ii) on a quarterly basis, commencing with the fiscal quarter ending September 30, 2026, a minimum Fixed Charge Coverage Ratio of (a) 0.75 :1.00 with respect to the fiscal quarter ending September 30, 2026"
+      },
+      {
+        "covenant_name": "minimum Qualified Cash",
+        "metric": "minimum_liquidity",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 10.0,
+        "direction": "min",
+        "facility": "Credit Agreement (JPMorgan Chase Bank, N.A., as amended by the Fifth Amendment)",
+        "quote": "(iii) at all times, a minimum Qualified Cash covenant of $ 10.0 million"
+      }
+    ],
+    "notes": "No actual ratio values are disclosed; the company states only that it was in compliance with all covenants in effect and required to be tested at September 30, 2026 and December 31, 2025. The minimum Qualified Cash limit is in $ millions. The maximum Net Leverage Ratio of 2.50:1.00 was waived for the quarters through September 30, 2026 and is first tested at December 31, 2026. The minimum FCCR was waived for December 31, 2025 through June 30, 2026, and both covenants were also waived for June 30 and September 30, 2025 under the Fourth Amendment. Future FCCR minimums are 0.85x at December 31, 2026, 1.00x at March 31, 2027 and 1.25x from June 30, 2027. There is also a minimum Consolidated EBITDA covenant of $15.1 million for the six months ended June 30, 2026. A Covenant Cure Right lets FAH, LLC have the covenants deemed waived for a quarter by prepaying more than $10.0 million of loans."
+  }
+}

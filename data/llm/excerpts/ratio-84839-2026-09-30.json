@@ -1,0 +1,30 @@
+{
+  "job": "ratio-84839-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/84839/000008483926000045/rol-20260930.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 4167,
+    "output_tokens": 514,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "ratio of Rollins' consolidated total net debt to EBITDA",
+        "metric": "net_leverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 3.5,
+        "direction": "max",
+        "facility": "Credit Agreement",
+        "quote": "Further, the Credit Agreement contains a financial covenant restricting Rollins\u2019 ability to permit the ratio of Rollins\u2019 consolidated total net debt to EBITDA to exceed 3.50 to 1.00."
+      }
+    ],
+    "notes": "The filing does not give the actual covenant ratio; it says only that the Company was in compliance at September 30, 2026. After certain acquisitions the covenant limit may be raised temporarily to 4.00 to 1.00, but there is no sign this election was in effect. The 1.0x (Sep 30, 2026) and 0.9x (Dec 31, 2025) 'Leverage ratio' is a non-GAAP measure (adjusted net debt including leases / adjusted EBITDAR) and is not the covenant ratio, so it is excluded. References to the consolidated total net leverage ratio for setting the interest margin are also excluded."
+  }
+}

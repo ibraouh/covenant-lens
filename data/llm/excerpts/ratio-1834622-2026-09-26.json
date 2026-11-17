@@ -1,0 +1,40 @@
+{
+  "job": "ratio-1834622-2026-09-26",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1834622/000183462226000055/hayw-20260926.htm",
+    "period": "2026-09-26"
+  },
+  "usage": {
+    "input_tokens": 4383,
+    "output_tokens": 440,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "maximum total leverage ratio",
+        "metric": "total_leverage",
+        "period_end": "2026-09-26",
+        "actual": null,
+        "limit": null,
+        "direction": "max",
+        "facility": "Credit Agreement (Revolving Facility only)",
+        "quote": "The Credit Agreement also contains, for the benefit of the Revolving Facility only, covenants to maintain a maximum total leverage ratio and a minimum net interest coverage ratio."
+      },
+      {
+        "covenant_name": "minimum net interest coverage ratio",
+        "metric": "interest_coverage",
+        "period_end": "2026-09-26",
+        "actual": null,
+        "limit": null,
+        "direction": "min",
+        "facility": "Credit Agreement (Revolving Facility only)",
+        "quote": "The Credit Agreement also contains, for the benefit of the Revolving Facility only, covenants to maintain a maximum total leverage ratio and a minimum net interest coverage ratio."
+      }
+    ],
+    "notes": "The filing names the covenants: a maximum total leverage ratio and a minimum net interest coverage ratio, both for the Revolving Facility only. It states compliance as of 2026-09-26 but gives no actual values or thresholds. Leverage-based pricing grids for margins and commitment fees were excluded, as was the first lien leverage ratio used for excess cash flow sweeps."
+  }
+}

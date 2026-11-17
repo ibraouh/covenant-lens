@@ -1,0 +1,159 @@
+{
+  "reports": [
+    {
+      "form": "10-Q",
+      "filed": "2026-10-30",
+      "period": "2026-09-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/712034/000119312526440726/acco-20260930.htm",
+      "job": "ratio-712034-2026-09-30"
+    },
+    {
+      "form": "10-Q",
+      "filed": "2026-07-31",
+      "period": "2026-06-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/712034/000119312526328057/acco-20260630.htm",
+      "job": "ratio-712034-2026-06-30"
+    },
+    {
+      "form": "10-Q",
+      "filed": "2026-05-01",
+      "period": "2026-03-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/712034/000119312526201006/acco-20260331.htm",
+      "job": "ratio-712034-2026-03-31"
+    },
+    {
+      "form": "10-K",
+      "filed": "2026-03-09",
+      "period": "2025-12-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/712034/000119312526098616/acco-20251231.htm",
+      "job": "ratio-712034-2025-12-31"
+    }
+  ],
+  "releases": [
+    {
+      "filed": "2026-10-29",
+      "url": "https://www.sec.gov/Archives/edgar/data/712034/000119312526437823/acco-ex99_1.htm",
+      "job": "ebitda-712034-1cf0aaf116"
+    },
+    {
+      "filed": "2026-07-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/712034/000119312526326109/acco-ex99_1.htm",
+      "job": "ebitda-712034-1fc83bf291"
+    },
+    {
+      "filed": "2026-04-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/712034/000119312526197592/acco-ex99_1.htm",
+      "job": "ebitda-712034-433f246cc3"
+    },
+    {
+      "filed": "2026-03-09",
+      "url": "https://www.sec.gov/Archives/edgar/data/712034/000119312526097823/acco-ex99_1.htm",
+      "job": "ebitda-712034-9a921685c0"
+    },
+    {
+      "filed": "2025-10-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/712034/000119312525258795/acco-ex99_1.htm",
+      "job": "ebitda-712034-9bcd1e3273"
+    }
+  ],
+  "exhibits": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/712034/000071203416000082/exhibit101secondamendmenta.htm",
+      "filed": "2016-05-02",
+      "exhibit": "EX-10.1",
+      "chars": 31243,
+      "job": "cover-712034-88207691c7"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/712034/000071203416000126/thirdamendmentframingamend.htm",
+      "filed": "2016-10-24",
+      "exhibit": "EX-10.1",
+      "chars": 75339,
+      "job": "cover-712034-1e48611234"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/712034/000071203416000126/thirdamendedandrestatedcre.htm",
+      "filed": "2016-10-24",
+      "exhibit": "EX-10.1",
+      "chars": 666129,
+      "job": "cover-712034-4bfd29276b"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/712034/000071203417000012/acco-20161231xex1011.htm",
+      "filed": "2017-02-27",
+      "exhibit": "EX-10.11",
+      "chars": 666470,
+      "job": "cover-712034-66702ee65e"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/712034/000071203417000012/acco-20161231xex1010.htm",
+      "filed": "2017-02-27",
+      "exhibit": "EX-10.10",
+      "chars": 13822,
+      "job": "cover-712034-9d8bba4808"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/712034/000071203418000147/acco-2018xq3ex101.htm",
+      "filed": "2018-10-30",
+      "exhibit": "EX-10.1",
+      "chars": 46114,
+      "job": "cover-712034-aae40bf536"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/712034/000071203419000121/exhibit101_secondamend.htm",
+      "filed": "2019-05-23",
+      "exhibit": "EX-10.1",
+      "chars": 785588,
+      "job": "cover-712034-4e747d7ab6"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/712034/000071203420000066/acco-thirdamendmenttot.htm",
+      "filed": "2020-05-04",
+      "exhibit": "EX-10.1",
+      "chars": 39760,
+      "job": "cover-712034-ed1761c646"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/712034/000110465920123712/tm2035411d1_ex10-1.htm",
+      "filed": "2020-11-12",
+      "exhibit": "EX-10.1",
+      "chars": 52056,
+      "job": "cover-712034-b6a6dcd76f"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/712034/000110465921036717/tm218842d2_ex4-1.htm",
+      "filed": "2021-03-16",
+      "exhibit": "EX-4.1",
+      "chars": 454681,
+      "job": "cover-712034-527c737fc5"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/712034/000110465921045016/tm2111428d1_ex10-1.htm",
+      "filed": "2021-04-01",
+      "exhibit": "EX-10.1",
+      "chars": 107624,
+      "job": "cover-712034-3d61788058"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/712034/000095017022022635/acco-ex10_1.htm",
+      "filed": "2022-11-07",
+      "exhibit": "EX-10.1",
+      "chars": 796143,
+      "job": "cover-712034-7568d0c875"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/712034/000095017024119565/acco-ex10_1.htm",
+      "filed": "2024-10-31",
+      "exhibit": "EX-10.1",
+      "chars": 806525,
+      "job": "cover-712034-a2720f8252"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/712034/000095017025100909/acco-ex10_1.htm",
+      "filed": "2025-07-31",
+      "exhibit": "EX-10.1",
+      "chars": 772953,
+      "job": "cover-712034-328effd21e"
+    }
+  ]
+}

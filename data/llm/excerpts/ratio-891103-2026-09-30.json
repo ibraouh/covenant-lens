@@ -1,0 +1,30 @@
+{
+  "job": "ratio-891103-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/891103/000089110326000163/mtch-20260930.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 3104,
+    "output_tokens": 557,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "consolidated net leverage ratio",
+        "metric": "net_leverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 5.0,
+        "direction": "max",
+        "facility": "Credit Facility (revolving credit facility under the Credit Agreement)",
+        "quote": "If MG Holdings II borrows under the Credit Facility, it will be required to maintain a consolidated net leverage ratio of not more than 5.0 to 1.0."
+      }
+    ],
+    "notes": "The 5.0x maximum consolidated net leverage covenant is springing: it applies only if MG Holdings II borrows under the Credit Facility. There were no borrowings at September 30, 2026, and the filing gives no actual ratio. The Credit Agreement also limits dividends, distributions and buybacks if net leverage exceeds 4.25x; this restricted-payments test is not listed as a maintenance covenant. The 5.0x consolidated leverage test in the 5.00% Senior Notes indenture is a bond indenture covenant and is excluded. Net leverage-based pricing of fees and margins is also excluded."
+  }
+}

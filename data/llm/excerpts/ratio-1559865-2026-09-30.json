@@ -1,0 +1,30 @@
+{
+  "job": "ratio-1559865-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1559865/000155986526000054/evtc-20260930.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 2223,
+    "output_tokens": 207,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "total secured net leverage ratio",
+        "metric": "secured_net_leverage",
+        "period_end": "2026-09-30",
+        "actual": 2.46,
+        "limit": null,
+        "direction": "max",
+        "facility": null,
+        "quote": "As of September 30, 2026, the total secured net leverage ratio was 2.46 to 1.00."
+      }
+    ],
+    "notes": "The excerpt states the actual total secured net leverage ratio under the Covenant Compliance heading. It does not give the covenant limit or name the specific credit agreement. The covenant uses Adjusted EBITDA calculated over the trailing twelve months."
+  }
+}

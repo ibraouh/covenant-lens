@@ -1,0 +1,35 @@
+{
+  "job": "ebitda-825542-febea2f5c7",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/825542/000082554226000003/exhibit991q1f26newsrelease.htm",
+    "filed": "2026-01-28"
+  },
+  "usage": {
+    "input_tokens": 4563,
+    "output_tokens": 302,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "label": "Adjusted EBITDA",
+    "figures": [
+      {
+        "period_end": "2025-12-27",
+        "months": 3,
+        "shown": "3.0",
+        "unit": "millions",
+        "quote": "Adjusted EBITDA (Non-GAAP) $ 3.0 $ 0.9"
+      },
+      {
+        "period_end": "2024-12-28",
+        "months": 3,
+        "shown": "0.9",
+        "unit": "millions",
+        "quote": "Adjusted EBITDA (Non-GAAP) $ 3.0 $ 0.9"
+      }
+    ],
+    "notes": "Figures taken from the Calculation of Adjusted EBITDA reconciliation table (in millions) for the first quarter of fiscal 2026 (ended December 27, 2025) and the prior-year quarter (ended December 28, 2024). Both figures exclude Hawthorne, which is reported as a discontinued operation. No year-to-date or full-year figures beyond the quarter are shown."
+  }
+}

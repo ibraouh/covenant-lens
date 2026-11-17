@@ -1,0 +1,24 @@
+{
+  "job": "cover-885725-c011da27b0",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/885725/000094787120000156/ss167320_ex1001.htm"
+  },
+  "usage": {
+    "input_tokens": 3893,
+    "output_tokens": 99,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "is_loan_document": true,
+    "kind": "original",
+    "title": "Term Loan Credit Agreement",
+    "dated": "2020-02-27",
+    "amends_dated": null,
+    "primary_bank_facility": false,
+    "includes_conformed_copy": false,
+    "borrower": "Boston Scientific Corporation"
+  }
+}

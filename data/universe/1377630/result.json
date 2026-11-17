@@ -1,0 +1,317 @@
+{
+  "cik": "1377630",
+  "name": "National CineMedia, Inc.",
+  "borrower": "NCM Holdings, LLC and National CineMedia, LLC (co-borrowers; Captivate Holdings, LLC and Captivate, LLC joined as Borrowers upon the Debt Assumption)",
+  "gold": false,
+  "stale": false,
+  "agreement_date": "2026-09-18",
+  "facility": "$275M Initial Term Loan and $25M Revolving Facility (including a $5M LC sublimit and $3M swingline), both maturing September 18, 2031",
+  "chain": {
+    "auto": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1377630/000119312526396098/ncmi-ex10_1.htm",
+        "title": "Credit Agreement",
+        "dated": "2026-09-18",
+        "kind": "original",
+        "filed": "2026-09-21"
+      }
+    ],
+    "notes": [],
+    "used": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1377630/000119312526396098/ncmi-ex10_1.htm",
+        "title": "Credit Agreement",
+        "dated": "2026-09-18",
+        "kind": "original",
+        "filed": "2026-09-21"
+      }
+    ],
+    "source": "automatic"
+  },
+  "covenants": [
+    {
+      "name": "Net Total Leverage Ratio",
+      "metric": "net_leverage",
+      "direction": "max",
+      "section": "Section 6.11",
+      "quote": "Permit the Net Total Leverage Ratio as of the last day of any fiscal quarter (beginning with the end of the first full fiscal quarter ending after the Closing Date), to exceed the level set forth below with respect to the fiscal quarter ending on or about the date set forth opposite such level:",
+      "quote_verified": true,
+      "thresholds": [
+        {
+          "value": 5.0,
+          "applies_from": "2026-12-31"
+        },
+        {
+          "value": 4.75,
+          "applies_from": "2028-06-30"
+        },
+        {
+          "value": 4.5,
+          "applies_from": "2029-12-31"
+        }
+      ],
+      "test_frequency": "quarterly",
+      "springing_condition": null,
+      "addbacks": [
+        "stock_comp",
+        "impairments",
+        "restructuring",
+        "other"
+      ],
+      "cash_netting_cap": 15000000.0,
+      "cash_netting_cap_pct_ebitda": null,
+      "rows": [
+        {
+          "period_end": "2023-06-29",
+          "before_agreement": true,
+          "limit": null,
+          "xbrl": null,
+          "adjusted": null,
+          "reported": null,
+          "reported_limit": null,
+          "reported_quote": null,
+          "reported_url": null,
+          "ltm_ebitda_xbrl": null,
+          "ltm_ebitda_adjusted": null,
+          "debt": 0,
+          "cash": 15500000,
+          "ltm_interest": 69300000
+        },
+        {
+          "period_end": "2023-12-28",
+          "before_agreement": true,
+          "limit": null,
+          "xbrl": null,
+          "adjusted": null,
+          "reported": null,
+          "reported_limit": null,
+          "reported_quote": null,
+          "reported_url": null,
+          "ltm_ebitda_xbrl": null,
+          "ltm_ebitda_adjusted": null,
+          "debt": 10000000,
+          "cash": 34600000,
+          "ltm_interest": 27800000
+        }
+      ],
+      "latest": null,
+      "steps": [
+        {
+          "from": "2026-12-31",
+          "limit": 5.0,
+          "headroom_at_today": null
+        },
+        {
+          "from": "2028-06-30",
+          "limit": 4.75,
+          "headroom_at_today": null
+        },
+        {
+          "from": "2029-12-31",
+          "limit": 4.5,
+          "headroom_at_today": null
+        }
+      ]
+    }
+  ],
+  "notes": "The only maintenance covenant is the Section 6.11 Net Total Leverage Ratio. It is tested every quarter for all lenders, not only on revolver usage. It steps down from 5.00x (Q4 2026 through Q1 2028) to 4.75x (Q2 2028 through Q3 2029) to 4.50x (Q4 2029 onward).\n\nCash netting: Unrestricted Cash counts only cash of Holdings, the Borrowers and Subsidiary Loan Parties. It is capped at the lesser of $15M and, after the Control Agreement Delivery Date, cash held in accounts under Control Agreements.\n\nEBITDA definition:\n- Includes deemed quarterly EBITDA for the four quarters before closing ($14.3M, $44.9M, $(9.8)M and $7.9M), adjustable for pro forma synergies.\n- Add-backs include run-rate cost savings and synergies (12-month look-forward), QofE, Model and Regulation S-X adjustments under (a)(xi), which are not subject to the 20% cap.\n- Transaction Expenses are added back up to $45M; New Project losses are capped at 5% of EBITDA; litigation settlements and extraordinary or non-recurring charges are also added back.\n\nAmendments: the Required Revolving Facility Lenders alone may amend or waive Section 6.11 and related definitions, or waive a resulting default (Section 9.08(h)).\n\nDrafting inconsistency: Section 1.10 refers to the Net First Lien Leverage Ratio in the context of Section 6.11 compliance.\n\nIncurrence-only tests are excluded from the covenant list:\n- Net First Lien Leverage 3.90x (incremental debt)\n- Net Total Leverage 3.40x (investments), 2.90x (restricted payments) and 2.40x (junior debt payments)\n- Fixed Charge Coverage 2.00x (acquired debt)\n\nOther lender protections:\n- Section 6.08 flatly prohibits Liability Management Exercises, but the definition excludes transactions approved by the Required Lenders and Required Revolving Facility Lenders, bona fide transactions, and pro rata open offers.\n- Section 9.18(h) bars lien or guarantee releases that are part of a refinancing or exchange, or of a financing benefiting lenders or affiliates, unless the loans are paid in full in cash, absent Required Lenders and Required Revolving Facility Lenders consent.\n- Net short lender voting is disenfranchised.\n- Material Assets and Captivate Equipment are protected from sale-leasebacks and certain liens.\n\nPricing and prepayment:\n- Term loan pricing is SOFR + 7.00% with a 1.50% floor.\n- A PIK toggle of up to 2% is available for the first two years at a +0.50% margin.\n- Call protection is 3/2/1.\n- Amortization is 2.5% per year for 3 years, then 5% per year.",
+  "terms": [
+    {
+      "kind": "j_crew_blocker",
+      "present": "yes",
+      "section": "Section 5.13 (also Section 6.06, final paragraph)",
+      "quote": "The Borrowers shall not, and shall ensure that their Restricted Subsidiaries shall not, (i) designate as an Unrestricted Subsidiary any Restricted Subsidiary that owns Material Assets or any Captivate Equipment or permit any Unrestricted Subsidiary to own or exclusively license any Material Assets or any Captivate Equipment at any time or (ii) transfer (in the form of an Investment, contribution, Restricted Payment, Disposition or otherwise) any Material Assets or any Captivate Equipment owned or exclusively licensed by any Loan Party to any Subsidiary that is not a Loan Party;",
+      "summary": "Material Assets (including Material Intellectual Property) and Captivate Equipment may not be transferred or exclusively licensed to non-Loan Party subsidiaries, may not be owned by Unrestricted Subsidiaries, and no subsidiary owning them may be designated unrestricted. Ordinary-course non-exclusive licenses are excepted.",
+      "quote_verified": true
+    },
+    {
+      "kind": "serta_protection",
+      "present": "yes",
+      "section": "Section 9.08(b)(vi); see also Section 6.08",
+      "quote": "subordinate the Liens with respect to all or substantially all of the value of the Collateral securing the Secured Obligations to any Lien securing Indebtedness solely in the form of third party Indebtedness for borrowed money",
+      "summary": "Subordinating the liens on all or substantially all collateral value, or the payment priority of the loans or guarantees, to other third-party borrowed money needs every non-defaulting lender's consent. The exception is where each lender is offered a pro rata chance to participate on the same terms (other than Ancillary Fees); DIP financings and Permitted Modifications are carved out. Section 6.08 separately prohibits Liability Management Exercises.",
+      "quote_verified": true
+    },
+    {
+      "kind": "chewy_protection",
+      "present": "yes",
+      "section": "Section 9.18(b)",
+      "quote": "no Subsidiary Loan Party shall be automatically released from its obligations under the Loan Documents solely by reason of such Subsidiary Loan Party becoming an Excluded Subsidiary of the type described in clause (b) of the definition thereof unless no Specified Event of Default is continuing and either (x) it is no longer a direct or indirect Subsidiary of Holdings or (y) such Subsidiary Loan Party ceases to be a Wholly Owned Subsidiary as a result of a sale, issuance or transfer of Equity Interests for fair market value to a third party that is not an Affiliate of the Borrowers or the Ultimate Parent",
+      "summary": "A guarantor is not released just because it becomes non-wholly owned. Release requires no Specified Event of Default and either full exit as a subsidiary or a fair-value equity sale to an unaffiliated third party for a bona fide business purpose, not primarily to release the guarantee.",
+      "quote_verified": true
+    },
+    {
+      "kind": "unrestricted_sub_cap",
+      "present": "yes",
+      "section": "Section 5.13; Section 6.04(ee)",
+      "quote": "Notwithstanding anything herein to the contrary (but subject to the immediately preceding sentence), transfers (in the form of an Investment, contribution, Restricted Payment, Disposition or otherwise) to Unrestricted Subsidiaries shall only be permitted to be made solely and exclusively (including by virtue of the designation of any Subsidiary as an Unrestricted Subsidiary) in the form of an Investment pursuant to Section 6.04(ee) (and not pursuant to any other clause or exception) and any such Investments shall not be reclassified, divided or re-divided.",
+      "summary": "All investments in and designations of Unrestricted Subsidiaries must use Section 6.04(ee), which is capped at the greater of $5M and 7% of EBITDA. That cap is shared with joint venture and similar-business investments under 6.04(cc). Designation also requires no default and pro forma compliance with the financial covenant.",
+      "quote_verified": true
+    },
+    {
+      "kind": "addback_cap",
+      "present": "yes",
+      "section": "Definition of \"EBITDA\" (final paragraph), Section 1.01",
+      "quote": "the aggregate amount added to or included in EBITDA pursuant to subclauses (a)(iv), (a)(ix) and (a)(xx) of the definition of EBITDA, shall not, for any Test Period, exceed an amount equal to 20% of EBITDA for such Test Period, calculated after giving effect to any such add-backs or inclusions and all other add-backs and inclusions",
+      "summary": "Restructuring and business optimization charges, run-rate cost savings and synergies, and extraordinary or non-recurring charges are together capped at 20% of EBITDA (measured after the add-backs). QofE, Model and Regulation S-X adjustments under clause (a)(xi) fall outside this cap.",
+      "quote_verified": true
+    },
+    {
+      "kind": "equity_cure",
+      "present": "yes",
+      "section": "Section 7.03",
+      "quote": "(i) in each four fiscal quarter period there shall be at least two fiscal quarters in which a Cure Right is not exercised, (ii) a Cure Right shall not be exercised more than four times during the term of the Facility",
+      "summary": "Holdings may cure a breach of the leverage covenant with cash equity contributed to a Borrower, which is added to EBITDA. Limits: no more than two cures in any four consecutive quarters and four over the life of the facility; the cure is limited to the amount needed; no debt reduction or cash netting in the cure quarter; and proceeds must be applied to prepay term loans.",
+      "quote_verified": true
+    }
+  ],
+  "addback_cap_pct": 0.2,
+  "cov_lite": false,
+  "tightest": null,
+  "accuracy": [
+    {
+      "metric": "fixed_charge_coverage",
+      "period_end": "2026-01-01",
+      "reported": 13.5,
+      "reported_limit": 1.5,
+      "covenant_found": false,
+      "matched": null,
+      "our_limit": null,
+      "limit_match": null,
+      "not_graded": "before the latest amendment",
+      "xbrl": null,
+      "adjusted": null,
+      "xbrl_error": null,
+      "adjusted_error": null,
+      "facility": "2025 Credit Facility",
+      "quote": "NCM LLC was in compliance at January 1, 2026 with a fixed charge coverage ratio of 13.5 to 1.0 (versus the required ratio of 1.50 to 1.00) and a maximum leverage ratio of 0.4 to 1.0 (versus the required ratio of 2.25 to 1.0).",
+      "url": "https://www.sec.gov/Archives/edgar/data/1377630/000119312526076788/ncmi-20260101.htm"
+    },
+    {
+      "metric": "total_leverage",
+      "period_end": "2026-01-01",
+      "reported": 0.4,
+      "reported_limit": 2.25,
+      "covenant_found": true,
+      "matched": "Net Total Leverage Ratio",
+      "our_limit": null,
+      "limit_match": null,
+      "not_graded": "before the latest amendment",
+      "xbrl": null,
+      "adjusted": null,
+      "xbrl_error": null,
+      "adjusted_error": null,
+      "facility": "2025 Credit Facility",
+      "quote": "NCM LLC was in compliance at January 1, 2026 with a fixed charge coverage ratio of 13.5 to 1.0 (versus the required ratio of 1.50 to 1.00) and a maximum leverage ratio of 0.4 to 1.0 (versus the required ratio of 2.25 to 1.0).",
+      "url": "https://www.sec.gov/Archives/edgar/data/1377630/000119312526076788/ncmi-20260101.htm"
+    },
+    {
+      "metric": "fixed_charge_coverage",
+      "period_end": "2026-04-02",
+      "reported": 13.1,
+      "reported_limit": 1.5,
+      "covenant_found": false,
+      "matched": null,
+      "our_limit": null,
+      "limit_match": null,
+      "not_graded": "before the latest amendment",
+      "xbrl": null,
+      "adjusted": null,
+      "xbrl_error": null,
+      "adjusted_error": null,
+      "facility": "2025 Credit Facility",
+      "quote": "As of April 2, 2026, NCM LLC\u2019s fixed charge coverage ratio was 13.1 to 1.0 (versus the required ratio of 1.50 to 1.00 )",
+      "url": "https://www.sec.gov/Archives/edgar/data/1377630/000119312526219502/ncmi-20260402.htm"
+    },
+    {
+      "metric": "total_leverage",
+      "period_end": "2026-04-02",
+      "reported": 0.39,
+      "reported_limit": 2.25,
+      "covenant_found": true,
+      "matched": "Net Total Leverage Ratio",
+      "our_limit": null,
+      "limit_match": null,
+      "not_graded": "before the latest amendment",
+      "xbrl": null,
+      "adjusted": null,
+      "xbrl_error": null,
+      "adjusted_error": null,
+      "facility": "2025 Credit Facility",
+      "quote": "NCM LLC's maximum leverage ratio was 0.39 to 1.0 (versus the required ratio of 2.25 to 1.0 )",
+      "url": "https://www.sec.gov/Archives/edgar/data/1377630/000119312526219502/ncmi-20260402.htm"
+    },
+    {
+      "metric": "fixed_charge_coverage",
+      "period_end": "2026-07-02",
+      "reported": 10.8,
+      "reported_limit": 1.5,
+      "covenant_found": false,
+      "matched": null,
+      "our_limit": null,
+      "limit_match": null,
+      "not_graded": "before the latest amendment",
+      "xbrl": null,
+      "adjusted": null,
+      "xbrl_error": null,
+      "adjusted_error": null,
+      "facility": "2025 Credit Facility",
+      "quote": "As of July 2, 2026, NCM LLC\u2019s fixed charge coverage ratio was 10.8 to 1.0 (versus t he required ratio of greater than 1.5 to 1.0 )",
+      "url": "https://www.sec.gov/Archives/edgar/data/1377630/000119312526344956/ncmi-20260702.htm"
+    },
+    {
+      "metric": "total_leverage",
+      "period_end": "2026-07-02",
+      "reported": 0.39,
+      "reported_limit": 2.25,
+      "covenant_found": true,
+      "matched": "Net Total Leverage Ratio",
+      "our_limit": null,
+      "limit_match": null,
+      "not_graded": "before the latest amendment",
+      "xbrl": null,
+      "adjusted": null,
+      "xbrl_error": null,
+      "adjusted_error": null,
+      "facility": "2025 Credit Facility",
+      "quote": "NCM LLC's maximum leverage ratio was 0.39 to 1.0 (v ersus the required ratio of less than 2.25 to 1.0 )",
+      "url": "https://www.sec.gov/Archives/edgar/data/1377630/000119312526344956/ncmi-20260702.htm"
+    },
+    {
+      "metric": "net_leverage",
+      "period_end": "2026-10-01",
+      "reported": 4.38,
+      "reported_limit": 5.0,
+      "covenant_found": true,
+      "matched": "Net Total Leverage Ratio",
+      "our_limit": null,
+      "limit_match": false,
+      "not_graded": null,
+      "xbrl": null,
+      "adjusted": null,
+      "xbrl_error": null,
+      "adjusted_error": null,
+      "facility": "2026 Credit Agreement",
+      "quote": "As of October 1, 2026, NCM Holdings\u2019 total net leverage ratio was 4.38 to 1.0 (versus the required ratio of less than 5.00 to 1.00 ).",
+      "url": "https://www.sec.gov/Archives/edgar/data/1377630/000119312526455444/ncmi-20261001.htm"
+    }
+  ],
+  "dropped_answer_keys": [],
+  "adjusted_ebitda": [],
+  "financials_sources": {
+    "debt": "LongTermDebt",
+    "cash": "CashAndCashEquivalentsAtCarryingValue",
+    "operating income": "OperatingIncomeLoss",
+    "D&A": "not reported",
+    "interest": "InterestExpenseDebt",
+    "stock comp": "ShareBasedCompensation",
+    "impairments": "AssetImpairmentCharges",
+    "restructuring": "not reported"
+  },
+  "compliance": {
+    "filed": "2026-08-11",
+    "form": "10-Q",
+    "url": "https://www.sec.gov/Archives/edgar/data/1377630/000119312526344956/ncmi-ex10_1.htm",
+    "sentences": []
+  }
+}

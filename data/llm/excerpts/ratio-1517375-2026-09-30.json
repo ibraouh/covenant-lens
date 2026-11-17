@@ -1,0 +1,40 @@
+{
+  "job": "ratio-1517375-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1517375/000151737526000070/spt-20260930.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 4215,
+    "output_tokens": 1010,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "Consolidated Senior Net Leverage Ratio",
+        "metric": "net_leverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": null,
+        "direction": "max",
+        "facility": "Amended Credit Agreement (revolving credit facility)",
+        "quote": "In addition, the Amendment removed the minimum liquidity and annual recurring revenue covenants contained in the Credit Agreement and replaced them with financial covenants as to (i) maximum Consolidated Senior Net Leverage Ratio and (ii) minimum Consolidated Interest Coverage Ratio (each as defined in the Amended Credit Agreement)."
+      },
+      {
+        "covenant_name": "Consolidated Interest Coverage Ratio",
+        "metric": "interest_coverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": null,
+        "direction": "min",
+        "facility": "Amended Credit Agreement (revolving credit facility)",
+        "quote": "In addition, the Amendment removed the minimum liquidity and annual recurring revenue covenants contained in the Credit Agreement and replaced them with financial covenants as to (i) maximum Consolidated Senior Net Leverage Ratio and (ii) minimum Consolidated Interest Coverage Ratio (each as defined in the Amended Credit Agreement)."
+      }
+    ],
+    "notes": "The filing names the two financial covenants and states only that the company was in compliance as of September 30, 2026. No actual ratio values or numeric limits are disclosed. The Consolidated Senior Net Leverage Ratio also sets the interest margin and the commitment fee; those pricing uses are not covenants. The facility is secured, so the senior net leverage covenant may effectively be a secured net leverage test. $32.5 million was outstanding under the facility."
+  }
+}

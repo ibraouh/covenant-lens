@@ -1,0 +1,121 @@
+{
+  "job": "read-1076930-30dc96c1c2-sonnet55",
+  "model": "claude-sonnet-5-5",
+  "meta": {
+    "cik": "1076930",
+    "docs": [
+      "https://www.sec.gov/Archives/edgar/data/1076930/000119312526227053/novt-ex10_1.htm",
+      "https://www.sec.gov/Archives/edgar/data/1076930/000119312526262867/novt-ex10_1.htm"
+    ]
+  },
+  "usage": {
+    "input_tokens": 257789,
+    "output_tokens": 3068,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "borrower": "Novanta Corporation (Lead Borrower; Novanta Inc. as Holdings and a Borrower, with U.K. and German Borrower affiliates)",
+    "agreement_date": "2025-06-27",
+    "covenants": [
+      {
+        "name": "Consolidated Leverage Ratio",
+        "metric": "net_leverage",
+        "direction": "max",
+        "thresholds": [
+          {
+            "value": 4.0,
+            "applies_from": null
+          }
+        ],
+        "test_frequency": "quarterly",
+        "springing_condition": null,
+        "section": "Section 7.10(b)",
+        "quote": "Consolidated Leverage Ratio. Permit the Consolidated Leverage Ratio as at the end of any Measurement Period to be greater than (i) 4.00 : 1.00, or (ii) 4.50 : 1.00 at the Borrowers\u2019 option for the four (4) consecutive quarters following a Designated Acquisition; provided, that this clause (ii) may not be exercised more than two (2) times.",
+        "ebitda_addbacks": [
+          "stock_comp",
+          "impairments",
+          "restructuring",
+          "other"
+        ],
+        "cash_netting_cap": 100000000.0,
+        "cash_netting_cap_pct_ebitda": null
+      },
+      {
+        "name": "Consolidated Fixed Charge Coverage Ratio",
+        "metric": "fixed_charge_coverage",
+        "direction": "min",
+        "thresholds": [
+          {
+            "value": 1.0,
+            "applies_from": null
+          },
+          {
+            "value": 1.25,
+            "applies_from": null
+          }
+        ],
+        "test_frequency": "quarterly",
+        "springing_condition": null,
+        "section": "Section 7.10(c)",
+        "quote": "Consolidated Fixed Charge Coverage Ratio. Permit the Consolidated Fixed Charge Coverage Ratio as at the end of any Measurement Period to be less than (x) for the Measurement Periods ending as of the last day of each of the four (4) consecutive fiscal quarters following the consummation of the Specified Acquisition, 1.00 : 1:00 and (y) thereafter, 1.25 : 1.00.",
+        "ebitda_addbacks": [
+          "stock_comp",
+          "impairments",
+          "restructuring",
+          "other"
+        ],
+        "cash_netting_cap": null,
+        "cash_netting_cap_pct_ebitda": null
+      }
+    ],
+    "notes": "Third Amendment (June 8, 2026) restated Section 7.10(b) and (c). Leverage covenant rose from 3.75x to 4.00x, with the acquisition step-up rising from 4.25x to 4.50x (two uses, four quarters each after a Designated Acquisition, i.e. a Permitted Acquisition of $50M or more). The FCCR minimum is 1.00x for the four fiscal quarters following consummation of the Specified Acquisition (Runway Midco equity purchase, signed June 8, 2026), then 1.25x. The FCCR step dates are not fixed and depend on when that acquisition closes, so applies_from is null. Both covenants are tested quarterly with no springing condition. The leverage ratio is labelled net_leverage because it nets up to $100M of unrestricted cash and cash equivalents against funded debt. Funded debt includes Purchase Money Indebtedness, drawn letters of credit and non-contingent seller debt, and excludes earn-outs. Specified Acquisition deferred purchase price and seller debt count only if unpaid 10 business days after due. EBITDA add-backs: interest, taxes, D&A; acquisition expenses (cap 15% of EBITDA); unusual or non-recurring charges including restructuring (cap 25%); run-rate cost savings and synergies after a Specified Transaction (cap 15%); and Non-Cash Charges (impairments, write-offs, stock-based comp, mark-to-market and other non-cash items, uncapped). The FCCR is (EBITDA less cash capex and cash taxes) over cash interest, scheduled amortization, other scheduled principal and certain Restricted Payments. The Third Amendment adds pricing Level 5 (above 3.75x leverage, 2.00% SOFR margin). Covenant compliance is also a condition to the 2026 Delayed Draw Term Loan borrowings, which are $50M minimum in up to two draws, available for 6 months from May 15, 2026. The Second Amendment raised the incremental capacity to $350M. Required Lenders alone can amend financial covenants. The Pluralsight Protection is a narrow J.Crew-style limit that bars exclusive transfers or licenses of Material IP to non-Loan Parties only when the primary purpose is new financing and release of liens. No equity cure was found. No unrestricted subsidiary concept or cap appears in the agreement.",
+    "facility": "$850M revolving credit facility, \u20ac65.31M Euro term loan and $75M USD term loan (plus a $50M+ 2026 delayed draw term loan add-on in up to two draws) under a Fourth A&R Credit Agreement; maturity June 27, 2030, extendable in 364-day increments; plus $350M incremental capacity",
+    "terms": [
+      {
+        "kind": "j_crew_blocker",
+        "present": "partial",
+        "section": "Definition of \"Pluralsight Protection\"; Sections 7.03 and 7.05",
+        "quote": "means that no Loan Party may transfer legal title to, or otherwise dispose of, or license on an exclusive basis (excluding exclusive licenses limited by territory or field of use), any Material IP Rights to a Subsidiary that is not a Loan Party, if the primary purpose of such transfer or license is to incur new financing at such Subsidiary that is not a Loan Party and to cause a release of the Liens on the Collateral on such Material IP Rights, in each case as reasonably determined by the Lead Borrower.",
+        "summary": "Investments and Dispositions may not contravene the Pluralsight Protection, which bars moving Material IP to non-Loan Party subsidiaries to raise financing and release liens. It is purpose-qualified and determined by the borrower. There is no unrestricted subsidiary designation concept."
+      },
+      {
+        "kind": "serta_protection",
+        "present": "yes",
+        "section": "Section 11.01(k)",
+        "quote": "contractually subordinate the Liens of the Administrative Agent on all or substantially all of the Collateral to the Liens on the collateral securing any other indebtedness for borrowed money (excluding any Liens on the Collateral permitted by Section 7.01(i) and any Liens on the Collateral securing indebtedness incurred after the occurrence of a bankruptcy event with respect to any Loan Party) or contractually subordinate the Lenders\u2019 right to receive payments from the Loan Parties to the rights to receive payments from the Loan Parties of the claimholders in respect of any other indebtedness for borrowed money (excluding any indebtedness incurred after the occurrence of a bankruptcy event with respect to any Loan Party) (any such other indebtedness for borrowed money, \u201cSenior Indebtedness\u201d) without the written consent of each Lender directly and adversely affected thereby, unless each directly and adversely affected Lender has been offered a bona fide opportunity to fund or otherwise provide its pro rata share",
+        "summary": "Subordinating the liens or payment rights of the loans to other debt requires consent of each directly and adversely affected Lender, unless every such Lender was offered a pro rata opportunity to provide the senior debt."
+      },
+      {
+        "kind": "chewy_protection",
+        "present": "no",
+        "section": "Section 9.10(b)",
+        "quote": null,
+        "summary": "The Administrative Agent may release a Guarantor if it ceases to be a Subsidiary as a result of a permitted transaction, or if it becomes an Excluded Subsidiary. Excluded Subsidiary includes non-wholly-owned domestic subsidiaries, so a guarantor can be released when it stops being wholly owned. There is a mild anti-abuse carve-out for bona fide third-party transactions, but no Chewy-style protection."
+      },
+      {
+        "kind": "unrestricted_sub_cap",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "The agreement has no unrestricted subsidiary designation mechanism and therefore no cap on investments in, or designation of, unrestricted subsidiaries. All Subsidiaries are subject to the covenants; investments in non-Loan Party subsidiaries are limited by baskets such as the greater of $75M and 5% of total assets."
+      },
+      {
+        "kind": "addback_cap",
+        "present": "yes",
+        "section": "Section 1.01, definition of Consolidated EBITDA",
+        "quote": "the aggregate amount of run-rate cost savings and synergies added pursuant to this clause (vi) for any such Measurement Period shall not exceed 15% of Consolidated EBITDA for such period (calculated after giving effect to any such add-back and all other permitted add-backs and adjustments)",
+        "summary": "Run-rate cost savings and synergies are capped at 15% of EBITDA. Unusual or non-recurring charges, including restructuring, are capped at 25%, and acquisition expenses at 15%."
+      },
+      {
+        "kind": "equity_cure",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "The agreement has no equity cure right for the financial covenants. Section 7.10 breaches are immediate Events of Default under Section 8.01(b)."
+      }
+    ],
+    "addback_cap_pct": 0.15
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "job": "cover-712034-7568d0c875",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/712034/000095017022022635/acco-ex10_1.htm"
+  },
+  "usage": {
+    "input_tokens": 3227,
+    "output_tokens": 119,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "is_loan_document": true,
+    "kind": "amendment",
+    "title": "Sixth Amendment to Third Amended and Restated Credit Agreement",
+    "dated": "2022-11-07",
+    "amends_dated": "2017-01-27",
+    "primary_bank_facility": true,
+    "includes_conformed_copy": true,
+    "borrower": "ACCO Brands Corporation"
+  }
+}

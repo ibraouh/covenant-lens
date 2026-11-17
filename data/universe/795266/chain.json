@@ -1,0 +1,22 @@
+{
+  "auto": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/795266/000079526626000017/kbh-113025x10kexhibit1025.htm",
+      "title": "Amended and Restated Term Loan Agreement",
+      "dated": "2025-11-12",
+      "kind": "amended_and_restated",
+      "filed": "2026-01-23"
+    }
+  ],
+  "notes": [],
+  "used": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/795266/000079526626000017/kbh-113025x10kexhibit1025.htm",
+      "title": "Amended and Restated Term Loan Agreement",
+      "dated": "2025-11-12",
+      "kind": "amended_and_restated",
+      "filed": "2026-01-23"
+    }
+  ],
+  "source": "automatic"
+}

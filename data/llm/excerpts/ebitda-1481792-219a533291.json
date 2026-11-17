@@ -1,0 +1,49 @@
+{
+  "job": "ebitda-1481792-219a533291",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1481792/000148179226000128/pressreleaseex991q22026.htm",
+    "filed": "2026-07-28"
+  },
+  "usage": {
+    "input_tokens": 4922,
+    "output_tokens": 431,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "label": "Adjusted EBITDA",
+    "figures": [
+      {
+        "period_end": "2026-06-30",
+        "months": 3,
+        "shown": "42",
+        "unit": "millions",
+        "quote": "Adjusted EBITDA was $42 million in the second quarter of 2026, compared to $43 million in the same period in 2025."
+      },
+      {
+        "period_end": "2025-06-30",
+        "months": 3,
+        "shown": "43",
+        "unit": "millions",
+        "quote": "Adjusted EBITDA was $42 million in the second quarter of 2026, compared to $43 million in the same period in 2025."
+      },
+      {
+        "period_end": "2026-06-30",
+        "months": 6,
+        "shown": "87",
+        "unit": "millions",
+        "quote": "Adjusted EBITDA was $87 million in the six months ended June 30, 2026, as compared to $89 million in the same period in 2025."
+      },
+      {
+        "period_end": "2025-06-30",
+        "months": 6,
+        "shown": "89",
+        "unit": "millions",
+        "quote": "Adjusted EBITDA was $87 million in the six months ended June 30, 2026, as compared to $89 million in the same period in 2025."
+      }
+    ],
+    "notes": "The reconciliation table was not included in the excerpt, so all figures come from the narrative text and are rounded to whole millions. Full-year 2026 guidance of $175 million to $215 million is a forecast, not a reported result, and is excluded."
+  }
+}

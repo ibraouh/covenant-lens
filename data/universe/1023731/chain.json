@@ -1,0 +1,34 @@
+{
+  "auto": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1023731/000102373124000062/a8x8_ex101xcreditagreeme.htm",
+      "title": "Term Loan Credit Agreement",
+      "dated": "2024-07-11",
+      "kind": "original",
+      "filed": "2024-07-15"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1023731/000102373125000070/a101_firstamendmenttoter.htm",
+      "title": "First Amendment to Term Loan Credit Agreement",
+      "dated": "2025-07-29",
+      "kind": "amendment",
+      "filed": "2025-08-04"
+    }
+  ],
+  "notes": [],
+  "used": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1023731/000102373124000062/a8x8_ex101xcreditagreeme.htm",
+      "title": "Term Loan Credit Agreement",
+      "dated": "2024-07-11",
+      "kind": "hand-picked"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1023731/000102373125000070/a101_firstamendmenttoter.htm",
+      "title": "First Amendment to Term Loan Credit Agreement",
+      "dated": "2025-07-29",
+      "kind": "hand-picked"
+    }
+  ],
+  "source": "hand-picked"
+}

@@ -11,7 +11,7 @@ import json
 from datetime import date
 
 from . import pipeline as pl
-from .covenants import limit_for
+from .covenants import gradable, limit_for, match, same_limit
 from .extract import AgreementReading, CovenantExtraction, verify_quotes
 from .llm import HAIKU, OPUS, SONNET, cost, run_batch
 
@@ -19,13 +19,19 @@ LABELS = {OPUS: "Claude Opus 5.5", SONNET: "Claude Sonnet 5.5", HAIKU: "Claude H
 
 
 def subset(universe: list[dict], size: int = 12) -> list[dict]:
-    """The hand-labeled borrowers plus those with the most answer keys."""
+    """The hand-labeled borrowers plus those with the most reported limits to check against. Needs only collected
+    data, so the comparison can run while the main reading pass is still in the batch queue."""
     gold = [b for b in universe if b.get("gold")]
     scored = []
     for b in universe:
-        r = pl._load(pl.UNIVERSE / b["cik"] / "result.json")
-        if r and not b.get("gold") and r["accuracy"]:
-            scored.append((len([a for a in r["accuracy"] if a["reported_limit"] is not None]), b))
+        ch = pl._load(pl.UNIVERSE / b["cik"] / "chain.json")
+        if b.get("gold") or not ch or not ch["used"]:
+            continue
+        keys, _ = pl._answer_keys(b["cik"])
+        since = pl.current_since(ch)
+        n = sum(1 for (m, p), r in keys.items() if gradable(m, r["limit"], date.fromisoformat(p), since) is None)
+        if n:
+            scored.append((n, b))
     picked = [b for _, b in sorted(scored, key=lambda x: -x[0])[: max(0, size - len(gold))]]
     return gold + picked
 
@@ -43,15 +49,17 @@ def _gold_score(reading: CovenantExtraction, gold: CovenantExtraction) -> tuple[
 
 
 def score(model: str, borrowers: list[dict], log=print) -> dict:
+    """Opus results come from the main reading pass (stage "read"); the others run in their own stage."""
+    stage = "read" if model == OPUS else "compare-" + model.split("-")[1]
     jobs = {}
     for b in borrowers:
         ch = pl._load(pl.UNIVERSE / b["cik"] / "chain.json")
         if ch and ch["used"]:
-            jobs[b["cik"]] = pl.read_job(b, ch, model)
-    res = run_batch("read", list(jobs.values()), log=log)
+            jobs[b["cik"]] = pl.read_job(b, ch, model, legacy=True)  # same text for every model
+    res = run_batch(stage, list(jobs.values()), log=log)
     s = {"model": model, "label": LABELS[model], "agreements": 0, "failed": 0, "limits_checked": 0, "limits_matched": 0,
          "answer_keys": 0, "covenant_found": 0, "covenants": 0, "quotes_verified": 0, "gold_ok": 0, "gold_n": 0, "usd": 0.0,
-         "misses": []}
+         "misses": [], "scored": []}
     for b in borrowers:
         job = jobs.get(b["cik"])
         out = res.get(job.id) if job else None
@@ -59,25 +67,28 @@ def score(model: str, borrowers: list[dict], log=print) -> dict:
             s["failed"] += 1
             continue
         s["agreements"] += 1
+        s["scored"].append(b["name"])
         s["usd"] += cost(model, out.usage, batch=True)
         reading: AgreementReading = out.parsed
-        text = pl.chain_text(pl._load(pl.UNIVERSE / b["cik"] / "chain.json"))
-        q = verify_quotes(reading, text)
+        ch = pl._load(pl.UNIVERSE / b["cik"] / "chain.json")
+        q = verify_quotes(reading, pl.chain_text(ch))
         s["covenants"] += len(reading.covenants)
         s["quotes_verified"] += sum(q.values())
         keys, _ = pl._answer_keys(b["cik"])
+        since = pl.current_since(ch)
         for (metric, period), r in keys.items():
-            cov = next((c for c in reading.covenants if c.metric == metric), None)
+            p = date.fromisoformat(period)
+            cov = match(reading.covenants, metric, r["limit"], p)
             s["answer_keys"] += 1
             s["covenant_found"] += cov is not None
-            if r["limit"] is not None:
+            if gradable(metric, r["limit"], p, since) is None:
                 s["limits_checked"] += 1
-                ours = limit_for(cov, date.fromisoformat(period)) if cov else None
-                hit = ours is not None and abs(ours - r["limit"]) < 0.006
+                ours = limit_for(cov, p) if cov else None
+                hit = ours is not None and same_limit(ours, r["limit"])
                 s["limits_matched"] += hit
                 if not hit:
                     s["misses"].append({"borrower": b["name"], "metric": metric, "period": period,
-                                        "reported": r["limit"], "read": ours})
+                                        "reported": r["limit"], "read": ours, "quote": r["quote"][:160]})
         if b.get("gold"):
             g = json.loads((pl.GOLD / f"{b['name']}.json").read_text())
             ok, n = _gold_score(reading, CovenantExtraction.model_validate(g["extraction"]))
@@ -88,18 +99,23 @@ def score(model: str, borrowers: list[dict], log=print) -> dict:
     return s
 
 
-def run(universe: list[dict], log=print) -> list[dict]:
-    borrowers = subset(universe)
+def run(universe: list[dict], models=(OPUS, SONNET, HAIKU), log=print) -> list[dict]:
+    """Score every model on the same borrowers: the set saved when the comparison first ran, if there is one."""
+    fixed = pl._load(pl.UNIVERSE / "compare_set.json")
+    borrowers = [b for b in universe if b["name"] in fixed] if fixed else subset(universe)
+    if not fixed:
+        pl._save(pl.UNIVERSE / "compare_set.json", [b["name"] for b in borrowers])
     log(f"compare: {len(borrowers)} agreements: {', '.join(b['name'] for b in borrowers)}")
-    results = [score(m, borrowers, log) for m in (OPUS, SONNET, HAIKU)]
+    results = [score(m, borrowers, log) for m in models]
     pl._save(pl.UNIVERSE / "models.json", {"borrowers": [b["name"] for b in borrowers], "models": results})
     return results
 
 
 def markdown(results: list[dict], names: list[str]) -> str:
     lines = ["# Model comparison", "",
-             f"Same {results[0]['agreements']} agreement chains ({', '.join(names)}), same prompt, effort high, "
-             "Batch API. Generated by `python -m covenant_lens compare`.", "",
+             f"Same {results[0]['agreements']} agreement chains, same prompt, effort high, Batch API: {', '.join(results[0]['scored'])}. "
+             "Every model reads the same text, so a miss shared by all three points at the document, not the model. "
+             "Generated by `python -m covenant_lens compare`.", "",
              "| Model | Limits match company filings | Reported covenants found | Quotes verified | Hand labels | Cost per agreement |",
              "|---|---|---|---|---|---|"]
     for r in results:

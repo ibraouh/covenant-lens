@@ -1,0 +1,30 @@
+{
+  "job": "ratio-1504461-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1504461/000150446126000021/ngl-20260930.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 3662,
+    "output_tokens": 439,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "debt service coverage ratio",
+        "metric": "other",
+        "period_end": "2026-09-30",
+        "actual": 2.76,
+        "limit": 1.1,
+        "direction": "min",
+        "facility": "2026 Term Loan Credit Agreement (2026 Term Loan B)",
+        "quote": "The 2026 Term Loan Credit Agreement requires that we maintain, on a quarterly basis, beginning with the quarter ended June 30, 2026, a debt service coverage ratio (as defined in the 2026 Term Loan Credit Agreement) of no less than 1.1 to 1.0. At September 30, 2026, our debt service coverage ratio was approximately 2.76 to 1.0."
+      }
+    ],
+    "notes": "The actual ratio is stated as 'approximately' 2.76. The ABL Facility's fixed charge coverage ratio covenant is tested only during a Cash Dominion Event, and none had occurred at September 30, 2026. No actual value or limit is given for it. The 1.75x fixed charge coverage threshold applies only to the commitment fee, so it is excluded. The consolidated first lien net leverage ratio only sets the interest margin on the Term Loan B and is excluded. The company states it was in compliance with the covenants under both the ABL Facility and the 2026 Term Loan B."
+  }
+}

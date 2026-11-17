@@ -1,0 +1,28 @@
+{
+  "auto": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/911177/000119312524228456/d823888dex101.htm",
+      "title": "Second Amended and Restated Credit Agreement",
+      "dated": "2024-09-27",
+      "kind": "amended_and_restated",
+      "filed": "2024-09-30"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/911177/000162828025036993/cwst-ex103063025.htm",
+      "title": "First Amendment to Second Amended and Restated Credit Agreement (Sustainability Table Amendment)",
+      "dated": "2025-07-30",
+      "kind": "amendment",
+      "filed": "2025-07-31"
+    }
+  ],
+  "notes": [],
+  "used": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/911177/000119312524228456/d823888dex101.htm",
+      "title": "Second Amended and Restated Credit Agreement",
+      "dated": "2024-09-27",
+      "kind": "hand-picked"
+    }
+  ],
+  "source": "hand-picked"
+}

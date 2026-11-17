@@ -1,0 +1,30 @@
+{
+  "job": "ratio-110621-2026-08-31",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/110621/000119312526415321/rpm-20260831.htm",
+    "period": "2026-08-31"
+  },
+  "usage": {
+    "input_tokens": 2342,
+    "output_tokens": 283,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "Net Leverage Ratio",
+        "metric": "net_leverage",
+        "period_end": "2026-08-31",
+        "actual": 1.59,
+        "limit": 3.75,
+        "direction": "max",
+        "facility": "Revolving Credit Facility",
+        "quote": "At that date, our Net Leverage Ratio was 1.59 to 1.00 and we had $601.6 million of borrowing availability on our Revolving Credit Facility."
+      }
+    ],
+    "notes": "The limit is 3.75 to 1.00. It can rise to 4.25 to 1.00 if the company gives notice to the lender or makes certain material acquisitions. The excerpt does not say an increase was in effect at 2026-08-31. The covenant is described as total indebtedness to consolidated EBITDA but is named the Net Leverage Ratio, so it is classified as net leverage."
+  }
+}

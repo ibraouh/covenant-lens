@@ -1,0 +1,24 @@
+{
+  "job": "cover-911177-fa9e7ada44",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/911177/000091117723000093/cwst-ex101063023.htm"
+  },
+  "usage": {
+    "input_tokens": 3140,
+    "output_tokens": 123,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "is_loan_document": false,
+    "kind": "other",
+    "title": "Commitment Letter - Up to $375 Million Senior Secured Bridge Facility and related transactions",
+    "dated": "2023-04-21",
+    "amends_dated": null,
+    "primary_bank_facility": false,
+    "includes_conformed_copy": false,
+    "borrower": "Casella Waste Systems, Inc."
+  }
+}

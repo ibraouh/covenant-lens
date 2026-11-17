@@ -1,0 +1,24 @@
+{
+  "job": "cover-1013880-a1e72c747f",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1013880/000110465919010424/a19-5353_1ex10d32.htm"
+  },
+  "usage": {
+    "input_tokens": 3186,
+    "output_tokens": 118,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "is_loan_document": true,
+    "kind": "amendment",
+    "title": "Fourth Amendment to Amended and Restated Credit Agreement",
+    "dated": "2019-02-14",
+    "amends_dated": "2013-06-03",
+    "primary_bank_facility": true,
+    "includes_conformed_copy": true,
+    "borrower": "TTEC Holdings, Inc."
+  }
+}

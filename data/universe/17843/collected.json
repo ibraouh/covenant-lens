@@ -1,0 +1,126 @@
+{
+  "reports": [
+    {
+      "form": "10-Q",
+      "filed": "2026-10-22",
+      "period": "2026-09-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/17843/000001784326000045/crs-20260930.htm",
+      "job": "ratio-17843-2026-09-30"
+    },
+    {
+      "form": "10-K",
+      "filed": "2026-08-12",
+      "period": "2026-06-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/17843/000001784326000034/crs-20260630.htm",
+      "job": "ratio-17843-2026-06-30"
+    },
+    {
+      "form": "10-Q",
+      "filed": "2026-04-29",
+      "period": "2026-03-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/17843/000001784326000014/crs-20260331.htm",
+      "job": "ratio-17843-2026-03-31"
+    },
+    {
+      "form": "10-Q",
+      "filed": "2026-01-29",
+      "period": "2025-12-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/17843/000001784326000009/crs-20251231.htm",
+      "job": "ratio-17843-2025-12-31"
+    }
+  ],
+  "releases": [],
+  "exhibits": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/17843/000110465917021424/a17-10849_1ex10d1.htm",
+      "filed": "2017-04-04",
+      "exhibit": "EX-10.1",
+      "chars": 441352,
+      "job": "cover-17843-18d7f88936"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/17843/000001784317000050/carpenternote2017exhibit.htm",
+      "filed": "2017-08-11",
+      "exhibit": "EX-4.I",
+      "chars": 3407,
+      "job": "cover-17843-7f0bdc3bc5"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/17843/000110465921043950/tm2111170d1_ex10-2.htm",
+      "filed": "2021-03-30",
+      "exhibit": "EX-10.2",
+      "chars": 77320,
+      "job": "cover-17843-e4c7b1c5f0"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/17843/000110465921043950/tm2111170d1_ex10-1.htm",
+      "filed": "2021-03-30",
+      "exhibit": "EX-10.1",
+      "chars": 529514,
+      "job": "cover-17843-24ec1a6fe0"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/17843/000110465922023844/tm226790d1_ex10-1.htm",
+      "filed": "2022-02-15",
+      "exhibit": "EX-10.1",
+      "chars": 542128,
+      "job": "cover-17843-d1d12e8d08"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/17843/000110465922034545/tm228526d6_ex4-2.htm",
+      "filed": "2022-03-16",
+      "exhibit": "EX-4.2",
+      "chars": 76517,
+      "job": "cover-17843-b46e34bc7c"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/17843/000110465923046705/tm2312918d1_ex10-2.htm",
+      "filed": "2023-04-18",
+      "exhibit": "EX-10.2",
+      "chars": 110564,
+      "job": "cover-17843-62b9285869"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/17843/000110465923046705/tm2312918d1_ex10-1.htm",
+      "filed": "2023-04-18",
+      "exhibit": "EX-10.1",
+      "chars": 578340,
+      "job": "cover-17843-c1241d1ca1"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/17843/000001784323000021/exhibit10dd6-30x2023.htm",
+      "filed": "2023-08-11",
+      "exhibit": "EX-10.DD",
+      "chars": 582138,
+      "job": "cover-17843-10671a2214"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/17843/000001784324000014/exhibit10cc6-30x2024.htm",
+      "filed": "2024-08-13",
+      "exhibit": "EX-10.CC",
+      "chars": 582138,
+      "job": "cover-17843-55323c0898"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/17843/000001784325000021/exhibit10dd6-30x2025.htm",
+      "filed": "2025-08-12",
+      "exhibit": "EX-10.DD",
+      "chars": 582138,
+      "job": "cover-17843-ac92293def"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/17843/000110465925114628/tm2531768d1_ex10-1.htm",
+      "filed": "2025-11-20",
+      "exhibit": "EX-10.1",
+      "chars": 550652,
+      "job": "cover-17843-6fffca4222"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/17843/000110465925114628/tm2531768d1_ex4-1.htm",
+      "filed": "2025-11-20",
+      "exhibit": "EX-4.1",
+      "chars": 267443,
+      "job": "cover-17843-b3a5aff3ca"
+    }
+  ]
+}

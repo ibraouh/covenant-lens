@@ -1,0 +1,30 @@
+{
+  "job": "ratio-1078075-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1078075/000107807526000157/ntct-20260930.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 2431,
+    "output_tokens": 257,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "consolidated net leverage ratio",
+        "metric": "net_leverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 4.0,
+        "direction": "max",
+        "facility": "Third Amended and Restated Credit Agreement",
+        "quote": "At September 30, 2026 , the Company was in compliance with all covenants, including the specified total consolidated net leverage ratio range of 4.00 to 1.00."
+      }
+    ],
+    "notes": "Only the maximum (4.00x) and a compliance statement are disclosed; no actual ratio given. No borrowings were outstanding under the $600.0 million revolver at September 30, 2026. The definition nets the lesser of unrestricted cash and 125% of adjusted consolidated EBITDA."
+  }
+}

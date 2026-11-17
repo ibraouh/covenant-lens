@@ -1,0 +1,24 @@
+{
+  "job": "cover-1766368-986c025934",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1766368/000155837023011571/tmb-20230628xex10.htm"
+  },
+  "usage": {
+    "input_tokens": 4480,
+    "output_tokens": 110,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "is_loan_document": true,
+    "kind": "amended_and_restated",
+    "title": "Amended and Restated Credit Agreement",
+    "dated": "2023-06-28",
+    "amends_dated": null,
+    "primary_bank_facility": true,
+    "includes_conformed_copy": false,
+    "borrower": "Mayville Engineering Company, Inc."
+  }
+}

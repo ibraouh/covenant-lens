@@ -1,0 +1,24 @@
+{
+  "job": "cover-1481792-0ad401defe",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1481792/000148179214000038/exhibit41-fourthamendmentt.htm"
+  },
+  "usage": {
+    "input_tokens": 3794,
+    "output_tokens": 110,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "is_loan_document": false,
+    "kind": "amendment",
+    "title": "Fourth Amendment to Note Agreement",
+    "dated": "2014-11-24",
+    "amends_dated": "1995-09-01",
+    "primary_bank_facility": false,
+    "includes_conformed_copy": false,
+    "borrower": "Quad/Graphics, Inc."
+  }
+}

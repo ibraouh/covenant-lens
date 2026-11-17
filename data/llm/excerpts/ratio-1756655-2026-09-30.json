@@ -1,0 +1,19 @@
+{
+  "job": "ratio-1756655-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1756655/000162828026071073/ardt-20260930.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 3660,
+    "output_tokens": 328,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [],
+    "notes": "No credit agreement financial covenant ratios are disclosed in this excerpt. The 0.8x net leverage and 2.5x lease-adjusted net leverage at 2026-09-30 are presented as liquidity and performance measures and are not tied to a covenant. The Ventas Master Lease ratios (minimum portfolio coverage 2.2x, guarantor fixed charge coverage 1.2x, maximum guarantor net leverage 6.75x) are lease covenants rather than credit agreement covenants, and no actual values are given for them. The senior secured net leverage levels in the Term Loan B only drive mandatory prepayment step-downs."
+  }
+}

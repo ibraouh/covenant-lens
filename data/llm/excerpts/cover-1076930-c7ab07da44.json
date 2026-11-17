@@ -1,0 +1,24 @@
+{
+  "job": "cover-1076930-c7ab07da44",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1076930/000119312526262867/novt-ex10_1.htm"
+  },
+  "usage": {
+    "input_tokens": 3336,
+    "output_tokens": 116,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "is_loan_document": true,
+    "kind": "amendment",
+    "title": "Third Amendment to Fourth Amended and Restated Credit Agreement",
+    "dated": "2026-06-08",
+    "amends_dated": "2025-06-27",
+    "primary_bank_facility": true,
+    "includes_conformed_copy": false,
+    "borrower": "Novanta Corporation"
+  }
+}

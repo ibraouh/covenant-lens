@@ -1,0 +1,300 @@
+{
+  "cik": "833079",
+  "name": "Meritage Homes CORP",
+  "borrower": "Meritage Homes Corporation",
+  "gold": false,
+  "stale": true,
+  "agreement_date": "2014-06-13",
+  "facility": "Class A senior unsecured revolving credit facility of $980,000,000 (accordion up to $1,470,000,000; L/C commitments $370,000,000), maturing June 24, 2031",
+  "chain": {
+    "auto": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/833079/000083307924000086/ex101tenthamendment.htm",
+        "title": "Tenth Amendment to Amended and Restated Credit Agreement",
+        "dated": "2024-06-12",
+        "kind": "amendment",
+        "filed": "2024-06-13"
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/833079/000083307925000112/ex101eleventhamendmenttocr.htm",
+        "title": "Eleventh Amendment to Amended and Restated Credit Agreement",
+        "dated": "2025-07-09",
+        "kind": "amendment",
+        "filed": "2025-07-09"
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/833079/000083307926000122/ex101twelfthamendmenttocre.htm",
+        "title": "Twelfth Amendment to Amended and Restated Credit Agreement",
+        "dated": "2026-06-24",
+        "kind": "amendment",
+        "filed": "2026-06-29"
+      }
+    ],
+    "notes": [
+      "Tenth Amendment to Amended and Restated Credit Agreement restates the full agreement; used as the base"
+    ],
+    "used": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/833079/000083307924000086/ex101tenthamendment.htm",
+        "title": "Tenth Amendment to Amended and Restated Credit Agreement",
+        "dated": "2024-06-12",
+        "kind": "amendment",
+        "filed": "2024-06-13"
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/833079/000083307925000112/ex101eleventhamendmenttocr.htm",
+        "title": "Eleventh Amendment to Amended and Restated Credit Agreement",
+        "dated": "2025-07-09",
+        "kind": "amendment",
+        "filed": "2025-07-09"
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/833079/000083307926000122/ex101twelfthamendmenttocre.htm",
+        "title": "Twelfth Amendment to Amended and Restated Credit Agreement",
+        "dated": "2026-06-24",
+        "kind": "amendment",
+        "filed": "2026-06-29"
+      }
+    ],
+    "source": "automatic"
+  },
+  "covenants": [
+    {
+      "name": "Maximum Leverage Ratio",
+      "metric": "other",
+      "direction": "max",
+      "section": "Section 7.1(a)",
+      "quote": "As of the end of each fiscal quarter, permit the Leverage Ratio to exceed sixty percent (60%).",
+      "quote_verified": true,
+      "thresholds": [
+        {
+          "value": 0.6,
+          "applies_from": null
+        }
+      ],
+      "test_frequency": "quarterly",
+      "springing_condition": null,
+      "addbacks": [
+        "stock_comp",
+        "impairments",
+        "other"
+      ],
+      "cash_netting_cap": null,
+      "cash_netting_cap_pct_ebitda": null,
+      "rows": [],
+      "latest": null,
+      "steps": []
+    },
+    {
+      "name": "Minimum Net Worth Test",
+      "metric": "other",
+      "direction": "min",
+      "section": "Section 7.1(c)",
+      "quote": "$3,531,291,000 plus (b) the sum of (i) 50% of the cumulative Consolidated Net Income of each fiscal quarter where net income is positive, of the Loan Parties and their Subsidiaries plus (ii) 50% of the net proceeds from any equity offerings of Borrower, in each case, from and after",
+      "quote_verified": true,
+      "thresholds": [
+        {
+          "value": 3531291000.0,
+          "applies_from": null
+        }
+      ],
+      "test_frequency": "quarterly",
+      "springing_condition": null,
+      "addbacks": [
+        "stock_comp",
+        "impairments",
+        "other"
+      ],
+      "cash_netting_cap": null,
+      "cash_netting_cap_pct_ebitda": null,
+      "rows": [],
+      "latest": null,
+      "steps": []
+    }
+  ],
+  "notes": "Unsecured homebuilder revolver; covenants are balance-sheet based, not EBITDA based. The 'Leverage Ratio' is a net debt-to-capitalization ratio: (Consolidated Debt minus Unrestricted Cash) divided by (Consolidated Debt plus Consolidated Tangible Net Worth), max 60%, with no cap on netted cash. Minimum Consolidated Tangible Net Worth was reset by the Twelfth Amendment (June 24, 2026) to $3,531,291,000 plus 50% of positive quarterly Consolidated Net Income and 50% of equity offering proceeds after March 31, 2026 (previously $3,602,112,000 base from March 31, 2025 under the Eleventh Amendment). Consolidated EBITDA is defined (adds back interest, taxes, D&A, non-cash charges including impairments, extraordinary losses and loss on early extinguishment of debt) but is not used in any financial covenant; it has no cost-savings/synergy add-backs. Section 7.7 (as amended) contains a springing borrowing base limitation: if Borrower lacks an Investment Grade Rating and the Leverage Ratio exceeds 55% at a quarter end, Borrowing Base Debt may not exceed the Borrowing Base until a compliance certificate shows leverage at or below 55%. Financial covenant breach is an immediate Event of Default under Section 8(c) with no grace period or equity cure. Pricing grid keyed to Leverage Ratio. The Twelfth Amendment also removed the 0.10% SOFR credit spread adjustment. Guarantees are from all Subsidiaries other than Unrestricted Subsidiaries; guarantors may be released on a 'Change in Status' for legitimate business reasons.",
+  "terms": [
+    {
+      "kind": "j_crew_blocker",
+      "present": "no",
+      "section": null,
+      "quote": null,
+      "summary": "No restriction on transferring or licensing intellectual property to Unrestricted Subsidiaries or on designating IP-owning subsidiaries as unrestricted.",
+      "quote_verified": null
+    },
+    {
+      "kind": "serta_protection",
+      "present": "no",
+      "section": "Section 10.1",
+      "quote": null,
+      "summary": "Amendments to the pro rata sharing provisions (Section 2.14) need all lenders, but there is no express requirement of each affected lender's consent to subordinate the loans or liens to other debt. The facility is unsecured.",
+      "quote_verified": null
+    },
+    {
+      "kind": "chewy_protection",
+      "present": "no",
+      "section": null,
+      "quote": null,
+      "summary": "No express provision prevents a guarantor's release because it ceases to be wholly owned. Guarantors may be released automatically upon a 'Change in Status' for legitimate business reasons, and on transactions not prohibited by the Loan Documents.",
+      "quote_verified": null
+    },
+    {
+      "kind": "unrestricted_sub_cap",
+      "present": "partial",
+      "section": "Section 1.1 (definition of Unrestricted Subsidiary)",
+      "quote": "provided that the aggregate amount of investments in all Designated Subsidiaries (excluding Financial Services Subsidiaries) shall not exceed $20 million (with the amount of each investment being calculated based upon the amount of investments made on or after the date such joint venture becomes a Subsidiary)",
+      "summary": "Investments in Designated (unrestricted) Subsidiaries are capped at $20 million. Financial Services Subsidiaries are automatically unrestricted with no cap. Separate investment baskets also apply, including joint venture/homebuilding investments of up to 30% of Consolidated Tangible Net Worth.",
+      "quote_verified": true
+    },
+    {
+      "kind": "addback_cap",
+      "present": "no",
+      "section": null,
+      "quote": null,
+      "summary": "The EBITDA definition has no add-backs for projected cost savings, synergies or restructuring, so there is no cap; EBITDA is not used in the financial covenants.",
+      "quote_verified": null
+    },
+    {
+      "kind": "equity_cure",
+      "present": "no",
+      "section": null,
+      "quote": null,
+      "summary": "No equity cure right; a breach of the Section 7.1 financial covenants is an immediate Event of Default.",
+      "quote_verified": null
+    }
+  ],
+  "addback_cap_pct": null,
+  "cov_lite": false,
+  "tightest": null,
+  "accuracy": [
+    {
+      "metric": "total_leverage",
+      "period_end": "2025-12-31",
+      "reported": 15.1,
+      "reported_limit": 60.0,
+      "covenant_found": true,
+      "matched": "Maximum Leverage Ratio",
+      "our_limit": 0.6,
+      "limit_match": null,
+      "not_graded": "before the latest amendment",
+      "xbrl": null,
+      "adjusted": null,
+      "xbrl_error": null,
+      "adjusted_error": null,
+      "facility": "Credit Facility (Amended and Restated Credit Agreement)",
+      "quote": "Leverage Ratio < 60% 15.1%",
+      "url": "https://www.sec.gov/Archives/edgar/data/833079/000083307926000010/mth-20251231.htm"
+    },
+    {
+      "metric": "other",
+      "period_end": "2025-12-31",
+      "reported": 5145698.0,
+      "reported_limit": 3767215.0,
+      "covenant_found": true,
+      "matched": "Maximum Leverage Ratio",
+      "our_limit": 0.6,
+      "limit_match": null,
+      "not_graded": "not a standard ratio covenant",
+      "xbrl": null,
+      "adjusted": null,
+      "xbrl_error": null,
+      "adjusted_error": null,
+      "facility": "Credit Facility (Amended and Restated Credit Agreement)",
+      "quote": "Minimum Tangible Net Worth > $3,767,215 $5,145,698",
+      "url": "https://www.sec.gov/Archives/edgar/data/833079/000083307926000010/mth-20251231.htm"
+    },
+    {
+      "metric": "total_leverage",
+      "period_end": "2026-03-31",
+      "reported": 15.6,
+      "reported_limit": 60.0,
+      "covenant_found": true,
+      "matched": "Maximum Leverage Ratio",
+      "our_limit": 0.6,
+      "limit_match": null,
+      "not_graded": "before the latest amendment",
+      "xbrl": null,
+      "adjusted": null,
+      "xbrl_error": null,
+      "adjusted_error": null,
+      "facility": "Credit Facility (Amended and Restated Credit Agreement)",
+      "quote": "Leverage Ratio < 60% 15.6%",
+      "url": "https://www.sec.gov/Archives/edgar/data/833079/000083307926000105/mth-20260331.htm"
+    },
+    {
+      "metric": "total_leverage",
+      "period_end": "2026-06-30",
+      "reported": 15.2,
+      "reported_limit": 60.0,
+      "covenant_found": true,
+      "matched": "Maximum Leverage Ratio",
+      "our_limit": 0.6,
+      "limit_match": true,
+      "not_graded": null,
+      "xbrl": null,
+      "adjusted": null,
+      "xbrl_error": null,
+      "adjusted_error": null,
+      "facility": "Credit Facility (Amended and Restated Credit Agreement)",
+      "quote": "Leverage Ratio < 60% 15.2%",
+      "url": "https://www.sec.gov/Archives/edgar/data/833079/000083307926000128/mth-20260630.htm"
+    },
+    {
+      "metric": "total_leverage",
+      "period_end": "2026-09-30",
+      "reported": 17.1,
+      "reported_limit": 60.0,
+      "covenant_found": true,
+      "matched": "Maximum Leverage Ratio",
+      "our_limit": 0.6,
+      "limit_match": true,
+      "not_graded": null,
+      "xbrl": null,
+      "adjusted": null,
+      "xbrl_error": null,
+      "adjusted_error": null,
+      "facility": "Credit Facility (Amended and Restated Credit Agreement)",
+      "quote": "Leverage Ratio < 60% 17.1%",
+      "url": "https://www.sec.gov/Archives/edgar/data/833079/000083307926000135/mth-20260930.htm"
+    },
+    {
+      "metric": "other",
+      "period_end": "2026-09-30",
+      "reported": 64225.0,
+      "reported_limit": 1523647.0,
+      "covenant_found": true,
+      "matched": "Maximum Leverage Ratio",
+      "our_limit": 0.6,
+      "limit_match": null,
+      "not_graded": "not a standard ratio covenant",
+      "xbrl": null,
+      "adjusted": null,
+      "xbrl_error": null,
+      "adjusted_error": null,
+      "facility": "Credit Facility (Amended and Restated Credit Agreement)",
+      "quote": "Investments other than defined permitted investments < $1,523,647 $64,225",
+      "url": "https://www.sec.gov/Archives/edgar/data/833079/000083307926000135/mth-20260930.htm"
+    }
+  ],
+  "dropped_answer_keys": [],
+  "adjusted_ebitda": [],
+  "financials_sources": {
+    "debt": "not reported",
+    "cash": "CashAndCashEquivalentsAtCarryingValue",
+    "operating income": "not reported",
+    "D&A": "DepreciationDepletionAndAmortization",
+    "interest": "InterestExpense",
+    "stock comp": "ShareBasedCompensation",
+    "impairments": "not reported",
+    "restructuring": "not reported"
+  },
+  "compliance": {
+    "filed": "2026-10-30",
+    "form": "10-Q",
+    "url": "https://www.sec.gov/Archives/edgar/data/833079/000083307926000135/mth-20260930.htm",
+    "sentences": [
+      "We were in compliance with all Credit Facility covenants as of September 30, 2026.",
+      "We were in compliance with all such covenants as of September 30, 2026."
+    ]
+  }
+}

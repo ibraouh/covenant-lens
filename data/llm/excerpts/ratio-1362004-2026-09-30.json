@@ -1,0 +1,30 @@
+{
+  "job": "ratio-1362004-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1362004/000119312526450065/icfi-20260930.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 2998,
+    "output_tokens": 619,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "Consolidated Net Leverage Ratio",
+        "metric": "net_leverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 4.5,
+        "direction": "max",
+        "facility": "Amended and Restated Credit Agreement (Credit Facility)",
+        "quote": "replaces the existing maximum Consolidated Leverage Ratio covenant with a maximum Consolidated Net Leverage Ratio covenant, which is maintained at a maximum of 4.50 to 1.00 (with temporary increases to 5.00 to 1.00 for the three fiscal quarters following a \u201cMaterial Permitted Acquisition\u201d)"
+      }
+    ],
+    "notes": "The excerpt gives only the covenant maximum, not the actual ratio. The 4.50x limit is assumed to apply at 2026-09-30 because the filing gives no specific measurement date. The maximum rises temporarily to 5.00x for three quarters after a Material Permitted Acquisition; the excerpt does not say whether that step-up was in effect at 2026-09-30. Two things were left out: the SOFR margin, which is based on net leverage and only sets pricing, and the share-repurchase condition requiring a cushion of 0.50x below the maximum, which is not a separate maintenance covenant."
+  }
+}

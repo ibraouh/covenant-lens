@@ -1,0 +1,40 @@
+{
+  "job": "ratio-799292-2025-12-31",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/799292/000079929226000006/mho-20251231.htm",
+    "period": "2025-12-31"
+  },
+  "usage": {
+    "input_tokens": 5498,
+    "output_tokens": 977,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "Leverage Ratio",
+        "metric": "total_leverage",
+        "period_end": "2025-12-31",
+        "actual": 0.02,
+        "limit": 0.6,
+        "direction": "max",
+        "facility": "Credit Facility ($900 million unsecured revolving credit facility)",
+        "quote": "Leverage Ratio \u2264 0.60 0.02"
+      },
+      {
+        "covenant_name": "Interest Coverage Ratio",
+        "metric": "interest_coverage",
+        "period_end": "2025-12-31",
+        "actual": 18.64,
+        "limit": 1.5,
+        "direction": "min",
+        "facility": "Credit Facility ($900 million unsecured revolving credit facility)",
+        "quote": "Interest Coverage Ratio \u2265 1.5 to 1.0 18.64 to 1.0"
+      }
+    ],
+    "notes": "The Credit Facility leverage ratio is a debt-to-capitalization type measure with a 60% maximum, so it is expressed as a decimal (0.60 limit, 0.02 actual), not a debt/EBITDA multiple. The interest coverage covenant is an either/or test: the company must meet either the minimum 1.5x Interest Coverage Ratio or a minimum available liquidity amount. Dollar-amount covenants were not included as ratios: Consolidated Tangible Net Worth (\u2265$2,172.7M; actual $3,061.4M) and Investments in Unrestricted Subsidiaries and JVs (\u2264$918.4M; actual $6.8M). Also excluded: the M/I Financial mortgage repurchase facility covenants (Leverage Ratio \u226412.0 to 1.0, actual 8.05 to 1.0; liquidity; tangible net worth). These are warehouse repurchase facilities of the mortgage subsidiary, not the bank credit agreement."
+  }
+}

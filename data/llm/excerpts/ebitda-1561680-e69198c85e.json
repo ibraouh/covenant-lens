@@ -1,0 +1,35 @@
+{
+  "job": "ebitda-1561680-e69198c85e",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1561680/000156168026000022/tphex991q12026.htm",
+    "filed": "2026-04-29"
+  },
+  "usage": {
+    "input_tokens": 2655,
+    "output_tokens": 255,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "label": "Adjusted EBITDA",
+    "figures": [
+      {
+        "period_end": "2026-03-31",
+        "months": 3,
+        "shown": "39,857",
+        "unit": "thousands",
+        "quote": "Adjusted EBITDA $ 39,857 $ 125,698"
+      },
+      {
+        "period_end": "2025-03-31",
+        "months": 3,
+        "shown": "125,698",
+        "unit": "thousands",
+        "quote": "Adjusted EBITDA $ 39,857 $ 125,698"
+      }
+    ],
+    "notes": "Figures are taken from the Adjusted EBITDA reconciliation table for the three months ended March 31 (in thousands). They match the summary table. The 2026 quarter includes an add-back of $5,877 thousand for transaction expense, which is not in the stated definition of Adjusted EBITDA."
+  }
+}

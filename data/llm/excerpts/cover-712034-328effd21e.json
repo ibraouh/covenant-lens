@@ -1,0 +1,24 @@
+{
+  "job": "cover-712034-328effd21e",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/712034/000095017025100909/acco-ex10_1.htm"
+  },
+  "usage": {
+    "input_tokens": 3177,
+    "output_tokens": 119,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "is_loan_document": true,
+    "kind": "amendment",
+    "title": "Eighth Amendment to Third Amended and Restated Credit Agreement",
+    "dated": "2025-07-29",
+    "amends_dated": "2017-01-27",
+    "primary_bank_facility": true,
+    "includes_conformed_copy": true,
+    "borrower": "ACCO Brands Corporation"
+  }
+}

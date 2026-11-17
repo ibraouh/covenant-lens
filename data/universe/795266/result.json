@@ -1,0 +1,380 @@
+{
+  "cik": "795266",
+  "name": "KB HOME",
+  "borrower": "KB Home",
+  "gold": false,
+  "stale": false,
+  "agreement_date": "2025-11-12",
+  "facility": "$360,000,000 delayed-draw term loan (single draw within 90 days of closing; accordion up to $600,000,000), unsecured, maturing November 12, 2029; KB Home also has a separate Revolving Loan Agreement dated November 12, 2025 (Bank of America, agent).",
+  "chain": {
+    "auto": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/795266/000079526626000017/kbh-113025x10kexhibit1025.htm",
+        "title": "Amended and Restated Term Loan Agreement",
+        "dated": "2025-11-12",
+        "kind": "amended_and_restated",
+        "filed": "2026-01-23"
+      }
+    ],
+    "notes": [],
+    "used": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/795266/000079526626000017/kbh-113025x10kexhibit1025.htm",
+        "title": "Amended and Restated Term Loan Agreement",
+        "dated": "2025-11-12",
+        "kind": "amended_and_restated",
+        "filed": "2026-01-23"
+      }
+    ],
+    "source": "automatic"
+  },
+  "covenants": [
+    {
+      "name": "Consolidated Tangible Net Worth",
+      "metric": "other",
+      "direction": "min",
+      "section": "Section 6.9",
+      "quote": "Permit Consolidated Tangible Net Worth to be, at the end of any Fiscal Quarter, less than an amount equal to (a) $ 2,701,014,000",
+      "quote_verified": true,
+      "thresholds": [
+        {
+          "value": 2701014000.0,
+          "applies_from": null
+        }
+      ],
+      "test_frequency": "quarterly",
+      "springing_condition": null,
+      "addbacks": [],
+      "cash_netting_cap": null,
+      "cash_netting_cap_pct_ebitda": null,
+      "rows": [],
+      "latest": null,
+      "steps": []
+    },
+    {
+      "name": "Consolidated Leverage Ratio",
+      "metric": "other",
+      "direction": "max",
+      "section": "Section 6.10",
+      "quote": "Permit the Consolidated Leverage Ratio to be, at the end of any Fiscal Quarter, greater than 0.60 to 1.00.",
+      "quote_verified": true,
+      "thresholds": [
+        {
+          "value": 0.6,
+          "applies_from": null
+        }
+      ],
+      "test_frequency": "quarterly",
+      "springing_condition": null,
+      "addbacks": [],
+      "cash_netting_cap": null,
+      "cash_netting_cap_pct_ebitda": null,
+      "rows": [],
+      "latest": null,
+      "steps": []
+    },
+    {
+      "name": "Consolidated Interest Coverage Ratio",
+      "metric": "interest_coverage",
+      "direction": "min",
+      "section": "Section 6.11(b)",
+      "quote": "the Consolidated Interest Coverage Ratio to be, at the end of any Fiscal Quarter, less than 1.50 to 1.00.",
+      "quote_verified": true,
+      "thresholds": [
+        {
+          "value": 1.5,
+          "applies_from": null
+        }
+      ],
+      "test_frequency": "quarterly",
+      "springing_condition": "Breach occurs only if, for the same Fiscal Quarter, Liquidity (unrestricted cash of Borrower and Borrowing Base Subsidiaries not counted in the Borrowing Base, plus undrawn revolver commitments) is also less than Consolidated Interest Incurred for the four most recently ended Fiscal Quarters; meeting either test satisfies Section 6.11.",
+      "addbacks": [
+        "stock_comp",
+        "impairments",
+        "other"
+      ],
+      "cash_netting_cap": null,
+      "cash_netting_cap_pct_ebitda": null,
+      "rows": [],
+      "latest": null,
+      "steps": []
+    }
+  ],
+  "notes": "Amended and restated term loan agreement dated November 12, 2025 (original Term Loan Agreement dated August 25, 2022), unsecured, guaranteed by wholly owned domestic Significant Subsidiaries. No later amendments were provided.\n\nSection 6.9 TNW floor: $2,701,014,000 plus 50% of positive quarterly Consolidated Net Income for quarters after August 31, 2025 (no reduction for losses), plus 50% of net equity issuance proceeds after August 31, 2025. The floor therefore ratchets up over time.\n\nSection 6.10 Consolidated Leverage Ratio is a debt-to-capitalization test, not debt/EBITDA: Consolidated Total Indebtedness divided by (Consolidated Total Indebtedness plus Consolidated Tangible Net Worth). Consolidated Total Indebtedness is net of all Unrestricted Cash in excess of $15,000,000, with no upper cap on netting. It also excludes non-recourse debt of Financial Subsidiaries and Foreign Subsidiaries.\n\nSection 6.11 is an either/or test: it is breached only if both (a) Liquidity is below trailing four-quarter Consolidated Interest Incurred and (b) the interest coverage ratio is below 1.50x. Liquidity has no fixed dollar minimum, so it is not listed as a separate covenant.\n- Interest coverage uses Consolidated Adjusted EBITDA: Consolidated EBITDA (adds back extraordinary losses, interest, taxes, D&A and all other non-cash expenses) plus capitalized interest expensed in cost of sales plus non-cash Net Realizable Value (inventory impairment) adjustments.\n- The denominator is Consolidated Interest Incurred, including capitalized interest, net of interest income.\n\nOther quarterly-tested limits:\n- Section 6.16 caps Borrower's equity investment in non-guarantor subsidiaries, Financial and Foreign Subsidiaries, joint ventures and unconsolidated entities at $104,811,000 plus 20% of CTNW.\n- Section 6.17 (borrowing base) applies only while Borrower lacks an Investment Grade Credit Rating. Borrowing Base Indebtedness may not exceed the Borrowing Base: 100% escrow receivables, 90% homes under construction, 65% land under development, 50% land held (capped at 40% of the base), and unrestricted cash over $15M.\n\nRestrictions when interest coverage is below 2.0x: share repurchases and optional payments on subordinated debt are restricted unless unrestricted cash is at least the revolver commitments and the revolver is undrawn.\n\nDefaults and other terms:\n- Breach of the financial covenants is an immediate Event of Default with no grace period.\n- There is a cross-default to the Revolving Credit Agreement.\n- Pricing grid is SOFR + 1.35%\u20131.90%, based on the leverage ratio.\n- A change in control gives Required Banks a put.\n- Investment-grade style document: no unrestricted subsidiary concept, no IP covenants, no equity cure.",
+  "terms": [
+    {
+      "kind": "j_crew_blocker",
+      "present": "no",
+      "section": null,
+      "quote": null,
+      "summary": "The agreement has no unrestricted subsidiary concept and no restriction on transferring or licensing intellectual property; there is no J.Crew blocker.",
+      "quote_verified": null
+    },
+    {
+      "kind": "serta_protection",
+      "present": "partial",
+      "section": "Section 11.2(a)(iii)",
+      "quote": "to amend or modify the provisions of the definition in Section 1.1 of \u201cRequired Banks\u201d or of Sections 11.2, 11.9, 11.10, or 11.11, or any provision providing for the ratable or pro rata treatment of the Banks without the consent of each Bank;",
+      "summary": "Changes to pro rata sharing and payment waterfall provisions need each Bank's consent, which hampers non-pro-rata exchanges. However, there is no express requirement of affected-lender consent to subordinate the (unsecured) loans or any liens to other debt.",
+      "quote_verified": true
+    },
+    {
+      "kind": "chewy_protection",
+      "present": "no",
+      "section": "Section 10.11",
+      "quote": null,
+      "summary": "Guarantor Subsidiaries are defined as wholly owned. A guarantor that ceases to be a Subsidiary, or that Borrower designates as no longer required to be a guarantor (e.g., after ceasing to be wholly owned), is automatically released on an officer's certificate. There is no protection against release upon loss of wholly owned status.",
+      "quote_verified": null
+    },
+    {
+      "kind": "unrestricted_sub_cap",
+      "present": "partial",
+      "section": "Section 6.16",
+      "quote": "Permit, as of the last day of any Fiscal Quarter, Borrower\u2019s equity interest, computed in accordance with Generally Accepted Accounting Principles consistently applied, in all Subsidiaries of Borrower (other than Guarantor Subsidiaries), Financial Subsidiaries, Foreign Subsidiaries, all Joint Ventures and all other entities with financial statements not consolidated with those of Borrower under Generally Accepted Accounting Principles consistently applied to exceed an amount equal to the sum of (a) $104,811,000",
+      "summary": "There are no unrestricted subsidiaries. A quarterly-tested cap limits equity investment in non-guarantor subsidiaries, joint ventures and unconsolidated entities to $104.8 million plus 20% of Consolidated Tangible Net Worth. It is a grower cap rather than a fixed hard cap.",
+      "quote_verified": true
+    },
+    {
+      "kind": "addback_cap",
+      "present": "no",
+      "section": null,
+      "quote": null,
+      "summary": "The EBITDA definition has no add-backs for projected cost savings, synergies or restructuring, so there is no cap. It does add back all non-cash expenses without limit.",
+      "quote_verified": null
+    },
+    {
+      "kind": "equity_cure",
+      "present": "no",
+      "section": null,
+      "quote": null,
+      "summary": "There is no equity cure right; a financial covenant breach is an immediate Event of Default under Section 9.1(c).",
+      "quote_verified": null
+    }
+  ],
+  "addback_cap_pct": null,
+  "cov_lite": false,
+  "tightest": null,
+  "accuracy": [
+    {
+      "metric": "interest_coverage",
+      "period_end": "2025-11-30",
+      "reported": 6.702,
+      "reported_limit": 1.5,
+      "covenant_found": true,
+      "matched": "Consolidated Interest Coverage Ratio",
+      "our_limit": 1.5,
+      "limit_match": true,
+      "not_graded": null,
+      "xbrl": null,
+      "adjusted": null,
+      "xbrl_error": null,
+      "adjusted_error": null,
+      "facility": "Credit Facility and Term Loan",
+      "quote": "Interest Coverage Ratio (a) > 1.500 6.702",
+      "url": "https://www.sec.gov/Archives/edgar/data/795266/000079526626000017/kbh-20251130.htm"
+    },
+    {
+      "metric": "interest_coverage",
+      "period_end": "2026-02-28",
+      "reported": 5.616,
+      "reported_limit": 1.5,
+      "covenant_found": true,
+      "matched": "Consolidated Interest Coverage Ratio",
+      "our_limit": 1.5,
+      "limit_match": true,
+      "not_graded": null,
+      "xbrl": null,
+      "adjusted": null,
+      "xbrl_error": null,
+      "adjusted_error": null,
+      "facility": "Credit Facility and the Term Loan",
+      "quote": "Interest Coverage Ratio (a) > 1.500 5.616",
+      "url": "https://www.sec.gov/Archives/edgar/data/795266/000079526626000042/kbh-20260228.htm"
+    },
+    {
+      "metric": "minimum_liquidity",
+      "period_end": "2026-02-28",
+      "reported": 1198.9,
+      "reported_limit": 109.1,
+      "covenant_found": false,
+      "matched": null,
+      "our_limit": null,
+      "limit_match": null,
+      "not_graded": "not a standard ratio covenant",
+      "xbrl": null,
+      "adjusted": null,
+      "xbrl_error": null,
+      "adjusted_error": null,
+      "facility": "Credit Facility and the Term Loan",
+      "quote": "Minimum liquidity (a) > $109.1 million $1,198.9 million",
+      "url": "https://www.sec.gov/Archives/edgar/data/795266/000079526626000042/kbh-20260228.htm"
+    },
+    {
+      "metric": "interest_coverage",
+      "period_end": "2026-05-31",
+      "reported": 4.601,
+      "reported_limit": 1.5,
+      "covenant_found": true,
+      "matched": "Consolidated Interest Coverage Ratio",
+      "our_limit": 1.5,
+      "limit_match": true,
+      "not_graded": null,
+      "xbrl": null,
+      "adjusted": null,
+      "xbrl_error": null,
+      "adjusted_error": null,
+      "facility": "Credit Facility and the Term Loan",
+      "quote": "Interest Coverage Ratio (a) > 1.500 4.601",
+      "url": "https://www.sec.gov/Archives/edgar/data/795266/000079526626000063/kbh-20260531.htm"
+    },
+    {
+      "metric": "interest_coverage",
+      "period_end": "2026-08-31",
+      "reported": 3.863,
+      "reported_limit": 1.5,
+      "covenant_found": true,
+      "matched": "Consolidated Interest Coverage Ratio",
+      "our_limit": 1.5,
+      "limit_match": true,
+      "not_graded": null,
+      "xbrl": null,
+      "adjusted": null,
+      "xbrl_error": null,
+      "adjusted_error": null,
+      "facility": "Credit Facility and Term Loan",
+      "quote": "Interest Coverage Ratio (a) > 1.500 3.863",
+      "url": "https://www.sec.gov/Archives/edgar/data/795266/000079526626000071/kbh-20260831.htm"
+    },
+    {
+      "metric": "minimum_liquidity",
+      "period_end": "2026-08-31",
+      "reported": 942.4,
+      "reported_limit": 112.7,
+      "covenant_found": false,
+      "matched": null,
+      "our_limit": null,
+      "limit_match": null,
+      "not_graded": "not a standard ratio covenant",
+      "xbrl": null,
+      "adjusted": null,
+      "xbrl_error": null,
+      "adjusted_error": null,
+      "facility": "Credit Facility and Term Loan",
+      "quote": "Minimum liquidity (a) > $112.7 million $942.4 million",
+      "url": "https://www.sec.gov/Archives/edgar/data/795266/000079526626000071/kbh-20260831.htm"
+    }
+  ],
+  "dropped_answer_keys": [
+    {
+      "covenant_name": "Leverage Ratio",
+      "metric": "other",
+      "period_end": "2025-11-30",
+      "actual": 0.28,
+      "limit": 0.6,
+      "direction": "max",
+      "facility": "Credit Facility and Term Loan",
+      "quote": "Leverage Ratio < .600 .280",
+      "problems": [
+        "actual 0.28 not in quote",
+        "limit 0.6 not in quote"
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/795266/000079526626000017/kbh-20251130.htm"
+    },
+    {
+      "covenant_name": "Minimum liquidity",
+      "metric": "minimum_liquidity",
+      "period_end": "2025-11-30",
+      "actual": 1430000000.0,
+      "limit": 106500000.0,
+      "direction": "min",
+      "facility": "Credit Facility and Term Loan",
+      "quote": "Minimum liquidity (a) > $ 106.5 million $ 1.43 billion",
+      "problems": [
+        "actual 1430000000.0 not in quote",
+        "limit 106500000.0 not in quote"
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/795266/000079526626000017/kbh-20251130.htm"
+    },
+    {
+      "covenant_name": "Leverage Ratio",
+      "metric": "other",
+      "period_end": "2026-02-28",
+      "actual": 0.311,
+      "limit": 0.6,
+      "direction": "max",
+      "facility": "Credit Facility and the Term Loan",
+      "quote": "Leverage Ratio < .600 .311",
+      "problems": [
+        "actual 0.311 not in quote",
+        "limit 0.6 not in quote"
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/795266/000079526626000042/kbh-20260228.htm"
+    },
+    {
+      "covenant_name": "Leverage Ratio",
+      "metric": "other",
+      "period_end": "2026-05-31",
+      "actual": 0.324,
+      "limit": 0.6,
+      "direction": "max",
+      "facility": "Credit Facility and the Term Loan",
+      "quote": "Leverage Ratio < .600 .324",
+      "problems": [
+        "actual 0.324 not in quote",
+        "limit 0.6 not in quote"
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/795266/000079526626000063/kbh-20260531.htm"
+    },
+    {
+      "covenant_name": "Minimum liquidity",
+      "metric": "minimum_liquidity",
+      "period_end": "2026-05-31",
+      "actual": 1120.0,
+      "limit": 109.9,
+      "direction": "min",
+      "facility": "Credit Facility and the Term Loan",
+      "quote": "Minimum liquidity (a) > $109.9 million $1.12 billion",
+      "problems": [
+        "actual 1120.0 not in quote"
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/795266/000079526626000063/kbh-20260531.htm"
+    },
+    {
+      "covenant_name": "Leverage Ratio",
+      "metric": "other",
+      "period_end": "2026-08-31",
+      "actual": 0.345,
+      "limit": 0.6,
+      "direction": "max",
+      "facility": "Credit Facility and Term Loan",
+      "quote": "Leverage Ratio < .600 .345",
+      "problems": [
+        "actual 0.345 not in quote",
+        "limit 0.6 not in quote"
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/795266/000079526626000071/kbh-20260831.htm"
+    }
+  ],
+  "adjusted_ebitda": [],
+  "financials_sources": {
+    "debt": "not reported",
+    "cash": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
+    "operating income": "not reported",
+    "D&A": "DepreciationAndAmortization",
+    "interest": "not reported",
+    "stock comp": "ShareBasedCompensation",
+    "impairments": "not reported",
+    "restructuring": "RestructuringCharges"
+  },
+  "compliance": {
+    "filed": "2026-10-08",
+    "form": "10-Q",
+    "url": "https://www.sec.gov/Archives/edgar/data/795266/000079526626000071/kbh-20260831.htm",
+    "sentences": [
+      "As of the date of this report, we were in compliance with the relevant covenants.",
+      "KBHS was in compliance with these covenants as of August 31, 2026.",
+      "As of August 31, 2026, we were in compliance with the applicable terms of all of our covenants and other requirements under the Credit Facility, the Term Loan, the senior notes, the indenture, the LOC Facility, and the mortgages and land contracts due to land sellers and other loans.",
+      "As of August 31, 2026, we were in compliance with the applicable terms of all of our covenants and other requirements under the Credit Facility, the Term Loan, the senior notes, the indenture, the LOC Facility and the mortgages and land contracts due to land sellers and other loans."
+    ]
+  }
+}

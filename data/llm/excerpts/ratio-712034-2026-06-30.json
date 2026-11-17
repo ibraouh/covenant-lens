@@ -1,0 +1,30 @@
+{
+  "job": "ratio-712034-2026-06-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/712034/000119312526328057/acco-20260630.htm",
+    "period": "2026-06-30"
+  },
+  "usage": {
+    "input_tokens": 4372,
+    "output_tokens": 375,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "Consolidated Leverage Ratio",
+        "metric": "total_leverage",
+        "period_end": "2026-06-30",
+        "actual": 4.3,
+        "limit": 4.75,
+        "direction": "max",
+        "facility": "Third Amended and Restated Credit Agreement",
+        "quote": "As of June 30, 2026, our Consolidated Leverage Ratio was approximately 4.30 to 1.00 versus our maximum covenant of 4.75 to 1.00."
+      }
+    ],
+    "notes": "The July 29, 2025 amendment set the maximum Consolidated Leverage Ratio at 4.50x for Q3\u2013Q4 2025, 4.75x for Q1\u2013Q2 2026 and 4.25x for Q3\u2013Q4 2026. After that it returns to 4.50x for Q1\u2013Q2 and 4.00x for Q3\u2013Q4. The leverage-based pricing grid sets interest rate margins and fees only and is excluded; pricing is fixed at Tier 1 (>4.25x) through 12/31/2026. The same 4.30x vs 4.75x figure appears in both the notes and MD&A."
+  }
+}

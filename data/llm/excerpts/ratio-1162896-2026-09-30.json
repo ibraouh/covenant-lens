@@ -1,0 +1,40 @@
+{
+  "job": "ratio-1162896-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1162896/000116289626000011/ef20080584_10q.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 4059,
+    "output_tokens": 1107,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "Net Leverage Ratio",
+        "metric": "net_leverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 3.0,
+        "direction": "max",
+        "facility": "Credit Facility",
+        "quote": "Additionally, pursuant to the Credit Facility Agreement, as amended, the Company is subject to certain financial covenants under the Credit Facility, which require the Company to maintain, for each fiscal quarter, a Net Leverage Ratio (as defined in the Credit Facility Agreement) of no greater than 3.00 to 1.00 and a Current Ratio (as defined in the Credit Facility Agreement, as amended) of (i) 0.50 to 1.00 for the quarter ending June 30, 2026, (ii) 0.40 to 1.00 for the quarter ending September 30, 2026, (iii) 0.60 to 1.00 for the quarter ending December 31, 2026, and (iv) at least 1.00 to 1.00 for the quarters thereafter."
+      },
+      {
+        "covenant_name": "Current Ratio",
+        "metric": "other",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 0.4,
+        "direction": "min",
+        "facility": "Credit Facility",
+        "quote": "Additionally, pursuant to the Credit Facility Agreement, as amended, the Company is subject to certain financial covenants under the Credit Facility, which require the Company to maintain, for each fiscal quarter, a Net Leverage Ratio (as defined in the Credit Facility Agreement) of no greater than 3.00 to 1.00 and a Current Ratio (as defined in the Credit Facility Agreement, as amended) of (i) 0.50 to 1.00 for the quarter ending June 30, 2026, (ii) 0.40 to 1.00 for the quarter ending September 30, 2026, (iii) 0.60 to 1.00 for the quarter ending December 31, 2026, and (iv) at least 1.00 to 1.00 for the quarters thereafter."
+      }
+    ],
+    "notes": "Actual ratio values are not disclosed; the company states only that it was in compliance with all Credit Facility covenants as of September 30, 2026. The Current Ratio minimum steps from 0.40x (Q3 2026) to 0.60x (Q4 2026) and 1.00x thereafter. The Series F Preferred Stock covenants (Net Leverage of 2.50x or less, Current Ratio of at least 1.00x) were excluded because they are not credit agreement covenants. The Series F Current Ratio requirement was waived through December 31, 2026. Revolver availability was only $3.0 million at September 30, 2026."
+  }
+}

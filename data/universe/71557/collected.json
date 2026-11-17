@@ -1,0 +1,84 @@
+{
+  "reports": [
+    {
+      "form": "10-Q",
+      "filed": "2026-11-16",
+      "period": "2026-09-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/71557/000143774926037015/nuvr20260930_10q.htm",
+      "job": "ratio-71557-2026-09-30"
+    },
+    {
+      "form": "10-Q",
+      "filed": "2026-08-14",
+      "period": "2026-06-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/71557/000143774926027827/nuvr20260630_10q.htm",
+      "job": "ratio-71557-2026-06-30"
+    },
+    {
+      "form": "10-Q",
+      "filed": "2026-05-15",
+      "period": "2026-03-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/71557/000143774926017220/nuvr20260331_10q.htm",
+      "job": "ratio-71557-2026-03-31"
+    },
+    {
+      "form": "10-K",
+      "filed": "2026-03-16",
+      "period": "2025-12-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/71557/000143774926008309/nuvr20251231_10k.htm",
+      "job": "ratio-71557-2025-12-31"
+    }
+  ],
+  "releases": [],
+  "exhibits": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/71557/000151316222000100/exhibit10_2.htm",
+      "filed": "2022-07-20",
+      "exhibit": "EX-10.2",
+      "chars": 139083,
+      "job": "cover-71557-5f8859e05f"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/71557/000151316222000100/exhibit10_1.htm",
+      "filed": "2022-07-20",
+      "exhibit": "EX-10.1",
+      "chars": 463475,
+      "job": "cover-71557-609c38b312"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/71557/000151316223000144/exhibit10_1.htm",
+      "filed": "2023-11-14",
+      "exhibit": "EX-10.1",
+      "chars": 16975,
+      "job": "cover-71557-40c9d90a8d"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/71557/000151316223000166/exhibit10_1.htm",
+      "filed": "2023-12-21",
+      "exhibit": "EX-10.1",
+      "chars": 20991,
+      "job": "cover-71557-7db1c73108"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/71557/000151316224000030/exhibit10_12.htm",
+      "filed": "2024-03-15",
+      "exhibit": "EX-10.12",
+      "chars": 503101,
+      "job": "cover-71557-ad374824bd"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/71557/000151316224000083/exhibit10_3.htm",
+      "filed": "2024-06-25",
+      "exhibit": "EX-10",
+      "chars": 149422,
+      "job": "cover-71557-a33b1ccdc2"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/71557/000151316224000083/exhibit10_1.htm",
+      "filed": "2024-06-25",
+      "exhibit": "EX-10",
+      "chars": 535151,
+      "job": "cover-71557-5e3e7df02e"
+    }
+  ]
+}

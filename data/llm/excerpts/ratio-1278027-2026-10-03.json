@@ -1,0 +1,40 @@
+{
+  "job": "ratio-1278027-2026-10-03",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1278027/000110465926125162/bgs-20261003x10q.htm",
+    "period": "2026-10-03"
+  },
+  "usage": {
+    "input_tokens": 4197,
+    "output_tokens": 1053,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "maximum consolidated leverage ratio",
+        "metric": "net_leverage",
+        "period_end": "2026-10-03",
+        "actual": null,
+        "limit": 7.5,
+        "direction": "max",
+        "facility": "credit agreement (revolving credit facility and tranche B term loans)",
+        "quote": "is 7.50 to 1.00 for the quarter ending June 28, 2025 through the quarter ending October 3, 2026, 7.25 to 1.00 for the quarter ending January 2, 2027, and 7.00 to 1.00 for the quarters ending April 3, 2027 and thereafter."
+      },
+      {
+        "covenant_name": "consolidated interest coverage ratio",
+        "metric": "interest_coverage",
+        "period_end": "2026-10-03",
+        "actual": null,
+        "limit": 1.75,
+        "direction": "min",
+        "facility": "credit agreement (revolving credit facility and tranche B term loans)",
+        "quote": "We are also required to maintain a consolidated interest coverage ratio (defined as the ratio, determined on a pro forma basis, of our adjusted EBITDA (before share-based compensation) for any period of four consecutive fiscal quarters to our consolidated interest expense for such period payable in cash) of at least 1.75 to 1.00."
+      }
+    ],
+    "notes": "Actual ratios are not disclosed; the company states only that it was in compliance with all financial covenants as of October 3, 2026. The consolidated leverage ratio is a net debt to adjusted EBITDA (before share-based compensation) measure. Under the July 1, 2025 amendment, the maximum steps down to 7.25x for the quarter ending January 2, 2027 and to 7.00x from April 3, 2027 onward. The following were excluded because they are not maintenance covenants: the 7.00x and 7.25x thresholds that restrict restricted debt payments, investments and dividends; the 4.00x senior secured leverage condition for using the incremental facility; and the leverage-based pricing grid."
+  }
+}

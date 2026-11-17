@@ -1,0 +1,30 @@
+{
+  "job": "ratio-1537054-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1537054/000119312526451817/gogo-20260930.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 3960,
+    "output_tokens": 550,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "maximum senior secured first lien net leverage ratio",
+        "metric": "secured_net_leverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 7.5,
+        "direction": "max",
+        "facility": "Revolving Facility (2021 Credit Agreement)",
+        "quote": "The Revolving Facility includes a financial covenant set at a maximum senior secured first lien net leverage ratio of 7.50 :1.00, which will apply if the outstanding amount of loans and unreimbursed letter of credit drawings thereunder at the end of any fiscal quarter exceeds 35 % of the aggregate of all commitments thereunder."
+      }
+    ],
+    "notes": "The 7.50:1.00 covenant is a springing test. It applies only when Revolving Facility usage exceeds 35% of commitments at quarter end. The revolver was undrawn at September 30, 2026, so the covenant was likely not tested, and the excerpt gives no actual ratio. The senior secured first lien net leverage ratio is also used to set the revolver margins, the unused fee and the excess cash flow sweep step-downs; those uses were excluded. The excerpt shows no financial maintenance covenant for the HPS Credit Agreement."
+  }
+}

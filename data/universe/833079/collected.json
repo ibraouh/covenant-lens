@@ -1,0 +1,133 @@
+{
+  "reports": [
+    {
+      "form": "10-Q",
+      "filed": "2026-10-30",
+      "period": "2026-09-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/833079/000083307926000135/mth-20260930.htm",
+      "job": "ratio-833079-2026-09-30"
+    },
+    {
+      "form": "10-Q",
+      "filed": "2026-07-31",
+      "period": "2026-06-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/833079/000083307926000128/mth-20260630.htm",
+      "job": "ratio-833079-2026-06-30"
+    },
+    {
+      "form": "10-Q",
+      "filed": "2026-04-24",
+      "period": "2026-03-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/833079/000083307926000105/mth-20260331.htm",
+      "job": "ratio-833079-2026-03-31"
+    },
+    {
+      "form": "10-K",
+      "filed": "2026-02-13",
+      "period": "2025-12-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/833079/000083307926000010/mth-20251231.htm",
+      "job": "ratio-833079-2025-12-31"
+    }
+  ],
+  "releases": [],
+  "exhibits": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/833079/000083307916000182/exhibit101-secondamendment.htm",
+      "filed": "2016-06-30",
+      "exhibit": "EX-10.1",
+      "chars": 38461,
+      "job": "cover-833079-8d678551b2"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/833079/000119312517189469/d514401dex101.htm",
+      "filed": "2017-05-31",
+      "exhibit": "EX-10.1",
+      "chars": 29620,
+      "job": "cover-833079-0ce8aa6396"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/833079/000083307918000072/exhibit101.htm",
+      "filed": "2018-06-29",
+      "exhibit": "EX-10.1",
+      "chars": 45918,
+      "job": "cover-833079-22c158cd09"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/833079/000083307919000087/exhibit101.htm",
+      "filed": "2019-06-27",
+      "exhibit": "EX-10.1",
+      "chars": 34065,
+      "job": "cover-833079-9a64115ae2"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/833079/000083307920000152/ex101-sixthamendmenttocred.htm",
+      "filed": "2020-12-23",
+      "exhibit": "EX-10.1",
+      "chars": 70745,
+      "job": "cover-833079-deb8151def"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/833079/000083307921000169/ex101seventhamendmenttocre.htm",
+      "filed": "2021-12-20",
+      "exhibit": "EX-10.1",
+      "chars": 399871,
+      "job": "cover-833079-9c29bad279"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/833079/000083307923000113/ex101eighthamendmenttocred.htm",
+      "filed": "2023-06-05",
+      "exhibit": "EX-10.1",
+      "chars": 386632,
+      "job": "cover-833079-724b4ccf21"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/833079/000119312524135316/d811033dex41.htm",
+      "filed": "2024-05-09",
+      "exhibit": "EX-4.1",
+      "chars": 371482,
+      "job": "cover-833079-914fe29879"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/833079/000083307924000086/ex101tenthamendment.htm",
+      "filed": "2024-06-13",
+      "exhibit": "EX-10.1",
+      "chars": 393148,
+      "job": "cover-833079-cff30728fb"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/833079/000083307925000021/ex10109-ninthamendmenttocr.htm",
+      "filed": "2025-02-20",
+      "exhibit": "EX-10.10 9",
+      "chars": 25509,
+      "job": "cover-833079-f396f515fe"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/833079/000083307925000112/ex101eleventhamendmenttocr.htm",
+      "filed": "2025-07-09",
+      "exhibit": "EX-10.1",
+      "chars": 29759,
+      "job": "cover-833079-2607a72d28"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/833079/000083307926000122/ex101twelfthamendmenttocre.htm",
+      "filed": "2026-06-29",
+      "exhibit": "EX-10.1",
+      "chars": 32226,
+      "job": "cover-833079-13342b4f8c"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/833079/000083307915000072/exhibit101-firstamendmentt.htm",
+      "filed": "2015-07-10",
+      "exhibit": "EX-10.1",
+      "chars": 41847,
+      "job": "cover-833079-dd0e79ede8"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/833079/000083307914000097/amendedandrestatedcreditag.htm",
+      "filed": "2014-06-16",
+      "exhibit": "EX-10.1",
+      "chars": 371658,
+      "job": "cover-833079-183e301281"
+    }
+  ]
+}

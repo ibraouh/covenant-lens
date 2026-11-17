@@ -1,0 +1,50 @@
+{
+  "job": "ratio-2096300-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/2096300/000209630026000030/avex-20260930.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 4848,
+    "output_tokens": 1075,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "Maximum total net leverage ratio",
+        "metric": "net_leverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 3.5,
+        "direction": "max",
+        "facility": "New Credit Agreement",
+        "quote": "Commencing with the fiscal quarter ending September 30, 2026, maintain a maximum total net leverage ratio not to exceed 3.50 to 1.00"
+      },
+      {
+        "covenant_name": "Minimum interest coverage ratio",
+        "metric": "interest_coverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 3.0,
+        "direction": "min",
+        "facility": "New Credit Agreement",
+        "quote": "Commencing with the fiscal quarter ending September 30, 2026, maintain a minimum interest coverage ratio for any period, of not less than 3.00 to 1.00, tested as of the last day of each fiscal quarter."
+      },
+      {
+        "covenant_name": "Consolidated first lien net leverage ratio",
+        "metric": "secured_net_leverage",
+        "period_end": "2025-12-31",
+        "actual": null,
+        "limit": 9.0,
+        "direction": "max",
+        "facility": "Credit Agreement (prior credit facilities)",
+        "quote": "modify the financial covenant to a consolidated first lien net leverage ratio of 9.00 x tested quarterly, starting with the quarter ended September 30, 2025"
+      }
+    ],
+    "notes": "Actual ratios are not disclosed; the company states only that it was in compliance (New Credit Agreement as of 9/30/2026; prior Credit Agreement as of 12/31/2025). The New Credit Agreement's leverage limit steps down to 3.00x after June 30, 2029 and can temporarily rise by 0.50x for four quarters after a material acquisition; covenants are subject to equity cure rights. The prior Credit Agreement was replaced in connection with the April 2026 IPO refinancing. The secured net leverage ratios that set the interest margins and commitment fees are pricing grids, not covenants, and are excluded."
+  }
+}

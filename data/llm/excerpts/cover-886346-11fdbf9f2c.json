@@ -1,0 +1,24 @@
+{
+  "job": "cover-886346-11fdbf9f2c",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/886346/000088634622000018/kai2021ex1021.htm"
+  },
+  "usage": {
+    "input_tokens": 3156,
+    "output_tokens": 113,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "is_loan_document": true,
+    "kind": "amendment",
+    "title": "Fifth Amendment to Amended and Restated Credit Agreement",
+    "dated": "2021-12-09",
+    "amends_dated": "2017-03-01",
+    "primary_bank_facility": true,
+    "includes_conformed_copy": true,
+    "borrower": "Kadant Inc."
+  }
+}

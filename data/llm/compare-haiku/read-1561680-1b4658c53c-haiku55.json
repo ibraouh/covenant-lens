@@ -1,0 +1,129 @@
+{
+  "job": "read-1561680-1b4658c53c-haiku55",
+  "model": "claude-haiku-5-5",
+  "meta": {
+    "cik": "1561680",
+    "docs": [
+      "https://www.sec.gov/Archives/edgar/data/1561680/000156168025000096/sixthmodificationagreement.htm",
+      "https://www.sec.gov/Archives/edgar/data/1561680/000156168026000018/seventhmodificationagreeme.htm"
+    ]
+  },
+  "usage": {
+    "input_tokens": 202756,
+    "output_tokens": 2431,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "borrower": "Tri Pointe Homes, Inc.",
+    "agreement_date": "2019-03-29",
+    "covenants": [
+      {
+        "name": "Consolidated Tangible Net Worth Test",
+        "metric": "other",
+        "direction": "min",
+        "thresholds": [
+          {
+            "value": 2222822000.0,
+            "applies_from": null
+          }
+        ],
+        "test_frequency": "quarterly",
+        "springing_condition": null,
+        "section": "Section 6.19(a)",
+        "quote": "The Borrower shall not permit Consolidated Tangible Net Worth (monitored and tested quarterly as of the last day of each fiscal quarter) to be less than (i) $2,222,822,000.00, plus (ii) 50% of the cumulative Consolidated Net Income for each fiscal quarter commencing after December 31, 2024 (excluding any quarter in which there is a loss but applying Consolidated Net Income thereafter first to such loss before determining 50% of such amount for purposes of this calculation), plus (iii) 50% of the aggregate proceeds received by the Borrower (net of reasonable fees and expenses) in connection with any public offering of stock or equity (for the avoidance of doubt, an offering of convertible notes shall not be deemed to be an offering of equity) in each fiscal quarter after December 31, 2024 (the \"Consolidated Tangible Net Worth Test\").",
+        "ebitda_addbacks": [],
+        "cash_netting_cap": null,
+        "cash_netting_cap_pct_ebitda": null
+      },
+      {
+        "name": "Leverage Test",
+        "metric": "net_leverage",
+        "direction": "max",
+        "thresholds": [
+          {
+            "value": 60.0,
+            "applies_from": null
+          }
+        ],
+        "test_frequency": "quarterly",
+        "springing_condition": null,
+        "section": "Section 6.19(b)",
+        "quote": "The Borrower shall not permit the Leverage Ratio (monitored and tested quarterly as of the last day of each fiscal quarter) to exceed 60% (the \"Leverage Test\").",
+        "ebitda_addbacks": [],
+        "cash_netting_cap": 50000000.0,
+        "cash_netting_cap_pct_ebitda": null
+      },
+      {
+        "name": "Interest Coverage Test",
+        "metric": "interest_coverage",
+        "direction": "min",
+        "thresholds": [
+          {
+            "value": 1.5,
+            "applies_from": null
+          }
+        ],
+        "test_frequency": "quarterly",
+        "springing_condition": null,
+        "section": "Section 6.19(c)",
+        "quote": "The Borrower shall not permit the Interest Coverage Ratio (monitored and tested quarterly as of the last day of each fiscal quarter) to be less than 1.50 to 1.0 (the \"Interest Coverage Test\"); however, if the Interest Coverage Test was not satisfied on the last day of any fiscal quarter, Borrower shall not be in default hereunder so long as Borrower shall maintain at all times during the period the Interest Coverage Test remains unsatisfied Unrestricted Cash of Borrower in an amount equal to not less than the Liquidity Cure Amount.",
+        "ebitda_addbacks": [
+          "stock_comp",
+          "restructuring",
+          "other"
+        ],
+        "cash_netting_cap": null,
+        "cash_netting_cap_pct_ebitda": null
+      }
+    ],
+    "notes": "Covenants as amended by the Sixth Modification Agreement (Sept. 18, 2025), which left Section 6.19 unchanged; the Seventh Modification Agreement (Apr. 16, 2026) amends only the Change in Control definition and waives a Section 7.11 default for the Sumitomo transaction, so it does not change the financial covenants. Leverage Ratio is stated as a percentage and nets Unrestricted Cash above $50,000,000 from debt. Consolidated EBITDA add-backs: the definition adds back non-cash charges (other non-cash charges), transaction costs and restructuring charges under ASC 805, non-recurring expenses capped at 7.5%, and certain transaction expenses capped at $10,000,000 per transaction and $20,000,000 aggregate; impairments are not expressly listed but fall under other non-cash charges. The Leverage Ratio is not defined on EBITDA; the Interest Coverage Ratio uses Consolidated EBITDA. Liquidity cure alternative applies to interest coverage. The Consolidated Tangible Net Worth test has no add-back items. Section 6.19(e) minimum 95% attributable-to-Borrower-and-Guarantors requirement is a covenant-like requirement but is not included as a financial ratio. The Seventh Modification also requires a change-in-control consent that does not alter these tests.",
+    "facility": "Revolving facility of $850,000,000 maturing April 30, 2030 (extendable), and term facility of $450,000,000 split into Tranche A (maturity September 29, 2027, as extendable) and Tranche B (maturity June 29, 2027, as extendable).",
+    "terms": [
+      {
+        "kind": "j_crew_blocker",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "The agreement has no restriction on transferring or exclusively licensing material intellectual property to unrestricted subsidiaries, and no unrestricted subsidiary designation concept appears in the agreement."
+      },
+      {
+        "kind": "serta_protection",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "Section 8.3 requires each directly affected lender's consent to extend maturity or change payment terms, but there is no express protection against subordinating loans or liens to other debt through a non-pro-rata exchange."
+      },
+      {
+        "kind": "chewy_protection",
+        "present": "partial",
+        "section": "Section 6.20(b)",
+        "quote": "The Administrative Agent is authorized to and shall release and discharge from the Guaranty any Guarantor requested in writing by the Borrower, provided that:",
+        "summary": "Guarantors can be released on request if conditions are met, including no default, small net worth or a permitted sale, and the guarantor is released from pari passu guarantees; there is no automatic release tied to ceasing to be wholly owned, but a sale of the guarantor in a permitted transaction can lead to release."
+      },
+      {
+        "kind": "unrestricted_sub_cap",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "The agreement has no concept of unrestricted subsidiaries and no cap on investments in or designations of such entities."
+      },
+      {
+        "kind": "addback_cap",
+        "present": "partial",
+        "section": "Section 1.1 (Consolidated EBITDA, clause (i))",
+        "quote": "(i) non-recurring expenses and charges, provided that the amount of such expenses and charges shall not exceed 7.5% of Consolidated EBITDA (without giving effect to this clause (i)) in the aggregate for any four consecutive fiscal quarters,",
+        "summary": "Non-recurring charges added back to EBITDA are capped at 7.5% of EBITDA, and transaction expenses are capped at $10,000,000 per transaction and $20,000,000 in aggregate over four quarters; there is no cap specifically on projected cost savings or synergies."
+      },
+      {
+        "kind": "equity_cure",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "The agreement has no equity cure right for financial covenant defaults; the only cure mechanism is the Interest Coverage Test liquidity alternative based on maintaining Unrestricted Cash at least equal to the Liquidity Cure Amount."
+      }
+    ],
+    "addback_cap_pct": null
+  }
+}

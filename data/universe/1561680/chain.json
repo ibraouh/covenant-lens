@@ -1,0 +1,38 @@
+{
+  "auto": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1561680/000156168025000096/sixthmodificationagreement.htm",
+      "title": "Sixth Modification Agreement",
+      "dated": "2025-09-18",
+      "kind": "amendment",
+      "filed": "2025-09-19"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1561680/000156168026000018/seventhmodificationagreeme.htm",
+      "title": "Seventh Modification Agreement",
+      "dated": "2026-04-16",
+      "kind": "amendment",
+      "filed": "2026-04-17"
+    }
+  ],
+  "notes": [
+    "Sixth Modification Agreement restates the full agreement; used as the base"
+  ],
+  "used": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1561680/000156168025000096/sixthmodificationagreement.htm",
+      "title": "Sixth Modification Agreement",
+      "dated": "2025-09-18",
+      "kind": "amendment",
+      "filed": "2025-09-19"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1561680/000156168026000018/seventhmodificationagreeme.htm",
+      "title": "Seventh Modification Agreement",
+      "dated": "2026-04-16",
+      "kind": "amendment",
+      "filed": "2026-04-17"
+    }
+  ],
+  "source": "automatic"
+}

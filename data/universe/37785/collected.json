@@ -1,0 +1,173 @@
+{
+  "reports": [
+    {
+      "form": "10-Q",
+      "filed": "2026-10-30",
+      "period": "2026-09-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/37785/000003778526000171/fmc-20260930.htm",
+      "job": "ratio-37785-2026-09-30"
+    },
+    {
+      "form": "10-Q",
+      "filed": "2026-07-30",
+      "period": "2026-06-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/37785/000003778526000142/fmc-20260630.htm",
+      "job": "ratio-37785-2026-06-30"
+    },
+    {
+      "form": "10-Q",
+      "filed": "2026-04-30",
+      "period": "2026-03-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/37785/000003778526000096/fmc-20260331.htm",
+      "job": "ratio-37785-2026-03-31"
+    },
+    {
+      "form": "10-K",
+      "filed": "2026-02-27",
+      "period": "2025-12-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/37785/000003778526000041/fmc-20251231.htm",
+      "job": "ratio-37785-2025-12-31"
+    }
+  ],
+  "releases": [
+    {
+      "filed": "2026-10-29",
+      "url": "https://www.sec.gov/Archives/edgar/data/37785/000003778526000168/fmcex991093026.htm",
+      "job": "ebitda-37785-7f22e4bbb3"
+    },
+    {
+      "filed": "2026-10-15",
+      "url": "https://www.sec.gov/Archives/edgar/data/37785/000003778526000149/ex99110152026.htm",
+      "job": "ebitda-37785-f2aa3e02ea"
+    },
+    {
+      "filed": "2026-07-29",
+      "url": "https://www.sec.gov/Archives/edgar/data/37785/000003778526000139/fmcex991063026.htm",
+      "job": "ebitda-37785-3be555c7f3"
+    },
+    {
+      "filed": "2026-04-29",
+      "url": "https://www.sec.gov/Archives/edgar/data/37785/000003778526000083/fmcex991033126.htm",
+      "job": "ebitda-37785-6c42f7b0d5"
+    },
+    {
+      "filed": "2026-02-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/37785/000003778526000036/fmcex991123125ng.htm",
+      "job": "ebitda-37785-eb7bdad0fa"
+    }
+  ],
+  "exhibits": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/37785/000119312516518810/d164245dex101.htm",
+      "filed": "2016-03-28",
+      "exhibit": "EX-10.1",
+      "chars": 17788,
+      "job": "cover-37785-9f810f8a63"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/37785/000003778517000029/ex101conformedfmcseconda.htm",
+      "filed": "2017-05-02",
+      "exhibit": "EX-10.1",
+      "chars": 383137,
+      "job": "cover-37785-8d974b1785"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/37785/000003778518000058/citifmcamendmentno1tosec.htm",
+      "filed": "2018-10-03",
+      "exhibit": "EX-10.1",
+      "chars": 16635,
+      "job": "cover-37785-3b54186706"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/37785/000003778519000075/citifmcthirdarrevolvingc.htm",
+      "filed": "2019-05-20",
+      "exhibit": "EX-10.1",
+      "chars": 398194,
+      "job": "cover-37785-985a2a5ba6"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/37785/000003778520000055/ex101-amendmentno1.htm",
+      "filed": "2020-04-22",
+      "exhibit": "EX-10.1",
+      "chars": 14272,
+      "job": "cover-37785-1bf8af1e6d"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/37785/000003778521000050/ex101fourthamendment2021.htm",
+      "filed": "2021-05-28",
+      "exhibit": "EX-10.1",
+      "chars": 432499,
+      "job": "cover-37785-16cef2fcce"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/37785/000003778522000047/fmc-2022rcfxfiftharrevol.htm",
+      "filed": "2022-06-21",
+      "exhibit": "EX-10.1",
+      "chars": 435653,
+      "job": "cover-37785-abfc86199d"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/37785/000119312523183826/d508948dex101.htm",
+      "filed": "2023-07-07",
+      "exhibit": "EX-10.1",
+      "chars": 12867,
+      "job": "cover-37785-40a0cf8535"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/37785/000119312523272483/d499849dex101.htm",
+      "filed": "2023-11-07",
+      "exhibit": "EX-10.1",
+      "chars": 19788,
+      "job": "cover-37785-75d4f6c4b1"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/37785/000003778525000013/amendmentno3tofifthamended.htm",
+      "filed": "2025-02-04",
+      "exhibit": "EX-10.1",
+      "chars": 15849,
+      "job": "cover-37785-74a6ded998"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/37785/000003778525000015/amendmentno4tofifthamended.htm",
+      "filed": "2025-02-11",
+      "exhibit": "EX-10.1",
+      "chars": 14751,
+      "job": "cover-37785-9155f04d32"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/37785/000119312525311499/d873544dex101.htm",
+      "filed": "2025-12-09",
+      "exhibit": "EX-10.1",
+      "chars": 24975,
+      "job": "cover-37785-d9768afbb1"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/37785/000119312526163937/d81650dex101.htm",
+      "filed": "2026-04-20",
+      "exhibit": "EX-10.1",
+      "chars": 547958,
+      "job": "cover-37785-f8beef4296"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/37785/000119312526259541/d148295dex41.htm",
+      "filed": "2026-06-05",
+      "exhibit": "EX-4.1",
+      "chars": 560953,
+      "job": "cover-37785-7911aa5c99"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/37785/000119312526279416/d123428dex101.htm",
+      "filed": "2026-06-23",
+      "exhibit": "EX-10.1",
+      "chars": 21840,
+      "job": "cover-37785-6767cdeed9"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/37785/000119312526427896/d201698dex101.htm",
+      "filed": "2026-10-21",
+      "exhibit": "EX-10.1",
+      "chars": 37003,
+      "job": "cover-37785-c75fb618e8"
+    }
+  ]
+}

@@ -1,0 +1,473 @@
+{
+  "cik": "1013880",
+  "name": "TTEC Holdings, Inc.",
+  "borrower": "TTEC Holdings, Inc. (formerly TeleTech Holdings, Inc.)",
+  "gold": false,
+  "stale": true,
+  "agreement_date": "2013-06-03",
+  "facility": "Senior secured revolving credit facility (with LC sublimit of $50M and swing line of $15M) of $945M as of Nov 9, 2026, reducing by $10M on each of Apr 1, Jul 1 and Oct 1, 2027 (plus possible Digital Sale reductions); no term loans and no further incremental capacity; matures Nov 23, 2028.",
+  "chain": {
+    "auto": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1013880/000110465926124608/ttec-ex10d94.htm",
+        "title": "Thirteenth Amendment to Amended and Restated Credit Agreement",
+        "dated": "2026-11-09",
+        "kind": "amendment",
+        "filed": "2026-11-09"
+      }
+    ],
+    "notes": [
+      "Thirteenth Amendment to Amended and Restated Credit Agreement restates the full agreement; used as the base"
+    ],
+    "used": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1013880/000110465926124608/ttec-ex10d94.htm",
+        "title": "Thirteenth Amendment to Amended and Restated Credit Agreement",
+        "dated": "2026-11-09",
+        "kind": "amendment",
+        "filed": "2026-11-09"
+      }
+    ],
+    "source": "automatic"
+  },
+  "covenants": [
+    {
+      "name": "Net Leverage Ratio",
+      "metric": "net_leverage",
+      "direction": "max",
+      "section": "Section 5.7(a)",
+      "quote": "During the Covenant Adjustment Period, but prior to a Qualifying Debt Issuance, US Borrower shall not suffer or permit the Net Leverage Ratio as of the last day of the most recently completed fiscal quarter during the Covenant Adjustment Period to exceed the ratio set forth below for such fiscal quarter:",
+      "quote_verified": true,
+      "thresholds": [
+        {
+          "value": 4.25,
+          "applies_from": "2024-06-30"
+        },
+        {
+          "value": 5.15,
+          "applies_from": "2024-09-30"
+        },
+        {
+          "value": 5.0,
+          "applies_from": "2024-12-31"
+        },
+        {
+          "value": 4.75,
+          "applies_from": "2025-03-31"
+        },
+        {
+          "value": 4.5,
+          "applies_from": "2025-06-30"
+        },
+        {
+          "value": 4.25,
+          "applies_from": "2025-09-30"
+        },
+        {
+          "value": 4.0,
+          "applies_from": "2025-12-31"
+        },
+        {
+          "value": 4.0,
+          "applies_from": "2026-03-31"
+        },
+        {
+          "value": 3.75,
+          "applies_from": "2026-06-30"
+        },
+        {
+          "value": 4.25,
+          "applies_from": "2026-09-30"
+        },
+        {
+          "value": 4.25,
+          "applies_from": "2026-12-31"
+        },
+        {
+          "value": 4.25,
+          "applies_from": "2027-03-31"
+        },
+        {
+          "value": 4.0,
+          "applies_from": "2027-06-30"
+        }
+      ],
+      "test_frequency": "quarterly",
+      "springing_condition": "Tested quarterly during the Covenant Adjustment Period only until a Qualifying Debt Issuance occurs (issuance of at least $150M of unsecured high yield notes or unsecured convertible debt); after that, the Secured Net Leverage Ratio covenant applies instead.",
+      "addbacks": [
+        "stock_comp",
+        "impairments",
+        "restructuring",
+        "other"
+      ],
+      "cash_netting_cap": 100000000.0,
+      "cash_netting_cap_pct_ebitda": null,
+      "rows": [],
+      "latest": null,
+      "steps": []
+    },
+    {
+      "name": "Secured Net Leverage Ratio",
+      "metric": "secured_net_leverage",
+      "direction": "max",
+      "section": "Section 5.7(b)",
+      "quote": "On or after the occurrence of a Qualifying Debt Issuance, during the Covenant Adjustment Period, US Borrower shall not suffer or permit the Secured Net Leverage Ratio as of the last day of the most recently completed fiscal quarter to exceed the ratio set forth below for such fiscal quarter, subject to the Optional Leverage Ratio Increase:",
+      "quote_verified": true,
+      "thresholds": [
+        {
+          "value": 5.15,
+          "applies_from": "2024-09-30"
+        },
+        {
+          "value": 5.0,
+          "applies_from": "2024-12-31"
+        },
+        {
+          "value": 4.75,
+          "applies_from": "2025-03-31"
+        },
+        {
+          "value": 4.5,
+          "applies_from": "2025-06-30"
+        },
+        {
+          "value": 4.25,
+          "applies_from": "2025-09-30"
+        },
+        {
+          "value": 4.0,
+          "applies_from": "2025-12-31"
+        },
+        {
+          "value": 4.0,
+          "applies_from": "2026-03-31"
+        },
+        {
+          "value": 3.75,
+          "applies_from": "2026-06-30"
+        },
+        {
+          "value": 4.25,
+          "applies_from": "2026-09-30"
+        },
+        {
+          "value": 4.25,
+          "applies_from": "2026-12-31"
+        },
+        {
+          "value": 4.25,
+          "applies_from": "2027-03-31"
+        },
+        {
+          "value": 4.0,
+          "applies_from": "2027-06-30"
+        }
+      ],
+      "test_frequency": "springing",
+      "springing_condition": "Applies only on or after a Qualifying Debt Issuance (at least $150M of unsecured high yield notes or unsecured convertible debt), during the Covenant Adjustment Period. It is tested quarterly once triggered and is subject to an 'Optional Leverage Ratio Increase'.",
+      "addbacks": [
+        "stock_comp",
+        "impairments",
+        "restructuring",
+        "other"
+      ],
+      "cash_netting_cap": null,
+      "cash_netting_cap_pct_ebitda": null,
+      "rows": [],
+      "latest": null,
+      "steps": []
+    },
+    {
+      "name": "Interest Coverage Ratio",
+      "metric": "interest_coverage",
+      "direction": "min",
+      "section": "Section 5.7(c)",
+      "quote": "US Borrower shall not suffer or permit the Interest Coverage Ratio as of the last day of the most recently completed fiscal quarter to be less than the ratio set forth below for such fiscal quarter:",
+      "quote_verified": true,
+      "thresholds": [
+        {
+          "value": 2.5,
+          "applies_from": "2024-06-30"
+        },
+        {
+          "value": 2.0,
+          "applies_from": "2024-09-30"
+        },
+        {
+          "value": 2.25,
+          "applies_from": "2025-06-30"
+        },
+        {
+          "value": 2.5,
+          "applies_from": "2025-09-30"
+        },
+        {
+          "value": 2.0,
+          "applies_from": "2027-03-31"
+        }
+      ],
+      "test_frequency": "quarterly",
+      "springing_condition": null,
+      "addbacks": [
+        "stock_comp",
+        "impairments",
+        "restructuring",
+        "other"
+      ],
+      "cash_netting_cap": null,
+      "cash_netting_cap_pct_ebitda": null,
+      "rows": [],
+      "latest": null,
+      "steps": []
+    },
+    {
+      "name": "Available Liquidity for Expected Earn-Out Amount",
+      "metric": "minimum_liquidity",
+      "direction": "min",
+      "section": "Section 5.7(d)",
+      "quote": "US Borrower shall not suffer or permit the Available Liquidity as of the last day of the most recently completed fiscal quarter to be less than the Expected Earn-Out Amount as of the last day of the most recently completed fiscal quarter.",
+      "quote_verified": true,
+      "thresholds": [],
+      "test_frequency": "quarterly",
+      "springing_condition": null,
+      "addbacks": [],
+      "cash_netting_cap": null,
+      "cash_netting_cap_pct_ebitda": null,
+      "rows": [],
+      "latest": null,
+      "steps": []
+    }
+  ],
+  "notes": "Covenants are shown as amended through the Thirteenth Amendment (Nov 9, 2026).\n\nCovenant mechanics:\n- The Covenant Adjustment Period runs from the fiscal quarter ending 9/30/2024 to the maturity date.\n- The Net Leverage covenant applies until a Qualifying Debt Issuance; after that, the Secured Net Leverage covenant applies on the same schedule. Section 5.7(b) refers to an 'Optional Leverage Ratio Increase', but that term is not set out in the text provided.\n- Net leverage nets the lesser of 70% of unrestricted cash and Cash Equivalents and $100M. Secured net leverage nets 70% of unrestricted cash with no dollar cap.\n- The minimum liquidity test has no fixed dollar level. Available Liquidity (unrestricted cash and cash equivalents plus revolver availability, less repatriation costs) must be at least the Expected Earn-Out Amount (estimated earn-outs payable in the next 12 months).\n- Interest Coverage uses cash interest expense and excludes the Exit Fee.\n\nConsolidated EBITDA add-backs:\n- Non-cash charges (excluding receivables impairment).\n- One-time cash charges, including severance and restructuring, capped at $20M per fiscal year.\n- Acquisition synergies, capped at 10% of EBITDA, realized within 18 months and subject to Agent acceptance.\n- Transaction costs.\n- Exit Fee charges.\n- Pro forma adjustments for significant acquisitions and dispositions.\n\nDistressed-credit features:\n- Pricing is a flat SOFR + 4.00% / Base Rate + 3.00%.\n- There is a 3.00% Exit Fee, partly payable Jan 3, 2028, with potential reductions.\n- 100% mandatory prepayment sweeps apply to debt issuances, equity issuances and asset sales during the Covenant Adjustment Period.\n- Acquisitions and most Restricted Payments are prohibited after the Tenth Amendment.\n- Basket debt, investments and asset sales are each capped at $12.5M.\n- Non-domestic cash above $115M is swept monthly.\n- A Digital segment sale process is required, overseen by Supermajority Lenders, with automatic $10M commitment reductions if milestones are missed.\n- Reporting includes a 13-week cash flow forecast, weekly variance reports and monthly lender calls, with FTI as lender financial advisor.\n- Material foreign subsidiaries must become guarantors.\n- A broad Liability Management Transaction prohibition was added in Section 5.29.\n\nIncurrence-only test (not a maintenance covenant): unsecured debt under Section 5.8(o) requires Net Leverage of no more than 4.75x after a Qualifying Debt Issuance.",
+  "terms": [
+    {
+      "kind": "j_crew_blocker",
+      "present": "partial",
+      "section": "Section 5.29",
+      "quote": "US Borrower shall not, and US Borrower shall not permit any of its Subsidiaries to, enter into any Liability Management Transaction (as defined below).",
+      "summary": "The agreement has no unrestricted subsidiary concept and no IP-specific transfer ban. Instead, a general Liability Management Transaction covenant prohibits transfers of Collateral (which would include IP) to non-Credit Party affiliates to raise new financing or preserve value for affiliates, subject to exceptions for permitted-basket transactions and transactions under $5M.",
+      "quote_verified": true
+    },
+    {
+      "kind": "serta_protection",
+      "present": "yes",
+      "section": "Section 11.3(b)(i)(G)",
+      "quote": "(2) subordinate, or have the effect of subordinating, the Obligations in right of payment or otherwise adversely affect the priority of payment of any of such Obligations or (3) subordinate the Liens securing any Obligations in a disproportionate and adverse manner relative to the effect on the Liens of any other holder of the Obligations, in each case of clause (2) and (3) without the written consent of each of the Lenders directly and adversely affected thereby",
+      "summary": "Subordinating the loans in right of payment, or subordinating their liens disproportionately, requires the consent of each directly and adversely affected lender. In addition, Section 5.29 bans non-pro-rata uptier exchanges, and amending Section 5.29 needs affected-lender consent unless each such lender is offered a pro rata share of the transaction.",
+      "quote_verified": true
+    },
+    {
+      "kind": "chewy_protection",
+      "present": "yes",
+      "section": "Section 11.3(b)(i)(E)",
+      "quote": "release (i) the US Borrower without the written consent of each Lender or (ii) except in connection with an asset sale or disposition transaction otherwise permitted under this Agreement of all of the equity of a Guarantor of Payment to a purchaser that is unaffiliated with the US Borrower, any Guarantor of Payment;",
+      "summary": "A guarantor can be released without lender consent only when all of its equity is sold to an unaffiliated purchaser in a permitted transaction, so becoming non-wholly owned does not trigger release. The drafting of the consent requirement in clause (ii) is somewhat garbled. Section 5.29(iii) also bars guarantor releases made to support new financing.",
+      "quote_verified": true
+    },
+    {
+      "kind": "unrestricted_sub_cap",
+      "present": "no",
+      "section": null,
+      "quote": null,
+      "summary": "The agreement has no unrestricted subsidiary designation mechanism, so it has no cap on unrestricted subsidiaries. Investments in non-guarantor subsidiaries are instead limited by the general investment covenant and the $12.5M post-Tenth Amendment basket cap.",
+      "quote_verified": null
+    },
+    {
+      "kind": "addback_cap",
+      "present": "yes",
+      "section": "Section 1.1 (definition of Consolidated EBITDA, clauses (d) and (f))",
+      "quote": "synergies resulting from Acquisitions (to be achieved within eighteen (18) months of the consummation of such Acquisition and are not anticipated to be incurred on an ongoing basis following the consummation thereof), to the extent the synergies included in this clause (f) (1) are certified by a Financial Officer in form and substance reasonably satisfactory to Agent, (2) are reasonably acceptable to Agent and (3) do not exceed ten percent (10%) of Consolidated EBITDA",
+      "summary": "Acquisition synergy add-backs are capped at 10% of Consolidated EBITDA and must be realized within 18 months and acceptable to the Agent. Separately, one-time cash charges including severance and restructuring are capped at $20M per fiscal year.",
+      "quote_verified": true
+    },
+    {
+      "kind": "equity_cure",
+      "present": "no",
+      "section": null,
+      "quote": null,
+      "summary": "The agreement has no equity cure right for the financial covenants. Equity issuance proceeds must instead be applied 100% to prepay the revolver during the Covenant Adjustment Period.",
+      "quote_verified": null
+    }
+  ],
+  "addback_cap_pct": 0.1,
+  "cov_lite": false,
+  "tightest": null,
+  "accuracy": [
+    {
+      "metric": "net_leverage",
+      "period_end": "2025-12-31",
+      "reported": 3.58,
+      "reported_limit": 4.0,
+      "covenant_found": true,
+      "matched": "Net Leverage Ratio",
+      "our_limit": 4.0,
+      "limit_match": null,
+      "not_graded": "before the latest amendment",
+      "xbrl": null,
+      "adjusted": null,
+      "xbrl_error": null,
+      "adjusted_error": null,
+      "facility": "Credit Facility",
+      "quote": "The maximum net leverage ratio steps down from the currently permitted 4.00 to 3.00 by the third quarter of 2027 (TTEC\u2019s fourth quarter of 2025 net leverage ratio is 3.58).",
+      "url": "https://www.sec.gov/Archives/edgar/data/1013880/000110465926020532/ttec-20251231x10k.htm"
+    },
+    {
+      "metric": "interest_coverage",
+      "period_end": "2025-12-31",
+      "reported": null,
+      "reported_limit": 2.5,
+      "covenant_found": true,
+      "matched": "Interest Coverage Ratio",
+      "our_limit": 2.5,
+      "limit_match": null,
+      "not_graded": "before the latest amendment",
+      "xbrl": null,
+      "adjusted": null,
+      "xbrl_error": null,
+      "adjusted_error": null,
+      "facility": "Credit Facility",
+      "quote": "The Credit Facility currently provides for a net leverage ratio covenant of no more than 4.00 to 1 and the minimum interest coverage ratio to not less than 2.5 to 1, with such levels gradually becoming more restrictive during subsequent fiscal quarters.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1013880/000110465926020532/ttec-20251231x10k.htm"
+    },
+    {
+      "metric": "net_leverage",
+      "period_end": "2026-03-31",
+      "reported": null,
+      "reported_limit": 3.75,
+      "covenant_found": true,
+      "matched": "Net Leverage Ratio",
+      "our_limit": 4.0,
+      "limit_match": null,
+      "not_graded": "before the latest amendment",
+      "xbrl": null,
+      "adjusted": null,
+      "xbrl_error": null,
+      "adjusted_error": null,
+      "facility": "Amended and Restated Credit Agreement (Credit Facility), as amended by the Tenth Amendment",
+      "quote": "Under the terms of the Tenth Amendment, the maximum permitted net leverage ratio was set at 3.75, specifically for the fiscal quarters ended March 31, 2026 and June 30, 2026, before generally stepping down from 4.00 to 3.00 by the third quarter of fiscal 2027.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1013880/000110465926093402/ttec-20260630x10q.htm"
+    },
+    {
+      "metric": "net_leverage",
+      "period_end": "2026-06-30",
+      "reported": 3.85,
+      "reported_limit": 3.75,
+      "covenant_found": true,
+      "matched": "Net Leverage Ratio",
+      "our_limit": 3.75,
+      "limit_match": null,
+      "not_graded": "before the latest amendment",
+      "xbrl": null,
+      "adjusted": null,
+      "xbrl_error": null,
+      "adjusted_error": null,
+      "facility": "Amended and Restated Credit Agreement (Credit Facility), as amended by the Tenth Amendment",
+      "quote": "The Company\u2019s actual net leverage ratio of 3.85 as of June 30, 2026 exceeded the 3.75 maximum net leverage ratio then applicable to the quarter under the Tenth Amendment.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1013880/000110465926093402/ttec-20260630x10q.htm"
+    },
+    {
+      "metric": "net_leverage",
+      "period_end": "2026-09-30",
+      "reported": 3.63,
+      "reported_limit": 4.25,
+      "covenant_found": true,
+      "matched": "Net Leverage Ratio",
+      "our_limit": 4.25,
+      "limit_match": null,
+      "not_graded": "before the latest amendment",
+      "xbrl": null,
+      "adjusted": null,
+      "xbrl_error": null,
+      "adjusted_error": null,
+      "facility": "Credit Agreement",
+      "quote": "As of September 30, 2026, our net leverage ratio was 3.63:1.00 compared to the maximum permitted net leverage ratio of 4.25:1.00 for the quarter, and we were in compliance with all covenants under the Credit Agreement.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1013880/000110465926124608/ttec-20260930x10q.htm"
+    }
+  ],
+  "dropped_answer_keys": [],
+  "adjusted_ebitda": [
+    {
+      "period_end": "2024-09-30",
+      "value": 50276000.0,
+      "quote": "Adjusted EBITDA $ 43,355 $ 50,276 $ 151,553 $ 151,428",
+      "url": "https://www.sec.gov/Archives/edgar/data/1013880/000110465925107789/tm2530356d1_ex99-1.htm",
+      "label": "Adjusted EBITDA"
+    },
+    {
+      "period_end": "2024-12-31",
+      "value": 50865000.0,
+      "quote": "Adjusted EBITDA $ 62,163 $ 50,865 $ 213,716 $ 202,293",
+      "url": "https://www.sec.gov/Archives/edgar/data/1013880/000110465926020555/tm267338d1_ex99-1.htm",
+      "label": "Adjusted EBITDA"
+    },
+    {
+      "period_end": "2025-03-31",
+      "value": 56428000.0,
+      "quote": "Adjusted EBITDA $ 45,782 $ 56,428",
+      "url": "https://www.sec.gov/Archives/edgar/data/1013880/000110465926057197/tm2613858d1_ex99-1.htm",
+      "label": "Adjusted EBITDA"
+    },
+    {
+      "period_end": "2025-06-30",
+      "value": 51770000.0,
+      "quote": "Adjusted EBITDA $ 39,478 $ 51,770 $ 85,260 $ 108,198",
+      "url": "https://www.sec.gov/Archives/edgar/data/1013880/000110465926093410/tm2622729d1_ex99-1.htm",
+      "label": "Adjusted EBITDA"
+    },
+    {
+      "period_end": "2025-09-30",
+      "value": 43355000.0,
+      "quote": "Adjusted EBITDA $ 51,473 $ 43,355 $ 136,733 $ 151,553",
+      "url": "https://www.sec.gov/Archives/edgar/data/1013880/000110465926124650/tm2629265d1_ex99-1.htm",
+      "label": "Adjusted EBITDA"
+    },
+    {
+      "period_end": "2025-12-31",
+      "value": 62163000.0,
+      "quote": "Adjusted EBITDA $ 62,163 $ 50,865 $ 213,716 $ 202,293",
+      "url": "https://www.sec.gov/Archives/edgar/data/1013880/000110465926020555/tm267338d1_ex99-1.htm",
+      "label": "Adjusted EBITDA"
+    },
+    {
+      "period_end": "2026-03-31",
+      "value": 45782000.0,
+      "quote": "Adjusted EBITDA $ 45,782 $ 56,428",
+      "url": "https://www.sec.gov/Archives/edgar/data/1013880/000110465926057197/tm2613858d1_ex99-1.htm",
+      "label": "Adjusted EBITDA"
+    },
+    {
+      "period_end": "2026-06-30",
+      "value": 39478000.0,
+      "quote": "Adjusted EBITDA $ 39,478 $ 51,770 $ 85,260 $ 108,198",
+      "url": "https://www.sec.gov/Archives/edgar/data/1013880/000110465926093410/tm2622729d1_ex99-1.htm",
+      "label": "Adjusted EBITDA"
+    },
+    {
+      "period_end": "2026-09-30",
+      "value": 51473000.0,
+      "quote": "Adjusted EBITDA $ 51,473 $ 43,355 $ 136,733 $ 151,553",
+      "url": "https://www.sec.gov/Archives/edgar/data/1013880/000110465926124650/tm2629265d1_ex99-1.htm",
+      "label": "Adjusted EBITDA"
+    }
+  ],
+  "financials_sources": {
+    "debt": "not reported",
+    "cash": "CashAndCashEquivalentsAtCarryingValue",
+    "operating income": "OperatingIncomeLoss",
+    "D&A": "DepreciationAndAmortization",
+    "interest": "InterestExpenseNonoperating",
+    "stock comp": "ShareBasedCompensation",
+    "impairments": "AssetImpairmentCharges",
+    "restructuring": "RestructuringCharges"
+  },
+  "compliance": {
+    "filed": "2026-11-09",
+    "form": "10-Q",
+    "url": "https://www.sec.gov/Archives/edgar/data/1013880/000110465926124608/ttec-20260930x10q.htm",
+    "sentences": [
+      "In the event that the Company does not remain in compliance with such financial covenants, it may be required to negotiate additional amendments to, or waivers of, the terms of the Credit Agreement, refinance its debt, or raise additional capital.",
+      "In the event the Company does not remain in compliance with such financial covenants, it may be required to negotiate additional amendments to, or waivers of, the terms of Credit Facility, refinance its debt, or raise additional capital.",
+      "00 for the quarter, and we were in compliance with all covenants under the Credit Agreement."
+    ]
+  }
+}

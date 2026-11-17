@@ -1,0 +1,19 @@
+{
+  "job": "ratio-1023731-2025-12-31",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1023731/000102373126000010/eght-20251231.htm",
+    "period": "2025-12-31"
+  },
+  "usage": {
+    "input_tokens": 4061,
+    "output_tokens": 242,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [],
+    "notes": "The 2024 Credit Agreement (Wells Fargo term loan) contains three financial covenants: a consolidated interest coverage ratio, a maximum consolidated total net leverage ratio, and a maximum consolidated secured leverage ratio. The excerpt gives no actual values or numeric limits for any of them. It says only that the Company was in compliance with all covenants as of December 31, 2025. The July 2025 Amendment holds the total net leverage ratio requirement at its 'current level' but does not state that level. The total net leverage ratio also sets the interest margin (2.50%/2.75%/3.00%, 3.00% at 12/31/2025); that pricing use is excluded."
+  }
+}

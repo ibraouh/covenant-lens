@@ -1,0 +1,595 @@
+{
+  "cik": "71557",
+  "name": "Nuvera Communications, Inc.",
+  "borrower": "Nuvera Communications, Inc.",
+  "gold": false,
+  "stale": false,
+  "agreement_date": "2024-06-21",
+  "facility": "$30M revolving credit facility (incl. $5M LC sublimit and $3M swing line), $125M Term A-1 Loan, $25M delayed draw term loan (available to June 21, 2026), plus up to $30M incremental term loans; all maturing June 21, 2029.",
+  "chain": {
+    "auto": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/71557/000151316224000083/exhibit10_1.htm",
+        "title": "Amended and Restated Credit Agreement",
+        "dated": "2024-06-21",
+        "kind": "amended_and_restated",
+        "filed": "2024-06-25"
+      }
+    ],
+    "notes": [],
+    "used": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/71557/000151316224000083/exhibit10_1.htm",
+        "title": "Amended and Restated Credit Agreement",
+        "dated": "2024-06-21",
+        "kind": "amended_and_restated",
+        "filed": "2024-06-25"
+      }
+    ],
+    "source": "automatic"
+  },
+  "covenants": [
+    {
+      "name": "Leverage Ratio",
+      "metric": "total_leverage",
+      "direction": "max",
+      "section": "Section 8.1",
+      "quote": "The Loan Parties shall maintain at all times, measured as of the last day of each fiscal quarter, a Leverage Ratio of the Borrower of not more than the ratios set forth below for the periods specified below:",
+      "quote_verified": true,
+      "thresholds": [
+        {
+          "value": 6.0,
+          "applies_from": "2024-06-30"
+        },
+        {
+          "value": 5.0,
+          "applies_from": "2027-12-31"
+        },
+        {
+          "value": 4.0,
+          "applies_from": "2028-12-31"
+        }
+      ],
+      "test_frequency": "quarterly",
+      "springing_condition": null,
+      "addbacks": [
+        "other"
+      ],
+      "cash_netting_cap": null,
+      "cash_netting_cap_pct_ebitda": null,
+      "rows": [
+        {
+          "period_end": "2024-12-31",
+          "before_agreement": false,
+          "limit": 6.0,
+          "xbrl": 5.081201047379601,
+          "adjusted": null,
+          "reported": null,
+          "reported_limit": null,
+          "reported_quote": null,
+          "reported_url": null,
+          "ltm_ebitda_xbrl": 27739322,
+          "ltm_ebitda_adjusted": null,
+          "debt": 140949072,
+          "cash": null,
+          "ltm_interest": 11238426
+        },
+        {
+          "period_end": "2025-03-31",
+          "before_agreement": false,
+          "limit": 6.0,
+          "xbrl": 4.932972835594462,
+          "adjusted": null,
+          "reported": null,
+          "reported_limit": null,
+          "reported_quote": null,
+          "reported_url": null,
+          "ltm_ebitda_xbrl": 28715298,
+          "ltm_ebitda_adjusted": null,
+          "debt": 141651785,
+          "cash": null,
+          "ltm_interest": 8657921
+        },
+        {
+          "period_end": "2025-06-30",
+          "before_agreement": false,
+          "limit": 6.0,
+          "xbrl": 4.813855628730212,
+          "adjusted": null,
+          "reported": null,
+          "reported_limit": null,
+          "reported_quote": null,
+          "reported_url": null,
+          "ltm_ebitda_xbrl": 29369306,
+          "ltm_ebitda_adjusted": null,
+          "debt": 141379599,
+          "cash": null,
+          "ltm_interest": 6043879
+        },
+        {
+          "period_end": "2025-09-30",
+          "before_agreement": false,
+          "limit": 6.0,
+          "xbrl": 4.832311734587889,
+          "adjusted": null,
+          "reported": null,
+          "reported_limit": null,
+          "reported_quote": null,
+          "reported_url": null,
+          "ltm_ebitda_xbrl": 29465091,
+          "ltm_ebitda_adjusted": null,
+          "debt": 142384505,
+          "cash": null,
+          "ltm_interest": 6074830
+        },
+        {
+          "period_end": "2025-12-31",
+          "before_agreement": false,
+          "limit": 6.0,
+          "xbrl": 4.913397559200671,
+          "adjusted": null,
+          "reported": 4.97,
+          "reported_limit": 6.0,
+          "reported_quote": "Our current Total Leverage Ratio as of December 31, 2025, was 4.97. Our maximum Total Leverage Ratio under the loan facility is 6.00:1.00.",
+          "reported_url": "https://www.sec.gov/Archives/edgar/data/71557/000143774926008309/nuvr20251231_10k.htm",
+          "ltm_ebitda_xbrl": 29332522,
+          "ltm_ebitda_adjusted": null,
+          "debt": 144122342,
+          "cash": null,
+          "ltm_interest": 6095253
+        },
+        {
+          "period_end": "2026-03-31",
+          "before_agreement": false,
+          "limit": 6.0,
+          "xbrl": 4.900619404469613,
+          "adjusted": null,
+          "reported": 4.95,
+          "reported_limit": 6.0,
+          "reported_quote": "Our current Total Leverage Ratio as of March 31, 2026, was 4.95 . Our maximum Total Leverage Ratio under the new loan facility is 6.00 :1.00.",
+          "reported_url": "https://www.sec.gov/Archives/edgar/data/71557/000143774926017220/nuvr20260331_10q.htm",
+          "ltm_ebitda_xbrl": 29628782,
+          "ltm_ebitda_adjusted": null,
+          "debt": 145199384,
+          "cash": null,
+          "ltm_interest": 6083757
+        },
+        {
+          "period_end": "2026-06-30",
+          "before_agreement": false,
+          "limit": 6.0,
+          "xbrl": 4.941571428688461,
+          "adjusted": null,
+          "reported": 4.99,
+          "reported_limit": 6.0,
+          "reported_quote": "Our current Total Leverage Ratio as of June 30, 2026, was 4.99. Our maximum Total Leverage Ratio under the loan facility is 6.00:1.00.",
+          "reported_url": "https://www.sec.gov/Archives/edgar/data/71557/000143774926027827/nuvr20260630_10q.htm",
+          "ltm_ebitda_xbrl": 29295736,
+          "ltm_ebitda_adjusted": null,
+          "debt": 144766972,
+          "cash": null,
+          "ltm_interest": 6096600
+        },
+        {
+          "period_end": "2026-09-30",
+          "before_agreement": false,
+          "limit": 6.0,
+          "xbrl": 5.1191501464457465,
+          "adjusted": null,
+          "reported": 5.17,
+          "reported_limit": 6.0,
+          "reported_quote": "Our current Total Leverage Ratio as of September 30, 2026, was 5.17 . Our maximum Total Leverage Ratio under the new loan facility is 6.00 :1.00.",
+          "reported_url": "https://www.sec.gov/Archives/edgar/data/71557/000143774926037015/nuvr20260930_10q.htm",
+          "ltm_ebitda_xbrl": 28725655,
+          "ltm_ebitda_adjusted": null,
+          "debt": 147050941,
+          "cash": null,
+          "ltm_interest": 6047503
+        }
+      ],
+      "latest": {
+        "period_end": "2026-09-30",
+        "basis": "reported",
+        "value": 5.17,
+        "limit": 6.0,
+        "headroom": 0.13833333333333334,
+        "cushion": 0.1383333333333333
+      },
+      "steps": [
+        {
+          "from": "2027-12-31",
+          "limit": 5.0,
+          "headroom_at_today": -0.03399999999999999
+        },
+        {
+          "from": "2028-12-31",
+          "limit": 4.0,
+          "headroom_at_today": -0.2925
+        }
+      ]
+    },
+    {
+      "name": "Debt Service Coverage Ratio",
+      "metric": "other",
+      "direction": "min",
+      "section": "Section 8.3",
+      "quote": "The Loan Parties shall maintain at all times, measured as of the last day of each fiscal quarter,a Debt Service Coverage Ratio of the Borrower of not less than 2.00:1.00.",
+      "quote_verified": true,
+      "thresholds": [
+        {
+          "value": 2.0,
+          "applies_from": null
+        }
+      ],
+      "test_frequency": "quarterly",
+      "springing_condition": null,
+      "addbacks": [
+        "other"
+      ],
+      "cash_netting_cap": null,
+      "cash_netting_cap_pct_ebitda": null,
+      "rows": [
+        {
+          "period_end": "2024-12-31",
+          "before_agreement": false,
+          "limit": 2.0,
+          "xbrl": null,
+          "adjusted": null,
+          "reported": null,
+          "reported_limit": null,
+          "reported_quote": null,
+          "reported_url": null,
+          "ltm_ebitda_xbrl": 27739322,
+          "ltm_ebitda_adjusted": null,
+          "debt": 140949072,
+          "cash": null,
+          "ltm_interest": 11238426
+        },
+        {
+          "period_end": "2025-03-31",
+          "before_agreement": false,
+          "limit": 2.0,
+          "xbrl": null,
+          "adjusted": null,
+          "reported": null,
+          "reported_limit": null,
+          "reported_quote": null,
+          "reported_url": null,
+          "ltm_ebitda_xbrl": 28715298,
+          "ltm_ebitda_adjusted": null,
+          "debt": 141651785,
+          "cash": null,
+          "ltm_interest": 8657921
+        },
+        {
+          "period_end": "2025-06-30",
+          "before_agreement": false,
+          "limit": 2.0,
+          "xbrl": null,
+          "adjusted": null,
+          "reported": null,
+          "reported_limit": null,
+          "reported_quote": null,
+          "reported_url": null,
+          "ltm_ebitda_xbrl": 29369306,
+          "ltm_ebitda_adjusted": null,
+          "debt": 141379599,
+          "cash": null,
+          "ltm_interest": 6043879
+        },
+        {
+          "period_end": "2025-09-30",
+          "before_agreement": false,
+          "limit": 2.0,
+          "xbrl": null,
+          "adjusted": null,
+          "reported": null,
+          "reported_limit": null,
+          "reported_quote": null,
+          "reported_url": null,
+          "ltm_ebitda_xbrl": 29465091,
+          "ltm_ebitda_adjusted": null,
+          "debt": 142384505,
+          "cash": null,
+          "ltm_interest": 6074830
+        },
+        {
+          "period_end": "2025-12-31",
+          "before_agreement": false,
+          "limit": 2.0,
+          "xbrl": null,
+          "adjusted": null,
+          "reported": null,
+          "reported_limit": null,
+          "reported_quote": "These financial ratios include Total Leverage Ratio and debt service coverage ratio. As of December 31, 2025, we were in compliance with all the stipulated financial ratios in our loan agreements.",
+          "reported_url": "https://www.sec.gov/Archives/edgar/data/71557/000143774926008309/nuvr20251231_10k.htm",
+          "ltm_ebitda_xbrl": 29332522,
+          "ltm_ebitda_adjusted": null,
+          "debt": 144122342,
+          "cash": null,
+          "ltm_interest": 6095253
+        },
+        {
+          "period_end": "2026-03-31",
+          "before_agreement": false,
+          "limit": 2.0,
+          "xbrl": null,
+          "adjusted": null,
+          "reported": null,
+          "reported_limit": null,
+          "reported_quote": "These financial ratios include Total Leverage Ratio and debt service coverage ratio. On March 31, 2026, we were in compliance with all the stipulated financial ratios in our loan agreements.",
+          "reported_url": "https://www.sec.gov/Archives/edgar/data/71557/000143774926017220/nuvr20260331_10q.htm",
+          "ltm_ebitda_xbrl": 29628782,
+          "ltm_ebitda_adjusted": null,
+          "debt": 145199384,
+          "cash": null,
+          "ltm_interest": 6083757
+        },
+        {
+          "period_end": "2026-06-30",
+          "before_agreement": false,
+          "limit": 2.0,
+          "xbrl": null,
+          "adjusted": null,
+          "reported": 1.99,
+          "reported_limit": 2.0,
+          "reported_quote": "Our debt service coverage ratio as of June 30, 2026, was 1.99, which was below our minimum debt service coverage ratio of 2.00 per our existing covenants with CoBank.",
+          "reported_url": "https://www.sec.gov/Archives/edgar/data/71557/000143774926027827/nuvr20260630_10q.htm",
+          "ltm_ebitda_xbrl": 29295736,
+          "ltm_ebitda_adjusted": null,
+          "debt": 144766972,
+          "cash": null,
+          "ltm_interest": 6096600
+        },
+        {
+          "period_end": "2026-09-30",
+          "before_agreement": false,
+          "limit": 2.0,
+          "xbrl": null,
+          "adjusted": null,
+          "reported": null,
+          "reported_limit": null,
+          "reported_quote": null,
+          "reported_url": null,
+          "ltm_ebitda_xbrl": 28725655,
+          "ltm_ebitda_adjusted": null,
+          "debt": 147050941,
+          "cash": null,
+          "ltm_interest": 6047503
+        }
+      ],
+      "latest": {
+        "period_end": "2026-06-30",
+        "basis": "reported",
+        "value": 1.99,
+        "limit": 2.0,
+        "headroom": -0.0050000000000000044,
+        "cushion": -0.005025125628140614
+      },
+      "steps": []
+    }
+  ],
+  "notes": "This is an Amended and Restated Credit Agreement dated June 21, 2024. It amends and restates a Prior Credit Agreement dated July 15, 2022. No later amendments were provided. CoBank is the sole lender and agent.\n\nLeverage Ratio: all consolidated Indebtedness divided by LTM Consolidated EBITDA. There is no cash netting. Indebtedness includes the net present value of future extraordinary executive compensation and hedge termination values. The limit is 6.00x from closing through Sep 30, 2027, 5.00x from Oct 1, 2027 through Sep 30, 2028, and 4.00x thereafter. The first quarter-ends at the stepped levels are therefore 12/31/2027 and 12/31/2028.\n\nDebt Service Coverage Ratio: (Consolidated EBITDA + cash interest, dividends and patronage income \u2212 cash income taxes, dividends and distributions) divided by Debt Service. Debt Service is scheduled principal plus cash interest, LTM. It works like a fixed-charge style test and is classified here as 'other'.\n\nConsolidated EBITDA add-backs: interest, taxes, D&A, unrealized SFAS 133 derivative losses, extraordinary executive compensation, transaction costs for Permitted Acquisitions/Investments, and pro forma run-rate cost savings and synergies (18-month window). It does not expressly add back non-cash stock compensation, impairments or restructuring charges. The transaction-cost and run-rate add-backs are capped together at $500,000 per period, a dollar cap rather than a percentage of EBITDA. EBITDA deducts interest income, dividends and patronage income. It is pro forma for acquisitions and dispositions.\n\nIncurrence-style leverage tests (not reported as maintenance covenants):\n- DDTL draws require pro forma Leverage Ratio \u22645.00x.\n- Restricted payments are allowed up to $3M per year at \u22644.25x and unlimited at \u22643.50x.\n- Permitted Acquisitions require a 0.50x cushion to the Section 8.1 level and are also capped at $500k individually / $1.5M aggregate.\n\nOther terms:\n- Financial covenant amendments require only Required Lenders.\n- Applicable margin grid is leverage-based (SOFR + 2.75%\u20134.00%).\n- All Subsidiaries must be Guarantors (Section 7.10).\n- There is no unrestricted subsidiary concept.",
+  "terms": [
+    {
+      "kind": "j_crew_blocker",
+      "present": "no",
+      "section": null,
+      "quote": null,
+      "summary": "There is no specific IP-transfer or unrestricted-subsidiary blocker. The agreement has no unrestricted subsidiary concept, and every Subsidiary must be a Guarantor under Section 7.10.",
+      "quote_verified": null
+    },
+    {
+      "kind": "serta_protection",
+      "present": "partial",
+      "section": "Section 11.1(d)",
+      "quote": "in a manner that would alter the pro rata sharing of payments required thereby without the written consent of each Lender directly affected thereby;",
+      "summary": "Changing the pro rata sharing provisions requires each affected lender's consent. There is no express requirement of each lender's consent to subordinate the loans or their liens to other debt. The agent may subordinate liens only to permitted purchase-money liens.",
+      "quote_verified": true
+    },
+    {
+      "kind": "chewy_protection",
+      "present": "partial",
+      "section": "Section 10.13(a)(iii)",
+      "quote": "to release any Guarantor from its obligations under the Loan Documents if such Person ceases to be a Subsidiary as a result of a transaction permitted under the Loan Documents.",
+      "summary": "A guarantor is released only if it ceases to be a Subsidiary (more than 50% owned) in a permitted transaction, not merely because it stops being wholly owned. Subsidiary equity issuances to non-Loan Parties are also restricted. There is no express anti-Chewy clause.",
+      "quote_verified": true
+    },
+    {
+      "kind": "unrestricted_sub_cap",
+      "present": "no",
+      "section": null,
+      "quote": null,
+      "summary": "The agreement has no unrestricted subsidiary designation mechanism, so there is no cap. All Subsidiaries must join as Guarantors, and general Investments are limited by small dollar baskets.",
+      "quote_verified": null
+    },
+    {
+      "kind": "addback_cap",
+      "present": "yes",
+      "section": "Section 1.1 (definition of Consolidated EBITDA)",
+      "quote": "For the purposes of calculating Consolidated EBITDA for any relevant four fiscal quarter period, notwithstanding the foregoing, amounts added back in the calculation of Consolidated EBITDA for any applicable measurement period pursuant to clauses (f) and (g) of this definition shall not, in the aggregate, exceed $500,000 for such period (calculated prior to giving effect to such addbacks for such period in the calculation of Consolidated EBITDA).",
+      "summary": "Add-backs for transaction costs and projected run-rate cost savings and synergies are together capped at a flat $500,000 per measurement period. The cap is a dollar amount, not a percentage of EBITDA.",
+      "quote_verified": true
+    },
+    {
+      "kind": "equity_cure",
+      "present": "no",
+      "section": null,
+      "quote": null,
+      "summary": "There is no equity cure right for the financial covenants. Equity issuance proceeds are generally subject to 100% mandatory prepayment.",
+      "quote_verified": null
+    }
+  ],
+  "addback_cap_pct": null,
+  "cov_lite": false,
+  "tightest": {
+    "name": "Debt Service Coverage Ratio",
+    "period_end": "2026-06-30",
+    "basis": "reported",
+    "value": 1.99,
+    "limit": 2.0,
+    "headroom": -0.0050000000000000044,
+    "cushion": -0.005025125628140614
+  },
+  "accuracy": [
+    {
+      "metric": "total_leverage",
+      "period_end": "2025-12-31",
+      "reported": 4.97,
+      "reported_limit": 6.0,
+      "covenant_found": true,
+      "matched": "Leverage Ratio",
+      "our_limit": 6.0,
+      "limit_match": true,
+      "not_graded": null,
+      "xbrl": 4.913397559200671,
+      "adjusted": null,
+      "xbrl_error": -0.011388821086383949,
+      "adjusted_error": null,
+      "facility": "CoBank, ACB credit facility",
+      "quote": "Our current Total Leverage Ratio as of December 31, 2025, was 4.97. Our maximum Total Leverage Ratio under the loan facility is 6.00:1.00.",
+      "url": "https://www.sec.gov/Archives/edgar/data/71557/000143774926008309/nuvr20251231_10k.htm"
+    },
+    {
+      "metric": "other",
+      "period_end": "2025-12-31",
+      "reported": null,
+      "reported_limit": null,
+      "covenant_found": true,
+      "matched": "Debt Service Coverage Ratio",
+      "our_limit": 2.0,
+      "limit_match": null,
+      "not_graded": "no limit reported",
+      "xbrl": null,
+      "adjusted": null,
+      "xbrl_error": null,
+      "adjusted_error": null,
+      "facility": "CoBank, ACB credit facility",
+      "quote": "These financial ratios include Total Leverage Ratio and debt service coverage ratio. As of December 31, 2025, we were in compliance with all the stipulated financial ratios in our loan agreements.",
+      "url": "https://www.sec.gov/Archives/edgar/data/71557/000143774926008309/nuvr20251231_10k.htm"
+    },
+    {
+      "metric": "total_leverage",
+      "period_end": "2026-03-31",
+      "reported": 4.95,
+      "reported_limit": 6.0,
+      "covenant_found": true,
+      "matched": "Leverage Ratio",
+      "our_limit": 6.0,
+      "limit_match": true,
+      "not_graded": null,
+      "xbrl": 4.900619404469613,
+      "adjusted": null,
+      "xbrl_error": -0.00997587788492671,
+      "adjusted_error": null,
+      "facility": "CoBank credit facility (2024 credit facility)",
+      "quote": "Our current Total Leverage Ratio as of March 31, 2026, was 4.95 . Our maximum Total Leverage Ratio under the new loan facility is 6.00 :1.00.",
+      "url": "https://www.sec.gov/Archives/edgar/data/71557/000143774926017220/nuvr20260331_10q.htm"
+    },
+    {
+      "metric": "other",
+      "period_end": "2026-03-31",
+      "reported": null,
+      "reported_limit": null,
+      "covenant_found": true,
+      "matched": "Debt Service Coverage Ratio",
+      "our_limit": 2.0,
+      "limit_match": null,
+      "not_graded": "no limit reported",
+      "xbrl": null,
+      "adjusted": null,
+      "xbrl_error": null,
+      "adjusted_error": null,
+      "facility": "CoBank credit facility (2024 credit facility)",
+      "quote": "These financial ratios include Total Leverage Ratio and debt service coverage ratio. On March 31, 2026, we were in compliance with all the stipulated financial ratios in our loan agreements.",
+      "url": "https://www.sec.gov/Archives/edgar/data/71557/000143774926017220/nuvr20260331_10q.htm"
+    },
+    {
+      "metric": "total_leverage",
+      "period_end": "2026-06-30",
+      "reported": 4.99,
+      "reported_limit": 6.0,
+      "covenant_found": true,
+      "matched": "Leverage Ratio",
+      "our_limit": 6.0,
+      "limit_match": true,
+      "not_graded": null,
+      "xbrl": 4.941571428688461,
+      "adjusted": null,
+      "xbrl_error": -0.009705124511330432,
+      "adjusted_error": null,
+      "facility": "CoBank credit facility",
+      "quote": "Our current Total Leverage Ratio as of June 30, 2026, was 4.99. Our maximum Total Leverage Ratio under the loan facility is 6.00:1.00.",
+      "url": "https://www.sec.gov/Archives/edgar/data/71557/000143774926027827/nuvr20260630_10q.htm"
+    },
+    {
+      "metric": "other",
+      "period_end": "2026-06-30",
+      "reported": 1.99,
+      "reported_limit": 2.0,
+      "covenant_found": true,
+      "matched": "Debt Service Coverage Ratio",
+      "our_limit": 2.0,
+      "limit_match": null,
+      "not_graded": "not a standard ratio covenant",
+      "xbrl": null,
+      "adjusted": null,
+      "xbrl_error": null,
+      "adjusted_error": null,
+      "facility": "CoBank credit facility",
+      "quote": "Our debt service coverage ratio as of June 30, 2026, was 1.99, which was below our minimum debt service coverage ratio of 2.00 per our existing covenants with CoBank.",
+      "url": "https://www.sec.gov/Archives/edgar/data/71557/000143774926027827/nuvr20260630_10q.htm"
+    },
+    {
+      "metric": "total_leverage",
+      "period_end": "2026-09-30",
+      "reported": 5.17,
+      "reported_limit": 6.0,
+      "covenant_found": true,
+      "matched": "Leverage Ratio",
+      "our_limit": 6.0,
+      "limit_match": true,
+      "not_graded": null,
+      "xbrl": 5.1191501464457465,
+      "adjusted": null,
+      "xbrl_error": -0.009835561615909705,
+      "adjusted_error": null,
+      "facility": "CoBank credit facility",
+      "quote": "Our current Total Leverage Ratio as of September 30, 2026, was 5.17 . Our maximum Total Leverage Ratio under the new loan facility is 6.00 :1.00.",
+      "url": "https://www.sec.gov/Archives/edgar/data/71557/000143774926037015/nuvr20260930_10q.htm"
+    }
+  ],
+  "dropped_answer_keys": [
+    {
+      "covenant_name": "debt service coverage ratio",
+      "metric": "other",
+      "period_end": "2026-09-30",
+      "actual": 1.95,
+      "limit": 1.75,
+      "direction": "min",
+      "facility": "CoBank credit facility",
+      "quote": "On August 6, 2026, Nuvera received a waiver from CoBank to decrease our minimum debt service coverage ratio to 1.75 to accommodate our decreased debt service coverage ratio as of September 30, 2026.",
+      "problems": [
+        "actual 1.95 not in quote"
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/71557/000143774926037015/nuvr20260930_10q.htm"
+    }
+  ],
+  "adjusted_ebitda": [],
+  "financials_sources": {
+    "debt": "LongTermDebtNoncurrent + LongTermDebtCurrent",
+    "cash": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
+    "operating income": "OperatingIncomeLoss",
+    "D&A": "DepreciationAndAmortization",
+    "interest": "InterestExpenseNonoperating",
+    "stock comp": "ShareBasedCompensation",
+    "impairments": "not reported",
+    "restructuring": "not reported"
+  },
+  "compliance": {
+    "filed": "2026-11-16",
+    "form": "10-Q",
+    "url": "https://www.sec.gov/Archives/edgar/data/71557/000143774926037015/nuvr20260930_10q.htm",
+    "sentences": []
+  }
+}

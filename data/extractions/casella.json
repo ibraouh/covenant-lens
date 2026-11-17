@@ -1,0 +1,76 @@
+{
+  "borrower": "Casella Waste Systems, Inc. (and its Subsidiaries other than Excluded Subsidiaries and Non-Borrower Subsidiaries, as co-Borrowers)",
+  "agreement_date": "2024-09-27",
+  "covenants": [
+    {
+      "name": "Minimum Interest Coverage Ratio",
+      "metric": "interest_coverage",
+      "direction": "min",
+      "thresholds": [
+        {
+          "value": 3.0,
+          "applies_from": null
+        }
+      ],
+      "test_frequency": "quarterly",
+      "springing_condition": null,
+      "section": "Section 7.11(a)",
+      "quote": "As at the end of any fiscal quarter, the Borrowers shall not permit the ratio of (a) Consolidated EBITDA for the period of four (4) consecutive fiscal quarters then ending to (b) Consolidated Cash Interest Charges for such period to be less than 3.00 to 1.00.",
+      "ebitda_addbacks": [
+        "stock_comp",
+        "impairments",
+        "restructuring",
+        "other"
+      ],
+      "cash_netting_cap": null,
+      "cash_netting_cap_pct_ebitda": null
+    },
+    {
+      "name": "Consolidated Total Net Leverage Ratio",
+      "metric": "net_leverage",
+      "direction": "max",
+      "thresholds": [
+        {
+          "value": 4.0,
+          "applies_from": null
+        }
+      ],
+      "test_frequency": "quarterly",
+      "springing_condition": "Tested only for fiscal quarters ending prior to the Secured Leverage Covenant Election (a written election the Parent may make after incurring more than $250,000,000 of unsecured Indebtedness after the Closing Date, which switches testing to the Consolidated Secured Net Leverage Ratio).",
+      "section": "Section 7.11(b)",
+      "quote": "As at the end of any fiscal quarter prior to the Secured Leverage Covenant Election, the Borrowers shall not permit the Consolidated Total Net Leverage Ratio for the period of four (4) consecutive fiscal quarters then ending to exceed 4:00 to 1.00;",
+      "ebitda_addbacks": [
+        "stock_comp",
+        "impairments",
+        "restructuring",
+        "other"
+      ],
+      "cash_netting_cap": 100000000.0,
+      "cash_netting_cap_pct_ebitda": null
+    },
+    {
+      "name": "Consolidated Secured Net Leverage Ratio",
+      "metric": "secured_net_leverage",
+      "direction": "max",
+      "thresholds": [
+        {
+          "value": 3.5,
+          "applies_from": null
+        }
+      ],
+      "test_frequency": "quarterly",
+      "springing_condition": "Tested only for fiscal quarters ending on and after the Secured Leverage Covenant Election (available once the Borrowers/Domestic Subsidiaries have incurred more than $250,000,000 of unsecured Indebtedness after the Closing Date); replaces the total net leverage covenant.",
+      "section": "Section 7.11(c)",
+      "quote": "As at the end of any fiscal quarter ending on and after the Secured Leverage Covenant Election, the Borrowers shall not permit the Consolidated Secured Net Leverage Ratio for the period of four (4) consecutive fiscal quarters then ending to exceed 3.50 to 1.00.",
+      "ebitda_addbacks": [
+        "stock_comp",
+        "impairments",
+        "restructuring",
+        "other"
+      ],
+      "cash_netting_cap": 100000000.0,
+      "cash_netting_cap_pct_ebitda": null
+    }
+  ],
+  "notes": "Second Amended and Restated Credit Agreement dated September 27, 2024 (Bank of America, N.A., Administrative Agent); $800M Initial Term Loans plus revolver, both maturing September 27, 2029. Only the original agreement was provided; no amendments. Elevated TNL Ratio Period: if a Permitted Acquisition (or series) with aggregate consideration over $25,000,000 occurs in a fiscal quarter, Borrowers may elect to raise the max Consolidated Total Net Leverage Ratio to 4.50x for that quarter and the following three quarters; only one Elevated period at a time and at least one quarter at 4.00x between Elevated periods. Covenants are calculated excluding Excluded Subsidiaries (except their liabilities recourse to Borrowers); Excluded Interim Debt is excluded from Consolidated Funded Debt while it qualifies. Net leverage ratios net unencumbered cash and Cash Equivalents of the Parent and Domestic Subsidiaries up to $100,000,000 (Liens securing the Obligations do not count as encumbrances). EBITDA (via Consolidated Adjusted Net Income) adds back: non-cash stock-based compensation; non-cash losses on asset sales, asset impairments, abandonment or closure of operations (capped at $50M cumulative from Closing Date); cash and non-cash severance and reorganization charges (capped at $10M cumulative); acquisition-related expenses and non-recurring integration costs; other non-cash items acceptable to the Agent; non-cash PIK dividend charges; derivative ineffectiveness and termination charges; debt issuance write-offs; non-recurring fees for acquisitions, debt/equity issuances and dispositions. Pro forma acquired-business EBITDA is allowed, including expected synergies up to 15% of Consolidated EBITDA (or other agreed amount). The add-back of discontinued private-company expenses (e.g., owner's compensation) does not apply to the interest coverage covenant in 7.11(a). Consolidated Funded Debt excludes capitalized operating leases and IRBs held by a Borrower. Royal Acquisition is treated as a Limited Condition Acquisition; covenant compliance under 7.11 is tested as if pending LCAs have not closed until consummated. Incurrence tests (e.g., 4.00x TNL / 3.50x SNL for incremental and secured debt, 5.00x TNL after election, 3.25x for distributions and junior debt payments) are not maintenance covenants and are excluded. Pricing grid also keyed off Consolidated Total Net Leverage Ratio, with sustainability-linked margin adjustments."
+}

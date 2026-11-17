@@ -1,0 +1,24 @@
+{
+  "job": "cover-885725-66a14b5893",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/885725/000094787120000527/ss174648_ex1002.htm"
+  },
+  "usage": {
+    "input_tokens": 3155,
+    "output_tokens": 112,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "is_loan_document": true,
+    "kind": "amendment",
+    "title": "Second Amendment to Revolving Credit Agreement",
+    "dated": "2020-05-28",
+    "amends_dated": "2018-12-19",
+    "primary_bank_facility": true,
+    "includes_conformed_copy": false,
+    "borrower": "Boston Scientific Corporation"
+  }
+}

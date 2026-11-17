@@ -1,0 +1,24 @@
+{
+  "job": "cover-1076930-f242f20644",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1076930/000119312525277939/d84292dex101.htm"
+  },
+  "usage": {
+    "input_tokens": 3116,
+    "output_tokens": 115,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "is_loan_document": true,
+    "kind": "amendment",
+    "title": "First Amendment to Fourth Amended and Restated Credit Agreement",
+    "dated": "2025-11-05",
+    "amends_dated": "2025-06-27",
+    "primary_bank_facility": true,
+    "includes_conformed_copy": true,
+    "borrower": "Novanta Corporation"
+  }
+}

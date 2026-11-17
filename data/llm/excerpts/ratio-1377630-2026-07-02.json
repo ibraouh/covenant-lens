@@ -1,0 +1,40 @@
+{
+  "job": "ratio-1377630-2026-07-02",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1377630/000119312526344956/ncmi-20260702.htm",
+    "period": "2026-07-02"
+  },
+  "usage": {
+    "input_tokens": 2418,
+    "output_tokens": 364,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "fixed charge coverage ratio",
+        "metric": "fixed_charge_coverage",
+        "period_end": "2026-07-02",
+        "actual": 10.8,
+        "limit": 1.5,
+        "direction": "min",
+        "facility": "2025 Credit Facility",
+        "quote": "As of July 2, 2026, NCM LLC\u2019s fixed charge coverage ratio was 10.8 to 1.0 (versus t he required ratio of greater than 1.5 to 1.0 )"
+      },
+      {
+        "covenant_name": "maximum leverage ratio",
+        "metric": "total_leverage",
+        "period_end": "2026-07-02",
+        "actual": 0.39,
+        "limit": 2.25,
+        "direction": "max",
+        "facility": "2025 Credit Facility",
+        "quote": "NCM LLC's maximum leverage ratio was 0.39 to 1.0 (v ersus the required ratio of less than 2.25 to 1.0 )"
+      }
+    ],
+    "notes": "Covenants apply to NCM LLC (subsidiary borrower), measured quarterly. Leverage ratio type (total vs net) not specified; classified as total leverage."
+  }
+}

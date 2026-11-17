@@ -1,0 +1,30 @@
+{
+  "job": "ratio-56679-2026-07-31",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/56679/000005667926000031/kfy-20260731.htm",
+    "period": "2026-07-31"
+  },
+  "usage": {
+    "input_tokens": 5604,
+    "output_tokens": 867,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "consolidated secured net leverage ratio (Financial Covenant)",
+        "metric": "secured_net_leverage",
+        "period_end": "2026-07-31",
+        "actual": null,
+        "limit": 3.75,
+        "direction": "max",
+        "facility": "A&R Credit Agreement (Term Loan Facility and Revolving Credit Facility)",
+        "quote": "we are in pro forma compliance with our financial covenants that require the Company to maintain a consolidated secured net leverage ratio of not greater than 3.75 to 1.00 (which may be temporarily increased to 4.25 following certain material acquisitions under certain circumstances) (the \"Financial Covenant\")"
+      }
+    ],
+    "notes": "The filing gives no actual ratio values. It says only that the Company was in compliance with its debt covenants as of July 31, 2026 and April 30, 2026, under the Credit Agreement in place then. The 3.75x maximum (temporarily up to 4.25x after material acquisitions) is described under the A&R Credit Agreement, which was entered into after quarter-end as a subsequent event. That limit may therefore not be the one formally in force on July 31, 2026, and the excerpt does not state the prior Credit Agreement's covenant level. I left out three ratios that are not maintenance covenants: the 5.00x consolidated net leverage condition for dividends and share repurchases (a restricted-payment test), the 3.25x secured net leverage condition for incremental facilities, and the net leverage-based pricing grids."
+  }
+}

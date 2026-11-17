@@ -1,0 +1,22 @@
+{
+  "borrowers": 29,
+  "covenants": 64,
+  "quotes_verified": 63,
+  "answer_keys": 172,
+  "borrowers_with_answer_keys": 28,
+  "limits_checked": 100,
+  "limits_matched": 96,
+  "covenant_found": 166,
+  "xbrl_points": 53,
+  "xbrl_median_error": 0.08471626470261784,
+  "xbrl_within_10pct": 0.5283018867924528,
+  "adjusted_points": 49,
+  "adjusted_median_error": 0.05062098644785029,
+  "adjusted_within_10pct": 0.6530612244897959,
+  "paired_points": 33,
+  "paired_xbrl_median": 0.08471626470261784,
+  "paired_adjusted_median": 0.04840902872702002,
+  "term_quotes": 84,
+  "term_quotes_verified": 83,
+  "generated": "2026-11-17"
+}

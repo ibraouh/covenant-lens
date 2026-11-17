@@ -1,0 +1,49 @@
+{
+  "job": "ebitda-799292-f5e04f00f2",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/799292/000079929225000073/exhibit991earningspressrel.htm",
+    "filed": "2025-10-22"
+  },
+  "usage": {
+    "input_tokens": 1922,
+    "output_tokens": 606,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "label": "Adjusted EBITDA",
+    "figures": [
+      {
+        "period_end": "2025-09-30",
+        "months": 3,
+        "shown": "156,576",
+        "unit": "thousands",
+        "quote": "Adjusted EBITDA $ 156,576 $ 197,782 $ 479,949 $ 584,370"
+      },
+      {
+        "period_end": "2024-09-30",
+        "months": 3,
+        "shown": "197,782",
+        "unit": "thousands",
+        "quote": "Adjusted EBITDA $ 156,576 $ 197,782 $ 479,949 $ 584,370"
+      },
+      {
+        "period_end": "2025-09-30",
+        "months": 9,
+        "shown": "479,949",
+        "unit": "thousands",
+        "quote": "Adjusted EBITDA $ 156,576 $ 197,782 $ 479,949 $ 584,370"
+      },
+      {
+        "period_end": "2024-09-30",
+        "months": 9,
+        "shown": "584,370",
+        "unit": "thousands",
+        "quote": "Adjusted EBITDA $ 156,576 $ 197,782 $ 479,949 $ 584,370"
+      }
+    ],
+    "notes": "The excerpt starts partway through the reconciliation table, so its unit header is not shown. Thousands is inferred from the size of the figures (for example, nine-month net income of 338,970). The column order is taken to be Q3 2025, Q3 2024, nine months 2025 and nine months 2024, matching the operating data tables later in the excerpt."
+  }
+}

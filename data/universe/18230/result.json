@@ -1,0 +1,364 @@
+{
+  "cik": "18230",
+  "name": "CATERPILLAR INC",
+  "borrower": "Caterpillar Inc. (with co-borrowers Caterpillar Financial Services Corporation, Caterpillar International Finance Designated Activity Company and Caterpillar Finance Kabushiki Kaisha)",
+  "gold": false,
+  "stale": false,
+  "agreement_date": "2022-09-01",
+  "facility": "$2.73 billion three-year multicurrency revolving credit facility, including up to $1.0 billion local currency (GBP/EUR) for CIF with a $150 million same-day sub-facility and $75 million in yen for CFKK. Accordion up to 130% of commitments. Matures August 29, 2025, extendable annually by one year with consent of the extending banks.",
+  "chain": {
+    "auto": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/18230/000001823022000199/ex104-thirdamendmendandres.htm",
+        "title": "Third Amended and Restated Credit Agreement (Three-Year Facility)",
+        "dated": "2022-09-01",
+        "kind": "amended_and_restated",
+        "filed": "2022-09-06"
+      }
+    ],
+    "notes": [],
+    "used": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/18230/000001823022000199/ex104-thirdamendmendandres.htm",
+        "title": "Third Amended and Restated Credit Agreement (Three-Year Facility)",
+        "dated": "2022-09-01",
+        "kind": "amended_and_restated",
+        "filed": "2022-09-06"
+      }
+    ],
+    "source": "automatic"
+  },
+  "covenants": [
+    {
+      "name": "Consolidated Net Worth",
+      "metric": "other",
+      "direction": "min",
+      "section": "Section 5.03",
+      "quote": "So long as any Advance shall remain unpaid or any Bank shall have any Commitment hereunder, Caterpillar will, unless the Majority Banks shall otherwise consent in writing, maintain at all times during each fiscal year of Caterpillar, Consolidated Net Worth of not less than $9,000,000,000.",
+      "quote_verified": true,
+      "thresholds": [
+        {
+          "value": 9000000000.0,
+          "applies_from": null
+        }
+      ],
+      "test_frequency": "other",
+      "springing_condition": null,
+      "addbacks": [],
+      "cash_netting_cap": null,
+      "cash_netting_cap_pct_ebitda": null,
+      "rows": [],
+      "latest": null,
+      "steps": []
+    },
+    {
+      "name": "Leverage Ratio",
+      "metric": "other",
+      "direction": "max",
+      "section": "Section 5.04(a)(i)",
+      "quote": "Maintain at all times a ratio (the \u201cLeverage Ratio\u201d) of (x) CFSC Consolidated Debt to (y) CFSC\u2019s Consolidated Net Worth of not greater than 10.0 to 1.",
+      "quote_verified": true,
+      "thresholds": [
+        {
+          "value": 10.0,
+          "applies_from": null
+        }
+      ],
+      "test_frequency": "other",
+      "springing_condition": null,
+      "addbacks": [],
+      "cash_netting_cap": null,
+      "cash_netting_cap_pct_ebitda": null,
+      "rows": [],
+      "latest": null,
+      "steps": []
+    },
+    {
+      "name": "Leverage Ratio",
+      "metric": "other",
+      "direction": "max",
+      "section": "Section 5.04(a)(ii)",
+      "quote": "Maintain a Leverage Ratio of not greater than 10.0 to 1 on each December 31, commencing December 31, 2022.",
+      "quote_verified": true,
+      "thresholds": [
+        {
+          "value": 10.0,
+          "applies_from": "2022-12-31"
+        }
+      ],
+      "test_frequency": "annually",
+      "springing_condition": null,
+      "addbacks": [],
+      "cash_netting_cap": null,
+      "cash_netting_cap_pct_ebitda": null,
+      "rows": [],
+      "latest": null,
+      "steps": []
+    },
+    {
+      "name": "Interest Coverage Ratio",
+      "metric": "interest_coverage",
+      "direction": "min",
+      "section": "Section 5.04(b)",
+      "quote": "Maintain a ratio of (i) profit excluding income taxes, Interest Expense and Net Gain/(Loss) From Interest Rate Derivatives to (ii) Interest Expense of not less than 1.15 to 1, in each case, calculated at the end of each calendar quarter for the rolling four-quarter period then most recently ended for CFSC and its Subsidiaries on a consolidated basis in accordance with generally accepted accounting principles.",
+      "quote_verified": true,
+      "thresholds": [
+        {
+          "value": 1.15,
+          "applies_from": null
+        }
+      ],
+      "test_frequency": "quarterly",
+      "springing_condition": null,
+      "addbacks": [],
+      "cash_netting_cap": null,
+      "cash_netting_cap_pct_ebitda": null,
+      "rows": [],
+      "latest": null,
+      "steps": []
+    }
+  ],
+  "notes": "Investment-grade, unsecured, ratings-based revolver. The section numbering in the filed text is garbled (e.g. 'SECTION 1.02. Financial Covenant of Caterpillar'). Section references above follow the table of contents and the internal cross-references (Sections 5.03, 5.04(a) and 5.04(b)). The Consolidated Net Worth covenant applies to Caterpillar only. Consolidated Net Worth excludes pension and other post-retirement benefits in AOCI. The Leverage Ratio and Interest Coverage covenants apply to CFSC only. The CFSC Leverage Ratio is debt to net worth, not debt to EBITDA. It has two tests: (i) at all times, measured as the average of the six preceding month-end ratios; and (ii) a point-in-time test on each December 31. CFSC Consolidated Debt excludes non-recourse securitization borrowings. CFSC Net Worth excludes AOCI and non-controlling interests. Interest coverage is pre-tax profit excluding interest expense and interest-rate-derivative gains/losses, over interest expense, on a rolling four quarters. There is no EBITDA definition, so no add-backs apply. Compliance certificates are delivered quarterly and annually. Events of Default are borrower-specific. A CFSC default cross-defaults to CIF and CFKK. Other EoDs include a change of control of the finance subsidiaries and termination of the Caterpillar\u2013CFSC Support Agreement. Amending the Support Agreement requires 30 days' notice and Majority Bank consent if it is adverse. Liens are capped at 10% of Consolidated Net Tangible Assets. Cross-default thresholds are $100M for Caterpillar and $50M for CFSC, CIF and CFKK. Companion 364-day and five-year facilities dated the same day cross-default to this one.",
+  "terms": [
+    {
+      "kind": "j_crew_blocker",
+      "present": "no",
+      "section": null,
+      "quote": null,
+      "summary": "No unrestricted subsidiary concept and no restrictions on transferring or licensing intellectual property.",
+      "quote_verified": null
+    },
+    {
+      "kind": "serta_protection",
+      "present": "no",
+      "section": null,
+      "quote": null,
+      "summary": "Unanimous consent is required for changes to principal, interest, payment dates and pro rata voting thresholds. There is no express provision requiring each affected lender's consent to subordination of the loans or liens. The facility is unsecured.",
+      "quote_verified": null
+    },
+    {
+      "kind": "chewy_protection",
+      "present": "no",
+      "section": null,
+      "quote": null,
+      "summary": "There are no subsidiary guarantors subject to release on ceasing to be wholly owned. The only guaranty is CFSC's guaranty of CIF and CFKK, which cannot be released without all banks under Section 8.01. Change of control of the finance subsidiaries is an Event of Default.",
+      "quote_verified": null
+    },
+    {
+      "kind": "unrestricted_sub_cap",
+      "present": "no",
+      "section": null,
+      "quote": null,
+      "summary": "The agreement has no unrestricted subsidiary designation mechanics and no investment covenant, so there is no cap.",
+      "quote_verified": null
+    },
+    {
+      "kind": "addback_cap",
+      "present": "no",
+      "section": null,
+      "quote": null,
+      "summary": "No EBITDA definition and no add-backs for cost savings, synergies or restructuring. The covenants use net worth, debt to net worth, and GAAP profit-based interest coverage.",
+      "quote_verified": null
+    },
+    {
+      "kind": "equity_cure",
+      "present": "no",
+      "section": null,
+      "quote": null,
+      "summary": "No equity cure right. Breach of a financial covenant becomes an Event of Default if unremedied for 30 days after written notice under Section 6.01(c)(ii).",
+      "quote_verified": null
+    }
+  ],
+  "addback_cap_pct": null,
+  "cov_lite": false,
+  "tightest": null,
+  "accuracy": [
+    {
+      "metric": "other",
+      "period_end": "2025-12-31",
+      "reported": 21.388,
+      "reported_limit": 9.0,
+      "covenant_found": true,
+      "matched": "Leverage Ratio",
+      "our_limit": 10.0,
+      "limit_match": null,
+      "not_graded": "not a standard ratio covenant",
+      "xbrl": null,
+      "adjusted": null,
+      "xbrl_error": null,
+      "adjusted_error": null,
+      "facility": "Credit Facility",
+      "quote": "At December 31, 2025, Caterpillar\u2019s consolidated net worth was $21.388 billion, which was above the $9.000 billion required under the Credit Facility.",
+      "url": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000008/cat-20251231.htm"
+    },
+    {
+      "metric": "interest_coverage",
+      "period_end": "2025-12-31",
+      "reported": 1.53,
+      "reported_limit": 1.15,
+      "covenant_found": true,
+      "matched": "Interest Coverage Ratio",
+      "our_limit": 1.15,
+      "limit_match": true,
+      "not_graded": null,
+      "xbrl": null,
+      "adjusted": null,
+      "xbrl_error": null,
+      "adjusted_error": null,
+      "facility": "Credit Facility",
+      "quote": "At December 31, 2025, Cat Financial\u2019s covenant interest coverage ratio was 1.53 to 1. This was above the 1.15 to 1 minimum ratio",
+      "url": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000008/cat-20251231.htm"
+    },
+    {
+      "metric": "other",
+      "period_end": "2026-03-31",
+      "reported": 8.03,
+      "reported_limit": 10.0,
+      "covenant_found": true,
+      "matched": "Leverage Ratio",
+      "our_limit": 10.0,
+      "limit_match": null,
+      "not_graded": "not a standard ratio covenant",
+      "xbrl": null,
+      "adjusted": null,
+      "xbrl_error": null,
+      "adjusted_error": null,
+      "facility": "Credit Facility",
+      "quote": "In addition, at March 31, 2026, Cat Financial\u2019s six-month covenant leverage ratio was 8.03 to 1. This was below the maximum ratio of debt to net worth of 10 to 1",
+      "url": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000021/cat-20260331.htm"
+    },
+    {
+      "metric": "interest_coverage",
+      "period_end": "2026-06-30",
+      "reported": 1.54,
+      "reported_limit": 1.15,
+      "covenant_found": true,
+      "matched": "Interest Coverage Ratio",
+      "our_limit": 1.15,
+      "limit_match": true,
+      "not_graded": null,
+      "xbrl": null,
+      "adjusted": null,
+      "xbrl_error": null,
+      "adjusted_error": null,
+      "facility": "Credit Facility",
+      "quote": "At June 30, 2026, Cat Financial\u2019s covenant interest coverage ratio was 1.54 to 1. This was above the 1.15 to 1 minimum ratio",
+      "url": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000046/cat-20260630.htm"
+    },
+    {
+      "metric": "other",
+      "period_end": "2026-06-30",
+      "reported": 7.96,
+      "reported_limit": 10.0,
+      "covenant_found": true,
+      "matched": "Leverage Ratio",
+      "our_limit": 10.0,
+      "limit_match": null,
+      "not_graded": "not a standard ratio covenant",
+      "xbrl": null,
+      "adjusted": null,
+      "xbrl_error": null,
+      "adjusted_error": null,
+      "facility": "Credit Facility",
+      "quote": "In addition, at June 30, 2026, Cat Financial\u2019s six-month covenant leverage ratio was 7.96 to 1. This was below the maximum ratio of debt to net worth of 10 to 1",
+      "url": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000046/cat-20260630.htm"
+    },
+    {
+      "metric": "other",
+      "period_end": "2026-09-30",
+      "reported": 8.01,
+      "reported_limit": 10.0,
+      "covenant_found": true,
+      "matched": "Leverage Ratio",
+      "our_limit": 10.0,
+      "limit_match": null,
+      "not_graded": "not a standard ratio covenant",
+      "xbrl": null,
+      "adjusted": null,
+      "xbrl_error": null,
+      "adjusted_error": null,
+      "facility": "Credit Facility",
+      "quote": "In addition, at September 30, 2026, Cat Financial\u2019s nine-month covenant leverage ratio was 8.01 to 1. This was below the maximum ratio of debt to net worth of 10 to 1",
+      "url": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000057/cat-20260930.htm"
+    },
+    {
+      "metric": "interest_coverage",
+      "period_end": "2026-09-30",
+      "reported": 1.53,
+      "reported_limit": 1.15,
+      "covenant_found": true,
+      "matched": "Interest Coverage Ratio",
+      "our_limit": 1.15,
+      "limit_match": true,
+      "not_graded": null,
+      "xbrl": null,
+      "adjusted": null,
+      "xbrl_error": null,
+      "adjusted_error": null,
+      "facility": "Credit Facility",
+      "quote": "At September 30, 2026, Cat Financial\u2019s covenant interest coverage ratio was 1.53 to 1. This was above the 1.15 to 1 minimum ratio",
+      "url": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000057/cat-20260930.htm"
+    }
+  ],
+  "dropped_answer_keys": [
+    {
+      "covenant_name": "Cat Financial six-month covenant leverage ratio (debt to net worth)",
+      "metric": "other",
+      "period_end": "2025-12-31",
+      "actual": 7.65,
+      "limit": 10.0,
+      "direction": "max",
+      "facility": "Credit Facility",
+      "quote": "In addition, at December 31, 2025, Cat Financial\u2019s six-month covenant leverage ratio was 7.65 to 1 and year-end covenant leverage ratio was 8.21 to 1.",
+      "problems": [
+        "limit 10.0 not in quote"
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000008/cat-20251231.htm"
+    },
+    {
+      "covenant_name": "Cat Financial year-end covenant leverage ratio (debt to net worth)",
+      "metric": "other",
+      "period_end": "2025-12-31",
+      "actual": 8.21,
+      "limit": 10.0,
+      "direction": "max",
+      "facility": "Credit Facility",
+      "quote": "In addition, at December 31, 2025, Cat Financial\u2019s six-month covenant leverage ratio was 7.65 to 1 and year-end covenant leverage ratio was 8.21 to 1.",
+      "problems": [
+        "limit 10.0 not in quote"
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000008/cat-20251231.htm"
+    },
+    {
+      "covenant_name": "Cat Financial covenant interest coverage ratio",
+      "metric": "interest_coverage",
+      "period_end": "2026-03-31",
+      "actual": 1.53,
+      "limit": 1.15,
+      "direction": "min",
+      "facility": "Credit Facility",
+      "quote": "At March 31, 2026, Cat Financial\u2019s covenant interest coverage ratio was 1.53 to 1.",
+      "problems": [
+        "limit 1.15 not in quote"
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000021/cat-20260331.htm"
+    }
+  ],
+  "adjusted_ebitda": [],
+  "financials_sources": {
+    "debt": "not reported",
+    "cash": "CashAndCashEquivalentsAtCarryingValue",
+    "operating income": "OperatingIncomeLoss",
+    "D&A": "DepreciationDepletionAndAmortization",
+    "interest": "not reported",
+    "stock comp": "AllocatedShareBasedCompensationExpense",
+    "impairments": "GoodwillImpairmentLoss",
+    "restructuring": "RestructuringCharges"
+  },
+  "compliance": {
+    "filed": "2026-11-04",
+    "form": "10-Q",
+    "url": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000057/cat-20260930.htm",
+    "sentences": []
+  }
+}

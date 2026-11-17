@@ -1,0 +1,19 @@
+{
+  "job": "ratio-1123494-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1123494/000117184326007336/hbio20260930_10q.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 2171,
+    "output_tokens": 151,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [],
+    "notes": "The excerpt describes the prior Credit Agreement's financial covenants: a maximum consolidated net leverage ratio and a minimum consolidated fixed charge coverage ratio. It gives no actual values or limits for them. That agreement appears to have been replaced by the December 17, 2025 Loan and Security Agreement with BroadOak, and the excerpt discloses no covenant ratios for the new agreement."
+  }
+}

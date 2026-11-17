@@ -1,0 +1,19 @@
+{
+  "job": "ratio-49754-2026-09-27",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/49754/000162828026069796/din-20260927.htm",
+    "period": "2026-09-27"
+  },
+  "usage": {
+    "input_tokens": 2911,
+    "output_tokens": 481,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [],
+    "notes": "Dine Brands' debt here is a whole-business securitization governed by an Indenture: the Class A-2 Notes plus the Series 2025-1 Class A-1 variable funding notes, which the filing calls the 'Credit Facility'. It is not a bank credit agreement. The leverage ratio of approximately 5.10x at September 27, 2026 against 5.25x only determines whether quarterly principal payments on the A-2 Notes may be suspended. It is not a maintenance covenant, so it is excluded. The DSCR thresholds (1.75x cash trapping event, 1.20x rapid amortization and manager termination events) are securitization performance triggers under the Indenture. No actual DSCR values are given, so these are also excluded."
+  }
+}

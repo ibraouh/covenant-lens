@@ -1,0 +1,30 @@
+{
+  "job": "ratio-1873529-2026-10-03",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1873529/000119312526458658/klc-20261003.htm",
+    "period": "2026-10-03"
+  },
+  "usage": {
+    "input_tokens": 3890,
+    "output_tokens": 667,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "Quarterly maximum First Lien Term Loan Facility net leverage ratio",
+        "metric": "secured_net_leverage",
+        "period_end": "2026-10-03",
+        "actual": null,
+        "limit": null,
+        "direction": "max",
+        "facility": "Credit Agreement (First Lien Term Loan Facility / First Lien Revolving Credit Facility)",
+        "quote": "As this threshold was not met as of October 3, 2026 the quarterly maximum First Lien Term Loan Facility net leverage ratio financial covenant was not in effect."
+      }
+    ],
+    "notes": "This is a springing covenant. It is tested only if revolving loans outstanding, excluding letters of credit, exceed 35% of total revolving commitments at quarter-end. That threshold was not met at October 3, 2026, when no revolver borrowings were outstanding, so the covenant was not in effect. The filing gives no actual ratio or maximum level. The company states it was in compliance with all Credit Agreement covenants. Net leverage references used for the revolver interest margin and commitment fee pricing grid are excluded."
+  }
+}

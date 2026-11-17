@@ -1,0 +1,124 @@
+{
+  "job": "read-1681622-15a80da48d-haiku55",
+  "model": "claude-haiku-5-5",
+  "meta": {
+    "cik": "1681622",
+    "docs": [
+      "https://www.sec.gov/Archives/edgar/data/1681622/000168162226000035/exhibit101-creditandguaran.htm"
+    ]
+  },
+  "usage": {
+    "input_tokens": 252424,
+    "output_tokens": 2317,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "borrower": "Varex Imaging Corporation",
+    "agreement_date": "2026-03-13",
+    "covenants": [
+      {
+        "name": "Consolidated Total Net Leverage Ratio",
+        "metric": "net_leverage",
+        "direction": "max",
+        "thresholds": [
+          {
+            "value": 4.25,
+            "applies_from": null
+          },
+          {
+            "value": 4.0,
+            "applies_from": "2027-12-31"
+          },
+          {
+            "value": 3.75,
+            "applies_from": "2028-12-31"
+          }
+        ],
+        "test_frequency": "quarterly",
+        "springing_condition": null,
+        "section": "Section 6.12(a)",
+        "quote": "The Parent Borrower shall not permit the Consolidated Total Net Leverage Ratio, on the last day of any Fiscal Quarter, to be greater than the ratio set forth below opposite such Fiscal Quarter:",
+        "ebitda_addbacks": [
+          "stock_comp",
+          "impairments",
+          "restructuring",
+          "other"
+        ],
+        "cash_netting_cap": 100000000.0,
+        "cash_netting_cap_pct_ebitda": null
+      },
+      {
+        "name": "Consolidated Fixed Charge Coverage Ratio",
+        "metric": "fixed_charge_coverage",
+        "direction": "min",
+        "thresholds": [
+          {
+            "value": 1.2,
+            "applies_from": null
+          }
+        ],
+        "test_frequency": "quarterly",
+        "springing_condition": null,
+        "section": "Section 6.12(b)",
+        "quote": "The Parent Borrower shall not permit the Consolidated Fixed Charge Coverage Ratio, on the last day of any Fiscal Quarter, to be less than 1.20:1.00.",
+        "ebitda_addbacks": [
+          "stock_comp",
+          "impairments",
+          "restructuring",
+          "other"
+        ],
+        "cash_netting_cap": null,
+        "cash_netting_cap_pct_ebitda": null
+      }
+    ],
+    "notes": "Two maintenance covenants in Section 6.12. The leverage covenant steps down from 4.25x to 4.00x for fiscal quarters from December 2027 and to 3.75x from December 2028, with a 0.50x temporary step-up after a Permitted Acquisition of at least $125,000,000, capped at 4.50x and lasting for that quarter plus three succeeding quarters; the step-up is not modeled as a separate threshold. The applies_from dates are approximate fiscal-quarter-end mappings of the stated periods. Consolidated Adjusted EBITDA add-backs include non-cash stock compensation (clause 11), non-cash charges and impairments (clause 5 and Consolidated Net Income exclusions), and restructuring and cost-savings charges capped at 20% of Consolidated Adjusted EBITDA together with run-rate synergies (clauses 13 and 14). The net debt cash netting is capped at $100,000,000. The agreement contains no equity cure right. The Applicable Margin grid is pricing, not a covenant. Section 6.12 is a maintenance test; Section 2.25(f)(iii) and Section 4.02(e) apply the leverage ratio to incremental debt and delayed-draw funding.",
+    "facility": "$100M revolving credit facility (maturing March 13, 2031), $350M initial term loan, and $40M delayed-draw term loan (available for two years), total $490M commitments.",
+    "terms": [
+      {
+        "kind": "j_crew_blocker",
+        "present": "partial",
+        "section": "Section 1.01 (definition of Unrestricted Subsidiary); Section 6.02 (final paragraph); Section 6.04 (proviso)",
+        "quote": "neither such Subsidiary nor any of its Subsidiaries may own or hold exclusive rights to, at the time of designation or at any time thereafter, any Intellectual Property material to the Parent Borrower, any of its Subsidiaries or the business of any of the foregoing;",
+        "summary": "Designating an unrestricted subsidiary is barred if it holds exclusive rights to material IP, and no Restricted Payment or Investment of material IP owned by the Parent Borrower or a Loan Party is permitted, but there is no express ban on transferring IP to unrestricted subsidiaries via disposition or exclusive license, and no Loan Party may be designated unrestricted at all."
+      },
+      {
+        "kind": "serta_protection",
+        "present": "yes",
+        "section": "Section 9.02(b)(viii)",
+        "quote": "contractually subordinate (A) any of the Obligations in right of payment or otherwise adversely affect the priority of payment of any of such Obligations or (B) any of the Liens securing the Obligations, in each case without the consent of each Lender,",
+        "summary": "Subordinating the loans or their liens, or otherwise adversely affecting their priority of payment, requires the consent of each Lender, which covers non-pro-rata exchanges that would subordinate the loans."
+      },
+      {
+        "kind": "chewy_protection",
+        "present": "partial",
+        "section": "Section 8.12(a)(iii); Section 10.12(a)",
+        "quote": "any Guarantor shall automatically be released from its obligations under its Guaranty if such Person ceases to be a Subsidiary as a result of a transaction permitted under the Loan Documents or as otherwise set forth in Section 10.12.",
+        "summary": "A guarantor is released when it ceases to be a Subsidiary through a permitted transaction, and Section 10.12(a) also releases a Loan Party on a sale to a non-affiliate, but there is no express protection stating that a guarantor is not released merely because it stops being wholly owned."
+      },
+      {
+        "kind": "unrestricted_sub_cap",
+        "present": "partial",
+        "section": "Section 1.01 (definition of Permitted Investments, clauses (10) and (15)); Section 6.02",
+        "quote": "Investments in Unrestricted Subsidiaries and Joint Ventures in an aggregate principal amount at any time outstanding (after giving effect to any cash returns or other payments in respect of any such Investment) not exceeding the greater of (i) $25,000,000 or (ii) 25% of Consolidated Adjusted EBITDA",
+        "summary": "Investments in unrestricted subsidiaries and joint ventures are capped at the greater of $25 million or 25% of Consolidated Adjusted EBITDA, and designation requires pro forma compliance with the Payment Conditions, but the cap is not a standalone hard limit on designation of unrestricted subsidiaries."
+      },
+      {
+        "kind": "addback_cap",
+        "present": "yes",
+        "section": "Section 1.01 (definition of Consolidated Adjusted EBITDA, clauses (13) and (14))",
+        "quote": "in an aggregate amount not to exceed 20% (when taken together with amounts added under clause (14) below) of Consolidated Adjusted EBITDA in such Measurement Period",
+        "summary": "Restructuring, cost-savings and run-rate synergy add-backs are together capped at 20% of Consolidated Adjusted EBITDA for the measurement period."
+      },
+      {
+        "kind": "equity_cure",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "The agreement contains no equity cure right permitting the borrower to cure a financial covenant default with new equity."
+      }
+    ],
+    "addback_cap_pct": 0.2
+  }
+}

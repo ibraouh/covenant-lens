@@ -1,0 +1,177 @@
+[
+  {
+    "cik": "1023731",
+    "name": "8x8",
+    "gold": true,
+    "docs": [
+      "https://www.sec.gov/Archives/edgar/data/1023731/000102373124000062/a8x8_ex101xcreditagreeme.htm",
+      "https://www.sec.gov/Archives/edgar/data/1023731/000102373125000070/a101_firstamendmenttoter.htm"
+    ]
+  },
+  {
+    "cik": "911177",
+    "name": "casella",
+    "gold": true,
+    "docs": [
+      "https://www.sec.gov/Archives/edgar/data/911177/000119312524228456/d823888dex101.htm"
+    ]
+  },
+  {
+    "cik": "1681622",
+    "name": "varex",
+    "gold": true,
+    "docs": [
+      "https://www.sec.gov/Archives/edgar/data/1681622/000168162226000035/exhibit101-creditandguaran.htm"
+    ]
+  },
+  {
+    "cik": "1481792",
+    "name": "Quad/Graphics, Inc.",
+    "sic": 2750
+  },
+  {
+    "cik": "1766368",
+    "name": "Mayville Engineering Company, Inc.",
+    "sic": 3460
+  },
+  {
+    "cik": "1280058",
+    "name": "BLACKBAUD INC",
+    "sic": 7372
+  },
+  {
+    "cik": "2104052",
+    "name": "Enviri Corp",
+    "sic": 4953
+  },
+  {
+    "cik": "1728688",
+    "name": "i3 Verticals, Inc.",
+    "sic": 7372
+  },
+  {
+    "cik": "1171486",
+    "name": "NATURAL RESOURCE PARTNERS LP",
+    "sic": 1221
+  },
+  {
+    "cik": "17843",
+    "name": "CARPENTER TECHNOLOGY CORP",
+    "sic": 3312
+  },
+  {
+    "cik": "1561680",
+    "name": "Tri Pointe Homes, Inc.",
+    "sic": 1531
+  },
+  {
+    "cik": "1013880",
+    "name": "TTEC Holdings, Inc.",
+    "sic": 7363
+  },
+  {
+    "cik": "832101",
+    "name": "IDEX CORP /DE/",
+    "sic": 3561
+  },
+  {
+    "cik": "18230",
+    "name": "CATERPILLAR INC",
+    "sic": 3531
+  },
+  {
+    "cik": "319201",
+    "name": "KLA CORP",
+    "sic": 3827
+  },
+  {
+    "cik": "1377630",
+    "name": "National CineMedia, Inc.",
+    "sic": 7310
+  },
+  {
+    "cik": "712034",
+    "name": "ACCO BRANDS Corp",
+    "sic": 2780
+  },
+  {
+    "cik": "825542",
+    "name": "SCOTTS MIRACLE-GRO CO",
+    "sic": 2870
+  },
+  {
+    "cik": "917520",
+    "name": "INTEGRA LIFESCIENCES HOLDINGS CORP",
+    "sic": 3841
+  },
+  {
+    "cik": "885725",
+    "name": "BOSTON SCIENTIFIC CORP",
+    "sic": 3841
+  },
+  {
+    "cik": "89089",
+    "name": "SERVICE CORP INTERNATIONAL",
+    "sic": 7200
+  },
+  {
+    "cik": "2014596",
+    "name": "Concentra Group Holdings Parent, Inc.",
+    "sic": 8093
+  },
+  {
+    "cik": "824142",
+    "name": "AAON, INC.",
+    "sic": 3585
+  },
+  {
+    "cik": "886346",
+    "name": "KADANT INC",
+    "sic": 3550
+  },
+  {
+    "cik": "37785",
+    "name": "FMC CORP",
+    "sic": 2800
+  },
+  {
+    "cik": "799292",
+    "name": "M/I HOMES, INC.",
+    "sic": 1531
+  },
+  {
+    "cik": "833079",
+    "name": "Meritage Homes CORP",
+    "sic": 1531
+  },
+  {
+    "cik": "77543",
+    "name": "TUTOR PERINI CORP",
+    "sic": 1540
+  },
+  {
+    "cik": "1076930",
+    "name": "NOVANTA INC",
+    "sic": 3690
+  },
+  {
+    "cik": "71557",
+    "name": "Nuvera Communications, Inc.",
+    "sic": 4813
+  },
+  {
+    "cik": "1345126",
+    "name": "Compass Diversified Holdings",
+    "sic": 2510
+  },
+  {
+    "cik": "795266",
+    "name": "KB HOME",
+    "sic": 1531
+  },
+  {
+    "cik": "1408075",
+    "name": "GRAPHIC PACKAGING HOLDING CO",
+    "sic": 2650
+  }
+]

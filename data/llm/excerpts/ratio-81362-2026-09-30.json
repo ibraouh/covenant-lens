@@ -1,0 +1,30 @@
+{
+  "job": "ratio-81362-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/81362/000162828026068284/kwr-20260930.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 6206,
+    "output_tokens": 359,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "consolidated net leverage ratio",
+        "metric": "net_leverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 4.25,
+        "direction": "max",
+        "facility": "Credit Agreement (Credit Facility)",
+        "quote": "Generally, the consolidated net leverage ratio at the end of a quarter may not be greater than 4.25 to 1.00, subject to a permitted increase during a four-quarter period after certain acquisitions."
+      }
+    ],
+    "notes": "Actual net leverage not disclosed; company states compliance with all Credit Facility covenants as of 2026-09-30. Interest coverage covenant exists but no limit or actual is given, so it is not listed. The 4.25x limit is the general maximum and may be temporarily increased after certain acquisitions. Excluded: the 3.00x restricted-payment threshold, the excess cash flow sweep tiers (3.75x and 3.25x), the incremental facility incurrence tests (3.50x first lien and 4.00x secured), and pricing and commitment-fee grids."
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "job": "ebitda-886346-9d417d0e4a",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/886346/000088634626000011/kaiform8kex992q425.htm",
+    "filed": "2026-02-18"
+  },
+  "usage": {
+    "input_tokens": 6900,
+    "output_tokens": 831,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "label": "Adjusted EBITDA",
+    "figures": [
+      {
+        "period_end": "2026-01-03",
+        "months": 3,
+        "shown": "57,994",
+        "unit": "thousands",
+        "quote": "Adjusted EBITDA* $57,994 $52,449 $216,308 $229,716"
+      },
+      {
+        "period_end": "2024-12-28",
+        "months": 3,
+        "shown": "52,449",
+        "unit": "thousands",
+        "quote": "Adjusted EBITDA* $57,994 $52,449 $216,308 $229,716"
+      },
+      {
+        "period_end": "2026-01-03",
+        "months": 12,
+        "shown": "216,308",
+        "unit": "thousands",
+        "quote": "Adjusted EBITDA* $57,994 $52,449 $216,308 $229,716"
+      },
+      {
+        "period_end": "2024-12-28",
+        "months": 12,
+        "shown": "229,716",
+        "unit": "thousands",
+        "quote": "Adjusted EBITDA* $57,994 $52,449 $216,308 $229,716"
+      }
+    ],
+    "notes": "Figures are taken from the Adjusted EBITDA reconciliation table ($ in thousands). The summary slides show the same results rounded in millions: Q4 25 $58.0, Q4 24 $52.4, FY 25 $216.3 and FY 24 $229.7. The excerpt does not state the period-end dates. They are inferred from Kadant's 52/53-week fiscal calendar, which ends on the Saturday closest to December 31: fiscal 2025 ended 2026-01-03 and fiscal 2024 ended 2024-12-28. Segment adjusted EBITDA figures (Flow Control, Industrial Processing, Material Handling) are excluded."
+  }
+}

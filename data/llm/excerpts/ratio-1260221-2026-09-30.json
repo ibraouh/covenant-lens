@@ -1,0 +1,30 @@
+{
+  "job": "ratio-1260221-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1260221/000126022126000077/tdg-20260930.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 2481,
+    "output_tokens": 627,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "maximum consolidated net leverage ratio of net debt to trailing four-quarter EBITDA As Defined",
+        "metric": "net_leverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 7.5,
+        "direction": "max",
+        "facility": "Credit Agreement (revolving credit facility)",
+        "quote": "Under the Credit Agreement, if the usage of the revolving credit facility exceeds 40% (or, currently, $364 million) of the total revolving commitments, the Company is required to maintain a maximum consolidated net leverage ratio of net debt to trailing four-quarter EBITDA As Defined of 7.50x (or, solely with respect to the first four fiscal quarters ending after the consummation of any material acquisition, 8.00x) as of the last day of the fiscal quarter."
+      }
+    ],
+    "notes": "This is a springing covenant that applies only when revolver usage exceeds 40% of commitments, currently $364 million. The limit steps up to 8.00x for the four quarters after a material acquisition. The filing gives no actual ratio; it says only that the company was in compliance as of September 30, 2026. The 7.25x net leverage and 5.00x secured net debt conditions apply to incremental term loans or revolving commitments. Those are incurrence conditions, not maintenance covenants, so they are excluded."
+  }
+}

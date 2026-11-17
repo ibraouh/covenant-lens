@@ -1,0 +1,35 @@
+{
+  "job": "ebitda-886346-06d96c7992",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/886346/000088634626000049/kaiform8kex992q226.htm",
+    "filed": "2026-08-04"
+  },
+  "usage": {
+    "input_tokens": 5745,
+    "output_tokens": 321,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "label": "Adjusted EBITDA",
+    "figures": [
+      {
+        "period_end": "2026-06-30",
+        "months": 3,
+        "shown": "68,104",
+        "unit": "thousands",
+        "quote": "Adjusted EBITDA* $68,104 $52,378"
+      },
+      {
+        "period_end": "2025-06-30",
+        "months": 3,
+        "shown": "52,378",
+        "unit": "thousands",
+        "quote": "Adjusted EBITDA* $68,104 $52,378"
+      }
+    ],
+    "notes": "Figures are from the Adjusted EBITDA* reconciliation table ($ in thousands). Summary slides show the same amounts in millions: $68.1 for Q2 2026 and $52.4 for Q2 2025. Period ends are assumed to be calendar quarter ends (June 30); Kadant's fiscal quarters may end on a nearby Saturday. Segment adjusted EBITDA (Flow Control, Industrial Processing, Material Handling) is excluded. No year-to-date figures are shown."
+  }
+}

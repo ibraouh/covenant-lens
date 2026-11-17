@@ -1,0 +1,19 @@
+{
+  "job": "ratio-916789-2026-08-31",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/916789/000091678926000138/hele-20260831.htm",
+    "period": "2026-08-31"
+  },
+  "usage": {
+    "input_tokens": 3875,
+    "output_tokens": 303,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [],
+    "notes": "The excerpt names a maximum Leverage Ratio covenant in the Credit Agreement but gives neither the actual ratio nor the limit. It says only that the company was in compliance as of 2026-08-31 and that the covenant capped additional debt at $277.3 million. The 3.25x Leverage Ratio is a pro-forma condition for the accordion feature, not a maintenance covenant. The Net Leverage Ratio only sets the interest margin and fees. Both are excluded."
+  }
+}

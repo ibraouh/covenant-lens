@@ -1,0 +1,145 @@
+{
+  "reports": [
+    {
+      "form": "10-Q",
+      "filed": "2026-11-10",
+      "period": "2026-10-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/886346/000088634626000064/kai-20261003.htm",
+      "job": "ratio-886346-2026-10-03"
+    },
+    {
+      "form": "10-Q",
+      "filed": "2026-08-12",
+      "period": "2026-07-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/886346/000088634626000052/kai-20260704.htm",
+      "job": "ratio-886346-2026-07-04"
+    },
+    {
+      "form": "10-Q",
+      "filed": "2026-05-13",
+      "period": "2026-04-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/886346/000088634626000040/kai-20260404.htm",
+      "job": "ratio-886346-2026-04-04"
+    },
+    {
+      "form": "10-K",
+      "filed": "2026-03-03",
+      "period": "2026-01-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/886346/000088634626000018/kai-20260103.htm",
+      "job": "ratio-886346-2026-01-03"
+    }
+  ],
+  "releases": [
+    {
+      "filed": "2026-11-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/886346/000088634626000059/kaiform8kex992q326.htm",
+      "job": "ebitda-886346-e44222aeb5"
+    },
+    {
+      "filed": "2026-08-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/886346/000088634626000049/kaiform8kex992q226.htm",
+      "job": "ebitda-886346-06d96c7992"
+    },
+    {
+      "filed": "2026-05-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/886346/000088634626000037/kaiform8kex992q126.htm",
+      "job": "ebitda-886346-52733aa749"
+    },
+    {
+      "filed": "2026-02-18",
+      "url": "https://www.sec.gov/Archives/edgar/data/886346/000088634626000011/kaiform8kex992q425.htm",
+      "job": "ebitda-886346-9d417d0e4a"
+    },
+    {
+      "filed": "2025-10-28",
+      "url": "https://www.sec.gov/Archives/edgar/data/886346/000088634625000117/kaiform8kex992q325.htm",
+      "job": "ebitda-886346-5b827efbb7"
+    }
+  ],
+  "exhibits": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/886346/000088634616000246/kaiform10q1q2016exhibit101.htm",
+      "filed": "2016-05-11",
+      "exhibit": "EX-10.1",
+      "chars": 20284,
+      "job": "cover-886346-478a8433ed"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/886346/000088634617000100/kaiform10q2q2017exhibit101.htm",
+      "filed": "2017-08-09",
+      "exhibit": "EX-10.1",
+      "chars": 18416,
+      "job": "cover-886346-45d0633c8e"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/886346/000088634619000019/kai2018ex10252ndamendment-.htm",
+      "filed": "2019-02-26",
+      "exhibit": "EX-10.25",
+      "chars": 28870,
+      "job": "cover-886346-af4142997d"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/886346/000088634619000019/kai2018ex1024limitedconsen.htm",
+      "filed": "2019-02-26",
+      "exhibit": "EX-10.24",
+      "chars": 15615,
+      "job": "cover-886346-d0f463e863"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/886346/000088634619000019/kai2018ex1028prushelf.htm",
+      "filed": "2019-02-26",
+      "exhibit": "EX-10.28",
+      "chars": 349258,
+      "job": "cover-886346-3836c8778a"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/886346/000088634620000071/kaiform10q1q2020ex102.htm",
+      "filed": "2020-05-06",
+      "exhibit": "EX-10.2",
+      "chars": 12298,
+      "job": "cover-886346-e3634e3873"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/886346/000088634621000117/fourthamendmenttothecredit.htm",
+      "filed": "2021-08-11",
+      "exhibit": "EX-10.1",
+      "chars": 16511,
+      "job": "cover-886346-9e32e74bbe"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/886346/000088634621000117/joinderagreementex102.htm",
+      "filed": "2021-08-11",
+      "exhibit": "EX-10.2",
+      "chars": 4407,
+      "job": "cover-886346-a5b57bdeac"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/886346/000088634622000018/kai2021ex1021.htm",
+      "filed": "2022-03-01",
+      "exhibit": "EX-10.21",
+      "chars": 440640,
+      "job": "cover-886346-11fdbf9f2c"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/886346/000088634623000019/kai2022ex1021.htm",
+      "filed": "2023-02-28",
+      "exhibit": "EX-10.21",
+      "chars": 457890,
+      "job": "cover-886346-7bdfea3fe6"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/886346/000088634624000132/exhibit102seventhamendme.htm",
+      "filed": "2024-08-07",
+      "exhibit": "EX-10.2",
+      "chars": 457632,
+      "job": "cover-886346-61e749f287"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/886346/000088634625000109/exhibit101citizens-kadan.htm",
+      "filed": "2025-10-02",
+      "exhibit": "EX-10.1",
+      "chars": 462654,
+      "job": "cover-886346-cdef6b82d4"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "job": "cover-799292-75fb1229db",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/799292/000079929221000073/fifthamendmenttosecondarmo.htm"
+  },
+  "usage": {
+    "input_tokens": 3096,
+    "output_tokens": 125,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "is_loan_document": true,
+    "kind": "amendment",
+    "title": "Fifth Amendment to Second Amended and Restated Mortgage Warehousing Agreement",
+    "dated": "2021-05-28",
+    "amends_dated": "2016-06-24",
+    "primary_bank_facility": false,
+    "includes_conformed_copy": true,
+    "borrower": "M/I Financial, LLC"
+  }
+}

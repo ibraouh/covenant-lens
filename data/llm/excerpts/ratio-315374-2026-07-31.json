@@ -1,0 +1,30 @@
+{
+  "job": "ratio-315374-2026-07-31",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/315374/000110465926105453/hurc-20260731x10q.htm",
+    "period": "2026-07-31"
+  },
+  "usage": {
+    "input_tokens": 3566,
+    "output_tokens": 546,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "maximum consolidated leverage ratio of total debt to EBITDA",
+        "metric": "total_leverage",
+        "period_end": "2026-07-31",
+        "actual": null,
+        "limit": 2.0,
+        "direction": "max",
+        "facility": "2026 Credit Agreement",
+        "quote": "requiring that we maintain a maximum consolidated leverage ratio of total debt to EBITDA no greater than 2.00 to 1.00"
+      }
+    ],
+    "notes": "The filing does not report an actual leverage ratio. Hurco had no debt outstanding at July 31, 2026. Its consolidated EBITDA for the trailing twelve months was negative. Under the covenant, EBITDA is floored at $1.00, so the company is effectively barred from borrowing until trailing EBITDA turns positive. The same 2.00x limit appears twice in the excerpt, once in the notes and once in MD&A."
+  }
+}

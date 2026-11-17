@@ -1,0 +1,21 @@
+{
+  "auto": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1681622/000168162226000035/exhibit101-creditandguaran.htm",
+      "title": "Credit and Guaranty Agreement",
+      "dated": "2026-03-13",
+      "kind": "original",
+      "filed": "2026-03-16"
+    }
+  ],
+  "notes": [],
+  "used": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1681622/000168162226000035/exhibit101-creditandguaran.htm",
+      "title": "Credit and Guaranty Agreement",
+      "dated": "2026-03-13",
+      "kind": "hand-picked"
+    }
+  ],
+  "source": "hand-picked"
+}

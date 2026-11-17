@@ -1,0 +1,24 @@
+{
+  "job": "cover-1280058-61604f30bc",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1280058/000128005824000037/blkbq1202410-qexx101.htm"
+  },
+  "usage": {
+    "input_tokens": 3241,
+    "output_tokens": 107,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "is_loan_document": true,
+    "kind": "amendment",
+    "title": "Third Amendment to Credit Agreement",
+    "dated": "2024-04-30",
+    "amends_dated": "2020-10-30",
+    "primary_bank_facility": true,
+    "includes_conformed_copy": true,
+    "borrower": "Blackbaud, Inc."
+  }
+}

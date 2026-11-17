@@ -1,0 +1,30 @@
+{
+  "job": "ratio-2041610-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/2041610/000204161026000067/skyd-20260930.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 6022,
+    "output_tokens": 407,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "Consolidated Total Leverage Ratio",
+        "metric": "net_leverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 4.5,
+        "direction": "max",
+        "facility": "Unsecured Credit Facility",
+        "quote": "The maximum ratio was 4.50 x as of September 30, 2026 and we met the covenant."
+      }
+    ],
+    "notes": "The Unsecured Credit Facility covenant (net of up to $3.0 billion of unrestricted cash) was met at 9/30/2026, but the filing gives no actual ratio. That facility was terminated on the WBD Merger Closing Date, after the quarter end. The new Pro Rata Credit Agreement (a subsequent event) sets a Leverage Ratio of at most 5.50x and a First Lien Net Leverage Ratio of at most 3.25x. After the Investment Grade Fall-Away Date, the first lien covenant drops away and the Leverage Ratio limit becomes 4.50x. These Pro Rata covenants were not yet tested at any period end disclosed, so they are not listed as dated entries. Leverage Ratio-based pricing margins on the Term B-1 Loans are excluded."
+  }
+}

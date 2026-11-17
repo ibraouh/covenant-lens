@@ -1,0 +1,63 @@
+{
+  "reports": [
+    {
+      "form": "10-Q",
+      "filed": "2026-10-29",
+      "period": "2026-09-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/89089/000008908926000098/sci-20260930.htm",
+      "job": "ratio-89089-2026-09-30"
+    },
+    {
+      "form": "10-Q",
+      "filed": "2026-07-30",
+      "period": "2026-06-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/89089/000008908926000081/sci-20260630.htm",
+      "job": "ratio-89089-2026-06-30"
+    },
+    {
+      "form": "10-Q",
+      "filed": "2026-04-30",
+      "period": "2026-03-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/89089/000008908926000034/sci-20260331.htm",
+      "job": "ratio-89089-2026-03-31"
+    },
+    {
+      "form": "10-K",
+      "filed": "2026-02-12",
+      "period": "2025-12-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/89089/000162828026007695/sci-20251231.htm",
+      "job": "ratio-89089-2025-12-31"
+    }
+  ],
+  "releases": [],
+  "exhibits": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/89089/000119312516492789/d144283dex101.htm",
+      "filed": "2016-03-04",
+      "exhibit": "EX-10.1",
+      "chars": 399429,
+      "job": "cover-89089-6b4197799e"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/89089/000119312519154943/d752865dex101.htm",
+      "filed": "2019-05-23",
+      "exhibit": "EX-10.1",
+      "chars": 326414,
+      "job": "cover-89089-ab249d0b13"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/89089/000110465923003256/tm233187d1_ex10-1.htm",
+      "filed": "2023-01-12",
+      "exhibit": "EX-10.1",
+      "chars": 391573,
+      "job": "cover-89089-cb33e855f4"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/89089/000008908925000097/sci2025creditagreement.htm",
+      "filed": "2025-11-21",
+      "exhibit": "EX-10.1",
+      "chars": 499530,
+      "job": "cover-89089-9434e29f89"
+    }
+  ]
+}

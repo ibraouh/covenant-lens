@@ -1,0 +1,30 @@
+{
+  "job": "ratio-1282637-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1282637/000128263726000020/neu-20260930.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 2157,
+    "output_tokens": 255,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "consolidated Leverage Ratio",
+        "metric": "total_leverage",
+        "period_end": "2026-09-30",
+        "actual": 1.14,
+        "limit": 3.75,
+        "direction": "max",
+        "facility": "revolving credit facility",
+        "quote": "At September 30, 2026, the Leverage Ratio was 1.14 under the revolving credit facility."
+      }
+    ],
+    "notes": "Limit of 3.75 to 1.00 applies except during an Increased Leverage Period (as defined in the agreement), when a higher limit may apply. The 3.78% senior notes have substantially similar financial covenants, but the ratio reported is for the revolving credit facility. The debt-to-total-capitalization percentage (30.1%) is not a covenant and is excluded."
+  }
+}

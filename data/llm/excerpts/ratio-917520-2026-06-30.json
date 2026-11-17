@@ -1,0 +1,30 @@
+{
+  "job": "ratio-917520-2026-06-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/917520/000091752026000058/iart-20260630.htm",
+    "period": "2026-06-30"
+  },
+  "usage": {
+    "input_tokens": 4488,
+    "output_tokens": 371,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "Consolidated Total Leverage Ratio",
+        "metric": "net_leverage",
+        "period_end": "2026-06-30",
+        "actual": 4.1,
+        "limit": 5.0,
+        "direction": "max",
+        "facility": "Senior Credit Facility",
+        "quote": "Our Consolidated Total Leverage Ratio was 4.10, with the covenant requirement at 5.00 at the end of June 30, 2026."
+      }
+    ],
+    "notes": "The Consolidated Total Leverage Ratio is defined as funded debt less unrestricted cash divided by EBITDA, which makes it a net leverage measure despite its name. Under the June 2025 Amendment, the maximum steps down: 5.00x through June 30, 2026; 4.75x at September 30, 2026; 4.50x at December 31, 2026; and 4.00x from March 31, 2027 onward. Only the step-down schedule is given for future quarters, with no actual values, so those quarters are not listed as separate entries. The Securitization Facility has its own financial covenants, which are not quantified in the excerpt; there, the ratio only sets fees."
+  }
+}

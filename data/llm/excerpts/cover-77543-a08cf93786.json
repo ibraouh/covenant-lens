@@ -1,0 +1,24 @@
+{
+  "job": "cover-77543-a08cf93786",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/77543/000007754320000043/exh101-tpcxcreditagreeme.htm"
+  },
+  "usage": {
+    "input_tokens": 2292,
+    "output_tokens": 94,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "is_loan_document": true,
+    "kind": "original",
+    "title": "Credit Agreement",
+    "dated": "2020-08-18",
+    "amends_dated": null,
+    "primary_bank_facility": true,
+    "includes_conformed_copy": false,
+    "borrower": "Tutor Perini Corporation"
+  }
+}

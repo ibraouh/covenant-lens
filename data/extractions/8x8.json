@@ -1,0 +1,73 @@
+{
+  "borrower": "8x8, Inc.",
+  "agreement_date": "2024-07-11",
+  "covenants": [
+    {
+      "name": "Consolidated Total Net Leverage Ratio",
+      "metric": "net_leverage",
+      "direction": "max",
+      "thresholds": [
+        {
+          "value": 4.5,
+          "applies_from": null
+        }
+      ],
+      "test_frequency": "quarterly",
+      "springing_condition": null,
+      "section": "Section 9.16(a) (as amended by First Amendment dated July 29, 2025)",
+      "quote": "As of the last day of any fiscal quarter (commencing with the fiscal quarter ending September 30, 2024), the Borrower shall not permit the Consolidated Total Net Leverage Ratio to be greater than 4.50 to 1.00.",
+      "ebitda_addbacks": [
+        "stock_comp",
+        "impairments",
+        "other"
+      ],
+      "cash_netting_cap": null,
+      "cash_netting_cap_pct_ebitda": 0.5
+    },
+    {
+      "name": "Consolidated Secured Leverage Ratio",
+      "metric": "secured_leverage",
+      "direction": "max",
+      "thresholds": [
+        {
+          "value": 2.5,
+          "applies_from": null
+        }
+      ],
+      "test_frequency": "quarterly",
+      "springing_condition": null,
+      "section": "Section 9.16(b)",
+      "quote": "As of the last day of any fiscal quarter (commencing with the fiscal quarter ending September 30, 2024), the Borrower shall not permit the Consolidated Secured Leverage Ratio to be greater than 2.50 to 1.00.",
+      "ebitda_addbacks": [
+        "stock_comp",
+        "impairments",
+        "other"
+      ],
+      "cash_netting_cap": null,
+      "cash_netting_cap_pct_ebitda": null
+    },
+    {
+      "name": "Consolidated Interest Coverage Ratio",
+      "metric": "interest_coverage",
+      "direction": "min",
+      "thresholds": [
+        {
+          "value": 3.0,
+          "applies_from": null
+        }
+      ],
+      "test_frequency": "quarterly",
+      "springing_condition": null,
+      "section": "Section 9.16(c)",
+      "quote": "As of the last day of any fiscal quarter (commencing with the fiscal quarter ending September 30, 2024), the Borrower shall not permit the Consolidated Interest Coverage Ratio to be less than 3.00 to 1.00.",
+      "ebitda_addbacks": [
+        "stock_comp",
+        "impairments",
+        "other"
+      ],
+      "cash_netting_cap": null,
+      "cash_netting_cap_pct_ebitda": null
+    }
+  ],
+  "notes": "Facility: $200M delayed-draw term loan (Wells Fargo agent), maturity August 15, 2027. First Amendment (July 29, 2025) replaced the original stepped total net leverage schedule (4.50x 9/30/24-6/30/25; 4.25x 9/30/25-6/30/26; 4.00x 9/30/26 and thereafter) with a flat 4.50x for the life of the loan; it also required a $10M prepayment applied to the maturity bullet, cut the combined Restricted Payment / junior debt payment basket (Sections 9.1(e)/9.4(f)) from greater of $35M/30% of EBITDA to $10M, and added a $25M carve-out from the 3.75x pro forma leverage condition for Permitted Acquisitions. Covenant EBITDA is 'Adjusted Cash EBITDA': adds back interest, taxes, D&A (including capitalized software, debt costs, deferred sales commissions amortization), impairments, stock-based compensation, non-cash losses re anticipated taxes, debt extinguishment, warrant remeasurement and asset sales; unusual and non-recurring charges capped at 15% of Adjusted Cash EBITDA; losses on non-ordinary course asset dispositions; other cash charges agreed by Agent and Required Lenders. No explicit restructuring add-back (restructuring would only fit within the capped unusual/non-recurring bucket). It deducts deferred sales commission costs and capitalized software costs paid in the period (making it a cash-oriented metric), and is calculated on a Pro Forma Basis. EBITDA is deemed to be $31.68M (Q 6/30/23), $31.671M (9/30/23), $31.435M (12/31/23) and $25.465M (3/31/24). Consolidated Interest Expense for the coverage test is annualized for the first tests: fixed at $24.737M for the period ending 9/30/24, then annualized from post-closing quarters through 6/30/25. Net leverage nets Unrestricted Cash and Cash Equivalents capped at 50% of Adjusted Cash EBITDA; such cash must be in accounts with the Agent or under control agreements after 120 days post-funding, except up to $30M held at Closing Date lenders/affiliates. The secured leverage ratio is gross (no cash netting). Funded debt includes the 2028 Convertible Senior Notes ($201.9M 4.00%) at full principal (ASC 470-20 effects disregarded); pre-ASC 842 operating leases are excluded. No equity cure provision. Excluded incurrence tests: 3.75x net leverage for Permitted Acquisitions, 3.50x net leverage for Permitted Convertible Indebtedness, 1.50x secured leverage for Restricted Payments and junior debt prepayments. Financial covenant breach is an immediate Event of Default (no grace period, Section 10.1(c)(i))."
+}

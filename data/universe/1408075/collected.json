@@ -1,0 +1,236 @@
+{
+  "reports": [
+    {
+      "form": "10-Q",
+      "filed": "2026-11-03",
+      "period": "2026-09-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/1408075/000140807526000052/gpk-20260930.htm",
+      "job": "ratio-1408075-2026-09-30"
+    },
+    {
+      "form": "10-Q",
+      "filed": "2026-08-04",
+      "period": "2026-06-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/1408075/000140807526000029/gpk-20260630.htm",
+      "job": "ratio-1408075-2026-06-30"
+    },
+    {
+      "form": "10-Q",
+      "filed": "2026-05-05",
+      "period": "2026-03-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1408075/000140807526000019/gpk-20260331.htm",
+      "job": "ratio-1408075-2026-03-31"
+    },
+    {
+      "form": "10-K",
+      "filed": "2026-03-02",
+      "period": "2025-12-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1408075/000140807526000009/gpk-20251231.htm",
+      "job": "ratio-1408075-2025-12-31"
+    }
+  ],
+  "releases": [
+    {
+      "filed": "2026-11-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/1408075/000140807526000047/gpkexhibit991-2026q38xk.htm",
+      "job": "ebitda-1408075-1cbc4361d0"
+    },
+    {
+      "filed": "2026-08-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/1408075/000140807526000024/gpkexhibit991-2026q28xk.htm",
+      "job": "ebitda-1408075-0e30a9de86"
+    },
+    {
+      "filed": "2026-05-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/1408075/000140807526000016/gpkexhibit9912026q18-k.htm",
+      "job": "ebitda-1408075-9a7cfbd6ba"
+    },
+    {
+      "filed": "2026-02-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/1408075/000140807526000004/gpkq420258-k_exhibit991.htm",
+      "job": "ebitda-1408075-17ef4b3d8e"
+    },
+    {
+      "filed": "2025-11-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/1408075/000140807525000027/gpkexhibit9912025q38-k.htm",
+      "job": "ebitda-1408075-c4159783fb"
+    }
+  ],
+  "exhibits": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1408075/000119312516679220/d241877dex42.htm",
+      "filed": "2016-08-11",
+      "exhibit": "EX-4.2",
+      "chars": 273099,
+      "job": "cover-1408075-5d5115a51d"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1408075/000119312518000257/d506041dex107.htm",
+      "filed": "2018-01-02",
+      "exhibit": "EX-10.7",
+      "chars": 702020,
+      "job": "cover-1408075-224d885027"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1408075/000119312518000257/d506041dex108.htm",
+      "filed": "2018-01-02",
+      "exhibit": "EX-10.8",
+      "chars": 406735,
+      "job": "cover-1408075-238141e0f2"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1408075/000119312518000257/d506041dex102.htm",
+      "filed": "2018-01-02",
+      "exhibit": "EX-10.2",
+      "chars": 64100,
+      "job": "cover-1408075-e32a664cb1"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1408075/000119312518000257/d506041dex101.htm",
+      "filed": "2018-01-02",
+      "exhibit": "EX-10.1",
+      "chars": 163625,
+      "job": "cover-1408075-9cb55e305c"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1408075/000119312519181342/d753378dex42.htm",
+      "filed": "2019-06-25",
+      "exhibit": "EX-4.2",
+      "chars": 273991,
+      "job": "cover-1408075-c031c4875d"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1408075/000119312520064469/d866593dex42.htm",
+      "filed": "2020-03-06",
+      "exhibit": "EX-4.2",
+      "chars": 274312,
+      "job": "cover-1408075-f48ecbf1b7"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1408075/000119312520235595/d97766dex42.htm",
+      "filed": "2020-08-31",
+      "exhibit": "EX-4.2",
+      "chars": 276654,
+      "job": "cover-1408075-f5012dc482"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1408075/000140807520000036/exhibit101executedq320.htm",
+      "filed": "2020-10-20",
+      "exhibit": "EX-10.1",
+      "chars": 36999,
+      "job": "cover-1408075-e4ae4dcc35"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1408075/000119312521062422/d149431dex101.htm",
+      "filed": "2021-03-01",
+      "exhibit": "EX-10.1",
+      "chars": 28766,
+      "job": "cover-1408075-12bcfa92c7"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1408075/000119312521073443/d142867dex42.htm",
+      "filed": "2021-03-08",
+      "exhibit": "EX-4.2",
+      "chars": 384905,
+      "job": "cover-1408075-04984195fd"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1408075/000119312521103949/d111270dex101.htm",
+      "filed": "2021-04-01",
+      "exhibit": "EX-10.1",
+      "chars": 751302,
+      "job": "cover-1408075-01957bf595"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1408075/000119312521225809/d171759dex102.htm",
+      "filed": "2021-07-27",
+      "exhibit": "EX-10.2",
+      "chars": 66725,
+      "job": "cover-1408075-187c58cc30"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1408075/000119312521225809/d171759dex101.htm",
+      "filed": "2021-07-27",
+      "exhibit": "EX-10.1",
+      "chars": 37821,
+      "job": "cover-1408075-2fb2f091fd"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1408075/000119312521293313/d223169dex101.htm",
+      "filed": "2021-10-06",
+      "exhibit": "EX-10.1",
+      "chars": 44326,
+      "job": "cover-1408075-57b2c1cb29"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1408075/000119312521335260/d137771dex42.htm",
+      "filed": "2021-11-19",
+      "exhibit": "EX-4.2",
+      "chars": 286504,
+      "job": "cover-1408075-2a96413f41"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1408075/000119312521335260/d137771dex43.htm",
+      "filed": "2021-11-19",
+      "exhibit": "EX-4.3",
+      "chars": 307679,
+      "job": "cover-1408075-ba518fd8e4"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1408075/000140807523000010/a1056amendmentno2tocredita.htm",
+      "filed": "2023-02-09",
+      "exhibit": "EX-10.56",
+      "chars": 31543,
+      "job": "cover-1408075-7f0426a943"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1408075/000140807523000010/a1057amendmentno3tocredita.htm",
+      "filed": "2023-02-09",
+      "exhibit": "EX-10.57",
+      "chars": 23393,
+      "job": "cover-1408075-8d74813f2e"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1408075/000140807524000020/q12024ex102-incrementalfac.htm",
+      "filed": "2024-04-30",
+      "exhibit": "EX-10.2",
+      "chars": 35249,
+      "job": "cover-1408075-aca1580dfe"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1408075/000119312524137272/d814359dex42.htm",
+      "filed": "2024-05-13",
+      "exhibit": "EX-4.2",
+      "chars": 286107,
+      "job": "cover-1408075-fa58184072"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1408075/000119312524154752/d823165dex101.htm",
+      "filed": "2024-06-05",
+      "exhibit": "EX-10.1",
+      "chars": 785010,
+      "job": "cover-1408075-af9b5d2ce7"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1408075/000119312525260781/d95557dex101.htm",
+      "filed": "2025-10-31",
+      "exhibit": "EX-10.1",
+      "chars": 38003,
+      "job": "cover-1408075-b1f0d0a668"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1408075/000119312526077943/d106221dex101.htm",
+      "filed": "2026-02-27",
+      "exhibit": "EX-10.1",
+      "chars": 803320,
+      "job": "cover-1408075-b7d474badf"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1408075/000140807526000052/executedgpk-amendmentno2.htm",
+      "filed": "2026-11-03",
+      "exhibit": "EX-10.2",
+      "chars": 93459,
+      "job": "cover-1408075-9b014319e9"
+    }
+  ]
+}

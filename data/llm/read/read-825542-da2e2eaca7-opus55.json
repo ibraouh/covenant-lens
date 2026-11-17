@@ -1,0 +1,122 @@
+{
+  "job": "read-825542-da2e2eaca7-opus55",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "cik": "825542",
+    "docs": [
+      "https://www.sec.gov/Archives/edgar/data/825542/000082554225000018/exhibit101smg2025-11x248xk.htm"
+    ]
+  },
+  "usage": {
+    "input_tokens": 280183,
+    "output_tokens": 5461,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "borrower": "The Scotts Miracle-Gro Company",
+    "agreement_date": "2025-11-21",
+    "covenants": [
+      {
+        "name": "Interest Coverage Ratio",
+        "metric": "interest_coverage",
+        "direction": "min",
+        "thresholds": [
+          {
+            "value": 3.0,
+            "applies_from": "2025-12-31"
+          },
+          {
+            "value": 3.25,
+            "applies_from": "2026-12-31"
+          },
+          {
+            "value": 3.5,
+            "applies_from": "2027-12-31"
+          }
+        ],
+        "test_frequency": "quarterly",
+        "springing_condition": null,
+        "section": "Section 5.09",
+        "quote": "Maintain the Interest Coverage Ratio, determined as of the end of its fiscal quarter ending on or about December 31, 2025 and each of its fiscal quarters ending thereafter, of not less than the applicable ratio set forth in the grid below:",
+        "ebitda_addbacks": [
+          "stock_comp",
+          "impairments",
+          "other"
+        ],
+        "cash_netting_cap": null,
+        "cash_netting_cap_pct_ebitda": null
+      },
+      {
+        "name": "Leverage Ratio",
+        "metric": "net_leverage",
+        "direction": "max",
+        "thresholds": [
+          {
+            "value": 5.0,
+            "applies_from": null
+          }
+        ],
+        "test_frequency": "quarterly",
+        "springing_condition": null,
+        "section": "Section 5.10",
+        "quote": "Maintain the Leverage Ratio, determined as of the end of its fiscal quarter ending on or about December 31, 2025 and each of its fiscal quarters ending thereafter, of not greater than 5.00 to 1.00.",
+        "ebitda_addbacks": [
+          "stock_comp",
+          "impairments",
+          "other"
+        ],
+        "cash_netting_cap": 150000000.0,
+        "cash_netting_cap_pct_ebitda": null
+      }
+    ],
+    "notes": "Both covenants are tested quarterly (fiscal year ends Sept 30; quarter-ends are 'on or about' the listed dates) and use Consolidated Adjusted EBITDA: Consolidated EBITDA plus non-recurring losses and non-cash charges (expressly including non-cash stock comp; impairments fall under non-cash charges), minus non-recurring gains and later cash payments for prior non-cash charges. There is no express restructuring add-back, though restructuring costs may be added back if they qualify as non-recurring losses. Both ratio definitions give pro forma credit for acquisitions and dispositions, including 'any savings associated with such acquisition or disposition', with no cap or time limit. The Leverage Ratio numerator is unusual: it is Average Consolidated Net Indebtedness, the average of net debt at the last four quarter-ends rather than period-end debt. Net debt includes recourse or on-balance-sheet receivables facility obligations and nets cash and Cash Equivalents up to $150,000,000. Consolidated Interest Expense excludes non-cash and non-recurring items, including amortization of premiums, discounts and deferred issue costs. A covenant breach is an immediate Event of Default under Article VII(c), with no grace period and no equity cure. The pricing grid uses the same Leverage Ratio (3.50x and 4.25x breakpoints). The facility is secured by receivables, inventory, equipment, IP and pledged stock; security falls away during an 'Unsecured Period' if the Specified Conditions are met (investment-grade ratings, or one IG rating plus leverage of 2.50x or less, and no TLB outstanding), and springs back if they lapse. Incurrence tests (4.50x leverage for debt, investments and incremental equivalent notes; 4.00x for unlimited restricted payments; 3.50x for the ratio-based incremental) are not maintenance covenants. Incremental capacity is $500M plus voluntary prepayments plus unlimited ratio debt; incremental equivalent notes may be secured pari passu or junior under an intercreditor agreement. Bonnie Plants and Laketon (50% JVs) are excluded from 'Subsidiary' until wholly owned. There is a springing maturity 91 days before Oct 15, 2029 unless the 2029 4.500% notes are repaid or refinanced.",
+    "facility": "$1.5B multicurrency revolver ($1,409.775M Global Tranche + $90.225M US Tranche) and $500M Tranche A term loan (amortizing $6.25M/quarter), both maturing November 21, 2030 (springing earlier maturity tied to 2029 senior notes); plus $500M+ incremental capacity.",
+    "terms": [
+      {
+        "kind": "j_crew_blocker",
+        "present": "yes",
+        "section": "Section 6.16",
+        "quote": "Assign, transfer, or exclusively license or exclusively sublicense any Material Intellectual Property to any Subsidiary that is not a Subsidiary Guarantor other than such assignments, transfers, licenses or sublicenses of Material Intellectual Property owned or licensed by, or otherwise used in the business of, HGC or any of its\u2019 Subsidiaries contemplated to be assigned, transferred or exclusively licensed to HGC or any of its\u2019 Subsidiaries by the HGC Divestiture.",
+        "summary": "The agreement has no unrestricted subsidiary concept. Instead it bars assigning, transferring or exclusively licensing Material Intellectual Property to any non-guarantor subsidiary, with a carve-out for IP tied to the Hawthorne (HGC) divestiture. The ban does not cover transfers to non-subsidiaries such as joint ventures."
+      },
+      {
+        "kind": "serta_protection",
+        "present": "yes",
+        "section": "Section 9.02(b)(ix)-(x)",
+        "quote": "subordinate the Lien on a material portion of the Collateral, taken as a whole, securing the Obligations to the Lien securing any other Indebtedness (other than any Lien permitted pursuant to Section 6.01(a)(i), 6.01(i) or 6.01(l), in each case, as in effect on the Effective Date), without the written consent of each Lender directly affected thereby",
+        "summary": "Subordinating the liens on a material portion of the collateral, or subordinating the obligations in right of payment, requires the consent of each directly affected lender. That consent is not needed if the lender is offered a bona fide pro rata opportunity to participate in the priming debt. Changes to pro rata sharing also require each lender's consent."
+      },
+      {
+        "kind": "chewy_protection",
+        "present": "partial",
+        "section": "Section 9.14(a)",
+        "quote": "A Subsidiary Guarantor shall automatically be released from its obligations under the Guarantee and Collateral Agreement upon the consummation of any transaction permitted by this Agreement as a result of which such Subsidiary Guarantor ceases to be a Subsidiary;",
+        "summary": "Guarantors are released automatically only when they cease to be a Subsidiary (over 50% owned or consolidated), or at the agent's discretion when no longer a Required Subsidiary. Release is not triggered by ceasing to be wholly owned. There is no express anti-Chewy language, so selling a majority stake would still release the guarantor."
+      },
+      {
+        "kind": "unrestricted_sub_cap",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "The agreement has no unrestricted subsidiary designation mechanic; all subsidiaries are subject to the covenants. Investments are limited by the general Section 6.04 baskets and ratio tests, not by an unrestricted-sub cap."
+      },
+      {
+        "kind": "addback_cap",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "EBITDA adds back non-recurring losses and non-cash charges without a cap. The ratio definitions credit savings from acquisitions and dispositions with no percentage cap or time limit."
+      },
+      {
+        "kind": "equity_cure",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "There is no equity cure right; a breach of Section 5.09 or 5.10 is an immediate Event of Default."
+      }
+    ],
+    "addback_cap_pct": null
+  }
+}

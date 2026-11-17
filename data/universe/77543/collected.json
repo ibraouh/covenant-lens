@@ -1,0 +1,133 @@
+{
+  "reports": [
+    {
+      "form": "10-Q",
+      "filed": "2026-11-04",
+      "period": "2026-09-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/77543/000007754326000220/tpc-20260930.htm",
+      "job": "ratio-77543-2026-09-30"
+    },
+    {
+      "form": "10-Q",
+      "filed": "2026-08-05",
+      "period": "2026-06-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/77543/000007754326000186/tpc-20260630.htm",
+      "job": "ratio-77543-2026-06-30"
+    },
+    {
+      "form": "10-Q",
+      "filed": "2026-05-06",
+      "period": "2026-03-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/77543/000007754326000114/tpc-20260331.htm",
+      "job": "ratio-77543-2026-03-31"
+    },
+    {
+      "form": "10-K",
+      "filed": "2026-02-26",
+      "period": "2025-12-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/77543/000007754326000028/tpc-20251231.htm",
+      "job": "ratio-77543-2025-12-31"
+    }
+  ],
+  "releases": [],
+  "exhibits": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/77543/000007754316000076/tpc-20151231ex10149a7fc.htm",
+      "filed": "2016-02-29",
+      "exhibit": "EX-10.14",
+      "chars": 74646,
+      "job": "cover-77543-c6fdde679f"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/77543/000007754316000100/tpc-20160608xex10_1.htm",
+      "filed": "2016-06-08",
+      "exhibit": "EX-10.1",
+      "chars": 40601,
+      "job": "cover-77543-b9047f01c7"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/77543/000110465917025547/a17-8044_2ex10d1.htm",
+      "filed": "2017-04-25",
+      "exhibit": "EX-10.1",
+      "chars": 514070,
+      "job": "cover-77543-d2e36f0527"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/77543/000110465917025547/a17-8044_2ex4d1.htm",
+      "filed": "2017-04-25",
+      "exhibit": "EX-4.1",
+      "chars": 473462,
+      "job": "cover-77543-85a615d370"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/77543/000007754319000024/tpc-20190331xex10_1.htm",
+      "filed": "2019-05-08",
+      "exhibit": "EX-10.1",
+      "chars": 47394,
+      "job": "cover-77543-fe0d13cf96"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/77543/000007754320000043/exh101-tpcxcreditagreeme.htm",
+      "filed": "2020-08-19",
+      "exhibit": "EX-10.1",
+      "chars": 886761,
+      "job": "cover-77543-a08cf93786"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/77543/000007754322000077/exhibit102-tpcxfirstamen.htm",
+      "filed": "2022-11-02",
+      "exhibit": "EX-10.2",
+      "chars": 755140,
+      "job": "cover-77543-45f8b9a5af"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/77543/000007754323000023/tpc-20221231xex1033tpcxs.htm",
+      "filed": "2023-03-15",
+      "exhibit": "EX-10.33",
+      "chars": 758504,
+      "job": "cover-77543-c513d92a70"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/77543/000007754323000076/tpc-20230331xex102tpcxth.htm",
+      "filed": "2023-05-04",
+      "exhibit": "EX-10.2",
+      "chars": 771097,
+      "job": "cover-77543-6229fb3d9d"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/77543/000007754324000015/tpc-20231231xex105tpcxfo.htm",
+      "filed": "2024-02-28",
+      "exhibit": "EX-10.5",
+      "chars": 835882,
+      "job": "cover-77543-0d72d32d13"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/77543/000007754324000092/tpc-indenture2024conformed.htm",
+      "filed": "2024-04-23",
+      "exhibit": "EX-4.1",
+      "chars": 480156,
+      "job": "cover-77543-266364e95e"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/77543/000007754324000106/tpc-20240331xex102tpcxfi.htm",
+      "filed": "2024-04-25",
+      "exhibit": "EX-10.2",
+      "chars": 751991,
+      "job": "cover-77543-7f53d9fa4c"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/77543/000007754326000163/tpc-arcreditagreement.htm",
+      "filed": "2026-07-06",
+      "exhibit": "EX-10.1",
+      "chars": 727359,
+      "job": "cover-77543-0f2432723d"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/77543/000007754326000163/tpc-indenture2026.htm",
+      "filed": "2026-07-06",
+      "exhibit": "EX-4.1",
+      "chars": 506669,
+      "job": "cover-77543-d0239d8bcb"
+    }
+  ]
+}

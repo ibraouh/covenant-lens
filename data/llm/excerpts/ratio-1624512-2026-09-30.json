@@ -1,0 +1,30 @@
+{
+  "job": "ratio-1624512-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1624512/000143774926037195/boxl20260930_10q.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 5791,
+    "output_tokens": 875,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "Senior Leverage Ratio",
+        "metric": "secured_leverage",
+        "period_end": "2025-09-30",
+        "actual": null,
+        "limit": 1.75,
+        "direction": "max",
+        "facility": "Credit Agreement with Whitehawk Capital Partners, LP / Whitehawk Finance LLC",
+        "quote": "Failure to maintain the required Senior Leverage Ratio of 1.75:1.00 for the period ended September 30, 2025; and"
+      }
+    ],
+    "notes": "The Senior Leverage Ratio is indebtedness to adjusted EBITDA. The company breached it at September 30, 2025, and the breach was waived in the Tenth Amendment. No actual ratio is disclosed. The Eleventh Amendment (December 18, 2025) removed this covenant and replaced it with a Minimum Consolidated Adjusted EBITDA covenant, set at $1.9 million for Q1 2026. It also added a minimum qualified cash requirement of $1.5 million. These are dollar thresholds, not ratios, so they are not listed. The company was not in compliance with the borrowing base and Minimum Consolidated Adjusted EBITDA covenants as of September 30, 2026. Earlier Senior Leverage Ratio breaches at December 31, 2024, March 31, 2025 and June 30, 2025 were waived, but no limit or actual figures are given for those dates."
+  }
+}

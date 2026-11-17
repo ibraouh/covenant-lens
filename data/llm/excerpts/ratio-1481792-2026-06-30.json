@@ -1,0 +1,60 @@
+{
+  "job": "ratio-1481792-2026-06-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1481792/000148179226000130/quad-20260630.htm",
+    "period": "2026-06-30"
+  },
+  "usage": {
+    "input_tokens": 6243,
+    "output_tokens": 1477,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "Total Leverage Ratio",
+        "metric": "total_leverage",
+        "period_end": "2026-06-30",
+        "actual": 2.0,
+        "limit": 3.5,
+        "direction": "max",
+        "facility": "Senior Secured Credit Facility",
+        "quote": "On a rolling twelve-month basis, the Total Leverage Ratio, defined as consolidated total indebtedness to consolidated EBITDA, shall not exceed 3.50 to 1.00 (for the twelve months ended June 30, 2026, the Company\u2019s Total Leverage Ratio was 2.00 to 1.00)."
+      },
+      {
+        "covenant_name": "Senior Secured Leverage Ratio",
+        "metric": "secured_net_leverage",
+        "period_end": "2026-06-30",
+        "actual": 1.99,
+        "limit": 3.0,
+        "direction": "max",
+        "facility": "Senior Secured Credit Facility",
+        "quote": "On a rolling four-quarter basis, the Senior Secured Leverage Ratio, defined as the ratio of consolidated senior secured net indebtedness to consolidated EBITDA, shall not exceed 3.00 to 1.00 for any fiscal quarter ending on or after September 30, 2024 (for the twelve months ended June 30, 2026, the Company\u2019s Senior Secured Leverage Ratio was 1.99 to 1.00)."
+      },
+      {
+        "covenant_name": "Interest Coverage Ratio",
+        "metric": "interest_coverage",
+        "period_end": "2026-06-30",
+        "actual": 5.23,
+        "limit": 3.0,
+        "direction": "min",
+        "facility": "Senior Secured Credit Facility",
+        "quote": "On a rolling twelve-month basis, the Interest Coverage Ratio, defined as consolidated EBITDA to cash consolidated interest expense, shall not be less than 3.00 to 1.00 (for the twelve months ended June 30, 2026, the Company\u2019s Interest Coverage Ratio was 5.23 to 1.00)."
+      },
+      {
+        "covenant_name": "Total Net Leverage Ratio",
+        "metric": "net_leverage",
+        "period_end": "2026-06-30",
+        "actual": 2.14,
+        "limit": 3.5,
+        "direction": "max",
+        "facility": "Senior Secured Credit Facility",
+        "quote": "The limitations described above are not currently applicable, as the Company\u2019s Senior Secured Leverage Ratio was 1.99 to 1.00 and the Total Net Leverage Ratio was 2.14 to 1.00, as of June 30, 2026."
+      }
+    ],
+    "notes": "Total Leverage, Senior Secured Leverage and Interest Coverage are maintenance covenants under the Senior Secured Credit Facility (Senior Secured Leverage and Interest Coverage apply when revolver/Term Loan A amounts are outstanding). The Total Net Leverage Ratio (3.50x) is not a maintenance covenant but a threshold restricting voluntary prepayment of unsecured/subordinated debt. Total Leverage Ratio also governs restricted payment baskets at 2.50x/2.75x thresholds. The non-GAAP Net Debt Leverage Ratio (2.03x at 6/30/26, 1.57x at 12/31/25) and its 1.50x\u20132.00x management target are excluded as they are not covenant measures. Company in compliance at June 30, 2026."
+  }
+}

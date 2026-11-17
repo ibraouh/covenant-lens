@@ -1,0 +1,50 @@
+{
+  "job": "ratio-99302-2026-09-26",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/99302/000162828026069462/trns-20260926.htm",
+    "period": "2026-09-26"
+  },
+  "usage": {
+    "input_tokens": 3131,
+    "output_tokens": 531,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "leverage ratio",
+        "metric": "total_leverage",
+        "period_end": "2026-09-26",
+        "actual": 2.18,
+        "limit": 3.0,
+        "direction": "max",
+        "facility": "Credit Agreement (Credit Facility)",
+        "quote": "The Company's leverage ratio, as defined in the Credit Agreement, was 2.18 on September 26, 2026, compared with 2.03 on March 28, 2026."
+      },
+      {
+        "covenant_name": "leverage ratio",
+        "metric": "total_leverage",
+        "period_end": "2026-03-28",
+        "actual": 2.03,
+        "limit": 3.0,
+        "direction": "max",
+        "facility": "Credit Agreement (Credit Facility)",
+        "quote": "The Company's leverage ratio, as defined in the Credit Agreement, was 2.18 on September 26, 2026, compared with 2.03 on March 28, 2026."
+      },
+      {
+        "covenant_name": "fixed charge coverage ratio",
+        "metric": "fixed_charge_coverage",
+        "period_end": "2026-09-26",
+        "actual": null,
+        "limit": 1.2,
+        "direction": "min",
+        "facility": "Credit Agreement (Credit Facility)",
+        "quote": "We must also maintain a fixed charge coverage ratio of no less than 1.20 to 1.00."
+      }
+    ],
+    "notes": "Leverage covenant max 3.00x (indebtedness to consolidated EBITDA) may be temporarily increased after a material permitted acquisition; the 3.00x limit is assumed to apply at March 28, 2026 as well. Actual fixed charge coverage ratio not disclosed; company states compliance with all covenants."
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "job": "read-1481792-921a11312e-opus55",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "cik": "1481792",
+    "docs": [
+      "https://www.sec.gov/Archives/edgar/data/1481792/000148179226000042/exhibit47-quad2025amendmen.htm"
+    ]
+  },
+  "usage": {
+    "input_tokens": 247218,
+    "output_tokens": 6836,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "borrower": "Quad/Graphics, Inc.",
+    "agreement_date": "2014-04-28",
+    "covenants": [
+      {
+        "name": "Total Leverage Ratio",
+        "metric": "total_leverage",
+        "direction": "max",
+        "thresholds": [
+          {
+            "value": 3.5,
+            "applies_from": "2024-09-30"
+          }
+        ],
+        "test_frequency": "quarterly",
+        "springing_condition": null,
+        "section": "Section 6.11(a)",
+        "quote": "The Borrower will not permit the ratio (the \u201cTotal Leverage Ratio\u201d), determined as of the end of each of its Fiscal Quarters, of (i) Consolidated Total Indebtedness to (ii) Consolidated EBITDA for the period of the then most-recently ended four (4) consecutive Fiscal Quarters, all calculated for the Consolidated Financial Covenant Entities on a consolidated basis, to be greater than 3.50 to 1.00 for the Fiscal Quarter ending September 30, 2024 and each Fiscal Quarter thereafter.",
+        "ebitda_addbacks": [
+          "stock_comp",
+          "impairments",
+          "restructuring",
+          "other"
+        ],
+        "cash_netting_cap": null,
+        "cash_netting_cap_pct_ebitda": null
+      },
+      {
+        "name": "Senior Secured Leverage Ratio",
+        "metric": "secured_net_leverage",
+        "direction": "max",
+        "thresholds": [
+          {
+            "value": 3.0,
+            "applies_from": "2024-09-30"
+          }
+        ],
+        "test_frequency": "quarterly",
+        "springing_condition": null,
+        "section": "Section 6.11(c)",
+        "quote": "The Borrower will not permit the ratio (the \u201cSenior Secured Leverage Ratio\u201d), determined as of the end of each of its Fiscal Quarters, of (i) Consolidated Senior Secured Net Indebtedness to (ii) Consolidated EBITDA for the period of the then most-recently ended four (4) consecutive Fiscal Quarters, all calculated for the Consolidated Financial Covenant Entities on a consolidated basis, to be greater than 3.00 to 1.00 for the Fiscal Quarter ending September 30, 2024 and each Fiscal Quarter thereafter.",
+        "ebitda_addbacks": [
+          "stock_comp",
+          "impairments",
+          "restructuring",
+          "other"
+        ],
+        "cash_netting_cap": null,
+        "cash_netting_cap_pct_ebitda": null
+      },
+      {
+        "name": "Interest Coverage Ratio",
+        "metric": "interest_coverage",
+        "direction": "min",
+        "thresholds": [
+          {
+            "value": 3.0,
+            "applies_from": null
+          }
+        ],
+        "test_frequency": "quarterly",
+        "springing_condition": null,
+        "section": "Section 6.11(d)",
+        "quote": "The Borrower will not permit the Interest Coverage Ratio, determined as of the end of each of its Fiscal Quarters for the period of the then most-recently ended four (4) consecutive Fiscal Quarters, to be less than 3.00 to 1.00.",
+        "ebitda_addbacks": [
+          "stock_comp",
+          "impairments",
+          "restructuring",
+          "other"
+        ],
+        "cash_netting_cap": null,
+        "cash_netting_cap_pct_ebitda": null
+      }
+    ],
+    "notes": "Only document provided is Amendment No. 10 (Aug 20, 2025) with a conformed copy of the Second A&R Credit Agreement; it adds a $20M incremental Extended Term A Loan and a $15M Extended Revolving Commitment (Flagstar) and does not change Section 6.11. Covenants are tested quarterly with flat levels (3.50x total leverage and 3.00x senior secured leverage stated to apply from FQ ending 9/30/2024 onward; 3.00x minimum interest coverage). Senior Secured Leverage uses Consolidated Senior Secured Net Indebtedness, which nets unrestricted cash and Permitted Investments held in U.S. accounts free of non-permitted liens, with no dollar cap; proceeds of newly incurred debt are excluded from cash netting in pro forma tests. Total Leverage is gross (not net); pension/post-employment liabilities are excluded from debt, while Attributable Receivables Indebtedness is included. Interest coverage uses cash Consolidated Interest Expense. Consolidated EBITDA add-backs: non-cash unusual/non-recurring losses including goodwill/asset impairments, non-cash stock compensation, Transaction Charges (acquisition-related portion capped at $10M after Amendment No. 9), MEPP Exit Expenses (up to $150M), Permitted Cash Restructuring Charges (capped at $100M per fiscal year, amounts over $25M limited to plant closures, severance, equipment relocation and lease/contract termination, with synergy calculations subject to Agent approval), losses on debt extinguishment, and cost savings/synergies capped at 20% of EBITDA. Material acquisitions/dispositions (>$50M) are given pro forma effect. Financial covenant compliance on a pro forma basis is a condition to incremental facilities, unrestricted subsidiary designations, and several debt baskets. Other features: MFN-style 'More Favorable Term' provision for unsecured/subordinated debt and Senior Secured Notes (Section 6.09(b)); collateral may be released upon BBB/Baa2 ratings (Section 9.02(e)); restricted payments basket tied to Total Leverage below 2.50x/2.75x with dollar caps. No equity cure.",
+    "facility": "Revolver $339.59M aggregate (Extended $321.85M maturing Oct 18, 2029; Non-Extended $17.74M maturing Nov 2, 2026) and Term A Loans $370.74M aggregate (Extended $358.10M maturing Oct 18, 2029, amortizing quarterly; Non-Extended balance maturing Nov 2, 2026); secured, JPMorgan Chase as Administrative Agent.",
+    "terms": [
+      {
+        "kind": "j_crew_blocker",
+        "present": "yes",
+        "section": "Section 6.03(c); Section 5.10(a)(ix)",
+        "quote": "Notwithstanding anything in this Agreement to the contrary, no Loan Party or any Restricted Subsidiary shall consummate any transaction that results in the Disposition (whether by way of any Restricted Payment, investment, Lien, sale, conveyance, transfer or other Disposition, and whether in a single transaction or a series of transactions) of intellectual property that is material to the business of the Borrower and its Restricted Subsidiaries to any Unrestricted Subsidiary or Affiliate of the Borrower that is not a Loan Party;",
+        "summary": "Material IP may not be transferred (by any means, including investment or restricted payment) to an Unrestricted Subsidiary or non-Loan Party affiliate; only ordinary-course non-exclusive licenses are allowed. Section 5.10(a)(ix) also bars an Unrestricted Subsidiary from owning material IP after designation."
+      },
+      {
+        "kind": "serta_protection",
+        "present": "yes",
+        "section": "Section 9.02(b)(ix); Section 8.07(e); Section 9.21",
+        "quote": "subordinate the Liens on all or substantially all of the Collateral or subordinate the right of payment of the Secured Obligations without the written consent of each Lender",
+        "summary": "Lien subordination (Section 9.21 extends this to all or any portion of the Collateral unless otherwise permitted) and payment subordination of the Secured Obligations require every lender's consent. Changes to pro rata sharing and payment waterfall in Section 2.18(b) and (d) also need each lender's consent. There is no explicit language addressing non-pro-rata exchanges, and loan buybacks are limited to Borrower Dutch auctions with Required Lender consent."
+      },
+      {
+        "kind": "chewy_protection",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "The agreement has no express provision preventing release of a guarantor that ceases to be wholly owned. Guarantor releases arise when a guarantor stops being a Material Domestic Subsidiary (subject to Section 6.04 compliance), when it is designated unrestricted with Agent consent, or when its equity is sold in a permitted disposition."
+      },
+      {
+        "kind": "unrestricted_sub_cap",
+        "present": "yes",
+        "section": "Section 5.10(a)(v); definition of Restricted Intercompany Transactions Amount",
+        "quote": "No Restricted Subsidiary shall be designated as an Unrestricted Subsidiary unless after giving effect thereto the aggregate amount of all such designations, when taken together with all other Restricted Intercompany Transactions, shall not exceed the Restricted Intercompany Transaction Amount;",
+        "summary": "Designations of unrestricted subsidiaries and investments, loans, guarantees and asset transfers to them share a hard $25M Restricted Intercompany Transactions cap, with a separate $50M general investment basket. Loan Party Guarantors cannot be designated unrestricted, and designations also require leverage tests and pro forma covenant compliance."
+      },
+      {
+        "kind": "addback_cap",
+        "present": "yes",
+        "section": "Section 1.01, definition of Consolidated EBITDA, clause (xii)",
+        "quote": "so long as the aggregate amount added back to Consolidated EBITDA for any measurement period pursuant to this clause (xii) does not exceed 20% of Consolidated EBITDA for such Period (calculated prior to giving effect to any add-backs pursuant to this clause (xii))",
+        "summary": "Cost savings and acquisition synergy add-backs are capped at 20% of EBITDA, calculated before the add-back. Cash restructuring charges are separately capped at $100M per fiscal year through the Permitted Cash Restructuring Charges definition."
+      },
+      {
+        "kind": "equity_cure",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "The agreement has no right to cure a financial covenant breach with new equity; a breach of Section 6.11 is an immediate Event of Default under Section 7.01(d)."
+      }
+    ],
+    "addback_cap_pct": 0.2
+  }
+}

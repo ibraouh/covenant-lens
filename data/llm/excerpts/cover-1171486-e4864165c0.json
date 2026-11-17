@@ -1,0 +1,24 @@
+{
+  "job": "cover-1171486-e4864165c0",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1171486/000117148617000009/exhibit103nrprevolveramend.htm"
+  },
+  "usage": {
+    "input_tokens": 3042,
+    "output_tokens": 117,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "is_loan_document": true,
+    "kind": "amendment",
+    "title": "Second Amendment to Third Amended and Restated Credit Agreement",
+    "dated": "2017-03-02",
+    "amends_dated": "2015-06-16",
+    "primary_bank_facility": true,
+    "includes_conformed_copy": true,
+    "borrower": "NRP (Operating) LLC"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "job": "ebitda-1023731-8a80643cf0",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1023731/000102373126000006/fy26q3_8-kexhx991.htm",
+    "filed": "2026-02-03"
+  },
+  "usage": {
+    "input_tokens": 3142,
+    "output_tokens": 545,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "label": "Adjusted EBITDA",
+    "figures": [
+      {
+        "period_end": "2025-12-31",
+        "months": 3,
+        "shown": "26,267",
+        "unit": "thousands",
+        "quote": "Adjusted EBITDA (as a percentage of total revenue) $ 26,267 14.2 % $ 23,913 13.4 % $ 69,000 12.5 % $ 76,339 14.2 %"
+      },
+      {
+        "period_end": "2024-12-31",
+        "months": 3,
+        "shown": "23,913",
+        "unit": "thousands",
+        "quote": "Adjusted EBITDA (as a percentage of total revenue) $ 26,267 14.2 % $ 23,913 13.4 % $ 69,000 12.5 % $ 76,339 14.2 %"
+      },
+      {
+        "period_end": "2025-12-31",
+        "months": 9,
+        "shown": "69,000",
+        "unit": "thousands",
+        "quote": "Adjusted EBITDA (as a percentage of total revenue) $ 26,267 14.2 % $ 23,913 13.4 % $ 69,000 12.5 % $ 76,339 14.2 %"
+      },
+      {
+        "period_end": "2024-12-31",
+        "months": 9,
+        "shown": "76,339",
+        "unit": "thousands",
+        "quote": "Adjusted EBITDA (as a percentage of total revenue) $ 26,267 14.2 % $ 23,913 13.4 % $ 69,000 12.5 % $ 76,339 14.2 %"
+      }
+    ],
+    "notes": "Fiscal Q3 2026 ended December 31, 2025. Figures are taken from the reconciliation table. The unit is inferred as thousands because the text states $26.3 million and $23.9 million for the two quarters."
+  }
+}

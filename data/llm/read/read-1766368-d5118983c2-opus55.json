@@ -1,0 +1,140 @@
+{
+  "job": "read-1766368-d5118983c2-opus55",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "cik": "1766368",
+    "docs": [
+      "https://www.sec.gov/Archives/edgar/data/1766368/000110465926020541/tmb-20260225xex10d2.htm"
+    ]
+  },
+  "usage": {
+    "input_tokens": 184616,
+    "output_tokens": 7082,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "borrower": "Mayville Engineering Company, Inc.",
+    "agreement_date": "2023-06-28",
+    "covenants": [
+      {
+        "name": "Consolidated Total Leverage Ratio",
+        "metric": "net_leverage",
+        "direction": "max",
+        "thresholds": [
+          {
+            "value": 4.0,
+            "applies_from": "2023-06-30"
+          },
+          {
+            "value": 5.25,
+            "applies_from": "2026-03-31"
+          },
+          {
+            "value": 5.0,
+            "applies_from": "2026-09-30"
+          },
+          {
+            "value": 4.0,
+            "applies_from": "2026-12-31"
+          },
+          {
+            "value": 3.5,
+            "applies_from": "2027-03-31"
+          }
+        ],
+        "test_frequency": "quarterly",
+        "springing_condition": null,
+        "section": "Section 9.15(a)",
+        "quote": "permit the Consolidated Total Leverage Ratio to be greater than the corresponding ratio set forth below",
+        "ebitda_addbacks": [
+          "stock_comp",
+          "impairments",
+          "restructuring",
+          "other"
+        ],
+        "cash_netting_cap": 25000000.0,
+        "cash_netting_cap_pct_ebitda": null
+      },
+      {
+        "name": "Consolidated Interest Coverage Ratio",
+        "metric": "interest_coverage",
+        "direction": "min",
+        "thresholds": [
+          {
+            "value": 3.0,
+            "applies_from": "2023-06-30"
+          },
+          {
+            "value": 2.75,
+            "applies_from": "2026-06-30"
+          },
+          {
+            "value": 3.0,
+            "applies_from": "2027-03-31"
+          }
+        ],
+        "test_frequency": "quarterly",
+        "springing_condition": null,
+        "section": "Section 9.15(b)",
+        "quote": "permit the Consolidated Interest Coverage Ratio to be less than",
+        "ebitda_addbacks": [
+          "stock_comp",
+          "impairments",
+          "restructuring",
+          "other"
+        ],
+        "cash_netting_cap": null,
+        "cash_netting_cap_pct_ebitda": null
+      }
+    ],
+    "notes": "Source is the Third Amendment (Feb 25, 2026) with a conformed copy of the A&R Credit Agreement attached. The conformed text shows deleted and added language without visible markup, so the readings below rely on context.\n\nLeverage covenant:\n- The leverage test is a net ratio: debt minus unrestricted cash.\n- Netted cash is capped at $25M, but only $10M during the Covenant Adjustment Period.\n- The Covenant Adjustment Period runs from Feb 25, 2026 until Q1 2027 compliance is shown.\n- The Borrower may end that period early by showing compliance with the pre-amendment covenants (3.50x leverage / 3.00x coverage). If it does, the covenants revert to 3.50x / 3.00x.\n- After the Covenant Adjustment Period, a Leverage Increase Period adds 0.50x for four quarters after an Acquisition over $40M. The ratio may never exceed 4.00x, at most two such periods are allowed, and at least one quarter must pass at the base level between them.\n- No Leverage Increase Period applies during the Covenant Adjustment Period. The 4.00x level through Q4 2025 reflects the Accu-Fab acquisition.\n\nInterest coverage covenant:\n- Despite its name, the numerator is EBITDA minus 50% of capex, minus cash-paid discretionary ESOP repurchase payments, minus income taxes, plus mandatory ESOP repurchase payments.\n\nEBITDA definition:\n- It adds back non-cash stock/ESOP compensation, non-cash charges, facility-exit/workforce-reduction restructuring, discontinued operations, and casualty/condemnation items.\n- It also adds back acquisition transaction costs (max $7M per deal), CFO transition costs ($1.17M), and Peloton litigation legal fees.\n- Other add-backs: data center/critical power start-up costs ($10M lifetime cap), fair value step-up and earn-out adjustments, one-time non-operating items, and fixed Accu-Fab EBITDA figures for Q4 2024 to Q2 2025.\n- Cash add-backs under clauses (v), (vii), (viii), (xi), (xii) and (xiii) are capped at 15% of EBITDA.\n- There is no projected cost-savings or synergy add-back.\n\nOther terms:\n- Section 9.14 caps annual capex at $40M from FY2026, with a limited carry-forward from FY2027.\n- Restrictions during the Covenant Adjustment Period:\n  - no incremental facility;\n  - only one acquisition, up to $25M, equity-funded, with pro forma leverage at or below 3.25x;\n  - no new general debt or lien basket usage;\n  - pricing grid tops out at SOFR+3.25%.\n- Monthly financials are required from February 2026.\n- A Specified Disposition is permitted, and a 0.075% consent fee was paid.\n- Collateral release on asset sales now requires a bona fide purpose and no transfer to an Affiliate.\n- Restricted payments to shareholders require leverage at or below 2.75x.",
+    "facility": "Senior secured revolving credit facility reduced to $275,000,000 (from $350,000,000) by the Third Amendment, with $25M swingline and $5M L/C sublimits; incremental capacity of the greater of $100M and 125% of trailing EBITDA (unavailable during the Covenant Adjustment Period); matures June 28, 2028.",
+    "terms": [
+      {
+        "kind": "j_crew_blocker",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "The agreement has no unrestricted subsidiary concept and no specific restriction on transferring or exclusively licensing material IP to non-guarantor entities. Asset sale and investment covenants limit such transfers generally, but there is no dedicated J.Crew blocker."
+      },
+      {
+        "kind": "serta_protection",
+        "present": "partial",
+        "section": "Section 12.2(e)",
+        "quote": "sharing of payments or order of application required thereby without the written consent of each Lender directly and adversely affected thereby",
+        "summary": "Changing the pro rata sharing (Section 5.6) or the payment waterfall (Section 10.4) requires each directly and adversely affected lender's consent. There is no express requirement of each affected lender's consent to subordinate the loans or liens to other debt."
+      },
+      {
+        "kind": "chewy_protection",
+        "present": "yes",
+        "section": "Section 1.1 (Change in Control, clause (a)); Section 11.9(a)(iii)",
+        "quote": "at any time, the Borrower shall fail to own, directly or indirectly, one hundred percent (100%) of the Equity Interests of the Subsidiary Guarantors entitled to vote in the election of members of the board of directors (or equivalent governing body) of the Subsidiary Guarantors",
+        "summary": "A guarantor is released only if it ceases to be a Subsidiary in a permitted transaction, not merely because it stops being wholly owned. Failing to own 100% of any Subsidiary Guarantor is a Change in Control and therefore an Event of Default."
+      },
+      {
+        "kind": "unrestricted_sub_cap",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "The agreement has no unrestricted subsidiary designation mechanism, so there is no cap. All domestic subsidiaries must become guarantors, and investments are limited to enumerated baskets."
+      },
+      {
+        "kind": "addback_cap",
+        "present": "yes",
+        "section": "Section 1.1 (Consolidated EBITDA)",
+        "quote": "in no event shall the amount of cash items added back to Consolidated EBITDA under clauses (v), (vii), (viii), (xi), (xii) and (xiii) for any period exceed fifteen percent (15%) of aggregate Consolidated EBITDA for such period (calculated before giving effect to any such add back)",
+        "summary": "Cash add-backs for restructuring, discontinued operations, casualty/disposition items, transaction costs, CFO transition and Peloton legal fees are capped at 15% of pre-add-back EBITDA. Start-up costs have a separate $10M lifetime cap, and there is no projected synergy add-back."
+      },
+      {
+        "kind": "equity_cure",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "The agreement contains no equity cure right for financial covenant defaults."
+      }
+    ],
+    "addback_cap_pct": 0.15
+  }
+}

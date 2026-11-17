@@ -1,0 +1,30 @@
+{
+  "job": "ratio-1411207-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1411207/000119312526446328/alsn-20260930.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 3563,
+    "output_tokens": 265,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "maximum first lien net leverage ratio",
+        "metric": "secured_net_leverage",
+        "period_end": "2026-09-30",
+        "actual": 0.84,
+        "limit": 5.5,
+        "direction": "max",
+        "facility": "Senior Secured Credit Facility",
+        "quote": "As of September 30, 2026, the Company was in compliance with the maximum first lien net leverage ratio, achieving a 0.84 x ratio."
+      }
+    ],
+    "notes": "The 5.50x maximum applies only when revolving loan commitments remain outstanding at quarter end (a springing covenant). The 4.00x and 3.50x thresholds set the interest margin, commitment fee and excess cash flow sweep, so they are not covenant limits. The MD&A section restates the same 0.84x actual figure."
+  }
+}

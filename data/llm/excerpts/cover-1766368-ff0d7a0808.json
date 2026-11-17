@@ -1,0 +1,24 @@
+{
+  "job": "cover-1766368-ff0d7a0808",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1766368/000110465926020541/tmb-20260225xex10d1.htm"
+  },
+  "usage": {
+    "input_tokens": 3139,
+    "output_tokens": 140,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "is_loan_document": true,
+    "kind": "amendment",
+    "title": "Second Amendment to Amended and Restated Credit Agreement and First Amendment to Amended and Restated Collateral Agreement",
+    "dated": "2025-08-15",
+    "amends_dated": "2023-06-28",
+    "primary_bank_facility": true,
+    "includes_conformed_copy": false,
+    "borrower": "Mayville Engineering Company, Inc."
+  }
+}

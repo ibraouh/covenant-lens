@@ -1,0 +1,50 @@
+{
+  "job": "ratio-918541-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/918541/000091854126000120/nnbr-20260930.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 4635,
+    "output_tokens": 876,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "Consolidated Net Leverage Ratio",
+        "metric": "net_leverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": null,
+        "direction": "max",
+        "facility": "Term Loan Credit Agreement (Term Loan Facility)",
+        "quote": "The Term Loan Credit Agreement includes customary representations, warranties and covenants, including, but not limited to, certain financial covenants, such as maximum Consolidated Net Leverage Ratio and minimum Domestic Liquidity (as defined in the Term Loan Credit Agreement), subject, in the case of the Consolidated Net Leverage Ratio covenant, to certain equity cure rights."
+      },
+      {
+        "covenant_name": "Domestic Liquidity",
+        "metric": "minimum_liquidity",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": null,
+        "direction": "min",
+        "facility": "Term Loan Credit Agreement (Term Loan Facility)",
+        "quote": "We were in compliance with the financial covenants of the Term Loan Facility as of September 30, 2026."
+      },
+      {
+        "covenant_name": "Fixed Charge Coverage Ratio",
+        "metric": "fixed_charge_coverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": null,
+        "direction": "min",
+        "facility": "ABL Credit Agreement (ABL Facility)",
+        "quote": "The ABL Credit Agreement includes customary representations, warranties and covenants, including, but not limited to, a financial covenant as to a minimum Fixed Charge Coverage Ratio (as defined in the ABL Credit Agreement)."
+      }
+    ],
+    "notes": "The excerpt names the covenants but gives no actual or required values. It says only that the company was in compliance with the Term Loan Facility and ABL Facility financial covenants as of September 30, 2026. Mentions of the Consolidated Net Leverage Ratio as a driver of interest margins and Excess Cash Flow prepayments, and of the 2021 Term Loan PIK net leverage ratio, are pricing or prepayment mechanics rather than covenants, so they are excluded."
+  }
+}

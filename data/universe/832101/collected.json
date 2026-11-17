@@ -1,0 +1,89 @@
+{
+  "reports": [
+    {
+      "form": "10-Q",
+      "filed": "2026-10-28",
+      "period": "2026-09-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/832101/000083210126000029/iex-20260930.htm",
+      "job": "ratio-832101-2026-09-30"
+    },
+    {
+      "form": "10-Q",
+      "filed": "2026-07-29",
+      "period": "2026-06-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/832101/000083210126000022/iex-20260630.htm",
+      "job": "ratio-832101-2026-06-30"
+    },
+    {
+      "form": "10-Q",
+      "filed": "2026-04-29",
+      "period": "2026-03-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/832101/000083210126000009/iex-20260331.htm",
+      "job": "ratio-832101-2026-03-31"
+    },
+    {
+      "form": "10-K",
+      "filed": "2026-02-19",
+      "period": "2025-12-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/832101/000083210126000003/iex-20251231.htm",
+      "job": "ratio-832101-2025-12-31"
+    }
+  ],
+  "releases": [
+    {
+      "filed": "2026-10-28",
+      "url": "https://www.sec.gov/Archives/edgar/data/832101/000083210126000026/iex-20260930xex991.htm",
+      "job": "ebitda-832101-40e6bb1884"
+    },
+    {
+      "filed": "2026-07-29",
+      "url": "https://www.sec.gov/Archives/edgar/data/832101/000083210126000019/iex-20260630xex991.htm",
+      "job": "ebitda-832101-9e57767f98"
+    },
+    {
+      "filed": "2026-04-29",
+      "url": "https://www.sec.gov/Archives/edgar/data/832101/000083210126000007/iex-20260331xex991.htm",
+      "job": "ebitda-832101-39b1449199"
+    },
+    {
+      "filed": "2026-02-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/832101/000162828026005268/iex-20251231xex991.htm",
+      "job": "ebitda-832101-3b81dd15d9"
+    },
+    {
+      "filed": "2025-10-29",
+      "url": "https://www.sec.gov/Archives/edgar/data/832101/000162828025046909/iex-20250930xex991.htm",
+      "job": "ebitda-832101-9b6a987cd8"
+    }
+  ],
+  "exhibits": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/832101/000083210119000016/iex-20190603xex101.htm",
+      "filed": "2019-06-04",
+      "exhibit": "EX-10.1",
+      "chars": 517252,
+      "job": "cover-832101-75879e01a7"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/832101/000083210122000008/iex-20211231xex1033.htm",
+      "filed": "2022-02-24",
+      "exhibit": "EX-10.33",
+      "chars": 33283,
+      "job": "cover-832101-09db6fdf14"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/832101/000083210122000059/ex-101idexxcreditagreeme.htm",
+      "filed": "2022-11-02",
+      "exhibit": "EX-10.1",
+      "chars": 592631,
+      "job": "cover-832101-8bbf634f5e"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/832101/000119312526381880/d421581dex101.htm",
+      "filed": "2026-09-03",
+      "exhibit": "EX-10.1",
+      "chars": 579585,
+      "job": "cover-832101-fda28378e3"
+    }
+  ]
+}

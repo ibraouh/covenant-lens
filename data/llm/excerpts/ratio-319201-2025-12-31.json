@@ -1,0 +1,30 @@
+{
+  "job": "ratio-319201-2025-12-31",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/319201/000031920126000008/klac-20251231.htm",
+    "period": "2025-12-31"
+  },
+  "usage": {
+    "input_tokens": 2890,
+    "output_tokens": 340,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "maximum net leverage ratio",
+        "metric": "net_leverage",
+        "period_end": "2025-12-31",
+        "actual": 0.56,
+        "limit": 3.25,
+        "direction": "max",
+        "facility": "Revolving Credit Facility (Credit Agreement)",
+        "quote": "We were in compliance with all covenants under the Credit Agreement as of December 31, 2025 (the net leverage ratio was 0.56 to 1.00, compared to a maximum net leverage ratio of 3.25 to 1.00 on a quarterly basis covering the trailing four consecutive fiscal quarters for each fiscal quarter)."
+      }
+    ],
+    "notes": "Net leverage is measured quarterly on a trailing four-quarter basis. The 3.25x maximum can step up to 3.75x for a period after a material acquisition. No borrowings were outstanding under the $1.5B revolver at 2025-12-31. The commitment fee (5.5 bps) is set by credit rating and KPIs, not by the ratio."
+  }
+}

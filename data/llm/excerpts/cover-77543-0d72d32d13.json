@@ -1,0 +1,24 @@
+{
+  "job": "cover-77543-0d72d32d13",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/77543/000007754324000015/tpc-20231231xex105tpcxfo.htm"
+  },
+  "usage": {
+    "input_tokens": 3192,
+    "output_tokens": 110,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "is_loan_document": true,
+    "kind": "amendment",
+    "title": "Fourth Amendment to Credit Agreement",
+    "dated": "2023-12-20",
+    "amends_dated": "2020-08-18",
+    "primary_bank_facility": true,
+    "includes_conformed_copy": true,
+    "borrower": "Tutor Perini Corporation"
+  }
+}

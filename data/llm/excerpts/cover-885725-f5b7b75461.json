@@ -1,0 +1,24 @@
+{
+  "job": "cover-885725-f5b7b75461",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/885725/000094787120000527/ss174648_ex1001.htm"
+  },
+  "usage": {
+    "input_tokens": 3144,
+    "output_tokens": 114,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "is_loan_document": true,
+    "kind": "amendment",
+    "title": "Second Amendment to February Term Loan Credit Agreement",
+    "dated": "2020-05-28",
+    "amends_dated": "2020-02-27",
+    "primary_bank_facility": false,
+    "includes_conformed_copy": false,
+    "borrower": "Boston Scientific Corporation"
+  }
+}

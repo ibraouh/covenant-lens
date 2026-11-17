@@ -1,0 +1,24 @@
+{
+  "job": "cover-1681622-34159f9e58",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1681622/000168162219000047/varexq219exhibit102.htm"
+  },
+  "usage": {
+    "input_tokens": 3354,
+    "output_tokens": 111,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "is_loan_document": true,
+    "kind": "amendment",
+    "title": "Amendment No. 3 to Credit Agreement",
+    "dated": "2019-03-21",
+    "amends_dated": "2017-05-01",
+    "primary_bank_facility": true,
+    "includes_conformed_copy": false,
+    "borrower": "Varex Imaging Corporation"
+  }
+}

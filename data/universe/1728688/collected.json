@@ -1,0 +1,159 @@
+{
+  "reports": [
+    {
+      "form": "10-Q",
+      "filed": "2026-08-07",
+      "period": "2026-06-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/1728688/000172868826000045/iiiv-20260630.htm",
+      "job": "ratio-1728688-2026-06-30"
+    },
+    {
+      "form": "10-Q",
+      "filed": "2026-05-08",
+      "period": "2026-03-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1728688/000172868826000032/iiiv-20260331.htm",
+      "job": "ratio-1728688-2026-03-31"
+    },
+    {
+      "form": "10-Q",
+      "filed": "2026-02-06",
+      "period": "2025-12-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1728688/000172868826000020/iiiv-20251231.htm",
+      "job": "ratio-1728688-2025-12-31"
+    },
+    {
+      "form": "10-K",
+      "filed": "2025-11-21",
+      "period": "2025-09-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/1728688/000172868825000122/iiiv-20250930.htm",
+      "job": "ratio-1728688-2025-09-30"
+    }
+  ],
+  "releases": [
+    {
+      "filed": "2026-11-17",
+      "url": "https://www.sec.gov/Archives/edgar/data/1728688/000172868826000051/supplementalpresentation.htm",
+      "job": "ebitda-1728688-6d67ade58d"
+    },
+    {
+      "filed": "2026-08-06",
+      "url": "https://www.sec.gov/Archives/edgar/data/1728688/000172868826000041/i3verticalsq3fy2026earning.htm",
+      "job": "ebitda-1728688-0424c350dd"
+    },
+    {
+      "filed": "2026-05-07",
+      "url": "https://www.sec.gov/Archives/edgar/data/1728688/000172868826000029/i3verticalsq2fy2026earning.htm",
+      "job": "ebitda-1728688-a91a2b6e11"
+    },
+    {
+      "filed": "2026-02-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/1728688/000172868826000017/i3verticalsq1fy2026earning.htm",
+      "job": "ebitda-1728688-bf8e9f0d03"
+    },
+    {
+      "filed": "2025-11-17",
+      "url": "https://www.sec.gov/Archives/edgar/data/1728688/000172868825000118/iiivq42025earningsrelease.htm",
+      "job": "ebitda-1728688-41d803e75e"
+    }
+  ],
+  "exhibits": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1728688/000162828018008317/exhibit1058-k.htm",
+      "filed": "2018-06-25",
+      "exhibit": "EX-10.5",
+      "chars": 26374,
+      "job": "cover-1728688-61efc73785"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1728688/000172868819000047/arcreditagreement-i3ve.htm",
+      "filed": "2019-05-13",
+      "exhibit": "EX-10.1",
+      "chars": 500175,
+      "job": "cover-1728688-5954521521"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1728688/000172868819000047/arsecurityagreement-i3.htm",
+      "filed": "2019-05-13",
+      "exhibit": "EX-10.2",
+      "chars": 70558,
+      "job": "cover-1728688-015d4aa8fa"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1728688/000172868819000092/char1-1663660xv3xfirst.htm",
+      "filed": "2019-08-13",
+      "exhibit": "EX-10.3",
+      "chars": 9287,
+      "job": "cover-1728688-270aeb28b6"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1728688/000119312520040854/d846267dex101.htm",
+      "filed": "2020-02-19",
+      "exhibit": "EX-10.1",
+      "chars": 41700,
+      "job": "cover-1728688-b6604012de"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1728688/000172868822000050/i3verticalsllc-thirdamendm.htm",
+      "filed": "2022-10-04",
+      "exhibit": "EX-10.1",
+      "chars": 41239,
+      "job": "cover-1728688-071d3a98b9"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1728688/000172868822000050/i3verticalsllc-libortransi.htm",
+      "filed": "2022-10-04",
+      "exhibit": "EX-10.2",
+      "chars": 28730,
+      "job": "cover-1728688-485f865f19"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1728688/000172868823000030/i3verticalssecurityandpled.htm",
+      "filed": "2023-05-09",
+      "exhibit": "EX-10.2",
+      "chars": 76494,
+      "job": "cover-1728688-465381074e"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1728688/000172868823000030/i3verticals2023creditagree.htm",
+      "filed": "2023-05-09",
+      "exhibit": "EX-10.1",
+      "chars": 573459,
+      "job": "cover-1728688-8fe45c28ab"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1728688/000172868824000079/firstamendment-i3verticals.htm",
+      "filed": "2024-06-26",
+      "exhibit": "EX-10.1",
+      "chars": 18444,
+      "job": "cover-1728688-39933c625c"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1728688/000172868825000081/exhibit101-secondamendment.htm",
+      "filed": "2025-05-06",
+      "exhibit": "EX-10.1",
+      "chars": 12810,
+      "job": "cover-1728688-114bb7159e"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1728688/000172868825000089/exhibit102-i3verticalsxpri.htm",
+      "filed": "2025-05-09",
+      "exhibit": "EX-10.2",
+      "chars": 6873,
+      "job": "cover-1728688-2dd440fd9d"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1728688/000172868826000048/i3jpm-arcreditagreement.htm",
+      "filed": "2026-10-09",
+      "exhibit": "EX-10.1",
+      "chars": 588274,
+      "job": "cover-1728688-b4b672d493"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1728688/000172868826000048/i3jpm-arsecurityandpledgea.htm",
+      "filed": "2026-10-09",
+      "exhibit": "EX-10.2",
+      "chars": 65582,
+      "job": "cover-1728688-bd3c1535ec"
+    }
+  ]
+}

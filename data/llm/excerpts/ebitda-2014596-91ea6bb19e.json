@@ -1,0 +1,49 @@
+{
+  "job": "ebitda-2014596-91ea6bb19e",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/2014596/000201459626000042/concentrainvestorpresent.htm",
+    "filed": "2026-05-07"
+  },
+  "usage": {
+    "input_tokens": 6060,
+    "output_tokens": 751,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "label": "Adjusted EBITDA",
+    "figures": [
+      {
+        "period_end": "2026-03-31",
+        "months": 3,
+        "shown": "120,688",
+        "unit": "thousands",
+        "quote": "Adjusted EBITDA $120,688 $102,659 $449,892"
+      },
+      {
+        "period_end": "2025-03-31",
+        "months": 3,
+        "shown": "102,659",
+        "unit": "thousands",
+        "quote": "Adjusted EBITDA $120,688 $102,659 $449,892"
+      },
+      {
+        "period_end": "2026-03-31",
+        "months": 12,
+        "shown": "449,892",
+        "unit": "thousands",
+        "quote": "Adjusted EBITDA $120,688 $102,659 $449,892"
+      },
+      {
+        "period_end": "2025-12-31",
+        "months": 12,
+        "shown": "431.9",
+        "unit": "millions",
+        "quote": "Adjusted EBITDA1 $431.9mm $460mm \u2013 $480mm Raising previous guidance ($450mm \u2013 $470mm)"
+      }
+    ],
+    "notes": "Quarterly figures and the trailing-twelve-months total ending 2026-03-31 are taken from the 'Reconciliation of Net Income to Adjusted EBITDA' table, whose header says '$ in thousands'. The 449,892 figure is a trailing-twelve-months total, not a fiscal year-to-date amount. The FY2025 full-year figure ($431.9mm) comes from the 2026 Full-Year Guidance slide. FY2026 guidance of $460mm\u2013$480mm is a forecast, not a reported result, so it is excluded."
+  }
+}

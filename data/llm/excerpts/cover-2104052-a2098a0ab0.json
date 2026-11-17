@@ -1,0 +1,24 @@
+{
+  "job": "cover-2104052-a2098a0ab0",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/2104052/000119312526251752/d258410dex102.htm"
+  },
+  "usage": {
+    "input_tokens": 3078,
+    "output_tokens": 100,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "is_loan_document": true,
+    "kind": "amendment",
+    "title": "Joinder Agreement",
+    "dated": "2026-06-01",
+    "amends_dated": "2016-11-02",
+    "primary_bank_facility": true,
+    "includes_conformed_copy": false,
+    "borrower": "Enviri II Corporation"
+  }
+}

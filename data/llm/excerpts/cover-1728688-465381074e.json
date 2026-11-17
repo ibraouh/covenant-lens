@@ -1,0 +1,24 @@
+{
+  "job": "cover-1728688-465381074e",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1728688/000172868823000030/i3verticalssecurityandpled.htm"
+  },
+  "usage": {
+    "input_tokens": 3031,
+    "output_tokens": 98,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "is_loan_document": false,
+    "kind": "other",
+    "title": "Security and Pledge Agreement",
+    "dated": "2023-05-08",
+    "amends_dated": null,
+    "primary_bank_facility": false,
+    "includes_conformed_copy": false,
+    "borrower": "i3 Verticals, LLC"
+  }
+}

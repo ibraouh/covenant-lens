@@ -1,0 +1,24 @@
+{
+  "job": "cover-1408075-2fb2f091fd",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1408075/000119312521225809/d171759dex101.htm"
+  },
+  "usage": {
+    "input_tokens": 3376,
+    "output_tokens": 107,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "is_loan_document": true,
+    "kind": "amendment",
+    "title": "Incremental Facility Amendment",
+    "dated": "2021-07-22",
+    "amends_dated": "2021-04-01",
+    "primary_bank_facility": true,
+    "includes_conformed_copy": false,
+    "borrower": "Graphic Packaging International, LLC"
+  }
+}

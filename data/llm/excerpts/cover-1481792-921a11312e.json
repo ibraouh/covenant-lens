@@ -1,0 +1,24 @@
+{
+  "job": "cover-1481792-921a11312e",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1481792/000148179226000042/exhibit47-quad2025amendmen.htm"
+  },
+  "usage": {
+    "input_tokens": 3046,
+    "output_tokens": 121,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "is_loan_document": true,
+    "kind": "amendment",
+    "title": "Amendment No. 10 to Second Amended and Restated Credit Agreement",
+    "dated": "2025-08-20",
+    "amends_dated": "2014-04-28",
+    "primary_bank_facility": true,
+    "includes_conformed_copy": true,
+    "borrower": "Quad/Graphics, Inc."
+  }
+}

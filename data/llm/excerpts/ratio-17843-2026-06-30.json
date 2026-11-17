@@ -1,0 +1,40 @@
+{
+  "job": "ratio-17843-2026-06-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000001784326000034/crs-20260630.htm",
+    "period": "2026-06-30"
+  },
+  "usage": {
+    "input_tokens": 3410,
+    "output_tokens": 344,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "Consolidated interest coverage ratio",
+        "metric": "interest_coverage",
+        "period_end": "2026-06-30",
+        "actual": 23.38,
+        "limit": 3.0,
+        "direction": "min",
+        "facility": "Credit Facility",
+        "quote": "Consolidated interest coverage ratio 3.00 to 1.00 (minimum) 23.38 to 1.00"
+      },
+      {
+        "covenant_name": "Consolidated net leverage ratio",
+        "metric": "net_leverage",
+        "period_end": "2026-06-30",
+        "actual": 0.56,
+        "limit": 3.5,
+        "direction": "max",
+        "facility": "Credit Facility",
+        "quote": "Consolidated net leverage ratio 3.50 to 1.00 (maximum) 0.56 to 1.00"
+      }
+    ],
+    "notes": "Credit Facility is a $500.0 million unsecured revolver maturing November 20, 2030. The consolidated total leverage ratio only sets the pricing margin and commitment fee, so it is excluded. The company was in compliance at June 30, 2026."
+  }
+}

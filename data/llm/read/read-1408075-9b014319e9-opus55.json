@@ -1,0 +1,126 @@
+{
+  "job": "read-1408075-9b014319e9-opus55",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "cik": "1408075",
+    "docs": [
+      "https://www.sec.gov/Archives/edgar/data/1408075/000140807526000052/executedgpk-amendmentno2.htm"
+    ]
+  },
+  "usage": {
+    "input_tokens": 37603,
+    "output_tokens": 7909,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "borrower": "Graphic Packaging International, LLC",
+    "agreement_date": "2024-06-03",
+    "covenants": [
+      {
+        "name": "Consolidated Total Leverage Ratio",
+        "metric": "total_leverage",
+        "direction": "max",
+        "thresholds": [
+          {
+            "value": 4.25,
+            "applies_from": "2024-06-30"
+          },
+          {
+            "value": 5.25,
+            "applies_from": "2026-03-31"
+          },
+          {
+            "value": 5.0,
+            "applies_from": "2027-06-30"
+          },
+          {
+            "value": 4.75,
+            "applies_from": "2027-12-31"
+          },
+          {
+            "value": 4.5,
+            "applies_from": "2028-06-30"
+          },
+          {
+            "value": 4.25,
+            "applies_from": "2028-12-31"
+          }
+        ],
+        "test_frequency": "quarterly",
+        "springing_condition": null,
+        "section": "Section 8.1(a)",
+        "quote": "Permit the Consolidated Total Leverage Ratio as of the end of any Test Period ending on or during the periods specified below to exceed the corresponding ratio set forth below for such period:",
+        "ebitda_addbacks": [],
+        "cash_netting_cap": null,
+        "cash_netting_cap_pct_ebitda": null
+      },
+      {
+        "name": "Consolidated Interest Expense Ratio",
+        "metric": "interest_coverage",
+        "direction": "min",
+        "thresholds": [
+          {
+            "value": 3.0,
+            "applies_from": null
+          }
+        ],
+        "test_frequency": "quarterly",
+        "springing_condition": null,
+        "section": "Section 8.1(b)",
+        "quote": "Permit the Consolidated Interest Expense Ratio as of the end of any Test Period ending on or after June 30, 2024 to be less than 3.00 to 1.00.",
+        "ebitda_addbacks": [],
+        "cash_netting_cap": null,
+        "cash_netting_cap_pct_ebitda": null
+      }
+    ],
+    "notes": "Only a redlined excerpt of the conformed agreement (Annex A to Amendment No. 2, dated November 2, 2026) was provided; the EBITDA, Consolidated Total Leverage Ratio and Consolidated Interest Expense Ratio definitions, Section 11.1 (amendments/voting), guarantor release provisions and investment covenants were not included, so EBITDA add-backs and the LME-protection terms could not be verified. The leverage grid in the redline is garbled by PDF extraction. The best reading of the post-Amendment No. 2 grid is: 4.25x for 6/30/24-12/31/25; 5.25x for 3/31/26 through 3/31/27; 5.00x for 6/30/27-9/30/27; 4.75x for 12/31/27-3/31/28; 4.50x for 6/30/28-9/30/28; and 4.25x from 12/31/28 onward. The 5.25x level may end at 12/31/26, with 3/31/27 at 5.00x; confirm against the clean conformed copy. Acquisition holiday: for fiscal quarters ending on or after March 31, 2029 (previously December 31, 2027), a permitted acquisition with consideration over $100M lets leverage rise to 4.75x for four quarters (an Elevated Ratio Period), and there must be at least one compliant 4.25x quarter between Elevated Ratio Periods. Amendment No. 2 also: extends the 'Specified Period' (covenant relief period) to end on delivery of a compliance certificate for the quarter ending December 31, 2028 (previously September 30, 2027); cuts the Inside Maturity Indebtedness basket from the greater of $700M and 40% of EBITDA to $0 after the Amendment No. 2 Effective Date, except for the Rabobank Delayed Draw Incremental Term Loan under the 2025 Incremental Facility Amendment; removes the ability to incur Incremental Term Facilities and 8.2(e) debt as inside-maturity debt; adds EU CRD VI lending-office provisions; and carries a 0.10% consent fee. Amendment No. 1 (Feb 26, 2026) had earlier introduced covenant relief. The facilities are secured, with a Collateral/Covenant Release Date concept, and pari passu with the senior secured notes under an intercreditor agreement. Incremental capacity is the greater of $1.75B and 100% of EBITDA, plus unlimited amounts subject to 3.50x Consolidated Senior Secured Leverage Ratio pro forma. Unsecured debt under 8.2(d) is unlimited subject to Pro Forma Compliance with the financial covenants.",
+    "facility": "Multi-currency Revolving Credit Facility (L/C-BA sublimit $125M), Revolving Euro Tranche and Revolving Yen Tranche facilities, Term A-1, A-2, A-3, A-5 and A-6 term loans, and a \u20ac200M Euro Term Loan, plus a Rabobank delayed-draw incremental term loan (2025); sizes of the other tranches and maturities are not stated in the excerpt.",
+    "terms": [
+      {
+        "kind": "j_crew_blocker",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "No provision restricting transfers or exclusive licensing of material IP to unrestricted subsidiaries appears in the provided text. The agreement appears to be an investment-grade-style bank deal without an unrestricted subsidiary framework."
+      },
+      {
+        "kind": "serta_protection",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "The provided excerpt contains no requirement for affected-lender consent to subordination of the loans or liens. Section 11.1 (Amendments and Waivers) was not included, so this could not be confirmed."
+      },
+      {
+        "kind": "chewy_protection",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "No provision prevents release of a guarantor merely because it ceases to be wholly owned. Subsidiaries less than 90% owned are Excluded Subsidiaries, and the release provisions (7.9/10.9) were not provided."
+      },
+      {
+        "kind": "unrestricted_sub_cap",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "No unrestricted subsidiary designation mechanism or cap appears in the provided text. Investments in Immaterial Subsidiaries are capped at $10M, but that is not an unrestricted subsidiary cap."
+      },
+      {
+        "kind": "addback_cap",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "The EBITDA definition was not included in the excerpt, and no cap on cost-savings, synergy or restructuring add-backs was identified."
+      },
+      {
+        "kind": "equity_cure",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "No equity cure right for the financial covenants appears in the provided text."
+      }
+    ],
+    "addback_cap_pct": null
+  }
+}

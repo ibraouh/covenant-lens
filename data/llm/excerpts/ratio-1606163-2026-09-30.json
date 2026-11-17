@@ -1,0 +1,40 @@
+{
+  "job": "ratio-1606163-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1606163/000162828026069590/lmb-20260930.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 3028,
+    "output_tokens": 873,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "Consolidated Net Leverage Ratio",
+        "metric": "net_leverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 3.0,
+        "direction": "max",
+        "facility": "PNC Credit Agreement",
+        "quote": "The PNC Credit Agreement contains customary affirmative and negative covenants, representations and warranties and events of default, including financial covenants requiring LFS to maintain (i) a maximum Consolidated Net Leverage Ratio of 3.00 to 1.00 and (ii) a minimum Consolidated Fixed Charge Coverage Ratio of 1.15 to 1.00."
+      },
+      {
+        "covenant_name": "Consolidated Fixed Charge Coverage Ratio",
+        "metric": "fixed_charge_coverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 1.15,
+        "direction": "min",
+        "facility": "PNC Credit Agreement",
+        "quote": "The PNC Credit Agreement contains customary affirmative and negative covenants, representations and warranties and events of default, including financial covenants requiring LFS to maintain (i) a maximum Consolidated Net Leverage Ratio of 3.00 to 1.00 and (ii) a minimum Consolidated Fixed Charge Coverage Ratio of 1.15 to 1.00."
+      }
+    ],
+    "notes": "The excerpt gives only the covenant requirements, not the actual ratios. The maximum Consolidated Net Leverage Ratio can step up to 3.50x for four consecutive quarters after certain qualifying acquisitions. The excerpt does not say whether a step-up applied at 2026-09-30, so the period_end assignment of the 3.00x limit is an assumption. The net leverage covenant restricted some unused revolver and DDTL capacity as of 2026-09-30, which suggests the actual ratio was close to the limit. Net leverage ratios used only to set interest margins were excluded."
+  }
+}

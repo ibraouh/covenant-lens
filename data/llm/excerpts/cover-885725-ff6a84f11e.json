@@ -1,0 +1,24 @@
+{
+  "job": "cover-885725-ff6a84f11e",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/885725/000088572523000010/exhibit101.htm"
+  },
+  "usage": {
+    "input_tokens": 3094,
+    "output_tokens": 100,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "is_loan_document": true,
+    "kind": "amendment",
+    "title": "Second Amendment",
+    "dated": "2023-03-01",
+    "amends_dated": "2021-05-10",
+    "primary_bank_facility": true,
+    "includes_conformed_copy": true,
+    "borrower": "Boston Scientific Corporation"
+  }
+}

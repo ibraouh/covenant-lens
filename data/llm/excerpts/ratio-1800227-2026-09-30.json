@@ -1,0 +1,40 @@
+{
+  "job": "ratio-1800227-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1800227/000162828026068882/ppli-20260930.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 4190,
+    "output_tokens": 650,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "consolidated net leverage ratio",
+        "metric": "net_leverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": null,
+        "direction": "max",
+        "facility": "People Inc. Credit Agreement (Term Loan A-1, Term Loan B-2 and Revolving Facility)",
+        "quote": "People Inc.\u2019s consolidated net leverage ratio was in compliance for the test periods ended September 30, 2026 and December 31, 2025."
+      },
+      {
+        "covenant_name": "consolidated net leverage ratio",
+        "metric": "net_leverage",
+        "period_end": "2025-12-31",
+        "actual": null,
+        "limit": null,
+        "direction": "max",
+        "facility": "People Inc. Credit Agreement (Term Loan A-1, Term Loan B-2 and Revolving Facility)",
+        "quote": "People Inc.\u2019s consolidated net leverage ratio was in compliance for the test periods ended September 30, 2026 and December 31, 2025."
+      }
+    ],
+    "notes": "The filing states only that People Inc. (the borrower subsidiary) must maintain certain consolidated net leverage ratios each quarter and was in compliance at both dates. It discloses neither the actual ratio nor the covenant limit. The direction is inferred as a maximum from the wording 'if ... ratios are exceeded'. Net leverage-based pricing of the commitment fee and interest margin, the excess cash flow sweep and the 2032 Notes indenture were excluded. The Company may contribute cash to People Inc. to improve the ratio."
+  }
+}

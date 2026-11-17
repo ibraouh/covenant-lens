@@ -1,0 +1,24 @@
+{
+  "job": "cover-1013880-d0fceb5a48",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1013880/000155837024011611/ttec-20240630xex10d99.htm"
+  },
+  "usage": {
+    "input_tokens": 4174,
+    "output_tokens": 143,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "is_loan_document": true,
+    "kind": "amendment",
+    "title": "Ninth Amendment to Amended and Restated Credit Agreement (Annex A - Conformed Amended and Restated Credit Agreement)",
+    "dated": "2024-08-08",
+    "amends_dated": "2013-06-03",
+    "primary_bank_facility": true,
+    "includes_conformed_copy": true,
+    "borrower": "TTEC Holdings, Inc."
+  }
+}

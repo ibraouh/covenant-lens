@@ -1,0 +1,30 @@
+{
+  "job": "ratio-1123360-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1123360/000112336026000093/gpn-20260930.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 2734,
+    "output_tokens": 252,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "leverage ratio",
+        "metric": "net_leverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 4.5,
+        "direction": "max",
+        "facility": "revolving credit agreement",
+        "quote": "As of September 30, 2026, the required leverage ratio was 4.50 to 1.00."
+      }
+    ],
+    "notes": "The excerpt states only the required (maximum) leverage ratio of 4.50 to 1.00 and says the company was in compliance. It does not give the actual ratio. The agreement's covenants are based on net leverage, so I classified this ratio as net leverage. An interest coverage covenant is mentioned, but no figures are given for it. The same paragraph appears twice in the excerpt; I reported it once."
+  }
+}

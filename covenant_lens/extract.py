@@ -115,9 +115,15 @@ def extract(combined_text: str, client: anthropic.Anthropic | None = None) -> tu
 
 
 def normalize(s: str) -> str:
+    """Compare text the way a reader would: same quote marks, spacing and case. HTML-to-text conversion leaves
+    stray spaces inside quote marks and parentheses ("“ Total Leverage Ratio ”"), so those are closed up too;
+    the same rules apply to both sides of every comparison."""
+    s = re.sub(r"\s+", " ", s.replace("\u00a0", " ")).strip().lower()
+    s = re.sub(r"([“‘])\s+", r"\1", s)  # space just inside an opening curly quote
+    s = re.sub(r"\s+([”’])", r"\1", s)  # space just inside a closing curly quote
     s = s.replace("“", '"').replace("”", '"').replace("’", "'").replace("‘", "'")
-    s = s.replace(" ", " ")
-    return re.sub(r"\s+", " ", s).strip().lower()
+    s = re.sub(r"\(\s+", "(", s)
+    return re.sub(r"\s+([,.;:)])", r"\1", s)
 
 
 def verify_quotes(extraction: CovenantExtraction, agreement_text: str) -> dict[str, bool]:

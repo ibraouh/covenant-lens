@@ -1,0 +1,24 @@
+{
+  "job": "cover-1561680-63d58355ef",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1561680/000110465920072047/tm2018292d6_ex4-1.htm"
+  },
+  "usage": {
+    "input_tokens": 3332,
+    "output_tokens": 118,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "is_loan_document": false,
+    "kind": "other",
+    "title": "Fifth Supplemental Indenture - 5.700% Senior Notes due 2028",
+    "dated": "2020-06-10",
+    "amends_dated": null,
+    "primary_bank_facility": false,
+    "includes_conformed_copy": false,
+    "borrower": "TRI Pointe Group, Inc."
+  }
+}

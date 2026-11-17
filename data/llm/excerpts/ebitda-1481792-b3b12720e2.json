@@ -1,0 +1,35 @@
+{
+  "job": "ebitda-1481792-b3b12720e2",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1481792/000148179226000088/pressreleaseex991q12026.htm",
+    "filed": "2026-04-28"
+  },
+  "usage": {
+    "input_tokens": 4622,
+    "output_tokens": 395,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "label": "Adjusted EBITDA",
+    "figures": [
+      {
+        "period_end": "2026-03-31",
+        "months": 3,
+        "shown": "45",
+        "unit": "millions",
+        "quote": "Adjusted EBITDA was $45 million in the first quarter of 2026, compared to $46 million in the same period in 2025."
+      },
+      {
+        "period_end": "2025-03-31",
+        "months": 3,
+        "shown": "46",
+        "unit": "millions",
+        "quote": "Adjusted EBITDA was $45 million in the first quarter of 2026, compared to $46 million in the same period in 2025."
+      }
+    ],
+    "notes": "The excerpt ends before the reconciliation table, so both figures come from the narrative text, which rounds to whole millions. The full-year 2026 guidance of $175 million to $215 million is a forecast, not a reported result, so it is excluded."
+  }
+}

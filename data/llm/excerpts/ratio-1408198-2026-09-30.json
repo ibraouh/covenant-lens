@@ -1,0 +1,30 @@
+{
+  "job": "ratio-1408198-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1408198/000140819826000056/msci-20260930.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 2320,
+    "output_tokens": 278,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "Consolidated Leverage Ratio",
+        "metric": "total_leverage",
+        "period_end": "2026-09-30",
+        "actual": 2.9,
+        "limit": 4.25,
+        "direction": "max",
+        "facility": "Credit Agreement",
+        "quote": "As of September 30, 2026, our Consolidated Leverage Ratio was 2.90:1.00."
+      }
+    ],
+    "notes": "Leverage limit is 4.25:1.00, stepping up to 4.50:1.00 for four fiscal quarters after a material acquisition. The excerpt does not say whether a step-up applied at 2026-09-30. The minimum Consolidated Interest Coverage Ratio of 3.00:1.00 applies only during a Non-Investment Grade Covenant Period. No actual coverage figure is disclosed, so it is omitted."
+  }
+}

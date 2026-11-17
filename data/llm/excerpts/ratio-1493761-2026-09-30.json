@@ -1,0 +1,19 @@
+{
+  "job": "ratio-1493761-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1493761/000119312526450111/tbch-20260930.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 6342,
+    "output_tokens": 281,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [],
+    "notes": "The excerpt names covenants but gives no actual values or numeric limits for any of them. The 2026 Term Loan Facility has a minimum liquidity covenant and a quarterly total net leverage ratio covenant. The 2026 Revolving Credit Facility has a springing fixed charge coverage ratio. The 2024 Revolving Credit Facility had a minimum fixed-charge coverage ratio when availability thresholds were not met; that facility was repaid in 2025. The total leverage thresholds of 2.25x and 3.00x in the 2026 Term Loan only set the interest rate margin, so they are excluded. The company states it was in compliance with all financial covenants under the 2026 Revolving Credit Facility as of September 30, 2026, with excess borrowing availability of about $61.5 million."
+  }
+}

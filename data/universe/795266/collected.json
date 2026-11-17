@@ -1,0 +1,77 @@
+{
+  "reports": [
+    {
+      "form": "10-Q",
+      "filed": "2026-10-08",
+      "period": "2026-08-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/795266/000079526626000071/kbh-20260831.htm",
+      "job": "ratio-795266-2026-08-31"
+    },
+    {
+      "form": "10-Q",
+      "filed": "2026-07-09",
+      "period": "2026-05-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/795266/000079526626000063/kbh-20260531.htm",
+      "job": "ratio-795266-2026-05-31"
+    },
+    {
+      "form": "10-Q",
+      "filed": "2026-04-09",
+      "period": "2026-02-28",
+      "url": "https://www.sec.gov/Archives/edgar/data/795266/000079526626000042/kbh-20260228.htm",
+      "job": "ratio-795266-2026-02-28"
+    },
+    {
+      "form": "10-K",
+      "filed": "2026-01-23",
+      "period": "2025-11-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/795266/000079526626000017/kbh-20251130.htm",
+      "job": "ratio-795266-2025-11-30"
+    }
+  ],
+  "releases": [],
+  "exhibits": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/795266/000079526617000076/kbh-08312017xexhibit1053.htm",
+      "filed": "2017-10-05",
+      "exhibit": "EX-10.53",
+      "chars": 360163,
+      "job": "cover-795266-f8201b2b8b"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/795266/000079526620000007/kbh-11302019x10kex1029.htm",
+      "filed": "2020-01-24",
+      "exhibit": "EX-10.29",
+      "chars": 367523,
+      "job": "cover-795266-644ea188fe"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/795266/000079526622000045/kbh-02282022xex1033xfourth.htm",
+      "filed": "2022-04-08",
+      "exhibit": "EX-10.33",
+      "chars": 457025,
+      "job": "cover-795266-1d717dbf33"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/795266/000079526622000090/kbh-08312022xex1034termloa.htm",
+      "filed": "2022-10-07",
+      "exhibit": "EX-10.34",
+      "chars": 410001,
+      "job": "cover-795266-3d3d1019c5"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/795266/000079526626000017/kbh-113025x10kexhibit1025.htm",
+      "filed": "2026-01-23",
+      "exhibit": "EX-10.25",
+      "chars": 421034,
+      "job": "cover-795266-0c4af7642a"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/795266/000079526626000017/kbh-113025x10kexhibit1024.htm",
+      "filed": "2026-01-23",
+      "exhibit": "EX-10.24",
+      "chars": 471091,
+      "job": "cover-795266-f92bd3163b"
+    }
+  ]
+}

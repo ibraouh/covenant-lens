@@ -1,0 +1,40 @@
+{
+  "job": "ratio-914122-2026-07-31",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/914122/000143774926029988/ppih20260731_10q.htm",
+    "period": "2026-07-31"
+  },
+  "usage": {
+    "input_tokens": 6223,
+    "output_tokens": 1116,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "consolidated leverage ratio",
+        "metric": "total_leverage",
+        "period_end": "2026-08-25",
+        "actual": null,
+        "limit": 3.0,
+        "direction": "max",
+        "facility": "2026 Credit Agreement",
+        "quote": "The 2026 Credit Agreement requires the Company to maintain a consolidated leverage ratio of not more than 3.00 to 1.00 and a fixed charge coverage ratio of not less than 1.25 to 1.00, subject to the terms and exceptions thereof."
+      },
+      {
+        "covenant_name": "fixed charge coverage ratio",
+        "metric": "fixed_charge_coverage",
+        "period_end": "2026-08-25",
+        "actual": null,
+        "limit": 1.25,
+        "direction": "min",
+        "facility": "2026 Credit Agreement",
+        "quote": "The 2026 Credit Agreement requires the Company to maintain a consolidated leverage ratio of not more than 3.00 to 1.00 and a fixed charge coverage ratio of not less than 1.25 to 1.00, subject to the terms and exceptions thereof."
+      }
+    ],
+    "notes": "The 2026 Credit Agreement was signed on August 25, 2026, after the July 31, 2026 balance sheet date. Its limits are dated to the signing date; they were not in force at quarter-end and no actual ratios are disclosed. The prior JPMorgan Credit Agreement has a minimum Fixed Charge Coverage Ratio and a maximum Leverage Ratio. These are tested only when availability thresholds are triggered. The filing gives no limits or actuals for them, only that the Company was in compliance at July 31, 2026. The U.A.E. facility (maximum Adjusted Leverage Ratio, minimum Adjusted Tangible Net Worth) and the Egypt facility (maximum leverage ratio) are subsidiary facilities. For these, the filing reports compliance only and gives no figures. Leverage-ratio-based pricing margins and commitment fees were excluded."
+  }
+}

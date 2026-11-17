@@ -1,0 +1,24 @@
+{
+  "job": "cover-886346-478a8433ed",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/886346/000088634616000246/kaiform10q1q2016exhibit101.htm"
+  },
+  "usage": {
+    "input_tokens": 3267,
+    "output_tokens": 104,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "is_loan_document": true,
+    "kind": "amendment",
+    "title": "Second Amendment to Credit Agreement",
+    "dated": "2016-03-29",
+    "amends_dated": "2012-08-03",
+    "primary_bank_facility": true,
+    "includes_conformed_copy": false,
+    "borrower": "Kadant Inc."
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "auto": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/319201/000119312525156593/d56185dex101.htm",
+      "title": "Credit Agreement",
+      "dated": "2025-07-03",
+      "kind": "original",
+      "filed": "2025-07-08"
+    }
+  ],
+  "notes": [],
+  "used": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/319201/000119312525156593/d56185dex101.htm",
+      "title": "Credit Agreement",
+      "dated": "2025-07-03",
+      "kind": "original",
+      "filed": "2025-07-08"
+    }
+  ],
+  "source": "automatic"
+}

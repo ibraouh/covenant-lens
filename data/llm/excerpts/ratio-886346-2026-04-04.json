@@ -1,0 +1,30 @@
+{
+  "job": "ratio-886346-2026-04-04",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/886346/000088634626000040/kai-20260404.htm",
+    "period": "2026-04-04"
+  },
+  "usage": {
+    "input_tokens": 3351,
+    "output_tokens": 340,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "leverage ratio",
+        "metric": "total_leverage",
+        "period_end": "2026-04-04",
+        "actual": 1.27,
+        "limit": 3.75,
+        "direction": "max",
+        "facility": "Credit Agreement (unsecured multi-currency revolving credit facility)",
+        "quote": "As of April 4, 2026, our leverage ratio was 1.27 and we were in compliance with our debt covenants."
+      }
+    ],
+    "notes": "Covenant maximum consolidated leverage ratio is 3.75 to 1, or 4.25 to 1 at the company's election for the quarter of a material acquisition and the three following quarters. The excerpt does not say whether that election was in effect at April 4, 2026. The Kadant Profil acquisition, funded with EUR 155.0 million of revolver borrowings, closed in April 2026, after the measurement date. The ratio that sets the interest rate margin (debt net of unrestricted cash up to $50 million, divided by EBITDA) is excluded because it only determines pricing."
+  }
+}

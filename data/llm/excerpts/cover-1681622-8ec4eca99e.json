@@ -1,0 +1,24 @@
+{
+  "job": "cover-1681622-8ec4eca99e",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1681622/000168162224000052/exhibit101zions-varexxrevo.htm"
+  },
+  "usage": {
+    "input_tokens": 2571,
+    "output_tokens": 104,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "is_loan_document": true,
+    "kind": "original",
+    "title": "Revolving Credit and Guaranty Agreement",
+    "dated": "2024-03-26",
+    "amends_dated": null,
+    "primary_bank_facility": true,
+    "includes_conformed_copy": false,
+    "borrower": "Varex Imaging Corporation"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "job": "ratio-1659166-2026-10-02",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1659166/000165916626000040/ftv-20261002.htm",
+    "period": "2026-10-02"
+  },
+  "usage": {
+    "input_tokens": 2139,
+    "output_tokens": 298,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "consolidated net leverage ratio",
+        "metric": "net_leverage",
+        "period_end": "2026-10-02",
+        "actual": null,
+        "limit": 3.75,
+        "direction": "max",
+        "facility": "Amended and Restated Credit Agreement (Revolving Credit Facility)",
+        "quote": "The Amended and Restated Credit Agreement requires us to maintain a defined consolidated net leverage ratio of no greater than 3.75 to 1.00."
+      }
+    ],
+    "notes": "The actual ratio is not disclosed; the filing states only that the company was in compliance as of October 2, 2026. The maximum steps up to 4.25x for four quarters after any acquisition over $250 million. The excerpt does not say whether a step-up was in effect, so 3.75x is assumed. Facility fee and margin pricing are tied to credit ratings, not covenant ratios, and are excluded."
+  }
+}

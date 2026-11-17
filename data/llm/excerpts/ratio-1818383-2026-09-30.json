@@ -1,0 +1,40 @@
+{
+  "job": "ratio-1818383-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1818383/000181838326000264/max-20260930.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 4649,
+    "output_tokens": 742,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "Fixed Charge Coverage Ratio",
+        "metric": "fixed_charge_coverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": null,
+        "direction": "min",
+        "facility": "2026 Credit Facilities (Credit Agreement)",
+        "quote": "The financial covenants include a minimum Fixed Charge Coverage Ratio and a maximum Total Net Leverage Ratio (in each case, as defined in the Credit Agreement)."
+      },
+      {
+        "covenant_name": "Total Net Leverage Ratio",
+        "metric": "net_leverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": null,
+        "direction": "max",
+        "facility": "2026 Credit Facilities (Credit Agreement)",
+        "quote": "The financial covenants include a minimum Fixed Charge Coverage Ratio and a maximum Total Net Leverage Ratio (in each case, as defined in the Credit Agreement)."
+      }
+    ],
+    "notes": "The filing names a minimum Fixed Charge Coverage Ratio and a maximum Total Net Leverage Ratio under the 2026 Credit Agreement. It gives neither the actual ratios nor the covenant thresholds. It states only that the company was in compliance with all such covenants as of September 30, 2026. The consolidated total net leverage ratio is also used to set the interest margin (SOFR plus 2.00%-3.00%) and the commitment fee (0.30%-0.50%), but those are pricing grids, not covenants, so they were excluded."
+  }
+}

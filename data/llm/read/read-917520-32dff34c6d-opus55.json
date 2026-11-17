@@ -1,0 +1,132 @@
+{
+  "job": "read-917520-32dff34c6d-opus55",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "cik": "917520",
+    "docs": [
+      "https://www.sec.gov/Archives/edgar/data/917520/000119312526425271/d142199dex101.htm"
+    ]
+  },
+  "usage": {
+    "input_tokens": 222609,
+    "output_tokens": 5980,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "borrower": "Integra LifeSciences Holdings Corporation",
+    "agreement_date": "2026-10-19",
+    "covenants": [
+      {
+        "name": "Consolidated Total Leverage Ratio",
+        "metric": "net_leverage",
+        "direction": "max",
+        "thresholds": [
+          {
+            "value": 4.75,
+            "applies_from": "2026-09-30"
+          },
+          {
+            "value": 4.5,
+            "applies_from": "2026-12-31"
+          },
+          {
+            "value": 4.25,
+            "applies_from": "2027-03-31"
+          },
+          {
+            "value": 4.0,
+            "applies_from": "2028-03-31"
+          }
+        ],
+        "test_frequency": "quarterly",
+        "springing_condition": null,
+        "section": "Section 7.17(a)",
+        "quote": "Permit the Consolidated Total Leverage Ratio of the Borrower and its Consolidated Subsidiaries as of the last day of any consecutive four fiscal quarter period ending on the dates identified below to be greater than the ratio set forth below opposite such date:",
+        "ebitda_addbacks": [
+          "stock_comp",
+          "impairments",
+          "restructuring",
+          "other"
+        ],
+        "cash_netting_cap": null,
+        "cash_netting_cap_pct_ebitda": null
+      },
+      {
+        "name": "Consolidated Interest Coverage Ratio",
+        "metric": "interest_coverage",
+        "direction": "min",
+        "thresholds": [
+          {
+            "value": 2.75,
+            "applies_from": "2026-09-30"
+          },
+          {
+            "value": 3.0,
+            "applies_from": "2028-12-31"
+          }
+        ],
+        "test_frequency": "quarterly",
+        "springing_condition": null,
+        "section": "Section 7.17(b)",
+        "quote": "Permit the Consolidated Interest Coverage Ratio of the Borrower and its Consolidated Subsidiaries as of the last day of any consecutive four fiscal quarter period ending on the dates identified below to be less than the ratio set forth below opposite such date:",
+        "ebitda_addbacks": [
+          "stock_comp",
+          "impairments",
+          "restructuring",
+          "other"
+        ],
+        "cash_netting_cap": null,
+        "cash_netting_cap_pct_ebitda": null
+      }
+    ],
+    "notes": "Although named 'Total' leverage, Consolidated Funded Indebtedness is defined net of all available unrestricted cash and Cash Equivalents on the latest balance sheet, with no cap, so the leverage covenant is effectively a net leverage test. Leverage covenant may be stepped up by up to 0.50x (never above 4.50x) for 12 months following a Material Acquisition (aggregate consideration > $200M), at the Borrower's election, up to two times during the term. Interest coverage uses Consolidated Cash Interest Charges in the denominator. Financial covenants protect the pro rata facilities (revolver and Term A) only: amendments/waivers of Section 7.17 need only Required Pro Rata Lenders, and a breach is an Event of Default for Term B lenders only after the Required Pro Rata Lenders accelerate (Term B is effectively covenant-lite). For Section 7.17 tests, events after the end of the Reference Period are not given pro forma effect. EBITDA add-backs are broad: all non-cash charges (which captures stock compensation and impairments), restructuring, integration costs, Permitted Cost Savings (24-month look-forward), transaction fees, ERP costs ($5M/yr cap), manufacturing remediation ($10M/yr cap), SKU rationalization ($25M/yr cap), EU MDR compliance costs (uncapped), non-recurring milestone/royalty/upfront payments, and extraordinary or non-recurring cash losses. The Consolidated Senior Secured Net Leverage Ratio is used only for the ECF sweep and for incurrence tests. Collateral package: first lien shared pari passu with $450M 9.500% senior secured notes due 2033 under a First Lien Intercreditor Agreement. The agreement has no unrestricted subsidiary concept; non-guarantor 'Excluded Subsidiaries' play that role. Term B carries 101 soft call for 12 months.",
+    "facility": "$600M revolving credit facility (incl. $60M L/C and $60M swing line sublimits) and $600M Term A loan, each maturing October 19, 2031; $450M Term B loan maturing October 19, 2033 (alongside $450M 9.500% senior secured notes due 2033)",
+    "terms": [
+      {
+        "kind": "j_crew_blocker",
+        "present": "partial",
+        "section": "Section 7.02 (final paragraph)",
+        "quote": "Notwithstanding anything to the contrary in this Agreement or in any other Loan Document, (x) the Borrower and the other Loan Parties shall not, directly or indirectly, sell, transfer or exclusively license (including pursuant to an Investment, Restricted Payment or otherwise but excluding any non-exclusive license or exclusive license outside of the United States to a third party) any Material Intellectual Property (or Equity Interests in any Loan Party or Subsidiary that owns any such Material Intellectual Property) to any Subsidiary of the Borrower that is not a Loan Party; provided that this clause (x) shall not be applicable so long as the Consolidated Total Leverage Ratio as of the last day of the most recently ended Reference Period does not exceed 3.25 to 1.00 on a Pro Forma Basis and (y) the Borrower and the other Loan Parties shall not designate or treat any Subsidiary that owns or exclusively licenses any Material Intellectual Property as an Excluded Subsidiary.",
+        "summary": "Loan Parties may not transfer or exclusively license Material IP to non-guarantor subsidiaries, and may not designate an IP-owning subsidiary as an Excluded Subsidiary. The transfer ban falls away whenever leverage is at or below 3.25x, and it excludes exclusive licenses granted to third parties outside the U.S."
+      },
+      {
+        "kind": "serta_protection",
+        "present": "yes",
+        "section": "Section 10.01(j)",
+        "quote": "prior to the occurrence of an Event of Default pursuant to Section 8.01(f), (i) subordinate in right of payment, or have the effect of subordinating in right of payment, the Obligations hereunder to any other Indebtedness or other obligation without the written consent of each Lender directly affected thereby or (ii) subordinate in priority, or have the effect of subordinating in right of priority, the Liens securing the Obligations to Liens securing any other Indebtedness or other obligation without the written consent of each Lender directly affected thereby; or",
+        "summary": "Payment or lien subordination of the loans, including amendments having that effect, needs each directly affected lender's consent; the protection lapses once an insolvency Event of Default occurs (e.g., to allow a DIP facility). Changes to pro rata sharing also require each affected lender's consent, and assignments to the Borrower or its affiliates are prohibited."
+      },
+      {
+        "kind": "chewy_protection",
+        "present": "partial",
+        "section": "Section 9.10(b)",
+        "quote": "to release any Subsidiary Guarantor from its obligations under the Subsidiary Guaranty and release the pledge of its assets, stock and indebtedness if such Person (i) ceases to be a Subsidiary as a result of a transaction permitted hereunder or (ii) becomes an Excluded Subsidiary (it being understood that no Subsidiary Guarantor shall be released from its Guarantee in connection with a de minimis transfer of Equity Interests in such Subsidiary Guarantor if there is no bona fide business purpose for such transfer of Equity Interests and/or such transfer of Equity Interest is intended solely to obtain a release of the Guarantee, in each case as determined in good faith by the Borrower).",
+        "summary": "A guarantor is released if it becomes an Excluded Subsidiary, which includes a subsidiary that is no longer wholly owned. A de minimis equity transfer made solely to obtain the release, without a bona fide business purpose, does not trigger release, but that determination is made by the Borrower in good faith."
+      },
+      {
+        "kind": "unrestricted_sub_cap",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "The agreement has no unrestricted subsidiary mechanism. Investments in non-guarantor Excluded Subsidiaries are limited by baskets (e.g., greater of $40M/10% of EBITDA per year subject to 3.50x leverage), but other baskets are leverage-based and unlimited, so there is no hard overall cap."
+      },
+      {
+        "kind": "addback_cap",
+        "present": "yes",
+        "section": "Section 1.01 (definitions of Consolidated EBITDA clauses (a)(vii) and (a)(xiv), and Permitted Cost Savings)",
+        "quote": "provided that the aggregate amount of all cost savings, operating expense reductions and synergies that may be added back to Consolidated EBITDA of the Borrower and its consolidated Subsidiaries (including pursuant to the definition of \u201cPro Forma Basis\u201d) during such measurement period (together with all amounts added back to Consolidated EBITDA pursuant to clauses (a)(vii) and (a)(xiv) of the definition thereof) does not exceed the greater of (x) $100,000,000 and (y) 25% of Consolidated EBITDA of the Borrower and its consolidated Subsidiaries (as calculated after giving effect to such adjustments) for any four fiscal quarter period.",
+        "summary": "Restructuring charges, integration costs and projected cost savings/synergies are capped in aggregate at the greater of $100M and 25% of Consolidated EBITDA, with EBITDA calculated after giving effect to the add-backs. Other add-backs, such as general non-cash charges and EU MDR costs, are uncapped."
+      },
+      {
+        "kind": "equity_cure",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "The agreement has no equity cure right for the financial covenants."
+      }
+    ],
+    "addback_cap_pct": 0.25
+  }
+}

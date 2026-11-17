@@ -1,0 +1,145 @@
+{
+  "reports": [
+    {
+      "form": "10-Q",
+      "filed": "2026-11-05",
+      "period": "2026-09-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/1561680/000156168026000047/tph-20260930.htm",
+      "job": "ratio-1561680-2026-09-30"
+    },
+    {
+      "form": "10-Q",
+      "filed": "2026-08-13",
+      "period": "2026-06-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/1561680/000156168026000040/tph-20260630.htm",
+      "job": "ratio-1561680-2026-06-30"
+    },
+    {
+      "form": "10-Q",
+      "filed": "2026-04-29",
+      "period": "2026-03-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1561680/000156168026000026/tph-20260331.htm",
+      "job": "ratio-1561680-2026-03-31"
+    },
+    {
+      "form": "10-K",
+      "filed": "2026-02-26",
+      "period": "2025-12-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1561680/000156168026000008/tph-20251231.htm",
+      "job": "ratio-1561680-2025-12-31"
+    }
+  ],
+  "releases": [
+    {
+      "filed": "2026-11-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/1561680/000156168026000044/tphex991q32026.htm",
+      "job": "ebitda-1561680-3e9f8eec30"
+    },
+    {
+      "filed": "2026-08-13",
+      "url": "https://www.sec.gov/Archives/edgar/data/1561680/000156168026000035/tphex991q22026.htm",
+      "job": "ebitda-1561680-e66ec8d836"
+    },
+    {
+      "filed": "2026-04-29",
+      "url": "https://www.sec.gov/Archives/edgar/data/1561680/000156168026000022/tphex991q12026.htm",
+      "job": "ebitda-1561680-e69198c85e"
+    },
+    {
+      "filed": "2026-02-25",
+      "url": "https://www.sec.gov/Archives/edgar/data/1561680/000156168026000004/tphex991q42025.htm",
+      "job": "ebitda-1561680-3ccb16af0f"
+    },
+    {
+      "filed": "2025-10-23",
+      "url": "https://www.sec.gov/Archives/edgar/data/1561680/000156168025000103/tphex991q32025.htm",
+      "job": "ebitda-1561680-3afa89e99b"
+    }
+  ],
+  "exhibits": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1561680/000119312516603539/d195174dex41.htm",
+      "filed": "2016-05-26",
+      "exhibit": "EX-4.1",
+      "chars": 92344,
+      "job": "cover-1561680-930bffefa5"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1561680/000119312517198080/d369360dex41.htm",
+      "filed": "2017-06-08",
+      "exhibit": "EX-4.1",
+      "chars": 92403,
+      "job": "cover-1561680-00f04369c0"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1561680/000156168017000077/exhibit101modificationagre.htm",
+      "filed": "2017-06-20",
+      "exhibit": "EX-10.1",
+      "chars": 56835,
+      "job": "cover-1561680-28791d41b1"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1561680/000156168019000048/tphexhibit101.htm",
+      "filed": "2019-04-04",
+      "exhibit": "EX-10.1",
+      "chars": 471566,
+      "job": "cover-1561680-4deb512a39"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1561680/000110465920072047/tm2018292d6_ex4-1.htm",
+      "filed": "2020-06-10",
+      "exhibit": "EX-4.1",
+      "chars": 93627,
+      "job": "cover-1561680-63d58355ef"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1561680/000156168021000023/tph10k2020ex108.htm",
+      "filed": "2021-02-19",
+      "exhibit": "EX-10.8",
+      "chars": 502044,
+      "job": "cover-1561680-bda3dfe999"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1561680/000156168021000085/tphsecondmodificationagree.htm",
+      "filed": "2021-06-11",
+      "exhibit": "EX-10.1",
+      "chars": 519116,
+      "job": "cover-1561680-7b2f0bea10"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1561680/000156168022000080/thirdmodificationagreement.htm",
+      "filed": "2022-06-30",
+      "exhibit": "EX-10.1",
+      "chars": 513602,
+      "job": "cover-1561680-77f5312943"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1561680/000156168023000106/fourthmodificationagreemen.htm",
+      "filed": "2023-12-19",
+      "exhibit": "EX-10.1",
+      "chars": 509650,
+      "job": "cover-1561680-5fdfc935c1"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1561680/000156168025000062/fifthmodificationagreement.htm",
+      "filed": "2025-05-01",
+      "exhibit": "EX-10.1",
+      "chars": 534787,
+      "job": "cover-1561680-3d8b1929a4"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1561680/000156168025000096/sixthmodificationagreement.htm",
+      "filed": "2025-09-19",
+      "exhibit": "EX-10.1",
+      "chars": 544328,
+      "job": "cover-1561680-5aa026e4c1"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1561680/000156168026000018/seventhmodificationagreeme.htm",
+      "filed": "2026-04-17",
+      "exhibit": "EX-10.1",
+      "chars": 22343,
+      "job": "cover-1561680-1593508c59"
+    }
+  ]
+}

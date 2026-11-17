@@ -1,0 +1,110 @@
+{
+  "job": "read-17843-6fffca4222-sonnet55",
+  "model": "claude-sonnet-5-5",
+  "meta": {
+    "cik": "17843",
+    "docs": [
+      "https://www.sec.gov/Archives/edgar/data/17843/000110465925114628/tm2531768d1_ex10-1.htm"
+    ]
+  },
+  "usage": {
+    "input_tokens": 196691,
+    "output_tokens": 1978,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "borrower": "Carpenter Technology Corporation",
+    "agreement_date": "2025-11-20",
+    "covenants": [
+      {
+        "name": "Interest Coverage Ratio",
+        "metric": "interest_coverage",
+        "direction": "min",
+        "thresholds": [
+          {
+            "value": 3.0,
+            "applies_from": null
+          }
+        ],
+        "test_frequency": "quarterly",
+        "springing_condition": null,
+        "section": "Section 7.12(a)",
+        "quote": "Permit the Interest Coverage Ratio to be less than 3.00 to 1.00 for the Measurement Period ending December 31, 2025 or any Measurement Period ending thereafter.",
+        "ebitda_addbacks": [
+          "other"
+        ],
+        "cash_netting_cap": null,
+        "cash_netting_cap_pct_ebitda": null
+      },
+      {
+        "name": "Consolidated Net Leverage Ratio",
+        "metric": "net_leverage",
+        "direction": "max",
+        "thresholds": [
+          {
+            "value": 3.5,
+            "applies_from": null
+          }
+        ],
+        "test_frequency": "quarterly",
+        "springing_condition": null,
+        "section": "Section 7.12(b)",
+        "quote": "Permit the Consolidated Net Leverage Ratio to exceed 3.50 to 1.00 for the Measurement Period ending December 31, 2025 and any Measurement Period ending thereafter.",
+        "ebitda_addbacks": [
+          "other"
+        ],
+        "cash_netting_cap": 200000000.0,
+        "cash_netting_cap_pct_ebitda": null
+      }
+    ],
+    "notes": "Third Amended and Restated Credit Agreement; no later amendments provided. Facilities are unsecured (the existing collateral was released under Section 11.23(b)), and the incremental term loan must be unsecured. Consolidated EBITDA adds back interest, taxes, depreciation, amortization and other non-cash expenses (excluding accruals or reserves for future cash charges). It excludes non-operating, non-recurring and extraordinary gains and losses through Consolidated Net Income. It has no express add-back for stock compensation, impairments or restructuring, other than whatever falls within the non-cash and non-recurring language. It has no add-back for projected cost savings or synergies. In the Net Leverage Ratio, netted cash is the sum of domestic unrestricted unencumbered cash plus up to $40M of non-domestic cash held with the Administrative Agent or its affiliates, and the total of the two is capped at $200M. The agreement has no equity cure. The leverage covenant is tested every quarter on a trailing four-quarter basis. Incremental facilities of up to $650M are permitted, subject to pro forma covenant compliance and Net Leverage at least 0.25x inside the covenant. Section 11.01 requires only Required Lenders to amend financial covenants. Section 11.01(e)(iii) requires consent from each directly affected lender to subordinate the Obligations. That protection is lost for a lender that is offered the chance to fund its pro rata share of the priming debt. The Guaranty release in Section 9.10(a) applies when a guarantor ceases to be a Subsidiary, and Section 10.12(b) allows Carpenter to terminate a Subsidiary Guarantor, subject to Pro Forma Compliance. There is no unrestricted subsidiary concept.",
+    "facility": "Two senior unsecured revolving facilities: a $425M USD Facility (including L/C and swing line sublimits) and a $75M AC multicurrency Facility, both maturing November 20, 2030, with up to $650M of incremental commitments.",
+    "terms": [
+      {
+        "kind": "j_crew_blocker",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "The agreement has no unrestricted subsidiary concept and no IP-specific transfer blocker. Dispositions are limited in general terms and Investments in non-Loan Party subsidiaries are limited, but there is no specific protection for material IP."
+      },
+      {
+        "kind": "serta_protection",
+        "present": "partial",
+        "section": "Section 11.01(e)",
+        "quote": "subordinate, or have the effect of subordinating, the Obligations hereunder to any other Indebtedness or other obligation; provided that, in the case of the preceding subclause (iii), only those Lenders that are directly and adversely affected thereby (without giving effect to this proviso) that have not been offered an opportunity to fund their pro rata share",
+        "summary": "Subordinating the Obligations requires the consent of each directly affected lender. Lenders that were offered a chance to fund their pro rata share of the priming debt on the same terms are not treated as affected. Pro rata sharing changes also require each affected lender's consent."
+      },
+      {
+        "kind": "chewy_protection",
+        "present": "no",
+        "section": "Section 9.10(a)",
+        "quote": "to release any Guarantor from its obligations under the Guaranty if such Person ceases to be a Subsidiary as a result of a transaction permitted under the Loan Documents.",
+        "summary": "A guarantor is released when it ceases to be a Subsidiary through a permitted transaction. Carpenter can also terminate a Domestic Subsidiary's guarantor status on notice, if it is in Pro Forma Compliance. There is no wholly-owned test, and no specific protection against release on loss of wholly-owned status."
+      },
+      {
+        "kind": "unrestricted_sub_cap",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "The agreement has no unrestricted subsidiaries and no designation mechanic. Investments in non-Loan Party joint ventures and subsidiaries are capped at $75M when net leverage is at least 3.00x, which is a general investment basket rather than an unrestricted subsidiary cap."
+      },
+      {
+        "kind": "addback_cap",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "Consolidated EBITDA has no add-backs for projected cost savings, synergies or restructuring, so there is nothing to cap."
+      },
+      {
+        "kind": "equity_cure",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "The agreement has no equity cure right for the financial covenants."
+      }
+    ],
+    "addback_cap_pct": null
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "job": "ratio-1377630-2026-01-01",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1377630/000119312526076788/ncmi-20260101.htm",
+    "period": "2026-01-01"
+  },
+  "usage": {
+    "input_tokens": 5740,
+    "output_tokens": 527,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "fixed charge coverage ratio",
+        "metric": "fixed_charge_coverage",
+        "period_end": "2026-01-01",
+        "actual": 13.5,
+        "limit": 1.5,
+        "direction": "min",
+        "facility": "2025 Credit Facility",
+        "quote": "NCM LLC was in compliance at January 1, 2026 with a fixed charge coverage ratio of 13.5 to 1.0 (versus the required ratio of 1.50 to 1.00) and a maximum leverage ratio of 0.4 to 1.0 (versus the required ratio of 2.25 to 1.0)."
+      },
+      {
+        "covenant_name": "maximum leverage ratio",
+        "metric": "total_leverage",
+        "period_end": "2026-01-01",
+        "actual": 0.4,
+        "limit": 2.25,
+        "direction": "max",
+        "facility": "2025 Credit Facility",
+        "quote": "NCM LLC was in compliance at January 1, 2026 with a fixed charge coverage ratio of 13.5 to 1.0 (versus the required ratio of 1.50 to 1.00) and a maximum leverage ratio of 0.4 to 1.0 (versus the required ratio of 2.25 to 1.0)."
+      }
+    ],
+    "notes": "Covenants are measured quarterly at NCM LLC. The filing does not specify whether the leverage ratio is gross or net; it is classified here as total leverage. The terminated Revolving Credit Facility 2023 had a 1.1x fixed charge coverage covenant that applied only during a Trigger Period. No actual values are disclosed for that facility, so it is excluded."
+  }
+}

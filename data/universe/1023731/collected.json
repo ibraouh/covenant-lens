@@ -1,0 +1,96 @@
+{
+  "reports": [
+    {
+      "form": "10-Q",
+      "filed": "2026-11-05",
+      "period": "2026-09-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/1023731/000102373126000170/eght-20260930.htm",
+      "job": "ratio-1023731-2026-09-30"
+    },
+    {
+      "form": "10-Q",
+      "filed": "2026-08-05",
+      "period": "2026-06-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/1023731/000102373126000114/eght-20260630.htm",
+      "job": "ratio-1023731-2026-06-30"
+    },
+    {
+      "form": "10-K",
+      "filed": "2026-05-22",
+      "period": "2026-03-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1023731/000102373126000041/eght-20260331.htm",
+      "job": "ratio-1023731-2026-03-31"
+    },
+    {
+      "form": "10-Q",
+      "filed": "2026-02-04",
+      "period": "2025-12-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1023731/000102373126000010/eght-20251231.htm",
+      "job": "ratio-1023731-2025-12-31"
+    }
+  ],
+  "releases": [
+    {
+      "filed": "2026-11-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/1023731/000102373126000166/q2278-kexhibit991.htm",
+      "job": "ebitda-1023731-7685e660b1"
+    },
+    {
+      "filed": "2026-08-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/1023731/000102373126000107/fy27_q1x8-kexhibitx991.htm",
+      "job": "ebitda-1023731-21d0602c02"
+    },
+    {
+      "filed": "2026-05-19",
+      "url": "https://www.sec.gov/Archives/edgar/data/1023731/000102373126000033/fy26_q4x8-kexhibitx991.htm",
+      "job": "ebitda-1023731-b5ef3c183e"
+    },
+    {
+      "filed": "2026-02-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/1023731/000102373126000006/fy26q3_8-kexhx991.htm",
+      "job": "ebitda-1023731-8a80643cf0"
+    },
+    {
+      "filed": "2025-11-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/1023731/000102373125000102/fy26q2_8-kexhx991.htm",
+      "job": "ebitda-1023731-1491b02ba0"
+    }
+  ],
+  "exhibits": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1023731/000102373122000173/ex-102.htm",
+      "filed": "2022-08-04",
+      "exhibit": "EX-10.2",
+      "chars": 413769,
+      "job": "cover-1023731-f1a72cc552"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1023731/000102373122000173/ex-103.htm",
+      "filed": "2022-08-04",
+      "exhibit": "EX-10.3",
+      "chars": 42320,
+      "job": "cover-1023731-441b7e01bd"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1023731/000102373124000006/exh_101xfirstamendmentto.htm",
+      "filed": "2024-02-01",
+      "exhibit": "EX-10.1",
+      "chars": 19314,
+      "job": "cover-1023731-9dfafd4ffe"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1023731/000102373124000062/a8x8_ex101xcreditagreeme.htm",
+      "filed": "2024-07-15",
+      "exhibit": "EX-10.1",
+      "chars": 505269,
+      "job": "cover-1023731-96b673848e"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1023731/000102373125000070/a101_firstamendmenttoter.htm",
+      "filed": "2025-08-04",
+      "exhibit": "EX-10.1",
+      "chars": 20987,
+      "job": "cover-1023731-33939099d3"
+    }
+  ]
+}

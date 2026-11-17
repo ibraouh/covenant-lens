@@ -1,0 +1,30 @@
+{
+  "job": "ratio-911147-2026-06-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/911147/000091114726000039/cnty-20260630x10q.htm",
+    "period": "2026-06-30"
+  },
+  "usage": {
+    "input_tokens": 4912,
+    "output_tokens": 605,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "Consolidated First Lien Net Leverage Ratio",
+        "metric": "secured_net_leverage",
+        "period_end": "2026-06-30",
+        "actual": null,
+        "limit": 5.5,
+        "direction": "max",
+        "facility": "Goldman Credit Agreement (Revolving Facility)",
+        "quote": "If the Company has aggregate outstanding revolving loans, swingline loans, and letters of credit greater than $ 10.5 million as of the last day of any fiscal quarter, it is required to maintain a Consolidated First Lien Net Leverage Ratio of 5.50 to 1.00 or less for such fiscal quarter."
+      }
+    ],
+    "notes": "The 5.50x maximum is a springing covenant. It applies only when revolving loans, swingline loans and letters of credit outstanding exceed $10.5 million at quarter-end. At June 30, 2026 nothing was drawn, so the filing says the requirement did not apply, and no actual ratio is disclosed. The 2.75x and 2.25x First Lien Net Leverage thresholds only set the pricing margin, commitment fee and excess cash flow sweep, so they are excluded. The Master Lease Minimum Rent Coverage Ratio is a lease term, not a credit agreement covenant, and is also excluded."
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "job": "ratio-2014596-2025-12-31",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/2014596/000201459626000029/cghp-20251231.htm",
+    "period": "2025-12-31"
+  },
+  "usage": {
+    "input_tokens": 5939,
+    "output_tokens": 881,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "Leverage ratio (as defined in the Credit Agreement)",
+        "metric": "net_leverage",
+        "period_end": "2025-12-31",
+        "actual": 3.4,
+        "limit": 6.5,
+        "direction": "max",
+        "facility": "Credit Agreement (Term Loan and Revolving Credit Facility)",
+        "quote": "The Credit Facilities require CHSI to maintain a leverage ratio (as defined in the Credit Agreement), which is tested quarterly and currently must not be greater than 6.5 to 1.0. As of December 31, 2025, CHSI\u2019s leverage ratio was 3.4x."
+      }
+    ],
+    "notes": "The filing calls the covenant only a 'leverage ratio (as defined in the Credit Agreement)'. It is classified as net leverage because the same defined ratio drives pricing-grid step-downs that are described in net leverage terms; it could instead be a total leverage measure. The covenant is a springing-style test whose breach is an event of default under the Revolving Credit Facility, and it cross-defaults to the Term Loan only after revolver acceleration. The \u22643.50x and \u22643.25x net leverage thresholds only set interest-rate margins and are excluded."
+  }
+}

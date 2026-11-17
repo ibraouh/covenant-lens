@@ -1,0 +1,40 @@
+{
+  "job": "ratio-1076930-2026-04-03",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1076930/000119312526217064/novt-20260403.htm",
+    "period": "2026-04-03"
+  },
+  "usage": {
+    "input_tokens": 3745,
+    "output_tokens": 438,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "Maximum consolidated leverage ratio",
+        "metric": "net_leverage",
+        "period_end": "2026-04-03",
+        "actual": 0.64,
+        "limit": 3.75,
+        "direction": "max",
+        "facility": "Fourth Amended and Restated Credit Agreement (Senior Credit Facilities)",
+        "quote": "Maximum consolidated leverage ratio (1) 3.75 0.64"
+      },
+      {
+        "covenant_name": "Minimum consolidated fixed charge coverage ratio",
+        "metric": "fixed_charge_coverage",
+        "period_end": "2026-04-03",
+        "actual": 5.51,
+        "limit": 1.25,
+        "direction": "min",
+        "facility": "Fourth Amended and Restated Credit Agreement (Senior Credit Facilities)",
+        "quote": "Minimum consolidated fixed charge coverage ratio 1.25 5.51"
+      }
+    ],
+    "notes": "In the table, the Requirement column comes first and the Actual column second. The leverage ratio is classed as net leverage because the First Amendment (November 5, 2025) lets up to $100 million of unrestricted cash reduce consolidated funded indebtedness. The maximum leverage limit steps up to 4.25 for four consecutive quarters after a designated acquisition. The leverage-based interest margin grids were left out because they only set pricing."
+  }
+}

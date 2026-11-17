@@ -1,0 +1,50 @@
+{
+  "job": "ratio-1710366-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1710366/000171036626000068/cnr-20260930.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 4474,
+    "output_tokens": 631,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "maximum first lien gross leverage ratio",
+        "metric": "secured_leverage",
+        "period_end": "2026-09-30",
+        "actual": 0.19,
+        "limit": 1.5,
+        "direction": "max",
+        "facility": "Revolving Credit Facility",
+        "quote": "The Company\u2019s first lien gross leverage ratio was 0.19 to 1.00 at September 30, 2026."
+      },
+      {
+        "covenant_name": "maximum total net leverage ratio",
+        "metric": "net_leverage",
+        "period_end": "2026-09-30",
+        "actual": 0.01,
+        "limit": 2.5,
+        "direction": "max",
+        "facility": "Revolving Credit Facility",
+        "quote": "The Company\u2019s total net leverage ratio was 0.01 to 1.00 at September 30, 2026."
+      },
+      {
+        "covenant_name": "minimum interest coverage ratio",
+        "metric": "interest_coverage",
+        "period_end": "2026-09-30",
+        "actual": 31.93,
+        "limit": 3.0,
+        "direction": "min",
+        "facility": "Revolving Credit Facility",
+        "quote": "The Company\u2019s interest coverage ratio was 31.93 to 1.00 at September 30, 2026."
+      }
+    ],
+    "notes": "The same figures appear in both the notes to the financial statements and MD&A; each is reported once. The limits come from the sentence: \"the maximum first lien gross leverage ratio is 1.50 to 1.00, the maximum total net leverage ratio is 2.50 to 1.00 and the minimum interest coverage ratio is 3.00 to 1.00.\" The first lien ratio is a gross measure (Consolidated First Lien Debt to Consolidated EBITDA), not a net one. The total net leverage ratio also sets the interest rate margin, but it is a stated financial covenant, so it is included. The $250 million specified liquidity test only affects the maturity date and is not a minimum liquidity covenant. The company was in compliance at September 30, 2026."
+  }
+}

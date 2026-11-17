@@ -1,0 +1,40 @@
+{
+  "job": "ratio-1967649-2026-07-03",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1967649/000162828026055486/vsts-20260703.htm",
+    "period": "2026-07-03"
+  },
+  "usage": {
+    "input_tokens": 5339,
+    "output_tokens": 580,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "maximum consolidated total net leverage ratio",
+        "metric": "net_leverage",
+        "period_end": "2026-07-03",
+        "actual": null,
+        "limit": 5.0,
+        "direction": "max",
+        "facility": "Credit Agreement",
+        "quote": "Under the Credit Agreement, the Company is required to maintain a maximum consolidated total net leverage ratio, as defined in the Credit Agreement, of (i) 5.00 x for the fiscal quarter ended July 3, 2026 and (ii) 4.75 x for the fiscal quarter ending October 2, 2026 and (iii) 4.50 x for the first fiscal quarter of fiscal 2027 and each fiscal quarter thereafter through maturity."
+      },
+      {
+        "covenant_name": "minimum interest coverage ratio",
+        "metric": "interest_coverage",
+        "period_end": "2026-07-03",
+        "actual": null,
+        "limit": 2.0,
+        "direction": "min",
+        "facility": "Credit Agreement",
+        "quote": "the Credit Agreement also established a minimum interest coverage ratio, as defined in the Credit Agreement, of at least 2.00 x for the term of the Credit Agreement."
+      }
+    ],
+    "notes": "Filing states only covenant requirements and that the Company was in compliance with all covenants as of July 3, 2026; actual ratios not disclosed. Leverage covenant steps down to 4.75x for quarter ending Oct 2, 2026 and 4.50x from Q1 fiscal 2027. The 4.50x dividend/repurchase restriction threshold and the 3.30x pricing step-down are not separate covenants and are excluded. A $15M bad debt add-back to EBITDA applied for covenant purposes in quarter ended March 28, 2025."
+  }
+}

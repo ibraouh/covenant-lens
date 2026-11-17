@@ -1,0 +1,24 @@
+{
+  "job": "cover-1728688-61efc73785",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1728688/000162828018008317/exhibit1058-k.htm"
+  },
+  "usage": {
+    "input_tokens": 3388,
+    "output_tokens": 116,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "is_loan_document": true,
+    "kind": "amendment",
+    "title": "First Amendment to Credit Agreement and Joinder Agreement",
+    "dated": "2018-06-19",
+    "amends_dated": "2017-10-30",
+    "primary_bank_facility": true,
+    "includes_conformed_copy": false,
+    "borrower": "i3 Verticals, LLC"
+  }
+}

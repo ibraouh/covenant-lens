@@ -1,0 +1,173 @@
+{
+  "reports": [
+    {
+      "form": "10-Q",
+      "filed": "2026-08-10",
+      "period": "2026-07-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/1681622/000168162226000063/var-20260703.htm",
+      "job": "ratio-1681622-2026-07-03"
+    },
+    {
+      "form": "10-Q",
+      "filed": "2026-05-07",
+      "period": "2026-04-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/1681622/000168162226000052/var-20260403.htm",
+      "job": "ratio-1681622-2026-04-03"
+    },
+    {
+      "form": "10-Q",
+      "filed": "2026-02-10",
+      "period": "2026-01-02",
+      "url": "https://www.sec.gov/Archives/edgar/data/1681622/000168162226000016/var-20260102.htm",
+      "job": "ratio-1681622-2026-01-02"
+    },
+    {
+      "form": "10-K",
+      "filed": "2025-11-18",
+      "period": "2025-10-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/1681622/000168162225000108/var-20251003.htm",
+      "job": "ratio-1681622-2025-10-03"
+    }
+  ],
+  "releases": [
+    {
+      "filed": "2026-08-10",
+      "url": "https://www.sec.gov/Archives/edgar/data/1681622/000110465926093036/tm2622686d1_ex99-1.htm",
+      "job": "ebitda-1681622-d07df1ab3e"
+    },
+    {
+      "filed": "2026-05-07",
+      "url": "https://www.sec.gov/Archives/edgar/data/1681622/000168162226000051/exhibit991-q226earningsrel.htm",
+      "job": "ebitda-1681622-f50366c11b"
+    },
+    {
+      "filed": "2026-02-10",
+      "url": "https://www.sec.gov/Archives/edgar/data/1681622/000168162226000015/exhibit991-q126earningsrel.htm",
+      "job": "ebitda-1681622-cff8232344"
+    },
+    {
+      "filed": "2025-11-18",
+      "url": "https://www.sec.gov/Archives/edgar/data/1681622/000168162225000106/exhibit991-q425earningsrel.htm",
+      "job": "ebitda-1681622-5b0b39a06d"
+    },
+    {
+      "filed": "2025-08-07",
+      "url": "https://www.sec.gov/Archives/edgar/data/1681622/000168162225000083/exhibit991-q325earningsrel.htm",
+      "job": "ebitda-1681622-4d0e935ff0"
+    }
+  ],
+  "exhibits": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1681622/000119312517022649/d146912dex106.htm",
+      "filed": "2017-01-30",
+      "exhibit": "EX-10.6",
+      "chars": 577941,
+      "job": "cover-1681622-4f3b4f250e"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1681622/000168162217000019/varexq3exhibit101.htm",
+      "filed": "2017-08-14",
+      "exhibit": "EX-10.1",
+      "chars": 637435,
+      "job": "cover-1681622-b1821e692f"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1681622/000168162218000008/varexq118exhibit101.htm",
+      "filed": "2018-02-07",
+      "exhibit": "EX-10.1",
+      "chars": 19547,
+      "job": "cover-1681622-2f20957d33"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1681622/000168162218000039/varexexhibit1011032018.htm",
+      "filed": "2018-10-03",
+      "exhibit": "EX-10.1",
+      "chars": 24211,
+      "job": "cover-1681622-5d1ea72910"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1681622/000168162219000047/varexq219exhibit102.htm",
+      "filed": "2019-05-08",
+      "exhibit": "EX-10.2",
+      "chars": 15849,
+      "job": "cover-1681622-34159f9e58"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1681622/000168162219000072/varexexhibit101creditagree.htm",
+      "filed": "2019-10-02",
+      "exhibit": "EX-10.1",
+      "chars": 31326,
+      "job": "cover-1681622-72cff33a9d"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1681622/000168162220000042/exhibit101-amendmentno.htm",
+      "filed": "2020-03-30",
+      "exhibit": "EX-10.1",
+      "chars": 23382,
+      "job": "cover-1681622-5e5308ad9f"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1681622/000110465920069640/tm2021182d2_10-1.htm",
+      "filed": "2020-06-04",
+      "exhibit": "EX-10.1",
+      "chars": 62621,
+      "job": "cover-1681622-1fb0b241ea"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1681622/000168162220000116/exhibit1018-10xk2020.htm",
+      "filed": "2020-11-30",
+      "exhibit": "EX-10.18",
+      "chars": 631036,
+      "job": "cover-1681622-09fb64a046"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1681622/000168162220000116/exhibit43-10xk2020.htm",
+      "filed": "2020-11-30",
+      "exhibit": "EX-4.3",
+      "chars": 456928,
+      "job": "cover-1681622-10ceb6ed72"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1681622/000168162222000051/varexq222ex101-usdlibortra.htm",
+      "filed": "2022-05-04",
+      "exhibit": "EX-10.1",
+      "chars": 41966,
+      "job": "cover-1681622-43b01ace47"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1681622/000168162224000052/exhibit101zions-varexxrevo.htm",
+      "filed": "2024-03-27",
+      "exhibit": "EX-10.1",
+      "chars": 651453,
+      "job": "cover-1681622-8ec4eca99e"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1681622/000168162224000059/exhibit102equipmentcredita.htm",
+      "filed": "2024-05-02",
+      "exhibit": "EX-10.2",
+      "chars": 288202,
+      "job": "cover-1681622-d261230422"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1681622/000168162224000089/exhibit1023-10xk2024.htm",
+      "filed": "2024-11-19",
+      "exhibit": "EX-10.23",
+      "chars": 21676,
+      "job": "cover-1681622-7cebe9497f"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1681622/000168162224000104/exhibit101-amendmentno2toc.htm",
+      "filed": "2024-12-17",
+      "exhibit": "EX-10.1",
+      "chars": 33045,
+      "job": "cover-1681622-d5f31746d8"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1681622/000168162226000035/exhibit101-creditandguaran.htm",
+      "filed": "2026-03-16",
+      "exhibit": "EX-10.1",
+      "chars": 727966,
+      "job": "cover-1681622-15a80da48d"
+    }
+  ]
+}

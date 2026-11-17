@@ -1,0 +1,19 @@
+{
+  "job": "ratio-703604-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/703604/000070360426000051/dsgr-20260930.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 4475,
+    "output_tokens": 184,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [],
+    "notes": "The Credit Agreement includes two financial maintenance covenants: a consolidated minimum interest coverage ratio and a maximum total net leverage ratio. The excerpt does not give the actual values or the required levels for either one. It says only that the Company was in compliance with all financial covenants as of September 30, 2026. The other leverage-ratio references in the excerpt are left out: they set pricing margins and commitment fees (total net leverage ratio grid) or a pro forma leverage test for incremental borrowing capacity."
+  }
+}

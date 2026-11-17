@@ -1,0 +1,100 @@
+{
+  "job": "read-885725-56fb01eb4d-opus55",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "cik": "885725",
+    "docs": [
+      "https://www.sec.gov/Archives/edgar/data/885725/000088572526000017/exhibit102-creditagreement.htm"
+    ]
+  },
+  "usage": {
+    "input_tokens": 126525,
+    "output_tokens": 3044,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "borrower": "Boston Scientific Corporation",
+    "agreement_date": "2026-02-26",
+    "covenants": [
+      {
+        "name": "Consolidated Leverage Ratio",
+        "metric": "total_leverage",
+        "direction": "max",
+        "thresholds": [
+          {
+            "value": 4.25,
+            "applies_from": "2026-03-31"
+          },
+          {
+            "value": 4.0,
+            "applies_from": "2026-06-30"
+          },
+          {
+            "value": 3.75,
+            "applies_from": "2026-09-30"
+          }
+        ],
+        "test_frequency": "quarterly",
+        "springing_condition": null,
+        "section": "Section 9.1",
+        "quote": "Permit the Consolidated Leverage Ratio as at the last day of any period of four consecutive fiscal quarters of the Borrower to exceed the Maximum Leverage Ratio.",
+        "ebitda_addbacks": [
+          "stock_comp",
+          "impairments",
+          "other"
+        ],
+        "cash_netting_cap": null,
+        "cash_netting_cap_pct_ebitda": null
+      }
+    ],
+    "notes": "The Maximum Leverage Ratio is 3.75x. After any Qualified Acquisition it steps up for the four fiscal quarters ending after the deal, counting the quarter of closing: 4.75x for those four quarters, then 4.50x, 4.25x and 4.00x, then back to 3.75x. A Qualified Acquisition is one financed with at least $1bn of debt and designated by notice to the Agent. The agreement deems the step-ups from the November 15, 2024 acquisition to be in effect. On our reading of that schedule: 4.75x ran Q4 2024 through Q3 2025, 4.50x Q4 2025, 4.25x Q1 2026, 4.00x Q2 2026, and 3.75x from Q3 2026. These threshold dates are our derivation, not stated in the agreement. If the Penumbra acquisition (the purpose of this facility) is designated a Qualified Acquisition, a new 4.75x step-up period would start. Consolidated Total Debt is gross (no cash netting) and excludes debt raised to prefund a Qualified Acquisition until it closes or is abandoned. ASC 842 lease changes are excluded. EBITDA add-backs include: non-cash extraordinary, unusual or nonrecurring charges; acquisition-related charges (including inventory step-up and purchased R&D); non-cash stock comp; Non-Cash Charges (including intangible asset impairment); business combination contingent consideration; and cash litigation payments, capped at $1.16bn cumulative since 12/31/2025. There is no add-back for projected cost savings or synergies. Other terms: the facility is unsecured with no subsidiary guarantors (the Borrower guarantees any Foreign Subsidiary Borrowers). It is investment-grade style, with no unrestricted subsidiary concept and no restricted payments or investments covenants. Subsidiary debt is capped at 12.5% of Consolidated Tangible Assets, subject to exceptions. The general lien basket is the greater of $500m and 7.5% of Consolidated Tangible Assets. Commitments terminate automatically if the Penumbra acquisition is not consummated by the Outside Date. The financial covenant breach is an immediate Event of Default with no grace period.",
+    "facility": "$2.0bn 364-day revolving credit facility (including a $600m multicurrency sublimit, plus optional Local Currency Facilities) to fund the Penumbra acquisition. It matures 364 days after the earlier of the Closing Date and consummation of the acquisition, with an option to term out for one year for a 0.50% fee.",
+    "terms": [
+      {
+        "kind": "j_crew_blocker",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "There is no unrestricted subsidiary concept and no restriction on transferring or licensing intellectual property to non-guarantor or unrestricted entities."
+      },
+      {
+        "kind": "serta_protection",
+        "present": "partial",
+        "section": "Section 13.1(a)",
+        "quote": "(v) modify the pro rata distribution of payments, proceeds or fees payable to the Lenders (except in connection with an amend and extend transaction offered ratably to all Lenders under a tranche of Commitments) without the consent of each Lender directly affected thereby.",
+        "summary": "Changing the pro rata sharing of payments requires each affected lender's consent, and subordinating the Borrower's guarantee requires all lenders. However, there is no express each-lender consent for subordinating the loans in right of payment to other debt, and the facility is unsecured, so there are no liens to subordinate."
+      },
+      {
+        "kind": "chewy_protection",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "There are no subsidiary guarantors, so no guarantor release provisions or protections exist."
+      },
+      {
+        "kind": "unrestricted_sub_cap",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "The agreement has no unrestricted subsidiary designation mechanism and no investment covenant, so there is no cap."
+      },
+      {
+        "kind": "addback_cap",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "EBITDA has no add-back for projected cost savings, synergies or restructuring, so there is no such cap. The only capped add-back is cash litigation payments, limited to $1.16bn cumulative since 12/31/2025."
+      },
+      {
+        "kind": "equity_cure",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "There is no equity cure right; a breach of the leverage covenant is an immediate Event of Default under Section 10(c)."
+      }
+    ],
+    "addback_cap_pct": null
+  }
+}

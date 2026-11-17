@@ -1,0 +1,40 @@
+{
+  "job": "ratio-1254699-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1254699/000125469926000034/qvcg-20260930.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 3175,
+    "output_tokens": 994,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "Consolidated Total Net Leverage Ratio",
+        "metric": "net_leverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 3.0,
+        "direction": "max",
+        "facility": "Exit ABL Credit Agreement",
+        "quote": "(ii) a Consolidated Total Net Leverage Ratio covenant of 3 :1, tested quarterly when Excess Availability is, for a specified period, less than the greater of 12.5 % of the Line Cap and $ 60 million)"
+      },
+      {
+        "covenant_name": "net leverage ratio",
+        "metric": "net_leverage",
+        "period_end": "2025-12-31",
+        "actual": null,
+        "limit": 4.5,
+        "direction": "max",
+        "facility": "RCF Credit Agreement (Credit Facility)",
+        "quote": "As of December 31, 2025, QVC Group\u2019s net leverage ratio, as calculated under the Credit Facility, was greater than 4.5 to 1.0."
+      }
+    ],
+    "notes": "The Exit ABL 3.0x net leverage covenant is a springing test. It applies only when Excess Availability falls below the greater of 12.5% of the Line Cap and $60 million, and up to $500 million of unrestricted cash can be netted. No actual ratio is disclosed for 9/30/2026; the company says only that it was in compliance with all debt covenants. The facility was undrawn, with about $186 million of availability. The Exit ABL also has a minimum Excess Availability covenant equal to the greater of 10% of the Line Cap and $50 million. It is not listed here as a ratio. At 12/31/2025 the pre-emergence RCF net leverage ratio was only described as greater than 4.5x. That was a covenant breach, so the actual value is not given. That facility was later extinguished through the Chapter 11 emergence."
+  }
+}

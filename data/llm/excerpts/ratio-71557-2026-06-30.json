@@ -1,0 +1,40 @@
+{
+  "job": "ratio-71557-2026-06-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/71557/000143774926027827/nuvr20260630_10q.htm",
+    "period": "2026-06-30"
+  },
+  "usage": {
+    "input_tokens": 5686,
+    "output_tokens": 924,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "Total Leverage Ratio",
+        "metric": "total_leverage",
+        "period_end": "2026-06-30",
+        "actual": 4.99,
+        "limit": 6.0,
+        "direction": "max",
+        "facility": "CoBank credit facility",
+        "quote": "Our current Total Leverage Ratio as of June 30, 2026, was 4.99. Our maximum Total Leverage Ratio under the loan facility is 6.00:1.00."
+      },
+      {
+        "covenant_name": "debt service coverage ratio",
+        "metric": "other",
+        "period_end": "2026-06-30",
+        "actual": 1.99,
+        "limit": 2.0,
+        "direction": "min",
+        "facility": "CoBank credit facility",
+        "quote": "Our debt service coverage ratio as of June 30, 2026, was 1.99, which was below our minimum debt service coverage ratio of 2.00 per our existing covenants with CoBank."
+      }
+    ],
+    "notes": "The 1.99 debt service coverage ratio at June 30, 2026 missed the 2.00 minimum. On August 6, 2026, CoBank granted a waiver lowering that minimum to 1.75 to cover the June 30, 2026 measurement. The Total Leverage Ratio thresholds of 4.25x and 3.50x only govern dividend capacity, not covenant compliance, so they are excluded. The SOFR margin grid tied to the Leverage Ratio is pricing-only and is also excluded."
+  }
+}

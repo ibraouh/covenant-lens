@@ -1,0 +1,114 @@
+{
+  "job": "read-1728688-b4b672d493-opus55",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "cik": "1728688",
+    "docs": [
+      "https://www.sec.gov/Archives/edgar/data/1728688/000172868826000048/i3jpm-arcreditagreement.htm"
+    ]
+  },
+  "usage": {
+    "input_tokens": 206026,
+    "output_tokens": 4514,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "borrower": "i3 Verticals, LLC",
+    "agreement_date": "2026-10-09",
+    "covenants": [
+      {
+        "name": "Consolidated Total Net Leverage Ratio",
+        "metric": "net_leverage",
+        "direction": "max",
+        "thresholds": [
+          {
+            "value": 4.0,
+            "applies_from": null
+          }
+        ],
+        "test_frequency": "quarterly",
+        "springing_condition": null,
+        "section": "Section 7.11(a)",
+        "quote": "Permit the Consolidated Total Net Leverage Ratio as of the end of any fiscal quarter of HoldCo to be greater than 4.00 to 1.00",
+        "ebitda_addbacks": [
+          "stock_comp",
+          "impairments",
+          "other"
+        ],
+        "cash_netting_cap": 20000000.0,
+        "cash_netting_cap_pct_ebitda": null
+      },
+      {
+        "name": "Consolidated Interest Coverage Ratio",
+        "metric": "interest_coverage",
+        "direction": "min",
+        "thresholds": [
+          {
+            "value": 3.0,
+            "applies_from": null
+          }
+        ],
+        "test_frequency": "quarterly",
+        "springing_condition": null,
+        "section": "Section 7.11(b)",
+        "quote": "Permit the Consolidated Interest Coverage Ratio as of the end of any fiscal quarter of HoldCo to be less than 3.00 to 1.00.",
+        "ebitda_addbacks": [
+          "stock_comp",
+          "impairments",
+          "other"
+        ],
+        "cash_netting_cap": null,
+        "cash_netting_cap_pct_ebitda": null
+      }
+    ],
+    "notes": "Acquisition holiday: the 4.00x max total net leverage steps up by 0.25x (to 4.25x) for the four fiscal quarters beginning with the quarter in which a Qualified Acquisition (consideration > $20M, with election certificate) closes; at most three such Leverage Increase Periods over the life of the deal, only one at a time, and at least one quarter at the base level between them. Net leverage nets up to $20M of unrestricted cash of Loan Parties. Interest coverage excludes non-cash interest on Permitted Convertible Indebtedness. EBITDA add-backs include a general add-back for non-cash charges (other than write-downs of current assets and accruals for future cash charges), which covers non-cash stock compensation and impairments. There is no express add-back for restructuring charges themselves. Other add-backs: transaction/financing fees (capped at 20% of EBITDA); run-rate cost savings and synergies, including from restructurings (capped at 10% of EBITDA, actions taken within 12 months); legal expenses on pre-closing acquisition claims (lifetime cap $1M); the Louisiana Claim Amount (up to $15M, in one quarter only); indemnified and insured expenses; earn-out mark-to-market losses; and deferred revenue write-downs. A Consolidated Senior Secured Leverage Ratio is defined but is not a maintenance covenant. Pricing grid is based on total net leverage (SOFR +1.50%-2.50%). Incurrence-style tests include: Restricted Payments under 7.06(j) require net leverage \u2264 2.75x pro forma; junior debt prepayments require a 0.25x cushion to the covenant level; Permitted Acquisitions are capped at $75M of consideration each and require pro forma covenant compliance. The agreement has no unrestricted subsidiary concept. All Subsidiaries are subject to the covenants, and minority-owned subsidiaries are restricted by Sections 7.14 and 7.05(c)(iii). Specified Refinancing Notes and Incremental Equivalent Debt may be secured on a junior or pari basis under a Market Intercreditor Agreement.",
+    "facility": "$350M senior secured revolving credit facility (including a $20M L/C sublimit and a $15M swingline sublimit) maturing October 9, 2031, with two one-year extension options; uncommitted incremental term loans/revolver increases up to the greater of $100M and 100% of Consolidated EBITDA, plus prepayments; no funded term loan at closing",
+    "terms": [
+      {
+        "kind": "j_crew_blocker",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "The agreement has no specific restriction on transferring or exclusively licensing material IP. It also has no unrestricted subsidiary concept, so all subsidiaries remain subject to the covenants."
+      },
+      {
+        "kind": "serta_protection",
+        "present": "yes",
+        "section": "Section 11.01(a)(vii)",
+        "quote": "subordinate, or have the effect of subordinating, (A) the Obligations hereunder to any other Indebtedness or other obligation or (B) the Liens granted to the Administrative Agent (for the benefit of the secured parties pursuant to the Security Agreement) in the Collateral, in each case, without the written consent of each Lender directly affected thereby;",
+        "summary": "Subordinating the Obligations in payment, or the agent's liens on the collateral, requires the consent of each directly affected lender. The only carve-out is the agent's authority under Section 9.08(c) to subordinate liens to certain permitted liens. Changes to pro rata sharing in Section 8.03 also need affected-lender consent."
+      },
+      {
+        "kind": "chewy_protection",
+        "present": "partial",
+        "section": "Section 7.05(c)(iii); Section 7.14",
+        "quote": "such transaction does not involve the sale or other disposition of a minority Equity Interest in any Subsidiary",
+        "summary": "There is no automatic guarantor release when a guarantor stops being wholly owned. Releasing the guaranty requires all-lender consent unless done in a permitted merger or disposition. Sales of minority stakes in subsidiaries are prohibited, and non-wholly-owned subsidiaries are generally barred except as permitted Investments. There is no express anti-Chewy clause."
+      },
+      {
+        "kind": "unrestricted_sub_cap",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "The agreement has no unrestricted subsidiary designation mechanism, so no such cap exists. Separately, investments in non-guarantor non-wholly-owned subsidiaries, joint ventures and foreign subsidiaries are capped at 10% of Consolidated Total Assets under Section 7.02(k)."
+      },
+      {
+        "kind": "addback_cap",
+        "present": "yes",
+        "section": "Definition of Consolidated EBITDA, clause (b)(ix)",
+        "quote": "shall not exceed ten percent (10%) of Consolidated EBITDA (determined without giving effect to this add back)",
+        "summary": "Pro forma run-rate cost savings, operating expense reductions and synergies from acquisitions, dispositions, restructurings and other initiatives are capped at 10% of Consolidated EBITDA. Transaction-related fees and expenses are separately capped at 20%."
+      },
+      {
+        "kind": "equity_cure",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "The agreement contains no equity cure right for the financial covenants. A breach of Section 7.11 is an immediate Event of Default under Section 8.01(b)(ii)."
+      }
+    ],
+    "addback_cap_pct": 0.1
+  }
+}

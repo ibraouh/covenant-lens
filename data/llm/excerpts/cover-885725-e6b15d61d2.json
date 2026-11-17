@@ -1,0 +1,24 @@
+{
+  "job": "cover-885725-e6b15d61d2",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/885725/000094787117000108/ss29948_ex1001.htm"
+  },
+  "usage": {
+    "input_tokens": 3992,
+    "output_tokens": 114,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "is_loan_document": true,
+    "kind": "amended_and_restated",
+    "title": "Second Amended and Restated Credit and Security Agreement",
+    "dated": "2017-02-07",
+    "amends_dated": null,
+    "primary_bank_facility": false,
+    "includes_conformed_copy": false,
+    "borrower": "Boston Scientific Funding LLC"
+  }
+}

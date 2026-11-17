@@ -1,0 +1,40 @@
+{
+  "job": "ratio-1860543-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1860543/000110465926122697/cdre-20260930x10q.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 5874,
+    "output_tokens": 865,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "minimum fixed charge coverage ratio",
+        "metric": "fixed_charge_coverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 1.25,
+        "direction": "min",
+        "facility": "2024 Credit Agreement",
+        "quote": "(i) maintain a minimum fixed charge coverage ratio of 1.25 to 1.00, starting with the quarter ended December 31, 2024, which is to be determined for each quarter end on a trailing four quarter basis"
+      },
+      {
+        "covenant_name": "maximum consolidated total net leverage ratio",
+        "metric": "net_leverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 3.5,
+        "direction": "max",
+        "facility": "2024 Credit Agreement",
+        "quote": "(ii) maintain a quarterly maximum consolidated total net leverage ratio of 4.00 to 1.00 from the quarter ended December 31, 2024 until the quarter ended March 31, 2026, and thereafter 3.50 to 1.00, which is in each case to be determined on a trailing four quarter basis"
+      }
+    ],
+    "notes": "The excerpt states only the covenant requirements; it gives no actual ratio values and no explicit compliance statement. The 3.50x limit is inferred from the step-down after the quarter ended March 31, 2026. After a material acquisition the limit can rise temporarily by up to 0.50x for four quarters, capped at 4.00x. The excerpt does not say this applies at September 30, 2026. The Zircaloy acquisition was in April 2025, so any such step-up would likely have expired by then. Net leverage-based pricing grids for interest margins and fees, under both the 2024 Credit Agreement and the Canadian Loan Agreement, were excluded."
+  }
+}

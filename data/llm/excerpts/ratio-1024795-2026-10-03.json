@@ -1,0 +1,19 @@
+{
+  "job": "ratio-1024795-2026-10-03",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1024795/000119312526451705/hlio-20261003.htm",
+    "period": "2026-10-03"
+  },
+  "usage": {
+    "input_tokens": 2133,
+    "output_tokens": 109,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [],
+    "notes": "The excerpt says the credit agreement has financial covenants requiring a maximum leverage ratio and a minimum interest coverage ratio. It also states the Company was in compliance as of October 3, 2026. However, it gives no actual ratio values or covenant limits, so no entries are reported."
+  }
+}

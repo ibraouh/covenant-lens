@@ -1,0 +1,124 @@
+{
+  "reports": [
+    {
+      "form": "10-Q",
+      "filed": "2026-11-04",
+      "period": "2026-09-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/1766368/000110465926122720/tmb-20260930x10q.htm",
+      "job": "ratio-1766368-2026-09-30"
+    },
+    {
+      "form": "10-Q",
+      "filed": "2026-08-05",
+      "period": "2026-06-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/1766368/000110465926091110/tmb-20260630x10q.htm",
+      "job": "ratio-1766368-2026-06-30"
+    },
+    {
+      "form": "10-Q",
+      "filed": "2026-05-06",
+      "period": "2026-03-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1766368/000110465926056257/tmb-20260331x10q.htm",
+      "job": "ratio-1766368-2026-03-31"
+    },
+    {
+      "form": "10-K",
+      "filed": "2026-03-04",
+      "period": "2025-12-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/1766368/000110465926023496/tmb-20251231x10k.htm",
+      "job": "ratio-1766368-2025-12-31"
+    }
+  ],
+  "releases": [
+    {
+      "filed": "2026-11-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/1766368/000110465926122046/tmb-ex99d1.htm",
+      "job": "ebitda-1766368-42fb00ce28"
+    },
+    {
+      "filed": "2026-08-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/1766368/000110465926090424/tmb-20260804xex99d1.htm",
+      "job": "ebitda-1766368-e720b175b5"
+    },
+    {
+      "filed": "2026-05-05",
+      "url": "https://www.sec.gov/Archives/edgar/data/1766368/000110465926055669/tmb-20260505xex99.htm",
+      "job": "ebitda-1766368-a98d010055"
+    },
+    {
+      "filed": "2026-03-03",
+      "url": "https://www.sec.gov/Archives/edgar/data/1766368/000110465926022896/tmb-20260303xex99.htm",
+      "job": "ebitda-1766368-1f228966d4"
+    },
+    {
+      "filed": "2025-11-04",
+      "url": "https://www.sec.gov/Archives/edgar/data/1766368/000110465925106320/tmb-20251104xex99.htm",
+      "job": "ebitda-1766368-b579c4e3ea"
+    }
+  ],
+  "exhibits": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1766368/000119312519150362/d741481dex101.htm",
+      "filed": "2019-05-17",
+      "exhibit": "EX-10.1",
+      "chars": 14583,
+      "job": "cover-1766368-2e0ea5bc94"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1766368/000119312519260613/d808614dex10.htm",
+      "filed": "2019-10-02",
+      "exhibit": "EX-10",
+      "chars": 513874,
+      "job": "cover-1766368-090b9b1f0c"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1766368/000119312520187944/d928545dex10.htm",
+      "filed": "2020-07-06",
+      "exhibit": "EX-10",
+      "chars": 27872,
+      "job": "cover-1766368-1e5c595cfe"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1766368/000119312521107752/d160322dex10.htm",
+      "filed": "2021-04-06",
+      "exhibit": "EX-10",
+      "chars": 7225,
+      "job": "cover-1766368-48b24dc5f2"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1766368/000156459022013166/mec-ex10_7.htm",
+      "filed": "2022-04-01",
+      "exhibit": "EX-10",
+      "chars": 8930,
+      "job": "cover-1766368-3e689230db"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1766368/000155837023011571/tmb-20230628xex10.htm",
+      "filed": "2023-06-29",
+      "exhibit": "EX-10",
+      "chars": 489053,
+      "job": "cover-1766368-986c025934"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1766368/000155837025008962/tmb-20250626xex10.htm",
+      "filed": "2025-06-27",
+      "exhibit": "EX-10",
+      "chars": 516443,
+      "job": "cover-1766368-1970965c01"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1766368/000110465926020541/tmb-20260225xex10d1.htm",
+      "filed": "2026-02-26",
+      "exhibit": "EX-10.1",
+      "chars": 17070,
+      "job": "cover-1766368-ff0d7a0808"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1766368/000110465926020541/tmb-20260225xex10d2.htm",
+      "filed": "2026-02-26",
+      "exhibit": "EX-10.2",
+      "chars": 524612,
+      "job": "cover-1766368-d5118983c2"
+    }
+  ]
+}

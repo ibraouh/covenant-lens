@@ -1,0 +1,50 @@
+{
+  "job": "ratio-1870600-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1870600/000187060026000050/dtc-20260930.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 3916,
+    "output_tokens": 1657,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "Total Leverage Ratio (maximum debt-to-EBITDA ratio)",
+        "metric": "total_leverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 9.5,
+        "direction": "max",
+        "facility": "2025 Credit Agreement",
+        "quote": "a maximum debt-to-EBITDA ratio, defined in the 2025 Credit Agreement as the Total Leverage Ratio and determined as of the last day of each fiscal quarter with EBITDA annualized for the most recent fiscal quarter, of 9.50 for the fiscal quarter ended September 30, 2026"
+      },
+      {
+        "covenant_name": "Fixed Charge Coverage Ratio (minimum EBITDA-to-fixed charges ratio)",
+        "metric": "fixed_charge_coverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 0.7,
+        "direction": "min",
+        "facility": "2025 Credit Agreement",
+        "quote": "a minimum EBITDA-to-fixed charges ratio, defined in the 2025 Credit Agreement as the Fixed Charge Coverage Ratio, and determined as of the last day of each fiscal quarter with EBITDA annualized for the most recent fiscal quarter, of 0.70 for the fiscal quarters ending September 30, 2026, December 31, 2026, and March 31, 2027"
+      },
+      {
+        "covenant_name": "Minimum Liquidity",
+        "metric": "minimum_liquidity",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 20.0,
+        "direction": "min",
+        "facility": "2025 Credit Agreement",
+        "quote": "a minimum unrestricted cash plus undrawn availability on the 2025 Revolving Credit Facility amount, defined in the 2025 Credit Agreement as Minimum Liquidity, of $10 million average minimum liquidity covenant for the first three calendar months of each fiscal year and a $20 million average minimum liquidity covenant for the last nine calendar months of each fiscal year"
+      }
+    ],
+    "notes": "The excerpt gives only the covenant requirements. The actual ratios are not shown because the compliance sentence ('As of September 30, 2...') is truncated. Total Leverage and Fixed Charge Coverage are tested quarterly, with EBITDA annualized from the most recent quarter. Both step down or up in later quarters: leverage falls to 9.00, 8.25, 7.50, then 7.00; FCCR rises to 0.75, 0.80, then 1.00. Only the limits in force at 2026-09-30 are listed here. The Minimum Liquidity limit is in $ millions. It is a monthly average test: $10M for the first three months of each fiscal year and $20M for the last nine, so the $20M level applies at September. The 'total net leverage ratio' that sets the interest rate margin is excluded because it is a pricing ratio."
+  }
+}

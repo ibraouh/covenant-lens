@@ -1,0 +1,24 @@
+{
+  "job": "cover-1345126-513d61291e",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1345126/000134512625000089/exhibit101-fifthcreditfaci.htm"
+  },
+  "usage": {
+    "input_tokens": 3222,
+    "output_tokens": 127,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "is_loan_document": true,
+    "kind": "amendment",
+    "title": "Fifth Amendment to Credit Agreement and Limited Waiver Agreement",
+    "dated": "2025-12-19",
+    "amends_dated": "2022-07-12",
+    "primary_bank_facility": true,
+    "includes_conformed_copy": false,
+    "borrower": "Compass Group Diversified Holdings LLC"
+  }
+}

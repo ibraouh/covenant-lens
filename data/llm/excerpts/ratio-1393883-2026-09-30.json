@@ -1,0 +1,40 @@
+{
+  "job": "ratio-1393883-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1393883/000139388326000119/dhx-20260930.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 5854,
+    "output_tokens": 688,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "consolidated leverage ratio",
+        "metric": "total_leverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 2.5,
+        "direction": "max",
+        "facility": "Credit Agreement (revolving loan facility, April 2026)",
+        "quote": "Borrowings are allowed under the Credit Agreement to the extent the consolidated leverage ratio is equal to or less than 2.50 to 1.00 and to the extent the consolidated fixed charge coverage ratio is greater than 1.20 to 1.00, subject to the terms of the Credit Agreement."
+      },
+      {
+        "covenant_name": "consolidated fixed charge coverage ratio",
+        "metric": "fixed_charge_coverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 1.2,
+        "direction": "min",
+        "facility": "Credit Agreement (revolving loan facility, April 2026)",
+        "quote": "Borrowings are allowed under the Credit Agreement to the extent the consolidated leverage ratio is equal to or less than 2.50 to 1.00 and to the extent the consolidated fixed charge coverage ratio is greater than 1.20 to 1.00, subject to the terms of the Credit Agreement."
+      }
+    ],
+    "notes": "The filing gives only the covenant thresholds; it does not disclose actual ratio values. It states the Company was in compliance with all financial covenants as of September 30, 2026. The 2.00x pro forma leverage test for restricted payments is a payment condition, not a maintenance covenant, and is excluded. Leverage-based pricing grids are also excluded. The Credit Agreement replaced the Prior Credit Agreement in April 2026; no covenant ratios are given for the prior facility."
+  }
+}

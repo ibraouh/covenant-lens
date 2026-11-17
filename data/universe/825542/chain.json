@@ -1,0 +1,22 @@
+{
+  "auto": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/825542/000082554225000018/exhibit101smg2025-11x248xk.htm",
+      "title": "Seventh Amended and Restated Credit Agreement",
+      "dated": "2025-11-21",
+      "kind": "amended_and_restated",
+      "filed": "2025-11-24"
+    }
+  ],
+  "notes": [],
+  "used": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/825542/000082554225000018/exhibit101smg2025-11x248xk.htm",
+      "title": "Seventh Amended and Restated Credit Agreement",
+      "dated": "2025-11-21",
+      "kind": "amended_and_restated",
+      "filed": "2025-11-24"
+    }
+  ],
+  "source": "automatic"
+}

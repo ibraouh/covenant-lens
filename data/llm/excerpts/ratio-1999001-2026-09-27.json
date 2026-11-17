@@ -1,0 +1,30 @@
+{
+  "job": "ratio-1999001-2026-09-27",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1999001/000199900126000107/fun-20260927.htm",
+    "period": "2026-09-27"
+  },
+  "usage": {
+    "input_tokens": 4407,
+    "output_tokens": 778,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "Net First Lien Leverage Ratio",
+        "metric": "secured_net_leverage",
+        "period_end": "2026-09-27",
+        "actual": null,
+        "limit": 5.0,
+        "direction": "max",
+        "facility": "2024 Credit Agreement, as amended (revolving credit facility)",
+        "quote": "The maximum Net First Lien Leverage Ratio is 5.0 x beginning with the test period ending on or about December 31, 2025, with step-downs of 25 bps after every four consecutive quarters, culminating at 4.5 x beginning with the test period ending on or about December 31, 2027."
+      }
+    ],
+    "notes": "The covenant applies to the revolving credit facility only and is tested quarterly. The filing does not give the actual ratio; it says only that the Company was in compliance as of September 27, 2026. The 5.0x limit is inferred from the step-down schedule: the September 2026 test is the fourth quarter at 5.0x, and the first step-down to 4.75x applies from the December 2026 test. Excluded: the 3.5x ratio that triggers a lower commitment fee; the restricted-payment leverage thresholds of 3.00x Net Secured and 5.25x Net Total under the credit agreement; and the 5.50x thresholds in the senior note indentures."
+  }
+}

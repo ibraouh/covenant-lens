@@ -95,3 +95,31 @@ def test_costs():
     assert cost(HAIKU, {"input_tokens": 200_000, "output_tokens": 0}) == 200_000 * 0.50 / 1e6
     cached = {"input_tokens": 0, "output_tokens": 0, "cache_read_input_tokens": 1_000_000}
     assert abs(cost(OPUS, cached) - 0.20) < 1e-9
+
+
+def test_normalize_closes_spaces_html_leaves_inside_quotes_and_parens():
+    from_html = 'the ratio (the “ Total Leverage Ratio ” ) , determined'
+    quoted = 'the ratio (the "Total Leverage Ratio"), determined'
+    assert normalize(from_html) == normalize(quoted)
+
+
+def test_restating_amendment_beats_a_side_facility():
+    docs = [doc("warehouse", "amended_and_restated", "2023-05-26", primary=False),
+            doc("a6", "amendment", "2022-12-09", amends="2013-07-18", conformed=True),
+            doc("a7", "amendment", "2025-09-18", amends="2013-07-18", conformed=True),
+            doc("a8", "amendment", "2026-02-01", amends="2013-07-18")]
+    chain, _ = resolve(docs)
+    assert [d["url"] for d in chain] == ["a7", "a8"]
+
+
+def test_struck_through_text_is_dropped_as_deleted():
+    from bs4 import BeautifulSoup
+
+    from covenant_lens.edgar import deleted_text
+
+    html = ('<p>shall not exceed <span style="text-decoration: line-through">5.25</span> <u>3.50</u> to 1.00'
+            '<s> old clause</s><del> gone</del></p>')
+    soup = BeautifulSoup(html, "html.parser")
+    for t in deleted_text(soup):
+        t.decompose()
+    assert " ".join(soup.get_text(" ").split()) == "shall not exceed 3.50 to 1.00"

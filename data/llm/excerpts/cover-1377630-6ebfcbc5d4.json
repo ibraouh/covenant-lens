@@ -1,0 +1,24 @@
+{
+  "job": "cover-1377630-6ebfcbc5d4",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1377630/000119312516686539/d237543dex41.htm"
+  },
+  "usage": {
+    "input_tokens": 3788,
+    "output_tokens": 106,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "is_loan_document": false,
+    "kind": "other",
+    "title": "Indenture - 5.750% Senior Notes due 2026",
+    "dated": "2016-08-19",
+    "amends_dated": null,
+    "primary_bank_facility": false,
+    "includes_conformed_copy": false,
+    "borrower": "National CineMedia, LLC"
+  }
+}

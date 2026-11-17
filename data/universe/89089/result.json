@@ -1,0 +1,350 @@
+{
+  "cik": "89089",
+  "name": "SERVICE CORP INTERNATIONAL",
+  "borrower": "Service Corporation International",
+  "gold": false,
+  "stale": false,
+  "agreement_date": "2025-11-20",
+  "facility": "$1.75B senior unsecured revolving credit facility and $750M Tranche A term loan, both maturing on the fifth anniversary of the Effective Date (about November 2030), plus $750M incremental capacity",
+  "chain": {
+    "auto": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/89089/000008908925000097/sci2025creditagreement.htm",
+        "title": "Third Amended and Restated Credit Agreement",
+        "dated": "2025-11-20",
+        "kind": "amended_and_restated",
+        "filed": "2025-11-21"
+      }
+    ],
+    "notes": [],
+    "used": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/89089/000008908925000097/sci2025creditagreement.htm",
+        "title": "Third Amended and Restated Credit Agreement",
+        "dated": "2025-11-20",
+        "kind": "amended_and_restated",
+        "filed": "2025-11-21"
+      }
+    ],
+    "source": "automatic"
+  },
+  "covenants": [
+    {
+      "name": "Consolidated Total Net Leverage Ratio",
+      "metric": "net_leverage",
+      "direction": "max",
+      "section": "Section 6.12",
+      "quote": "The Company will not permit the Consolidated Total Net Leverage Ratio as of the last day of any Test Period to exceed 5.00 to 1.00; provided that, upon the consummation of a Qualified Material Acquisition, with respect to the fiscal quarter in which such Qualified Material Acquisition is consummated and the subsequent three consecutive fiscal quarters, the maximum permitted Consolidated Total Net Leverage Ratio set forth above shall, at the election of the Company by written notice to the Administrative Agent, be increased to 5.50 to 1.00 (a \u201cLeverage Increase Election\u201d); provided further that not more than two Leverage Increase Elections may be made since the Effective Date.",
+      "quote_verified": true,
+      "thresholds": [
+        {
+          "value": 5.0,
+          "applies_from": null
+        }
+      ],
+      "test_frequency": "quarterly",
+      "springing_condition": null,
+      "addbacks": [
+        "stock_comp",
+        "impairments",
+        "restructuring",
+        "other"
+      ],
+      "cash_netting_cap": null,
+      "cash_netting_cap_pct_ebitda": null,
+      "rows": [
+        {
+          "period_end": "2024-12-31",
+          "before_agreement": true,
+          "limit": 5.0,
+          "xbrl": 3.901186953148899,
+          "adjusted": null,
+          "reported": null,
+          "reported_limit": null,
+          "reported_quote": null,
+          "reported_url": null,
+          "ltm_ebitda_xbrl": 1183366000.0,
+          "ltm_ebitda_adjusted": null,
+          "debt": 4835298000,
+          "cash": 218766000,
+          "ltm_interest": 257771000
+        },
+        {
+          "period_end": "2025-03-31",
+          "before_agreement": true,
+          "limit": 5.0,
+          "xbrl": 3.811508847540508,
+          "adjusted": null,
+          "reported": null,
+          "reported_limit": null,
+          "reported_quote": null,
+          "reported_url": null,
+          "ltm_ebitda_xbrl": 1206550000.0,
+          "ltm_ebitda_adjusted": null,
+          "debt": 4825935000,
+          "cash": 227159000,
+          "ltm_interest": 254902000
+        },
+        {
+          "period_end": "2025-06-30",
+          "before_agreement": true,
+          "limit": 5.0,
+          "xbrl": 3.9387239965081613,
+          "adjusted": null,
+          "reported": null,
+          "reported_limit": null,
+          "reported_quote": null,
+          "reported_url": null,
+          "ltm_ebitda_xbrl": 1214260000.0,
+          "ltm_ebitda_adjusted": null,
+          "debt": 5038021000,
+          "cash": 255386000,
+          "ltm_interest": 254589000
+        },
+        {
+          "period_end": "2025-09-30",
+          "before_agreement": true,
+          "limit": 5.0,
+          "xbrl": 3.888178825531749,
+          "adjusted": null,
+          "reported": null,
+          "reported_limit": null,
+          "reported_quote": null,
+          "reported_url": null,
+          "ltm_ebitda_xbrl": 1231502000.0,
+          "ltm_ebitda_adjusted": null,
+          "debt": 5029639000,
+          "cash": 241339000,
+          "ltm_interest": 254468000
+        },
+        {
+          "period_end": "2025-12-31",
+          "before_agreement": false,
+          "limit": 5.0,
+          "xbrl": 3.9686639799501346,
+          "adjusted": null,
+          "reported": 3.67,
+          "reported_limit": 5.0,
+          "reported_quote": "Per Credit Agreement Actual Leverage ratio 5.00 (Max) 3.67",
+          "reported_url": "https://www.sec.gov/Archives/edgar/data/89089/000162828026007695/sci-20251231.htm",
+          "ltm_ebitda_xbrl": 1233724000.0,
+          "ltm_ebitda_adjusted": null,
+          "debt": 5139817000,
+          "cash": 243581000,
+          "ltm_interest": 255372000
+        },
+        {
+          "period_end": "2026-03-31",
+          "before_agreement": false,
+          "limit": 5.0,
+          "xbrl": 3.9935685794287363,
+          "adjusted": null,
+          "reported": 3.68,
+          "reported_limit": 5.0,
+          "reported_quote": "Per Credit Agreement Actual Leverage ratio 5.00 (Max) 3.68",
+          "reported_url": "https://www.sec.gov/Archives/edgar/data/89089/000008908926000034/sci-20260331.htm",
+          "ltm_ebitda_xbrl": 1228189000.0,
+          "ltm_ebitda_adjusted": null,
+          "debt": 5162816000,
+          "cash": 257959000,
+          "ltm_interest": 257895000
+        },
+        {
+          "period_end": "2026-06-30",
+          "before_agreement": false,
+          "limit": 5.0,
+          "xbrl": 4.077839343244188,
+          "adjusted": null,
+          "reported": 3.77,
+          "reported_limit": 5.0,
+          "reported_quote": "Our financial covenant requirement and actual ratio as of June 30, 2026 were as follows: Per Credit Agreement Actual Leverage ratio 5.00 (Max) 3.77",
+          "reported_url": "https://www.sec.gov/Archives/edgar/data/89089/000008908926000081/sci-20260630.htm",
+          "ltm_ebitda_xbrl": 1236624000.0,
+          "ltm_ebitda_adjusted": null,
+          "debt": 5303165000,
+          "cash": 260411000,
+          "ltm_interest": 258535000
+        },
+        {
+          "period_end": "2026-09-30",
+          "before_agreement": false,
+          "limit": 5.0,
+          "xbrl": 3.9504914121383536,
+          "adjusted": null,
+          "reported": 3.69,
+          "reported_limit": 5.0,
+          "reported_quote": "Our financial covenant requirement and actual ratio as of September 30, 2026 were as follows: Per Credit Agreement Actual Leverage ratio 5.00 (Max) 3.69",
+          "reported_url": "https://www.sec.gov/Archives/edgar/data/89089/000008908926000098/sci-20260930.htm",
+          "ltm_ebitda_xbrl": 1265740000.0,
+          "ltm_ebitda_adjusted": null,
+          "debt": 5172948000,
+          "cash": 172653000,
+          "ltm_interest": 257845000
+        }
+      ],
+      "latest": {
+        "period_end": "2026-09-30",
+        "basis": "reported",
+        "value": 3.69,
+        "limit": 5.0,
+        "headroom": 0.262,
+        "cushion": 0.262
+      },
+      "steps": []
+    }
+  ],
+  "notes": "Single maintenance covenant: max Consolidated Total Net Leverage Ratio of 5.00x, tested on the last day of each Test Period (rolling four quarters), applying to both revolver and term loan. The borrower may elect a temporary step-up to 5.50x for the quarter in which a Qualified Material Acquisition (cash consideration of $250M or more) closes and the next three quarters; at most two such elections over the life of the deal. Restricted payments made during Leverage Increase Election periods are capped at $300M in aggregate. Net debt deducts 100% of unrestricted cash and Cash Equivalents with no dollar cap. Debt counts borrowed money, capital leases and notes/bonds; undrawn letters of credit are excluded. EBITDA starts from consolidated operating income, not net income. Add-backs include: impairments and losses on asset sales; D&A; non-cash stock comp; other non-cash expenses; restructuring, integration, severance and similar costs for 24 months; run-rate cost savings and synergies with a 24-month realization window; transaction fees, including for deals not completed; extraordinary, nonrecurring or unusual losses; and mark-to-market hedge losses. Surety premiums are deducted. Restructuring/integration costs (clause (e)) and run-rate synergies (clause (l)) together are capped at 25% of Consolidated EBITDA. ASC 842 lease liabilities are excluded from debt. The facility is unsecured and guaranteed by material wholly-owned domestic subsidiaries. There is no unrestricted subsidiary concept; all subsidiaries are restricted. A mandatory term loan prepayment from asset sale proceeds applies when pro forma net leverage is 4.00x or higher, with reinvestment allowed if 5.00x or lower. Releasing all or substantially all guarantee value requires all-lender consent. Incremental capacity is $750M.",
+  "terms": [
+    {
+      "kind": "j_crew_blocker",
+      "present": "no",
+      "section": null,
+      "quote": null,
+      "summary": "The agreement has no unrestricted subsidiary mechanism and no specific restriction on transferring or exclusively licensing material IP. IP licensing in the ordinary course is expressly permitted.",
+      "quote_verified": null
+    },
+    {
+      "kind": "serta_protection",
+      "present": "yes",
+      "section": "Section 9.02(b)(F)",
+      "quote": "change Section 2.07(c) in a manner that would alter the ratable reduction of the Commitments required thereby, change Section 2.17(b) or (c) in a manner that would alter the pro rata sharing of payments required thereby, or change the payment waterfall provisions of Section 7.02 (or otherwise expressly subordinate in right of payment any of the Loan Document Obligations), in each case, without the written consent of each Lender adversely affected thereby",
+      "summary": "Expressly subordinating the loans in right of payment, or changing pro rata sharing or the payment waterfall, requires the consent of each adversely affected lender. The loans are unsecured, so lien subordination is not relevant.",
+      "quote_verified": true
+    },
+    {
+      "kind": "chewy_protection",
+      "present": "partial",
+      "section": "Section 9.15(b)",
+      "quote": "(ii) in the case of any such release of any Subsidiary Guarantor on account of it ceasing to be a Designated Subsidiary as a result of not being a Wholly-Owned Subsidiary, such Subsidiary Guarantor ceased to be a Wholly-Owned Subsidiary as a result of the consummation of a bona fide transaction entered into for a valid business purpose and not undertaken for the primary purpose of obtaining the release of such Subsidiary Guarantor from its obligations under the Guarantee Agreement.",
+      "summary": "A guarantor that stops being wholly owned is released only if no Default exists and the transaction was bona fide, for a valid business purpose and not primarily aimed at obtaining the release. It is still released in a qualifying bona fide transaction.",
+      "quote_verified": true
+    },
+    {
+      "kind": "unrestricted_sub_cap",
+      "present": "no",
+      "section": null,
+      "quote": null,
+      "summary": "There are no unrestricted subsidiaries, so there is no designation cap. Investments by loan parties in non-guarantor subsidiaries and JVs are capped at $300M under Section 6.06(b)/(c), but the general basket in Section 6.06(u) allows unlimited investments subject to pro forma covenant compliance.",
+      "quote_verified": null
+    },
+    {
+      "kind": "addback_cap",
+      "present": "yes",
+      "section": "Section 1.01 (definition of \"EBITDA\")",
+      "quote": "Notwithstanding the foregoing, the aggregate amount of the add-backs permitted pursuant to clauses (e) and (l) above, shall not exceed 25% of Consolidated EBITDA for the applicable four quarter period (calculated after giving effect to any such add-backs).",
+      "summary": "Restructuring, integration and business-optimization costs (clause (e)) and run-rate cost savings and synergies (clause (l)) together are capped at 25% of Consolidated EBITDA, measured after the add-backs. Transaction fees and nonrecurring items are not subject to the cap.",
+      "quote_verified": true
+    },
+    {
+      "kind": "equity_cure",
+      "present": "no",
+      "section": null,
+      "quote": null,
+      "summary": "The agreement contains no equity cure right for the financial covenant; a breach of Section 6.12 is an immediate Event of Default under Section 7.01(d).",
+      "quote_verified": null
+    }
+  ],
+  "addback_cap_pct": 0.25,
+  "cov_lite": false,
+  "tightest": {
+    "name": "Consolidated Total Net Leverage Ratio",
+    "period_end": "2026-09-30",
+    "basis": "reported",
+    "value": 3.69,
+    "limit": 5.0,
+    "headroom": 0.262,
+    "cushion": 0.262
+  },
+  "accuracy": [
+    {
+      "metric": "total_leverage",
+      "period_end": "2025-12-31",
+      "reported": 3.67,
+      "reported_limit": 5.0,
+      "covenant_found": true,
+      "matched": "Consolidated Total Net Leverage Ratio",
+      "our_limit": 5.0,
+      "limit_match": true,
+      "not_graded": null,
+      "xbrl": 3.9686639799501346,
+      "adjusted": null,
+      "xbrl_error": 0.08137983104908297,
+      "adjusted_error": null,
+      "facility": "Bank Credit Facility",
+      "quote": "Per Credit Agreement Actual Leverage ratio 5.00 (Max) 3.67",
+      "url": "https://www.sec.gov/Archives/edgar/data/89089/000162828026007695/sci-20251231.htm"
+    },
+    {
+      "metric": "total_leverage",
+      "period_end": "2026-03-31",
+      "reported": 3.68,
+      "reported_limit": 5.0,
+      "covenant_found": true,
+      "matched": "Consolidated Total Net Leverage Ratio",
+      "our_limit": 5.0,
+      "limit_match": true,
+      "not_graded": null,
+      "xbrl": 3.9935685794287363,
+      "adjusted": null,
+      "xbrl_error": 0.08520885310563475,
+      "adjusted_error": null,
+      "facility": "Bank Credit Facility",
+      "quote": "Per Credit Agreement Actual Leverage ratio 5.00 (Max) 3.68",
+      "url": "https://www.sec.gov/Archives/edgar/data/89089/000008908926000034/sci-20260331.htm"
+    },
+    {
+      "metric": "total_leverage",
+      "period_end": "2026-06-30",
+      "reported": 3.77,
+      "reported_limit": 5.0,
+      "covenant_found": true,
+      "matched": "Consolidated Total Net Leverage Ratio",
+      "our_limit": 5.0,
+      "limit_match": true,
+      "not_graded": null,
+      "xbrl": 4.077839343244188,
+      "adjusted": null,
+      "xbrl_error": 0.08165499820800726,
+      "adjusted_error": null,
+      "facility": "Bank Credit Facility",
+      "quote": "Our financial covenant requirement and actual ratio as of June 30, 2026 were as follows: Per Credit Agreement Actual Leverage ratio 5.00 (Max) 3.77",
+      "url": "https://www.sec.gov/Archives/edgar/data/89089/000008908926000081/sci-20260630.htm"
+    },
+    {
+      "metric": "total_leverage",
+      "period_end": "2026-09-30",
+      "reported": 3.69,
+      "reported_limit": 5.0,
+      "covenant_found": true,
+      "matched": "Consolidated Total Net Leverage Ratio",
+      "our_limit": 5.0,
+      "limit_match": true,
+      "not_graded": null,
+      "xbrl": 3.9504914121383536,
+      "adjusted": null,
+      "xbrl_error": 0.07059387862828004,
+      "adjusted_error": null,
+      "facility": "Bank Credit Facility",
+      "quote": "Our financial covenant requirement and actual ratio as of September 30, 2026 were as follows: Per Credit Agreement Actual Leverage ratio 5.00 (Max) 3.69",
+      "url": "https://www.sec.gov/Archives/edgar/data/89089/000008908926000098/sci-20260930.htm"
+    }
+  ],
+  "dropped_answer_keys": [],
+  "adjusted_ebitda": [],
+  "financials_sources": {
+    "debt": "LongTermDebt",
+    "cash": "CashAndCashEquivalentsAtCarryingValue",
+    "operating income": "OperatingIncomeLoss",
+    "D&A": "Depreciation + AmortizationOfIntangibleAssets",
+    "interest": "InterestExpense",
+    "stock comp": "ShareBasedCompensation",
+    "impairments": "not reported",
+    "restructuring": "RestructuringCharges"
+  },
+  "compliance": {
+    "filed": "2026-10-29",
+    "form": "10-Q",
+    "url": "https://www.sec.gov/Archives/edgar/data/89089/000008908926000098/sci-9302026x10q.pdf",
+    "sentences": []
+  }
+}

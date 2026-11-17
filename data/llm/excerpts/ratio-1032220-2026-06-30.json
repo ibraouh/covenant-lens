@@ -1,0 +1,40 @@
+{
+  "job": "ratio-1032220-2026-06-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1032220/000103222026000035/mms-20260630.htm",
+    "period": "2026-06-30"
+  },
+  "usage": {
+    "input_tokens": 4861,
+    "output_tokens": 448,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "Consolidated Net Total Leverage Ratio",
+        "metric": "net_leverage",
+        "period_end": "2026-06-30",
+        "actual": 2.0,
+        "limit": 4.0,
+        "direction": "max",
+        "facility": "Credit Agreement (JPMorgan Chase Bank N.A.)",
+        "quote": "Consolidated Net Total Leverage Ratio (as defined by our Credit Agreement) 2.00"
+      },
+      {
+        "covenant_name": "Consolidated Net Interest Coverage Ratio",
+        "metric": "interest_coverage",
+        "period_end": "2026-06-30",
+        "actual": 8.72,
+        "limit": 3.0,
+        "direction": "min",
+        "facility": "Credit Agreement (JPMorgan Chase Bank N.A.)",
+        "quote": "Consolidated Net Interest Coverage Ratio (as defined by our Credit Agreement) 8.72"
+      }
+    ],
+    "notes": "Leverage limit is 4.00:1.00, with a possible step up to 4.50:1.00 under certain circumstances. Net leverage offsets up to $150M of unrestricted cash. Both ratios are trailing twelve months using Consolidated EBITDA as defined by the Credit Agreement ($798.4M), which includes pro forma and other adjustments. The leverage ratio also sets the TLA margin and the unused revolver fee."
+  }
+}

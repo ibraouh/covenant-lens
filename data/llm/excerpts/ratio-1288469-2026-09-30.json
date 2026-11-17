@@ -1,0 +1,40 @@
+{
+  "job": "ratio-1288469-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1288469/000128846926000061/mxl-20260930.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 5679,
+    "output_tokens": 628,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "total net leverage ratio",
+        "metric": "net_leverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 3.5,
+        "direction": "max",
+        "facility": "Amended Credit Agreement (June 23, 2021 Credit Agreement, as amended by the Second Amendment)",
+        "quote": "The Company is also required to maintain (a) a total net leverage ratio not to exceed 3.50 :1.00 and (b) unrestricted cash plus available and undrawn commitments under the Revolving Facility in an amount of not less than $ 80.0 million. As of September 30, 2026, the Company was in compliance with such covenants."
+      },
+      {
+        "covenant_name": "unrestricted cash plus available and undrawn commitments under the Revolving Facility",
+        "metric": "minimum_liquidity",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 80.0,
+        "direction": "min",
+        "facility": "Amended Credit Agreement (June 23, 2021 Credit Agreement, as amended by the Second Amendment)",
+        "quote": "The Company is also required to maintain (a) a total net leverage ratio not to exceed 3.50 :1.00 and (b) unrestricted cash plus available and undrawn commitments under the Revolving Facility in an amount of not less than $ 80.0 million. As of September 30, 2026, the Company was in compliance with such covenants."
+      }
+    ],
+    "notes": "Only compliance is stated; no actual ratio values are disclosed. The minimum liquidity limit is in $ millions. On October 16, 2026, after the quarter ended, an amendment lowered the liquidity covenant from $80 million to $60 million and added $70 million of revolving commitments. Secured net leverage ratio references only set the margin and commitment fee, and the first lien, secured and total net leverage tests apply to incremental loan incurrence, so both are excluded."
+  }
+}

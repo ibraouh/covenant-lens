@@ -1,0 +1,24 @@
+{
+  "job": "cover-1377630-29bd4369ef",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1377630/000137763022000003/ncm-revolvingcreditagreeme.htm"
+  },
+  "usage": {
+    "input_tokens": 4054,
+    "output_tokens": 97,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "is_loan_document": true,
+    "kind": "original",
+    "title": "Revolving Credit Agreement",
+    "dated": "2022-01-05",
+    "amends_dated": null,
+    "primary_bank_facility": false,
+    "includes_conformed_copy": false,
+    "borrower": "National CineMedia, LLC"
+  }
+}

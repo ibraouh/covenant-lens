@@ -1,0 +1,30 @@
+{
+  "job": "ratio-1477333-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1477333/000147733326000061/cloud-20260930.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 3110,
+    "output_tokens": 596,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "maximum consolidated net leverage ratio",
+        "metric": "net_leverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": null,
+        "direction": "max",
+        "facility": "Revolving Credit Facility",
+        "quote": "financial covenants requiring the Company to maintain compliance with a m aximum consolidated net leverage ratio"
+      }
+    ],
+    "notes": "The filing names a maximum consolidated net leverage ratio covenant under the $400.0 million Revolving Credit Facility. It discloses neither the actual ratio nor the required level. It states only that the company was in compliance with all covenants as of September 30, 2026. The covenants were amended when the Notes were issued, but the new terms are not given. The total net leverage ratio mentioned elsewhere only sets the commitment fee and interest margin, so it was excluded. No loans were outstanding under the facility at September 30, 2026."
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "job": "read-911177-56ff14f5b3-sonnet55",
+  "model": "claude-sonnet-5-5",
+  "meta": {
+    "cik": "911177",
+    "docs": [
+      "https://www.sec.gov/Archives/edgar/data/911177/000119312524228456/d823888dex101.htm"
+    ]
+  },
+  "usage": {
+    "input_tokens": 271142,
+    "output_tokens": 2862,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "borrower": "Casella Waste Systems, Inc.",
+    "agreement_date": "2024-09-27",
+    "covenants": [
+      {
+        "name": "Minimum Interest Coverage Ratio",
+        "metric": "interest_coverage",
+        "direction": "min",
+        "thresholds": [
+          {
+            "value": 3.0,
+            "applies_from": null
+          }
+        ],
+        "test_frequency": "quarterly",
+        "springing_condition": null,
+        "section": "Section 7.11(a)",
+        "quote": "As at the end of any fiscal quarter, the Borrowers shall not permit the ratio of (a) Consolidated EBITDA for the period of four (4) consecutive fiscal quarters then ending to (b) Consolidated Cash Interest Charges for such period to be less than 3.00 to 1.00.",
+        "ebitda_addbacks": [
+          "stock_comp",
+          "impairments",
+          "restructuring",
+          "other"
+        ],
+        "cash_netting_cap": null,
+        "cash_netting_cap_pct_ebitda": null
+      },
+      {
+        "name": "Maximum Consolidated Total Net Leverage Ratio",
+        "metric": "net_leverage",
+        "direction": "max",
+        "thresholds": [
+          {
+            "value": 4.0,
+            "applies_from": null
+          }
+        ],
+        "test_frequency": "quarterly",
+        "springing_condition": "Tested only prior to a Secured Leverage Covenant Election (made after the Borrowers incur more than $250,000,000 of unsecured debt); after the election this test ceases and the Consolidated Secured Net Leverage Ratio is tested instead. Borrowers may elect to step the limit up to 4.50x for the quarter of a Permitted Acquisition over $25,000,000 and the following three quarters (Elevated TNL Ratio Period).",
+        "section": "Section 7.11(b)",
+        "quote": "As at the end of any fiscal quarter prior to the Secured Leverage Covenant Election, the Borrowers shall not permit the Consolidated Total Net Leverage Ratio for the period of four (4) consecutive fiscal quarters then ending to exceed 4:00 to 1.00;",
+        "ebitda_addbacks": [
+          "stock_comp",
+          "impairments",
+          "restructuring",
+          "other"
+        ],
+        "cash_netting_cap": 100000000.0,
+        "cash_netting_cap_pct_ebitda": null
+      },
+      {
+        "name": "Maximum Consolidated Secured Net Leverage Ratio",
+        "metric": "secured_net_leverage",
+        "direction": "max",
+        "thresholds": [
+          {
+            "value": 3.5,
+            "applies_from": null
+          }
+        ],
+        "test_frequency": "springing",
+        "springing_condition": "Applies only to fiscal quarters ending on and after the Secured Leverage Covenant Election, which replaces the total net leverage test.",
+        "section": "Section 7.11(c)",
+        "quote": "As at the end of any fiscal quarter ending on and after the Secured Leverage Covenant Election, the Borrowers shall not permit the Consolidated Secured Net Leverage Ratio for the period of four (4) consecutive fiscal quarters then ending to exceed 3.50 to 1.00.",
+        "ebitda_addbacks": [
+          "stock_comp",
+          "impairments",
+          "restructuring",
+          "other"
+        ],
+        "cash_netting_cap": 100000000.0,
+        "cash_netting_cap_pct_ebitda": null
+      }
+    ],
+    "notes": "Second Amended and Restated Credit Agreement; no later amendments provided. Covenants are calculated excluding Excluded Subsidiaries. Net debt nets unencumbered cash and Cash Equivalents of the Parent and Domestic Subsidiaries up to $100,000,000. The EBITDA definition adds back non-cash asset impairment/write-offs (capped at $50,000,000 since closing), non-cash stock comp, severance and reorganization costs (capped at $10,000,000 since closing), acquisition costs, derivative termination charges, and other non-cash items acceptable to the Agent. Pro forma acquisition synergies are capped at 15% of EBITDA. Private-company owner-compensation add-backs are excluded when testing the interest coverage covenant. No equity cure right was found. Facility is secured and has sustainability-linked pricing. Excluded Subsidiaries investment cap is $75,000,000. Distributions are permitted up to $25,000,000 per fiscal year, or without cap if pro forma Consolidated Total Net Leverage Ratio is 3.25x or lower.",
+    "facility": "$800,000,000 Initial Term Loans plus a Revolving Credit Facility (Letter of Credit sublimit $155,000,000, Swing Line sublimit $25,000,000), both maturing September 27, 2029; incremental capacity of $200,000,000 plus voluntary prepayments, or more subject to leverage tests.",
+    "terms": [
+      {
+        "kind": "j_crew_blocker",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "No unrestricted subsidiary concept and no IP-specific blocker. Dispositions of assets, including IP licensing, are generally excluded from asset-sale limits (licensing of IP is an Excluded Asset Disposition). Excluded Subsidiary designation is limited by the Section 7.02(i) investment cap, and Parent may not designate one if a Default exists."
+      },
+      {
+        "kind": "serta_protection",
+        "present": "yes",
+        "section": "Section 10.01(i)",
+        "quote": "except as permitted by Section 9.10 as in effect on the Closing Date, (i) subordinate the right of payment of the Obligations hereunder to any other Indebtedness or other obligation or (ii) subordinate the Liens on a material portion of the Collateral securing the Obligations to Liens securing any other Indebtedness or other obligation without the written consent of each Lender directly and adversely affected thereby; or",
+        "summary": "Subordinating the Obligations or a material portion of the Liens requires consent of each directly and adversely affected Lender. Sacred-right protection against subordination. Section 2.14(f) permits subordinated incremental loans, and Section 10.01 permits Required Lenders to add subordinated facilities."
+      },
+      {
+        "kind": "chewy_protection",
+        "present": "partial",
+        "section": "Section 10.01(j)",
+        "quote": "release (i) all or substantially all of the Collateral (excluding, if any Borrower becomes a debtor under any Debtor Relief Law, the release of \"cash collateral\", as defined in Section 363(a) of the federal Bankruptcy Code pursuant to a cash collateral stipulation with the debtor approved by the Required Lenders), (ii) the Parent from its Obligations under the Loan Documents, or (iii) except as permitted under this Agreement, release any Borrower (other than the Parent) from its Obligations under the Loan Documents, in each case without the written consent of each Lender;",
+        "summary": "Release of the Parent or other Borrowers (except as permitted) needs all-lender consent, but the agreement permits release when a Borrower is designated an Excluded Subsidiary or ceases to be a Subsidiary. There is no explicit protection against release solely because a guarantor stops being wholly owned."
+      },
+      {
+        "kind": "unrestricted_sub_cap",
+        "present": "yes",
+        "section": "Section 7.02(i)",
+        "quote": "Investments in or for the benefit of Excluded Subsidiaries and Foreign Subsidiaries not to exceed $75,000,000 in the aggregate outstanding at any time inclusive of such Investments existing on the Closing Date and listed (in each case specifying the amount of such Investment as of the Closing Date) on Schedule 7.02",
+        "summary": "Excluded Subsidiaries (the analogue to unrestricted subsidiaries) cannot be designated if aggregate investments would exceed the Section 7.02(i) cap of $75,000,000 (reduced by guarantees of their debt). Hard dollar cap."
+      },
+      {
+        "kind": "addback_cap",
+        "present": "yes",
+        "section": "Section 1.01 (Consolidated EBITDA; Consolidated Adjusted Net Income)",
+        "quote": "giving effect to any reasonably expected synergies in an amount not to exceed 15% of the Consolidated EBITDA of the Parent and its Subsidiaries (other than Excluded Subsidiaries), or such other amount as may be agreed between Parent and Administrative Agent",
+        "summary": "Pro forma acquisition synergies are capped at 15% of EBITDA (unless the Agent agrees otherwise). Severance and reorganization charges are separately capped at $10,000,000 and non-cash impairment charges at $50,000,000 since closing."
+      },
+      {
+        "kind": "equity_cure",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "No equity cure right to remedy a financial covenant default appears in the agreement."
+      }
+    ],
+    "addback_cap_pct": 0.15
+  }
+}

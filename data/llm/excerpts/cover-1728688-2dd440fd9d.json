@@ -1,0 +1,24 @@
+{
+  "job": "cover-1728688-2dd440fd9d",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1728688/000172868825000089/exhibit102-i3verticalsxpri.htm"
+  },
+  "usage": {
+    "input_tokens": 3507,
+    "output_tokens": 109,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "is_loan_document": true,
+    "kind": "amendment",
+    "title": "Consent Letter re: Credit Agreement",
+    "dated": "2025-02-11",
+    "amends_dated": "2023-05-08",
+    "primary_bank_facility": true,
+    "includes_conformed_copy": false,
+    "borrower": "i3 Verticals, LLC"
+  }
+}

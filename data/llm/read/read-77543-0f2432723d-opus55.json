@@ -1,0 +1,116 @@
+{
+  "job": "read-77543-0f2432723d-opus55",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "cik": "77543",
+    "docs": [
+      "https://www.sec.gov/Archives/edgar/data/77543/000007754326000163/tpc-arcreditagreement.htm"
+    ]
+  },
+  "usage": {
+    "input_tokens": 243522,
+    "output_tokens": 5789,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "borrower": "Tutor Perini Corporation",
+    "agreement_date": "2026-07-02",
+    "covenants": [
+      {
+        "name": "Total Net Leverage Ratio",
+        "metric": "net_leverage",
+        "direction": "max",
+        "thresholds": [
+          {
+            "value": 3.5,
+            "applies_from": null
+          }
+        ],
+        "test_frequency": "quarterly",
+        "springing_condition": null,
+        "section": "Section 7.11(a)",
+        "quote": "Solely with respect to the Revolving Credit Facility, the Borrower will not permit the Total Net Leverage Ratio, calculated as of the last day of the most recent fiscal quarter of the Borrower for which financial statements were required to have been furnished to the Administrative Agent pursuant to Sections 6.01(a) or (b) (beginning with the fiscal quarter ending June 30, 2026), to exceed 3.50 to 1.00.",
+        "ebitda_addbacks": [
+          "stock_comp",
+          "impairments",
+          "restructuring",
+          "other"
+        ],
+        "cash_netting_cap": null,
+        "cash_netting_cap_pct_ebitda": null
+      },
+      {
+        "name": "Interest Coverage Ratio",
+        "metric": "interest_coverage",
+        "direction": "min",
+        "thresholds": [
+          {
+            "value": 3.0,
+            "applies_from": null
+          }
+        ],
+        "test_frequency": "quarterly",
+        "springing_condition": null,
+        "section": "Section 7.11(b)",
+        "quote": "Solely with respect to the Revolving Credit Facility, the Borrower will not permit the Interest Coverage Ratio, calculated as of the last day of the most recent fiscal quarter of the Borrower for which financial statements were required to have been furnished to the Administrative Agent pursuant to Sections 6.01(a) or (b) (beginning with the fiscal quarter ending June 30, 2026), to be less than 3.00 to 1.00.",
+        "ebitda_addbacks": [
+          "stock_comp",
+          "impairments",
+          "restructuring",
+          "other"
+        ],
+        "cash_netting_cap": null,
+        "cash_netting_cap_pct_ebitda": null
+      }
+    ],
+    "notes": "This is an Amended and Restated Credit Agreement dated July 2, 2026; the original credit agreement closed August 18, 2020 (Original Closing Date). Both financial covenants are tested every quarter from June 30, 2026. They run solely for the benefit of the Revolving Credit Facility. Amendments to Section 7.11 and its component definitions (as used there) need only Required Revolving Lenders. A Section 7.11 breach is not an Event of Default for any Term Loans unless and until the revolving lenders terminate commitments and accelerate. There are no step-downs; the levels are flat for the life of the deal. Total Net Indebtedness nets all unrestricted cash and Cash Equivalents with no cap, plus restricted cash held in the 2024 Senior Notes Accounts. Receivables/securitization debt is excluded from Total Net Indebtedness. The Interest Coverage Ratio uses Cash Interest Expense, net of cash interest income. Notable EBITDA add-backs: (1) Non-cash judgments/settlements, capped for covenant purposes at 12.5% of EBITDA through the third anniversary and 10% thereafter. (2) A special clause (t) add-back for non-cash charges on scheduled legacy projects, up to $300 million aggregate. Clause (t) items must be reversed when cash is paid. (3) Transaction and financing fees, earn-outs, and discontinued-operations losses. (4) Restructuring, integration and cost-saving-initiative charges, which together with CNI clause (5) unusual/non-recurring items are capped at 20% of EBITDA. There is no run-rate projected synergies add-back. EBITDA is calculated on a Pro Forma Basis. Designating an Unrestricted Subsidiary requires pro forma Total Net Leverage of 3.50x or less and no Event of Default. There is no equity cure. Capital structure includes $400 million 6.625% Senior Notes due 2033 (2026 Senior Notes), which refinanced the 11.875% 2024 Senior Notes. The facility is secured by substantially all assets of the Loan Parties (subject to Excluded Property).",
+    "facility": "$350 million senior secured revolving credit facility (including $75 million L/C sublimit and $10 million swing line sublimit), maturing July 2, 2031; no term loans at closing, with incremental term/revolving capacity (greater of $400 million and 100% LTM EBITDA plus ratio-based amounts)",
+    "terms": [
+      {
+        "kind": "j_crew_blocker",
+        "present": "yes",
+        "section": "Section 6.15(a); proviso to definition of \"Permitted Investment\"",
+        "quote": "No Unrestricted Subsidiary shall be permitted to own Material Intellectual Property and no Restricted Subsidiary can be designated as an Unrestricted Subsidiary if it would own any Material Intellectual Property.",
+        "summary": "Unrestricted Subsidiaries may not own Material Intellectual Property, and a subsidiary owning it cannot be designated unrestricted. The Permitted Investment proviso also bars the Borrower and Restricted Subsidiaries from disposing of, or exclusively licensing, Material Intellectual Property to any Unrestricted Subsidiary."
+      },
+      {
+        "kind": "serta_protection",
+        "present": "partial",
+        "section": "Section 11.01(k)",
+        "quote": "subordinate the Obligations hereunder or the Liens granted hereunder or under the other Loan Documents, to any other Indebtedness or Lien (including without limitation any Indebtedness or Lien issued under this Agreement or any other agreement), as the case may be without the written consent of Lenders holding at least 66 2/3% of the outstanding Obligations and unfunded Commitments;",
+        "summary": "Subordinating the loans or their liens to other debt requires a 66 2/3% supermajority, not each affected lender. Changes to pro rata sharing (Sections 2.13 and 8.03) do require each Lender's consent."
+      },
+      {
+        "kind": "chewy_protection",
+        "present": "partial",
+        "section": "Section 9.10",
+        "quote": "Each party hereto agrees that notwithstanding any other provision of this Agreement to the contrary, no release of a Guarantor shall be required pursuant to it ceasing to be a wholly-owned Subsidiary unless either (i) it is the result of a bona fide sale of equity interests to an un-Affiliated third party or (ii) in the case of any other sale or investment of equity interests that results in the release of such Guarantor due to such Guarantor ceasing to be a wholly-owned subsidiary, the investment of the fair market value of the balance of the equity interests would have been otherwise permitted as an Investment in a non-Guarantor.",
+        "summary": "A guarantor is not released merely by ceasing to be wholly owned unless the change comes from a bona fide sale to an unaffiliated third party. Alternatively, the release is allowed if the retained equity's fair market value could have been invested in a non-guarantor under the investment baskets. That alternative weakens the protection."
+      },
+      {
+        "kind": "unrestricted_sub_cap",
+        "present": "yes",
+        "section": "Definition of \"Permitted Investment\" (clause (28) and final proviso); Section 6.15(a)",
+        "quote": "and (b) no Investment (including, without limitation, any Restricted Investment) may be made by the Borrower and its Restricted Subsidiaries in, to or for the benefit of any Unrestricted Subsidiary other than Investments made in reliance on clause (28) above.",
+        "summary": "Investments in Unrestricted Subsidiaries may only be made under clause (28). That basket is capped at the greater of $200 million and 50% of LTM EBITDA outstanding, shared with investments in similar businesses. Designation also requires pro forma Total Net Leverage of 3.50x or less and no Event of Default."
+      },
+      {
+        "kind": "addback_cap",
+        "present": "yes",
+        "section": "Definition of \"Consolidated EBITDA\", clause (1)(d)",
+        "quote": "provided, that such aggregate amounts pursuant to this clause (d), together with any add-backs made pursuant to clause (5) of the definition of \u201cConsolidated Net Income\u201d, shall not exceed 20% of Consolidated EBITDA in any period of four consecutive quarters, prior to giving effect to the pro forma adjustments (with such adjustments as are consistent with the pro forma adjustments set forth in the definition of \u201cPro Forma Basis\u201d, which shall apply mutatis mutandis) for such period",
+        "summary": "Restructuring, integration, business optimization and cost-saving-initiative charges, together with unusual/non-recurring items excluded from Consolidated Net Income, are capped at 20% of Consolidated EBITDA. There is no separate run-rate synergies add-back."
+      },
+      {
+        "kind": "equity_cure",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "The agreement contains no equity cure right for the financial covenants."
+      }
+    ],
+    "addback_cap_pct": 0.2
+  }
+}

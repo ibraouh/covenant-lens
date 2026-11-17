@@ -1,0 +1,355 @@
+{
+  "cik": "319201",
+  "name": "KLA CORP",
+  "borrower": "KLA Corporation",
+  "gold": false,
+  "stale": false,
+  "agreement_date": "2025-07-03",
+  "facility": "$1.5bn unsecured revolving credit facility (including $150m LC sublimit and $15m swingline) with up to $500m accordion, maturing July 3, 2030 (two one-year extension options)",
+  "chain": {
+    "auto": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/319201/000119312525156593/d56185dex101.htm",
+        "title": "Credit Agreement",
+        "dated": "2025-07-03",
+        "kind": "original",
+        "filed": "2025-07-08"
+      }
+    ],
+    "notes": [],
+    "used": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/319201/000119312525156593/d56185dex101.htm",
+        "title": "Credit Agreement",
+        "dated": "2025-07-03",
+        "kind": "original",
+        "filed": "2025-07-08"
+      }
+    ],
+    "source": "automatic"
+  },
+  "covenants": [
+    {
+      "name": "Leverage Ratio",
+      "metric": "net_leverage",
+      "direction": "max",
+      "section": "Section 6.06",
+      "quote": "The Company will not permit the Leverage Ratio on the last day of any Test Period to exceed 3.25 to 1.00",
+      "quote_verified": true,
+      "thresholds": [
+        {
+          "value": 3.25,
+          "applies_from": null
+        }
+      ],
+      "test_frequency": "quarterly",
+      "springing_condition": null,
+      "addbacks": [
+        "stock_comp",
+        "impairments",
+        "restructuring",
+        "other"
+      ],
+      "cash_netting_cap": 2500000000.0,
+      "cash_netting_cap_pct_ebitda": null,
+      "rows": [
+        {
+          "period_end": "2024-12-31",
+          "before_agreement": true,
+          "limit": 3.25,
+          "xbrl": null,
+          "adjusted": null,
+          "reported": null,
+          "reported_limit": null,
+          "reported_quote": null,
+          "reported_url": null,
+          "ltm_ebitda_xbrl": null,
+          "ltm_ebitda_adjusted": null,
+          "debt": 5882387000,
+          "cash": 1838278000,
+          "ltm_interest": 319969000
+        },
+        {
+          "period_end": "2025-03-31",
+          "before_agreement": true,
+          "limit": 3.25,
+          "xbrl": null,
+          "adjusted": null,
+          "reported": null,
+          "reported_limit": null,
+          "reported_quote": null,
+          "reported_url": null,
+          "ltm_ebitda_xbrl": null,
+          "ltm_ebitda_adjusted": null,
+          "debt": 5883322000,
+          "cash": 1858022000,
+          "ltm_interest": 311877000
+        },
+        {
+          "period_end": "2025-06-30",
+          "before_agreement": true,
+          "limit": 3.25,
+          "xbrl": null,
+          "adjusted": null,
+          "reported": null,
+          "reported_limit": null,
+          "reported_quote": null,
+          "reported_url": null,
+          "ltm_ebitda_xbrl": null,
+          "ltm_ebitda_adjusted": null,
+          "debt": 5884257000,
+          "cash": 2078908000,
+          "ltm_interest": 302166000
+        },
+        {
+          "period_end": "2025-09-30",
+          "before_agreement": false,
+          "limit": 3.25,
+          "xbrl": null,
+          "adjusted": null,
+          "reported": null,
+          "reported_limit": null,
+          "reported_quote": null,
+          "reported_url": null,
+          "ltm_ebitda_xbrl": null,
+          "ltm_ebitda_adjusted": null,
+          "debt": 5885193000,
+          "cash": 1946211000,
+          "ltm_interest": 291070000
+        },
+        {
+          "period_end": "2025-12-31",
+          "before_agreement": false,
+          "limit": 3.25,
+          "xbrl": null,
+          "adjusted": null,
+          "reported": 0.56,
+          "reported_limit": 3.25,
+          "reported_quote": "We were in compliance with all covenants under the Credit Agreement as of December 31, 2025 (the net leverage ratio was 0.56 to 1.00, compared to a maximum net leverage ratio of 3.25 to 1.00 on a quarterly basis covering the trailing four consecutive fiscal quarters for each fiscal quarter).",
+          "reported_url": "https://www.sec.gov/Archives/edgar/data/319201/000031920126000008/klac-20251231.htm",
+          "ltm_ebitda_xbrl": null,
+          "ltm_ebitda_adjusted": null,
+          "debt": 5886128000,
+          "cash": 2452124000,
+          "ltm_interest": 285757000
+        },
+        {
+          "period_end": "2026-03-31",
+          "before_agreement": false,
+          "limit": 3.25,
+          "xbrl": null,
+          "adjusted": null,
+          "reported": 0.54,
+          "reported_limit": 3.25,
+          "reported_quote": "We were in compliance with all covenants under the Credit Agreement as of March 31, 2026 (the net leverage ratio was 0.54 to 1.00, compared to a maximum net leverage ratio of 3.25 to 1.00 on a quarterly basis covering the trailing four consecutive fiscal quarters for each fiscal quarter).",
+          "reported_url": "https://www.sec.gov/Archives/edgar/data/319201/000031920126000016/klac-20260331.htm",
+          "ltm_ebitda_xbrl": null,
+          "ltm_ebitda_adjusted": null,
+          "debt": 5887063000,
+          "cash": 1787010000,
+          "ltm_interest": 284291000
+        },
+        {
+          "period_end": "2026-06-30",
+          "before_agreement": false,
+          "limit": 3.25,
+          "xbrl": null,
+          "adjusted": null,
+          "reported": 0.53,
+          "reported_limit": 3.25,
+          "reported_quote": "We were in compliance with all covenants under the Credit Agreement as of June 30, 2026 (the net leverage ratio was 0.53 to 1.00 compared to a maximum net leverage ratio of 3.25 to 1.00 on a quarterly basis covering the trailing four consecutive fiscal quarters for each fiscal quarter).",
+          "reported_url": "https://www.sec.gov/Archives/edgar/data/319201/000031920126000027/klac-20260630.htm",
+          "ltm_ebitda_xbrl": null,
+          "ltm_ebitda_adjusted": null,
+          "debt": 5887415000,
+          "cash": 1649842000,
+          "ltm_interest": 284440000
+        },
+        {
+          "period_end": "2026-09-30",
+          "before_agreement": false,
+          "limit": 3.25,
+          "xbrl": null,
+          "adjusted": null,
+          "reported": 0.49,
+          "reported_limit": 3.25,
+          "reported_quote": "We were in compliance with all covenants under the Credit Agreement as of September 30, 2026 (the net leverage ratio was 0.49 to 1.00, compared to a maximum net leverage ratio of 3.25 to 1.00 on a quarterly basis covering the trailing four consecutive fiscal quarters for each fiscal quarter).",
+          "reported_url": "https://www.sec.gov/Archives/edgar/data/319201/000031920126000034/klac-20260930.htm",
+          "ltm_ebitda_xbrl": null,
+          "ltm_ebitda_adjusted": null,
+          "debt": 5723289000,
+          "cash": 1531950000,
+          "ltm_interest": 281292000
+        }
+      ],
+      "latest": {
+        "period_end": "2026-09-30",
+        "basis": "reported",
+        "value": 0.49,
+        "limit": 3.25,
+        "headroom": 0.8492307692307691,
+        "cushion": 0.8492307692307692
+      },
+      "steps": []
+    }
+  ],
+  "notes": "Investment-grade style unsecured revolver with ratings-based and sustainability-linked pricing. The only financial maintenance covenant is the Leverage Ratio (Section 6.06), tested at the end of each fiscal quarter on a trailing four-quarter basis. It is a net ratio: Consolidated Total Indebtedness is reduced by the lesser of US-held cash, cash equivalents and marketable securities and $2.5bn. Acquisition Indebtedness for a signed but unconsummated Material Acquisition is disregarded. Acquisition holiday: if an Acquisition (or series within 180 days) involves $1bn or more of incurred or assumed debt and raises pro forma leverage, the Company may elect within 30 days to raise the maximum to 3.75x. The higher level applies for the quarter of closing and the next three quarters, and the Company can end it early by notice. A new election requires at least two consecutive quarters at or below 3.25x after the prior holiday ends. EBITDA add-backs: interest, taxes, D&A, non-cash stock compensation, other non-cash charges (later cash payments are subtracted), debt extinguishment losses, cash restructuring/severance capped at $200m per four quarters, and uncapped extraordinary, unusual or non-recurring cash charges. There is no add-back for projected cost savings or synergies. Pro forma adjustments for Material Acquisitions/Dispositions ($75m+) are made under Regulation S-X Article 11. Guarantees come from Designated Subsidiaries (wholly-owned domestic Material Subsidiaries, excluding FSHCOs and securitization subsidiaries). There is no unrestricted subsidiary concept, no collateral and no equity cure. Negative covenants: subsidiary debt and liens share a basket of 15% of Consolidated Net Tangible Assets, plus a securitization basket of the greater of $600m and 10% of CNTA.",
+  "terms": [
+    {
+      "kind": "j_crew_blocker",
+      "present": "no",
+      "section": null,
+      "quote": null,
+      "summary": "The agreement has no unrestricted subsidiary concept and no restriction on transferring or exclusively licensing intellectual property to non-guarantor entities.",
+      "quote_verified": null
+    },
+    {
+      "kind": "serta_protection",
+      "present": "no",
+      "section": "Section 9.02(b)",
+      "quote": null,
+      "summary": "Changes to the pro rata payment waterfall and sharing provisions in Sections 2.15(b)/(c) require each Lender's consent. However, there is no express requirement for each affected lender to consent to subordination of the loans or of any liens; the facility is unsecured.",
+      "quote_verified": null
+    },
+    {
+      "kind": "chewy_protection",
+      "present": "partial",
+      "section": "Section 9.14",
+      "quote": "A Subsidiary Guarantor shall automatically be released from its obligations under the Guarantee Agreement upon the consummation of any transaction permitted by this Agreement as a result of which such Subsidiary Guarantor ceases to be a Subsidiary;",
+      "summary": "Automatic release is triggered only when a guarantor stops being a Subsidiary (more than 50% owned), not merely when it stops being wholly owned. There is no express anti-Chewy language, and a sale of majority control would still release the guarantor.",
+      "quote_verified": true
+    },
+    {
+      "kind": "unrestricted_sub_cap",
+      "present": "no",
+      "section": null,
+      "quote": null,
+      "summary": "The agreement has no unrestricted subsidiaries and no investment covenant, so there is no cap on designations or investments.",
+      "quote_verified": null
+    },
+    {
+      "kind": "addback_cap",
+      "present": "partial",
+      "section": "Section 1.01 (Consolidated EBITDA)",
+      "quote": "cash restructuring, severance and similar charges, including costs associated with discontinued operations or exiting businesses, in an aggregate amount not in excess of $200,000,000 in any period of four consecutive fiscal quarters",
+      "summary": "Cash restructuring and severance add-backs are capped at $200m per four quarters, and there is no add-back for projected cost savings or synergies. However, extraordinary, unusual or non-recurring cash charges are added back without a cap.",
+      "quote_verified": true
+    },
+    {
+      "kind": "equity_cure",
+      "present": "no",
+      "section": null,
+      "quote": null,
+      "summary": "There is no equity cure right; a breach of Section 6.06 is an immediate Event of Default under Article VII(d).",
+      "quote_verified": null
+    }
+  ],
+  "addback_cap_pct": null,
+  "cov_lite": false,
+  "tightest": {
+    "name": "Leverage Ratio",
+    "period_end": "2026-09-30",
+    "basis": "reported",
+    "value": 0.49,
+    "limit": 3.25,
+    "headroom": 0.8492307692307691,
+    "cushion": 0.8492307692307692
+  },
+  "accuracy": [
+    {
+      "metric": "net_leverage",
+      "period_end": "2025-12-31",
+      "reported": 0.56,
+      "reported_limit": 3.25,
+      "covenant_found": true,
+      "matched": "Leverage Ratio",
+      "our_limit": 3.25,
+      "limit_match": true,
+      "not_graded": null,
+      "xbrl": null,
+      "adjusted": null,
+      "xbrl_error": null,
+      "adjusted_error": null,
+      "facility": "Revolving Credit Facility (Credit Agreement)",
+      "quote": "We were in compliance with all covenants under the Credit Agreement as of December 31, 2025 (the net leverage ratio was 0.56 to 1.00, compared to a maximum net leverage ratio of 3.25 to 1.00 on a quarterly basis covering the trailing four consecutive fiscal quarters for each fiscal quarter).",
+      "url": "https://www.sec.gov/Archives/edgar/data/319201/000031920126000008/klac-20251231.htm"
+    },
+    {
+      "metric": "net_leverage",
+      "period_end": "2026-03-31",
+      "reported": 0.54,
+      "reported_limit": 3.25,
+      "covenant_found": true,
+      "matched": "Leverage Ratio",
+      "our_limit": 3.25,
+      "limit_match": true,
+      "not_graded": null,
+      "xbrl": null,
+      "adjusted": null,
+      "xbrl_error": null,
+      "adjusted_error": null,
+      "facility": "Revolving Credit Facility (Credit Agreement)",
+      "quote": "We were in compliance with all covenants under the Credit Agreement as of March 31, 2026 (the net leverage ratio was 0.54 to 1.00, compared to a maximum net leverage ratio of 3.25 to 1.00 on a quarterly basis covering the trailing four consecutive fiscal quarters for each fiscal quarter).",
+      "url": "https://www.sec.gov/Archives/edgar/data/319201/000031920126000016/klac-20260331.htm"
+    },
+    {
+      "metric": "net_leverage",
+      "period_end": "2026-06-30",
+      "reported": 0.53,
+      "reported_limit": 3.25,
+      "covenant_found": true,
+      "matched": "Leverage Ratio",
+      "our_limit": 3.25,
+      "limit_match": true,
+      "not_graded": null,
+      "xbrl": null,
+      "adjusted": null,
+      "xbrl_error": null,
+      "adjusted_error": null,
+      "facility": "Credit Agreement (Revolving Credit Facility)",
+      "quote": "We were in compliance with all covenants under the Credit Agreement as of June 30, 2026 (the net leverage ratio was 0.53 to 1.00 compared to a maximum net leverage ratio of 3.25 to 1.00 on a quarterly basis covering the trailing four consecutive fiscal quarters for each fiscal quarter).",
+      "url": "https://www.sec.gov/Archives/edgar/data/319201/000031920126000027/klac-20260630.htm"
+    },
+    {
+      "metric": "net_leverage",
+      "period_end": "2026-09-30",
+      "reported": 0.49,
+      "reported_limit": 3.25,
+      "covenant_found": true,
+      "matched": "Leverage Ratio",
+      "our_limit": 3.25,
+      "limit_match": true,
+      "not_graded": null,
+      "xbrl": null,
+      "adjusted": null,
+      "xbrl_error": null,
+      "adjusted_error": null,
+      "facility": "Revolving Credit Facility (Credit Agreement)",
+      "quote": "We were in compliance with all covenants under the Credit Agreement as of September 30, 2026 (the net leverage ratio was 0.49 to 1.00, compared to a maximum net leverage ratio of 3.25 to 1.00 on a quarterly basis covering the trailing four consecutive fiscal quarters for each fiscal quarter).",
+      "url": "https://www.sec.gov/Archives/edgar/data/319201/000031920126000034/klac-20260930.htm"
+    }
+  ],
+  "dropped_answer_keys": [],
+  "adjusted_ebitda": [],
+  "financials_sources": {
+    "debt": "LongTermDebt",
+    "cash": "CashAndCashEquivalentsAtCarryingValue",
+    "operating income": "not reported",
+    "D&A": "DepreciationDepletionAndAmortization",
+    "interest": "InterestExpenseNonoperating",
+    "stock comp": "ShareBasedCompensation",
+    "impairments": "AssetImpairmentCharges",
+    "restructuring": "RestructuringCharges"
+  },
+  "compliance": {
+    "filed": "2026-10-29",
+    "form": "10-Q",
+    "url": "https://www.sec.gov/Archives/edgar/data/319201/000031920126000034/klac-20260930.htm",
+    "sentences": [
+      "As of September 30, 2026, we were in compliance with all of our covenants under the Indenture associated with the Senior Notes.",
+      "We were in compliance with all covenants under the Credit Agreement as of September 30, 2026.",
+      "As of September 30, 2026, we were in compliance with all of our covenants under the relevant indentures associated with the Senior Notes.",
+      "We were in compliance with all covenants under the Credit Agreement as of September 30, 2026 (the net leverage ratio was 0."
+    ]
+  }
+}

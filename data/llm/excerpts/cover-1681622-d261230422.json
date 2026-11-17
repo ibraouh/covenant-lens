@@ -1,0 +1,24 @@
+{
+  "job": "cover-1681622-d261230422",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1681622/000168162224000059/exhibit102equipmentcredita.htm"
+  },
+  "usage": {
+    "input_tokens": 4244,
+    "output_tokens": 113,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "is_loan_document": true,
+    "kind": "original",
+    "title": "Delayed-Draw Term Loan Credit and Guaranty Agreement",
+    "dated": "2024-04-26",
+    "amends_dated": null,
+    "primary_bank_facility": false,
+    "includes_conformed_copy": false,
+    "borrower": "Varex Imaging Corporation"
+  }
+}

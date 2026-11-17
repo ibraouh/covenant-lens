@@ -1,0 +1,49 @@
+{
+  "job": "ebitda-1013880-f2740519d0",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1013880/000110465925107789/tm2530356d1_ex99-1.htm",
+    "filed": "2025-11-06"
+  },
+  "usage": {
+    "input_tokens": 5591,
+    "output_tokens": 464,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "label": "Adjusted EBITDA",
+    "figures": [
+      {
+        "period_end": "2025-09-30",
+        "months": 3,
+        "shown": "43,355",
+        "unit": "thousands",
+        "quote": "Adjusted EBITDA $ 43,355 $ 50,276 $ 151,553 $ 151,428"
+      },
+      {
+        "period_end": "2024-09-30",
+        "months": 3,
+        "shown": "50,276",
+        "unit": "thousands",
+        "quote": "Adjusted EBITDA $ 43,355 $ 50,276 $ 151,553 $ 151,428"
+      },
+      {
+        "period_end": "2025-09-30",
+        "months": 9,
+        "shown": "151,553",
+        "unit": "thousands",
+        "quote": "Adjusted EBITDA $ 43,355 $ 50,276 $ 151,553 $ 151,428"
+      },
+      {
+        "period_end": "2024-09-30",
+        "months": 9,
+        "shown": "151,428",
+        "unit": "thousands",
+        "quote": "Adjusted EBITDA $ 43,355 $ 50,276 $ 151,553 $ 151,428"
+      }
+    ],
+    "notes": "Consolidated figures taken from the reconciliation table (in thousands). The Q3 numbers match the headline: $43.4 million in Q3 2025 versus $50.3 million in Q3 2024. The segment table (Engage and Digital) was excluded. The full-year 2025 guidance of $215M to $235M is a forecast, not a reported figure, so it is not listed."
+  }
+}

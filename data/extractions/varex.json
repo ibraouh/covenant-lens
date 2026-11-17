@@ -1,0 +1,61 @@
+{
+  "borrower": "Varex Imaging Corporation",
+  "agreement_date": "2026-03-13",
+  "covenants": [
+    {
+      "name": "Consolidated Total Net Leverage Ratio",
+      "metric": "net_leverage",
+      "direction": "max",
+      "thresholds": [
+        {
+          "value": 4.25,
+          "applies_from": "2026-04-03"
+        },
+        {
+          "value": 4.0,
+          "applies_from": "2027-12-31"
+        },
+        {
+          "value": 3.75,
+          "applies_from": "2028-12-29"
+        }
+      ],
+      "test_frequency": "quarterly",
+      "springing_condition": null,
+      "section": "Section 6.12(a)",
+      "quote": "The Parent Borrower shall not permit the Consolidated Total Net Leverage Ratio, on the last day of any Fiscal Quarter, to be greater than the ratio set forth below opposite such Fiscal Quarter:",
+      "ebitda_addbacks": [
+        "stock_comp",
+        "impairments",
+        "restructuring",
+        "other"
+      ],
+      "cash_netting_cap": 100000000.0,
+      "cash_netting_cap_pct_ebitda": null
+    },
+    {
+      "name": "Consolidated Fixed Charge Coverage Ratio",
+      "metric": "fixed_charge_coverage",
+      "direction": "min",
+      "thresholds": [
+        {
+          "value": 1.2,
+          "applies_from": null
+        }
+      ],
+      "test_frequency": "quarterly",
+      "springing_condition": null,
+      "section": "Section 6.12(b)",
+      "quote": "The Parent Borrower shall not permit the Consolidated Fixed Charge Coverage Ratio, on the last day of any Fiscal Quarter, to be less than 1.20:1.00.",
+      "ebitda_addbacks": [
+        "stock_comp",
+        "impairments",
+        "restructuring",
+        "other"
+      ],
+      "cash_netting_cap": null,
+      "cash_netting_cap_pct_ebitda": null
+    }
+  ],
+  "notes": "Both covenants are tested quarterly on the last day of each Fiscal Quarter and apply to all facilities (not springing). Only the original agreement was provided; no amendments.\n\nLeverage step-down dates are inferred. The table labels the periods only by month: 'Closing Date to September, 2027' at 4.25x, 'December, 2027 to September, 2028' at 4.00x, and 'December, 2028 and thereafter' at 3.75x. The borrower uses a 52/53-week fiscal year ending on a Friday (FY2025 ended Oct 3, 2025; Q1 FY2026 ended Jan 2, 2026; first quarterly reporting is for July 3, 2026; FY2026 ends Oct 2, 2026). On that basis the exact quarter-end dates used here are estimates: 2026-04-03 for the first quarter-end after closing, 2027-12-31, and 2028-12-29. Section 5.01(b) quarterly financials, which carry the compliance certificate, commence with the quarter ending July 3, 2026. Whether the April 2026 quarter is actually tested is therefore unclear.\n\nAcquisition holiday on leverage: the maximum ratio rises by 0.50x for the quarter in which a Permitted Acquisition with total consideration of $125M or more is consummated and for the next three quarters. At the borrower's option, 'consummated' means either signing or closing. The adjusted level is capped at 4.50x.\n\nNet debt definition:\n- Consolidated Total Indebtedness covers funded debt and bankers' acceptances (excluding undrawn LCs), plus Disqualified Stock and subsidiary Preferred Stock.\n- Netted cash is limited to the lesser of (i) Unrestricted cash and Cash Equivalents of the Parent Borrower and the Loan Parties and (ii) $100M.\n- From 90 days after closing, netted cash must sit in accounts under Administrative Agent control or held with a Cash Management Bank.\n\nConsolidated Adjusted EBITDA is very borrower-friendly. Add-backs include:\n- non-cash charges and impairments (excluding inventory and A/R write-downs);\n- non-cash equity and management plan compensation;\n- transaction, financing, M&A and equity-offering fees;\n- losses on asset dispositions and discontinued operations;\n- earn-out and contingent consideration changes;\n- IP, litigation, customs and tax remediation legal fees;\n- FX and hedge losses;\n- insured or indemnified losses;\n- uncapped unusual, extraordinary or non-recurring items (clause 23).\n\nRestructuring, severance, integration and cost-savings charges (clause 13) and pro forma run-rate synergies (clause 14) are together capped at 20% of Consolidated Adjusted EBITDA. Consolidated Net Income also excludes non-cash stock compensation, impairments and non-cash restructuring reserves.\n\nFCCR construction:\n- Numerator: EBITDA less Unfinanced Capital Expenditures, less cash income taxes paid, less cash Restricted Payments made under Section 6.02.\n- Denominator: Fixed Charges plus scheduled principal payments on Consolidated Total Indebtedness (excluding maturity payments) plus payments on Section 6.01(e) earn-out and indemnification debt. Fixed Charges are interest expense net of interest income, including capital lease interest and LC fees and excluding deferred financing cost amortization, plus grossed-up preferred dividends, receivables fees and Section 6.02(h) dividends.\n\nBoth ratios use trailing four-quarter EBITDA with pro forma adjustments for Specified Transactions, including run-rate cost savings for Permitted Acquisitions.\n\nNo equity cure provision appears in the agreement. Breach of Article VI is an immediate Event of Default under Section 7.01(c)(i), with no grace period.\n\nThe covenant levels also drive several incurrence tests, which are not maintenance covenants and are excluded here:\n- Incremental facilities and Incremental Equivalent Debt require pro forma leverage at least 0.25x inside the covenant level.\n- Acquisitions under the Payment Conditions and assumed acquired debt require 0.50x inside.\n- Delayed Draw Term Loan borrowings require pro forma compliance with Section 6.12.\n\nOther items:\n- The pricing grid ranges from SOFR+2.00% to SOFR+3.00%, based on net leverage.\n- The 'Maturity Date' definition appears truncated in the filed text: 'the earlier of (a) March 13, 2031 and (b) the date that any'.\n- The facility is $490M: a $100M revolver, a $350M Term Loan A and a $40M delayed-draw term loan for capex. Its proceeds refinanced the 7.875% senior secured notes due 2027 and the prior revolver."
+}

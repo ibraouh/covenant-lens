@@ -1,0 +1,175 @@
+{
+  "reports": [
+    {
+      "form": "10-Q",
+      "filed": "2026-11-10",
+      "period": "2026-10-01",
+      "url": "https://www.sec.gov/Archives/edgar/data/1377630/000119312526455444/ncmi-20261001.htm",
+      "job": "ratio-1377630-2026-10-01"
+    },
+    {
+      "form": "10-Q",
+      "filed": "2026-08-11",
+      "period": "2026-07-02",
+      "url": "https://www.sec.gov/Archives/edgar/data/1377630/000119312526344956/ncmi-20260702.htm",
+      "job": "ratio-1377630-2026-07-02"
+    },
+    {
+      "form": "10-Q",
+      "filed": "2026-05-12",
+      "period": "2026-04-02",
+      "url": "https://www.sec.gov/Archives/edgar/data/1377630/000119312526219502/ncmi-20260402.htm",
+      "job": "ratio-1377630-2026-04-02"
+    },
+    {
+      "form": "10-K",
+      "filed": "2026-02-26",
+      "period": "2026-01-01",
+      "url": "https://www.sec.gov/Archives/edgar/data/1377630/000119312526076788/ncmi-20260101.htm",
+      "job": "ratio-1377630-2026-01-01"
+    }
+  ],
+  "releases": [],
+  "exhibits": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1377630/000119312516686539/d237543dex41.htm",
+      "filed": "2016-08-19",
+      "exhibit": "EX-4.1",
+      "chars": 298507,
+      "job": "cover-1377630-6ebfcbc5d4"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1377630/000162828018008300/ncm-062518ex101.htm",
+      "filed": "2018-06-25",
+      "exhibit": "EX-10.1",
+      "chars": 563649,
+      "job": "cover-1377630-0b0c7b82ae"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1377630/000137763019000114/exhibit41.htm",
+      "filed": "2019-10-08",
+      "exhibit": "EX-4.1",
+      "chars": 323915,
+      "job": "cover-1377630-c15ecfa3f6"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1377630/000137763020000102/ncm-amendmentno1tocred.htm",
+      "filed": "2020-05-05",
+      "exhibit": "EX-10.1",
+      "chars": 19733,
+      "job": "cover-1377630-6725c8cd64"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1377630/000137763021000077/creditagreement03082021.htm",
+      "filed": "2021-03-08",
+      "exhibit": "EX-10.1",
+      "chars": 614699,
+      "job": "cover-1377630-824bdc6c3e"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1377630/000137763021000136/blkvscaconformedthroughame.htm",
+      "filed": "2021-05-10",
+      "exhibit": "EX-10.4",
+      "chars": 633751,
+      "job": "cover-1377630-a1e9d1325b"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1377630/000137763022000003/ncm-revolvingcreditagreeme.htm",
+      "filed": "2022-01-06",
+      "exhibit": "EX-10.2",
+      "chars": 491364,
+      "job": "cover-1377630-29bd4369ef"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1377630/000137763022000003/ncm-amendmentno3tocreditag.htm",
+      "filed": "2022-01-06",
+      "exhibit": "EX-10.1",
+      "chars": 643061,
+      "job": "cover-1377630-0ca9ecbacc"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1377630/000137763023000004/ncm-amendmentno1revolver.htm",
+      "filed": "2023-01-19",
+      "exhibit": "EX-10.2",
+      "chars": 34380,
+      "job": "cover-1377630-ea7da78027"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1377630/000137763023000004/ncm-amendmentno4totermloan.htm",
+      "filed": "2023-01-19",
+      "exhibit": "EX-10.1",
+      "chars": 37310,
+      "job": "cover-1377630-f207c02a9b"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1377630/000137763023000050/amendmentno5tocreditagreem.htm",
+      "filed": "2023-03-31",
+      "exhibit": "EX-10.2",
+      "chars": 33381,
+      "job": "cover-1377630-1c19719059"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1377630/000137763023000056/restructuringsupportagreem.htm",
+      "filed": "2023-04-12",
+      "exhibit": "EX-10.1",
+      "chars": 162938,
+      "job": "cover-1377630-05e0775770"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1377630/000137763024000042/ncmllcthirdamendedandresta.htm",
+      "filed": "2024-03-18",
+      "exhibit": "EX-10.1",
+      "chars": 170610,
+      "job": "cover-1377630-9fc13cedf3"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1377630/000095017025034706/ncmi-ex10_1.htm",
+      "filed": "2025-03-06",
+      "exhibit": "EX-10.1",
+      "chars": 173119,
+      "job": "cover-1377630-6dfe2d4256"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1377630/000095017025064502/ncmi-ex10_3.htm",
+      "filed": "2025-05-06",
+      "exhibit": "EX-10.3",
+      "chars": 187206,
+      "job": "cover-1377630-2a6f0e38e5"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1377630/000119312525258597/ncmi-ex10_1.htm",
+      "filed": "2025-10-30",
+      "exhibit": "EX-10.1",
+      "chars": 187275,
+      "job": "cover-1377630-ae34b3b8cf"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1377630/000119312526076788/ncmi-ex10_1.htm",
+      "filed": "2026-02-26",
+      "exhibit": "EX-10.1",
+      "chars": 173119,
+      "job": "cover-1377630-a9df598745"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1377630/000119312526344956/ncmi-ex10_1.htm",
+      "filed": "2026-08-11",
+      "exhibit": "EX-10.1",
+      "chars": 187275,
+      "job": "cover-1377630-47df83bc76"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1377630/000119312526396098/ncmi-ex10_1.htm",
+      "filed": "2026-09-21",
+      "exhibit": "EX-10.1",
+      "chars": 753905,
+      "job": "cover-1377630-0e8804a4a9"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1377630/000119312526455444/ncmi-ex10_3.htm",
+      "filed": "2026-11-10",
+      "exhibit": "EX-10.3",
+      "chars": 4131,
+      "job": "cover-1377630-9dff2a66e2"
+    }
+  ]
+}

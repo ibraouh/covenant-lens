@@ -1,0 +1,24 @@
+{
+  "job": "cover-1728688-114bb7159e",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1728688/000172868825000081/exhibit101-secondamendment.htm"
+  },
+  "usage": {
+    "input_tokens": 3204,
+    "output_tokens": 108,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "is_loan_document": true,
+    "kind": "amendment",
+    "title": "Second Amendment to Credit Agreement",
+    "dated": "2025-05-05",
+    "amends_dated": "2023-05-08",
+    "primary_bank_facility": true,
+    "includes_conformed_copy": false,
+    "borrower": "i3 Verticals, LLC"
+  }
+}

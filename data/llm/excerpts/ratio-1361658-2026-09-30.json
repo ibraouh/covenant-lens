@@ -1,0 +1,40 @@
+{
+  "job": "ratio-1361658-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1361658/000136165826000064/wyn-20260930.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 3263,
+    "output_tokens": 405,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "interest coverage ratio",
+        "metric": "interest_coverage",
+        "period_end": "2026-09-30",
+        "actual": 5.46,
+        "limit": 2.0,
+        "direction": "min",
+        "facility": "revolving credit facility and term loan B facility",
+        "quote": "As of September 30, 2026, the Company\u2019s interest coverage ratio was 5.46 to 1.0 and the first lien leverage ratio was 3.28 to 1.0."
+      },
+      {
+        "covenant_name": "first lien leverage ratio",
+        "metric": "secured_leverage",
+        "period_end": "2026-09-30",
+        "actual": 3.28,
+        "limit": 4.25,
+        "direction": "max",
+        "facility": "revolving credit facility and term loan B facility",
+        "quote": "As of September 30, 2026, the Company\u2019s interest coverage ratio was 5.46 to 1.0 and the first lien leverage ratio was 3.28 to 1.0."
+      }
+    ],
+    "notes": "The ratios are calculated as defined in the credit agreement and exclude interest expense and indebtedness from qualified securitization financing. The first lien leverage ratio also sets the revolver interest rate spread and letter of credit fees, but here it is a covenant test. The same figures are repeated in MD&A."
+  }
+}

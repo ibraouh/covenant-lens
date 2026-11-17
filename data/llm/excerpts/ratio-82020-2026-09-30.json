@@ -1,0 +1,30 @@
+{
+  "job": "ratio-82020-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/82020/000110465926120712/uslm-20260930x10q.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 3439,
+    "output_tokens": 314,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "Cash Flow Leverage Ratio",
+        "metric": "total_leverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 3.5,
+        "direction": "max",
+        "facility": "Revolving Facility",
+        "quote": "The Company\u2019s maximum Cash Flow Leverage Ratio is 3.50 to 1."
+      }
+    ],
+    "notes": "The filing states only the maximum Cash Flow Leverage Ratio (total funded senior indebtedness to EBITDA) of 3.50 to 1; no actual ratio is given. The company had no debt outstanding at September 30, 2026 apart from $4.6 million of letters of credit, so the actual ratio is effectively near zero, but it is not stated. The 3.00 to 1.00 pro forma threshold is a condition on stock repurchases, not the maintenance covenant, and is excluded. The pricing grid tied to this ratio is also excluded."
+  }
+}

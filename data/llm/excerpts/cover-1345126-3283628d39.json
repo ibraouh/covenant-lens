@@ -1,0 +1,24 @@
+{
+  "job": "cover-1345126-3283628d39",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1345126/000134512625000057/exhibit101-forbearanceandc.htm"
+  },
+  "usage": {
+    "input_tokens": 3203,
+    "output_tokens": 110,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "is_loan_document": true,
+    "kind": "amendment",
+    "title": "Third Forbearance Agreement",
+    "dated": "2025-10-10",
+    "amends_dated": "2022-07-12",
+    "primary_bank_facility": true,
+    "includes_conformed_copy": false,
+    "borrower": "Compass Group Diversified Holdings LLC"
+  }
+}

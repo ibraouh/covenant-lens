@@ -1,0 +1,24 @@
+{
+  "job": "cover-917520-b70ce98248",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/917520/000091752021000039/iart-20210630xexx101.htm"
+  },
+  "usage": {
+    "input_tokens": 3236,
+    "output_tokens": 131,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "is_loan_document": true,
+    "kind": "amendment",
+    "title": "Amendment No. 3 to Receivables Financing Agreement and Reaffirmation of Performance Guaranty",
+    "dated": "2021-05-28",
+    "amends_dated": "2018-12-21",
+    "primary_bank_facility": false,
+    "includes_conformed_copy": false,
+    "borrower": "Integra Receivables LLC"
+  }
+}

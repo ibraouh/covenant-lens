@@ -1,0 +1,28 @@
+{
+  "job": "ebitda-911177-49d02e31e9",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/911177/000091117725000123/cwst-ex991093025.htm",
+    "filed": "2025-10-30"
+  },
+  "usage": {
+    "input_tokens": 4764,
+    "output_tokens": 416,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "label": "Adjusted EBITDA",
+    "figures": [
+      {
+        "period_end": "2025-09-30",
+        "months": 3,
+        "shown": "119.9",
+        "unit": "millions",
+        "quote": "Adjusted EBITDA was $119.9 million for the quarter, up $16.9 million, or up 16.4%, from the same period in 2024, driven by both acquisition contribution and organic growth ."
+      }
+    ],
+    "notes": "The reconciliation table (in thousands) is cut off before the Adjusted EBITDA row, so the figure comes from the narrative text. The Q3 2024 figure is not printed; it would be about $103.0 million (119.9 - 16.9), but it is not reported here. Nine-month Adjusted EBITDA figures are also not shown. FY2025 guidance of $415M-$425M is a forecast, not a reported result, so it is excluded."
+  }
+}

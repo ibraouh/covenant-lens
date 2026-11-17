@@ -1,0 +1,98 @@
+{
+  "reports": [
+    {
+      "form": "10-Q",
+      "filed": "2026-11-04",
+      "period": "2026-09-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000057/cat-20260930.htm",
+      "job": "ratio-18230-2026-09-30"
+    },
+    {
+      "form": "10-Q",
+      "filed": "2026-08-05",
+      "period": "2026-06-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000046/cat-20260630.htm",
+      "job": "ratio-18230-2026-06-30"
+    },
+    {
+      "form": "10-Q",
+      "filed": "2026-05-06",
+      "period": "2026-03-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000021/cat-20260331.htm",
+      "job": "ratio-18230-2026-03-31"
+    },
+    {
+      "form": "10-K",
+      "filed": "2026-02-13",
+      "period": "2025-12-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000008/cat-20251231.htm",
+      "job": "ratio-18230-2025-12-31"
+    }
+  ],
+  "releases": [],
+  "exhibits": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/18230/000001823019000239/exhibit1042019secondam.htm",
+      "filed": "2019-09-10",
+      "exhibit": "EX-10.4",
+      "chars": 427274,
+      "job": "cover-18230-7f2e21a84d"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/18230/000001823019000239/exhibit1072019secondam.htm",
+      "filed": "2019-09-10",
+      "exhibit": "EX-10.7",
+      "chars": 427282,
+      "job": "cover-18230-8fd0aa0b48"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/18230/000001823019000239/exhibit1012019364-dayc.htm",
+      "filed": "2019-09-10",
+      "exhibit": "EX-10.1",
+      "chars": 435225,
+      "job": "cover-18230-06cd0de5bd"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/18230/000001823020000236/ex101364-dayfacility.htm",
+      "filed": "2020-09-08",
+      "exhibit": "EX-10.1",
+      "chars": 439435,
+      "job": "cover-18230-1c7153da3a"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/18230/000001823021000233/ex104-amendno1to2ndar3xyea.htm",
+      "filed": "2021-09-08",
+      "exhibit": "EX-10.4",
+      "chars": 539495,
+      "job": "cover-18230-8233e0f498"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/18230/000001823021000233/ex105-amendno1to2ndar5xyea.htm",
+      "filed": "2021-09-08",
+      "exhibit": "EX-10.5",
+      "chars": 533720,
+      "job": "cover-18230-d489805442"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/18230/000001823021000260/catex104_amendmenttothree-.htm",
+      "filed": "2021-11-03",
+      "exhibit": "EX-10.4",
+      "chars": 535273,
+      "job": "cover-18230-dcda2c1163"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/18230/000001823022000199/ex104-thirdamendmendandres.htm",
+      "filed": "2022-09-06",
+      "exhibit": "EX-10.4",
+      "chars": 473507,
+      "job": "cover-18230-60ace98f77"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/18230/000001823022000199/ex107-thirdamendedandresta.htm",
+      "filed": "2022-09-06",
+      "exhibit": "EX-10.7",
+      "chars": 471939,
+      "job": "cover-18230-a49a3f460b"
+    }
+  ]
+}

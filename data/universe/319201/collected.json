@@ -1,0 +1,70 @@
+{
+  "reports": [
+    {
+      "form": "10-Q",
+      "filed": "2026-10-29",
+      "period": "2026-09-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/319201/000031920126000034/klac-20260930.htm",
+      "job": "ratio-319201-2026-09-30"
+    },
+    {
+      "form": "10-K",
+      "filed": "2026-08-06",
+      "period": "2026-06-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/319201/000031920126000027/klac-20260630.htm",
+      "job": "ratio-319201-2026-06-30"
+    },
+    {
+      "form": "10-Q",
+      "filed": "2026-04-30",
+      "period": "2026-03-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/319201/000031920126000016/klac-20260331.htm",
+      "job": "ratio-319201-2026-03-31"
+    },
+    {
+      "form": "10-Q",
+      "filed": "2026-01-30",
+      "period": "2025-12-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/319201/000031920126000008/klac-20251231.htm",
+      "job": "ratio-319201-2025-12-31"
+    }
+  ],
+  "releases": [],
+  "exhibits": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/319201/000031920117000049/creditagreementexecution.htm",
+      "filed": "2017-11-30",
+      "exhibit": "EX-10.1",
+      "chars": 331461,
+      "job": "cover-319201-ec71b92244"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/319201/000162828018013994/creditfacilityextension.htm",
+      "filed": "2018-11-08",
+      "exhibit": "EX-10.1",
+      "chars": 305461,
+      "job": "cover-319201-ca76f4ab1a"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/319201/000119312522170195/d306474dex101.htm",
+      "filed": "2022-06-08",
+      "exhibit": "EX-10.1",
+      "chars": 346872,
+      "job": "cover-319201-1f7e219c03"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/319201/000031920122000023/exhibit101006302022.htm",
+      "filed": "2022-08-05",
+      "exhibit": "EX-10.10",
+      "chars": 9772,
+      "job": "cover-319201-fc042bbde4"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/319201/000119312525156593/d56185dex101.htm",
+      "filed": "2025-07-08",
+      "exhibit": "EX-10.1",
+      "chars": 412838,
+      "job": "cover-319201-be653b9b9d"
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "job": "read-18230-60ace98f77-opus55",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "cik": "18230",
+    "docs": [
+      "https://www.sec.gov/Archives/edgar/data/18230/000001823022000199/ex104-thirdamendmendandres.htm"
+    ]
+  },
+  "usage": {
+    "input_tokens": 174534,
+    "output_tokens": 3455,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "borrower": "Caterpillar Inc. (with co-borrowers Caterpillar Financial Services Corporation, Caterpillar International Finance Designated Activity Company and Caterpillar Finance Kabushiki Kaisha)",
+    "agreement_date": "2022-09-01",
+    "covenants": [
+      {
+        "name": "Consolidated Net Worth",
+        "metric": "other",
+        "direction": "min",
+        "thresholds": [
+          {
+            "value": 9000000000.0,
+            "applies_from": null
+          }
+        ],
+        "test_frequency": "other",
+        "springing_condition": null,
+        "section": "Section 5.03",
+        "quote": "So long as any Advance shall remain unpaid or any Bank shall have any Commitment hereunder, Caterpillar will, unless the Majority Banks shall otherwise consent in writing, maintain at all times during each fiscal year of Caterpillar, Consolidated Net Worth of not less than $9,000,000,000.",
+        "ebitda_addbacks": [],
+        "cash_netting_cap": null,
+        "cash_netting_cap_pct_ebitda": null
+      },
+      {
+        "name": "Leverage Ratio",
+        "metric": "other",
+        "direction": "max",
+        "thresholds": [
+          {
+            "value": 10.0,
+            "applies_from": null
+          }
+        ],
+        "test_frequency": "other",
+        "springing_condition": null,
+        "section": "Section 5.04(a)(i)",
+        "quote": "Maintain at all times a ratio (the \u201cLeverage Ratio\u201d) of (x) CFSC Consolidated Debt to (y) CFSC\u2019s Consolidated Net Worth of not greater than 10.0 to 1.",
+        "ebitda_addbacks": [],
+        "cash_netting_cap": null,
+        "cash_netting_cap_pct_ebitda": null
+      },
+      {
+        "name": "Leverage Ratio",
+        "metric": "other",
+        "direction": "max",
+        "thresholds": [
+          {
+            "value": 10.0,
+            "applies_from": "2022-12-31"
+          }
+        ],
+        "test_frequency": "annually",
+        "springing_condition": null,
+        "section": "Section 5.04(a)(ii)",
+        "quote": "Maintain a Leverage Ratio of not greater than 10.0 to 1 on each December 31, commencing December 31, 2022.",
+        "ebitda_addbacks": [],
+        "cash_netting_cap": null,
+        "cash_netting_cap_pct_ebitda": null
+      },
+      {
+        "name": "Interest Coverage Ratio",
+        "metric": "interest_coverage",
+        "direction": "min",
+        "thresholds": [
+          {
+            "value": 1.15,
+            "applies_from": null
+          }
+        ],
+        "test_frequency": "quarterly",
+        "springing_condition": null,
+        "section": "Section 5.04(b)",
+        "quote": "Maintain a ratio of (i) profit excluding income taxes, Interest Expense and Net Gain/(Loss) From Interest Rate Derivatives to (ii) Interest Expense of not less than 1.15 to 1, in each case, calculated at the end of each calendar quarter for the rolling four-quarter period then most recently ended for CFSC and its Subsidiaries on a consolidated basis in accordance with generally accepted accounting principles.",
+        "ebitda_addbacks": [],
+        "cash_netting_cap": null,
+        "cash_netting_cap_pct_ebitda": null
+      }
+    ],
+    "notes": "Investment-grade, unsecured, ratings-based revolver. The section numbering in the filed text is garbled (e.g. 'SECTION 1.02. Financial Covenant of Caterpillar'). Section references above follow the table of contents and the internal cross-references (Sections 5.03, 5.04(a) and 5.04(b)). The Consolidated Net Worth covenant applies to Caterpillar only. Consolidated Net Worth excludes pension and other post-retirement benefits in AOCI. The Leverage Ratio and Interest Coverage covenants apply to CFSC only. The CFSC Leverage Ratio is debt to net worth, not debt to EBITDA. It has two tests: (i) at all times, measured as the average of the six preceding month-end ratios; and (ii) a point-in-time test on each December 31. CFSC Consolidated Debt excludes non-recourse securitization borrowings. CFSC Net Worth excludes AOCI and non-controlling interests. Interest coverage is pre-tax profit excluding interest expense and interest-rate-derivative gains/losses, over interest expense, on a rolling four quarters. There is no EBITDA definition, so no add-backs apply. Compliance certificates are delivered quarterly and annually. Events of Default are borrower-specific. A CFSC default cross-defaults to CIF and CFKK. Other EoDs include a change of control of the finance subsidiaries and termination of the Caterpillar\u2013CFSC Support Agreement. Amending the Support Agreement requires 30 days' notice and Majority Bank consent if it is adverse. Liens are capped at 10% of Consolidated Net Tangible Assets. Cross-default thresholds are $100M for Caterpillar and $50M for CFSC, CIF and CFKK. Companion 364-day and five-year facilities dated the same day cross-default to this one.",
+    "facility": "$2.73 billion three-year multicurrency revolving credit facility, including up to $1.0 billion local currency (GBP/EUR) for CIF with a $150 million same-day sub-facility and $75 million in yen for CFKK. Accordion up to 130% of commitments. Matures August 29, 2025, extendable annually by one year with consent of the extending banks.",
+    "terms": [
+      {
+        "kind": "j_crew_blocker",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "No unrestricted subsidiary concept and no restrictions on transferring or licensing intellectual property."
+      },
+      {
+        "kind": "serta_protection",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "Unanimous consent is required for changes to principal, interest, payment dates and pro rata voting thresholds. There is no express provision requiring each affected lender's consent to subordination of the loans or liens. The facility is unsecured."
+      },
+      {
+        "kind": "chewy_protection",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "There are no subsidiary guarantors subject to release on ceasing to be wholly owned. The only guaranty is CFSC's guaranty of CIF and CFKK, which cannot be released without all banks under Section 8.01. Change of control of the finance subsidiaries is an Event of Default."
+      },
+      {
+        "kind": "unrestricted_sub_cap",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "The agreement has no unrestricted subsidiary designation mechanics and no investment covenant, so there is no cap."
+      },
+      {
+        "kind": "addback_cap",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "No EBITDA definition and no add-backs for cost savings, synergies or restructuring. The covenants use net worth, debt to net worth, and GAAP profit-based interest coverage."
+      },
+      {
+        "kind": "equity_cure",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "No equity cure right. Breach of a financial covenant becomes an Event of Default if unremedied for 30 days after written notice under Section 6.01(c)(ii)."
+      }
+    ],
+    "addback_cap_pct": null
+  }
+}

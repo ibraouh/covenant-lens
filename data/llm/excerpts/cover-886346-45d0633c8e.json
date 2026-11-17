@@ -1,0 +1,24 @@
+{
+  "job": "cover-886346-45d0633c8e",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/886346/000088634617000100/kaiform10q2q2017exhibit101.htm"
+  },
+  "usage": {
+    "input_tokens": 3156,
+    "output_tokens": 117,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "is_loan_document": true,
+    "kind": "amendment",
+    "title": "First Amendment to Amended and Restated Credit Agreement and Limited Consent",
+    "dated": "2017-05-24",
+    "amends_dated": "2017-03-01",
+    "primary_bank_facility": true,
+    "includes_conformed_copy": false,
+    "borrower": "Kadant Inc."
+  }
+}

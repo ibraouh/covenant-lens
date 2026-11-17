@@ -1,0 +1,40 @@
+{
+  "job": "ratio-825542-2025-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/825542/000082554225000022/smg-20250930.htm",
+    "period": "2025-09-30"
+  },
+  "usage": {
+    "input_tokens": 6377,
+    "output_tokens": 876,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "leverage ratio",
+        "metric": "total_leverage",
+        "period_end": "2025-09-30",
+        "actual": 4.1,
+        "limit": 4.75,
+        "direction": "max",
+        "facility": "Sixth A&R Credit Agreement",
+        "quote": "The maximum permitted leverage ratio was 4.75 for the fourth quarter of fiscal 2025. Our leverage ratio was 4.10 at September 30, 2025."
+      },
+      {
+        "covenant_name": "fixed charge coverage ratio",
+        "metric": "fixed_charge_coverage",
+        "period_end": "2025-09-30",
+        "actual": 1.42,
+        "limit": 1.0,
+        "direction": "min",
+        "facility": "Sixth A&R Credit Agreement",
+        "quote": "The minimum required fixed charge coverage ratio was 1.00. Our fixed charge coverage ratio was 1.42 for the twelve months ended September 30, 2025."
+      }
+    ],
+    "notes": "The Sixth A&R Credit Agreement was replaced on November 21, 2025 by the Seventh A&R Credit Agreement. The new agreement has a maximum leverage ratio of 5.00 from Q1 fiscal 2026 onward. Its minimum interest coverage ratio is 3.00 in fiscal 2026, 3.25 in fiscal 2027 and 3.50 thereafter. No actuals are given under the new agreement, so these future limits are not listed as entries. The 4.78 interest coverage ratio (minimum 2.00) is a covenant in the Senior Notes indentures, not the credit agreement, so it is excluded. The 4.00 leverage threshold for unlimited restricted payments is also excluded, because it is a payments basket test rather than a maintenance covenant. The leverage ratio is calculated on average total indebtedness divided by Adjusted EBITDA."
+  }
+}

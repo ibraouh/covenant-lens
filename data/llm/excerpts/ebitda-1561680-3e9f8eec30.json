@@ -1,0 +1,49 @@
+{
+  "job": "ebitda-1561680-3e9f8eec30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1561680/000156168026000044/tphex991q32026.htm",
+    "filed": "2026-11-05"
+  },
+  "usage": {
+    "input_tokens": 3109,
+    "output_tokens": 403,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "label": "Adjusted EBITDA",
+    "figures": [
+      {
+        "period_end": "2026-09-30",
+        "months": 3,
+        "shown": "86,249",
+        "unit": "thousands",
+        "quote": "Adjusted EBITDA $ 86,249 $ 125,796 $ 209,174 $ 390,816"
+      },
+      {
+        "period_end": "2025-09-30",
+        "months": 3,
+        "shown": "125,796",
+        "unit": "thousands",
+        "quote": "Adjusted EBITDA $ 86,249 $ 125,796 $ 209,174 $ 390,816"
+      },
+      {
+        "period_end": "2026-09-30",
+        "months": 9,
+        "shown": "209,174",
+        "unit": "thousands",
+        "quote": "Adjusted EBITDA $ 86,249 $ 125,796 $ 209,174 $ 390,816"
+      },
+      {
+        "period_end": "2025-09-30",
+        "months": 9,
+        "shown": "390,816",
+        "unit": "thousands",
+        "quote": "Adjusted EBITDA $ 86,249 $ 125,796 $ 209,174 $ 390,816"
+      }
+    ],
+    "notes": "Figures taken from the reconciliation table (in thousands); they match the summary table. 2026 Adjusted EBITDA excludes Sumitomo Forestry transaction-related expenses."
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "job": "ratio-1345126-2026-03-31",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1345126/000134512626000040/codi-20260331.htm",
+    "period": "2026-03-31"
+  },
+  "usage": {
+    "input_tokens": 4917,
+    "output_tokens": 609,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "Fixed Charge Coverage Ratio",
+        "metric": "fixed_charge_coverage",
+        "period_end": "2026-03-31",
+        "actual": 1.53,
+        "limit": 1.0,
+        "direction": "min",
+        "facility": "2022 Credit Facility",
+        "quote": "Fixed Charge Coverage Ratio Greater than or equal to 1.00:1.00 1.53 :1:00"
+      },
+      {
+        "covenant_name": "Total Secured Debt to EBITDA Ratio",
+        "metric": "secured_leverage",
+        "period_end": "2026-03-31",
+        "actual": 1.44,
+        "limit": 2.5,
+        "direction": "max",
+        "facility": "2022 Credit Facility",
+        "quote": "Total Secured Debt to EBITDA Ratio Less than or equal to 2.50: 1.00 1.44 :1:00"
+      },
+      {
+        "covenant_name": "Total Debt to EBITDA Ratio",
+        "metric": "total_leverage",
+        "period_end": "2026-03-31",
+        "actual": 5.32,
+        "limit": 5.75,
+        "direction": "max",
+        "facility": "2022 Credit Facility",
+        "quote": "Total Debt to EBITDA Ratio Less than or equal to 5.75: 1.00 5.32 :1:00"
+      }
+    ],
+    "notes": "Requirements are those under the 2022 Credit Facility as amended by the Fifth Amendment. The 4.50:1.00 Consolidated Total Leverage Ratio and 1.00:1.00 Senior Secured Leverage Ratio thresholds in the Transaction Letter trigger milestone fees and are not maintenance covenants, so they are excluded. Leverage-based interest margins are also excluded. Subsidiary intercompany credit agreement covenants are excluded as well; Arnold and Velocity were in breach and received waivers, but these loans eliminate in consolidation."
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "job": "ratio-1766368-2025-12-31",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1766368/000110465926023496/tmb-20251231x10k.htm",
+    "period": "2025-12-31"
+  },
+  "usage": {
+    "input_tokens": 5766,
+    "output_tokens": 663,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "Consolidated Total Leverage Ratio",
+        "metric": "total_leverage",
+        "period_end": "2025-12-31",
+        "actual": 3.68,
+        "limit": 4.0,
+        "direction": "max",
+        "facility": "Amended and Restated Credit Agreement (Wells Fargo Bank, N.A., as administrative agent)",
+        "quote": "At December 31, 2025, our consolidated total leverage ratio was 3.68 to 1.00 as compared to a covenant maximum of 4.00 to 1.00 under the Credit Agreement."
+      },
+      {
+        "covenant_name": "Consolidated Interest Coverage Ratio",
+        "metric": "interest_coverage",
+        "period_end": "2025-12-31",
+        "actual": 5.47,
+        "limit": 3.0,
+        "direction": "min",
+        "facility": "Amended and Restated Credit Agreement (Wells Fargo Bank, N.A., as administrative agent)",
+        "quote": "At December 31, 2025, our consolidated interest coverage ratio was 5.47 to 1.00 as compared to a covenant minimum of 3.00 to 1.00 under the Credit Agreement."
+      }
+    ],
+    "notes": "The base leverage maximum is 3.50x. It steps up to 4.00x for the four quarters after a qualifying acquisition, and the July 1, 2025 Accu-Fab acquisition qualified, so 4.00x applied at 12/31/2025. The February 25, 2026 amendment came after the period end. It lowers the minimum interest coverage to 2.75x through Q4 2026. It raises the maximum leverage to 5.25x for Q1-Q2 2026, 5.00x for Q3 2026 and 4.00x for Q4 2026, then 3.50x from 2027. It also cuts revolver commitments to $275,000 from $350,000. The company says it was in compliance at 12/31/2024, but no ratios are given for that date. Interest margins tied to the leverage ratio are pricing terms, not covenants, and are excluded."
+  }
+}

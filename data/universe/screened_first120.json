@@ -1,0 +1,1176 @@
+[
+  {
+    "cik": "1683606",
+    "name": "Cars.com Inc.",
+    "sic": 7374,
+    "queries": 10,
+    "usable": 0,
+    "metrics": [
+      "net_leverage"
+    ]
+  },
+  {
+    "cik": "98362",
+    "name": "TIMKEN CO",
+    "sic": 3562,
+    "queries": 10,
+    "usable": 0,
+    "metrics": []
+  },
+  {
+    "cik": "842633",
+    "name": "TRIMAS CORP",
+    "sic": 3460,
+    "queries": 10,
+    "usable": 0,
+    "metrics": [
+      "interest_coverage"
+    ]
+  },
+  {
+    "cik": "1710366",
+    "name": "Core Natural Resources, Inc.",
+    "sic": 1220,
+    "queries": 8,
+    "usable": 0,
+    "metrics": []
+  },
+  {
+    "cik": "1013880",
+    "name": "TTEC Holdings, Inc.",
+    "sic": 7363,
+    "queries": 8,
+    "usable": 1,
+    "metrics": [
+      "net_leverage"
+    ]
+  },
+  {
+    "cik": "1481792",
+    "name": "Quad/Graphics, Inc.",
+    "sic": 2750,
+    "queries": 8,
+    "usable": 2,
+    "metrics": [
+      "interest_coverage",
+      "secured_net_leverage",
+      "total_leverage"
+    ]
+  },
+  {
+    "cik": "910406",
+    "name": "HAIN CELESTIAL GROUP INC",
+    "sic": 2000,
+    "queries": 8,
+    "usable": 0,
+    "metrics": []
+  },
+  {
+    "cik": "1766368",
+    "name": "Mayville Engineering Company, Inc.",
+    "sic": 3460,
+    "queries": 8,
+    "usable": 2,
+    "metrics": [
+      "interest_coverage",
+      "total_leverage"
+    ]
+  },
+  {
+    "cik": "832101",
+    "name": "IDEX CORP /DE/",
+    "sic": 3561,
+    "queries": 7,
+    "usable": 1,
+    "metrics": [
+      "net_leverage"
+    ]
+  },
+  {
+    "cik": "1474735",
+    "name": "GENERAC HOLDINGS INC.",
+    "sic": 3621,
+    "queries": 7,
+    "usable": 0,
+    "metrics": []
+  },
+  {
+    "cik": "819793",
+    "name": "ALBANY INTERNATIONAL CORP /DE/",
+    "sic": 2221,
+    "queries": 7,
+    "usable": 0,
+    "metrics": []
+  },
+  {
+    "cik": "1439288",
+    "name": "Zurn Elkay Water Solutions Corp",
+    "sic": 3560,
+    "queries": 6,
+    "usable": 0,
+    "metrics": []
+  },
+  {
+    "cik": "1280058",
+    "name": "BLACKBAUD INC",
+    "sic": 7372,
+    "queries": 6,
+    "usable": 2,
+    "metrics": [
+      "interest_coverage",
+      "net_leverage"
+    ]
+  },
+  {
+    "cik": "1411207",
+    "name": "Allison Transmission Holdings Inc",
+    "sic": 3714,
+    "queries": 6,
+    "usable": 0,
+    "metrics": []
+  },
+  {
+    "cik": "1520697",
+    "name": "Acadia Healthcare Company, Inc.",
+    "sic": 8093,
+    "queries": 6,
+    "usable": 0,
+    "metrics": [
+      "interest_coverage"
+    ]
+  },
+  {
+    "cik": "1395942",
+    "name": "OPENLANE, Inc.",
+    "sic": 5500,
+    "queries": 6,
+    "usable": 0,
+    "metrics": []
+  },
+  {
+    "cik": "1718227",
+    "name": "Construction Partners, Inc.",
+    "sic": 1600,
+    "queries": 6,
+    "usable": 0,
+    "metrics": [
+      "interest_coverage",
+      "net_leverage"
+    ]
+  },
+  {
+    "cik": "1806347",
+    "name": "Westrock Coffee Co",
+    "sic": 2080,
+    "queries": 6,
+    "usable": 0,
+    "metrics": [
+      "interest_coverage",
+      "secured_net_leverage"
+    ]
+  },
+  {
+    "cik": "310354",
+    "name": "STANDEX INTERNATIONAL CORP/DE/",
+    "sic": 3580,
+    "queries": 6,
+    "usable": 0,
+    "metrics": []
+  },
+  {
+    "cik": "1361658",
+    "name": "Travel & Leisure Co.",
+    "sic": 7011,
+    "queries": 6,
+    "usable": 0,
+    "metrics": []
+  },
+  {
+    "cik": "18230",
+    "name": "CATERPILLAR INC",
+    "sic": 3531,
+    "queries": 6,
+    "usable": 1,
+    "metrics": [
+      "interest_coverage",
+      "other"
+    ]
+  },
+  {
+    "cik": "1674862",
+    "name": "ASHLAND INC.",
+    "sic": 5160,
+    "queries": 5,
+    "usable": 0,
+    "metrics": []
+  },
+  {
+    "cik": "62234",
+    "name": "MARCUS CORP",
+    "sic": 7830,
+    "queries": 5,
+    "usable": 0,
+    "metrics": [
+      "interest_coverage",
+      "net_leverage"
+    ]
+  },
+  {
+    "cik": "319201",
+    "name": "KLA CORP",
+    "sic": 3827,
+    "queries": 4,
+    "usable": 1,
+    "metrics": [
+      "net_leverage"
+    ]
+  },
+  {
+    "cik": "1756655",
+    "name": "Ardent Health, Inc.",
+    "sic": 8062,
+    "queries": 4,
+    "usable": 0,
+    "metrics": []
+  },
+  {
+    "cik": "110621",
+    "name": "RPM INTERNATIONAL INC/DE/",
+    "sic": 2851,
+    "queries": 4,
+    "usable": 0,
+    "metrics": []
+  },
+  {
+    "cik": "1800227",
+    "name": "People Inc",
+    "sic": 7370,
+    "queries": 4,
+    "usable": 0,
+    "metrics": [
+      "net_leverage"
+    ]
+  },
+  {
+    "cik": "879585",
+    "name": "ATN International, Inc.",
+    "sic": 4813,
+    "queries": 4,
+    "usable": 0,
+    "metrics": [
+      "fixed_charge_coverage",
+      "net_leverage"
+    ]
+  },
+  {
+    "cik": "2089661",
+    "name": "SunocoCorp LLC",
+    "sic": 2911,
+    "queries": 4,
+    "usable": 0,
+    "metrics": [
+      "net_leverage"
+    ]
+  },
+  {
+    "cik": "891103",
+    "name": "Match Group, Inc.",
+    "sic": 7370,
+    "queries": 4,
+    "usable": 0,
+    "metrics": [
+      "net_leverage"
+    ]
+  },
+  {
+    "cik": "1552275",
+    "name": "Sunoco LP",
+    "sic": 2911,
+    "queries": 4,
+    "usable": 0,
+    "metrics": [
+      "net_leverage"
+    ]
+  },
+  {
+    "cik": "1418819",
+    "name": "Iridium Communications Inc.",
+    "sic": 4899,
+    "queries": 4,
+    "usable": 0,
+    "metrics": [
+      "secured_net_leverage",
+      "total_leverage"
+    ]
+  },
+  {
+    "cik": "1559865",
+    "name": "EVERTEC, Inc.",
+    "sic": 7374,
+    "queries": 4,
+    "usable": 0,
+    "metrics": [
+      "secured_net_leverage"
+    ]
+  },
+  {
+    "cik": "16918",
+    "name": "CONSTELLATION BRANDS, INC.",
+    "sic": 2080,
+    "queries": 4,
+    "usable": 0,
+    "metrics": [
+      "interest_coverage",
+      "net_leverage"
+    ]
+  },
+  {
+    "cik": "1377630",
+    "name": "National CineMedia, Inc.",
+    "sic": 7310,
+    "queries": 4,
+    "usable": 1,
+    "metrics": [
+      "net_leverage"
+    ]
+  },
+  {
+    "cik": "921582",
+    "name": "IMAX CORP",
+    "sic": 3861,
+    "queries": 4,
+    "usable": 0,
+    "metrics": [
+      "secured_net_leverage"
+    ]
+  },
+  {
+    "cik": "1870940",
+    "name": "Airsculpt Technologies, Inc.",
+    "sic": 8011,
+    "queries": 4,
+    "usable": 0,
+    "metrics": [
+      "fixed_charge_coverage",
+      "minimum_liquidity",
+      "total_leverage"
+    ]
+  },
+  {
+    "cik": "1158324",
+    "name": "COGENT COMMUNICATIONS HOLDINGS, INC.",
+    "sic": 4899,
+    "queries": 4,
+    "usable": 0,
+    "metrics": []
+  },
+  {
+    "cik": "1158172",
+    "name": "COMSCORE, INC.",
+    "sic": 7389,
+    "queries": 4,
+    "usable": 0,
+    "metrics": [
+      "secured_leverage"
+    ]
+  },
+  {
+    "cik": "712034",
+    "name": "ACCO BRANDS Corp",
+    "sic": 2780,
+    "queries": 4,
+    "usable": 1,
+    "metrics": [
+      "total_leverage"
+    ]
+  },
+  {
+    "cik": "1573516",
+    "name": "Murphy USA Inc.",
+    "sic": 5500,
+    "queries": 4,
+    "usable": 0,
+    "metrics": [
+      "interest_coverage"
+    ]
+  },
+  {
+    "cik": "825542",
+    "name": "SCOTTS MIRACLE-GRO CO",
+    "sic": 2870,
+    "queries": 4,
+    "usable": 1,
+    "metrics": [
+      "total_leverage"
+    ]
+  },
+  {
+    "cik": "1020710",
+    "name": "DXP ENTERPRISES INC",
+    "sic": 5084,
+    "queries": 4,
+    "usable": 0,
+    "metrics": [
+      "fixed_charge_coverage",
+      "secured_leverage"
+    ]
+  },
+  {
+    "cik": "727510",
+    "name": "Viskase Holdings, Inc.",
+    "sic": 2836,
+    "queries": 4,
+    "usable": 0,
+    "metrics": [
+      "total_leverage"
+    ]
+  },
+  {
+    "cik": "917520",
+    "name": "INTEGRA LIFESCIENCES HOLDINGS CORP",
+    "sic": 3841,
+    "queries": 4,
+    "usable": 1,
+    "metrics": [
+      "net_leverage"
+    ]
+  },
+  {
+    "cik": "1624512",
+    "name": "Boxlight Corp",
+    "sic": 8200,
+    "queries": 4,
+    "usable": 0,
+    "metrics": [
+      "secured_leverage"
+    ]
+  },
+  {
+    "cik": "2104052",
+    "name": "Enviri Corp",
+    "sic": 4953,
+    "queries": 4,
+    "usable": 2,
+    "metrics": [
+      "interest_coverage",
+      "net_leverage"
+    ]
+  },
+  {
+    "cik": "2024218",
+    "name": "Summit Midstream Corp",
+    "sic": 4922,
+    "queries": 4,
+    "usable": 0,
+    "metrics": []
+  },
+  {
+    "cik": "885725",
+    "name": "BOSTON SCIENTIFIC CORP",
+    "sic": 3841,
+    "queries": 4,
+    "usable": 1,
+    "metrics": [
+      "total_leverage"
+    ]
+  },
+  {
+    "cik": "856982",
+    "name": "MERIT MEDICAL SYSTEMS INC",
+    "sic": 3841,
+    "queries": 4,
+    "usable": 0,
+    "metrics": [
+      "interest_coverage",
+      "net_leverage",
+      "secured_net_leverage"
+    ]
+  },
+  {
+    "cik": "89089",
+    "name": "SERVICE CORP INTERNATIONAL",
+    "sic": 7200,
+    "queries": 4,
+    "usable": 1,
+    "metrics": [
+      "total_leverage"
+    ]
+  },
+  {
+    "cik": "1053706",
+    "name": "CRA INTERNATIONAL, INC.",
+    "sic": 8111,
+    "queries": 4,
+    "usable": 0,
+    "metrics": [
+      "interest_coverage",
+      "net_leverage"
+    ]
+  },
+  {
+    "cik": "893949",
+    "name": "Pediatrix Medical Group, Inc.",
+    "sic": 8060,
+    "queries": 4,
+    "usable": 0,
+    "metrics": []
+  },
+  {
+    "cik": "918541",
+    "name": "NN INC",
+    "sic": 3540,
+    "queries": 4,
+    "usable": 0,
+    "metrics": [
+      "fixed_charge_coverage",
+      "minimum_liquidity",
+      "net_leverage"
+    ]
+  },
+  {
+    "cik": "1043337",
+    "name": "STONERIDGE INC",
+    "sic": 3714,
+    "queries": 3,
+    "usable": 0,
+    "metrics": [
+      "interest_coverage",
+      "total_leverage"
+    ]
+  },
+  {
+    "cik": "916365",
+    "name": "TRACTOR SUPPLY CO /DE/",
+    "sic": 5200,
+    "queries": 3,
+    "usable": 0,
+    "metrics": [
+      "fixed_charge_coverage",
+      "total_leverage"
+    ]
+  },
+  {
+    "cik": "1728688",
+    "name": "i3 Verticals, Inc.",
+    "sic": 7372,
+    "queries": 3,
+    "usable": 2,
+    "metrics": [
+      "interest_coverage",
+      "total_leverage"
+    ]
+  },
+  {
+    "cik": "909494",
+    "name": "TUCOWS INC /PA/",
+    "sic": 7374,
+    "queries": 3,
+    "usable": 0,
+    "metrics": [
+      "interest_coverage",
+      "total_leverage"
+    ]
+  },
+  {
+    "cik": "903129",
+    "name": "Gentherm Inc",
+    "sic": 3714,
+    "queries": 3,
+    "usable": 0,
+    "metrics": []
+  },
+  {
+    "cik": "1660280",
+    "name": "Tenable Holdings, Inc.",
+    "sic": 7372,
+    "queries": 2,
+    "usable": 0,
+    "metrics": []
+  },
+  {
+    "cik": "2014596",
+    "name": "Concentra Group Holdings Parent, Inc.",
+    "sic": 8093,
+    "queries": 2,
+    "usable": 1,
+    "metrics": [
+      "total_leverage"
+    ]
+  },
+  {
+    "cik": "788965",
+    "name": "HALLADOR ENERGY CO",
+    "sic": 4911,
+    "queries": 2,
+    "usable": 0,
+    "metrics": [
+      "fixed_charge_coverage",
+      "minimum_liquidity"
+    ]
+  },
+  {
+    "cik": "824142",
+    "name": "AAON, INC.",
+    "sic": 3585,
+    "queries": 2,
+    "usable": 1,
+    "metrics": [
+      "total_leverage"
+    ]
+  },
+  {
+    "cik": "1971213",
+    "name": "Sinclair, Inc.",
+    "sic": 4833,
+    "queries": 2,
+    "usable": 0,
+    "metrics": [
+      "secured_leverage"
+    ]
+  },
+  {
+    "cik": "1123360",
+    "name": "GLOBAL PAYMENTS INC",
+    "sic": 7389,
+    "queries": 2,
+    "usable": 0,
+    "metrics": [
+      "net_leverage"
+    ]
+  },
+  {
+    "cik": "1282637",
+    "name": "NEWMARKET CORP",
+    "sic": 2860,
+    "queries": 2,
+    "usable": 0,
+    "metrics": []
+  },
+  {
+    "cik": "1385280",
+    "name": "Cinemark Holdings, Inc.",
+    "sic": 7830,
+    "queries": 2,
+    "usable": 0,
+    "metrics": [
+      "secured_net_leverage"
+    ]
+  },
+  {
+    "cik": "1171486",
+    "name": "NATURAL RESOURCE PARTNERS LP",
+    "sic": 1221,
+    "queries": 2,
+    "usable": 2,
+    "metrics": [
+      "interest_coverage",
+      "total_leverage"
+    ]
+  },
+  {
+    "cik": "49754",
+    "name": "Dine Brands Global, Inc.",
+    "sic": 5812,
+    "queries": 2,
+    "usable": 0,
+    "metrics": []
+  },
+  {
+    "cik": "886346",
+    "name": "KADANT INC",
+    "sic": 3550,
+    "queries": 2,
+    "usable": 1,
+    "metrics": [
+      "total_leverage"
+    ]
+  },
+  {
+    "cik": "1722684",
+    "name": "WYNDHAM HOTELS & RESORTS, INC.",
+    "sic": 7011,
+    "queries": 2,
+    "usable": 0,
+    "metrics": []
+  },
+  {
+    "cik": "1408198",
+    "name": "MSCI Inc.",
+    "sic": 7389,
+    "queries": 2,
+    "usable": 0,
+    "metrics": []
+  },
+  {
+    "cik": "912728",
+    "name": "FORWARD AIR CORP",
+    "sic": 4731,
+    "queries": 2,
+    "usable": 0,
+    "metrics": []
+  },
+  {
+    "cik": "1828016",
+    "name": "Playtika Holding Corp.",
+    "sic": 7374,
+    "queries": 2,
+    "usable": 0,
+    "metrics": [
+      "secured_net_leverage"
+    ]
+  },
+  {
+    "cik": "1822928",
+    "name": "Holley Inc.",
+    "sic": 3714,
+    "queries": 2,
+    "usable": 0,
+    "metrics": [
+      "total_leverage"
+    ]
+  },
+  {
+    "cik": "1857154",
+    "name": "Krispy Kreme, Inc.",
+    "sic": 5400,
+    "queries": 2,
+    "usable": 0,
+    "metrics": []
+  },
+  {
+    "cik": "37785",
+    "name": "FMC CORP",
+    "sic": 2800,
+    "queries": 2,
+    "usable": 1,
+    "metrics": [
+      "interest_coverage",
+      "secured_leverage",
+      "total_leverage"
+    ]
+  },
+  {
+    "cik": "22444",
+    "name": "COMMERCIAL METALS Co",
+    "sic": 3312,
+    "queries": 2,
+    "usable": 0,
+    "metrics": []
+  },
+  {
+    "cik": "1466593",
+    "name": "Otter Tail Corp",
+    "sic": 4911,
+    "queries": 2,
+    "usable": 0,
+    "metrics": []
+  },
+  {
+    "cik": "1696088",
+    "name": "ENERGY RESOURCES 12, L.P.",
+    "sic": 1311,
+    "queries": 2,
+    "usable": 0,
+    "metrics": []
+  },
+  {
+    "cik": "799292",
+    "name": "M/I HOMES, INC.",
+    "sic": 1531,
+    "queries": 2,
+    "usable": 1,
+    "metrics": [
+      "interest_coverage",
+      "other"
+    ]
+  },
+  {
+    "cik": "17843",
+    "name": "CARPENTER TECHNOLOGY CORP",
+    "sic": 3312,
+    "queries": 2,
+    "usable": 2,
+    "metrics": [
+      "interest_coverage",
+      "net_leverage"
+    ]
+  },
+  {
+    "cik": "1162896",
+    "name": "Prairie Operating Co.",
+    "sic": 1311,
+    "queries": 2,
+    "usable": 0,
+    "metrics": [
+      "net_leverage",
+      "other"
+    ]
+  },
+  {
+    "cik": "833079",
+    "name": "Meritage Homes CORP",
+    "sic": 1531,
+    "queries": 2,
+    "usable": 1,
+    "metrics": [
+      "other",
+      "total_leverage"
+    ]
+  },
+  {
+    "cik": "1561680",
+    "name": "Tri Pointe Homes, Inc.",
+    "sic": 1531,
+    "queries": 2,
+    "usable": 2,
+    "metrics": [
+      "interest_coverage",
+      "total_leverage"
+    ]
+  },
+  {
+    "cik": "1708055",
+    "name": "Ribbon Communications Inc.",
+    "sic": 7373,
+    "queries": 2,
+    "usable": 0,
+    "metrics": [
+      "net_leverage"
+    ]
+  },
+  {
+    "cik": "911177",
+    "name": "CASELLA WASTE SYSTEMS INC",
+    "sic": 4953,
+    "queries": 2,
+    "usable": 2,
+    "metrics": [
+      "interest_coverage",
+      "net_leverage"
+    ]
+  },
+  {
+    "cik": "1362004",
+    "name": "ICF International, Inc.",
+    "sic": 8742,
+    "queries": 2,
+    "usable": 0,
+    "metrics": [
+      "net_leverage"
+    ]
+  },
+  {
+    "cik": "1842022",
+    "name": "DT Midstream, Inc.",
+    "sic": 4922,
+    "queries": 2,
+    "usable": 0,
+    "metrics": [
+      "net_leverage",
+      "total_leverage"
+    ]
+  },
+  {
+    "cik": "1171155",
+    "name": "RADIANT LOGISTICS, INC",
+    "sic": 4731,
+    "queries": 2,
+    "usable": 0,
+    "metrics": [
+      "interest_coverage",
+      "net_leverage"
+    ]
+  },
+  {
+    "cik": "67215",
+    "name": "DYCOM INDUSTRIES INC",
+    "sic": 1623,
+    "queries": 2,
+    "usable": 0,
+    "metrics": [
+      "interest_coverage",
+      "net_leverage"
+    ]
+  },
+  {
+    "cik": "1627475",
+    "name": "UPWORK, INC",
+    "sic": 7374,
+    "queries": 2,
+    "usable": 0,
+    "metrics": [
+      "fixed_charge_coverage",
+      "net_leverage"
+    ]
+  },
+  {
+    "cik": "851310",
+    "name": "HARMONIC INC.",
+    "sic": 3663,
+    "queries": 2,
+    "usable": 0,
+    "metrics": [
+      "fixed_charge_coverage",
+      "net_leverage"
+    ]
+  },
+  {
+    "cik": "1123494",
+    "name": "HARVARD BIOSCIENCE INC",
+    "sic": 3826,
+    "queries": 2,
+    "usable": 0,
+    "metrics": []
+  },
+  {
+    "cik": "1078075",
+    "name": "NETSCOUT SYSTEMS INC",
+    "sic": 7373,
+    "queries": 2,
+    "usable": 0,
+    "metrics": [
+      "net_leverage"
+    ]
+  },
+  {
+    "cik": "1514705",
+    "name": "SunCoke Energy, Inc.",
+    "sic": 3312,
+    "queries": 2,
+    "usable": 0,
+    "metrics": [
+      "interest_coverage",
+      "net_leverage"
+    ]
+  },
+  {
+    "cik": "2041385",
+    "name": "Ralliant Corp",
+    "sic": 3823,
+    "queries": 2,
+    "usable": 0,
+    "metrics": [
+      "net_leverage"
+    ]
+  },
+  {
+    "cik": "1659166",
+    "name": "Fortive Corp",
+    "sic": 3823,
+    "queries": 2,
+    "usable": 0,
+    "metrics": [
+      "net_leverage"
+    ]
+  },
+  {
+    "cik": "1260221",
+    "name": "TransDigm Group INC",
+    "sic": 3728,
+    "queries": 2,
+    "usable": 0,
+    "metrics": [
+      "net_leverage"
+    ]
+  },
+  {
+    "cik": "1357615",
+    "name": "KBR, INC.",
+    "sic": 1600,
+    "queries": 2,
+    "usable": 0,
+    "metrics": [
+      "interest_coverage",
+      "net_leverage"
+    ]
+  },
+  {
+    "cik": "78890",
+    "name": "BRINKS CO",
+    "sic": 4731,
+    "queries": 2,
+    "usable": 0,
+    "metrics": []
+  },
+  {
+    "cik": "1159036",
+    "name": "HALOZYME THERAPEUTICS, INC.",
+    "sic": 2836,
+    "queries": 2,
+    "usable": 0,
+    "metrics": [
+      "interest_coverage",
+      "net_leverage"
+    ]
+  },
+  {
+    "cik": "1538379",
+    "name": "Ibotta, Inc.",
+    "sic": 7310,
+    "queries": 2,
+    "usable": 0,
+    "metrics": [
+      "interest_coverage",
+      "net_leverage"
+    ]
+  },
+  {
+    "cik": "1477333",
+    "name": "Cloudflare, Inc.",
+    "sic": 7372,
+    "queries": 2,
+    "usable": 0,
+    "metrics": [
+      "net_leverage"
+    ]
+  },
+  {
+    "cik": "77543",
+    "name": "TUTOR PERINI CORP",
+    "sic": 1540,
+    "queries": 2,
+    "usable": 1,
+    "metrics": [
+      "interest_coverage"
+    ]
+  },
+  {
+    "cik": "1941365",
+    "name": "MasterBrand, Inc.",
+    "sic": 2511,
+    "queries": 2,
+    "usable": 0,
+    "metrics": [
+      "interest_coverage",
+      "net_leverage"
+    ]
+  },
+  {
+    "cik": "1833197",
+    "name": "Latham Group, Inc.",
+    "sic": 3089,
+    "queries": 2,
+    "usable": 0,
+    "metrics": [
+      "secured_net_leverage"
+    ]
+  },
+  {
+    "cik": "1673985",
+    "name": "AdvanSix Inc.",
+    "sic": 2821,
+    "queries": 2,
+    "usable": 0,
+    "metrics": [
+      "interest_coverage",
+      "total_leverage"
+    ]
+  },
+  {
+    "cik": "1928446",
+    "name": "Granite Ridge Resources, Inc.",
+    "sic": 1311,
+    "queries": 2,
+    "usable": 0,
+    "metrics": [
+      "other",
+      "total_leverage"
+    ]
+  },
+  {
+    "cik": "1860543",
+    "name": "Cadre Holdings, Inc.",
+    "sic": 3842,
+    "queries": 2,
+    "usable": 0,
+    "metrics": [
+      "fixed_charge_coverage",
+      "net_leverage"
+    ]
+  },
+  {
+    "cik": "875355",
+    "name": "BLOOMIA HOLDINGS, INC.",
+    "sic": 100,
+    "queries": 2,
+    "usable": 0,
+    "metrics": [
+      "fixed_charge_coverage",
+      "other"
+    ]
+  },
+  {
+    "cik": "65312",
+    "name": "EVI INDUSTRIES, INC.",
+    "sic": 7200,
+    "queries": 2,
+    "usable": 0,
+    "metrics": []
+  },
+  {
+    "cik": "1792849",
+    "name": "HighPeak Energy, Inc.",
+    "sic": 1381,
+    "queries": 2,
+    "usable": 0,
+    "metrics": [
+      "net_leverage",
+      "other"
+    ]
+  },
+  {
+    "cik": "785161",
+    "name": "Encompass Health Corp",
+    "sic": 8060,
+    "queries": 2,
+    "usable": 0,
+    "metrics": [
+      "interest_coverage",
+      "net_leverage"
+    ]
+  },
+  {
+    "cik": "1517375",
+    "name": "Sprout Social, Inc.",
+    "sic": 7372,
+    "queries": 2,
+    "usable": 0,
+    "metrics": [
+      "interest_coverage",
+      "net_leverage"
+    ]
+  },
+  {
+    "cik": "1771515",
+    "name": "Grocery Outlet Holding Corp.",
+    "sic": 5411,
+    "queries": 2,
+    "usable": 0,
+    "metrics": [
+      "interest_coverage",
+      "net_leverage"
+    ]
+  },
+  {
+    "cik": "46250",
+    "name": "HAWKINS INC",
+    "sic": 5160,
+    "queries": 2,
+    "usable": 0,
+    "metrics": [
+      "fixed_charge_coverage",
+      "total_leverage"
+    ]
+  },
+  {
+    "cik": "1393883",
+    "name": "DHI GROUP, INC.",
+    "sic": 7389,
+    "queries": 2,
+    "usable": 0,
+    "metrics": [
+      "fixed_charge_coverage",
+      "total_leverage"
+    ]
+  }
+]

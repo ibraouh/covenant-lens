@@ -1,0 +1,137 @@
+{
+  "job": "read-1023731-49300fbde0-haiku55",
+  "model": "claude-haiku-5-5",
+  "meta": {
+    "cik": "1023731",
+    "docs": [
+      "https://www.sec.gov/Archives/edgar/data/1023731/000102373124000062/a8x8_ex101xcreditagreeme.htm",
+      "https://www.sec.gov/Archives/edgar/data/1023731/000102373125000070/a101_firstamendmenttoter.htm"
+    ]
+  },
+  "usage": {
+    "input_tokens": 176080,
+    "output_tokens": 8007,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "borrower": "8x8, Inc.",
+    "agreement_date": "2024-07-11",
+    "covenants": [
+      {
+        "name": "Consolidated Total Net Leverage Ratio",
+        "metric": "net_leverage",
+        "direction": "max",
+        "thresholds": [
+          {
+            "value": 4.5,
+            "applies_from": null
+          }
+        ],
+        "test_frequency": "quarterly",
+        "springing_condition": null,
+        "section": "Section 9.16(a)",
+        "quote": "As of the last day of any fiscal quarter (commencing with the fiscal quarter ending September 30, 2024), the Borrower shall not permit the Consolidated Total Net Leverage Ratio to be greater than 4.50 to 1.00.",
+        "ebitda_addbacks": [
+          "stock_comp",
+          "impairments",
+          "other"
+        ],
+        "cash_netting_cap": null,
+        "cash_netting_cap_pct_ebitda": 0.5
+      },
+      {
+        "name": "Consolidated Secured Leverage Ratio",
+        "metric": "secured_leverage",
+        "direction": "max",
+        "thresholds": [
+          {
+            "value": 2.5,
+            "applies_from": null
+          }
+        ],
+        "test_frequency": "quarterly",
+        "springing_condition": null,
+        "section": "Section 9.16(b)",
+        "quote": "As of the last day of any fiscal quarter (commencing with the fiscal quarter ending September 30, 2024), the Borrower shall not permit the Consolidated Secured Leverage Ratio to be greater than 2.50 to 1.00.",
+        "ebitda_addbacks": [
+          "stock_comp",
+          "impairments",
+          "other"
+        ],
+        "cash_netting_cap": null,
+        "cash_netting_cap_pct_ebitda": null
+      },
+      {
+        "name": "Consolidated Interest Coverage Ratio",
+        "metric": "interest_coverage",
+        "direction": "min",
+        "thresholds": [
+          {
+            "value": 3.0,
+            "applies_from": null
+          }
+        ],
+        "test_frequency": "quarterly",
+        "springing_condition": null,
+        "section": "Section 9.16(c)",
+        "quote": "As of the last day of any fiscal quarter (commencing with the fiscal quarter ending September 30, 2024), the Borrower shall not permit the Consolidated Interest Coverage Ratio to be less than 3.00 to 1.00.",
+        "ebitda_addbacks": [
+          "stock_comp",
+          "impairments",
+          "other"
+        ],
+        "cash_netting_cap": null,
+        "cash_netting_cap_pct_ebitda": null
+      }
+    ],
+    "notes": "The First Amendment dated July 29, 2025 restated Section 9.16(a) as a flat 4.50 to 1.00 maximum from the quarter ending September 30, 2024, replacing the original step-downs to 4.25 and 4.00. The amendment also changed the Permitted Acquisition leverage test and the junior debt and restricted payment baskets, which are not maintenance covenants. Adjusted Cash EBITDA adds back stock-based compensation and impairments and caps unusual and non-recurring charges at 15 percent of Adjusted Cash EBITDA; it has no separate add-back for projected synergies or cost savings. Consolidated Interest Expense is annualized for the Reference Periods ending September 30, 2024 through June 30, 2025. Unrestricted cash netted against debt is capped at 50 percent of Adjusted Cash EBITDA and, beyond a small amount, must sit in accounts controlled by the agent after 120 days. The Applicable Margin pricing grid also uses the Consolidated Total Net Leverage Ratio.",
+    "facility": "A 200,000,000 dollar delayed draw term loan with no revolver; quarterly amortization of 3.75 percent rising to 6.25 percent, bullet at maturity on August 15, 2027; 10,000,000 dollars prepaid at the First Amendment.",
+    "terms": [
+      {
+        "kind": "j_crew_blocker",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "The agreement has no ban on moving material intellectual property to unrestricted subsidiaries and no unrestricted subsidiary concept. Section 9.10(d) allows licenses of Property that do not transfer title, and Section 9.10(k) allows disposal of non-material intellectual property."
+      },
+      {
+        "kind": "serta_protection",
+        "present": "yes",
+        "section": "Section 12.2(a)",
+        "quote": "subordinate any of the Obligations in right of payment or otherwise adversely affect the priority of payment of any of such Obligations or (ii) subordinate any of the Liens securing the Obligations, in each case without the consent of each of the Lenders directly affected thereby",
+        "summary": "Subordinating the loans or their liens, or otherwise adversely affecting their priority, requires the consent of each affected lender, so a non-pro-rata subordination exchange cannot pass on majority consent."
+      },
+      {
+        "kind": "chewy_protection",
+        "present": "partial",
+        "section": "Section 11.9(a)(iii)",
+        "quote": "to release any Subsidiary that is a Guarantor from its obligations under any Loan Documents if such Person ceases to be a Subsidiary as a result of a transaction permitted under the Loan Documents, as certified by the Borrower",
+        "summary": "A guarantor is released only if it ceases to be a Subsidiary in a permitted transaction. Because Subsidiary means more than 50 percent owned, a guarantor that merely stops being wholly owned stays a guarantor, but there is no express language to that effect."
+      },
+      {
+        "kind": "unrestricted_sub_cap",
+        "present": "partial",
+        "section": "Section 9.5(a)(iii)",
+        "quote": "by any Credit Party in any Subsidiary of the Borrower that is not a Guarantor in an aggregate amount not to exceed $10,000,000 at any one time outstanding",
+        "summary": "There is no unrestricted subsidiary concept. Investments by Credit Parties in non-guarantor subsidiaries are capped at 10,000,000 dollars outstanding, which is a hard cap on a related category but not a designation limit."
+      },
+      {
+        "kind": "addback_cap",
+        "present": "partial",
+        "section": "Section 1.1 (Adjusted Cash EBITDA, clause (b)(iv))",
+        "quote": "unusual and non-recurring charges and losses in an aggregate amount not to exceed 15% of Adjusted Cash EBITDA for such period",
+        "summary": "Unusual and non-recurring charges, which would include restructuring-type charges, are capped at 15 percent of Adjusted Cash EBITDA. There is no separate cap or express add-back for projected cost savings or synergies."
+      },
+      {
+        "kind": "equity_cure",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "The agreement contains no equity cure right for financial covenant defaults."
+      }
+    ],
+    "addback_cap_pct": 0.15
+  }
+}

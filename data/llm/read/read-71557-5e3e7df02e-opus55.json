@@ -1,0 +1,118 @@
+{
+  "job": "read-71557-5e3e7df02e-opus55",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "cik": "71557",
+    "docs": [
+      "https://www.sec.gov/Archives/edgar/data/71557/000151316224000083/exhibit10_1.htm"
+    ]
+  },
+  "usage": {
+    "input_tokens": 187380,
+    "output_tokens": 4435,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "borrower": "Nuvera Communications, Inc.",
+    "agreement_date": "2024-06-21",
+    "covenants": [
+      {
+        "name": "Leverage Ratio",
+        "metric": "total_leverage",
+        "direction": "max",
+        "thresholds": [
+          {
+            "value": 6.0,
+            "applies_from": "2024-06-30"
+          },
+          {
+            "value": 5.0,
+            "applies_from": "2027-12-31"
+          },
+          {
+            "value": 4.0,
+            "applies_from": "2028-12-31"
+          }
+        ],
+        "test_frequency": "quarterly",
+        "springing_condition": null,
+        "section": "Section 8.1",
+        "quote": "The Loan Parties shall maintain at all times, measured as of the last day of each fiscal quarter, a Leverage Ratio of the Borrower of not more than the ratios set forth below for the periods specified below:",
+        "ebitda_addbacks": [
+          "other"
+        ],
+        "cash_netting_cap": null,
+        "cash_netting_cap_pct_ebitda": null
+      },
+      {
+        "name": "Debt Service Coverage Ratio",
+        "metric": "other",
+        "direction": "min",
+        "thresholds": [
+          {
+            "value": 2.0,
+            "applies_from": null
+          }
+        ],
+        "test_frequency": "quarterly",
+        "springing_condition": null,
+        "section": "Section 8.3",
+        "quote": "The Loan Parties shall maintain at all times, measured as of the last day of each fiscal quarter,a Debt Service Coverage Ratio of the Borrower of not less than 2.00:1.00.",
+        "ebitda_addbacks": [
+          "other"
+        ],
+        "cash_netting_cap": null,
+        "cash_netting_cap_pct_ebitda": null
+      }
+    ],
+    "notes": "This is an Amended and Restated Credit Agreement dated June 21, 2024. It amends and restates a Prior Credit Agreement dated July 15, 2022. No later amendments were provided. CoBank is the sole lender and agent.\n\nLeverage Ratio: all consolidated Indebtedness divided by LTM Consolidated EBITDA. There is no cash netting. Indebtedness includes the net present value of future extraordinary executive compensation and hedge termination values. The limit is 6.00x from closing through Sep 30, 2027, 5.00x from Oct 1, 2027 through Sep 30, 2028, and 4.00x thereafter. The first quarter-ends at the stepped levels are therefore 12/31/2027 and 12/31/2028.\n\nDebt Service Coverage Ratio: (Consolidated EBITDA + cash interest, dividends and patronage income \u2212 cash income taxes, dividends and distributions) divided by Debt Service. Debt Service is scheduled principal plus cash interest, LTM. It works like a fixed-charge style test and is classified here as 'other'.\n\nConsolidated EBITDA add-backs: interest, taxes, D&A, unrealized SFAS 133 derivative losses, extraordinary executive compensation, transaction costs for Permitted Acquisitions/Investments, and pro forma run-rate cost savings and synergies (18-month window). It does not expressly add back non-cash stock compensation, impairments or restructuring charges. The transaction-cost and run-rate add-backs are capped together at $500,000 per period, a dollar cap rather than a percentage of EBITDA. EBITDA deducts interest income, dividends and patronage income. It is pro forma for acquisitions and dispositions.\n\nIncurrence-style leverage tests (not reported as maintenance covenants):\n- DDTL draws require pro forma Leverage Ratio \u22645.00x.\n- Restricted payments are allowed up to $3M per year at \u22644.25x and unlimited at \u22643.50x.\n- Permitted Acquisitions require a 0.50x cushion to the Section 8.1 level and are also capped at $500k individually / $1.5M aggregate.\n\nOther terms:\n- Financial covenant amendments require only Required Lenders.\n- Applicable margin grid is leverage-based (SOFR + 2.75%\u20134.00%).\n- All Subsidiaries must be Guarantors (Section 7.10).\n- There is no unrestricted subsidiary concept.",
+    "facility": "$30M revolving credit facility (incl. $5M LC sublimit and $3M swing line), $125M Term A-1 Loan, $25M delayed draw term loan (available to June 21, 2026), plus up to $30M incremental term loans; all maturing June 21, 2029.",
+    "terms": [
+      {
+        "kind": "j_crew_blocker",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "There is no specific IP-transfer or unrestricted-subsidiary blocker. The agreement has no unrestricted subsidiary concept, and every Subsidiary must be a Guarantor under Section 7.10."
+      },
+      {
+        "kind": "serta_protection",
+        "present": "partial",
+        "section": "Section 11.1(d)",
+        "quote": "in a manner that would alter the pro rata sharing of payments required thereby without the written consent of each Lender directly affected thereby;",
+        "summary": "Changing the pro rata sharing provisions requires each affected lender's consent. There is no express requirement of each lender's consent to subordinate the loans or their liens to other debt. The agent may subordinate liens only to permitted purchase-money liens."
+      },
+      {
+        "kind": "chewy_protection",
+        "present": "partial",
+        "section": "Section 10.13(a)(iii)",
+        "quote": "to release any Guarantor from its obligations under the Loan Documents if such Person ceases to be a Subsidiary as a result of a transaction permitted under the Loan Documents.",
+        "summary": "A guarantor is released only if it ceases to be a Subsidiary (more than 50% owned) in a permitted transaction, not merely because it stops being wholly owned. Subsidiary equity issuances to non-Loan Parties are also restricted. There is no express anti-Chewy clause."
+      },
+      {
+        "kind": "unrestricted_sub_cap",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "The agreement has no unrestricted subsidiary designation mechanism, so there is no cap. All Subsidiaries must join as Guarantors, and general Investments are limited by small dollar baskets."
+      },
+      {
+        "kind": "addback_cap",
+        "present": "yes",
+        "section": "Section 1.1 (definition of Consolidated EBITDA)",
+        "quote": "For the purposes of calculating Consolidated EBITDA for any relevant four fiscal quarter period, notwithstanding the foregoing, amounts added back in the calculation of Consolidated EBITDA for any applicable measurement period pursuant to clauses (f) and (g) of this definition shall not, in the aggregate, exceed $500,000 for such period (calculated prior to giving effect to such addbacks for such period in the calculation of Consolidated EBITDA).",
+        "summary": "Add-backs for transaction costs and projected run-rate cost savings and synergies are together capped at a flat $500,000 per measurement period. The cap is a dollar amount, not a percentage of EBITDA."
+      },
+      {
+        "kind": "equity_cure",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "There is no equity cure right for the financial covenants. Equity issuance proceeds are generally subject to 100% mandatory prepayment."
+      }
+    ],
+    "addback_cap_pct": null
+  }
+}

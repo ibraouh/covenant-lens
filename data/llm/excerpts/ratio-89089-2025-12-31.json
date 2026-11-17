@@ -1,0 +1,30 @@
+{
+  "job": "ratio-89089-2025-12-31",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/89089/000162828026007695/sci-20251231.htm",
+    "period": "2025-12-31"
+  },
+  "usage": {
+    "input_tokens": 2867,
+    "output_tokens": 278,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "Leverage ratio",
+        "metric": "total_leverage",
+        "period_end": "2025-12-31",
+        "actual": 3.67,
+        "limit": 5.0,
+        "direction": "max",
+        "facility": "Bank Credit Facility",
+        "quote": "Per Credit Agreement Actual Leverage ratio 5.00 (Max) 3.67"
+      }
+    ],
+    "notes": "The 3.5x-4.0x figure is a company leverage target, not a covenant, so it is left out. The 0.20% unused commitment fee is also not a covenant. The new $2.5 billion bank credit agreement, due November 2030 and comprising the Bank Credit Facility and the Term Loan, contains a maximum leverage ratio covenant. The excerpt does not say whether the leverage ratio is gross or net; it is classified here as total leverage."
+  }
+}

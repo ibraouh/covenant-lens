@@ -1,0 +1,49 @@
+{
+  "job": "ebitda-825542-4d0e14e528",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/825542/000082554226000061/exhibit991q4f26newsrelease.htm",
+    "filed": "2026-11-04"
+  },
+  "usage": {
+    "input_tokens": 4493,
+    "output_tokens": 390,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "label": "Adjusted EBITDA",
+    "figures": [
+      {
+        "period_end": "2026-09-30",
+        "months": 3,
+        "shown": "(106.7)",
+        "unit": "millions",
+        "quote": "Adjusted EBITDA (Non-GAAP) $ (106.7) $ (86.1)"
+      },
+      {
+        "period_end": "2025-09-30",
+        "months": 3,
+        "shown": "(86.1)",
+        "unit": "millions",
+        "quote": "Adjusted EBITDA (Non-GAAP) $ (106.7) $ (86.1)"
+      },
+      {
+        "period_end": "2026-09-30",
+        "months": 12,
+        "shown": "579.9",
+        "unit": "millions",
+        "quote": "Adjusted EBITDA (Non-GAAP) $ 579.9 $ 569.7"
+      },
+      {
+        "period_end": "2025-09-30",
+        "months": 12,
+        "shown": "569.7",
+        "unit": "millions",
+        "quote": "Adjusted EBITDA (Non-GAAP) $ 579.9 $ 569.7"
+      }
+    ],
+    "notes": "Figures are taken from the Calculation of Adjusted EBITDA reconciliation tables, which are stated in millions. Fiscal year ends September 30. The quarterly and annual figures match the summary table."
+  }
+}

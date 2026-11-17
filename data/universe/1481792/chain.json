@@ -1,0 +1,24 @@
+{
+  "auto": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1481792/000148179226000042/exhibit47-quad2025amendmen.htm",
+      "title": "Amendment No. 10 to Second Amended and Restated Credit Agreement",
+      "dated": "2025-08-20",
+      "kind": "amendment",
+      "filed": "2026-02-18"
+    }
+  ],
+  "notes": [
+    "Amendment No. 10 to Second Amended and Restated Credit Agreement restates the full agreement; used as the base"
+  ],
+  "used": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1481792/000148179226000042/exhibit47-quad2025amendmen.htm",
+      "title": "Amendment No. 10 to Second Amended and Restated Credit Agreement",
+      "dated": "2025-08-20",
+      "kind": "amendment",
+      "filed": "2026-02-18"
+    }
+  ],
+  "source": "automatic"
+}

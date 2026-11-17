@@ -1,0 +1,30 @@
+{
+  "job": "ratio-921582-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/921582/000162828026070652/imax-20260930.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 2556,
+    "output_tokens": 345,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "Senior Secured Net Leverage Ratio",
+        "metric": "secured_net_leverage",
+        "period_end": "2026-09-30",
+        "actual": 0.0,
+        "limit": 3.25,
+        "direction": "max",
+        "facility": "Credit Agreement",
+        "quote": "The Credit Agreement requires that the Company does not exceed a maximum Senior Secured Net Leverage Ratio (as defined therein) of 3.25 :1.00, which may be increased under certain circumstances and is tested on the last day of each fiscal quarter. The Company was in compliance with this requirement as of September 30, 2026 as the Senior Secured Net Leverage Ratio was 0.00 :1.00."
+      }
+    ],
+    "notes": "The maximum ratio of 3.25:1.00 may be increased under certain circumstances. The 0.00 actual reflects no borrowings outstanding under the Credit Facility at September 30, 2026. The total leverage ratio is mentioned only as the basis for the interest rate margin, so it is excluded."
+  }
+}

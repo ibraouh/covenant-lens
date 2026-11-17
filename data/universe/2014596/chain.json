@@ -1,0 +1,24 @@
+{
+  "auto": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/2014596/000201459625000009/amendment1creditagreemen.htm",
+      "title": "Amendment No. 1 to Credit Agreement",
+      "dated": "2025-03-03",
+      "kind": "amendment",
+      "filed": "2025-03-03"
+    }
+  ],
+  "notes": [
+    "Amendment No. 1 to Credit Agreement restates the full agreement; used as the base"
+  ],
+  "used": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/2014596/000201459625000009/amendment1creditagreemen.htm",
+      "title": "Amendment No. 1 to Credit Agreement",
+      "dated": "2025-03-03",
+      "kind": "amendment",
+      "filed": "2025-03-03"
+    }
+  ],
+  "source": "automatic"
+}

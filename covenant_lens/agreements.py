@@ -80,10 +80,20 @@ def resolve(docs: list[dict]) -> tuple[list[dict], list[str]]:
     loan = [d for d in docs if d["cover"]["is_loan_document"] and d["cover"]["kind"] != "other"
             and _d(d["cover"]["dated"])]
     bases = [d for d in loan if d["cover"]["kind"] in ("original", "amended_and_restated")]
-    primary = [d for d in bases if d["cover"]["primary_bank_facility"]] or bases
+    restating = [d for d in loan if d["cover"]["kind"] == "amendment" and d["cover"]["includes_conformed_copy"]]
+    # The main bank facility first: its original, or an amendment that restates it in full when the original
+    # is too old to find. A side facility (mortgage warehouse, equipment line) only if nothing else exists.
+    primary = [d for d in bases + restating if d["cover"]["primary_bank_facility"]] or bases
     if not primary:
         return [], ["no base credit agreement found"]
-    base = max(primary, key=lambda d: (_d(d["cover"]["dated"]), d["filed"]))
+    # newest by date; the same document filed twice (8-K, then again with a 10-Q) keeps its first filing
+    base = max(primary, key=lambda d: (_d(d["cover"]["dated"]), -date.fromisoformat(d["filed"]).toordinal(), d["url"]))
+    if base["cover"]["kind"] == "amendment":  # a restating amendment: its later siblings amend the same agreement
+        notes.append(f"{base['cover']['title']} restates the full agreement; used as the base")
+        base_date = _d(base["cover"]["amends_dated"])
+        later = sorted((d for d in loan if d["cover"]["kind"] == "amendment" and _d(d["cover"]["amends_dated"]) == base_date
+                        and _d(d["cover"]["dated"]) > _d(base["cover"]["dated"])), key=lambda d: (_d(d["cover"]["dated"]), d["filed"]))
+        return [base] + later, notes
     base_date = _d(base["cover"]["dated"])
     amendments = sorted(
         (d for d in loan if d["cover"]["kind"] == "amendment" and _d(d["cover"]["amends_dated"]) == base_date

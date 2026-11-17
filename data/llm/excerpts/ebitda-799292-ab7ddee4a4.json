@@ -1,0 +1,49 @@
+{
+  "job": "ebitda-799292-ab7ddee4a4",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/799292/000079929226000004/exhibit9914thqtr2025earnin.htm",
+    "filed": "2026-01-28"
+  },
+  "usage": {
+    "input_tokens": 1923,
+    "output_tokens": 479,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "label": "Adjusted EBITDA",
+    "figures": [
+      {
+        "period_end": "2025-12-31",
+        "months": 3,
+        "shown": "128,507",
+        "unit": "thousands",
+        "quote": "Adjusted EBITDA $ 128,507 $ 183,080 $ 608,456 $ 767,450"
+      },
+      {
+        "period_end": "2024-12-31",
+        "months": 3,
+        "shown": "183,080",
+        "unit": "thousands",
+        "quote": "Adjusted EBITDA $ 128,507 $ 183,080 $ 608,456 $ 767,450"
+      },
+      {
+        "period_end": "2025-12-31",
+        "months": 12,
+        "shown": "608,456",
+        "unit": "thousands",
+        "quote": "Adjusted EBITDA $ 128,507 $ 183,080 $ 608,456 $ 767,450"
+      },
+      {
+        "period_end": "2024-12-31",
+        "months": 12,
+        "shown": "767,450",
+        "unit": "thousands",
+        "quote": "Adjusted EBITDA $ 128,507 $ 183,080 $ 608,456 $ 767,450"
+      }
+    ],
+    "notes": "The excerpt does not show the unit header. Thousands is inferred from the magnitudes, e.g. depreciation of 5,247 and provision for income taxes of 16,583. The column order (Q4 2025, Q4 2024, FY 2025, FY 2024) is inferred from the reconciliation layout and matches the 'Three Months Ended / Twelve Months Ended December 31' columns elsewhere in the release."
+  }
+}

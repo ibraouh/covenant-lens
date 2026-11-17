@@ -1,0 +1,40 @@
+{
+  "job": "ratio-2086587-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/2086587/000162828026073533/yss-20260930.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 4551,
+    "output_tokens": 1048,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "Minimum liquidity covenant",
+        "metric": "minimum_liquidity",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 105000000.0,
+        "direction": "min",
+        "facility": "Credit Agreement",
+        "quote": "to be less than (x) initially, $ 105,000,000 or (y) upon and after the repayment of the Term Loan Facility in full, 35.0 % of the outstanding revolving commitment as of such date"
+      },
+      {
+        "covenant_name": "Minimum revenue covenant",
+        "metric": "other",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 319190794.0,
+        "direction": "min",
+        "facility": "Credit Agreement",
+        "quote": "September 30, 2026 $ 319,190,794"
+      }
+    ],
+    "notes": "No actual covenant values are disclosed. The company says only that it was in compliance with all financial debt covenants as of September 30, 2026. Both limits are in US dollars, not ratios. Minimum revenue is measured on a trailing twelve month basis. The liquidity floor is $105,000,000 initially; after the Term Loan Facility is repaid in full it becomes 35.0% of the revolving commitment. Both covenants apply until the Leverage Covenant Toggle Date. The maximum total net leverage covenant (4.50x through Q4 2026, 4.25x in 2027, 4.00x in 2028) applies only after the toggle date. Pricing is still at the initial fixed margins, which suggests the toggle has not occurred, so the leverage covenant is excluded. The filing labels that covenant 'first lien net leverage' but describes it as total net leverage. The Total Net Leverage Ratio pricing grid only sets interest margins and is excluded. The company flags uncertainty about meeting the minimum revenue covenant in 2027."
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "job": "ebitda-1728688-41d803e75e",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1728688/000172868825000118/iiivq42025earningsrelease.htm",
+    "filed": "2025-11-17"
+  },
+  "usage": {
+    "input_tokens": 4669,
+    "output_tokens": 495,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "label": "Adjusted EBITDA from continuing operations",
+    "figures": [
+      {
+        "period_end": "2025-09-30",
+        "months": 3,
+        "shown": "14,399",
+        "unit": "thousands",
+        "quote": "Adjusted EBITDA from continuing operations (10) $ 14,399 $ 14,613 $ 57,535 $ 50,464"
+      },
+      {
+        "period_end": "2024-09-30",
+        "months": 3,
+        "shown": "14,613",
+        "unit": "thousands",
+        "quote": "Adjusted EBITDA from continuing operations (10) $ 14,399 $ 14,613 $ 57,535 $ 50,464"
+      },
+      {
+        "period_end": "2025-09-30",
+        "months": 12,
+        "shown": "57,535",
+        "unit": "thousands",
+        "quote": "Adjusted EBITDA from continuing operations (10) $ 14,399 $ 14,613 $ 57,535 $ 50,464"
+      },
+      {
+        "period_end": "2024-09-30",
+        "months": 12,
+        "shown": "50,464",
+        "unit": "thousands",
+        "quote": "Adjusted EBITDA from continuing operations (10) $ 14,399 $ 14,613 $ 57,535 $ 50,464"
+      }
+    ],
+    "notes": "Figures taken from the reconciliation table ($ in thousands). Fiscal year ends September 30. The narrative rounds these to $14.4 million for Q4 FY2025 and $57.5 million for FY2025. The FY2026 outlook range of $58,500\u2013$65,000 thousand is guidance, not a reported result, and is excluded."
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "job": "ratio-812074-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/812074/000110465926119653/oi-20260930x10q.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 4674,
+    "output_tokens": 489,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "Secured Leverage Ratio",
+        "metric": "secured_net_leverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 2.5,
+        "direction": "max",
+        "facility": "Credit Agreement (term loans A and revolving credit facility)",
+        "quote": "The Credit Agreement also contains one financial maintenance covenant, a Secured Leverage Ratio, for the benefit of lenders under the term loans A and the revolving credit facility (and, following an acceleration of the term loans A and the 39 revolving credit facility, for the benefit of the lenders under the term loans B) that requires the Company and certain of its subsidiaries, collectively, not to exceed a ratio of 2.50x calculated by dividing consolidated Net Indebtedness that is then secured by Liens on property or assets of the Company and certain of its subsidiaries by Consolidated EBITDA, as each such capitalized term is defined in the Credit Agreement."
+      }
+    ],
+    "notes": "Only the maximum (2.50x) is disclosed; no actual ratio is given. The company states it was in compliance at September 30, 2026. The covenant is calculated on secured net indebtedness (Net Indebtedness secured by Liens) divided by Consolidated EBITDA. The Total Leverage Ratio is excluded because it only sets pricing and commitment fees. The excerpt repeats the same disclosure twice (notes to the financial statements and MD&A)."
+  }
+}

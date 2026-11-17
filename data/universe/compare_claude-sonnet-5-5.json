@@ -1,0 +1,320 @@
+{
+  "model": "claude-sonnet-5-5",
+  "label": "Claude Sonnet 5.5",
+  "agreements": 12,
+  "failed": 0,
+  "limits_checked": 95,
+  "limits_matched": 52,
+  "answer_keys": 97,
+  "covenant_found": 69,
+  "covenants": 33,
+  "quotes_verified": 23,
+  "gold_ok": 8,
+  "gold_n": 8,
+  "usd": 2.868012,
+  "misses": [
+    {
+      "borrower": "varex",
+      "metric": "fixed_charge_coverage",
+      "period": "2025-10-03",
+      "reported": 1.25,
+      "read": 1.2
+    },
+    {
+      "borrower": "varex",
+      "metric": "net_leverage",
+      "period": "2025-10-03",
+      "reported": 3.75,
+      "read": 4.25
+    },
+    {
+      "borrower": "varex",
+      "metric": "fixed_charge_coverage",
+      "period": "2026-01-02",
+      "reported": 1.25,
+      "read": 1.2
+    },
+    {
+      "borrower": "varex",
+      "metric": "net_leverage",
+      "period": "2026-01-02",
+      "reported": 3.75,
+      "read": 4.25
+    },
+    {
+      "borrower": "Compass Diversified Holdings",
+      "metric": "secured_leverage",
+      "period": "2025-12-31",
+      "reported": 2.5,
+      "read": null
+    },
+    {
+      "borrower": "Compass Diversified Holdings",
+      "metric": "total_leverage",
+      "period": "2025-12-31",
+      "reported": 5.75,
+      "read": null
+    },
+    {
+      "borrower": "Compass Diversified Holdings",
+      "metric": "secured_leverage",
+      "period": "2026-03-31",
+      "reported": 2.5,
+      "read": null
+    },
+    {
+      "borrower": "Compass Diversified Holdings",
+      "metric": "total_leverage",
+      "period": "2026-03-31",
+      "reported": 5.75,
+      "read": null
+    },
+    {
+      "borrower": "Compass Diversified Holdings",
+      "metric": "secured_leverage",
+      "period": "2026-06-30",
+      "reported": 2.5,
+      "read": null
+    },
+    {
+      "borrower": "Compass Diversified Holdings",
+      "metric": "total_leverage",
+      "period": "2026-06-30",
+      "reported": 5.75,
+      "read": null
+    },
+    {
+      "borrower": "Compass Diversified Holdings",
+      "metric": "secured_leverage",
+      "period": "2026-09-30",
+      "reported": 2.5,
+      "read": null
+    },
+    {
+      "borrower": "Compass Diversified Holdings",
+      "metric": "total_leverage",
+      "period": "2026-09-30",
+      "reported": 5.75,
+      "read": null
+    },
+    {
+      "borrower": "FMC CORP",
+      "metric": "total_leverage",
+      "period": "2025-12-31",
+      "reported": 6.0,
+      "read": null
+    },
+    {
+      "borrower": "FMC CORP",
+      "metric": "total_leverage",
+      "period": "2026-03-31",
+      "reported": 6.0,
+      "read": null
+    },
+    {
+      "borrower": "FMC CORP",
+      "metric": "secured_leverage",
+      "period": "2026-03-31",
+      "reported": 3.5,
+      "read": null
+    },
+    {
+      "borrower": "FMC CORP",
+      "metric": "secured_leverage",
+      "period": "2026-06-30",
+      "reported": 3.5,
+      "read": null
+    },
+    {
+      "borrower": "FMC CORP",
+      "metric": "secured_leverage",
+      "period": "2026-09-30",
+      "reported": 3.5,
+      "read": null
+    },
+    {
+      "borrower": "Mayville Engineering Company, Inc.",
+      "metric": "total_leverage",
+      "period": "2025-12-31",
+      "reported": 4.0,
+      "read": null
+    },
+    {
+      "borrower": "Mayville Engineering Company, Inc.",
+      "metric": "total_leverage",
+      "period": "2026-03-31",
+      "reported": 5.25,
+      "read": null
+    },
+    {
+      "borrower": "Mayville Engineering Company, Inc.",
+      "metric": "interest_coverage",
+      "period": "2026-03-31",
+      "reported": 2.75,
+      "read": 3.0
+    },
+    {
+      "borrower": "Mayville Engineering Company, Inc.",
+      "metric": "total_leverage",
+      "period": "2026-06-30",
+      "reported": 5.25,
+      "read": null
+    },
+    {
+      "borrower": "Mayville Engineering Company, Inc.",
+      "metric": "total_leverage",
+      "period": "2026-09-30",
+      "reported": 3.5,
+      "read": null
+    },
+    {
+      "borrower": "Mayville Engineering Company, Inc.",
+      "metric": "interest_coverage",
+      "period": "2026-09-30",
+      "reported": 3.0,
+      "read": 2.75
+    },
+    {
+      "borrower": "M/I HOMES, INC.",
+      "metric": "total_leverage",
+      "period": "2025-12-31",
+      "reported": 0.6,
+      "read": null
+    },
+    {
+      "borrower": "M/I HOMES, INC.",
+      "metric": "interest_coverage",
+      "period": "2025-12-31",
+      "reported": 1.5,
+      "read": null
+    },
+    {
+      "borrower": "M/I HOMES, INC.",
+      "metric": "other",
+      "period": "2026-03-31",
+      "reported": 0.6,
+      "read": 20000000.0
+    },
+    {
+      "borrower": "M/I HOMES, INC.",
+      "metric": "interest_coverage",
+      "period": "2026-03-31",
+      "reported": 1.5,
+      "read": null
+    },
+    {
+      "borrower": "M/I HOMES, INC.",
+      "metric": "other",
+      "period": "2026-06-30",
+      "reported": 0.6,
+      "read": 20000000.0
+    },
+    {
+      "borrower": "M/I HOMES, INC.",
+      "metric": "interest_coverage",
+      "period": "2026-06-30",
+      "reported": 1.5,
+      "read": null
+    },
+    {
+      "borrower": "M/I HOMES, INC.",
+      "metric": "other",
+      "period": "2026-09-30",
+      "reported": 0.6,
+      "read": 20000000.0
+    },
+    {
+      "borrower": "M/I HOMES, INC.",
+      "metric": "interest_coverage",
+      "period": "2026-09-30",
+      "reported": 1.5,
+      "read": null
+    },
+    {
+      "borrower": "NOVANTA INC",
+      "metric": "net_leverage",
+      "period": "2025-12-31",
+      "reported": 3.75,
+      "read": 4.0
+    },
+    {
+      "borrower": "NOVANTA INC",
+      "metric": "fixed_charge_coverage",
+      "period": "2025-12-31",
+      "reported": 1.25,
+      "read": 1.0
+    },
+    {
+      "borrower": "NOVANTA INC",
+      "metric": "net_leverage",
+      "period": "2026-04-03",
+      "reported": 3.75,
+      "read": 4.0
+    },
+    {
+      "borrower": "NOVANTA INC",
+      "metric": "fixed_charge_coverage",
+      "period": "2026-04-03",
+      "reported": 1.25,
+      "read": 1.0
+    },
+    {
+      "borrower": "NOVANTA INC",
+      "metric": "total_leverage",
+      "period": "2026-07-03",
+      "reported": 4.0,
+      "read": null
+    },
+    {
+      "borrower": "NOVANTA INC",
+      "metric": "fixed_charge_coverage",
+      "period": "2026-07-03",
+      "reported": 1.25,
+      "read": 1.0
+    },
+    {
+      "borrower": "NOVANTA INC",
+      "metric": "total_leverage",
+      "period": "2026-10-02",
+      "reported": 4.0,
+      "read": null
+    },
+    {
+      "borrower": "NOVANTA INC",
+      "metric": "fixed_charge_coverage",
+      "period": "2026-10-02",
+      "reported": 1.25,
+      "read": 1.0
+    },
+    {
+      "borrower": "Tri Pointe Homes, Inc.",
+      "metric": "total_leverage",
+      "period": "2026-03-31",
+      "reported": 60.0,
+      "read": null
+    },
+    {
+      "borrower": "Tri Pointe Homes, Inc.",
+      "metric": "other",
+      "period": "2026-03-31",
+      "reported": 2346759.0,
+      "read": 2222822000.0
+    },
+    {
+      "borrower": "Tri Pointe Homes, Inc.",
+      "metric": "total_leverage",
+      "period": "2026-06-30",
+      "reported": 60.0,
+      "read": null
+    },
+    {
+      "borrower": "Tri Pointe Homes, Inc.",
+      "metric": "total_leverage",
+      "period": "2026-09-30",
+      "reported": 60.0,
+      "read": null
+    }
+  ],
+  "cost_per_agreement": 0.239001,
+  "gold": "8/8"
+}

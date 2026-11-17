@@ -1,0 +1,30 @@
+{
+  "job": "ratio-916076-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/916076/000119312526447418/mlm-20260930.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 4112,
+    "output_tokens": 712,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "Leverage Ratio (consolidated net debt-to-consolidated EBITDA, trailing twelve months)",
+        "metric": "net_leverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 4.75,
+        "direction": "max",
+        "facility": "Credit Agreement and Term Credit Agreement",
+        "quote": "The Credit Agreement and Term Credit Agreement require the Company's ratio of consolidated net debt-to-consolidated earnings before interest, taxes, depreciation, depletion and amortization, as defined, for the trailing twelve months (the Leverage Ratio) to not exceed (a) 4.75x for the first three quarters after closing the LNA Transaction, which occurred on August 21, 2026; (b) 4.25x for the next succeeding three quarters; and (c) 3.75x thereafter"
+      }
+    ],
+    "notes": "The filing does not disclose the actual Leverage Ratio; it states only that the Company was in compliance at September 30, 2026. The 4.75x limit is inferred for September 30, 2026, since the LNA Transaction closed August 21, 2026 and that quarter-end appears to be the first quarter after closing. The limit steps down to 4.25x for the next three quarters and to 3.75x thereafter. Acquisition debt may be excluded for four quarters if the unadjusted ratio does not exceed 4.25x. Debt is reduced by up to $500 million of unrestricted cash only when nothing is outstanding under the Revolving Facility and the Trade Receivable Facility. $420 million was outstanding on the Trade Receivable Facility at September 30, 2026, so the cash netting likely did not apply. The long-term net debt/EBITDA target mentioned in the risk factors is excluded because it is a policy target, not a covenant."
+  }
+}

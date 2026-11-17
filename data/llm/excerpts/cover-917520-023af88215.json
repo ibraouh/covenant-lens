@@ -1,0 +1,24 @@
+{
+  "job": "cover-917520-023af88215",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/917520/000092963818001000/exhibit10-2.htm"
+  },
+  "usage": {
+    "input_tokens": 3772,
+    "output_tokens": 98,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "is_loan_document": false,
+    "kind": "other",
+    "title": "Purchase and Sale Agreement",
+    "dated": "2018-12-21",
+    "amends_dated": null,
+    "primary_bank_facility": false,
+    "includes_conformed_copy": false,
+    "borrower": "Integra Receivables LLC"
+  }
+}

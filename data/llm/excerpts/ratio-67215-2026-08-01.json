@@ -1,0 +1,60 @@
+{
+  "job": "ratio-67215-2026-08-01",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/67215/000006721526000043/dy-20260801.htm",
+    "period": "2026-08-01"
+  },
+  "usage": {
+    "input_tokens": 5049,
+    "output_tokens": 1596,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "Maximum consolidated net leverage ratio",
+        "metric": "net_leverage",
+        "period_end": "2026-08-01",
+        "actual": null,
+        "limit": 4.5,
+        "direction": "max",
+        "facility": "Credit Agreement",
+        "quote": "Our Credit Agreement contains a financial covenant that requires us to maintain a maximum consolidated net leverage ratio of not greater than (A) until the last day of the first fiscal quarter ending after the second anniversary of December 23, 2025, 4.50 to 1.00, and (B) thereafter, 4.00:1.00, as measured at the end of each fiscal quarter, and provides for certain increases to this ratio in connection with permitted acquisitions."
+      },
+      {
+        "covenant_name": "Maximum consolidated net leverage ratio",
+        "metric": "net_leverage",
+        "period_end": "2026-01-31",
+        "actual": null,
+        "limit": 4.5,
+        "direction": "max",
+        "facility": "Credit Agreement",
+        "quote": "Our Credit Agreement contains a financial covenant that requires us to maintain a maximum consolidated net leverage ratio of not greater than (A) until the last day of the first fiscal quarter ending after the second anniversary of December 23, 2025, 4.50 to 1.00, and (B) thereafter, 4.00:1.00, as measured at the end of each fiscal quarter, and provides for certain increases to this ratio in connection with permitted acquisitions."
+      },
+      {
+        "covenant_name": "Minimum consolidated interest coverage ratio",
+        "metric": "interest_coverage",
+        "period_end": "2026-08-01",
+        "actual": null,
+        "limit": 2.5,
+        "direction": "min",
+        "facility": "Credit Agreement",
+        "quote": "The agreement also contains a financial covenant that requires us to maintain a minimum consolidated interest coverage ratio, which is the ratio of our trailing four-quarter consolidated EBITDA to our consolidated interest expense, as defined by our Credit Agreement, of not less than 2.50 to 1.00, as measured at the end of each fiscal quarter."
+      },
+      {
+        "covenant_name": "Minimum consolidated interest coverage ratio",
+        "metric": "interest_coverage",
+        "period_end": "2026-01-31",
+        "actual": null,
+        "limit": 2.5,
+        "direction": "min",
+        "facility": "Credit Agreement",
+        "quote": "The agreement also contains a financial covenant that requires us to maintain a minimum consolidated interest coverage ratio, which is the ratio of our trailing four-quarter consolidated EBITDA to our consolidated interest expense, as defined by our Credit Agreement, of not less than 2.50 to 1.00, as measured at the end of each fiscal quarter."
+      }
+    ],
+    "notes": "Filing states only compliance at August 1, 2026 and January 31, 2026; actual ratios not disclosed. Net leverage limit is 4.50x until the first fiscal quarter ending after December 23, 2027, then 4.00x, with step-ups permitted for acquisitions. The 3.50x consolidated senior secured net leverage ratio is an incremental facility capacity test, not a maintenance covenant, and is excluded; net leverage also sets pricing grid margins."
+  }
+}

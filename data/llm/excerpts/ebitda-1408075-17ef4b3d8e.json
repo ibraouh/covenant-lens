@@ -1,0 +1,56 @@
+{
+  "job": "ebitda-1408075-17ef4b3d8e",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1408075/000140807526000004/gpkq420258-k_exhibit991.htm",
+    "filed": "2026-02-03"
+  },
+  "usage": {
+    "input_tokens": 5573,
+    "output_tokens": 694,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "label": "Adjusted EBITDA",
+    "figures": [
+      {
+        "period_end": "2025-12-31",
+        "months": 3,
+        "shown": "311",
+        "unit": "millions",
+        "quote": "Adjusted EBITDA $ 311 $ 404 $ 1,395 $ 1,682"
+      },
+      {
+        "period_end": "2024-12-31",
+        "months": 3,
+        "shown": "404",
+        "unit": "millions",
+        "quote": "Adjusted EBITDA $ 311 $ 404 $ 1,395 $ 1,682"
+      },
+      {
+        "period_end": "2025-12-31",
+        "months": 12,
+        "shown": "1,395",
+        "unit": "millions",
+        "quote": "Adjusted EBITDA $ 311 $ 404 $ 1,395 $ 1,682"
+      },
+      {
+        "period_end": "2024-12-31",
+        "months": 12,
+        "shown": "1,682",
+        "unit": "millions",
+        "quote": "Adjusted EBITDA $ 311 $ 404 $ 1,395 $ 1,682"
+      },
+      {
+        "period_end": "2023-12-31",
+        "months": 12,
+        "shown": "1,876",
+        "unit": "millions",
+        "quote": "Adjusted EBITDA $ 1,395 $ 1,682 $ 1,876"
+      }
+    ],
+    "notes": "All figures are taken from the non-GAAP reconciliation tables, which are presented in millions. The fourth-quarter and full-year figures match the narrative text ($311M vs $404M for Q4; $1,395M vs $1,682M for the full year). FY2023 ($1,876M) appears only in the net leverage reconciliation table. The 2026 guidance range of $1.05B-$1.25B is excluded because it is a forecast."
+  }
+}

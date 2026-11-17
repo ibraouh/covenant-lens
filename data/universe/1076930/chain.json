@@ -1,0 +1,38 @@
+{
+  "auto": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1076930/000119312526227053/novt-ex10_1.htm",
+      "title": "Second Amendment to Fourth Amended and Restated Credit Agreement",
+      "dated": "2026-05-15",
+      "kind": "amendment",
+      "filed": "2026-05-15"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1076930/000119312526262867/novt-ex10_1.htm",
+      "title": "Third Amendment to Fourth Amended and Restated Credit Agreement",
+      "dated": "2026-06-08",
+      "kind": "amendment",
+      "filed": "2026-06-09"
+    }
+  ],
+  "notes": [
+    "Second Amendment to Fourth Amended and Restated Credit Agreement restates the full agreement; used as the base"
+  ],
+  "used": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1076930/000119312526227053/novt-ex10_1.htm",
+      "title": "Second Amendment to Fourth Amended and Restated Credit Agreement",
+      "dated": "2026-05-15",
+      "kind": "amendment",
+      "filed": "2026-05-15"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1076930/000119312526262867/novt-ex10_1.htm",
+      "title": "Third Amendment to Fourth Amended and Restated Credit Agreement",
+      "dated": "2026-06-08",
+      "kind": "amendment",
+      "filed": "2026-06-09"
+    }
+  ],
+  "source": "automatic"
+}

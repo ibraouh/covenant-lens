@@ -1,0 +1,50 @@
+{
+  "job": "ratio-856982-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/856982/000085698226000052/mmsi-20260930x10q.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 3217,
+    "output_tokens": 531,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "Consolidated Total Net Leverage Ratio",
+        "metric": "net_leverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 5.0,
+        "direction": "max",
+        "facility": "Amended Fourth A&R Credit Agreement",
+        "quote": "Consolidated Total Net Leverage Ratio (1) \u200b 5.0 to 1.0"
+      },
+      {
+        "covenant_name": "Consolidated Senior Secured Net Leverage Ratio",
+        "metric": "secured_net_leverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 3.0,
+        "direction": "max",
+        "facility": "Amended Fourth A&R Credit Agreement",
+        "quote": "Consolidated Senior Secured Net Leverage Ratio (2) \u200b \u200b 3.0 to 1.0"
+      },
+      {
+        "covenant_name": "Consolidated Interest Coverage Ratio",
+        "metric": "interest_coverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 3.0,
+        "direction": "min",
+        "facility": "Amended Fourth A&R Credit Agreement",
+        "quote": "Consolidated Interest Coverage Ratio (3) \u200b 3.0 to 1.0"
+      }
+    ],
+    "notes": "Only covenant requirements are disclosed; actual ratios are not given. The company states it was in compliance as of September 30, 2026. The excerpt is inconsistent on borrowings under the facility: the notes say there were no outstanding borrowings, while MD&A says $747.5 million was outstanding, which likely refers to the Convertible Notes."
+  }
+}

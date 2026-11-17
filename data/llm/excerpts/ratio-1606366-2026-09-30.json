@@ -1,0 +1,40 @@
+{
+  "job": "ratio-1606366-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1606366/000160636626000063/loco-20260930x10q.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 4461,
+    "output_tokens": 889,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "lease-adjusted consolidated leverage ratio",
+        "metric": "total_leverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": null,
+        "direction": "max",
+        "facility": "2026 Credit Agreement (2026 Revolver)",
+        "quote": "could impact our ability to meet certain financial covenants required in our 2026 Credit Agreement (as defined below), specifically the lease-adjusted consolidated leverage ratio and fixed-charge coverage ratio."
+      },
+      {
+        "covenant_name": "fixed-charge coverage ratio",
+        "metric": "fixed_charge_coverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": null,
+        "direction": "min",
+        "facility": "2026 Credit Agreement (2026 Revolver)",
+        "quote": "could impact our ability to meet certain financial covenants required in our 2026 Credit Agreement (as defined below), specifically the lease-adjusted consolidated leverage ratio and fixed-charge coverage ratio."
+      }
+    ],
+    "notes": "The filing names the two financial covenants but gives no actual values or required levels. It says only that the Company was in compliance as of September 30, 2026. The 4.25x lease-adjusted consolidated leverage ratio is a pro forma condition for making restricted payments, not the maintenance covenant level, so it is excluded. The leverage-based pricing grid sets only the interest margin (currently 1.75%) and is also excluded."
+  }
+}

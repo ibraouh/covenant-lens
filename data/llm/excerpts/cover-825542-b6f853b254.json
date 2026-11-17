@@ -1,0 +1,24 @@
+{
+  "job": "cover-825542-b6f853b254",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/825542/000144398417000025/smg201704138kexhibit102.htm"
+  },
+  "usage": {
+    "input_tokens": 3132,
+    "output_tokens": 95,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "is_loan_document": false,
+    "kind": "other",
+    "title": "Master Framework Agreement",
+    "dated": "2017-04-07",
+    "amends_dated": null,
+    "primary_bank_facility": false,
+    "includes_conformed_copy": false,
+    "borrower": "The Scotts Company LLC"
+  }
+}

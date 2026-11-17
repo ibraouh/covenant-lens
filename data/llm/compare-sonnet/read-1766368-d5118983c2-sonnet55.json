@@ -1,0 +1,140 @@
+{
+  "job": "read-1766368-d5118983c2-sonnet55",
+  "model": "claude-sonnet-5-5",
+  "meta": {
+    "cik": "1766368",
+    "docs": [
+      "https://www.sec.gov/Archives/edgar/data/1766368/000110465926020541/tmb-20260225xex10d2.htm"
+    ]
+  },
+  "usage": {
+    "input_tokens": 184616,
+    "output_tokens": 5303,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "borrower": "Mayville Engineering Company, Inc.",
+    "agreement_date": "2023-06-28",
+    "covenants": [
+      {
+        "name": "Consolidated Total Leverage Ratio",
+        "metric": "net_leverage",
+        "direction": "max",
+        "thresholds": [
+          {
+            "value": 4.0,
+            "applies_from": null
+          },
+          {
+            "value": 5.25,
+            "applies_from": "2026-03-31"
+          },
+          {
+            "value": 5.0,
+            "applies_from": "2026-09-30"
+          },
+          {
+            "value": 4.0,
+            "applies_from": "2026-12-31"
+          },
+          {
+            "value": 3.5,
+            "applies_from": "2027-03-31"
+          }
+        ],
+        "test_frequency": "quarterly",
+        "springing_condition": null,
+        "section": "Section 9.15(a)",
+        "quote": "As of the last day of any fiscal quarter ending during the periods specified below, permit the Consolidated Total Leverage Ratio to be greater than the corresponding ratio set forth below:",
+        "ebitda_addbacks": [
+          "stock_comp",
+          "impairments",
+          "restructuring",
+          "other"
+        ],
+        "cash_netting_cap": 25000000.0,
+        "cash_netting_cap_pct_ebitda": null
+      },
+      {
+        "name": "Consolidated Interest Coverage Ratio",
+        "metric": "interest_coverage",
+        "direction": "min",
+        "thresholds": [
+          {
+            "value": 3.0,
+            "applies_from": null
+          },
+          {
+            "value": 2.75,
+            "applies_from": "2026-06-30"
+          },
+          {
+            "value": 3.0,
+            "applies_from": "2027-03-31"
+          }
+        ],
+        "test_frequency": "quarterly",
+        "springing_condition": null,
+        "section": "Section 9.15(b)",
+        "quote": "As of the last day of any fiscal quarter ending during the periods specified below, permit the Consolidated Interest Coverage Ratio to be less than",
+        "ebitda_addbacks": [
+          "stock_comp",
+          "impairments",
+          "restructuring",
+          "other"
+        ],
+        "cash_netting_cap": null,
+        "cash_netting_cap_pct_ebitda": null
+      }
+    ],
+    "notes": "Third Amendment (Feb 25, 2026) created a 'Covenant Adjustment Period' running from Feb 25, 2026 until the earlier of (a) delivery of Q1 2027 financials showing compliance with Section 9.15, or (b) at the Borrower's option, delivery of financials showing compliance with the pre-amendment covenant levels. If the period ends under clause (b), the leverage limit becomes 3.50x and the interest coverage minimum 3.00x. The conformed text is a merged redline, so the step-down table was read as the amended text. Post-adjustment leverage acquisition holiday: after the Covenant Adjustment Period the leverage limit steps up 0.50x for four quarters after an Acquisition with consideration over $40M, capped at 4.00x. At least one quarter must separate such periods, there can be no more than two over the term, and none can be triggered or in effect during the Covenant Adjustment Period, including by the Accu-Fab Acquisition. Cash netting in the leverage ratio is limited to Unrestricted Cash and Cash Equivalents of $25M, or $10M during the Covenant Adjustment Period. Interest Coverage Ratio numerator is Consolidated EBITDA less 50% of Capex, less Discretionary Repurchase Obligation Payments paid in cash, less income taxes, plus Mandatory Repurchase Obligation Payments paid in cash, over Consolidated Interest Expense (trailing four quarters). EBITDA add-backs include non-cash ESOP/stock comp, restructuring costs, non-cash losses and charges, discontinued operations, casualty events, purchase-accounting and earn-out fair value adjustments, acquisition transaction costs up to $7M per Acquisition, CFO transition costs, Peloton litigation fees, data center start-up costs up to $10M in aggregate, and one-time non-operating items. Cash add-backs under clauses (v), (vii), (viii), (xi), (xii) and (xiii) are capped at 15% of EBITDA. Separately, the capex limit (Section 9.14) is $40M per fiscal year starting FY2026, with limited carry-forward from FY2027. During the Covenant Adjustment Period, Acquisitions are limited to one, equity-funded, up to $25M and at most 3.25x leverage; additional debt and lien basket usage is frozen. Commitments were reduced to $275M. The agreement is a bank-style facility with no unrestricted subsidiary concept and no equity cure.",
+    "facility": "$275,000,000 senior secured revolving credit facility (reduced from $350,000,000 by the Third Amendment), including a $25M swingline and a $5M L/C sublimit; maturity June 28, 2028; no term loans.",
+    "terms": [
+      {
+        "kind": "j_crew_blocker",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "The agreement has no unrestricted subsidiary concept and no specific restriction on transferring material IP to non-guarantors. Asset dispositions generally are limited by Section 9.5, and the Collateral includes IP."
+      },
+      {
+        "kind": "serta_protection",
+        "present": "partial",
+        "section": "Section 12.2(e)",
+        "quote": "change Section 5.6 or Section 10.4 in a manner that would alter the pro rata sharing of payments or order of application required thereby without the written consent of each Lender directly and adversely affected thereby;",
+        "summary": "Changes to pro rata sharing and the payment waterfall need consent of each directly and adversely affected lender. There is no express each-lender consent for subordinating the loans or liens to other debt, and the agent may subordinate liens to purchase-money liens under Section 11.9(a)(ii)."
+      },
+      {
+        "kind": "chewy_protection",
+        "present": "partial",
+        "section": "Section 11.9(a)(iii)",
+        "quote": "to release any Subsidiary Guarantor from its obligations under any Loan Documents if such Person ceases to be a Subsidiary as a result of a transaction permitted under the Loan Documents.",
+        "summary": "A guarantor is released only when it ceases to be a Subsidiary (50% or less owned) through a permitted transaction, not merely because it stops being wholly owned. Release is at the agent's discretion and still follows a permitted transaction."
+      },
+      {
+        "kind": "unrestricted_sub_cap",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "The agreement has no unrestricted subsidiary designation mechanism. All subsidiaries are subject to the covenants, and investments in non-guarantor subsidiaries are restricted by Section 9.3."
+      },
+      {
+        "kind": "addback_cap",
+        "present": "yes",
+        "section": "Consolidated EBITDA definition (Section 1.1)",
+        "quote": "provided that, in no event shall the amount of cash items added back to Consolidated EBITDA under clauses (v), (vii), (viii), (xi), (xii) and (xiii) for any period exceed fifteen percent (15%) of aggregate Consolidated EBITDA for such period (calculated before giving effect to any such add back)",
+        "summary": "Cash add-backs, including restructuring costs, discontinued operations, casualty events, transaction costs, CFO transition and litigation costs, are capped at 15% of EBITDA. There is no projected cost savings or synergies add-back. Start-up costs are separately capped at $10M in aggregate."
+      },
+      {
+        "kind": "equity_cure",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "No equity cure right for the financial covenants appears in the agreement."
+      }
+    ],
+    "addback_cap_pct": 0.15
+  }
+}

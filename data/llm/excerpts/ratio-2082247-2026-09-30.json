@@ -1,0 +1,30 @@
+{
+  "job": "ratio-2082247-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/2082247/000162828026068246/fdxf-20260930.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 2555,
+    "output_tokens": 256,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "total leverage ratio",
+        "metric": "total_leverage",
+        "period_end": "2026-09-30",
+        "actual": 2.61,
+        "limit": 3.75,
+        "direction": "max",
+        "facility": "Credit Facilities (Revolving Credit Facility and Term Loan Facility)",
+        "quote": "As of September 30, 2026, our total leverage ratio was 2.61 :1.00."
+      }
+    ],
+    "notes": "Limit is 3.75:1.00 for fiscal quarters ending before January 1, 2027, stepping down to 3.50:1.00 thereafter. Amendments dated October 7, 2026 (after period end) revise consolidated EBITDA to permit add-back of non-cash share-based compensation charges, which affects future ratio calculations."
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "job": "ratio-842633-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/842633/000084263326000061/trs-20260930.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 4594,
+    "output_tokens": 479,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "Total net leverage ratio",
+        "metric": "net_leverage",
+        "period_end": "2026-09-30",
+        "actual": 1.77,
+        "limit": 4.0,
+        "direction": "max",
+        "facility": "Credit Agreement",
+        "quote": "Our actual total net leverage ratio was 1.77 to 1.00 at September 30, 2026."
+      },
+      {
+        "covenant_name": "Interest expense coverage ratio",
+        "metric": "interest_coverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 3.0,
+        "direction": "min",
+        "facility": "Credit Agreement",
+        "quote": "Our permitted interest expense coverage ratio under the Credit Agreement is 3.00 to 1.00 as of September 30, 2026. Our actual interest expense coverage ratio was N/A to 1.00 at September 30, 2026."
+      }
+    ],
+    "notes": "The interest coverage actual is reported as N/A because Consolidated Cash Interest Expense was negative ($(6,960)k), with interest income exceeding interest expense. The total net leverage limit would rise to 4.50x during a Covenant Holiday Period after a qualifying acquisition. The 3.00x senior secured net leverage ratio is an incremental-commitment test, not a maintenance covenant, so it is excluded. The covenant definitions were amended in December 2025 and March 2026 after the Aerospace sale. The company states it was in compliance at September 30, 2026."
+  }
+}

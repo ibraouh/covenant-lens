@@ -1,0 +1,203 @@
+{
+  "reports": [
+    {
+      "form": "10-Q",
+      "filed": "2026-11-02",
+      "period": "2026-09-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/885725/000088572526000070/bsx-20260930.htm",
+      "job": "ratio-885725-2026-09-30"
+    },
+    {
+      "form": "10-Q",
+      "filed": "2026-08-03",
+      "period": "2026-06-30",
+      "url": "https://www.sec.gov/Archives/edgar/data/885725/000088572526000053/bsx-20260630.htm",
+      "job": "ratio-885725-2026-06-30"
+    },
+    {
+      "form": "10-Q",
+      "filed": "2026-05-01",
+      "period": "2026-03-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/885725/000088572526000033/bsx-20260331.htm",
+      "job": "ratio-885725-2026-03-31"
+    },
+    {
+      "form": "10-K",
+      "filed": "2026-02-17",
+      "period": "2025-12-31",
+      "url": "https://www.sec.gov/Archives/edgar/data/885725/000088572526000010/bsx-20251231.htm",
+      "job": "ratio-885725-2025-12-31"
+    }
+  ],
+  "releases": [],
+  "exhibits": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/885725/000088572516000028/ex105_bscfirstamendmenttor.htm",
+      "filed": "2016-02-24",
+      "exhibit": "EX-10.5",
+      "chars": 12006,
+      "job": "cover-885725-57b8305ab1"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/885725/000094787117000108/ss29948_ex1001.htm",
+      "filed": "2017-02-10",
+      "exhibit": "EX-10.1",
+      "chars": 344326,
+      "job": "cover-885725-e6b15d61d2"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/885725/000094787117000108/ss29948_ex1002.htm",
+      "filed": "2017-02-10",
+      "exhibit": "EX-10.2",
+      "chars": 138165,
+      "job": "cover-885725-899ff37af1"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/885725/000094787117000618/ss54238_ex1001.htm",
+      "filed": "2017-08-07",
+      "exhibit": "EX-10.1",
+      "chars": 351570,
+      "job": "cover-885725-b833786e6c"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/885725/000088572518000036/exhibit101-2018creditagree.htm",
+      "filed": "2018-08-21",
+      "exhibit": "EX-10.1",
+      "chars": 219026,
+      "job": "cover-885725-0737d7089e"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/885725/000110465918069709/a18-40570_1ex10d5.htm",
+      "filed": "2018-11-23",
+      "exhibit": "EX-10.5",
+      "chars": 313097,
+      "job": "cover-885725-6d396c9c28"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/885725/000094787118000985/ss119647_ex1002.htm",
+      "filed": "2018-12-21",
+      "exhibit": "EX-10.2",
+      "chars": 11085,
+      "job": "cover-885725-2b9a902a6c"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/885725/000094787118000985/ss119647_ex1003.htm",
+      "filed": "2018-12-21",
+      "exhibit": "EX-10.3",
+      "chars": 263654,
+      "job": "cover-885725-23da49cd8b"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/885725/000094787118000985/ss119647_ex1001.htm",
+      "filed": "2018-12-21",
+      "exhibit": "EX-10.1",
+      "chars": 367377,
+      "job": "cover-885725-fa62a7d072"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/885725/000094787119000894/ss159395_ex1001.htm",
+      "filed": "2019-12-05",
+      "exhibit": "EX-10.1",
+      "chars": 210768,
+      "job": "cover-885725-ec0ae5de97"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/885725/000094787120000156/ss167320_ex1001.htm",
+      "filed": "2020-02-27",
+      "exhibit": "EX-10.1",
+      "chars": 212544,
+      "job": "cover-885725-c011da27b0"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/885725/000094787120000397/ss171930_ex1002.htm",
+      "filed": "2020-04-21",
+      "exhibit": "EX-10.2",
+      "chars": 13772,
+      "job": "cover-885725-e906d78e49"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/885725/000094787120000397/ss171930_ex1003.htm",
+      "filed": "2020-04-21",
+      "exhibit": "EX-10.3",
+      "chars": 21954,
+      "job": "cover-885725-3df7f3a36c"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/885725/000094787120000397/ss171930_ex1001.htm",
+      "filed": "2020-04-21",
+      "exhibit": "EX-10.1",
+      "chars": 225383,
+      "job": "cover-885725-2753b1fdaf"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/885725/000094787120000527/ss174648_ex1001.htm",
+      "filed": "2020-05-29",
+      "exhibit": "EX-10.1",
+      "chars": 9428,
+      "job": "cover-885725-f5b7b75461"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/885725/000094787120000527/ss174648_ex1002.htm",
+      "filed": "2020-05-29",
+      "exhibit": "EX-10.2",
+      "chars": 12360,
+      "job": "cover-885725-66a14b5893"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/885725/000110465921065917/tm2116033d1_ex10-1.htm",
+      "filed": "2021-05-13",
+      "exhibit": "EX-10.1",
+      "chars": 394241,
+      "job": "cover-885725-b719e48757"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/885725/000088572523000008/ex1072-amendmentto2021revo.htm",
+      "filed": "2023-02-23",
+      "exhibit": "EX-10.72",
+      "chars": 34761,
+      "job": "cover-885725-01489d624d"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/885725/000088572523000010/exhibit101.htm",
+      "filed": "2023-03-01",
+      "exhibit": "EX-10.1",
+      "chars": 419989,
+      "job": "cover-885725-ff6a84f11e"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/885725/000088572524000050/ex101-bscthirdamendmentto2.htm",
+      "filed": "2024-05-10",
+      "exhibit": "EX-10.1",
+      "chars": 415682,
+      "job": "cover-885725-4eaf93c18e"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/885725/000088572524000068/ex101-bscthirdamendmentto2.htm",
+      "filed": "2024-08-01",
+      "exhibit": "EX-10.1",
+      "chars": 415744,
+      "job": "cover-885725-6e3883477e"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/885725/000088572526000017/exhibit103-termloancredita.htm",
+      "filed": "2026-02-26",
+      "exhibit": "EX-10.3",
+      "chars": 290604,
+      "job": "cover-885725-d9ab69122e"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/885725/000088572526000017/exhibit102-creditagreement.htm",
+      "filed": "2026-02-26",
+      "exhibit": "EX-10.2",
+      "chars": 352843,
+      "job": "cover-885725-56fb01eb4d"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/885725/000088572526000017/exhibit101-creditagreement.htm",
+      "filed": "2026-02-26",
+      "exhibit": "EX-10.1",
+      "chars": 407152,
+      "job": "cover-885725-2ce96c95a2"
+    }
+  ]
+}

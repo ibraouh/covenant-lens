@@ -1,0 +1,40 @@
+{
+  "job": "ratio-926282-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/926282/000119312526449723/adtn-20260930.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 3244,
+    "output_tokens": 936,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "consolidated senior secured net leverage ratio (Net Leverage Ratio)",
+        "metric": "secured_net_leverage",
+        "period_end": "2026-12-31",
+        "actual": null,
+        "limit": 3.25,
+        "direction": "max",
+        "facility": "Credit Agreement",
+        "quote": "Under the Credit Agreement, beginning with the fiscal quarter ending December 31, 2026, the Company is required to maintain a consolidated senior secured net leverage ratio (the \"Net Leverage Ratio\") of no greater than 3.25x and a consolidated fixed charge coverage ratio of at least 1.25x."
+      },
+      {
+        "covenant_name": "consolidated fixed charge coverage ratio",
+        "metric": "fixed_charge_coverage",
+        "period_end": "2026-12-31",
+        "actual": null,
+        "limit": 1.25,
+        "direction": "min",
+        "facility": "Credit Agreement",
+        "quote": "Under the Credit Agreement, beginning with the fiscal quarter ending December 31, 2026, the Company is required to maintain a consolidated senior secured net leverage ratio (the \"Net Leverage Ratio\") of no greater than 3.25x and a consolidated fixed charge coverage ratio of at least 1.25x."
+      }
+    ],
+    "notes": "No actual ratio values are disclosed. Both covenants first apply for the quarter ending 2026-12-31, after this 2026-09-30 reporting period. The 2026-12-31 dates are the first test dates, not stated actuals. The company says it was in compliance with all covenants at 2026-09-30. During a Springing Covenant Period, the Net Leverage Ratio cap becomes 3.75x for the first and second Reference Periods and 3.50x for the third. In that period the company must also keep Liquidity of at least $50.0 million. These conditional limits are not entered as separate entries because no specific dates apply. The consolidated total net leverage ratio is used only to set the interest margin, so it is excluded."
+  }
+}

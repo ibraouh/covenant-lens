@@ -1,0 +1,30 @@
+{
+  "job": "ratio-2014596-2026-06-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/2014596/000201459626000056/cghp-20260630.htm",
+    "period": "2026-06-30"
+  },
+  "usage": {
+    "input_tokens": 3052,
+    "output_tokens": 268,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "leverage ratio",
+        "metric": "total_leverage",
+        "period_end": "2026-06-30",
+        "actual": 2.99,
+        "limit": 6.5,
+        "direction": "max",
+        "facility": "Credit Facilities (Term Loan and Revolving Credit Facility under the Credit Agreement)",
+        "quote": "As of June 30, 2026, CHSI\u2019s leverage ratio was 2.99x."
+      }
+    ],
+    "notes": "Leverage ratio is as defined in the Credit Agreement, tested quarterly, maximum 6.5 to 1.0; the borrower is CHSI, a wholly owned subsidiary of the Company. The same disclosure appears twice, in the notes and in MD&A. The filing does not say whether the ratio is gross or net, so it is classified as total leverage."
+  }
+}

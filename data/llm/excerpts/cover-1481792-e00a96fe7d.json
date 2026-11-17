@@ -1,0 +1,24 @@
+{
+  "job": "cover-1481792-e00a96fe7d",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1481792/000148179221000035/exhibit4-11022021form8xkxf.htm"
+  },
+  "usage": {
+    "input_tokens": 3088,
+    "output_tokens": 121,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "is_loan_document": true,
+    "kind": "amendment",
+    "title": "Amendment No. 5 to Second Amended and Restated Credit Agreement",
+    "dated": "2021-11-02",
+    "amends_dated": "2014-04-28",
+    "primary_bank_facility": true,
+    "includes_conformed_copy": true,
+    "borrower": "Quad/Graphics, Inc."
+  }
+}

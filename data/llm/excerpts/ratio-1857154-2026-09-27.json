@@ -1,0 +1,40 @@
+{
+  "job": "ratio-1857154-2026-09-27",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1857154/000185715426000055/dnut-20260927.htm",
+    "period": "2026-09-27"
+  },
+  "usage": {
+    "input_tokens": 3621,
+    "output_tokens": 459,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "leverage ratio",
+        "metric": "net_leverage",
+        "period_end": "2026-09-27",
+        "actual": 4.2,
+        "limit": 5.0,
+        "direction": "max",
+        "facility": "2023 Facility",
+        "quote": "Our leverage ratio was 4.2 to 1.00 as of the end of the third quarter of fiscal 2026 compared to 4.4 to 1.00 as of the end of fiscal 2025."
+      },
+      {
+        "covenant_name": "leverage ratio",
+        "metric": "net_leverage",
+        "period_end": "2025-12-28",
+        "actual": 4.4,
+        "limit": 5.0,
+        "direction": "max",
+        "facility": "2023 Facility",
+        "quote": "Our leverage ratio was 4.2 to 1.00 as of the end of the third quarter of fiscal 2026 compared to 4.4 to 1.00 as of the end of fiscal 2025."
+      }
+    ],
+    "notes": "Leverage ratio is Total Indebtedness (incl. finance leases) minus unrestricted cash over 2023 Facility Adjusted EBITDA; the covenant requires it to be less than 5.00x through March 2028. The 5.00x limit at 2025-12-28 is inferred from the statement that it applies through maturity. The 3.00x restricted-payments threshold and the interest margin grid (3.00x/4.00x) are excluded because they are not maintenance covenants."
+  }
+}

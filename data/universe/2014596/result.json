@@ -1,0 +1,366 @@
+{
+  "cik": "2014596",
+  "name": "Concentra Group Holdings Parent, Inc.",
+  "borrower": "Concentra Health Services, Inc.",
+  "gold": false,
+  "stale": false,
+  "agreement_date": "2024-07-26",
+  "facility": "$950M Tranche B-1 Term Loan maturing July 26, 2031 and $450M Revolving Credit Facility ($75M LC sublimit) maturing July 26, 2029",
+  "chain": {
+    "auto": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/2014596/000201459625000009/amendment1creditagreemen.htm",
+        "title": "Amendment No. 1 to Credit Agreement",
+        "dated": "2025-03-03",
+        "kind": "amendment",
+        "filed": "2025-03-03"
+      }
+    ],
+    "notes": [
+      "Amendment No. 1 to Credit Agreement restates the full agreement; used as the base"
+    ],
+    "used": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/2014596/000201459625000009/amendment1creditagreemen.htm",
+        "title": "Amendment No. 1 to Credit Agreement",
+        "dated": "2025-03-03",
+        "kind": "amendment",
+        "filed": "2025-03-03"
+      }
+    ],
+    "source": "automatic"
+  },
+  "covenants": [
+    {
+      "name": "Total Net Leverage Ratio",
+      "metric": "net_leverage",
+      "direction": "max",
+      "section": "Section 6.12",
+      "quote": "On any Compliance Date, the Borrower will not permit the Total Net Leverage Ratio as of such Compliance Date to be greater than 6.50 to 1.00 (the \u201cFinancial Covenant\u201d).",
+      "quote_verified": true,
+      "thresholds": [
+        {
+          "value": 6.5,
+          "applies_from": null
+        }
+      ],
+      "test_frequency": "quarterly",
+      "springing_condition": null,
+      "addbacks": [
+        "stock_comp",
+        "impairments",
+        "restructuring",
+        "other"
+      ],
+      "cash_netting_cap": null,
+      "cash_netting_cap_pct_ebitda": null,
+      "rows": [
+        {
+          "period_end": "2024-12-31",
+          "before_agreement": false,
+          "limit": 6.5,
+          "xbrl": 3.462104695031368,
+          "adjusted": null,
+          "reported": null,
+          "reported_limit": null,
+          "reported_quote": null,
+          "reported_url": null,
+          "ltm_ebitda_xbrl": 374268000.0,
+          "ltm_ebitda_adjusted": null,
+          "debt": 1479010000,
+          "cash": 183255000,
+          "ltm_interest": null
+        },
+        {
+          "period_end": "2025-03-31",
+          "before_agreement": false,
+          "limit": 6.5,
+          "xbrl": 4.170876765631673,
+          "adjusted": null,
+          "reported": null,
+          "reported_limit": null,
+          "reported_quote": null,
+          "reported_url": null,
+          "ltm_ebitda_xbrl": 379326000.0,
+          "ltm_ebitda_adjusted": null,
+          "debt": 1634231000,
+          "cash": 52109000,
+          "ltm_interest": null
+        },
+        {
+          "period_end": "2025-06-30",
+          "before_agreement": false,
+          "limit": 6.5,
+          "xbrl": 4.101419219879898,
+          "adjusted": null,
+          "reported": null,
+          "reported_limit": null,
+          "reported_quote": null,
+          "reported_url": null,
+          "ltm_ebitda_xbrl": 388171000.0,
+          "ltm_ebitda_adjusted": null,
+          "debt": 1665924000,
+          "cash": 73872000,
+          "ltm_interest": null
+        },
+        {
+          "period_end": "2025-09-30",
+          "before_agreement": false,
+          "limit": 6.5,
+          "xbrl": 3.8744653046244797,
+          "adjusted": null,
+          "reported": null,
+          "reported_limit": null,
+          "reported_quote": null,
+          "reported_url": null,
+          "ltm_ebitda_xbrl": 403267000.0,
+          "ltm_ebitda_adjusted": null,
+          "debt": 1612385000,
+          "cash": 49941000,
+          "ltm_interest": null
+        },
+        {
+          "period_end": "2025-12-31",
+          "before_agreement": false,
+          "limit": 6.5,
+          "xbrl": 3.5557948032234195,
+          "adjusted": null,
+          "reported": 3.4,
+          "reported_limit": 6.5,
+          "reported_quote": "The Credit Facilities require CHSI to maintain a leverage ratio (as defined in the Credit Agreement), which is tested quarterly and currently must not be greater than 6.5 to 1.0. As of December 31, 2025, CHSI\u2019s leverage ratio was 3.4x.",
+          "reported_url": "https://www.sec.gov/Archives/edgar/data/2014596/000201459626000029/cghp-20251231.htm",
+          "ltm_ebitda_xbrl": 420299000.0,
+          "ltm_ebitda_adjusted": null,
+          "debt": 1574396000,
+          "cash": 79899000,
+          "ltm_interest": null
+        },
+        {
+          "period_end": "2026-03-31",
+          "before_agreement": false,
+          "limit": 6.5,
+          "xbrl": 3.43813750752012,
+          "adjusted": null,
+          "reported": 3.4,
+          "reported_limit": 6.5,
+          "reported_quote": "The Credit Facilities require CHSI to maintain a leverage ratio (as defined in the Credit Agreement), which is tested quarterly and currently must not be greater than 6.5 to 1.0. As of March 31, 2026, CHSI\u2019s leverage ratio was 3.4x.",
+          "reported_url": "https://www.sec.gov/Archives/edgar/data/2014596/000201459626000044/cghp-20260331.htm",
+          "ltm_ebitda_xbrl": 440485000.0,
+          "ltm_ebitda_adjusted": null,
+          "debt": 1576147000,
+          "cash": 61699000,
+          "ltm_interest": null
+        },
+        {
+          "period_end": "2026-06-30",
+          "before_agreement": false,
+          "limit": 6.5,
+          "xbrl": 3.0198695699477556,
+          "adjusted": null,
+          "reported": null,
+          "reported_limit": null,
+          "reported_quote": null,
+          "reported_url": null,
+          "ltm_ebitda_xbrl": 468757000.0,
+          "ltm_ebitda_adjusted": null,
+          "debt": 1573623000,
+          "cash": 158038000,
+          "ltm_interest": null
+        },
+        {
+          "period_end": "2026-09-30",
+          "before_agreement": false,
+          "limit": 6.5,
+          "xbrl": 2.9179254507127856,
+          "adjusted": null,
+          "reported": 2.9,
+          "reported_limit": 6.5,
+          "reported_quote": "The Credit Facilities require CHSI to maintain a leverage ratio (as defined in the Credit Agreement), which is tested quarterly and currently must not be greater than 6.5 to 1.0. As of September 30, 2026, CHSI\u2019s leverage ratio was 2.90x.",
+          "reported_url": "https://www.sec.gov/Archives/edgar/data/2014596/000201459626000077/cghp-20260930.htm",
+          "ltm_ebitda_xbrl": 491943000.0,
+          "ltm_ebitda_adjusted": null,
+          "debt": 1521273000,
+          "cash": 85820000,
+          "ltm_interest": null
+        }
+      ],
+      "latest": {
+        "period_end": "2026-09-30",
+        "basis": "reported",
+        "value": 2.9,
+        "limit": 6.5,
+        "headroom": 0.5538461538461539,
+        "cushion": 0.5538461538461539
+      },
+      "steps": []
+    }
+  ],
+  "notes": "The only maintenance covenant is the 6.50x Total Net Leverage Ratio in Section 6.12. It is tested on each Compliance Date, meaning the last day of each Test Period starting December 31, 2024. It is not tied to revolver usage, but it exists for the benefit of the Revolving Lenders only. The Required Revolving Lenders alone may amend or waive it. A breach is not an Event of Default for the Term Loans unless and until the Required Revolving Lenders terminate their commitments and accelerate. Amendment No. 1 (March 3, 2025) did not change the covenant level. It refinanced the Initial Term Loans into $950M Tranche B-1 Term Loans, funding the Nova Medical Centers acquisition. It also added $50M of revolving commitments and cut pricing. Total Net Indebtedness nets all unrestricted cash and Permitted Investments with no cap. For covenant testing, cash may be measured as of the calculation date under Section 1.06. Consolidated EBITDA add-backs include: broad non-cash charges, including impairments (ASC 350/360 charges are also excluded from Consolidated Net Income); non-cash stock and management equity plan costs; transaction, equity and debt issuance costs; and restructuring, integration, severance and similar charges. Projected run-rate cost savings and synergies are also added back, realizable within 18 months; together with the restructuring add-back they are capped at 30% of Consolidated EBITDA. Further add-backs cover losses from facilities open 18 months or less, earn-out changes, and insured or indemnified losses. Under the equity cure, the Cure Amount is added to EBITDA. Debt paydown from cure proceeds is disregarded for four test periods. Other notable terms: $650M New Unsecured Notes; an incremental free-and-clear amount of the greater of $400M and 100% of EBITDA; a ratio incremental at 5.00x First Lien Net Leverage; and an unlimited ratio-based investment basket at 4.75x Total Net Leverage, which can be used for Unrestricted Subsidiaries.",
+  "terms": [
+    {
+      "kind": "j_crew_blocker",
+      "present": "yes",
+      "section": "Section 6.14; Section 5.14(iv)",
+      "quote": "Notwithstanding any provision to the contrary contained in this Agreement, neither Holdings nor the Borrower will, nor will they permit any Restricted Subsidiary to, consummate any transaction that results in the transfer by Holdings or any Restricted Subsidiary of Material Intellectual Property (whether by Investment, Restricted Payment, or any sale, lease or disposition, and whether in a single transaction or a series of related transactions) to any Unrestricted Subsidiary.",
+      "summary": "Transfers of Material Intellectual Property to Unrestricted Subsidiaries are prohibited. Under Section 5.14(iv), no subsidiary may be designated as, or continue as, an Unrestricted Subsidiary if it owns or exclusively licenses Material Intellectual Property.",
+      "quote_verified": true
+    },
+    {
+      "kind": "serta_protection",
+      "present": "yes",
+      "section": "Section 9.02(b)(xii)",
+      "quote": "contractually subordinate the Obligations in right of payment or the Liens securing the Obligations to other Indebtedness (other than (A) in respect of any \u201cdebtor-in-possession\u201d facility or (B) to the extent the Borrower has offered each Lender directly affected thereby an opportunity on a pro rata basis to participate in the applicable indebtedness on the same terms as the other lenders participating in such transaction) without the written consent of each Lender adversely affected thereby",
+      "summary": "Payment or lien subordination of the Obligations to other debt requires the consent of each adversely affected lender. Two carve-outs apply: DIP financings, and deals where every affected lender was offered pro rata participation on the same terms.",
+      "quote_verified": true
+    },
+    {
+      "kind": "chewy_protection",
+      "present": "yes",
+      "section": "Section 1.01 (definition of \"Excluded Subsidiary\")",
+      "quote": "provided, further, that any Guarantor that ceases to be a wholly-owned subsidiary of Holdings as a result of a transfer of Equity Interests to (i) an Affiliate of the Borrower or (ii) in a transaction that is not a bona fide arm\u2019s-length transaction shall not be released from its Guarantee.",
+      "summary": "A guarantor that stops being wholly owned is not released if the equity went to a Borrower affiliate or the transfer was not a bona fide arm's-length transaction. A genuine arm's-length sale of a minority stake to a third party could still lead to release.",
+      "quote_verified": true
+    },
+    {
+      "kind": "unrestricted_sub_cap",
+      "present": "partial",
+      "section": "Section 6.04(w); Section 5.14",
+      "quote": "Investments in Unrestricted Subsidiaries in an amount not to exceed the greater of $100,000,000 and 25% of Consolidated EBITDA for the most recently ended Test Period.",
+      "summary": "There is a dedicated basket of the greater of $100M and 25% of EBITDA for investments in Unrestricted Subsidiaries, and a designation counts as an investment at fair market value. This is not a hard cap, because other investment baskets can also be used: the Available Amount, the general basket, and an unlimited basket available at 4.75x Total Net Leverage.",
+      "quote_verified": true
+    },
+    {
+      "kind": "addback_cap",
+      "present": "yes",
+      "section": "Section 1.01 (definition of \"Consolidated EBITDA\", clauses (xiii) and (xiv))",
+      "quote": "in an aggregate amount not to exceed 30% (together with amounts under clause (xiii) above) of Consolidated EBITDA in such Test Period (calculated after giving effect to the applicable addbacks and adjustments)",
+      "summary": "Restructuring and cost-savings charges plus projected run-rate cost savings and synergies are capped together at 30% of Consolidated EBITDA. The cap is calculated after giving effect to the add-backs themselves.",
+      "quote_verified": true
+    },
+    {
+      "kind": "equity_cure",
+      "present": "yes",
+      "section": "Section 7.02",
+      "quote": "Notwithstanding anything herein to the contrary, (a) in each four-fiscal-quarter period there shall be at least two fiscal quarters in which the Cure Right is not exercised and no more than five (5) Cure Rights shall be exercised during the Revolving Availability Period, (b) the Cure Amount shall be no greater than the amount required for purposes of complying with the Financial Covenant and (c) the Cure Amount shall be set forth in an officer\u2019s certificate delivered to the Administrative Agent.",
+      "summary": "Holdings may cure a Financial Covenant breach with new equity, which is added to EBITDA. Cures cannot be used in more than two quarters of any four-quarter period, are limited to five over the life of the revolver, and may not exceed the amount needed to comply.",
+      "quote_verified": true
+    }
+  ],
+  "addback_cap_pct": 0.3,
+  "cov_lite": false,
+  "tightest": {
+    "name": "Total Net Leverage Ratio",
+    "period_end": "2026-09-30",
+    "basis": "reported",
+    "value": 2.9,
+    "limit": 6.5,
+    "headroom": 0.5538461538461539,
+    "cushion": 0.5538461538461539
+  },
+  "accuracy": [
+    {
+      "metric": "net_leverage",
+      "period_end": "2025-12-31",
+      "reported": 3.4,
+      "reported_limit": 6.5,
+      "covenant_found": true,
+      "matched": "Total Net Leverage Ratio",
+      "our_limit": 6.5,
+      "limit_match": true,
+      "not_graded": null,
+      "xbrl": 3.5557948032234195,
+      "adjusted": null,
+      "xbrl_error": 0.045822000948064545,
+      "adjusted_error": null,
+      "facility": "Credit Agreement (Term Loan and Revolving Credit Facility)",
+      "quote": "The Credit Facilities require CHSI to maintain a leverage ratio (as defined in the Credit Agreement), which is tested quarterly and currently must not be greater than 6.5 to 1.0. As of December 31, 2025, CHSI\u2019s leverage ratio was 3.4x.",
+      "url": "https://www.sec.gov/Archives/edgar/data/2014596/000201459626000029/cghp-20251231.htm"
+    },
+    {
+      "metric": "total_leverage",
+      "period_end": "2026-03-31",
+      "reported": 3.4,
+      "reported_limit": 6.5,
+      "covenant_found": true,
+      "matched": "Total Net Leverage Ratio",
+      "our_limit": 6.5,
+      "limit_match": true,
+      "not_graded": null,
+      "xbrl": 3.43813750752012,
+      "adjusted": null,
+      "xbrl_error": 0.011216913976505927,
+      "adjusted_error": null,
+      "facility": "Credit Facilities (Term Loan and Revolving Credit Facility under the Credit Agreement)",
+      "quote": "The Credit Facilities require CHSI to maintain a leverage ratio (as defined in the Credit Agreement), which is tested quarterly and currently must not be greater than 6.5 to 1.0. As of March 31, 2026, CHSI\u2019s leverage ratio was 3.4x.",
+      "url": "https://www.sec.gov/Archives/edgar/data/2014596/000201459626000044/cghp-20260331.htm"
+    },
+    {
+      "metric": "total_leverage",
+      "period_end": "2026-09-30",
+      "reported": 2.9,
+      "reported_limit": 6.5,
+      "covenant_found": true,
+      "matched": "Total Net Leverage Ratio",
+      "our_limit": 6.5,
+      "limit_match": true,
+      "not_graded": null,
+      "xbrl": 2.9179254507127856,
+      "adjusted": null,
+      "xbrl_error": 0.006181189900960504,
+      "adjusted_error": null,
+      "facility": "Credit Agreement (Term Loan and Revolving Credit Facility)",
+      "quote": "The Credit Facilities require CHSI to maintain a leverage ratio (as defined in the Credit Agreement), which is tested quarterly and currently must not be greater than 6.5 to 1.0. As of September 30, 2026, CHSI\u2019s leverage ratio was 2.90x.",
+      "url": "https://www.sec.gov/Archives/edgar/data/2014596/000201459626000077/cghp-20260930.htm"
+    }
+  ],
+  "dropped_answer_keys": [
+    {
+      "covenant_name": "leverage ratio",
+      "metric": "total_leverage",
+      "period_end": "2026-06-30",
+      "actual": 2.99,
+      "limit": 6.5,
+      "direction": "max",
+      "facility": "Credit Facilities (Term Loan and Revolving Credit Facility under the Credit Agreement)",
+      "quote": "As of June 30, 2026, CHSI\u2019s leverage ratio was 2.99x.",
+      "problems": [
+        "limit 6.5 not in quote"
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/2014596/000201459626000056/cghp-20260630.htm"
+    }
+  ],
+  "adjusted_ebitda": [
+    {
+      "period_end": "2025-03-31",
+      "value": 102659000.0,
+      "quote": "Adjusted EBITDA $120,688 $102,659 $449,892",
+      "url": "https://www.sec.gov/Archives/edgar/data/2014596/000201459626000042/concentrainvestorpresent.htm",
+      "label": "Adjusted EBITDA"
+    },
+    {
+      "period_end": "2026-03-31",
+      "value": 120688000.0,
+      "quote": "Adjusted EBITDA $120,688 $102,659 $449,892",
+      "url": "https://www.sec.gov/Archives/edgar/data/2014596/000201459626000042/concentrainvestorpresent.htm",
+      "label": "Adjusted EBITDA"
+    }
+  ],
+  "financials_sources": {
+    "debt": "LongTermDebtAndCapitalLeaseObligations + LongTermDebtAndCapitalLeaseObligationsCurrent",
+    "cash": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
+    "operating income": "OperatingIncomeLoss",
+    "D&A": "DepreciationAndAmortization",
+    "interest": "InterestExpenseNonoperating",
+    "stock comp": "ShareBasedCompensation",
+    "impairments": "not reported",
+    "restructuring": "not reported"
+  },
+  "compliance": {
+    "filed": "2026-02-26",
+    "form": "10-K",
+    "url": "https://www.sec.gov/Archives/edgar/data/2014596/000201459626000029/cghp-20251231.htm",
+    "sentences": [
+      "As of December 31, 2025, the Company was in compliance with all debt covenants."
+    ]
+  }
+}

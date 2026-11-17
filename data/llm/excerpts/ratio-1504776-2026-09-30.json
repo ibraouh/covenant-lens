@@ -1,0 +1,30 @@
+{
+  "job": "ratio-1504776-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1504776/000150477626000025/wrby-20260930.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 3123,
+    "output_tokens": 715,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "maximum consolidated senior net leverage ratio",
+        "metric": "net_leverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 3.0,
+        "direction": "max",
+        "facility": "2024 Credit Facility",
+        "quote": "The 2024 Credit Facility contains a financial maintenance covenant which only applies while total borrowings exceed $30.0 million, which requires the Company to maintain a maximum consolidated senior net leverage ratio of 3:1."
+      }
+    ],
+    "notes": "The covenant is a springing test that applies only while total borrowings exceed $30.0 million. At September 30, 2026 nothing was drawn other than $4.3 million of letters of credit, so the test was likely not in effect. No actual ratio is disclosed. I classed the senior net leverage ratio as net_leverage; it could also be read as secured net leverage, since the facility is first-lien secured. The leverage-based interest margins and commitment fees were excluded because they only set pricing."
+  }
+}

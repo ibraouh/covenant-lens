@@ -1,0 +1,40 @@
+{
+  "job": "ratio-2104052-2026-03-31",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/2104052/000210405226000081/nvriwi-20260331.htm",
+    "period": "2026-03-31"
+  },
+  "usage": {
+    "input_tokens": 5332,
+    "output_tokens": 666,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "total Net Debt to Consolidated Adjusted EBITDA ratio",
+        "metric": "net_leverage",
+        "period_end": "2026-03-31",
+        "actual": 4.98,
+        "limit": 5.5,
+        "direction": "max",
+        "facility": "Senior Secured Credit Facilities",
+        "quote": "At March 31, 2026, Enviri was in compliance with these covenants, as the total net debt to Consolidated Adjusted EBITDA ratio was 4.98x, compared to the permitted maximum ratio of 5.50x, and total interest coverage ratio was 2.78x, compared to the permitted minimum ratio of 2.50x."
+      },
+      {
+        "covenant_name": "total interest coverage ratio",
+        "metric": "interest_coverage",
+        "period_end": "2026-03-31",
+        "actual": 2.78,
+        "limit": 2.5,
+        "direction": "min",
+        "facility": "Senior Secured Credit Facilities",
+        "quote": "At March 31, 2026, Enviri was in compliance with these covenants, as the total net debt to Consolidated Adjusted EBITDA ratio was 4.98x, compared to the permitted maximum ratio of 5.50x, and total interest coverage ratio was 2.78x, compared to the permitted minimum ratio of 2.50x."
+      }
+    ],
+    "notes": "The excerpt states actual values only at March 31, 2026. Under the November 2025 amendment, the net leverage maximum is 5.50x for the March, June and September 2026 quarters, 5.00x for the December 2026 quarter and 4.50x for the March 2027 quarter. After the Clean Earth distribution, the limit becomes 3.00x. The minimum interest coverage is 2.50x. About $1.1 billion of debt, including the full revolver balance, was repaid on June 1, 2026 in connection with the Clean Earth sale to Veolia. The excerpt also includes the New Enviri (post-transaction) presentation of the same Credit Agreement covenants; these are not listed again as separate entries."
+  }
+}

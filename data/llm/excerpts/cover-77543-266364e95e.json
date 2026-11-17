@@ -1,0 +1,24 @@
+{
+  "job": "cover-77543-266364e95e",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/77543/000007754324000092/tpc-indenture2024conformed.htm"
+  },
+  "usage": {
+    "input_tokens": 4070,
+    "output_tokens": 107,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "is_loan_document": false,
+    "kind": "other",
+    "title": "Indenture - 11.875% Senior Notes due 2029",
+    "dated": "2024-04-22",
+    "amends_dated": null,
+    "primary_bank_facility": false,
+    "includes_conformed_copy": false,
+    "borrower": "Tutor Perini Corporation"
+  }
+}

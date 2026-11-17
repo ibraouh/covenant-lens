@@ -1,0 +1,40 @@
+{
+  "job": "ratio-1319947-2026-08-01",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1319947/000131994726000050/dsw-20260801.htm",
+    "period": "2026-08-01"
+  },
+  "usage": {
+    "input_tokens": 3044,
+    "output_tokens": 475,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "fixed charge coverage ratio",
+        "metric": "fixed_charge_coverage",
+        "period_end": "2026-08-01",
+        "actual": null,
+        "limit": 1.0,
+        "direction": "min",
+        "facility": "ABL Revolver",
+        "quote": "The ABL Revolver requires us to maintain a fixed charge coverage ratio covenant of not less than 1:1 when availability is less than the greater of $47.3 million or 10.0% of the maximum borrowing amount."
+      },
+      {
+        "covenant_name": "consolidated net leverage ratio",
+        "metric": "net_leverage",
+        "period_end": "2026-08-01",
+        "actual": null,
+        "limit": 2.5,
+        "direction": "max",
+        "facility": "Term Loan",
+        "quote": "At any time that liquidity is less than $100.0 million, the Term Loan requires a maximum consolidated net leverage ratio as of the last day of each fiscal month of 2.50 to 1.00, calculated on a trailing twelve-month basis."
+      }
+    ],
+    "notes": "Both covenants are springing: the ABL FCCR (min 1.0x) applies only when availability is below the greater of $47.3M or 10% of the maximum borrowing amount. The Term Loan net leverage test (max 2.50x, TTM, tested monthly) applies only when liquidity is below $100.0M. The company states it was in compliance with all financial covenants as of August 1, 2026. No actual ratio values are disclosed."
+  }
+}

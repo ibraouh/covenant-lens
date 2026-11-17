@@ -1,0 +1,30 @@
+{
+  "job": "ratio-1823239-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1823239/000182323926000068/mrvi-20260930.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 4987,
+    "output_tokens": 1034,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "senior secured first lien net leverage ratio",
+        "metric": "secured_net_leverage",
+        "period_end": "2026-12-31",
+        "actual": null,
+        "limit": 6.5,
+        "direction": "max",
+        "facility": "2026 Credit Agreement",
+        "quote": "Commencing December 31, 2026, the 2026 Credit Agreement includes a financial performance covenant that requires the Company to maintain a senior secured first lien net leverage ratio not to exceed 6.50:1.00 if revolving exposure, excluding undrawn letters of credit, is equal to or greater than 40.0% of the aggregate revolving commitments."
+      }
+    ],
+    "notes": "The only financial covenant is a springing maximum of 6.50:1.00 on the senior secured first lien net leverage ratio. It is first tested on December 31, 2026, so it was not yet in force at the September 30, 2026 period end. It applies only when revolver usage, excluding undrawn letters of credit, is at least 40% of commitments, and there were no revolver borrowings at September 30, 2026. The filing does not disclose an actual ratio; it says only that the company was in compliance with its covenants as of September 30, 2026. Several ratio levels were left out because they only set pricing or excess-cash-flow sweep percentages, not covenant limits: the 3.00x interest stepdown and the 3.50x/3.00x sweep tiers."
+  }
+}

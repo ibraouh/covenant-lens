@@ -1,0 +1,50 @@
+{
+  "job": "ratio-1367644-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1367644/000136764426000112/ebs-20260930.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 5371,
+    "output_tokens": 1507,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "consolidated total leverage ratio",
+        "metric": "total_leverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 5.25,
+        "direction": "max",
+        "facility": "Term Loan Agreement",
+        "quote": "including the requirement that the consolidated total leverage ratio (as defined in the Term Loan Agreement) not exceed 5.25 to 1.00, tested every fiscal quarter commencing with the fiscal quarter ending September 30, 2026."
+      },
+      {
+        "covenant_name": "consolidated total leverage ratio",
+        "metric": "total_leverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 5.25,
+        "direction": "max",
+        "facility": "Revolving Credit Agreement",
+        "quote": "Pursuant to the ABL Amendment, the minimum liquidity covenant was replaced with (i) a consolidated total leverage ratio requirement not to exceed 5.25 to 1.00, tested quarterly, and (ii) a fixed charge coverage ratio requirement of at least 1.00 to 1.00 during any applicable Covenant Testing Period (which is triggered if excess availability falls below a specified threshold under the Revolving Credit Agreement)."
+      },
+      {
+        "covenant_name": "fixed charge coverage ratio",
+        "metric": "fixed_charge_coverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 1.0,
+        "direction": "min",
+        "facility": "Revolving Credit Agreement",
+        "quote": "Pursuant to the ABL Amendment, the minimum liquidity covenant was replaced with (i) a consolidated total leverage ratio requirement not to exceed 5.25 to 1.00, tested quarterly, and (ii) a fixed charge coverage ratio requirement of at least 1.00 to 1.00 during any applicable Covenant Testing Period (which is triggered if excess availability falls below a specified threshold under the Revolving Credit Agreement)."
+      }
+    ],
+    "notes": "The filing does not disclose actual ratio values. It states only that the company was in compliance with all covenants under both agreements as of September 30, 2026. The revolver fixed charge coverage covenant is springing: it applies only during a Covenant Testing Period triggered by low excess availability. Several ratios were left out. The 1.75x consolidated secured leverage ratio is a condition for drawing the delayed draw term loan, not a maintenance covenant. The 4.00x total leverage threshold only sets the revolver interest margin step-down. The total net leverage step-downs only affect the excess cash flow sweep. The revolver's earlier $50.0 million minimum liquidity covenant was replaced by the ABL Amendment."
+  }
+}

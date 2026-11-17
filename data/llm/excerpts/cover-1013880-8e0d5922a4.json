@@ -1,0 +1,24 @@
+{
+  "job": "cover-1013880-8e0d5922a4",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1013880/000155837024002207/ttec-20231231xex10d98.htm"
+  },
+  "usage": {
+    "input_tokens": 3366,
+    "output_tokens": 118,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "is_loan_document": true,
+    "kind": "amendment",
+    "title": "Eighth Amendment to Amended and Restated Credit Agreement",
+    "dated": "2024-02-26",
+    "amends_dated": "2013-06-03",
+    "primary_bank_facility": true,
+    "includes_conformed_copy": false,
+    "borrower": "TTEC Holdings, Inc."
+  }
+}

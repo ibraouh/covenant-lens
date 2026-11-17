@@ -1,0 +1,20 @@
+{
+  "job": "ebitda-1345126-7ced9b396c",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1345126/000134512626000062/exhibit991earningsreleaseq.htm",
+    "filed": "2026-08-10"
+  },
+  "usage": {
+    "input_tokens": 1728,
+    "output_tokens": 201,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "label": "Adjusted EBITDA",
+    "figures": [],
+    "notes": "The excerpt mentions Adjusted EBITDA growth only qualitatively (e.g., BOA, PrimaLoft and The Honey Pot up more than 25%, Arnold up nearly 50%), and those references are to individual businesses, not company-wide figures. No consolidated Adjusted EBITDA number and no reconciliation table appear in the excerpt, so no figures are reported. The GAAP results shown are revenue of $424.0 million and net income from continuing operations of $81.9 million for Q2 2026."
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "job": "cover-832101-09db6fdf14",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/832101/000083210122000008/iex-20211231xex1033.htm"
+  },
+  "usage": {
+    "input_tokens": 3125,
+    "output_tokens": 118,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "is_loan_document": true,
+    "kind": "amendment",
+    "title": "Amendment No. 1 to Credit Agreement (LIBOR Transition)",
+    "dated": "2021-12-21",
+    "amends_dated": "2019-05-31",
+    "primary_bank_facility": true,
+    "includes_conformed_copy": false,
+    "borrower": "IDEX Corporation"
+  }
+}

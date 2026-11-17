@@ -1,0 +1,22 @@
+{
+  "auto": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/18230/000001823022000199/ex104-thirdamendmendandres.htm",
+      "title": "Third Amended and Restated Credit Agreement (Three-Year Facility)",
+      "dated": "2022-09-01",
+      "kind": "amended_and_restated",
+      "filed": "2022-09-06"
+    }
+  ],
+  "notes": [],
+  "used": [
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/18230/000001823022000199/ex104-thirdamendmendandres.htm",
+      "title": "Third Amended and Restated Credit Agreement (Three-Year Facility)",
+      "dated": "2022-09-01",
+      "kind": "amended_and_restated",
+      "filed": "2022-09-06"
+    }
+  ],
+  "source": "automatic"
+}

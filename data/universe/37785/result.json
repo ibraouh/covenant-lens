@@ -1,0 +1,931 @@
+{
+  "cik": "37785",
+  "name": "FMC CORP",
+  "borrower": "FMC Corporation",
+  "gold": false,
+  "stale": true,
+  "agreement_date": "2022-06-17",
+  "facility": "$2.0 billion multicurrency revolving credit facility (including $400M letter of credit sublimit and $50M swingline; accordion to $2.75 billion), maturing six years after the June 2022 Effective Date (extendable).",
+  "chain": {
+    "auto": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/37785/000119312526163937/d81650dex101.htm",
+        "title": "Amendment No. 6",
+        "dated": "2026-04-16",
+        "kind": "amendment",
+        "filed": "2026-04-20"
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/37785/000119312526279416/d123428dex101.htm",
+        "title": "Amendment No. 7",
+        "dated": "2026-06-16",
+        "kind": "amendment",
+        "filed": "2026-06-23"
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/37785/000119312526427896/d201698dex101.htm",
+        "title": "Amendment, Consent and Waiver No. 8",
+        "dated": "2026-10-15",
+        "kind": "amendment",
+        "filed": "2026-10-21"
+      }
+    ],
+    "notes": [
+      "Amendment No. 6 restates the full agreement; used as the base"
+    ],
+    "used": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/37785/000119312526163937/d81650dex101.htm",
+        "title": "Amendment No. 6",
+        "dated": "2026-04-16",
+        "kind": "amendment",
+        "filed": "2026-04-20"
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/37785/000119312526279416/d123428dex101.htm",
+        "title": "Amendment No. 7",
+        "dated": "2026-06-16",
+        "kind": "amendment",
+        "filed": "2026-06-23"
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/37785/000119312526427896/d201698dex101.htm",
+        "title": "Amendment, Consent and Waiver No. 8",
+        "dated": "2026-10-15",
+        "kind": "amendment",
+        "filed": "2026-10-21"
+      }
+    ],
+    "source": "automatic"
+  },
+  "covenants": [
+    {
+      "name": "Leverage Ratio",
+      "metric": "net_leverage",
+      "direction": "max",
+      "section": "Section 6.01(a)",
+      "quote": "The U.S. Borrower shall maintain as of the last day of each Fiscal Quarter a Leverage Ratio of not more than 3.75:1.00",
+      "quote_verified": true,
+      "thresholds": [
+        {
+          "value": 6.75,
+          "applies_from": "2026-12-31"
+        },
+        {
+          "value": 6.0,
+          "applies_from": "2028-03-31"
+        },
+        {
+          "value": 5.5,
+          "applies_from": "2028-06-30"
+        },
+        {
+          "value": 5.25,
+          "applies_from": "2028-09-30"
+        },
+        {
+          "value": 4.5,
+          "applies_from": "2028-12-31"
+        },
+        {
+          "value": 3.75,
+          "applies_from": "2029-03-31"
+        }
+      ],
+      "test_frequency": "quarterly",
+      "springing_condition": null,
+      "addbacks": [
+        "stock_comp",
+        "impairments",
+        "restructuring",
+        "other"
+      ],
+      "cash_netting_cap": null,
+      "cash_netting_cap_pct_ebitda": null,
+      "rows": [
+        {
+          "period_end": "2024-12-31",
+          "before_agreement": false,
+          "limit": null,
+          "xbrl": 2.720582408874802,
+          "adjusted": null,
+          "reported": null,
+          "reported_limit": null,
+          "reported_quote": null,
+          "reported_url": null,
+          "ltm_ebitda_xbrl": 1009600000.0,
+          "ltm_ebitda_adjusted": null,
+          "debt": 3104000000,
+          "cash": 357300000,
+          "ltm_interest": 235800000
+        },
+        {
+          "period_end": "2025-03-31",
+          "before_agreement": false,
+          "limit": null,
+          "xbrl": 2.8854812061131763,
+          "adjusted": null,
+          "reported": null,
+          "reported_limit": null,
+          "reported_quote": null,
+          "reported_url": null,
+          "ltm_ebitda_xbrl": 968400000.0,
+          "ltm_ebitda_adjusted": null,
+          "debt": 3109600000,
+          "cash": 315300000,
+          "ltm_interest": 224200000
+        },
+        {
+          "period_end": "2025-06-30",
+          "before_agreement": false,
+          "limit": null,
+          "xbrl": 3.0305359368508515,
+          "adjusted": null,
+          "reported": null,
+          "reported_limit": null,
+          "reported_quote": null,
+          "reported_url": null,
+          "ltm_ebitda_xbrl": 962800000.0,
+          "ltm_ebitda_adjusted": null,
+          "debt": 3356000000,
+          "cash": 438200000,
+          "ltm_interest": 221600000
+        },
+        {
+          "period_end": "2025-09-30",
+          "before_agreement": false,
+          "limit": null,
+          "xbrl": 6.134648370497427,
+          "adjusted": null,
+          "reported": null,
+          "reported_limit": null,
+          "reported_quote": null,
+          "reported_url": null,
+          "ltm_ebitda_xbrl": 466400000.0,
+          "ltm_ebitda_adjusted": null,
+          "debt": 3358900000,
+          "cash": 497700000,
+          "ltm_interest": 227000000
+        },
+        {
+          "period_end": "2025-12-31",
+          "before_agreement": false,
+          "limit": null,
+          "xbrl": null,
+          "adjusted": null,
+          "reported": 4.58,
+          "reported_limit": 6.0,
+          "reported_quote": "Our actual leverage for the four consecutive quarters ended December 31, 2025 was 4.58 , which is below the maximum leverage of 6.00 .",
+          "reported_url": "https://www.sec.gov/Archives/edgar/data/37785/000003778526000041/fmc-20251231.htm",
+          "ltm_ebitda_xbrl": -1159200000.0,
+          "ltm_ebitda_adjusted": null,
+          "debt": 3355400000,
+          "cash": 584500000,
+          "ltm_interest": 239600000
+        },
+        {
+          "period_end": "2026-03-31",
+          "before_agreement": false,
+          "limit": null,
+          "xbrl": null,
+          "adjusted": null,
+          "reported": 5.67,
+          "reported_limit": 6.0,
+          "reported_quote": "However, our actual leverage was 5.67 , which is below previously applicable maximum leverage of 6.00 .",
+          "reported_url": "https://www.sec.gov/Archives/edgar/data/37785/000003778526000096/fmc-20260331.htm",
+          "ltm_ebitda_xbrl": -1220400000.0,
+          "ltm_ebitda_adjusted": null,
+          "debt": 3360700000,
+          "cash": 390900000,
+          "ltm_interest": 254300000
+        },
+        {
+          "period_end": "2026-06-30",
+          "before_agreement": false,
+          "limit": null,
+          "xbrl": null,
+          "adjusted": 4.705802968960864,
+          "reported": null,
+          "reported_limit": null,
+          "reported_quote": null,
+          "reported_url": null,
+          "ltm_ebitda_xbrl": -1341500000.0,
+          "ltm_ebitda_adjusted": 741000000.0,
+          "debt": 3963600000,
+          "cash": 476600000,
+          "ltm_interest": 264600000
+        },
+        {
+          "period_end": "2026-09-30",
+          "before_agreement": false,
+          "limit": null,
+          "xbrl": null,
+          "adjusted": 3.0344924812030074,
+          "reported": null,
+          "reported_limit": null,
+          "reported_quote": "The maximum leverage ratio was not tested for the four consecutive quarters ended September 30, 2026 in connection with the April 2026 Amendment.",
+          "reported_url": "https://www.sec.gov/Archives/edgar/data/37785/000003778526000171/fmc-20260930.htm",
+          "ltm_ebitda_xbrl": -1933400000.0,
+          "ltm_ebitda_adjusted": 1064000000.0,
+          "debt": 3964500000,
+          "cash": 735800000,
+          "ltm_interest": 274100000
+        }
+      ],
+      "latest": {
+        "period_end": "2026-03-31",
+        "basis": "reported",
+        "value": 5.67,
+        "limit": 6.0,
+        "headroom": 0.055000000000000014,
+        "cushion": 0.05500000000000005
+      },
+      "steps": [
+        {
+          "from": "2026-12-31",
+          "limit": 6.75,
+          "headroom_at_today": 0.16
+        },
+        {
+          "from": "2028-03-31",
+          "limit": 6.0,
+          "headroom_at_today": 0.055000000000000014
+        },
+        {
+          "from": "2028-06-30",
+          "limit": 5.5,
+          "headroom_at_today": -0.030909090909090896
+        },
+        {
+          "from": "2028-09-30",
+          "limit": 5.25,
+          "headroom_at_today": -0.07999999999999999
+        },
+        {
+          "from": "2028-12-31",
+          "limit": 4.5,
+          "headroom_at_today": -0.26
+        },
+        {
+          "from": "2029-03-31",
+          "limit": 3.75,
+          "headroom_at_today": -0.512
+        }
+      ]
+    },
+    {
+      "name": "Interest Coverage Ratio",
+      "metric": "interest_coverage",
+      "direction": "min",
+      "section": "Section 6.01(b)",
+      "quote": "The U.S. Borrower shall maintain an Interest Coverage Ratio, as determined as of the last day of each Fiscal Quarter, for the four consecutive Fiscal Quarters ending on such day, of not less than 3.50 to 1.00",
+      "quote_verified": true,
+      "thresholds": [
+        {
+          "value": 2.0,
+          "applies_from": "2025-12-31"
+        },
+        {
+          "value": 2.25,
+          "applies_from": "2027-09-30"
+        },
+        {
+          "value": 2.5,
+          "applies_from": "2028-03-31"
+        },
+        {
+          "value": 3.5,
+          "applies_from": "2029-03-31"
+        }
+      ],
+      "test_frequency": "quarterly",
+      "springing_condition": null,
+      "addbacks": [
+        "stock_comp",
+        "impairments",
+        "restructuring",
+        "other"
+      ],
+      "cash_netting_cap": null,
+      "cash_netting_cap_pct_ebitda": null,
+      "rows": [
+        {
+          "period_end": "2024-12-31",
+          "before_agreement": false,
+          "limit": null,
+          "xbrl": 4.281594571670907,
+          "adjusted": null,
+          "reported": null,
+          "reported_limit": null,
+          "reported_quote": null,
+          "reported_url": null,
+          "ltm_ebitda_xbrl": 1009600000.0,
+          "ltm_ebitda_adjusted": null,
+          "debt": 3104000000,
+          "cash": 357300000,
+          "ltm_interest": 235800000
+        },
+        {
+          "period_end": "2025-03-31",
+          "before_agreement": false,
+          "limit": null,
+          "xbrl": 4.31935771632471,
+          "adjusted": null,
+          "reported": null,
+          "reported_limit": null,
+          "reported_quote": null,
+          "reported_url": null,
+          "ltm_ebitda_xbrl": 968400000.0,
+          "ltm_ebitda_adjusted": null,
+          "debt": 3109600000,
+          "cash": 315300000,
+          "ltm_interest": 224200000
+        },
+        {
+          "period_end": "2025-06-30",
+          "before_agreement": false,
+          "limit": null,
+          "xbrl": 4.344765342960288,
+          "adjusted": null,
+          "reported": null,
+          "reported_limit": null,
+          "reported_quote": null,
+          "reported_url": null,
+          "ltm_ebitda_xbrl": 962800000.0,
+          "ltm_ebitda_adjusted": null,
+          "debt": 3356000000,
+          "cash": 438200000,
+          "ltm_interest": 221600000
+        },
+        {
+          "period_end": "2025-09-30",
+          "before_agreement": false,
+          "limit": null,
+          "xbrl": 2.054625550660793,
+          "adjusted": null,
+          "reported": null,
+          "reported_limit": null,
+          "reported_quote": null,
+          "reported_url": null,
+          "ltm_ebitda_xbrl": 466400000.0,
+          "ltm_ebitda_adjusted": null,
+          "debt": 3358900000,
+          "cash": 497700000,
+          "ltm_interest": 227000000
+        },
+        {
+          "period_end": "2025-12-31",
+          "before_agreement": false,
+          "limit": 2.0,
+          "xbrl": null,
+          "adjusted": null,
+          "reported": 3.48,
+          "reported_limit": 2.0,
+          "reported_quote": "Our actual interest coverage for the four consecutive quarters ended December 31, 2025 was 3.48 , which is above the minimum interest coverage of 2.00 .",
+          "reported_url": "https://www.sec.gov/Archives/edgar/data/37785/000003778526000041/fmc-20251231.htm",
+          "ltm_ebitda_xbrl": -1159200000.0,
+          "ltm_ebitda_adjusted": null,
+          "debt": 3355400000,
+          "cash": 584500000,
+          "ltm_interest": 239600000
+        },
+        {
+          "period_end": "2026-03-31",
+          "before_agreement": false,
+          "limit": 2.0,
+          "xbrl": null,
+          "adjusted": null,
+          "reported": 3.1,
+          "reported_limit": 2.0,
+          "reported_quote": "Our actual interest coverage for the four consecutive quarters ended March 31, 2026 was 3.10 , which is above the minimum interest coverage of 2.00 .",
+          "reported_url": "https://www.sec.gov/Archives/edgar/data/37785/000003778526000096/fmc-20260331.htm",
+          "ltm_ebitda_xbrl": -1220400000.0,
+          "ltm_ebitda_adjusted": null,
+          "debt": 3360700000,
+          "cash": 390900000,
+          "ltm_interest": 254300000
+        },
+        {
+          "period_end": "2026-06-30",
+          "before_agreement": false,
+          "limit": 2.0,
+          "xbrl": null,
+          "adjusted": 2.800453514739229,
+          "reported": 2.78,
+          "reported_limit": 2.0,
+          "reported_quote": "Our actual interest coverage for the four consecutive quarters ended June 30, 2026 was 2.78 , which is above the minimum interest coverage of 2.00 .",
+          "reported_url": "https://www.sec.gov/Archives/edgar/data/37785/000003778526000142/fmc-20260630.htm",
+          "ltm_ebitda_xbrl": -1341500000.0,
+          "ltm_ebitda_adjusted": 741000000.0,
+          "debt": 3963600000,
+          "cash": 476600000,
+          "ltm_interest": 264600000
+        },
+        {
+          "period_end": "2026-09-30",
+          "before_agreement": false,
+          "limit": 2.0,
+          "xbrl": null,
+          "adjusted": 3.8817949653411166,
+          "reported": 2.28,
+          "reported_limit": 2.0,
+          "reported_quote": "Our actual interest coverage for the four consecutive quarters ended September 30, 2026 was 2.28 , which is above the minimum interest coverage of 2.00 .",
+          "reported_url": "https://www.sec.gov/Archives/edgar/data/37785/000003778526000171/fmc-20260930.htm",
+          "ltm_ebitda_xbrl": -1933400000.0,
+          "ltm_ebitda_adjusted": 1064000000.0,
+          "debt": 3964500000,
+          "cash": 735800000,
+          "ltm_interest": 274100000
+        }
+      ],
+      "latest": {
+        "period_end": "2026-09-30",
+        "basis": "reported",
+        "value": 2.28,
+        "limit": 2.0,
+        "headroom": 0.1399999999999999,
+        "cushion": 0.12280701754385959
+      },
+      "steps": [
+        {
+          "from": "2027-09-30",
+          "limit": 2.25,
+          "headroom_at_today": 0.013333333333333246
+        },
+        {
+          "from": "2028-03-31",
+          "limit": 2.5,
+          "headroom_at_today": -0.08800000000000008
+        },
+        {
+          "from": "2029-03-31",
+          "limit": 3.5,
+          "headroom_at_today": -0.34857142857142864
+        }
+      ]
+    },
+    {
+      "name": "Secured Leverage Ratio",
+      "metric": "secured_net_leverage",
+      "direction": "max",
+      "section": "Section 6.01(c)",
+      "quote": "The U.S. Borrower shall maintain as of the last day of each Fiscal Quarter a Secured Leverage Ratio of not more than 3.50 to 1.00.",
+      "quote_verified": true,
+      "thresholds": [
+        {
+          "value": 3.5,
+          "applies_from": null
+        }
+      ],
+      "test_frequency": "quarterly",
+      "springing_condition": null,
+      "addbacks": [
+        "stock_comp",
+        "impairments",
+        "restructuring",
+        "other"
+      ],
+      "cash_netting_cap": null,
+      "cash_netting_cap_pct_ebitda": null,
+      "rows": [
+        {
+          "period_end": "2024-12-31",
+          "before_agreement": false,
+          "limit": 3.5,
+          "xbrl": null,
+          "adjusted": null,
+          "reported": null,
+          "reported_limit": null,
+          "reported_quote": null,
+          "reported_url": null,
+          "ltm_ebitda_xbrl": 1009600000.0,
+          "ltm_ebitda_adjusted": null,
+          "debt": 3104000000,
+          "cash": 357300000,
+          "ltm_interest": 235800000
+        },
+        {
+          "period_end": "2025-03-31",
+          "before_agreement": false,
+          "limit": 3.5,
+          "xbrl": null,
+          "adjusted": null,
+          "reported": null,
+          "reported_limit": null,
+          "reported_quote": null,
+          "reported_url": null,
+          "ltm_ebitda_xbrl": 968400000.0,
+          "ltm_ebitda_adjusted": null,
+          "debt": 3109600000,
+          "cash": 315300000,
+          "ltm_interest": 224200000
+        },
+        {
+          "period_end": "2025-06-30",
+          "before_agreement": false,
+          "limit": 3.5,
+          "xbrl": null,
+          "adjusted": null,
+          "reported": null,
+          "reported_limit": null,
+          "reported_quote": null,
+          "reported_url": null,
+          "ltm_ebitda_xbrl": 962800000.0,
+          "ltm_ebitda_adjusted": null,
+          "debt": 3356000000,
+          "cash": 438200000,
+          "ltm_interest": 221600000
+        },
+        {
+          "period_end": "2025-09-30",
+          "before_agreement": false,
+          "limit": 3.5,
+          "xbrl": null,
+          "adjusted": null,
+          "reported": null,
+          "reported_limit": null,
+          "reported_quote": null,
+          "reported_url": null,
+          "ltm_ebitda_xbrl": 466400000.0,
+          "ltm_ebitda_adjusted": null,
+          "debt": 3358900000,
+          "cash": 497700000,
+          "ltm_interest": 227000000
+        },
+        {
+          "period_end": "2025-12-31",
+          "before_agreement": false,
+          "limit": 3.5,
+          "xbrl": null,
+          "adjusted": null,
+          "reported": null,
+          "reported_limit": null,
+          "reported_quote": null,
+          "reported_url": null,
+          "ltm_ebitda_xbrl": -1159200000.0,
+          "ltm_ebitda_adjusted": null,
+          "debt": 3355400000,
+          "cash": 584500000,
+          "ltm_interest": 239600000
+        },
+        {
+          "period_end": "2026-03-31",
+          "before_agreement": false,
+          "limit": 3.5,
+          "xbrl": null,
+          "adjusted": null,
+          "reported": 1.27,
+          "reported_limit": 3.5,
+          "reported_quote": "Our actual maximum secured leverage ratio for the four consecutive quarters ended March 31, 2026 was 1.27 , which is below the newly established maximum secured leverage ratio of 3.50 .",
+          "reported_url": "https://www.sec.gov/Archives/edgar/data/37785/000003778526000096/fmc-20260331.htm",
+          "ltm_ebitda_xbrl": -1220400000.0,
+          "ltm_ebitda_adjusted": null,
+          "debt": 3360700000,
+          "cash": 390900000,
+          "ltm_interest": 254300000
+        },
+        {
+          "period_end": "2026-06-30",
+          "before_agreement": false,
+          "limit": 3.5,
+          "xbrl": null,
+          "adjusted": null,
+          "reported": 1.66,
+          "reported_limit": 3.5,
+          "reported_quote": "Our actual maximum secured leverage ratio for the four consecutive quarters ended June 30, 2026 was 1.66 , which is below the newly established maximum secured leverage ratio of 3.50 .",
+          "reported_url": "https://www.sec.gov/Archives/edgar/data/37785/000003778526000142/fmc-20260630.htm",
+          "ltm_ebitda_xbrl": -1341500000.0,
+          "ltm_ebitda_adjusted": 741000000.0,
+          "debt": 3963600000,
+          "cash": 476600000,
+          "ltm_interest": 264600000
+        },
+        {
+          "period_end": "2026-09-30",
+          "before_agreement": false,
+          "limit": 3.5,
+          "xbrl": null,
+          "adjusted": null,
+          "reported": 1.37,
+          "reported_limit": 3.5,
+          "reported_quote": "Our actual maximum secured leverage ratio for the four consecutive quarters ended September 30, 2026 was 1.37 , which is below the newly established maximum secured leverage ratio of 3.50 .",
+          "reported_url": "https://www.sec.gov/Archives/edgar/data/37785/000003778526000171/fmc-20260930.htm",
+          "ltm_ebitda_xbrl": -1933400000.0,
+          "ltm_ebitda_adjusted": 1064000000.0,
+          "debt": 3964500000,
+          "cash": 735800000,
+          "ltm_interest": 274100000
+        }
+      ],
+      "latest": {
+        "period_end": "2026-09-30",
+        "basis": "reported",
+        "value": 1.37,
+        "limit": 3.5,
+        "headroom": 0.6085714285714285,
+        "cushion": 0.6085714285714285
+      },
+      "steps": []
+    }
+  ],
+  "notes": "Covenants reflect Amendment No. 6 (Apr 16, 2026); Amendments No. 7 and 8 did not change the financial covenants. Leverage Ratio: during the Covenant Relief Period (Nov 7, 2023 to the earlier of Dec 31, 2028 or the borrower's election to terminate, which requires leverage <=3.75x and interest coverage >=3.50x) the step table applies; afterward the base 3.75x (and 3.50x interest coverage) levels apply, so the 2029-03-31 dates assume the relief period runs to Dec 31, 2028. Amendment 6 waived the Q1 2026 leverage test, and the Leverage Ratio is not tested for the quarters ending Mar 31, Jun 30 and Sep 30, 2026; interest coverage is still tested in those quarters. Both leverage ratios net only unrestricted cash above a $150M floor; this is a floor, not a cap, and escrowed debt proceeds count as unrestricted cash. EBITDA adds back all non-cash charges (which covers stock comp), Non-Recurring Items (restructuring provisions, discontinued operations, special reserves, asset write-downs/write-offs), and M&A/divestiture fees, plus up to $100M of non-recurring cash restructuring charges during the relief period. It also gives pro forma credit for acquisitions. There are no cost-savings or synergy add-backs. Amendment 6 converted the facility to a secured, guaranteed structure (Guarantee and Collateral Agreement, subsidiary guarantors in Eligible Jurisdictions, intercompany subordination) and added the Secured Leverage covenant. It also permits pari passu secured debt on the Collateral subject to covenant compliance, and a First Lien Pari Passu Intercreditor Agreement dated June 5, 2026 exists with U.S. Bank as Additional First Lien Agent. Relief-period restrictions: dividends capped at $0.08/quarter unless pro forma leverage <=3.75x; buybacks limited; non-guarantor subsidiary debt capped at $350M. Amendment 7 permits a first-priority lien on the Rimisoxafen ('Rimi IP') in favor of Corteva securing up to $200M of refund obligations, released the lenders' lien on that IP, and requires re-grant when the Corteva lien ends. Amendment 8 waived missed joinder deadlines (New US LLC guarantor joinder; New Dutch BV intercompany subordination joinder). It also released liens on FMC India equity, contributed cash (<=$25M), cancelled receivables and intercompany claims, and releases two guarantors at the closing of the FMC India sale, with reinstatement if the sale does not close by Dec 31, 2026. Sale proceeds must go to repaying debt under the facility or to general corporate purposes. Events of default include a Change of Control.",
+  "terms": [
+    {
+      "kind": "j_crew_blocker",
+      "present": "yes",
+      "section": "Section 6.04(m)",
+      "quote": "The U.S. Borrower shall not, and shall not permit any other Loan Party to, dispose of, or otherwise transfer (including by way of license, distribution or contribution) any Material Assets to any Non-Guarantor Subsidiary (including, for the avoidance of doubt, FMC Finance B.V.) or any other Affiliate of the U.S. Borrower (other than a Guarantor)",
+      "summary": "There is no unrestricted subsidiary concept. Loan Parties may not transfer or license Material Assets (including Material IP) to any non-guarantor subsidiary or affiliate, except non-exclusive ordinary-course licenses and transfers among Loan Parties. Changing this requires all lenders under Section 9.01. Amendment 7 separately permitted a lien on the Rimi IP for Corteva.",
+      "quote_verified": true
+    },
+    {
+      "kind": "serta_protection",
+      "present": "yes",
+      "section": "Section 9.01",
+      "quote": "subordinate, directly or indirectly (x) the Liens on all or a material portion of the Collateral, (y) the guarantees under Article X (Guaranty) or the Guarantee and Collateral Agreement in right of payment, or (z) the Obligations in right of payment",
+      "summary": "Consent of all lenders is required to subordinate the liens on all or a material portion of the collateral, or to subordinate the guarantees or Obligations in right of payment. Amending pro rata sharing or the payment waterfall also requires all lenders.",
+      "quote_verified": true
+    },
+    {
+      "kind": "chewy_protection",
+      "present": "yes",
+      "section": "Section 8.09(e)",
+      "quote": "(i) all or substantially all of the equity interests in such Subsidiary Guarantor are conveyed, disposed of or otherwise transferred to a Person that is not a Loan Party in a transaction not restricted by this Agreement (such that, after giving effect thereto, such Person ceases to be a Subsidiary)",
+      "summary": "A subsidiary guarantor is released only if substantially all of its equity is sold to a non-Loan Party so that it is no longer a Subsidiary. It must also hold no Material Assets, and the sale must be a bona fide arm's-length deal not done to obtain the release; merely ceasing to be wholly owned does not release it.",
+      "quote_verified": true
+    },
+    {
+      "kind": "unrestricted_sub_cap",
+      "present": "no",
+      "section": null,
+      "quote": null,
+      "summary": "The agreement has no unrestricted subsidiary concept and no cap on designating or investing in such subsidiaries. Transfers of Material Assets to non-guarantors are restricted separately.",
+      "quote_verified": null
+    },
+    {
+      "kind": "addback_cap",
+      "present": "partial",
+      "section": "Section 1.01 (definition of EBITDA)",
+      "quote": "(vii) during the Covenant Relief Period, non-recurring cash restructuring charges in an amount not to exceed $100,000,000",
+      "summary": "Non-recurring cash restructuring charges are capped at $100M, and only during the Covenant Relief Period. There is no add-back for projected cost savings or synergies. Restructuring provisions within Non-Recurring Items and non-cash charges are uncapped.",
+      "quote_verified": true
+    },
+    {
+      "kind": "equity_cure",
+      "present": "no",
+      "section": null,
+      "quote": null,
+      "summary": "The agreement has no equity cure right for financial covenant defaults.",
+      "quote_verified": null
+    }
+  ],
+  "addback_cap_pct": null,
+  "cov_lite": false,
+  "tightest": {
+    "name": "Leverage Ratio",
+    "period_end": "2026-03-31",
+    "basis": "reported",
+    "value": 5.67,
+    "limit": 6.0,
+    "headroom": 0.055000000000000014,
+    "cushion": 0.05500000000000005
+  },
+  "accuracy": [
+    {
+      "metric": "total_leverage",
+      "period_end": "2025-12-31",
+      "reported": 4.58,
+      "reported_limit": 6.0,
+      "covenant_found": true,
+      "matched": "Leverage Ratio",
+      "our_limit": null,
+      "limit_match": null,
+      "not_graded": "before the latest amendment",
+      "xbrl": null,
+      "adjusted": null,
+      "xbrl_error": null,
+      "adjusted_error": null,
+      "facility": "Revolving Credit Facility",
+      "quote": "Our actual leverage for the four consecutive quarters ended December 31, 2025 was 4.58 , which is below the maximum leverage of 6.00 .",
+      "url": "https://www.sec.gov/Archives/edgar/data/37785/000003778526000041/fmc-20251231.htm"
+    },
+    {
+      "metric": "interest_coverage",
+      "period_end": "2025-12-31",
+      "reported": 3.48,
+      "reported_limit": 2.0,
+      "covenant_found": true,
+      "matched": "Interest Coverage Ratio",
+      "our_limit": 2.0,
+      "limit_match": null,
+      "not_graded": "before the latest amendment",
+      "xbrl": null,
+      "adjusted": null,
+      "xbrl_error": null,
+      "adjusted_error": null,
+      "facility": "Revolving Credit Facility",
+      "quote": "Our actual interest coverage for the four consecutive quarters ended December 31, 2025 was 3.48 , which is above the minimum interest coverage of 2.00 .",
+      "url": "https://www.sec.gov/Archives/edgar/data/37785/000003778526000041/fmc-20251231.htm"
+    },
+    {
+      "metric": "total_leverage",
+      "period_end": "2026-03-31",
+      "reported": 5.67,
+      "reported_limit": 6.0,
+      "covenant_found": true,
+      "matched": "Leverage Ratio",
+      "our_limit": null,
+      "limit_match": null,
+      "not_graded": "before the latest amendment",
+      "xbrl": null,
+      "adjusted": null,
+      "xbrl_error": null,
+      "adjusted_error": null,
+      "facility": "Revolving Credit Facility",
+      "quote": "However, our actual leverage was 5.67 , which is below previously applicable maximum leverage of 6.00 .",
+      "url": "https://www.sec.gov/Archives/edgar/data/37785/000003778526000096/fmc-20260331.htm"
+    },
+    {
+      "metric": "interest_coverage",
+      "period_end": "2026-03-31",
+      "reported": 3.1,
+      "reported_limit": 2.0,
+      "covenant_found": true,
+      "matched": "Interest Coverage Ratio",
+      "our_limit": 2.0,
+      "limit_match": null,
+      "not_graded": "before the latest amendment",
+      "xbrl": null,
+      "adjusted": null,
+      "xbrl_error": null,
+      "adjusted_error": null,
+      "facility": "Revolving Credit Facility",
+      "quote": "Our actual interest coverage for the four consecutive quarters ended March 31, 2026 was 3.10 , which is above the minimum interest coverage of 2.00 .",
+      "url": "https://www.sec.gov/Archives/edgar/data/37785/000003778526000096/fmc-20260331.htm"
+    },
+    {
+      "metric": "secured_leverage",
+      "period_end": "2026-03-31",
+      "reported": 1.27,
+      "reported_limit": 3.5,
+      "covenant_found": true,
+      "matched": "Secured Leverage Ratio",
+      "our_limit": 3.5,
+      "limit_match": null,
+      "not_graded": "before the latest amendment",
+      "xbrl": null,
+      "adjusted": null,
+      "xbrl_error": null,
+      "adjusted_error": null,
+      "facility": "Revolving Credit Facility",
+      "quote": "Our actual maximum secured leverage ratio for the four consecutive quarters ended March 31, 2026 was 1.27 , which is below the newly established maximum secured leverage ratio of 3.50 .",
+      "url": "https://www.sec.gov/Archives/edgar/data/37785/000003778526000096/fmc-20260331.htm"
+    },
+    {
+      "metric": "interest_coverage",
+      "period_end": "2026-06-30",
+      "reported": 2.78,
+      "reported_limit": 2.0,
+      "covenant_found": true,
+      "matched": "Interest Coverage Ratio",
+      "our_limit": 2.0,
+      "limit_match": null,
+      "not_graded": "before the latest amendment",
+      "xbrl": null,
+      "adjusted": 2.800453514739229,
+      "xbrl_error": null,
+      "adjusted_error": 0.007357379402600506,
+      "facility": "Revolving Credit Facility",
+      "quote": "Our actual interest coverage for the four consecutive quarters ended June 30, 2026 was 2.78 , which is above the minimum interest coverage of 2.00 .",
+      "url": "https://www.sec.gov/Archives/edgar/data/37785/000003778526000142/fmc-20260630.htm"
+    },
+    {
+      "metric": "secured_leverage",
+      "period_end": "2026-06-30",
+      "reported": 1.66,
+      "reported_limit": 3.5,
+      "covenant_found": true,
+      "matched": "Secured Leverage Ratio",
+      "our_limit": 3.5,
+      "limit_match": null,
+      "not_graded": "before the latest amendment",
+      "xbrl": null,
+      "adjusted": null,
+      "xbrl_error": null,
+      "adjusted_error": null,
+      "facility": "Revolving Credit Facility",
+      "quote": "Our actual maximum secured leverage ratio for the four consecutive quarters ended June 30, 2026 was 1.66 , which is below the newly established maximum secured leverage ratio of 3.50 .",
+      "url": "https://www.sec.gov/Archives/edgar/data/37785/000003778526000142/fmc-20260630.htm"
+    },
+    {
+      "metric": "interest_coverage",
+      "period_end": "2026-09-30",
+      "reported": 2.28,
+      "reported_limit": 2.0,
+      "covenant_found": true,
+      "matched": "Interest Coverage Ratio",
+      "our_limit": 2.0,
+      "limit_match": null,
+      "not_graded": "before the latest amendment",
+      "xbrl": null,
+      "adjusted": 3.8817949653411166,
+      "xbrl_error": null,
+      "adjusted_error": 0.7025416514654022,
+      "facility": "Revolving Credit Facility",
+      "quote": "Our actual interest coverage for the four consecutive quarters ended September 30, 2026 was 2.28 , which is above the minimum interest coverage of 2.00 .",
+      "url": "https://www.sec.gov/Archives/edgar/data/37785/000003778526000171/fmc-20260930.htm"
+    },
+    {
+      "metric": "secured_leverage",
+      "period_end": "2026-09-30",
+      "reported": 1.37,
+      "reported_limit": 3.5,
+      "covenant_found": true,
+      "matched": "Secured Leverage Ratio",
+      "our_limit": 3.5,
+      "limit_match": null,
+      "not_graded": "before the latest amendment",
+      "xbrl": null,
+      "adjusted": null,
+      "xbrl_error": null,
+      "adjusted_error": null,
+      "facility": "Revolving Credit Facility",
+      "quote": "Our actual maximum secured leverage ratio for the four consecutive quarters ended September 30, 2026 was 1.37 , which is below the newly established maximum secured leverage ratio of 3.50 .",
+      "url": "https://www.sec.gov/Archives/edgar/data/37785/000003778526000171/fmc-20260930.htm"
+    },
+    {
+      "metric": "total_leverage",
+      "period_end": "2026-09-30",
+      "reported": null,
+      "reported_limit": null,
+      "covenant_found": true,
+      "matched": "Leverage Ratio",
+      "our_limit": null,
+      "limit_match": null,
+      "not_graded": "no limit reported",
+      "xbrl": null,
+      "adjusted": 3.0344924812030074,
+      "xbrl_error": null,
+      "adjusted_error": null,
+      "facility": "Revolving Credit Facility",
+      "quote": "The maximum leverage ratio was not tested for the four consecutive quarters ended September 30, 2026 in connection with the April 2026 Amendment.",
+      "url": "https://www.sec.gov/Archives/edgar/data/37785/000003778526000171/fmc-20260930.htm"
+    }
+  ],
+  "dropped_answer_keys": [],
+  "adjusted_ebitda": [
+    {
+      "period_end": "2025-09-30",
+      "value": 236000000.0,
+      "quote": "Third-quarter Adjusted EBITDA was negative $559 million, compared with $236 million in the prior-year period.",
+      "url": "https://www.sec.gov/Archives/edgar/data/37785/000003778526000168/fmcex991093026.htm",
+      "label": "Adjusted EBITDA"
+    },
+    {
+      "period_end": "2025-12-31",
+      "value": 280000000.0,
+      "quote": "Fourth quarter Adjusted EBITDA of $280 million was 17 percent lower than prior-year period which included India.",
+      "url": "https://www.sec.gov/Archives/edgar/data/37785/000003778526000036/fmcex991123125ng.htm",
+      "label": "Adjusted EBITDA"
+    },
+    {
+      "period_end": "2026-03-31",
+      "value": 72000000.0,
+      "quote": "FMC first quarter Adjusted EBITDA was $72 million, a decrease of 40 percent from the prior-year period, driven by lower pricing and unfavorable costs.",
+      "url": "https://www.sec.gov/Archives/edgar/data/37785/000003778526000083/fmcex991033126.htm",
+      "label": "Adjusted EBITDA"
+    },
+    {
+      "period_end": "2026-06-30",
+      "value": 153000000.0,
+      "quote": "\u2022 Adjusted EBITDA of $153 million, down 26 percent versus Q2 2025",
+      "url": "https://www.sec.gov/Archives/edgar/data/37785/000003778526000139/fmcex991063026.htm",
+      "label": "Adjusted EBITDA"
+    },
+    {
+      "period_end": "2026-09-30",
+      "value": 559000000.0,
+      "quote": "Third-quarter Adjusted EBITDA was negative $559 million, compared with $236 million in the prior-year period.",
+      "url": "https://www.sec.gov/Archives/edgar/data/37785/000003778526000168/fmcex991093026.htm",
+      "label": "Adjusted EBITDA"
+    }
+  ],
+  "financials_sources": {
+    "debt": "LongTermDebt",
+    "cash": "CashAndCashEquivalentsAtCarryingValue",
+    "operating income": "OperatingIncomeLoss",
+    "D&A": "DepreciationDepletionAndAmortization",
+    "interest": "InterestExpenseNonoperating",
+    "stock comp": "ShareBasedCompensation",
+    "impairments": "GoodwillImpairmentLoss",
+    "restructuring": "RestructuringCharges"
+  },
+  "compliance": {
+    "filed": "2026-10-30",
+    "form": "10-Q",
+    "url": "https://www.sec.gov/Archives/edgar/data/37785/000003778526000171/fmc-20260930.htm",
+    "sentences": [
+      "We were in compliance with all covenants at September 30, 2026."
+    ]
+  }
+}

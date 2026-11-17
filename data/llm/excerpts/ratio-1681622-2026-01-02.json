@@ -1,0 +1,40 @@
+{
+  "job": "ratio-1681622-2026-01-02",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1681622/000168162226000016/var-20260102.htm",
+    "period": "2026-01-02"
+  },
+  "usage": {
+    "input_tokens": 3937,
+    "output_tokens": 916,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "consolidated fixed charge coverage ratio",
+        "metric": "fixed_charge_coverage",
+        "period_end": "2026-01-02",
+        "actual": null,
+        "limit": 1.25,
+        "direction": "min",
+        "facility": "Revolving Credit Facility (Credit Agreement)",
+        "quote": "The Credit Agreement providing for our Revolving Credit Facility contains a minimum consolidated fixed charge coverage ratio of 1.25 to 1.00 and a maximum consolidated total net leverage ratio (the \u201cCTNL Ratio\u201d)."
+      },
+      {
+        "covenant_name": "consolidated total net leverage ratio (CTNL Ratio)",
+        "metric": "net_leverage",
+        "period_end": "2026-01-02",
+        "actual": null,
+        "limit": 3.75,
+        "direction": "max",
+        "facility": "Revolving Credit Facility (Credit Agreement)",
+        "quote": "For the period from September 26, 2025 to June 26, 2026, the CTNL Ratio for any fiscal quarter may not exceed 3.75:1.00, and thereafter, the CTNL Ratio for any fiscal quarter may not exceed 3.50:1.00."
+      }
+    ],
+    "notes": "The excerpt gives only the covenant requirements, not the actual ratios. The net leverage maximum is 3.75x from September 26, 2025 to June 26, 2026, which covers the January 2, 2026 quarter end. It steps down to 3.50x after that. Both ratios are tested at each fiscal quarter end. The Revolving Credit Facility ($155.0M) was undrawn at January 2, 2026. Net leverage-based pricing grids (rate margin and commitment fee) are not reported here. Indenture terms for the 7.875% Senior Secured Notes are also excluded."
+  }
+}

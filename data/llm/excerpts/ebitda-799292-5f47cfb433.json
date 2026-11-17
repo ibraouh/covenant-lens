@@ -1,0 +1,49 @@
+{
+  "job": "ebitda-799292-5f47cfb433",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/799292/000079929226000025/exhibit991earningspressrel.htm",
+    "filed": "2026-07-29"
+  },
+  "usage": {
+    "input_tokens": 1949,
+    "output_tokens": 586,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "label": "Adjusted EBITDA",
+    "figures": [
+      {
+        "period_end": "2026-06-30",
+        "months": 3,
+        "shown": "120,454",
+        "unit": "thousands",
+        "quote": "Adjusted EBITDA $ 120,454 $ 169,415 $ 219,917 $ 323,373"
+      },
+      {
+        "period_end": "2025-06-30",
+        "months": 3,
+        "shown": "169,415",
+        "unit": "thousands",
+        "quote": "Adjusted EBITDA $ 120,454 $ 169,415 $ 219,917 $ 323,373"
+      },
+      {
+        "period_end": "2026-06-30",
+        "months": 6,
+        "shown": "219,917",
+        "unit": "thousands",
+        "quote": "Adjusted EBITDA $ 120,454 $ 169,415 $ 219,917 $ 323,373"
+      },
+      {
+        "period_end": "2025-06-30",
+        "months": 6,
+        "shown": "323,373",
+        "unit": "thousands",
+        "quote": "Adjusted EBITDA $ 120,454 $ 169,415 $ 219,917 $ 323,373"
+      }
+    ],
+    "notes": "The reconciliation table's header is cut off in the excerpt. The column order (three months 2026, three months 2025, six months 2026, six months 2025, all ended June 30) is inferred from the operating data tables that follow. The unit (thousands) is inferred from the magnitude of the figures and is not stated in the excerpt."
+  }
+}

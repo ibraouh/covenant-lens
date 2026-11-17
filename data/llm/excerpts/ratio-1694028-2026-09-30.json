@@ -1,0 +1,50 @@
+{
+  "job": "ratio-1694028-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1694028/000169402826000062/lbrt-20260930.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 4841,
+    "output_tokens": 1251,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "Leverage ratio",
+        "metric": "total_leverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 4.5,
+        "direction": "max",
+        "facility": "Credit Agreement (Revolving Credit Facility)",
+        "quote": "temporarily increases the maximum permitted leverage ratio from 3.50 to 1.00 to 4.50 to 1.00 for the fiscal quarters ending September 30, 2026 through March 31, 2027"
+      },
+      {
+        "covenant_name": "Senior leverage ratio",
+        "metric": "secured_leverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 2.5,
+        "direction": "max",
+        "facility": "Credit Agreement (Revolving Credit Facility)",
+        "quote": "The Credit Agreement also requires a senior leverage ratio of not more than 2.5 to 1.0, as defined in the Credit Agreement"
+      },
+      {
+        "covenant_name": "Fixed charge coverage ratio",
+        "metric": "fixed_charge_coverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 1.0,
+        "direction": "min",
+        "facility": "Credit Agreement (Revolving Credit Facility)",
+        "quote": "the Company is required to maintain a minimum fixed charge coverage ratio, as defined in the Credit Agreement, of 1.0 to 1.0 for each period if excess availability is less than 10 % of the borrowing base or $ 52.5 million, whichever is greater."
+      }
+    ],
+    "notes": "No actual ratios are disclosed; the company states only that it was in compliance as of September 30, 2026, as amended. The 4.50x leverage limit comes from the Second Amendment, which was signed October 20, 2026 and made effective retroactively to September 30, 2026; before it the limit was 3.50x. Under the amendment the limit steps down to 4.25x at June 30, 2027, 4.00x at September 30, 2027, 3.75x at December 31, 2027 and 3.50x from March 31, 2028. The amendment also removed the $25.0 million cap on unrestricted cash netting in the leverage and senior leverage ratios when no loans are outstanding. The fixed charge coverage covenant is springing: it applies only if excess availability falls below the greater of 10% of the borrowing base or $52.5 million. Leverage-based SOFR margin grids were excluded because they only set pricing."
+  }
+}

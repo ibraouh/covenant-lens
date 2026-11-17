@@ -1,0 +1,30 @@
+{
+  "job": "ratio-77543-2026-03-31",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/77543/000007754326000114/tpc-20260331.htm",
+    "period": "2026-03-31"
+  },
+  "usage": {
+    "input_tokens": 4319,
+    "output_tokens": 289,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "First Lien Net Leverage Ratio",
+        "metric": "secured_net_leverage",
+        "period_end": "2026-03-31",
+        "actual": -0.79,
+        "limit": 2.25,
+        "direction": "max",
+        "facility": "2020 Credit Agreement (Revolver)",
+        "quote": "First lien net leverage ratio (0.79) to 1.00 (a) \u2264 2.25 : 1.00"
+      }
+    ],
+    "notes": "Actual ratio is negative (-0.79x) because cash available for general corporate purposes exceeded secured indebtedness. The covenant applies solely to the Revolver. The 1.35x, 3.50x and 2.00x thresholds are incurrence conditions for incremental debt, not maintenance covenants, so they are excluded. The margin grid based on the First Lien Net Leverage Ratio is also excluded."
+  }
+}

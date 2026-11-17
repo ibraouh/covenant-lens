@@ -1,0 +1,40 @@
+{
+  "job": "ratio-1020710-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1020710/000162828026071141/dxpe-20260930.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 3402,
+    "output_tokens": 502,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "Secured Leverage Ratio",
+        "metric": "secured_leverage",
+        "period_end": "2026-09-30",
+        "actual": 2.3,
+        "limit": 5.75,
+        "direction": "max",
+        "facility": "Senior Secured Term Loan B",
+        "quote": "The Senior Secured Term Loan B Agreement requires that the Company\u2019s Secured Leverage Ratio as of September 30, 2026 to be less than 5.75 to 1.00. As of September 30, 2026, the Company\u2019s Secured Leverage Ratio was 2.30 to 1.00."
+      },
+      {
+        "covenant_name": "Fixed Charge Coverage Ratio",
+        "metric": "fixed_charge_coverage",
+        "period_end": "2026-09-30",
+        "actual": 2.98,
+        "limit": 1.0,
+        "direction": "min",
+        "facility": "ABL Credit Agreement (ABL Revolver)",
+        "quote": "As of September 30, 2026, the Company's Fixed Charge Coverage Ratio was 2.98 to 1.00."
+      }
+    ],
+    "notes": "The ABL fixed charge coverage minimum of 1.00x applies only during a compliance period, which is triggered when ABL availability falls below a threshold. The Total Leverage Ratio thresholds of 3.00x and 2.50x in the Term Loan B only set excess cash flow sweep levels; they are not maintenance covenants and are excluded. The Term Loan B Secured Leverage Ratio limit is stated as 'less than 5.75 to 1.00'."
+  }
+}

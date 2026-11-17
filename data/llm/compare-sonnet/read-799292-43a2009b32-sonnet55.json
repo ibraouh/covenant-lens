@@ -1,0 +1,142 @@
+{
+  "job": "read-799292-43a2009b32-sonnet55",
+  "model": "claude-sonnet-5-5",
+  "meta": {
+    "cik": "799292",
+    "docs": [
+      "https://www.sec.gov/Archives/edgar/data/799292/000079929223000082/fourthamendedandrestatedmo.htm"
+    ]
+  },
+  "usage": {
+    "input_tokens": 133076,
+    "output_tokens": 2499,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "borrower": "M/I Financial, LLC",
+    "agreement_date": "2023-05-26",
+    "covenants": [
+      {
+        "name": "Tangible Net Worth",
+        "metric": "other",
+        "direction": "min",
+        "thresholds": [
+          {
+            "value": 20000000.0,
+            "applies_from": null
+          }
+        ],
+        "test_frequency": "other",
+        "springing_condition": null,
+        "section": "Section 5.9(a)",
+        "quote": "Maintain at all times Tangible Net Worth of not less than $20,000,000.",
+        "ebitda_addbacks": [],
+        "cash_netting_cap": null,
+        "cash_netting_cap_pct_ebitda": null
+      },
+      {
+        "name": "Liquidity",
+        "metric": "minimum_liquidity",
+        "direction": "min",
+        "thresholds": [
+          {
+            "value": 10000000.0,
+            "applies_from": null
+          }
+        ],
+        "test_frequency": "other",
+        "springing_condition": null,
+        "section": "Section 5.9(b)",
+        "quote": "Maintain at all times Liquidity of not less than $10,000,000.",
+        "ebitda_addbacks": [],
+        "cash_netting_cap": null,
+        "cash_netting_cap_pct_ebitda": null
+      },
+      {
+        "name": "Debt to Tangible Net Worth Ratio",
+        "metric": "other",
+        "direction": "max",
+        "thresholds": [
+          {
+            "value": 12.0,
+            "applies_from": null
+          }
+        ],
+        "test_frequency": "other",
+        "springing_condition": null,
+        "section": "Section 5.9(c)",
+        "quote": "Maintain at all times a Debt to Tangible Net Worth Ratio of not more than 12:1.",
+        "ebitda_addbacks": [],
+        "cash_netting_cap": null,
+        "cash_netting_cap_pct_ebitda": null
+      },
+      {
+        "name": "Adjusted Net Income",
+        "metric": "other",
+        "direction": "min",
+        "thresholds": [
+          {
+            "value": 1.0,
+            "applies_from": null
+          }
+        ],
+        "test_frequency": "other",
+        "springing_condition": null,
+        "section": "Section 5.9(d)",
+        "quote": "Maintain, as of the end of each calendar month, for the twelve months then ending, Adjusted Net Income of not less than $1.00.",
+        "ebitda_addbacks": [],
+        "cash_netting_cap": null,
+        "cash_netting_cap_pct_ebitda": null
+      }
+    ],
+    "notes": "This is a mortgage warehouse facility for the homebuilder M/I Homes' mortgage subsidiary. It has no EBITDA-based covenants and no EBITDA definition. The covenants are balance-sheet tests applied at all times, plus a trailing-twelve-month Adjusted Net Income test applied monthly. Debt to Tangible Net Worth is measured using Adjusted Total Liabilities, which include off-balance-sheet warehouse facilities and exclude Subordinated Debt and the liabilities of Non-Guarantor Subsidiaries and Joint Ventures. Tangible Net Worth is determined partly in the Agent's discretion and includes a capped Mortgage Servicing Rights component. Liquidity counts unencumbered cash, unused availability under this facility, and up to $1.5M of availability under Other Warehouse Lines. Breach of Section 5.9 is an immediate Event of Default under Section 7.1(c), with no grace period and no equity cure. Only the original agreement was provided and there were no amendments. The Borrower is the only Credit Party. Guarantors are optional at the Borrower's election, and there are no unrestricted subsidiary concepts.",
+    "facility": "$200M revolving mortgage warehouse credit facility (seasonally stepping up to $275M and $300M) with a $50M swing line sublimit, maturing May 24, 2024.",
+    "terms": [
+      {
+        "kind": "j_crew_blocker",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "The agreement has no unrestricted subsidiary concept and no restriction on IP transfers to such subsidiaries. This is a secured warehouse facility and the covenants are tightly drawn."
+      },
+      {
+        "kind": "serta_protection",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "Amendments need Majority Lenders' consent. Affected-lender consent is required only for items such as commitments, payments, collateral release and certain definitions. There is no specific requirement that each affected lender consent to subordinating the loans or liens."
+      },
+      {
+        "kind": "chewy_protection",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "Guarantor release is permitted only when all of a guarantor's equity is sold to a transferee other than the Borrower or a Subsidiary in a permitted disposition. There is no provision releasing a guarantor merely for ceasing to be wholly owned, and no express protection against it."
+      },
+      {
+        "kind": "unrestricted_sub_cap",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "There are no unrestricted subsidiaries. Investments in Subsidiaries are permitted without a cap, and the general investment basket is $5,000,000."
+      },
+      {
+        "kind": "addback_cap",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "No EBITDA definition exists, so there are no cost-savings or synergy add-backs to cap."
+      },
+      {
+        "kind": "equity_cure",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "There is no equity cure right. A breach of the Section 5.9 financial covenants is an immediate Event of Default under Section 7.1(c)."
+      }
+    ],
+    "addback_cap_pct": null
+  }
+}

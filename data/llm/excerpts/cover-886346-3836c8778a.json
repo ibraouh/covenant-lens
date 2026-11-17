@@ -1,0 +1,24 @@
+{
+  "job": "cover-886346-3836c8778a",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/886346/000088634619000019/kai2018ex1028prushelf.htm"
+  },
+  "usage": {
+    "input_tokens": 4151,
+    "output_tokens": 107,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "is_loan_document": false,
+    "kind": "other",
+    "title": "Multi-Currency Note Purchase and Private Shelf Agreement",
+    "dated": "2018-12-14",
+    "amends_dated": null,
+    "primary_bank_facility": false,
+    "includes_conformed_copy": false,
+    "borrower": "Kadant Inc."
+  }
+}

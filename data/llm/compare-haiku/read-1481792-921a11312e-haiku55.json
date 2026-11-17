@@ -1,0 +1,139 @@
+{
+  "job": "read-1481792-921a11312e-haiku55",
+  "model": "claude-haiku-5-5",
+  "meta": {
+    "cik": "1481792",
+    "docs": [
+      "https://www.sec.gov/Archives/edgar/data/1481792/000148179226000042/exhibit47-quad2025amendmen.htm"
+    ]
+  },
+  "usage": {
+    "input_tokens": 247218,
+    "output_tokens": 2875,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "borrower": "Quad/Graphics, Inc.",
+    "agreement_date": "2014-04-28",
+    "covenants": [
+      {
+        "name": "Total Leverage Ratio",
+        "metric": "total_leverage",
+        "direction": "max",
+        "thresholds": [
+          {
+            "value": 3.5,
+            "applies_from": "2024-09-30"
+          }
+        ],
+        "test_frequency": "quarterly",
+        "springing_condition": null,
+        "section": "Section 6.11(a)",
+        "quote": "The Borrower will not permit the ratio (the \u201cTotal Leverage Ratio\u201d), determined as of the end of each of its Fiscal Quarters, of (i) Consolidated Total Indebtedness to (ii) Consolidated EBITDA for the period of the then most-recently ended four (4) consecutive Fiscal Quarters, all calculated for the Consolidated Financial Covenant Entities on a consolidated basis, to be greater than 3.50 to 1.00 for the Fiscal Quarter ending September 30, 2024 and each Fiscal Quarter thereafter.",
+        "ebitda_addbacks": [
+          "stock_comp",
+          "impairments",
+          "restructuring",
+          "other"
+        ],
+        "cash_netting_cap": null,
+        "cash_netting_cap_pct_ebitda": null
+      },
+      {
+        "name": "Senior Secured Leverage Ratio",
+        "metric": "secured_leverage",
+        "direction": "max",
+        "thresholds": [
+          {
+            "value": 3.0,
+            "applies_from": "2024-09-30"
+          }
+        ],
+        "test_frequency": "quarterly",
+        "springing_condition": null,
+        "section": "Section 6.11(c)",
+        "quote": "The Borrower will not permit the ratio (the \u201cSenior Secured Leverage Ratio\u201d), determined as of the end of each of its Fiscal Quarters, of (i) Consolidated Senior Secured Net Indebtedness to (ii) Consolidated EBITDA for the period of the then most-recently ended four (4) consecutive Fiscal Quarters, all calculated for the Consolidated Financial Covenant Entities on a consolidated basis, to be greater than 3.00 to 1.00 for the Fiscal Quarter ending September 30, 2024 and each Fiscal Quarter thereafter.",
+        "ebitda_addbacks": [
+          "stock_comp",
+          "impairments",
+          "restructuring",
+          "other"
+        ],
+        "cash_netting_cap": null,
+        "cash_netting_cap_pct_ebitda": null
+      },
+      {
+        "name": "Interest Coverage Ratio",
+        "metric": "interest_coverage",
+        "direction": "min",
+        "thresholds": [
+          {
+            "value": 3.0,
+            "applies_from": null
+          }
+        ],
+        "test_frequency": "quarterly",
+        "springing_condition": null,
+        "section": "Section 6.11(d)",
+        "quote": "The Borrower will not permit the Interest Coverage Ratio, determined as of the end of each of its Fiscal Quarters for the period of the then most-recently ended four (4) consecutive Fiscal Quarters, to be less than 3.00 to 1.00.",
+        "ebitda_addbacks": [
+          "stock_comp",
+          "impairments",
+          "restructuring",
+          "other"
+        ],
+        "cash_netting_cap": null,
+        "cash_netting_cap_pct_ebitda": null
+      }
+    ],
+    "notes": "Financial covenants are in Section 6.11 of the Second Amended and Restated Credit Agreement dated April 28, 2014, as amended through Amendment No. 10 (August 20, 2025). Amendment No. 10 adds a $20 million Term A increment and a $15 million Extended Revolving Commitment increment and does not change Section 6.11. Section 6.11(b) is reserved. Consolidated EBITDA add-backs include unusual non-cash charges and impairments, stock-based compensation, Transaction Charges, MEPP exit expenses, Permitted Cash Restructuring Charges (capped at $100 million per year, with amounts above $25 million limited to specified categories), and capped cost savings and synergies from Permitted Acquisitions (20% of EBITDA). Net leverage is referenced for dividends, asset sales and designation tests but is not a maintenance covenant in Section 6.11. No equity cure right was found. Section 6.11 does not contain a springing test.",
+    "facility": "Revolving commitments of about $339.6 million (extended, maturing October 18, 2029) and Term A loans of about $370.7 million (extended, maturing October 18, 2029), with non-extended tranches maturing November 2, 2026.",
+    "terms": [
+      {
+        "kind": "j_crew_blocker",
+        "present": "yes",
+        "section": "Section 6.03(c)",
+        "quote": "no Loan Party or any Restricted Subsidiary shall consummate any transaction that results in the Disposition (whether by way of any Restricted Payment, investment, Lien, sale, conveyance, transfer or other Disposition, and whether in a single transaction or a series of transactions) of intellectual property that is material to the business of the Borrower and its Restricted Subsidiaries to any Unrestricted Subsidiary or Affiliate of the Borrower that is not a Loan Party;",
+        "summary": "Material intellectual property cannot be transferred or disposed of to an Unrestricted Subsidiary or non-Loan Party affiliate; non-exclusive ordinary-course licenses are carved out. Section 5.10(a)(ix) also bars an Unrestricted Subsidiary from owning material intellectual property."
+      },
+      {
+        "kind": "serta_protection",
+        "present": "yes",
+        "section": "Section 8.07(e)",
+        "quote": "In no event shall any amendment, waiver or consent hereunder result in (i) the subordination of the Liens on all or substantially all of the Collateral securing the Secured Obligations or (ii) subordination of the right of payment of the Secured Obligations, in each case, without the prior written consent of each Lender.",
+        "summary": "Subordinating all or substantially all collateral liens or the right of payment of the loans requires each Lender's consent. Section 9.02(b)(ix) also requires each Lender's written consent for these subordinations."
+      },
+      {
+        "kind": "chewy_protection",
+        "present": "partial",
+        "section": "Section 5.09(a)",
+        "quote": "If any Loan Party Guarantor ceases to be a Material Domestic Subsidiary at any time, the Borrower may request that such Subsidiary be released from its guaranty, and the Administrative Agent, upon receipt of evidence in form and substance reasonably satisfactory to it that such Loan Party Guarantor is no longer a Material Domestic Subsidiary, shall release such Subsidiary from its guaranty and release the liens on and security interests in the assets of such Subsidiary (in each case at the Borrower\u2019s expense);",
+        "summary": "A guarantor is released on request once it stops qualifying as a Material Domestic Subsidiary, which is a size test rather than a test of ownership. Release is subject to the Section 6.04 compliance condition. Section 9.02(b)(vii) requires lender consent for releasing all or substantially all guarantors, but the Section 5.09 release carve-out applies."
+      },
+      {
+        "kind": "unrestricted_sub_cap",
+        "present": "partial",
+        "section": "Section 5.10(a)(v)",
+        "quote": "No Restricted Subsidiary shall be designated as an Unrestricted Subsidiary unless after giving effect thereto the aggregate amount of all such designations, when taken together with all other Restricted Intercompany Transactions, shall not exceed the Restricted Intercompany Transaction Amount;",
+        "summary": "Designations of unrestricted subsidiaries are capped through the aggregate Restricted Intercompany Transactions basket of $25 million, with specified deemed amounts for designations. Designations are also blocked when leverage is at or above 3.25x, and Loan Party Guarantors cannot be designated. No standalone hard cap on investments in unrestricted subsidiaries exists beyond that basket."
+      },
+      {
+        "kind": "addback_cap",
+        "present": "yes",
+        "section": "Section 1.01 (definition of Consolidated EBITDA), clause (xii)",
+        "quote": "so long as the aggregate amount added back to Consolidated EBITDA for any measurement period pursuant to this clause (xii) does not exceed 20% of Consolidated EBITDA for such Period (calculated prior to giving effect to any add-backs pursuant to this clause (xii)),",
+        "summary": "Projected cost savings and synergies from Permitted Acquisitions are capped at 20% of EBITDA. Cash restructuring charges are capped at $100 million per fiscal year, with amounts above $25 million limited to plant closures, severance, relocation and lease termination."
+      },
+      {
+        "kind": "equity_cure",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "The agreement contains no equity cure right for financial covenant defaults."
+      }
+    ],
+    "addback_cap_pct": 0.2
+  }
+}

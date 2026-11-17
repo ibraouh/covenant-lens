@@ -1,0 +1,49 @@
+{
+  "job": "ebitda-1728688-0424c350dd",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1728688/000172868826000041/i3verticalsq3fy2026earning.htm",
+    "filed": "2026-08-06"
+  },
+  "usage": {
+    "input_tokens": 4654,
+    "output_tokens": 481,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "label": "Adjusted EBITDA from continuing operations",
+    "figures": [
+      {
+        "period_end": "2026-06-30",
+        "months": 3,
+        "shown": "13,312",
+        "unit": "thousands",
+        "quote": "Adjusted EBITDA from continuing operations (9) $ 13,312 $ 12,724 $ 43,516 $ 43,136"
+      },
+      {
+        "period_end": "2025-06-30",
+        "months": 3,
+        "shown": "12,724",
+        "unit": "thousands",
+        "quote": "Adjusted EBITDA from continuing operations (9) $ 13,312 $ 12,724 $ 43,516 $ 43,136"
+      },
+      {
+        "period_end": "2026-06-30",
+        "months": 9,
+        "shown": "43,516",
+        "unit": "thousands",
+        "quote": "Adjusted EBITDA from continuing operations (9) $ 13,312 $ 12,724 $ 43,516 $ 43,136"
+      },
+      {
+        "period_end": "2025-06-30",
+        "months": 9,
+        "shown": "43,136",
+        "unit": "thousands",
+        "quote": "Adjusted EBITDA from continuing operations (9) $ 13,312 $ 12,724 $ 43,516 $ 43,136"
+      }
+    ],
+    "notes": "Figures taken from the reconciliation table ($ in thousands). These match the highlights, which give $13.3 million for the quarter and $43.5 million for the nine months. The fiscal 2026 outlook range ($57,000-$60,000 thousand) is guidance and is not reported as an actual figure."
+  }
+}

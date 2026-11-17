@@ -1,0 +1,727 @@
+{
+  "cik": "1171486",
+  "name": "NATURAL RESOURCE PARTNERS LP",
+  "borrower": "NRP (Operating) LLC",
+  "gold": false,
+  "stale": false,
+  "agreement_date": "2015-06-16",
+  "facility": "Secured revolving credit facility (with $30M LC sublimit and $10M swingline) \u2014 $155M per Sixth Amendment, raised to $200M via 2024 Summit ($30M) new lender and Frost ($15M) commitment increase; accordion cap $200M; matures October 15, 2029.",
+  "chain": {
+    "auto": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1171486/000117148622000037/a2022formcreditfacilityame.htm",
+        "title": "Master Assignment Agreement and Fifth Amendment to Third Amended and Restated Credit Agreement",
+        "dated": "2022-08-09",
+        "kind": "amendment",
+        "filed": "2022-08-11"
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1171486/000117148622000041/a2022formexerciseofaccordi.htm",
+        "title": "New Lender Agreement",
+        "dated": "2022-09-01",
+        "kind": "amendment",
+        "filed": "2022-09-08"
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1171486/000143774923014624/ex_519021.htm",
+        "title": "Sixth Amendment to Third Amended and Restated Credit Agreement",
+        "dated": "2023-05-11",
+        "kind": "amendment",
+        "filed": "2023-05-15"
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1171486/000143774923014624/ex_519022.htm",
+        "title": "New Lender Agreement",
+        "dated": "2023-05-11",
+        "kind": "amendment",
+        "filed": "2023-05-15"
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1171486/000143774924003226/ex_621749.htm",
+        "title": "New Lender Agreement",
+        "dated": "2024-02-01",
+        "kind": "amendment",
+        "filed": "2024-02-06"
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1171486/000143774924004832/ex_627159.htm",
+        "title": "Commitment Increase Agreement",
+        "dated": "2024-02-14",
+        "kind": "amendment",
+        "filed": "2024-02-20"
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1171486/000143774924031489/ex_732367.htm",
+        "title": "Seventh Amendment to Third Amended and Restated Credit Agreement",
+        "dated": "2024-10-15",
+        "kind": "amendment",
+        "filed": "2024-10-17"
+      }
+    ],
+    "notes": [
+      "Master Assignment Agreement and Fifth Amendment to Third Amended and Restated Credit Agreement restates the full agreement; used as the base"
+    ],
+    "used": [
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1171486/000117148622000037/a2022formcreditfacilityame.htm",
+        "title": "Master Assignment Agreement and Fifth Amendment to Third Amended and Restated Credit Agreement",
+        "dated": "2022-08-09",
+        "kind": "amendment",
+        "filed": "2022-08-11"
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1171486/000117148622000041/a2022formexerciseofaccordi.htm",
+        "title": "New Lender Agreement",
+        "dated": "2022-09-01",
+        "kind": "amendment",
+        "filed": "2022-09-08"
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1171486/000143774923014624/ex_519021.htm",
+        "title": "Sixth Amendment to Third Amended and Restated Credit Agreement",
+        "dated": "2023-05-11",
+        "kind": "amendment",
+        "filed": "2023-05-15"
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1171486/000143774923014624/ex_519022.htm",
+        "title": "New Lender Agreement",
+        "dated": "2023-05-11",
+        "kind": "amendment",
+        "filed": "2023-05-15"
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1171486/000143774924003226/ex_621749.htm",
+        "title": "New Lender Agreement",
+        "dated": "2024-02-01",
+        "kind": "amendment",
+        "filed": "2024-02-06"
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1171486/000143774924004832/ex_627159.htm",
+        "title": "Commitment Increase Agreement",
+        "dated": "2024-02-14",
+        "kind": "amendment",
+        "filed": "2024-02-20"
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/1171486/000143774924031489/ex_732367.htm",
+        "title": "Seventh Amendment to Third Amended and Restated Credit Agreement",
+        "dated": "2024-10-15",
+        "kind": "amendment",
+        "filed": "2024-10-17"
+      }
+    ],
+    "source": "automatic"
+  },
+  "covenants": [
+    {
+      "name": "Interest Coverage Ratio",
+      "metric": "interest_coverage",
+      "direction": "min",
+      "section": "Section 6.16",
+      "quote": "The Borrower shall not permit the Interest Coverage Ratio as of the last day of any fiscal quarter to be less than 3.5 to 1.0.",
+      "quote_verified": true,
+      "thresholds": [
+        {
+          "value": 3.5,
+          "applies_from": null
+        }
+      ],
+      "test_frequency": "quarterly",
+      "springing_condition": null,
+      "addbacks": [
+        "impairments",
+        "other"
+      ],
+      "cash_netting_cap": null,
+      "cash_netting_cap_pct_ebitda": null,
+      "rows": [
+        {
+          "period_end": "2024-12-31",
+          "before_agreement": false,
+          "limit": 3.5,
+          "xbrl": 13.81123826668381,
+          "adjusted": null,
+          "reported": null,
+          "reported_limit": null,
+          "reported_quote": null,
+          "reported_url": null,
+          "ltm_ebitda_xbrl": 214820000,
+          "ltm_ebitda_adjusted": null,
+          "debt": 142068000,
+          "cash": 30444000,
+          "ltm_interest": 15554000
+        },
+        {
+          "period_end": "2025-03-31",
+          "before_agreement": false,
+          "limit": 3.5,
+          "xbrl": 13.396403121818798,
+          "adjusted": null,
+          "reported": null,
+          "reported_limit": null,
+          "reported_quote": null,
+          "reported_url": null,
+          "ltm_ebitda_xbrl": 197396000,
+          "ltm_ebitda_adjusted": null,
+          "debt": 138804000,
+          "cash": 30876000,
+          "ltm_interest": 14735000
+        },
+        {
+          "period_end": "2025-06-30",
+          "before_agreement": false,
+          "limit": 3.5,
+          "xbrl": 14.413598621337929,
+          "adjusted": 15.091258029139903,
+          "reported": null,
+          "reported_limit": null,
+          "reported_quote": null,
+          "reported_url": null,
+          "ltm_ebitda_xbrl": 184004000,
+          "ltm_ebitda_adjusted": 192655000.0,
+          "debt": 101340000,
+          "cash": 30344000,
+          "ltm_interest": 12766000
+        },
+        {
+          "period_end": "2025-09-30",
+          "before_agreement": false,
+          "limit": 3.5,
+          "xbrl": 16.70853057675587,
+          "adjusted": 17.94802434547387,
+          "reported": null,
+          "reported_limit": null,
+          "reported_quote": null,
+          "reported_url": null,
+          "ltm_ebitda_xbrl": 172950000,
+          "ltm_ebitda_adjusted": 185780000.0,
+          "debt": 69377000,
+          "cash": 31019000,
+          "ltm_interest": 10351000
+        },
+        {
+          "period_end": "2025-12-31",
+          "before_agreement": false,
+          "limit": 3.5,
+          "xbrl": 19.95566132264529,
+          "adjusted": 20.55435871743487,
+          "reported": null,
+          "reported_limit": null,
+          "reported_quote": null,
+          "reported_url": null,
+          "ltm_ebitda_xbrl": 159326000,
+          "ltm_ebitda_adjusted": 164106000.0,
+          "debt": 33082000,
+          "cash": 30141000,
+          "ltm_interest": 7984000
+        },
+        {
+          "period_end": "2026-03-31",
+          "before_agreement": false,
+          "limit": 3.5,
+          "xbrl": 22.35681348386071,
+          "adjusted": 24.62712672920973,
+          "reported": 21.4,
+          "reported_limit": 3.5,
+          "reported_quote": "an interest coverage ratio of consolidated EBITDDA to the sum of consolidated interest expense and consolidated lease expense (in each case as defined in the Opco Credit Facility) of not less than 3.5 to 1.0. As of March 31, 2026 , this ratio was 21.4x.",
+          "reported_url": "https://www.sec.gov/Archives/edgar/data/1171486/000143774926015150/nrp20260331_10q.htm",
+          "ltm_ebitda_xbrl": 140602000.0,
+          "ltm_ebitda_adjusted": 154880000.0,
+          "debt": 60318000,
+          "cash": 31504000,
+          "ltm_interest": 6289000
+        },
+        {
+          "period_end": "2026-06-30",
+          "before_agreement": false,
+          "limit": 3.5,
+          "xbrl": 27.739568635355774,
+          "adjusted": 31.127796815158234,
+          "reported": null,
+          "reported_limit": null,
+          "reported_quote": null,
+          "reported_url": null,
+          "ltm_ebitda_xbrl": 137616000.0,
+          "ltm_ebitda_adjusted": 154425000.0,
+          "debt": 27355000,
+          "cash": 30132000,
+          "ltm_interest": 4961000
+        },
+        {
+          "period_end": "2026-09-30",
+          "before_agreement": false,
+          "limit": 3.5,
+          "xbrl": 36.069630423138726,
+          "adjusted": 41.03615425816818,
+          "reported": 31.6,
+          "reported_limit": 3.5,
+          "reported_quote": "an interest coverage ratio of consolidated EBITDDA to the sum of consolidated interest expense and consolidated lease expense (in each case as defined in the Opco Credit Facility) of not less than 3.5 to 1.0. As of September 30, 2026 , this ratio was 31.6x.",
+          "reported_url": "https://www.sec.gov/Archives/edgar/data/1171486/000143774926034832/nrp20260930_10q.htm",
+          "ltm_ebitda_xbrl": 134684000.0,
+          "ltm_ebitda_adjusted": 153229000.0,
+          "debt": 14307000,
+          "cash": 51692000,
+          "ltm_interest": 3734000
+        }
+      ],
+      "latest": {
+        "period_end": "2026-09-30",
+        "basis": "reported",
+        "value": 31.6,
+        "limit": 3.5,
+        "headroom": 8.028571428571428,
+        "cushion": 0.8892405063291139
+      },
+      "steps": []
+    },
+    {
+      "name": "Leverage Ratio",
+      "metric": "total_leverage",
+      "direction": "max",
+      "section": "Section 6.17",
+      "quote": "The Borrower shall not permit the Leverage Ratio as of the last day of any fiscal quarter to exceed 3.0 to 1.0.",
+      "quote_verified": true,
+      "thresholds": [
+        {
+          "value": 3.0,
+          "applies_from": null
+        }
+      ],
+      "test_frequency": "quarterly",
+      "springing_condition": null,
+      "addbacks": [
+        "impairments",
+        "other"
+      ],
+      "cash_netting_cap": null,
+      "cash_netting_cap_pct_ebitda": null,
+      "rows": [
+        {
+          "period_end": "2024-12-31",
+          "before_agreement": false,
+          "limit": 3.0,
+          "xbrl": 0.6613350712224187,
+          "adjusted": null,
+          "reported": null,
+          "reported_limit": null,
+          "reported_quote": null,
+          "reported_url": null,
+          "ltm_ebitda_xbrl": 214820000,
+          "ltm_ebitda_adjusted": null,
+          "debt": 142068000,
+          "cash": 30444000,
+          "ltm_interest": 15554000
+        },
+        {
+          "period_end": "2025-03-31",
+          "before_agreement": false,
+          "limit": 3.0,
+          "xbrl": 0.7031753429654096,
+          "adjusted": null,
+          "reported": null,
+          "reported_limit": null,
+          "reported_quote": null,
+          "reported_url": null,
+          "ltm_ebitda_xbrl": 197396000,
+          "ltm_ebitda_adjusted": null,
+          "debt": 138804000,
+          "cash": 30876000,
+          "ltm_interest": 14735000
+        },
+        {
+          "period_end": "2025-06-30",
+          "before_agreement": false,
+          "limit": 3.0,
+          "xbrl": 0.5507488967631139,
+          "adjusted": 0.5260180114712829,
+          "reported": null,
+          "reported_limit": null,
+          "reported_quote": null,
+          "reported_url": null,
+          "ltm_ebitda_xbrl": 184004000,
+          "ltm_ebitda_adjusted": 192655000.0,
+          "debt": 101340000,
+          "cash": 30344000,
+          "ltm_interest": 12766000
+        },
+        {
+          "period_end": "2025-09-30",
+          "before_agreement": false,
+          "limit": 3.0,
+          "xbrl": 0.40113905753107837,
+          "adjusted": 0.37343632253202713,
+          "reported": null,
+          "reported_limit": null,
+          "reported_quote": null,
+          "reported_url": null,
+          "ltm_ebitda_xbrl": 172950000,
+          "ltm_ebitda_adjusted": 185780000.0,
+          "debt": 69377000,
+          "cash": 31019000,
+          "ltm_interest": 10351000
+        },
+        {
+          "period_end": "2025-12-31",
+          "before_agreement": false,
+          "limit": 3.0,
+          "xbrl": 0.2076371715853031,
+          "adjusted": 0.20158921672577482,
+          "reported": 0.2,
+          "reported_limit": 3.0,
+          "reported_quote": "A leverage ratio of consolidated indebtedness to EBITDDA (as defined in the Opco Credit Facility) not to exceed 3.0x. As of December 31, 2025, this rati o was 0.2x; a nd",
+          "reported_url": "https://www.sec.gov/Archives/edgar/data/1171486/000143774926006147/nrp20251231_10k.htm",
+          "ltm_ebitda_xbrl": 159326000,
+          "ltm_ebitda_adjusted": 164106000.0,
+          "debt": 33082000,
+          "cash": 30141000,
+          "ltm_interest": 7984000
+        },
+        {
+          "period_end": "2026-03-31",
+          "before_agreement": false,
+          "limit": 3.0,
+          "xbrl": 0.4289981650332143,
+          "adjusted": 0.38944989669421487,
+          "reported": 0.4,
+          "reported_limit": 3.0,
+          "reported_quote": "A leverage ratio of consolidated indebtedness to EBITDDA (in each case as defined in the Opco Credit Facility) not to exceed 3.0x. As of March 31, 2026 , this rati o was 0.4x",
+          "reported_url": "https://www.sec.gov/Archives/edgar/data/1171486/000143774926015150/nrp20260331_10q.htm",
+          "ltm_ebitda_xbrl": 140602000.0,
+          "ltm_ebitda_adjusted": 154880000.0,
+          "debt": 60318000,
+          "cash": 31504000,
+          "ltm_interest": 6289000
+        },
+        {
+          "period_end": "2026-06-30",
+          "before_agreement": false,
+          "limit": 3.0,
+          "xbrl": 0.19877775840018602,
+          "adjusted": 0.17714100696130808,
+          "reported": 0.2,
+          "reported_limit": 3.0,
+          "reported_quote": "A leverage ratio of consolidated indebtedness to EBITDDA (in each case as defined in the Opco Credit Facility) not to exceed 3.0x. As of June 30, 2026 , this rati o was 0.2x; and",
+          "reported_url": "https://www.sec.gov/Archives/edgar/data/1171486/000143774926025856/nrp20260630_10q.htm",
+          "ltm_ebitda_xbrl": 137616000.0,
+          "ltm_ebitda_adjusted": 154425000.0,
+          "debt": 27355000,
+          "cash": 30132000,
+          "ltm_interest": 4961000
+        },
+        {
+          "period_end": "2026-09-30",
+          "before_agreement": false,
+          "limit": 3.0,
+          "xbrl": 0.10622642630156515,
+          "adjusted": 0.0933700539715067,
+          "reported": 0.1,
+          "reported_limit": 3.0,
+          "reported_quote": "A leverage ratio of consolidated indebtedness to EBITDDA (in each case as defined in the Opco Credit Facility) not to exceed 3.0x. As of September 30, 2026 , this rati o was 0.1x; and",
+          "reported_url": "https://www.sec.gov/Archives/edgar/data/1171486/000143774926034832/nrp20260930_10q.htm",
+          "ltm_ebitda_xbrl": 134684000.0,
+          "ltm_ebitda_adjusted": 153229000.0,
+          "debt": 14307000,
+          "cash": 51692000,
+          "ltm_interest": 3734000
+        }
+      ],
+      "latest": {
+        "period_end": "2026-09-30",
+        "basis": "reported",
+        "value": 0.1,
+        "limit": 3.0,
+        "headroom": 0.9666666666666667,
+        "cushion": 0.9666666666666667
+      },
+      "steps": []
+    }
+  ],
+  "notes": "Covenants as restated in the Fifth Amendment (Aug 9, 2022) conformed agreement; the Sixth (May 11, 2023) and Seventh (Oct 15, 2024) Amendments did not change Sections 6.16/6.17. The EBITDA measure is 'Consolidated EBITDDA' (adds back depletion). Its add-backs include taxes, interest, depletion, D&A, amortization of intangibles and organization costs, extraordinary non-cash expenses or losses, non-cash impairment expenses or losses, and Transaction fees and expenses. It does not add back stock compensation, restructuring, or projected cost savings and synergies. Acquired and disposed businesses are included or excluded on a pro forma basis. The Interest Coverage Ratio denominator includes Consolidated Lease Expense (rentals) as well as Consolidated Interest Expense. The Leverage Ratio is gross: Consolidated Indebtedness, with no cash netting. A covenant breach is an immediate Event of Default under 7.01(d), with no grace period and no cure. The $50,000,000 Liquidity tests (for investments and acquisitions funded with Borrowings) and the Liquidity of at least 20% of Commitments plus Leverage below 2.00x test (for Restricted Payments under 6.06(d)) are incurrence conditions, not maintenance covenants. The facility is secured and shares collateral pari passu with Note Purchase Agreement notes under an Intercreditor Agreement. The Seventh Amendment removed the Parent Notes springing maturity, removed the Parent Notes and Preferred Stock references, and fixed maturity at Oct 15, 2029. Section 9.16(iii) lets the Collateral Agent subordinate liens to liens permitted by Section 6.02 without lender vote. Pricing grid runs SOFR+3.50%\u20134.50% based on Leverage Ratio, with 0.25% floor.",
+  "terms": [
+    {
+      "kind": "j_crew_blocker",
+      "present": "no",
+      "section": null,
+      "quote": null,
+      "summary": "The agreement has no unrestricted subsidiary concept and no specific restriction on transferring or exclusively licensing material IP. Asset transfers are governed only by the general asset-sale and investment covenants.",
+      "quote_verified": null
+    },
+    {
+      "kind": "serta_protection",
+      "present": "partial",
+      "section": "Section 9.02(b)",
+      "quote": "change Sections 2.16 or 7.02 of this Agreement or Section 9.2 of the Security Agreement, if effective, in a manner that would alter the pro rata sharing of payments required thereby, without the written consent of each Lender",
+      "summary": "Changing the pro rata sharing and payment waterfall provisions requires all lenders. There is no express each-affected-lender consent for subordinating the loans or liens. Section 9.16(iii) authorizes the Collateral Agent to subordinate liens to other liens permitted by Section 6.02.",
+      "quote_verified": true
+    },
+    {
+      "kind": "chewy_protection",
+      "present": "partial",
+      "section": "Section 9.16(ii)",
+      "quote": "to release any Guarantor from its obligations under the Guaranty Agreement if such Person ceases to meet the definition of a Guarantor or ceases to be a Subsidiary as a result of a transaction permitted hereunder; provided that no release shall occur if such Guarantor continues to be a guarantor in respect of any other Material Indebtedness",
+      "summary": "Guarantors may be released when they cease to meet the Guarantor definition, which is tied partly to wholly owned status, or cease to be Subsidiaries. However, no release occurs while the entity still guarantees other Material Indebtedness. There is no express rule that losing wholly owned status alone does not trigger release.",
+      "quote_verified": true
+    },
+    {
+      "kind": "unrestricted_sub_cap",
+      "present": "no",
+      "section": null,
+      "quote": null,
+      "summary": "The agreement has no unrestricted subsidiaries, so there is no designation cap. Investments in non-Loan Party Subsidiaries are separately capped at $25,000,000 under Section 6.04(b)/(c).",
+      "quote_verified": null
+    },
+    {
+      "kind": "addback_cap",
+      "present": "no",
+      "section": null,
+      "quote": null,
+      "summary": "Consolidated EBITDDA has no add-back for projected cost savings, synergies or restructuring, so no cap applies.",
+      "quote_verified": null
+    },
+    {
+      "kind": "equity_cure",
+      "present": "no",
+      "section": null,
+      "quote": null,
+      "summary": "There is no equity cure right; breach of the financial covenants is an immediate Event of Default.",
+      "quote_verified": null
+    }
+  ],
+  "addback_cap_pct": null,
+  "cov_lite": false,
+  "tightest": {
+    "name": "Leverage Ratio",
+    "period_end": "2026-09-30",
+    "basis": "reported",
+    "value": 0.1,
+    "limit": 3.0,
+    "headroom": 0.9666666666666667,
+    "cushion": 0.9666666666666667
+  },
+  "accuracy": [
+    {
+      "metric": "total_leverage",
+      "period_end": "2025-12-31",
+      "reported": 0.2,
+      "reported_limit": 3.0,
+      "covenant_found": true,
+      "matched": "Leverage Ratio",
+      "our_limit": 3.0,
+      "limit_match": true,
+      "not_graded": null,
+      "xbrl": 0.2076371715853031,
+      "adjusted": 0.20158921672577482,
+      "xbrl_error": 0.0381858579265153,
+      "adjusted_error": 0.007946083628874057,
+      "facility": "Opco Credit Facility",
+      "quote": "A leverage ratio of consolidated indebtedness to EBITDDA (as defined in the Opco Credit Facility) not to exceed 3.0x. As of December 31, 2025, this rati o was 0.2x; a nd",
+      "url": "https://www.sec.gov/Archives/edgar/data/1171486/000143774926006147/nrp20251231_10k.htm"
+    },
+    {
+      "metric": "total_leverage",
+      "period_end": "2026-03-31",
+      "reported": 0.4,
+      "reported_limit": 3.0,
+      "covenant_found": true,
+      "matched": "Leverage Ratio",
+      "our_limit": 3.0,
+      "limit_match": true,
+      "not_graded": null,
+      "xbrl": 0.4289981650332143,
+      "adjusted": 0.38944989669421487,
+      "xbrl_error": 0.07249541258303571,
+      "adjusted_error": -0.026375258264462853,
+      "facility": "Opco Credit Facility",
+      "quote": "A leverage ratio of consolidated indebtedness to EBITDDA (in each case as defined in the Opco Credit Facility) not to exceed 3.0x. As of March 31, 2026 , this rati o was 0.4x",
+      "url": "https://www.sec.gov/Archives/edgar/data/1171486/000143774926015150/nrp20260331_10q.htm"
+    },
+    {
+      "metric": "interest_coverage",
+      "period_end": "2026-03-31",
+      "reported": 21.4,
+      "reported_limit": 3.5,
+      "covenant_found": true,
+      "matched": "Interest Coverage Ratio",
+      "our_limit": 3.5,
+      "limit_match": true,
+      "not_graded": null,
+      "xbrl": 22.35681348386071,
+      "adjusted": 24.62712672920973,
+      "xbrl_error": 0.044710910460780795,
+      "adjusted_error": 0.15080031444905284,
+      "facility": "Opco Credit Facility",
+      "quote": "an interest coverage ratio of consolidated EBITDDA to the sum of consolidated interest expense and consolidated lease expense (in each case as defined in the Opco Credit Facility) of not less than 3.5 to 1.0. As of March 31, 2026 , this ratio was 21.4x.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1171486/000143774926015150/nrp20260331_10q.htm"
+    },
+    {
+      "metric": "total_leverage",
+      "period_end": "2026-06-30",
+      "reported": 0.2,
+      "reported_limit": 3.0,
+      "covenant_found": true,
+      "matched": "Leverage Ratio",
+      "our_limit": 3.0,
+      "limit_match": true,
+      "not_graded": null,
+      "xbrl": 0.19877775840018602,
+      "adjusted": 0.17714100696130808,
+      "xbrl_error": -0.006111207999069945,
+      "adjusted_error": -0.11429496519345961,
+      "facility": "Opco Credit Facility",
+      "quote": "A leverage ratio of consolidated indebtedness to EBITDDA (in each case as defined in the Opco Credit Facility) not to exceed 3.0x. As of June 30, 2026 , this rati o was 0.2x; and",
+      "url": "https://www.sec.gov/Archives/edgar/data/1171486/000143774926025856/nrp20260630_10q.htm"
+    },
+    {
+      "metric": "total_leverage",
+      "period_end": "2026-09-30",
+      "reported": 0.1,
+      "reported_limit": 3.0,
+      "covenant_found": true,
+      "matched": "Leverage Ratio",
+      "our_limit": 3.0,
+      "limit_match": true,
+      "not_graded": null,
+      "xbrl": 0.10622642630156515,
+      "adjusted": 0.0933700539715067,
+      "xbrl_error": 0.062264263015651355,
+      "adjusted_error": -0.06629946028493305,
+      "facility": "Opco Credit Facility",
+      "quote": "A leverage ratio of consolidated indebtedness to EBITDDA (in each case as defined in the Opco Credit Facility) not to exceed 3.0x. As of September 30, 2026 , this rati o was 0.1x; and",
+      "url": "https://www.sec.gov/Archives/edgar/data/1171486/000143774926034832/nrp20260930_10q.htm"
+    },
+    {
+      "metric": "interest_coverage",
+      "period_end": "2026-09-30",
+      "reported": 31.6,
+      "reported_limit": 3.5,
+      "covenant_found": true,
+      "matched": "Interest Coverage Ratio",
+      "our_limit": 3.5,
+      "limit_match": true,
+      "not_graded": null,
+      "xbrl": 36.069630423138726,
+      "adjusted": 41.03615425816818,
+      "xbrl_error": 0.14144400073223817,
+      "adjusted_error": 0.29861247652430944,
+      "facility": "Opco Credit Facility",
+      "quote": "an interest coverage ratio of consolidated EBITDDA to the sum of consolidated interest expense and consolidated lease expense (in each case as defined in the Opco Credit Facility) of not less than 3.5 to 1.0. As of September 30, 2026 , this ratio was 31.6x.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1171486/000143774926034832/nrp20260930_10q.htm"
+    }
+  ],
+  "dropped_answer_keys": [
+    {
+      "covenant_name": "interest coverage ratio of consolidated EBITDA to consolidated interest expense and consolidated lease expense",
+      "metric": "interest_coverage",
+      "period_end": "2025-12-31",
+      "actual": 18.6,
+      "limit": 3.5,
+      "direction": "min",
+      "facility": "Opco Credit Facility",
+      "quote": "an interest coverage ratio of consolidated EBITDA to consolidated interest expense and consolidated lease expense (in each case as defined in the Opco Credit Facility) of not less than 3.5 to 1.0. As of December 31, 2025, this ratio was 18.6x.",
+      "problems": [
+        "quote not found in filing"
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/1171486/000143774926006147/nrp20251231_10k.htm"
+    },
+    {
+      "covenant_name": "Interest coverage ratio of consolidated EBITDA to the sum of consolidated interest expense and consolidated lease expense",
+      "metric": "interest_coverage",
+      "period_end": "2026-06-30",
+      "actual": 25.7,
+      "limit": 3.5,
+      "direction": "min",
+      "facility": "Opco Credit Facility",
+      "quote": "an interest coverage ratio of consolidated EBITDA to the sum of consolidated interest expense and consolidated lease expense (in each case as defined in the Opco Credit Facility) of not less than 3.5 to 1.0. As of June 30, 2026 , this ratio was 25.7x.",
+      "problems": [
+        "quote not found in filing"
+      ],
+      "url": "https://www.sec.gov/Archives/edgar/data/1171486/000143774926025856/nrp20260630_10q.htm"
+    }
+  ],
+  "adjusted_ebitda": [
+    {
+      "period_end": "2024-09-30",
+      "value": 45817000.0,
+      "quote": "Adjusted EBITDA $ 45,456 $ 6,296 $ (5,935 ) $ 45,817",
+      "url": "https://www.sec.gov/Archives/edgar/data/1171486/000143774925032873/ex_854772.htm",
+      "label": "Adjusted EBITDA"
+    },
+    {
+      "period_end": "2024-12-31",
+      "value": 58859000.0,
+      "quote": "Adjusted EBITDA $ 55,209 $ 10,608 $ (6,958 ) $ 58,859",
+      "url": "https://www.sec.gov/Archives/edgar/data/1171486/000143774926005980/ex_887441.htm",
+      "label": "Adjusted EBITDA"
+    },
+    {
+      "period_end": "2025-03-31",
+      "value": 45260000.0,
+      "quote": "Adjusted EBITDA $ 49,213 $ 2,880 $ (6,833 ) $ 45,260",
+      "url": "https://www.sec.gov/Archives/edgar/data/1171486/000143774926015012/ex_927507.htm",
+      "label": "Adjusted EBITDA"
+    },
+    {
+      "period_end": "2025-06-30",
+      "value": 42719000.0,
+      "quote": "Adjusted EBITDA (1) $ 43,439 $ 4,876 $ (5,596 ) $ 42,719",
+      "url": "https://www.sec.gov/Archives/edgar/data/1171486/000143774926025784/ex_961869.htm",
+      "label": "Adjusted EBITDA"
+    },
+    {
+      "period_end": "2025-09-30",
+      "value": 38942000.0,
+      "quote": "Adjusted EBITDA $ 44,723 $ (56 ) $ (5,725 ) $ 38,942",
+      "url": "https://www.sec.gov/Archives/edgar/data/1171486/000143774926034767/ex_1005011.htm",
+      "label": "Adjusted EBITDA"
+    },
+    {
+      "period_end": "2025-12-31",
+      "value": 37185000.0,
+      "quote": "Adjusted EBITDA $ 43,148 $ (15 ) $ (5,948 ) $ 37,185",
+      "url": "https://www.sec.gov/Archives/edgar/data/1171486/000143774926015012/ex_927507.htm",
+      "label": "Adjusted EBITDA"
+    },
+    {
+      "period_end": "2026-03-31",
+      "value": 36034000.0,
+      "quote": "Adjusted EBITDA (1) $ 41,140 $ (72 ) $ (5,034 ) $ 36,034",
+      "url": "https://www.sec.gov/Archives/edgar/data/1171486/000143774926025784/ex_961869.htm",
+      "label": "Adjusted EBITDA"
+    },
+    {
+      "period_end": "2026-06-30",
+      "value": 42264000.0,
+      "quote": "Adjusted EBITDA $ 47,363 $ (79 ) $ (5,020 ) $ 42,264",
+      "url": "https://www.sec.gov/Archives/edgar/data/1171486/000143774926034767/ex_1005011.htm",
+      "label": "Adjusted EBITDA"
+    },
+    {
+      "period_end": "2026-09-30",
+      "value": 37746000.0,
+      "quote": "Adjusted EBITDA $ 43,458 $ (52 ) $ (5,660 ) $ 37,746",
+      "url": "https://www.sec.gov/Archives/edgar/data/1171486/000143774926034767/ex_1005011.htm",
+      "label": "Adjusted EBITDA"
+    }
+  ],
+  "financials_sources": {
+    "debt": "LongTermDebt",
+    "cash": "CashAndCashEquivalentsAtCarryingValue",
+    "operating income": "OperatingIncomeLoss",
+    "D&A": "DepreciationDepletionAndAmortization",
+    "interest": "InterestExpenseNonoperating",
+    "stock comp": "ShareBasedCompensation",
+    "impairments": "AssetImpairmentCharges",
+    "restructuring": "not reported"
+  },
+  "compliance": {
+    "filed": "2026-11-04",
+    "form": "10-Q",
+    "url": "https://www.sec.gov/Archives/edgar/data/1171486/000143774926034832/nrp20260930_10q.htm",
+    "sentences": [
+      "As of September 30, 2026 and December 31, 2025 , Opco was in compliance with the terms of the financial covenants contained in its debt agreements.",
+      "26 Table of Contents Capital Resources and Obligations Debt, Net We had the following debt outstanding as of September 30, 2026 and December 31, 2025: September 30, December 31, (In thousands) 2026 2025 Current portion of long-term debt, net $ 14,307 $ 14,198 Long-term debt, net \u2014 18,884 Total debt, net $ 14,307 $ 33,082 We have been and continue to be in compliance with the terms of the financial covenants contained in our debt agreements."
+    ]
+  }
+}

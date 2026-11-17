@@ -1,0 +1,49 @@
+{
+  "job": "ebitda-1681622-5b0b39a06d",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1681622/000168162225000106/exhibit991-q425earningsrel.htm",
+    "filed": "2025-11-18"
+  },
+  "usage": {
+    "input_tokens": 2062,
+    "output_tokens": 742,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "label": "Adjusted EBITDA",
+    "figures": [
+      {
+        "period_end": "2025-10-03",
+        "months": 3,
+        "shown": "34.9",
+        "unit": "millions",
+        "quote": "Adjusted EBITDA $ 34.9 $ 22.6 $ 121.9 $ 89.2"
+      },
+      {
+        "period_end": "2024-09-27",
+        "months": 3,
+        "shown": "22.6",
+        "unit": "millions",
+        "quote": "Adjusted EBITDA $ 34.9 $ 22.6 $ 121.9 $ 89.2"
+      },
+      {
+        "period_end": "2025-10-03",
+        "months": 12,
+        "shown": "121.9",
+        "unit": "millions",
+        "quote": "Adjusted EBITDA $ 34.9 $ 22.6 $ 121.9 $ 89.2"
+      },
+      {
+        "period_end": "2024-09-27",
+        "months": 12,
+        "shown": "89.2",
+        "unit": "millions",
+        "quote": "Adjusted EBITDA $ 34.9 $ 22.6 $ 121.9 $ 89.2"
+      }
+    ],
+    "notes": "The excerpt omits the column headers. The columns are assumed to be fiscal Q4 2025, Q4 2024, FY2025 and FY2024; the full-year net loss of (70.3) against the quarter's 12.2 is consistent with this. The period-end dates are inferred from Varex's fiscal calendar (year ends on the Friday nearest September 30), giving 2025-10-03 and 2024-09-27. The unit is assumed to be millions, based on the $ magnitudes shown in the reconciliation."
+  }
+}

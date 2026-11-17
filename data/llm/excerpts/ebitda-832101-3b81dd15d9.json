@@ -1,0 +1,49 @@
+{
+  "job": "ebitda-832101-3b81dd15d9",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/832101/000162828026005268/iex-20251231xex991.htm",
+    "filed": "2026-02-04"
+  },
+  "usage": {
+    "input_tokens": 5874,
+    "output_tokens": 464,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "label": "Adjusted EBITDA",
+    "figures": [
+      {
+        "period_end": "2025-12-31",
+        "months": 3,
+        "shown": "240.9",
+        "unit": "millions",
+        "quote": "Adjusted EBITDA $ 240.9 $ 227.5 $ 925.9 $ 874.3"
+      },
+      {
+        "period_end": "2024-12-31",
+        "months": 3,
+        "shown": "227.5",
+        "unit": "millions",
+        "quote": "Adjusted EBITDA $ 240.9 $ 227.5 $ 925.9 $ 874.3"
+      },
+      {
+        "period_end": "2025-12-31",
+        "months": 12,
+        "shown": "925.9",
+        "unit": "millions",
+        "quote": "Adjusted EBITDA $ 240.9 $ 227.5 $ 925.9 $ 874.3"
+      },
+      {
+        "period_end": "2024-12-31",
+        "months": 12,
+        "shown": "874.3",
+        "unit": "millions",
+        "quote": "Adjusted EBITDA $ 240.9 $ 227.5 $ 925.9 $ 874.3"
+      }
+    ],
+    "notes": "Figures are from Table 4 (Reconciliations of Net Income to Adjusted EBITDA, dollars in millions). The definitions section calls the measure 'Consolidated Adjusted EBITDA'. Segment figures (HST, FMT, FSDP) and Corporate and other are excluded. The 'Total Adjusted EBITDA' row in the same table matches these totals."
+  }
+}

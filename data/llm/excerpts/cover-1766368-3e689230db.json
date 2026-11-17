@@ -1,0 +1,24 @@
+{
+  "job": "cover-1766368-3e689230db",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1766368/000156459022013166/mec-ex10_7.htm"
+  },
+  "usage": {
+    "input_tokens": 3300,
+    "output_tokens": 120,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "is_loan_document": true,
+    "kind": "amendment",
+    "title": "Fourth Amendment to Amended and Restated Credit Agreement",
+    "dated": "2022-03-31",
+    "amends_dated": "2019-09-26",
+    "primary_bank_facility": true,
+    "includes_conformed_copy": false,
+    "borrower": "Mayville Engineering Company, Inc."
+  }
+}

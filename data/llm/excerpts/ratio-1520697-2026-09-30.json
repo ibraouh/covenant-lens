@@ -1,0 +1,40 @@
+{
+  "job": "ratio-1520697-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1520697/000119312526447412/achc-20260930.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 4986,
+    "output_tokens": 475,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "Consolidated Total Net Leverage Ratio",
+        "metric": "net_leverage",
+        "period_end": "2026-09-30",
+        "actual": 3.9,
+        "limit": 5.0,
+        "direction": "max",
+        "facility": "Credit Agreement (Revolving Facility and Term Loan Facility)",
+        "quote": "At September 30, 2026, our Consolidated Total Net Leverage Ratio was 3.9x, and we were in compliance with all financial covenants."
+      },
+      {
+        "covenant_name": "Consolidated Interest Coverage Ratio",
+        "metric": "interest_coverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 3.0,
+        "direction": "min",
+        "facility": "Credit Agreement (Revolving Facility and Term Loan Facility)",
+        "quote": "a Consolidated Interest Coverage Ratio of at least 3.0 to 1.0"
+      }
+    ],
+    "notes": "The net leverage limit of 5.0x may be increased to 5.5x for four quarters after a material acquisition, up to three times; the excerpt does not say a step-up was in effect at 9/30/2026. The actual interest coverage ratio is not disclosed; the filing says only that the company was in compliance. The 4.0x Consolidated Senior Secured Net Leverage Ratio is excluded because it only limits incremental facility capacity. The leverage ratios that set the interest margin and the unused fee are also excluded."
+  }
+}

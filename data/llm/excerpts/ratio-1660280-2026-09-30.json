@@ -1,0 +1,19 @@
+{
+  "job": "ratio-1660280-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1660280/000166028026000054/tenb-20260930.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 2868,
+    "output_tokens": 97,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [],
+    "notes": "The excerpt mentions the Total Leverage Ratio only as the basis for the interest rate margin and commitment fee on the 2026 Revolving Credit Facility. It discloses no financial covenant ratio values or limits, so nothing is reported."
+  }
+}

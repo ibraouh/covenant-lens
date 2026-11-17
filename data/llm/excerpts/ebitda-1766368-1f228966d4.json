@@ -1,0 +1,42 @@
+{
+  "job": "ebitda-1766368-1f228966d4",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1766368/000110465926022896/tmb-20260303xex99.htm",
+    "filed": "2026-03-03"
+  },
+  "usage": {
+    "input_tokens": 5965,
+    "output_tokens": 1031,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "label": "Adjusted EBITDA",
+    "figures": [
+      {
+        "period_end": "2025-12-31",
+        "months": 3,
+        "shown": "6.3",
+        "unit": "millions",
+        "quote": "MEC reported Adjusted EBITDA of $6.3 million in the fourth quarter of 2025, or 4.7% of net sales, versus $9.2 million, or 7.6% of net sales, in the prior year period."
+      },
+      {
+        "period_end": "2024-12-31",
+        "months": 3,
+        "shown": "9.2",
+        "unit": "millions",
+        "quote": "MEC reported Adjusted EBITDA of $6.3 million in the fourth quarter of 2025, or 4.7% of net sales, versus $9.2 million, or 7.6% of net sales, in the prior year period."
+      },
+      {
+        "period_end": "2025-12-31",
+        "months": 12,
+        "shown": "47.1",
+        "unit": "millions",
+        "quote": "Adjusted EBITDA of $47.1 million"
+      }
+    ],
+    "notes": "The excerpt does not include the reconciliation table, so these figures come from the release text. FY2025 Adjusted EBITDA of $47.1 million also appears as the 'FY 2025 Actual' in the guidance table. No full-year 2024 Adjusted EBITDA is shown. The guidance table also shows a Q1 2025 actual Adjusted EBITDA of $12.2 million (in millions); it is not listed above because it is neither the reported quarter, its prior-year comparison, nor a year-to-date total. The 2026 guidance ranges are forecasts and are excluded."
+  }
+}

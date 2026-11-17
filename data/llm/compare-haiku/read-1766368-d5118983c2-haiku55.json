@@ -1,0 +1,140 @@
+{
+  "job": "read-1766368-d5118983c2-haiku55",
+  "model": "claude-haiku-5-5",
+  "meta": {
+    "cik": "1766368",
+    "docs": [
+      "https://www.sec.gov/Archives/edgar/data/1766368/000110465926020541/tmb-20260225xex10d2.htm"
+    ]
+  },
+  "usage": {
+    "input_tokens": 184616,
+    "output_tokens": 11660,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "borrower": "Mayville Engineering Company, Inc.",
+    "agreement_date": "2023-06-28",
+    "covenants": [
+      {
+        "name": "Consolidated Total Leverage Ratio",
+        "metric": "net_leverage",
+        "direction": "max",
+        "thresholds": [
+          {
+            "value": 4.0,
+            "applies_from": null
+          },
+          {
+            "value": 5.25,
+            "applies_from": "2026-03-31"
+          },
+          {
+            "value": 5.0,
+            "applies_from": "2026-09-30"
+          },
+          {
+            "value": 4.0,
+            "applies_from": "2026-12-31"
+          },
+          {
+            "value": 3.5,
+            "applies_from": "2027-03-31"
+          }
+        ],
+        "test_frequency": "quarterly",
+        "springing_condition": null,
+        "section": "Section 9.15(a)",
+        "quote": "As of the last day of any fiscal quarter ending during the periods specified below, permit the Consolidated Total Leverage Ratio to be greater than the corresponding ratio set forth below:",
+        "ebitda_addbacks": [
+          "stock_comp",
+          "impairments",
+          "restructuring",
+          "other"
+        ],
+        "cash_netting_cap": 25000000.0,
+        "cash_netting_cap_pct_ebitda": null
+      },
+      {
+        "name": "Consolidated Interest Coverage Ratio",
+        "metric": "interest_coverage",
+        "direction": "min",
+        "thresholds": [
+          {
+            "value": 3.0,
+            "applies_from": null
+          },
+          {
+            "value": 2.75,
+            "applies_from": "2026-06-30"
+          },
+          {
+            "value": 3.0,
+            "applies_from": "2027-03-31"
+          }
+        ],
+        "test_frequency": "quarterly",
+        "springing_condition": null,
+        "section": "Section 9.15(b)",
+        "quote": "permit the Consolidated Interest Coverage Ratio to be less than 3.00 to 1.00.",
+        "ebitda_addbacks": [
+          "stock_comp",
+          "impairments",
+          "restructuring",
+          "other"
+        ],
+        "cash_netting_cap": null,
+        "cash_netting_cap_pct_ebitda": null
+      }
+    ],
+    "notes": "Only the Third Amendment (February 25, 2026) text was provided; the First (June 26, 2025) and Second (August 15, 2025) Amendments are reflected only in the conformed copy. The leverage test uses net debt: Unrestricted Cash is netted up to 25,000,000, reduced to 10,000,000 during the Covenant Adjustment Period. The Covenant Adjustment Period runs from February 25, 2026 until the Borrower shows compliance with Section 9.15 for the quarter ending March 31, 2027, or earlier at the Borrower's option by showing compliance with the pre-amendment levels. During that period no Leverage Increase Period applies. After it ends, the leverage test rises by 0.50x for four quarters following an acquisition with Permitted Acquisition Consideration over 40,000,000, capped at 4.00x and limited to two increases. If the Covenant Adjustment Period ends, the leverage test reverts to 3.50x and the interest coverage test to 3.00x. The EBITDA definition sets fixed Accu-Fab Acquisition EBITDA amounts for specified quarters and a 10,000,000 lifetime cap on start-up cost add-backs. The Section 9.14 capital expenditure limit is not a financial covenant.",
+    "facility": "Revolving credit facility of 275,000,000 after the Third Amendment reduced it from 350,000,000, with a 25,000,000 swingline sublimit and a 5,000,000 letter of credit sublimit, maturing June 28, 2028; no term loans.",
+    "terms": [
+      {
+        "kind": "j_crew_blocker",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "The agreement has no unrestricted subsidiary concept, so nothing bars moving or exclusively licensing material IP to such subsidiaries. Section 9.5 permits only non-exclusive IP licenses in the ordinary course, and other dispositions are limited by a general basket."
+      },
+      {
+        "kind": "serta_protection",
+        "present": "partial",
+        "section": "Section 12.2(e)",
+        "quote": "without the written consent of each Lender directly and adversely affected thereby",
+        "summary": "Changes to pro rata sharing or order of application need the consent of each directly and adversely affected lender. Nothing expressly requires each lender's consent to subordinate the loans or their liens to other debt. Section 11.9(a)(ii) lets the agent subordinate liens to purchase-money liens under Section 9.2(h) under the lenders' standing authorization."
+      },
+      {
+        "kind": "chewy_protection",
+        "present": "partial",
+        "section": "Section 11.9(a)(iii)",
+        "quote": "to release any Subsidiary Guarantor from its obligations under any Loan Documents if such Person ceases to be a Subsidiary as a result of a transaction permitted under the Loan Documents.",
+        "summary": "A guarantor is released only if it stops being a Subsidiary (more than 50% owned) through a permitted transaction, not merely because it stops being wholly owned. Falling below 100% ownership of a Subsidiary Guarantor is a Change in Control event under the Change in Control definition."
+      },
+      {
+        "kind": "unrestricted_sub_cap",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "There is no unrestricted subsidiary designation mechanism and no hard cap on investments in such subsidiaries. Section 9.3 limits investments through baskets, with a Non-Guarantor Subsidiary investment category but no unrestricted subsidiary cap."
+      },
+      {
+        "kind": "addback_cap",
+        "present": "partial",
+        "section": "Section 1.1 (definition of Consolidated EBITDA)",
+        "quote": "provided that, in no event shall the amount of cash items added back to Consolidated EBITDA under clauses (v), (vii), (viii), (xi), (xii) and (xiii) for any period exceed fifteen percent (15%) of aggregate Consolidated EBITDA for such period (calculated before giving effect to any such add back)",
+        "summary": "Restructuring add-backs for facility exits and workforce reductions are allowed, but cash items under that clause and several others are capped at 15% of EBITDA. The agreement has no add-back for projected cost savings or synergies."
+      },
+      {
+        "kind": "equity_cure",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "There is no equity cure right for financial covenant defaults. Equity issuances appear only as a funding source for one acquisition under Section 9.3(j), not as a cure."
+      }
+    ],
+    "addback_cap_pct": 0.15
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "job": "ratio-795266-2026-08-31",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/795266/000079526626000071/kbh-20260831.htm",
+    "period": "2026-08-31"
+  },
+  "usage": {
+    "input_tokens": 5291,
+    "output_tokens": 614,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "Leverage Ratio",
+        "metric": "other",
+        "period_end": "2026-08-31",
+        "actual": 0.345,
+        "limit": 0.6,
+        "direction": "max",
+        "facility": "Credit Facility and Term Loan",
+        "quote": "Leverage Ratio < .600 .345"
+      },
+      {
+        "covenant_name": "Interest Coverage Ratio",
+        "metric": "interest_coverage",
+        "period_end": "2026-08-31",
+        "actual": 3.863,
+        "limit": 1.5,
+        "direction": "min",
+        "facility": "Credit Facility and Term Loan",
+        "quote": "Interest Coverage Ratio (a) > 1.500 3.863"
+      },
+      {
+        "covenant_name": "Minimum liquidity",
+        "metric": "minimum_liquidity",
+        "period_end": "2026-08-31",
+        "actual": 942.4,
+        "limit": 112.7,
+        "direction": "min",
+        "facility": "Credit Facility and Term Loan",
+        "quote": "Minimum liquidity (a) > $112.7 million $942.4 million"
+      }
+    ],
+    "notes": "Leverage Ratio is debt-to-capitalization (total indebtedness / (indebtedness + tangible net worth)), not a debt/EBITDA multiple, so classified as 'other'. Company must meet either the Interest Coverage Ratio or minimum liquidity test, not both. Minimum liquidity values are in $ millions. Covenants are shared by the $1.20 billion Credit Facility and $360.0 million Term Loan. Other covenant tests in the table (tangible net worth > $2.82 billion vs $3.76 billion actual; JV investments < $856.9 million vs $472.0 million; borrowing base excess $2.07 billion) are dollar-amount tests, not ratios, and are omitted. Leverage-based pricing spreads and commitment fees were excluded. Company reported compliance as of August 31, 2026."
+  }
+}

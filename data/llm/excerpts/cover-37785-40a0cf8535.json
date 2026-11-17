@@ -1,0 +1,24 @@
+{
+  "job": "cover-37785-40a0cf8535",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/37785/000119312523183826/d508948dex101.htm"
+  },
+  "usage": {
+    "input_tokens": 3080,
+    "output_tokens": 118,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "is_loan_document": true,
+    "kind": "amendment",
+    "title": "Amendment No. 1 to Fifth Amended and Restated Credit Agreement",
+    "dated": "2023-06-30",
+    "amends_dated": "2022-06-17",
+    "primary_bank_facility": true,
+    "includes_conformed_copy": false,
+    "borrower": "FMC Corporation"
+  }
+}

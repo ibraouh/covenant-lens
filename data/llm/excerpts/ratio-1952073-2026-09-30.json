@@ -1,0 +1,40 @@
+{
+  "job": "ratio-1952073-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1952073/000162828026070156/msge-20260930.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 4083,
+    "output_tokens": 433,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "debt service coverage ratio",
+        "metric": "other",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 2.5,
+        "direction": "min",
+        "facility": "National Properties Credit Agreement",
+        "quote": "The debt service coverage ratio covenant is set at a ratio of 2.50 :1."
+      },
+      {
+        "covenant_name": "total leverage ratio",
+        "metric": "total_leverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 3.5,
+        "direction": "max",
+        "facility": "National Properties Credit Agreement",
+        "quote": "The leverage ratio covenant is tested based on the ratio of MSG National Properties and its restricted subsidiaries\u2019 consolidated total indebtedness to adjusted operating income, each as defined in the National Properties Credit Agreement, with a maximum ratio of 3.50 :1."
+      }
+    ],
+    "notes": "Actual ratios are not disclosed; the filing states only that MSG National Properties and its restricted subsidiaries were in compliance as of September 30, 2026. The covenants apply to the MSG National Properties borrower group under the National Properties Credit Agreement. The excerpt repeats the same passage twice (notes and MD&A). Leverage-based pricing grids for the interest margin and commitment fee are excluded."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "job": "ratio-1561680-2025-12-31",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1561680/000156168026000008/tph-20251231.htm",
+    "period": "2025-12-31"
+  },
+  "usage": {
+    "input_tokens": 3607,
+    "output_tokens": 193,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [],
+    "notes": "The excerpt states no covenant ratio values. The leverage ratio mentioned for the Credit Facility only sets the SOFR interest rate spread. The debt-to-capital ratios (homebuilding debt-to-capital 25.0% at 2025-12-31 and 21.6% at 2024-12-31; the net debt-to-net capital figure is truncated) are presented as non-GAAP information measures and are not tied to a covenant. The excerpt mentions financial covenants but is cut off before stating any covenant thresholds or actual values."
+  }
+}

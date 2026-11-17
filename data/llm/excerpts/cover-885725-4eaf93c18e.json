@@ -1,0 +1,24 @@
+{
+  "job": "cover-885725-4eaf93c18e",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/885725/000088572524000050/ex101-bscthirdamendmentto2.htm"
+  },
+  "usage": {
+    "input_tokens": 3094,
+    "output_tokens": 100,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "is_loan_document": true,
+    "kind": "amendment",
+    "title": "Third Amendment",
+    "dated": "2024-05-10",
+    "amends_dated": "2021-05-10",
+    "primary_bank_facility": true,
+    "includes_conformed_copy": true,
+    "borrower": "Boston Scientific Corporation"
+  }
+}

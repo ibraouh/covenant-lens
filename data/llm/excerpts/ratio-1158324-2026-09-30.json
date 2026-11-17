@@ -1,0 +1,19 @@
+{
+  "job": "ratio-1158324-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1158324/000110465926123158/ccoi-20260930x10q.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 5459,
+    "output_tokens": 238,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [],
+    "notes": "No bank credit agreement financial covenant ratios are disclosed in the excerpt. The ratios mentioned all come from bond indentures and are excluded. These are the incurrence, lien and restricted-payment tests under the 2032, 2027 and 2027 Mirror Notes Indentures: consolidated leverage below 6.0x, secured leverage below 4.0x (4.75x under the amended 2032 indenture) and fixed charge coverage of at least 2.0x. The excerpt also mentions the IPv4 Notes Indenture leverage and debt service coverage tests (Class A Leverage Ratio of 7.25x or less) of a securitization subsidiary."
+  }
+}

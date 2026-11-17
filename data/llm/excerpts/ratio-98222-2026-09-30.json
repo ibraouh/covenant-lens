@@ -1,0 +1,19 @@
+{
+  "job": "ratio-98222-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/98222/000143774926035927/tdw20260930_10q.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 2851,
+    "output_tokens": 849,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [],
+    "notes": "The excerpt gives no actual covenant ratio values, so no entries are listed. The Revolving Credit Facility (DNB Bank ASA, $250.0 million) has three financial covenants. The first is minimum liquidity: cash plus available commitments must be at least the greater of $20.0 million or 10% of net interest-bearing debt. The text is cut off at the second covenant ('the ratio of net intere...'), so its limit and the third covenant are not shown. The total net leverage ratio mentioned there only sets the interest margin (250-350 bps), so it is excluded. The BNDES Vessel Construction Loans require a minimum collateral coverage ratio (appraised vessel value to loan balance) of 130% from the October 1, 2026 amendments. Before that, the requirement was 110% or 130% depending on the agreement. No actual value is disclosed. Compliance status is not stated in the excerpt."
+  }
+}

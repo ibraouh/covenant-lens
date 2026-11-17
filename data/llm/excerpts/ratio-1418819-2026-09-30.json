@@ -1,0 +1,40 @@
+{
+  "job": "ratio-1418819-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1418819/000141881926000052/irdm-20260930.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 5220,
+    "output_tokens": 1328,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "consolidated first lien net leverage ratio",
+        "metric": "secured_net_leverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 6.25,
+        "direction": "max",
+        "facility": "Credit Agreement - Revolving Facility",
+        "quote": "With respect to the Revolving Facility, the Credit Agreement requires the Company to maintain a consolidated first lien net leverage ratio (as defined in the Credit Agreement) of no greater than 6.25 to 1.00 if more than 35 % of the Revolving Facility has been drawn, which was the case as of September 30, 2026."
+      },
+      {
+        "covenant_name": "consolidated total leverage ratio",
+        "metric": "total_leverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 5.0,
+        "direction": "max",
+        "facility": "Aireon Credit Agreement (Aireon Holdings and its subsidiaries)",
+        "quote": "In addition, the Aireon Credit Agreement contains a financial covenant requiring Aireon Holdings and its subsidiaries to maintain, on a consolidated basis as of the last day of each quarterly period, a consolidated total leverage ratio, as defined in the Aireon Credit Agreement, of not more than 5.00 to 1.00."
+      }
+    ],
+    "notes": "The Credit Agreement has no financial maintenance covenant for the Term Loan. The 6.25x first lien net leverage covenant is a springing test for the Revolving Facility. It applies only when more than 35% of the revolver is drawn, which was the case at 9/30/2026. No actual ratio is disclosed; the company states only that it was in compliance. The 3.5x thresholds (commitment fee step-down and excess cash flow sweep) are excluded because they are not maintenance covenants. The Aireon covenant applies to Aireon Holdings, which appears to be a consolidated subsidiary following the Aireon Closing. It is a separate subsidiary-level borrower, not Iridium itself. The excerpt does not state Aireon's actual ratio or confirm compliance specifically."
+  }
+}

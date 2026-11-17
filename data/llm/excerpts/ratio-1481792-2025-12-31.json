@@ -1,0 +1,40 @@
+{
+  "job": "ratio-1481792-2025-12-31",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1481792/000148179226000042/quad-20251231.htm",
+    "period": "2025-12-31"
+  },
+  "usage": {
+    "input_tokens": 6007,
+    "output_tokens": 1068,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "Senior Secured Leverage Ratio",
+        "metric": "secured_net_leverage",
+        "period_end": "2025-12-31",
+        "actual": null,
+        "limit": 3.0,
+        "direction": "max",
+        "facility": "Senior Secured Credit Facility",
+        "quote": "the Senior Secured Leverage Ratio (net indebtedness to consolidated EBITDA) shall not exceed 3.00 to 1.00 for any fiscal quarter ending on or after September 30, 2024"
+      },
+      {
+        "covenant_name": "Total Leverage Ratio",
+        "metric": "total_leverage",
+        "period_end": "2025-12-31",
+        "actual": null,
+        "limit": 3.5,
+        "direction": "max",
+        "facility": "Senior Secured Credit Facility",
+        "quote": "the Total Leverage Ratio (consolidated total indebtedness to consolidated EBITDA) shall not exceed 3.50 to 1.00 for any fiscal quarter ending on or after September 30, 2024"
+      }
+    ],
+    "notes": "The excerpt states only the covenant maximums, which apply to quarters ending on or after September 30, 2024. The actual covenant ratios would be in the 'Covenants and Compliance' section, which is not in the excerpt. The Senior Secured Leverage Ratio nets domestic unrestricted cash against debt. A Total Net Leverage Ratio covenant is mentioned, but no figures are given for it. Two items are left out. The 1.57x/1.56x Net Debt Leverage Ratio is a non-GAAP management metric, with a target range of 1.50x-2.00x, and is not a covenant. The 2.50x/2.75x Total Leverage Ratio thresholds only govern limits on dividends and share repurchases, so they are not maintenance covenants."
+  }
+}

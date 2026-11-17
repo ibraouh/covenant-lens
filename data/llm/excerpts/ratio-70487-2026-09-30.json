@@ -1,0 +1,40 @@
+{
+  "job": "ratio-70487-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/70487/000143774926034887/nrc20260930_10q.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 3639,
+    "output_tokens": 538,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "fixed charge coverage ratio",
+        "metric": "fixed_charge_coverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 1.1,
+        "direction": "min",
+        "facility": "Credit Agreement (Delayed Draw Term Loan and Revolving Loan)",
+        "quote": "Pursuant to the Credit Agreement, we are required to maintain a minimum fixed charge coverage ratio of 1.10x and a cash flow leverage ratio of 3.50x or less for all testing periods throughout the term of the Credit Facilities."
+      },
+      {
+        "covenant_name": "cash flow leverage ratio",
+        "metric": "total_leverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": 3.5,
+        "direction": "max",
+        "facility": "Credit Agreement (Delayed Draw Term Loan and Revolving Loan)",
+        "quote": "Pursuant to the Credit Agreement, we are required to maintain a minimum fixed charge coverage ratio of 1.10x and a cash flow leverage ratio of 3.50x or less for all testing periods throughout the term of the Credit Facilities."
+      }
+    ],
+    "notes": "The filing gives only the covenant requirements and says the company was in compliance at September 30, 2026; it does not disclose actual ratio values. The cash flow leverage ratio also sets the SOFR margin (2.25%-2.75%) and the unused commitment fee (0.15%-0.30%); those pricing uses are not covenants and are not reported. Pro forma compliance with both ratios is also a condition for paying dividends or repurchasing stock."
+  }
+}

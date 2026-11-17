@@ -1,0 +1,24 @@
+{
+  "job": "cover-17843-c1241d1ca1",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/17843/000110465923046705/tm2312918d1_ex10-1.htm"
+  },
+  "usage": {
+    "input_tokens": 4134,
+    "output_tokens": 110,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "is_loan_document": true,
+    "kind": "amended_and_restated",
+    "title": "Second Amended and Restated Credit Agreement",
+    "dated": "2023-04-14",
+    "amends_dated": null,
+    "primary_bank_facility": true,
+    "includes_conformed_copy": false,
+    "borrower": "Carpenter Technology Corporation"
+  }
+}

@@ -234,8 +234,13 @@ def chain_text(ch: dict) -> str:
     return combine([(d["url"], edgar.fetch_text(d["url"])) for d in ch["used"]])
 
 
-def read_job(b: dict, ch: dict, model: str = OPUS):
-    key = _h("|".join(d["url"] for d in ch["used"]))
+def read_job(b: dict, ch: dict, model: str = OPUS, legacy: bool = False):
+    """Job ids depend on the documents read; chains with deleted (struck-through) text got a new id when that text
+    started being removed, so only those are read again. `legacy` gives the id from before that fix."""
+    urls = "|".join(d["url"] for d in ch["used"])
+    if not legacy and any(edgar.has_deleted_text(d["url"]) for d in ch["used"]):
+        urls += edgar.TEXT_VERSION
+    key = _h(urls)
     short = model.replace("claude-", "").replace("-", "")
     return reading_job(f"read-{b['cik']}-{key}-{short}", chain_text(ch), model=model,
                        meta={"cik": b["cik"], "docs": [d["url"] for d in ch["used"]]})
@@ -248,7 +253,14 @@ def read(universe: list[dict], model: str = OPUS, log=print) -> dict[str, Outcom
         if ch and ch["used"]:
             jobs[b["cik"]] = read_job(b, ch, model)
     res = run_batch("read", list(jobs.values()), log=log)
-    return {cik: res[j.id] for cik, j in jobs.items() if j.id in res}
+    out = {cik: res[j.id] for cik, j in jobs.items() if j.id in res}
+    for b in universe:  # not read yet with the current text: fall back to an earlier reading, flagged as stale
+        if b["cik"] in jobs and b["cik"] not in out:
+            old = cached("read", read_job(b, _load(UNIVERSE / b["cik"] / "chain.json"), model, legacy=True))
+            if old:
+                old.error = "stale"
+                out[b["cik"]] = old
+    return out
 
 
 # ---------------------------------------------------------------- compute
@@ -294,7 +306,7 @@ def _ltm_adjusted(fin: financials.CompanyFinancials, i: int, adj: dict[date, dic
     return sum(vals)
 
 
-def compute(b: dict, reading: AgreementReading | CovenantExtraction, n_quarters: int = 8) -> dict:
+def compute(b: dict, reading: AgreementReading | CovenantExtraction, n_quarters: int = 8, stale: bool = False) -> dict:
     cik = b["cik"]
     fin = financials.load(cik)
     ch = _load(UNIVERSE / cik / "chain.json")
@@ -314,8 +326,7 @@ def compute(b: dict, reading: AgreementReading | CovenantExtraction, n_quarters:
             xb = covenants.check(cov, q)
             adj_e = _ltm_adjusted(fin, i, adj)
             ad = covenants.check(cov, q, ebitda=adj_e) if adj_e else None
-            rep_key = next((k for k in keys if k[0] == cov.metric and _near(q.period_end, [date.fromisoformat(k[1])])), None)
-            rep = keys.get(rep_key) if rep_key else None
+            rep = _reported_for(cov, q.period_end, keys)
             rows.append({
                 "period_end": q.period_end.isoformat(),
                 "before_agreement": bool(signed and q.period_end < signed),
@@ -339,13 +350,14 @@ def compute(b: dict, reading: AgreementReading | CovenantExtraction, n_quarters:
                        "headroom_at_today": covenants.headroom(latest["value"], v, cov.direction) if latest else None}
                       for d, v in steps],
         })
+    since = current_since(ch)
     for (metric, period), r in sorted(keys.items(), key=lambda kv: kv[0][1]):
-        accuracy.append(_grade(reading, covs, metric, period, r))
+        accuracy.append(_grade(reading, covs, metric, period, r, since))
 
     tight = [c for c in covs if c["latest"] and c["test_frequency"] != "springing"]
     tightest = min(tight, key=lambda c: c["latest"]["headroom"], default=None)
     result = {
-        "cik": cik, "name": b["name"], "borrower": reading.borrower, "gold": bool(b.get("gold")),
+        "cik": cik, "name": b["name"], "borrower": reading.borrower, "gold": bool(b.get("gold")), "stale": stale,
         "agreement_date": reading.agreement_date, "facility": getattr(reading, "facility", None),
         "chain": ch, "covenants": covs, "notes": reading.notes,
         "terms": [t.model_dump() | {"quote_verified": terms_ok.get(t.kind)} for t in getattr(reading, "terms", [])],
@@ -359,6 +371,19 @@ def compute(b: dict, reading: AgreementReading | CovenantExtraction, n_quarters:
     }
     _save(UNIVERSE / cik / "result.json", result)
     return result
+
+
+def _reported_for(cov, period: date, keys: dict) -> dict | None:
+    """The company's own figure for this covenant at this quarter: same metric if reported, else same family
+    (a 10-Q's "total leverage ratio" is often the contract's net ratio), preferring a matching limit."""
+    near = [(k, r) for k, r in keys.items() if _near(period, [date.fromisoformat(k[1])])]
+    exact = [r for (m, _), r in near if m == cov.metric]
+    if exact:
+        return exact[0]
+    family = [r for (m, _), r in near if covenants.FAMILY[m] == covenants.FAMILY[cov.metric]]
+    lim = covenants.limit_for(cov, period)
+    family.sort(key=lambda r: abs((r["limit"] or 1e12) - (lim or 0)))
+    return family[0] if family else None
 
 
 def _latest(cov, rows: list[dict]) -> dict | None:
@@ -376,24 +401,38 @@ def _latest(cov, rows: list[dict]) -> dict | None:
     return None
 
 
-def _grade(reading, covs: list[dict], metric: str, period: str, r: dict) -> dict:
+def current_since(ch: dict) -> date | None:
+    """Date of the latest document in the chain: the terms Claude read apply from here on."""
+    dates = [date.fromisoformat(d["dated"]) for d in ch.get("used", []) if d.get("dated")]
+    return max(dates) if dates else None
+
+
+def _grade(reading, covs: list[dict], metric: str, period: str, r: dict, since: date | None = None) -> dict:
     """Score one answer key: did Claude read the right limit, and how close is each estimate?"""
-    cov = next((c for c in reading.covenants if c.metric == metric), None)
+    p = date.fromisoformat(period)
+    cov = covenants.match(reading.covenants, metric, r["limit"], p)
     row = None
     if cov:
         c = next(c for c in covs if c["name"] == cov.name)
-        row = next((x for x in c["rows"] if _near(date.fromisoformat(x["period_end"]), [date.fromisoformat(period)])), None)
-    ours = covenants.limit_for(cov, date.fromisoformat(period)) if cov else None
+        row = next((x for x in c["rows"] if _near(date.fromisoformat(x["period_end"]), [p])), None)
+    ours = covenants.limit_for(cov, p) if cov else None
+    skip = covenants.gradable(metric, r["limit"], p, since)
     err = lambda est: (est / r["actual"] - 1) if (est is not None and r["actual"]) else None  # noqa: E731
     return {
         "metric": metric, "period_end": period, "reported": r["actual"], "reported_limit": r["limit"],
-        "covenant_found": cov is not None, "our_limit": ours,
-        "limit_match": (ours is not None and r["limit"] is not None and abs(ours - r["limit"]) < 0.006)
-        if r["limit"] is not None else None,
+        "covenant_found": cov is not None, "matched": cov.name if cov else None, "our_limit": ours,
+        "limit_match": None if skip else (ours is not None and covenants.same_limit(ours, r["limit"])),
+        "not_graded": skip,
         "xbrl": row["xbrl"] if row else None, "adjusted": row["adjusted"] if row else None,
-        "xbrl_error": err(row["xbrl"]) if row else None, "adjusted_error": err(row["adjusted"]) if row else None,
+        "xbrl_error": err(row["xbrl"]) if row and FAMILY_COMPUTABLE(metric) else None,
+        "adjusted_error": err(row["adjusted"]) if row and FAMILY_COMPUTABLE(metric) else None,
         "facility": r.get("facility"), "quote": r["quote"], "url": r["url"],
     }
+
+
+def FAMILY_COMPUTABLE(metric: str) -> bool:  # noqa: N802
+    """Estimates exist only for leverage and interest coverage; compare like with like."""
+    return covenants.FAMILY[metric] in ("leverage", "interest")
 
 
 def _compliance(cik: str) -> dict | None:
@@ -447,9 +486,12 @@ def run_compute(universe: list[dict], readings: dict[str, Outcome], log=print) -
         out = readings.get(b["cik"])
         if not out or not out.parsed:
             log(f"compute: no reading for {b['name']}" + (f" ({out.error})" if out and out.error else ""))
+            (UNIVERSE / b["cik"] / "result.json").unlink(missing_ok=True)  # never show a result for an outdated chain
             continue
+        if out.error == "stale":
+            log(f"compute: {b['name']} uses an earlier reading; its contract has deleted text and needs a fresh read")
         try:
-            results.append(compute(b, out.parsed))
+            results.append(compute(b, out.parsed, stale=out.error == "stale"))
         except Exception as e:
             log(f"compute: {b['name']} failed: {e}\n{traceback.format_exc(limit=2)}")
     summary = summarize(results)

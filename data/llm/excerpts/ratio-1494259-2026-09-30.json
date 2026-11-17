@@ -1,0 +1,30 @@
+{
+  "job": "ratio-1494259-2026-09-30",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/1494259/000119312526449875/carg-20260930.htm",
+    "period": "2026-09-30"
+  },
+  "usage": {
+    "input_tokens": 3907,
+    "output_tokens": 783,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "ratios": [
+      {
+        "covenant_name": "Consolidated Secured Net Leverage Ratio",
+        "metric": "secured_net_leverage",
+        "period_end": "2026-09-30",
+        "actual": null,
+        "limit": null,
+        "direction": "max",
+        "facility": "Amended Credit Agreement (Amended Revolver)",
+        "quote": "The Amended Credit Agreement includes customary events of default and requires the Company to comply with customary affirmative and negative covenants, including a financial covenant requiring that the Company not exceed certain Consolidated Secured Net Leverage Ratio ranges at the end of each fiscal quarter. The Company was in compliance with all covenants as of September 30, 2026."
+      }
+    ],
+    "notes": "The excerpt states only that the company was in compliance with the quarterly Consolidated Secured Net Leverage Ratio maintenance covenant at 2026-09-30. It gives neither the actual ratio nor the threshold. The Amendment also added an incurrence-based test in the credit agreement: certain debt may not be incurred unless the pro forma Consolidated Total Gross Leverage Ratio is 6.25:1.00 or lower. That test is applied when debt is incurred, not at quarter-end, so it is excluded. The secured net leverage ratio also sets the interest spreads and the 0.125%\u20130.175% commitment fee. There were no borrowings under the revolver, with $9.4 million of letters of credit outstanding."
+  }
+}

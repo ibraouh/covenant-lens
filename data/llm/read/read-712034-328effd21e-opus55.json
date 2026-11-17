@@ -1,0 +1,132 @@
+{
+  "job": "read-712034-328effd21e-opus55",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "cik": "712034",
+    "docs": [
+      "https://www.sec.gov/Archives/edgar/data/712034/000095017025100909/acco-ex10_1.htm"
+    ]
+  },
+  "usage": {
+    "input_tokens": 275387,
+    "output_tokens": 6461,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "borrower": "ACCO Brands Corporation (with ACCO Brands Australia Holding Pty. Ltd. as Australian Borrower)",
+    "agreement_date": "2017-01-27",
+    "covenants": [
+      {
+        "name": "Consolidated Leverage Ratio",
+        "metric": "net_leverage",
+        "direction": "max",
+        "thresholds": [
+          {
+            "value": 4.5,
+            "applies_from": "2025-03-31"
+          },
+          {
+            "value": 4.75,
+            "applies_from": "2026-03-31"
+          },
+          {
+            "value": 4.25,
+            "applies_from": "2026-09-30"
+          },
+          {
+            "value": 4.5,
+            "applies_from": "2027-03-31"
+          },
+          {
+            "value": 4.0,
+            "applies_from": "2027-09-30"
+          }
+        ],
+        "test_frequency": "quarterly",
+        "springing_condition": null,
+        "section": "Section 7.11(a)",
+        "quote": "(iii) for the fiscal quarters ending September 30, 2025 and December 31, 2025, to be greater than 4.50:1.00, (iv) for the fiscal quarters ending March 31, 2026 and June 30, 2026, to be greater than 4.75:1.00, (v) for the fiscal quarters ending September 30, 2026 and December 31, 2026, to be greater than 4.25:1.00",
+        "ebitda_addbacks": [
+          "stock_comp",
+          "impairments",
+          "restructuring",
+          "other"
+        ],
+        "cash_netting_cap": 100000000.0,
+        "cash_netting_cap_pct_ebitda": null
+      },
+      {
+        "name": "Consolidated Interest Coverage Ratio",
+        "metric": "interest_coverage",
+        "direction": "min",
+        "thresholds": [
+          {
+            "value": 3.0,
+            "applies_from": null
+          }
+        ],
+        "test_frequency": "quarterly",
+        "springing_condition": null,
+        "section": "Section 7.11(b)",
+        "quote": "Permit the Consolidated Interest Coverage Ratio as of the end of any fiscal quarter of Holdings to be less than 3.00 to 1.00.",
+        "ebitda_addbacks": [
+          "stock_comp",
+          "impairments",
+          "restructuring",
+          "other"
+        ],
+        "cash_netting_cap": null,
+        "cash_netting_cap_pct_ebitda": null
+      }
+    ],
+    "notes": "Covenants reflect the conformed agreement as amended through the Eighth Amendment (July 29, 2025). The amended text is shown with strike-and-insert marks that did not survive extraction, so the leverage schedule has been reconstructed. (1) Leverage schedule outside the Covenant Relief Period is seasonal: 4.50x at Q1/Q2 quarter-ends and 4.00x at Q3/Q4 quarter-ends. This produced 4.50x at 3/31/24, 6/30/24, 3/31/25 and 6/30/25, and 4.00x at 9/30/24 and 12/31/24. (2) Covenant Relief Period runs from July 29, 2025 through Dec 31, 2026, with these levels: 4.50x at 9/30/25 and 12/31/25; 4.75x at 3/31/26 and 6/30/26; 4.25x at 9/30/26 and 12/31/26. The seasonal 4.50x/4.00x pattern resumes from 2027. (3) Material Acquisition step-up: after an acquisition over $200M, the leverage limit rises by 0.50x for the closing quarter and the next three quarters. Only one step-up may be in effect at a time, the limit is capped at 5.00x, and the step-up is unavailable for quarters ending in the Covenant Relief Period. (4) The leverage ratio is a net ratio. Consolidated Funded Indebtedness is netted by Unrestricted Cash of up to $100M (excluding Brazilian subsidiaries), plus all Unrestricted Cash of Brazilian subsidiaries without a cap. Permitted Supply Chain Financing is excluded from debt. Interest coverage uses cash interest net of interest income. (5) EBITDA add-backs include: non-cash write-offs, write-downs and impairments; non-cash stock compensation; other non-cash charges; severance, restructuring, retention and integration cash charges capped at 15% of EBITDA; Third Restatement transaction costs capped at $5M; Permitted Acquisition transaction expenses; and fair value accounting losses. Pro forma acquisition cost savings and synergies are capped at 10% of EBITDA. The addback_cap_pct field reports 0.10 for cost savings; restructuring has its own separate 15% cap. (6) During the Covenant Relief Period: pricing is fixed at Level 1 (SOFR + 2.25%, commitment fee 0.375%); lien, debt, purchase-money and foreign-debt baskets are reduced; the receivables financing basket is suspended; and the leverage-based restricted payment builder basket is unavailable. (7) An additional Euro Term A repayment equal to $35M is due by Sept 30, 2025. (8) Pro forma covenant tests for Permitted Acquisitions use tighter deemed levels: 3.75x through 12/31/25, 4.25x at Q1/Q2 2026, 3.75x at Q3/Q4 2026, then 0.25x inside the covenant. (9) Revolver borrowings are conditioned on Loan Party cash not exceeding $100M after giving effect (anti-cash hoarding). (10) There is no equity cure and no unrestricted subsidiary concept. (11) Maturity springs to 180 days before the 2029 Notes maturity unless those notes are refinanced.",
+    "facility": "$467.5M multicurrency revolving credit facility and \u20ac122.89M Euro Term A loan (plus an AUD Term A tranche of up to AUD 61M), maturing the earlier of Oct 30, 2029 and 180 days before maturity of the 4.25% 2029 Notes unless refinanced",
+    "terms": [
+      {
+        "kind": "j_crew_blocker",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "The agreement has no unrestricted subsidiary concept and no specific restriction on transferring or exclusively licensing material IP to non-guarantor entities. IP dispositions are limited only by the general Disposition and Investment covenants."
+      },
+      {
+        "kind": "serta_protection",
+        "present": "partial",
+        "section": "Section 11.01(a)(xiv)",
+        "quote": "amend Article V of the U.S. Obligations Guaranty or Article V of the Foreign Obligations Guaranty, as applicable, in a manner that would by its terms alter the pro rata sharing of payments required thereby or the relative priorities of such payments, without the written consent of each Lender;",
+        "summary": "Changes to pro rata sharing and to the payment waterfall priorities need each lender's (or each adversely affected lender's) consent, and releasing all or substantially all collateral or guarantees needs all lenders. However, there is no express all-lender consent requirement for subordinating the loans or their liens to other debt."
+      },
+      {
+        "kind": "chewy_protection",
+        "present": "partial",
+        "section": "Section 9.10(a)(iii)",
+        "quote": "to release any Guarantor from its Guarantee of the Obligations under any Loan Document if such Person ceases to be a Subsidiary as a result of a transaction permitted hereunder (unless such Person continues to guarantee the SpinCo Notes or the 2029 Notes); and",
+        "summary": "A guarantor is released only if it stops being a Subsidiary (a majority-owned or controlled entity), not merely because it stops being wholly owned. There is no express Chewy-style provision, though."
+      },
+      {
+        "kind": "unrestricted_sub_cap",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "The agreement has no unrestricted subsidiary designation mechanism, so it contains no such cap. Investments in non-Loan Party subsidiaries are limited by baskets in Section 7.02."
+      },
+      {
+        "kind": "addback_cap",
+        "present": "yes",
+        "section": "Section 1.01 (Consolidated EBITDA)",
+        "quote": "in any four consecutive fiscal quarter period shall not exceed 10% of Consolidated EBITDA for such period prior to giving effect to this",
+        "summary": "Projected cost savings and synergies from Permitted Acquisitions are capped at 10% of EBITDA. Severance, restructuring, retention and integration cash charges are separately capped at 15% of EBITDA."
+      },
+      {
+        "kind": "equity_cure",
+        "present": "no",
+        "section": null,
+        "quote": null,
+        "summary": "The agreement has no equity cure right for financial covenant defaults."
+      }
+    ],
+    "addback_cap_pct": 0.1
+  }
+}

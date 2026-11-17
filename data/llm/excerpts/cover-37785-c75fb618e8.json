@@ -1,0 +1,24 @@
+{
+  "job": "cover-37785-c75fb618e8",
+  "model": "claude-opus-5-5",
+  "meta": {
+    "url": "https://www.sec.gov/Archives/edgar/data/37785/000119312526427896/d201698dex101.htm"
+  },
+  "usage": {
+    "input_tokens": 3239,
+    "output_tokens": 107,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0
+  },
+  "error": null,
+  "parsed": {
+    "is_loan_document": true,
+    "kind": "amendment",
+    "title": "Amendment, Consent and Waiver No. 8",
+    "dated": "2026-10-15",
+    "amends_dated": "2022-06-17",
+    "primary_bank_facility": true,
+    "includes_conformed_copy": false,
+    "borrower": "FMC Corporation"
+  }
+}
