@@ -179,6 +179,49 @@ def chain(b: dict) -> dict:
     return found
 
 
+def rescue_chain(b: dict, until: str, log=print) -> dict:
+    """When amendments point at a base agreement older than the search window, go back and get it.
+
+    The amendments say which agreement they amend ("amends_dated"); search EDGAR from that date for the
+    original and any amendments missed, read their cover pages, and resolve the chain again.
+    """
+    from collections import Counter
+
+    from .llm import run_one
+
+    path = UNIVERSE / b["cik"] / "collected.json"
+    col = _load(path, {"exhibits": []})
+    targets = Counter()
+    for e in col["exhibits"]:
+        out = _cached_outcome("excerpts", e["job"], agreements.Cover)
+        if out and out.parsed and out.parsed.kind == "amendment" and out.parsed.amends_dated:
+            targets[out.parsed.amends_dated] += 1
+    if not targets:
+        return chain(b)
+    base_date = date.fromisoformat(targets.most_common(1)[0][0])
+    have = {e["url"] for e in col["exhibits"]}
+    hits = edgar.search('"credit agreement"', forms="8-K,10-Q,10-K", start=(base_date - timedelta(days=7)).isoformat(),
+                        end=until, ciks=b["cik"], max_pages=5)
+    added = 0
+    for h in hits:
+        src, url = h["_source"], edgar.hit_url(h)
+        if url in have or not src.get("file_type", "").startswith(("EX-10", "EX-4")):
+            continue
+        if not url.lower().endswith((".htm", ".html", ".txt")):
+            continue
+        have.add(url)
+        text = edgar.fetch_text(url)
+        job = agreements.cover_job(f"cover-{b['cik']}-{_h(url)}", text, {"url": url})
+        run_one("excerpts", job)
+        col["exhibits"].append({"url": url, "filed": src["file_date"], "exhibit": src["file_type"], "chars": len(text),
+                                "job": job.id})
+        added += 1
+    _save(path, col)
+    ch = chain(b)
+    log(f"rescue: {b['name']}: looked back to {base_date}, {added} more exhibits, chain now {len(ch['used'])} docs")
+    return ch
+
+
 def _cached_outcome(stage: str, job_id: str, schema) -> Outcome | None:
     class _J:  # the cache only needs the id and schema
         pass

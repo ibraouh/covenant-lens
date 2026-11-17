@@ -240,6 +240,8 @@ def cmd_build(args: argparse.Namespace) -> None:
     if "chain" in stages:
         for b in universe:
             ch = pl.chain(b)
+            if not ch["used"]:
+                ch = pl.rescue_chain(b, today)
             print(f"chain: {b['name'][:40]:40s} {len(ch['used'])} docs ({ch['source']})" +
                   (f"  notes: {'; '.join(ch['notes'])}" if ch["notes"] else ""))
     if "read" in stages or "compute" in stages:
@@ -322,7 +324,8 @@ def cmd_refresh(args: argparse.Namespace) -> None:
     pl.collect(universe, today)
     edgar.REFRESH = False
     for b in universe:
-        pl.chain(b)
+        if not pl.chain(b)["used"]:
+            pl.rescue_chain(b, today)
     pl.run_compute(universe, pl.read(universe, OPUS))
 
 
