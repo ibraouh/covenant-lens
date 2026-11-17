@@ -5,6 +5,8 @@ from __future__ import annotations
 
 import json
 import math
+import shutil
+from datetime import date
 from pathlib import Path
 
 from .edgar import ROOT
@@ -12,6 +14,7 @@ from .llm import LEDGER
 
 SITE = ROOT / "site"
 TEMPLATE = Path(__file__).with_name("site_template.html")
+ASSETS = Path(__file__).with_name("site_assets")
 ROW_KEYS = ("period_end", "before_agreement", "limit", "xbrl", "adjusted", "reported", "reported_limit",
             "ltm_ebitda_xbrl", "ltm_ebitda_adjusted", "debt", "cash")
 
@@ -68,13 +71,63 @@ def _finite(x):
     return x
 
 
+def _when(d: str) -> str:
+    return date.fromisoformat(d).strftime("%b %-d, %Y")
+
+
+def _example(results: list[dict]) -> dict | None:
+    """The worked example at the top: Casella publishes its covenant figures, so every number is its own."""
+    r = next((r for r in results if r["cik"] == "911177" and r["tightest"] and r["tightest"]["basis"] == "reported"), None)
+    if not r:
+        return None
+    t = r["tightest"]
+    key = next((a for a in r["accuracy"] if a["period_end"] == t["period_end"] and a["reported"] == t["value"]), None)
+    return {"name": "Casella Waste Systems", "short": "Casella", "value": t["value"], "limit": t["limit"], "cushion": t["cushion"],
+            "period_label": _when(t["period_end"]), "url": key["url"] if key else None, "form": "10-Q"}
+
+
+def _findings(results: list[dict]) -> list[dict]:
+    """Three things worth reading first, with their numbers taken from the data."""
+    by = {r["cik"]: r for r in results}
+    out = []
+    n = by.get("71557")
+    if n and n["tightest"] and n["tightest"]["value"] < n["tightest"]["limit"]:
+        t = n["tightest"]
+        out.append({"date": t["period_end"], "title": "A covenant miss, reported by the company",
+                    "body": f"Nuvera Communications reported debt service coverage of {t['value']:.2f} at {_when(t['period_end'])}, "
+                            f"below the {t['limit']:.2f} minimum in its loan agreement. "
+                            "Its next quarterly report describes a new loan facility.",
+                    "link": "b-71557", "link_text": "See Nuvera"})
+    e = by.get("1023731")
+    if e and e["tightest"] and e["tightest"]["basis"] == "adjusted":
+        c = next(c for c in e["covenants"] if c["name"] == e["tightest"]["name"])
+        row = next((x for x in reversed(c["rows"]) if x["xbrl"] is not None and x["period_end"] == e["tightest"]["period_end"]), None)
+        if row:
+            t = e["tightest"]
+            out.append({"date": t["period_end"], "title": "An estimate that looked like a breach and wasn't",
+                        "body": f"Rebuilt from standard accounting lines, 8x8's leverage came out at {row['xbrl']:.2f}x against a "
+                                f"{t['limit']:.2f}x limit, while 8x8 said it was in compliance. Using the adjusted EBITDA 8x8 publishes "
+                                f"gives {t['value']:.2f}x. How the contract defines EBITDA decides the answer.",
+                        "link": "b-1023731", "link_text": "See 8x8"})
+    if "1766368" in by:
+        out.append({"date": "2026-11-17", "title": "A bug the grading caught",
+                    "body": "Mayville Engineering's amended agreement shows deleted terms in strikethrough. The first version of the tool "
+                            "read those deleted limits as if they still applied, and checking against the limits Mayville reports exposed "
+                            "it. Deleted text is now removed before Claude reads a contract.",
+                    "link": "b-1766368", "link_text": "See Mayville"})
+    return out
+
+
 def build(results: list[dict], summary: dict, models: list[dict] | None = None, model_note: str | None = None,
           gold: dict | None = None, repo: str | None = None) -> Path:
     data = {"summary": summary, "borrowers": [_slim(r) for r in results], "cost": read_cost(),
-            "models": models or [], "model_note": model_note, "gold": gold, "repo": repo}
+            "models": models or [], "model_note": model_note, "gold": gold, "repo": repo,
+            "example": _example(results), "findings": _findings(results)}
     blob = json.dumps(_finite(data), default=str, separators=(",", ":"), allow_nan=False).replace("</", "<\\/")
     html = TEMPLATE.read_text().replace("/*DATA*/", blob)
     SITE.mkdir(exist_ok=True)
+    for asset in ASSETS.iterdir():  # favicon, touch icon, share card
+        shutil.copy(asset, SITE / asset.name)
     out = SITE / "index.html"
     out.write_text(html)
     return out

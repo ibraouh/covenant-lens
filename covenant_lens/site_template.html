@@ -4,7 +4,19 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Covenant Lens</title>
-<meta name="description" content="Covenant headroom for public borrowers, read from their credit agreements and checked against what each company reports.">
+<meta name="description" content="How close public companies are to the limits in their loan agreements, read from SEC filings and graded against what each company reports.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Covenant Lens">
+<meta property="og:description" content="Reads public companies' loan agreements from SEC filings, checks every covenant each quarter, and grades itself against what the companies report.">
+<meta property="og:url" content="https://ibraouh.github.io/covenant-lens/">
+<meta property="og:image" content="https://ibraouh.github.io/covenant-lens/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="theme-color" content="#f6f7f8" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0f1215" media="(prefers-color-scheme: dark)">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+Condensed:wght@500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
@@ -92,7 +104,8 @@ td.n, th.n { text-align: right; white-space: nowrap; }
 tbody tr.row { cursor: pointer; }
 tbody tr.row:hover { background: var(--accent-wash); }
 tbody tr:last-child td { border-bottom: 0; }
-.co { font-weight: 600; }
+.co { font-weight: 600; min-width: 190px; }
+.watch td.test { min-width: 150px; }
 .co small { display: block; font-weight: 400; color: var(--muted); font-size: 12.5px; }
 .chip { display: inline-flex; align-items: center; gap: 6px; font: 500 12.5px var(--f-body); white-space: nowrap; }
 .chip i { width: 9px; height: 9px; border-radius: 50%; display: inline-block; flex: none; }
@@ -154,6 +167,65 @@ section > h2 { margin-bottom: 6px; }
 .note { border-left: 3px solid var(--line-strong); padding: 2px 0 2px 12px; color: var(--ink-2); font-size: 14px; margin: 12px 0 0; }
 footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--line); font-size: 13px; color: var(--muted); }
 @media (prefers-reduced-motion: no-preference) { tbody tr.row { transition: background 120ms; } }
+
+/* explainer */
+.hero { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); gap: 28px; align-items: start; margin-bottom: 6px; }
+@media (max-width: 860px) { .hero { grid-template-columns: 1fr; gap: 18px; } }
+.hero .lead { font-size: 17px; line-height: 1.55; margin: 0 0 12px; max-width: 60ch; text-wrap: pretty; }
+.hero p { margin: 0 0 10px; color: var(--ink-2); max-width: 62ch; text-wrap: pretty; }
+.example { border: 1px solid var(--line-strong); border-radius: var(--r); background: var(--surface); padding: 14px 16px 12px; }
+.example .who { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; font-size: 13px; color: var(--muted); }
+.example .who b { color: var(--ink); font-weight: 600; font-size: 14px; }
+.example svg { width: 100%; height: auto; display: block; margin: 8px 0 6px; }
+.example p { margin: 0; font-size: 14px; color: var(--ink-2); }
+.example .src { font-size: 12.5px; margin-top: 6px; display: inline-block; }
+/* report card: the four numbers that grade the tool */
+.report { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); margin: 26px 0 8px; border-top: 1px solid var(--line-strong); border-bottom: 1px solid var(--line-strong); }
+.report > div { padding: 12px 16px 12px 0; min-width: 0; }
+.report > div + div { padding-left: 16px; border-left: 1px solid var(--line); }
+.report .num { display: block; font-size: 22px; line-height: 1.2; font-weight: 500; }
+.report .num small { font-size: 14px; color: var(--muted); font-weight: 400; }
+.report span.cap { display: block; font-size: 13px; color: var(--ink-2); margin-top: 2px; }
+@media (max-width: 860px) { .report { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .report > div:nth-child(3) { padding-left: 0; border-left: 0; } .report > div:nth-child(n+3) { border-top: 1px solid var(--line); } }
+@media (max-width: 420px) { .report { grid-template-columns: 1fr; } .report > div, .report > div + div { padding-left: 0; border-left: 0; }
+  .report > div + div { border-top: 1px solid var(--line); } }
+/* findings log */
+.log { list-style: none; margin: 12px 0 0; padding: 0; display: grid; gap: 0; }
+.log li { display: grid; grid-template-columns: 7.5rem minmax(0, 1fr); gap: 4px 18px; padding: 12px 0; border-top: 1px solid var(--line); }
+.log li:last-child { border-bottom: 1px solid var(--line); }
+.log time { font: 500 13px/1.6 var(--f-data); color: var(--muted); }
+.log h3 { font-size: 16px; margin-bottom: 2px; }
+.log p { margin: 0; color: var(--ink-2); max-width: 72ch; }
+@media (max-width: 560px) { .log li { grid-template-columns: 1fr; } }
+/* glossary */
+.gl { all: unset; cursor: help; border-bottom: 1px dotted var(--muted); color: inherit; }
+.gl:hover, .gl:focus-visible { border-bottom-color: var(--accent); color: var(--accent); }
+.gl:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 2px; }
+#glpop { position: fixed; z-index: 20; max-width: min(320px, calc(100vw - 32px)); background: var(--surface); color: var(--ink);
+  border: 1px solid var(--line-strong); border-radius: var(--r); padding: 9px 11px; font-size: 13.5px; line-height: 1.45;
+  box-shadow: 0 6px 22px rgba(0, 0, 0, 0.16); }
+#glpop b { display: block; font-size: 12.5px; margin-bottom: 2px; }
+/* headroom gauge in the watchlist */
+.gauge { display: flex; align-items: center; gap: 10px; white-space: nowrap; }
+.gauge svg { width: 96px; height: 14px; flex: none; }
+/* phone: the watchlist becomes a stack of entries */
+@media (max-width: 700px) {
+  .co { min-width: 0; } .watch td.test { min-width: 0; }
+  .tablebox.watch { overflow: visible; background: transparent; border: 0; }
+  .watch table, .watch tbody { display: block; }
+  .watch thead { display: none; }
+  .watch tr.row { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 4px 12px; padding: 12px 14px; margin-bottom: 10px;
+    background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); }
+  .watch td { display: block; border: 0; padding: 0; text-align: left; }
+  .watch td.co, .watch td.test, .watch td.gaugecell { grid-column: 1 / -1; }
+  .watch td.test { color: var(--ink-2); font-size: 13.5px; }
+  .watch td[data-label]::before { content: attr(data-label); display: block; font-size: 11.5px; color: var(--muted); }
+  .watch td.n { text-align: left; }
+}
+.foot { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 10px 24px; }
+.foot .by { color: var(--ink-2); }
+.foot .by a { margin-left: 10px; }
 </style>
 </head>
 <body>
@@ -163,9 +235,11 @@ footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--line);
     <nav class="top"><a href="#">Watchlist</a><a href="#accuracy">Accuracy</a><a href="#method">Method</a><a id="repo" href="https://github.com/">Code</a></nav>
   </header>
   <main id="app"></main>
-  <footer>Built from public SEC filings (EDGAR full-text search, XBRL company facts and exhibits). Claude reads the
-    contracts and quotes them; every quote is checked against the filing, and all ratio math runs in code.
-    Estimates are not investment advice.</footer>
+  <footer><div class="foot">
+    <span class="by">Built by Abe Raouh <a href="https://www.raouh.com/" rel="noopener">raouh.com</a><a href="https://www.linkedin.com/in/iraouh/" rel="noopener">LinkedIn</a><a href="https://github.com/ibraouh" rel="noopener">GitHub</a></span>
+    <span>Public SEC filings only. Estimates, not investment advice.</span></div>
+    <p style="margin:10px 0 0">Claude reads the contracts and quotes them; code checks every quote against the filing and does all the math.</p></footer>
+  <div id="glpop" role="tooltip" hidden></div>
 </div>
 <script id="data" type="application/json">/*DATA*/</script>
 <script>
@@ -175,6 +249,7 @@ const $ = (s, el = document) => el.querySelector(s);
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"}[c]));
 const x2 = v => v == null || isNaN(v) ? "n/a" : (Math.abs(v) >= 100 ? Math.round(v).toLocaleString() : v.toFixed(2)) + "x";
 const pct = (v, signed) => v == null || isNaN(v) ? "n/a" : (signed && v > 0 ? "+" : "") + Math.round(v * 100) + "%";
+const pct1 = v => v == null || isNaN(v) ? "n/a" : (v * 100).toFixed(1) + "%";
 const money = v => v == null ? "n/a" : "$" + (Math.abs(v) >= 1e9 ? (v / 1e9).toFixed(2) + "B" : (v / 1e6).toFixed(1) + "M");
 const BASIS = {reported: "Reported", adjusted: "Est.", xbrl: "Est."};
 const BASIS_LONG = {reported: "the company's own figure", adjusted: "estimate from company adjusted EBITDA", xbrl: "estimate from GAAP line items"};
@@ -192,6 +267,86 @@ function status(h) { return h == null || isNaN(h) ? "na" : h < 0 ? "over" : h < 
 function chip(h) { const s = status(h); const label = {over: "Over limit", close: "Close", pass: "Room", na: "n/a"}[s];
   return `<span class="chip ${s}"><i aria-hidden="true"></i>${label}${s === "na" ? "" : " " + pct(h, true)}</span>`; }
 function openTerms(b) { return PROTECTIVE.map(k => [k, (b.terms.find(t => t.kind === k) || {}).present]); }
+
+const GLOSSARY = {
+  covenant: ["Covenant", "A promise in a loan agreement. Financial covenants are tests the borrower has to pass every quarter, such as keeping debt below a multiple of earnings."],
+  ebitda: ["EBITDA", "Earnings before interest, taxes, depreciation and amortization: a rough measure of the cash a business produces. Every loan agreement writes its own definition, usually with extra add-backs."],
+  leverage: ["Leverage ratio", "Debt divided by EBITDA. 3.0x means debt equals three years of EBITDA. Net leverage subtracts cash from debt first. The test sets a maximum."],
+  coverage: ["Coverage ratio", "EBITDA divided by interest (or by all fixed charges). Higher is safer, so the test sets a minimum."],
+  headroom: ["Headroom", "How much of the limit is still unused. +25% means the ratio sits a quarter of the way inside its limit; a negative number means it is past the limit."],
+  cushion: ["EBITDA cushion", "How far EBITDA could fall before the test trips, holding debt, cash and interest where they are today."],
+  stepdown: ["Step-down", "A change to a limit that the agreement schedules in advance, usually tightening it over time."],
+  springing: ["Springing test", "A test that only applies under a condition, for example only while the revolving credit line is drawn."],
+  reported: ["Reported", "The company's own covenant figure from its 10-Q or 10-K. It comes from the compliance certificate the company sends its lenders, so it is the closest public thing to the real number."],
+  estimate: ["Estimate", "Rebuilt from public filings because the company does not publish this ratio. Usually less exact than a reported figure."],
+  addbacks: ["Add-backs", "Costs the agreement lets the borrower add back to EBITDA, such as stock compensation or one-time charges. More add-backs make the test easier to pass."],
+  protections: ["Lender protections", "Clauses that stop a borrower from moving assets or priority away from its lenders, named after the deals that exposed the gaps: J.Crew, Serta, Chewy. The squares stand for J.Crew, Serta, Chewy, unrestricted subsidiary cap and add-back cap; red means the agreement lacks it."],
+  amendment: ["Amendment", "A later document that changes the original agreement. The latest amendment controls."],
+  springs: ["Not computable", "Public filings don't break out what this test needs, such as secured debt or fixed charges."],
+};
+const g = (key, label) => `<button type="button" class="gl" data-g="${key}">${label ?? GLOSSARY[key][0]}</button>`;
+
+// A ruler: where the ratio sits against its limit. For a maximum the forbidden side is to the right of the limit,
+// for a minimum it is to the left. Large for the worked example, small as a gauge in each watchlist row.
+function ruler(value, limit, direction, big) {
+  const W = big ? 520 : 96, H = big ? 74 : 14, L = big ? 8 : 1, R = big ? 8 : 1;
+  const top = Math.max(limit * 1.3, value * 1.12), x = v => L + Math.max(0, Math.min(v, top)) / top * (W - L - R);
+  const y = big ? 30 : 4, h = big ? 12 : 6, over = direction === "max" ? value > limit : value < limit;
+  const id = "h" + Math.random().toString(36).slice(2, 7);
+  const bad = direction === "max" ? [x(limit), W - R] : [L, x(limit)];
+  let ticks = "";
+  if (big) for (let t = 0; t <= top; t += (top > 8 ? 2 : 1)) ticks += `<line x1="${x(t)}" x2="${x(t)}" y1="${y + h + 4}" y2="${y + h + 9}" stroke="var(--line-strong)"/><text x="${x(t)}" y="${y + h + 22}" text-anchor="middle" font-size="11" fill="var(--muted)" font-family="var(--f-data)">${t}x</text>`;
+  return `<svg viewBox="0 0 ${W} ${H}" role="img" aria-label="${x2(value)} against a ${direction === "max" ? "maximum" : "minimum"} of ${x2(limit)}">
+    <defs><pattern id="${id}" width="5" height="5" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="5" stroke="var(--critical)" stroke-width="1.6" opacity="0.55"/></pattern></defs>
+    <rect x="${L}" y="${y}" width="${W - L - R}" height="${h}" rx="${h / 2}" fill="var(--clause)"/>
+    <rect x="${bad[0]}" y="${y}" width="${Math.max(0, bad[1] - bad[0])}" height="${h}" fill="url(#${id})"/>
+    <rect x="${L}" y="${y}" width="${Math.max(0, x(value) - L)}" height="${h}" rx="${h / 2}" fill="${over ? "var(--critical)" : "var(--ink-2)"}"/>
+    <line x1="${x(limit)}" x2="${x(limit)}" y1="${y - (big ? 8 : 3)}" y2="${y + h + (big ? 2 : 3)}" stroke="var(--critical)" stroke-width="${big ? 2 : 1.5}"/>
+    ${big ? `<text x="${x(limit)}" y="${y - 12}" text-anchor="${direction === "max" ? "start" : "end"}" dx="${direction === "max" ? -4 : 4}" font-size="12" fill="var(--critical-ink)">Limit ${x2(limit)}</text>
+      <text x="${x(value)}" y="${y - 12}" text-anchor="middle" font-size="12.5" font-weight="600" fill="var(--ink)" font-family="var(--f-data)">${x2(value)}</text>
+      <path d="M${x(value) - 5} ${y - 7}L${x(value) + 5} ${y - 7}L${x(value)} ${y - 1}Z" fill="var(--ink)"/>${ticks}` : ""}
+  </svg>`;
+}
+function gauge(t, direction) {
+  const s = status(t.headroom), word = {over: "over", close: "close", pass: "room", na: ""}[s];
+  return `<span class="gauge">${ruler(t.value, t.limit, direction, false)}<span class="chip ${s}"><i aria-hidden="true"></i>${pct(t.headroom, true)} ${word}</span></span>`;
+}
+
+function hero() {
+  const ex = D.example;
+  return `<div class="hero">
+    <div>
+      <p class="lead">When a company borrows from banks, the loan agreement sets ${g("covenant", "financial limits")} it has to stay inside every quarter.
+        The most common one caps debt at a multiple of yearly earnings (${g("ebitda", "EBITDA")}). Lenders watch how close each borrower is,
+        because drifting toward a limit is usually the first sign of trouble.</p>
+      <p>Covenant Lens finds each company's loan agreement and its ${g("amendment", "amendments")} in SEC filings, has Claude read the limits out of the contract,
+        and checks every quarter how much room is left. Many companies print their own covenant figures in their quarterly reports;
+        the tool is graded against those, and the scores below are recomputed on every run.</p>
+    </div>
+    ${ex ? `<figure class="example" style="margin:0">
+      <div class="who"><b>${esc(ex.name)}</b><span>${esc(ex.period_label)}</span></div>
+      ${ruler(ex.value, ex.limit, "max", true)}
+      <p>Debt, after subtracting cash, was ${x2(ex.value)} its EBITDA. The loan agreement allows at most ${x2(ex.limit)},
+        so EBITDA could fall ${pct(ex.cushion)} before ${esc(ex.short)} would break the limit.</p>
+      <a class="src" href="${esc(ex.url)}" target="_blank" rel="noopener">${esc(ex.short)}'s ${esc(ex.form || "10-Q")}, where it reports both numbers</a>
+    </figure>` : ""}
+  </div>`;
+}
+function reportCard() {
+  const S = D.summary;
+  return `<div class="report" aria-label="How accurate the tool is">
+    <div><span class="num">${S.limits_matched}<small> of ${S.limits_checked}</small></span><span class="cap">covenant limits read correctly, checked against what the companies report</span></div>
+    <div><span class="num">${pct1(S.paired_adjusted_median)}<small> vs ${pct1(S.paired_xbrl_median)}</small></span><span class="cap">median ratio error using company EBITDA, vs rebuilt from accounting lines</span></div>
+    <div><span class="num">${S.quotes_verified + S.term_quotes_verified}<small> of ${S.covenants + S.term_quotes}</small></span><span class="cap">contract quotes found word for word in the filing</span></div>
+    <div><span class="num">${D.cost ? "$" + D.cost.read.toFixed(2) : "n/a"}</span><span class="cap">to read all ${D.cost ? D.cost.agreements : ""} loan agreements (<a href="#accuracy">details</a>)</span></div>
+  </div>`;
+}
+function findings() {
+  if (!(D.findings || []).length) return "";
+  return `<section style="margin-top:30px"><h2>What it found</h2><ol class="log">${D.findings.map(f => `
+    <li><time datetime="${f.date}">${f.date}</time><div><h3>${esc(f.title)}</h3><p>${esc(f.body)} <a href="#${f.link}">${esc(f.link_text)}</a></p></div></li>`).join("")}
+  </ol></section>`;
+}
 
 // ------------------------------------------------------------------ watchlist
 let sortKey = "headroom", sortDir = 1, filt = {q: "", basis: "all", covlite: true};
@@ -216,23 +371,14 @@ function sortVal(r) {
   }
 }
 function watchlist() {
-  const S = D.summary, rs = rows().sort((a, b) => (sortVal(a) > sortVal(b) ? 1 : sortVal(a) < sortVal(b) ? -1 : 0) * sortDir);
-  const lim = S.limits_checked ? `${S.limits_matched}<small>/${S.limits_checked}</small>` : "n/a";
+  const rs = rows().sort((a, b) => (sortVal(a) > sortVal(b) ? 1 : sortVal(a) < sortVal(b) ? -1 : 0) * sortDir);
   return `
-  <p class="sub">How close ${D.borrowers.length} public borrowers are to the financial covenants in their credit agreements.
-    Each limit is read from the contract itself; each ratio is the company's own reported figure where it publishes one,
-    and an estimate from its filings where it doesn't.</p>
-  <div class="stats">
-    <div class="stat"><div class="eyebrow">Limits read correctly</div><div class="v">${lim}</div>
-      <p>Claude's reading of each contract, checked against the limit the company itself reports</p></div>
-    <div class="stat"><div class="eyebrow">Median ratio error</div><div class="v">${pct(S.paired_adjusted_median)}<small> vs ${pct(S.paired_xbrl_median)}</small></div>
-      <p>Estimate from company adjusted EBITDA, vs from GAAP line items, against reported ratios (${S.paired_points} quarters)</p></div>
-    <div class="stat"><div class="eyebrow">Quotes verified</div><div class="v">${S.quotes_verified + S.term_quotes_verified}<small>/${S.covenants + S.term_quotes}</small></div>
-      <p>Every covenant and contract term is quoted word for word and found in the filing by code</p></div>
-    <div class="stat"><div class="eyebrow">Cost to read every contract</div><div class="v">${D.cost ? "$" + D.cost.read.toFixed(2) : "n/a"}</div>
-      <p>${D.cost ? `${D.cost.agreements} agreement chains, ${(D.cost.tokens / 1e6).toFixed(1)}M tokens, Batch API` : ""}</p></div>
-  </div>
+  ${hero()}
+  ${reportCard()}
+  ${findings()}
+  <section style="margin-top:34px">
   <h2>Watchlist</h2>
+  <p class="small" style="margin:4px 0 0">${D.borrowers.length} borrowers, tightest test first. Select a row for the contract language, quarter-by-quarter numbers and lender protections.</p>
   <div class="filters" role="group" aria-label="Filter the watchlist">
     <input type="search" id="q" placeholder="Search borrowers" value="${esc(filt.q)}" aria-label="Search borrowers">
     <select id="basis" aria-label="Which ratios to show">
@@ -243,28 +389,30 @@ function watchlist() {
     <label><input type="checkbox" id="covlite"${filt.covlite ? " checked" : ""}> Include loans with no maintenance test</label>
     <span class="small">${rs.length} shown, sorted by ${{headroom: "headroom", cushion: "EBITDA cushion", name: "name", terms: "open loopholes"}[sortKey]}</span>
   </div>
-  <div class="tablebox"><table>
+  <div class="tablebox watch"><table>
     <thead><tr>
       <th><button data-sort="name">Borrower</button></th><th>Tightest test</th>
       <th class="n">Latest</th><th class="n">Limit</th><th><button data-sort="headroom">Headroom</button></th>
-      <th class="n"><button data-sort="cushion" title="How far EBITDA can fall before the test trips">EBITDA cushion</button></th>
-      <th>Next step-down</th><th><button data-sort="terms" title="Lender protections: red means the agreement lacks it">Lender protections</button></th>
+      <th class="n"><button data-sort="cushion">EBITDA cushion</button></th>
+      <th>Next step-down</th><th><button data-sort="terms">Lender protections</button></th>
     </tr></thead>
-    <tbody>${rs.map(({b, t, next}) => `
+    <tbody>${rs.map(({b, t, next}) => { const cov = t && b.covenants.find(c => c.name === t.name); return `
       <tr class="row" tabindex="0" data-cik="${b.cik}">
-        <td class="co">${esc(b.name)}<small>${esc(b.agreement_date ? "Agreement dated " + b.agreement_date : "")}</small></td>
-        <td>${t ? esc(t.name) : `<span class="small">${b.cov_lite ? "No maintenance test" : "Not computable"}</span>`}</td>
-        <td class="n">${t ? x2(t.value) + `<span class="basis ${t.basis}" title="${BASIS_LONG[t.basis]}">${BASIS[t.basis]}</span>` : ""}</td>
-        <td class="n">${t ? x2(t.limit) : ""}</td>
-        <td>${t ? chip(t.headroom) : ""}</td>
-        <td class="n">${t ? pct(t.cushion) : ""}</td>
-        <td class="small">${next ? `${x2(next.limit)} from ${qlabel(next.from)}` : ""}</td>
-        <td><span class="terms" aria-label="lender protections">${openTerms(b).map(([k, p]) =>
+        <td class="co">${esc(b.name)}<small>${esc(b.agreement_date ? "Agreement of " + b.agreement_date.slice(0, 4) : "")}</small></td>
+        <td class="test">${t ? esc(t.name) : `<span class="small">${b.cov_lite ? "No quarterly test in this loan" : "Not computable from public data"}</span>`}</td>
+        <td class="n" data-label="Latest">${t ? x2(t.value) + `<span class="basis ${t.basis}">${BASIS[t.basis]}</span>` : ""}</td>
+        <td class="n" data-label="Limit">${t ? x2(t.limit) : ""}</td>
+        <td class="gaugecell">${t ? gauge(t, cov ? cov.direction : "max") : ""}</td>
+        <td class="n" data-label="EBITDA cushion">${t && t.cushion != null ? pct(t.cushion) : ""}</td>
+        <td class="small" data-label="Next step-down">${next ? `${x2(next.limit)} from ${qlabel(next.from)}` : "None scheduled"}</td>
+        <td data-label="Lender protections"><span class="terms">${openTerms(b).map(([k, p]) =>
           `<b class="${p === "yes" ? "shut" : p === "partial" ? "partial" : p === "no" ? "open" : "shut"}" title="${TERM[k][0]}: ${p === "yes" ? "in the agreement" : p === "partial" ? "partly" : p === "no" ? "missing" : "not assessed"}">${TERM[k][0][0]}</b>`).join("")}</span></td>
-      </tr>`).join("")}
+      </tr>`; }).join("")}
     </tbody></table></div>
-  <p class="small">Headroom is the share of the limit still unused. EBITDA cushion is how far EBITDA could fall before the test trips,
-    holding debt, cash and interest where they are. <b>Reported</b> marks the company's own covenant figure; <b>Est.</b> marks an estimate from public filings.</p>
+  <p class="small">How to read it: ${g("headroom")} is the share of the limit still unused, and ${g("cushion")} is how far EBITDA could fall before the test trips.
+    ${g("reported")} marks the company's own figure; ${g("estimate", "Est.")} marks one rebuilt from its filings.
+    ${g("stepdown", "Step-downs")} tighten a limit on a set date. ${g("protections")} show which anti-loophole clauses each contract has.</p>
+  </section>
   ${accuracy()}
   ${method()}`;
 }
@@ -401,19 +549,20 @@ function borrower(b) {
   ${b.stale ? `<p class="note">This agreement marks deleted terms with strikethrough. The reading shown was made before the pipeline
     started removing deleted text; quotes are re-checked against the corrected text, and a fresh read is queued.</p>` : ""}
   <div class="facts">${t ? `<span>Tightest: <b>${esc(t.name)}</b> at <b class="num">${x2(t.value)}</b> vs <b class="num">${x2(t.limit)}</b> (${BASIS_LONG[t.basis]}, ${t.period_end})</span>
-    <span>${chip(t.headroom)}</span><span>EBITDA cushion <b class="num">${pct(t.cushion)}</b></span>` :
+    <span>${chip(t.headroom)}</span><span>${g("cushion")} <b class="num">${pct(t.cushion)}</b></span>` :
     `<span>${b.cov_lite ? "No financial maintenance test: this loan is covenant-lite." : "No covenant could be computed from public data."}</span>`}</div>
   <section><h2>The contract</h2>
-    <p class="small">${b.chain.source === "automatic" ? "Found automatically from EDGAR exhibits" : "Hand-picked documents"}; amendments in order, the latest controls.</p>
+    <p class="small">${b.chain.source === "automatic" ? "Found automatically from EDGAR exhibits" : "Hand-picked documents"}; ${g("amendment", "amendments")} in order, the latest controls.</p>
     <ol class="small" style="margin:8px 0 0;padding-left:20px">${used.map(d => `<li><a href="${esc(d.url)}" rel="noopener" target="_blank">${esc(d.title)}</a>${d.dated ? `, dated ${d.dated}` : ""}</li>`).join("")}</ol>
     ${(b.chain.notes || []).map(n => `<p class="note">${esc(n)}</p>`).join("")}
   </section>
   <section><h2>Covenants</h2>${b.covenants.length ? b.covenants.map(c => `
     <div class="card cov">
       <div class="cov-head"><h3>${esc(c.name)}</h3><span class="lim">${c.direction === "max" ? "at most" : "at least"} ${thresholds(c)}</span></div>
+      ${c.latest ? ruler(c.latest.value, c.latest.limit, c.direction, true) : ""}
       <div class="facts">${c.latest ? `<span>Latest <b class="num">${x2(c.latest.value)}</b> (${BASIS_LONG[c.latest.basis]})</span><span>${chip(c.latest.headroom)}</span>
-        <span>EBITDA cushion <b class="num">${pct(c.latest.cushion)}</b></span>` : ""}
-        <span>Tested ${c.test_frequency === "springing" ? "only when triggered" : esc(c.test_frequency)}</span>
+        <span>${g("cushion")} <b class="num">${pct(c.latest.cushion)}</b></span>` : ""}
+        <span>Tested ${c.test_frequency === "springing" ? g("springing", "only when triggered") : esc(c.test_frequency)}</span>
         ${c.cash_netting_cap ? `<span>Netted cash capped at <b class="num">${money(c.cash_netting_cap)}</b></span>` : ""}
         ${c.cash_netting_cap_pct_ebitda ? `<span>Netted cash capped at <b class="num">${pct(c.cash_netting_cap_pct_ebitda)}</b> of EBITDA</span>` : ""}</div>
       ${c.springing_condition ? `<p class="note">${esc(c.springing_condition)}</p>` : ""}
@@ -476,6 +625,29 @@ function rerenderList(keepFocus) {
   const y = window.scrollY; $("#app").innerHTML = watchlist(); wire(); window.scrollTo(0, y);
   if (keepFocus) { const q = $("#q"); q.focus(); q.setSelectionRange(q.value.length, q.value.length); }
 }
+// glossary popover: hover or focus on desktop, tap on phones; Escape, scrolling or tapping elsewhere closes it
+const pop = document.getElementById("glpop");
+let popFor = null;
+function showGl(btn) {
+  const [t, d] = GLOSSARY[btn.dataset.g];
+  pop.innerHTML = `<b>${t}</b>${d}`;
+  pop.hidden = false;
+  const r = btn.getBoundingClientRect(), pw = pop.offsetWidth, ph = pop.offsetHeight;
+  let top = r.bottom + 8;
+  if (top + ph > window.innerHeight - 8) top = r.top - ph - 8;
+  pop.style.left = Math.min(Math.max(16, r.left), window.innerWidth - pw - 16) + "px";
+  pop.style.top = Math.max(8, top) + "px";
+  popFor = btn;
+}
+function hideGl() { pop.hidden = true; popFor = null; }
+document.addEventListener("mouseover", e => { const b = e.target.closest(".gl"); if (b) showGl(b); });
+document.addEventListener("mouseout", e => { const b = e.target.closest(".gl"); if (b && b === popFor) hideGl(); });
+document.addEventListener("focusin", e => { const b = e.target.closest(".gl"); if (b) showGl(b); });
+document.addEventListener("focusout", e => { if (e.target.closest(".gl")) hideGl(); });
+document.addEventListener("click", e => { const b = e.target.closest(".gl"); if (b) { e.stopPropagation(); showGl(b); } else hideGl(); }, true);
+document.addEventListener("keydown", e => { if (e.key === "Escape") hideGl(); });
+window.addEventListener("scroll", () => { if (!pop.hidden) hideGl(); }, {passive: true});
+
 $("#updated").textContent = "Updated " + D.summary.generated;
 if (D.repo) $("#repo").href = D.repo;
 window.addEventListener("hashchange", render);
