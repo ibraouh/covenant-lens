@@ -1,0 +1,69 @@
+{
+  "name": "varex",
+  "cik": "1681622",
+  "docs": [
+    "https://www.sec.gov/Archives/edgar/data/1681622/000168162226000035/exhibit101-creditandguaran.htm"
+  ],
+  "labeled": "By hand, 2026-11-17. Credit and Guaranty Agreement dated March 13, 2026, Section 6.12.",
+  "extraction": {
+    "borrower": "Varex Imaging Corporation",
+    "agreement_date": "2026-03-13",
+    "covenants": [
+      {
+        "name": "Consolidated Total Net Leverage Ratio",
+        "metric": "net_leverage",
+        "direction": "max",
+        "thresholds": [
+          {
+            "value": 4.25,
+            "applies_from": null
+          },
+          {
+            "value": 4.0,
+            "applies_from": "2027-12-01"
+          },
+          {
+            "value": 3.75,
+            "applies_from": "2028-12-01"
+          }
+        ],
+        "test_frequency": "quarterly",
+        "springing_condition": null,
+        "section": "Section 6.12(a)",
+        "quote": "The Parent Borrower shall not permit the Consolidated Total Net Leverage Ratio, on the last day of any Fiscal Quarter, to be greater than the ratio set forth below opposite such Fiscal Quarter",
+        "ebitda_addbacks": [
+          "stock_comp",
+          "impairments",
+          "restructuring",
+          "other"
+        ],
+        "cash_netting_cap": 100000000,
+        "cash_netting_cap_pct_ebitda": null
+      },
+      {
+        "name": "Consolidated Fixed Charge Coverage Ratio",
+        "metric": "fixed_charge_coverage",
+        "direction": "min",
+        "thresholds": [
+          {
+            "value": 1.2,
+            "applies_from": null
+          }
+        ],
+        "test_frequency": "quarterly",
+        "springing_condition": null,
+        "section": "Section 6.12(b)",
+        "quote": "The Parent Borrower shall not permit the Consolidated Fixed Charge Coverage Ratio, on the last day of any Fiscal Quarter, to be less than 1.20:1.00.",
+        "ebitda_addbacks": [
+          "stock_comp",
+          "impairments",
+          "restructuring",
+          "other"
+        ],
+        "cash_netting_cap": null,
+        "cash_netting_cap_pct_ebitda": null
+      }
+    ],
+    "notes": "Leverage steps down from 4.25x (closing to the September 2027 quarter) to 4.00x (December 2027 to September 2028) and 3.75x after that. After an acquisition of $125M or more the limit rises 0.50x for that quarter and the next three, capped at 4.50x. Consolidated Adjusted EBITDA adds back non-cash charges and impairments, non-cash equity compensation, non-recurring fees, earn-out changes, and restructuring, severance and cost-savings charges plus run-rate synergies (those two together capped at 20% of EBITDA). Only cash in accounts under the agent's control, up to $100M, is netted against debt. The fixed charge ratio needs capex, cash taxes and scheduled principal payments, which this tool doesn't compute."
+  }
+}

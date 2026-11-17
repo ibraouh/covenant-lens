@@ -1,0 +1,82 @@
+{
+  "name": "8x8",
+  "cik": "1023731",
+  "docs": [
+    "https://www.sec.gov/Archives/edgar/data/1023731/000102373124000062/a8x8_ex101xcreditagreeme.htm",
+    "https://www.sec.gov/Archives/edgar/data/1023731/000102373125000070/a101_firstamendmenttoter.htm"
+  ],
+  "labeled": "By hand, 2026-11-17. Term Loan Credit Agreement (Wells Fargo, agent), Section 9.16, as amended by the First Amendment (filed 2025-08-04), which replaced the 9.16(a) step-downs with a flat 4.50x. Corrected 2026-11-17 after Claude's extraction disagreed: removed 'restructuring' from the add-backs. The Adjusted Cash EBITDA definition has no restructuring add-back, only unusual and non-recurring charges capped at 15% (checked against the agreement text).",
+  "extraction": {
+    "borrower": "8x8, Inc.",
+    "agreement_date": "2024-07-11",
+    "covenants": [
+      {
+        "name": "Consolidated Total Net Leverage Ratio",
+        "metric": "net_leverage",
+        "direction": "max",
+        "thresholds": [
+          {
+            "value": 4.5,
+            "applies_from": null
+          }
+        ],
+        "test_frequency": "quarterly",
+        "springing_condition": null,
+        "section": "Section 9.16(a), as amended by the First Amendment",
+        "quote": "As of the last day of any fiscal quarter (commencing with the fiscal quarter ending September 30, 2024), the Borrower shall not permit the Consolidated Total Net Leverage Ratio to be greater than 4.50 to 1.00.",
+        "ebitda_addbacks": [
+          "stock_comp",
+          "impairments",
+          "other"
+        ],
+        "cash_netting_cap": null,
+        "cash_netting_cap_pct_ebitda": 0.5
+      },
+      {
+        "name": "Consolidated Secured Leverage Ratio",
+        "metric": "secured_leverage",
+        "direction": "max",
+        "thresholds": [
+          {
+            "value": 2.5,
+            "applies_from": null
+          }
+        ],
+        "test_frequency": "quarterly",
+        "springing_condition": null,
+        "section": "Section 9.16(b)",
+        "quote": "As of the last day of any fiscal quarter (commencing with the fiscal quarter ending September 30, 2024), the Borrower shall not permit the Consolidated Secured Leverage Ratio to be greater than 2.50 to 1.00.",
+        "ebitda_addbacks": [
+          "stock_comp",
+          "impairments",
+          "other"
+        ],
+        "cash_netting_cap": null,
+        "cash_netting_cap_pct_ebitda": null
+      },
+      {
+        "name": "Consolidated Interest Coverage Ratio",
+        "metric": "interest_coverage",
+        "direction": "min",
+        "thresholds": [
+          {
+            "value": 3.0,
+            "applies_from": null
+          }
+        ],
+        "test_frequency": "quarterly",
+        "springing_condition": null,
+        "section": "Section 9.16(c)",
+        "quote": "As of the last day of any fiscal quarter (commencing with the fiscal quarter ending September 30, 2024), the Borrower shall not permit the Consolidated Interest Coverage Ratio to be less than 3.00 to 1.00.",
+        "ebitda_addbacks": [
+          "stock_comp",
+          "impairments",
+          "other"
+        ],
+        "cash_netting_cap": null,
+        "cash_netting_cap_pct_ebitda": null
+      }
+    ],
+    "notes": "All three covenants use Adjusted Cash EBITDA, which adds back D&A (including capitalized software and deferred commission amortization), impairments, stock compensation and unusual charges (capped at 15%), but subtracts cash spent on capitalized software and deferred sales commissions in the period. Public data can't see those cash deductions, so the tool's EBITDA runs high for 8x8. Interest coverage uses interest paid or payable in cash. Netted cash is capped at 50% of Adjusted Cash EBITDA. The First Amendment (2025) removed the scheduled step-downs to 4.25x and 4.00x."
+  }
+}

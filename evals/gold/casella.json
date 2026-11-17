@@ -1,0 +1,182 @@
+{
+  "name": "casella",
+  "cik": "911177",
+  "docs": [
+    "https://www.sec.gov/Archives/edgar/data/911177/000119312524228456/d823888dex101.htm"
+  ],
+  "labeled": "By hand, 2026-11-17. Second Amended and Restated Credit Agreement dated September 27, 2024, Section 7.11.",
+  "extraction": {
+    "borrower": "Casella Waste Systems, Inc. and its subsidiary borrowers",
+    "agreement_date": "2024-09-27",
+    "covenants": [
+      {
+        "name": "Minimum Interest Coverage Ratio",
+        "metric": "interest_coverage",
+        "direction": "min",
+        "thresholds": [
+          {
+            "value": 3.0,
+            "applies_from": null
+          }
+        ],
+        "test_frequency": "quarterly",
+        "springing_condition": null,
+        "section": "Section 7.11(a)",
+        "quote": "As at the end of any fiscal quarter, the Borrowers shall not permit the ratio of (a) Consolidated EBITDA for the period of four (4) consecutive fiscal quarters then ending to (b) Consolidated Cash Interest Charges for such period to be less than 3.00 to 1.00.",
+        "ebitda_addbacks": [
+          "stock_comp",
+          "impairments",
+          "restructuring",
+          "other"
+        ],
+        "cash_netting_cap": null,
+        "cash_netting_cap_pct_ebitda": null
+      },
+      {
+        "name": "Consolidated Total Net Leverage Ratio",
+        "metric": "net_leverage",
+        "direction": "max",
+        "thresholds": [
+          {
+            "value": 4.0,
+            "applies_from": null
+          }
+        ],
+        "test_frequency": "quarterly",
+        "springing_condition": "Applies until the Borrowers make a Secured Leverage Covenant Election. The Borrowers may raise the limit to 4.50x for four quarters after acquisitions over $25M.",
+        "section": "Section 7.11(b)",
+        "quote": "the Borrowers shall not permit the Consolidated Total Net Leverage Ratio for the period of four (4) consecutive fiscal quarters then ending to exceed 4:00 to 1.00",
+        "ebitda_addbacks": [
+          "stock_comp",
+          "impairments",
+          "restructuring",
+          "other"
+        ],
+        "cash_netting_cap": 100000000,
+        "cash_netting_cap_pct_ebitda": null
+      },
+      {
+        "name": "Consolidated Secured Net Leverage Ratio",
+        "metric": "secured_net_leverage",
+        "direction": "max",
+        "thresholds": [
+          {
+            "value": 3.5,
+            "applies_from": null
+          }
+        ],
+        "test_frequency": "springing",
+        "springing_condition": "Only after the Borrowers make a Secured Leverage Covenant Election, which replaces the total net leverage test. The election is available once the Borrowers have incurred more than $250M of unsecured debt after closing.",
+        "section": "Section 7.11(c)",
+        "quote": "the Borrowers shall not permit the Consolidated Secured Net Leverage Ratio for the period of four (4) consecutive fiscal quarters then ending to exceed 3.50 to 1.00.",
+        "ebitda_addbacks": [
+          "stock_comp",
+          "impairments",
+          "restructuring",
+          "other"
+        ],
+        "cash_netting_cap": 100000000,
+        "cash_netting_cap_pct_ebitda": null
+      }
+    ],
+    "notes": "Consolidated EBITDA starts from Consolidated Adjusted Net Income, which adds back stock compensation, impairments (up to $50M cumulative), severance and reorganization costs (up to $10M) and acquisition costs, then adds interest, taxes, depreciation, depletion and amortization. Acquisitions count pro forma, with synergies up to 15% of EBITDA. Only unencumbered cash up to $100M is netted against debt. Interest coverage uses cash interest charges, not total interest expense. The agreement writes the leverage limit as '4:00 to 1.00', which reads as 4.00x."
+  },
+  "reported": [
+    {
+      "period_end": "2024-12-31",
+      "metric": "net_leverage",
+      "value": 2.54,
+      "source": "https://www.sec.gov/Archives/edgar/data/911177/000091117725000010/cwst-20241231.htm"
+    },
+    {
+      "period_end": "2024-12-31",
+      "metric": "interest_coverage",
+      "value": 6.81,
+      "source": "https://www.sec.gov/Archives/edgar/data/911177/000091117725000010/cwst-20241231.htm"
+    },
+    {
+      "period_end": "2025-03-31",
+      "metric": "net_leverage",
+      "value": 2.45,
+      "source": "https://www.sec.gov/Archives/edgar/data/911177/000091117725000082/cwst-20250331.htm"
+    },
+    {
+      "period_end": "2025-03-31",
+      "metric": "interest_coverage",
+      "value": 7.17,
+      "source": "https://www.sec.gov/Archives/edgar/data/911177/000091117725000082/cwst-20250331.htm"
+    },
+    {
+      "period_end": "2025-06-30",
+      "metric": "net_leverage",
+      "value": 2.39,
+      "source": "https://www.sec.gov/Archives/edgar/data/911177/000162828025036993/cwst-20250630.htm"
+    },
+    {
+      "period_end": "2025-06-30",
+      "metric": "interest_coverage",
+      "value": 7.34,
+      "source": "https://www.sec.gov/Archives/edgar/data/911177/000162828025036993/cwst-20250630.htm"
+    },
+    {
+      "period_end": "2025-09-30",
+      "metric": "net_leverage",
+      "value": 2.34,
+      "source": "https://www.sec.gov/Archives/edgar/data/911177/000091117725000125/cwst-20250930.htm"
+    },
+    {
+      "period_end": "2025-09-30",
+      "metric": "interest_coverage",
+      "value": 7.54,
+      "source": "https://www.sec.gov/Archives/edgar/data/911177/000091117725000125/cwst-20250930.htm"
+    },
+    {
+      "period_end": "2025-12-31",
+      "metric": "net_leverage",
+      "value": 2.34,
+      "source": "https://www.sec.gov/Archives/edgar/data/911177/000091117726000008/cwst-20251231.htm"
+    },
+    {
+      "period_end": "2025-12-31",
+      "metric": "interest_coverage",
+      "value": 7.56,
+      "source": "https://www.sec.gov/Archives/edgar/data/911177/000091117726000008/cwst-20251231.htm"
+    },
+    {
+      "period_end": "2026-03-31",
+      "metric": "net_leverage",
+      "value": 2.29,
+      "source": "https://www.sec.gov/Archives/edgar/data/911177/000091117726000021/cwst-20260331.htm"
+    },
+    {
+      "period_end": "2026-03-31",
+      "metric": "interest_coverage",
+      "value": 7.67,
+      "source": "https://www.sec.gov/Archives/edgar/data/911177/000091117726000021/cwst-20260331.htm"
+    },
+    {
+      "period_end": "2026-06-30",
+      "metric": "net_leverage",
+      "value": 2.7,
+      "source": "https://www.sec.gov/Archives/edgar/data/911177/000091117726000049/cwst-20260630.htm"
+    },
+    {
+      "period_end": "2026-06-30",
+      "metric": "interest_coverage",
+      "value": 7.84,
+      "source": "https://www.sec.gov/Archives/edgar/data/911177/000091117726000049/cwst-20260630.htm"
+    },
+    {
+      "period_end": "2026-09-30",
+      "metric": "net_leverage",
+      "value": 2.76,
+      "source": "https://www.sec.gov/Archives/edgar/data/911177/000091117726000059/cwst-20260930.htm"
+    },
+    {
+      "period_end": "2026-09-30",
+      "metric": "interest_coverage",
+      "value": 7.63,
+      "source": "https://www.sec.gov/Archives/edgar/data/911177/000091117726000059/cwst-20260930.htm"
+    }
+  ]
+}

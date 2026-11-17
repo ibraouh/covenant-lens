@@ -1,0 +1,40 @@
+# Run by hand (Actions tab > refresh > Run workflow); to make it weekly, uncomment the schedule.
+# Picks up new 10-Qs and earnings releases, re-read anything that changed, rebuild the dashboard,
+# and publish it to GitHub Pages. Needs repository secrets ANTHROPIC_API_KEY and SEC_USER_AGENT.
+# Everything is cached by job id, so a week with no new filings costs nothing.
+name: refresh
+on:
+  # schedule:
+  #   - cron: "0 12 * * 1"
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - run: pip install -r requirements.txt
+      - name: Restore pipeline cache
+        uses: actions/cache@v4
+        with:
+          path: data
+          key: pipeline-${{ github.run_id }}
+          restore-keys: pipeline-
+      - name: Refresh filings and rebuild
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+        run: |
+          python -m covenant_lens refresh
+          python -m covenant_lens site --repo "https://github.com/${{ github.repository }}"
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - uses: actions/deploy-pages@v4
