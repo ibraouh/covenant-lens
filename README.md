@@ -4,7 +4,7 @@ Reads public companies' credit agreements, finds the financial covenants they pr
 
 When a company borrows from banks, the loan contract usually caps how indebted it can get, for example "debt may not exceed 4.00 times EBITDA." Lenders and credit funds track these limits for every borrower, every quarter, because a borrower drifting toward a limit is the earliest sign of trouble. The contracts run 150 to 300 pages, they get amended every year or two, and each one defines EBITDA its own way, so this monitoring is mostly done by hand.
 
-**Dashboard:** `site/index.html`, one static file with the data embedded (see [Run it](#run-it)).
+**Live dashboard: [ibraouh.github.io/covenant-lens](https://ibraouh.github.io/covenant-lens/)** (one static file, `site/index.html`, with the data embedded).
 
 ## Results
 
