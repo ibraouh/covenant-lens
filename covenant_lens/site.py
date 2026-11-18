@@ -19,6 +19,27 @@ ROW_KEYS = ("period_end", "before_agreement", "limit", "xbrl", "adjusted", "repo
             "ltm_ebitda_xbrl", "ltm_ebitda_adjusted", "debt", "cash")
 
 
+GOLD_NAMES = {"8x8": "8x8, Inc.", "casella": "Casella Waste Systems", "varex": "Varex Imaging"}
+KEEP_UPPER = {"KLA", "FMC", "KB", "IDEX", "AAON", "TTEC", "ACCO", "LP", "M/I", "II", "III"}
+SUFFIX = {"INC": "Inc.", "INC.": "Inc.", "CORP": "Corp.", "CORP.": "Corp.", "CO": "Co.", "CO.": "Co."}
+
+
+def display_name(name: str) -> str:
+    """EDGAR names come in capitals with state tags ("IDEX CORP /DE/"); show them the way the company writes them."""
+    if name in GOLD_NAMES:
+        return GOLD_NAMES[name]
+    words = [w for w in name.replace(",", "").split() if not (w.startswith("/") and w.endswith("/"))]
+    out = []
+    for w in words:
+        if w in KEEP_UPPER or not w.isupper():
+            out.append(w)
+        elif w in SUFFIX:
+            out.append(SUFFIX[w])
+        else:
+            out.append("-".join(part.capitalize() for part in w.split("-")))
+    return " ".join(out)
+
+
 def _slim(r: dict) -> dict:
     """Only what the page shows, so the embedded data stays small."""
     covs = []
@@ -31,7 +52,7 @@ def _slim(r: dict) -> dict:
                                   "xbrl", "adjusted", "xbrl_error", "adjusted_error", "url")} for a in r["accuracy"]]
     comp = r.get("compliance") or {}
     return {
-        "cik": r["cik"], "name": r["name"], "borrower": r["borrower"], "gold": r["gold"], "facility": r["facility"],
+        "cik": r["cik"], "name": display_name(r["name"]), "borrower": r["borrower"], "gold": r["gold"], "facility": r["facility"],
         "stale": r.get("stale", False),
         "agreement_date": r["agreement_date"], "cov_lite": r["cov_lite"], "tightest": r["tightest"],
         "chain": {"source": r["chain"]["source"], "notes": r["chain"]["notes"],
